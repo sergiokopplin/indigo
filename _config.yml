@@ -2,7 +2,7 @@ name: John Doe
 bio: 'A Man who travels the world eating noodles'
 picture: 'assets/images/profile.jpg'
 
-url: http://myu.rl
+url: http://sergiokopplin.github.io/indigo
 permalink: /:title/
 
 analytics: 'UA-MYANALYTICS'
