@@ -1,0 +1,111 @@
+body, html
+	font-size 62.5%
+
+body
+	line-height 1
+	font 16px fontSans
+    color alpha
+	-webkit-font-smoothing antialiased
+	text-rendering optimizeLegibility
+
+h1, h2, h3, h4
+	font-family fontSans
+	color beta
+
+h1
+	font-size 3rem
+	letter-spacing -1px
+	color beta
+	font-weight 700
+
+h2
+	font-size 2.2rem
+
+h3
+	font-size 2rem
+
+h4
+	font-size 1.6rem
+
+a
+	color delta
+	text-decoration none
+
+p
+	line-height 1.7
+	color alpha
+	font-weight 300
+	margin-bottom 20px
+	letter-spacing 0.4px
+
+	+mobile()
+		letter-spacing 0.2px
+
+strong
+	font-weight 400
+	color #000
+
+ul,
+ol
+	li
+		line-height 2.4rem
+		font-weight 300
+		color alpha
+
+img,
+pre,
+iframe
+	max-width 100%
+
+img,
+pre
+	border-radius 4px
+
+
+blockquote
+	padding-left 15px
+	border-left 3px solid #eee
+
+hr
+	border none
+	height 1px
+	margin 40px auto
+	background #eee
+	width 100%
+
+code,
+tt
+	padding 1px 3px
+	font-family fontMonospace
+	font-size 12px
+	line-height 20px
+	white-space pre-wrap
+	background #fff
+	border-radius 2px
+	border-radius 2px
+
+pre
+	box-sizing border-box
+	margin 0 0 1.75em 0
+	width 100%
+	padding 5px 10px
+	font-family fontMonospace
+	font-size 1.2rem
+	line-height 2rem
+	white-space pre
+	overflow auto
+	background #fff
+	border 1px solid epsilon
+	border-radius 2px
+
+.site-wrapper
+	height 100%
+	max-width 560px
+	width 96%
+	margin 0 auto
+
+	+mobile()
+		width 88%
+
+	+tablet()
+		width 88%

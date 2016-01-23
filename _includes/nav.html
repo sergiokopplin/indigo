@@ -1,0 +1,8 @@
+<nav class="{% if page.title == "Home" %}home__header-nav{% else %}nav{% endif %}">
+    <ul>
+        {% if page.title != "Home" %}<li><a href="/">Home</a></li>{% endif %}
+        {% if page.title != "Blog" %}<li><a href="/blog">Blog</a></li>{% endif %}
+        {% if page.title == "Home" %}<li><a href="http://github.com/{{ site.github }}" target="_blank">Github</a></li>{% endif %}
+        {% if page.title != "About" %}<li><a href="/about">About</a></li>{% endif %}
+    </ul>
+</nav>

@@ -1,0 +1,30 @@
+{
+  "name": "Indigo - Minimalist Jekyll Template",
+  "version": "0.1.0",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiokopplin/indigo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiokopplin/indigo/issues"
+  },
+  "homepage": "https://github.com/sergiokopplin/indigo#readme",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.8.1",
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-stylus": "^2.2.0",
+    "nib": "^1.1.0",
+    "rupture": "^0.6.1"
+  },
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "test": "bundle exec htmlproof ./_site --verbose"
+  }
+}

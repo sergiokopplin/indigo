@@ -1,0 +1,36 @@
+footer
+    border-top 1px solid epsilon
+    padding 40px 0
+    margin 40px 0 0
+    font-size 1.3rem
+    color gama
+    font-weight 300
+    text-align center
+    position relative
+
+    &:before
+        display block
+        content " "
+        width 7px
+        height 7px
+        border epsilon 1px solid
+        position absolute
+        top -5px
+        left 50%
+        margin-left -5px
+        background #FFF
+        box-shadow #FFF 0 0 0 5px
+        border-radius 3px
+
+    a
+        display inline
+
+        svg
+            width 15px !important
+            fill gama !important
+            transition ease-in-out all .3s
+            position relative
+            top 3px
+
+            &:hover
+                fill delta !important
