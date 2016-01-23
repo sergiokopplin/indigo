@@ -10,6 +10,5 @@ disqus: mydisqus
 facebook: myfacebook
 youtube: myyoutube
 github: mygithub
-office: office.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
