@@ -41,8 +41,13 @@ permalink: /:title/
 analytics: 'UA-MYANALYTICS'
 disqus: mydisqus
 facebook: myfacebook
+twitter: mytwitter
+instagram: myinstagram
+linkedin: mylinkedin
 youtube: myyoutube
+spotify: myspotify
 github: mygithub
+email: myemail@gmail.com
 ```
 
 ## Problems?
