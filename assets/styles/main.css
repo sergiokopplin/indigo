@@ -282,6 +282,8 @@ h3,
 h4 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 3rem;
@@ -422,7 +424,7 @@ pre {
 .home .home__header h2,
 .blog .home__header h2 {
   font-size: 1.85rem;
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal;
   color: #aaa;
   width: 70%;
@@ -568,12 +570,15 @@ pre {
 }
 .post span time {
   color: #aaa;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   display: block;
   margin-bottom: 6rem;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 .nav {
   position: absolute;
