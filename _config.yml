@@ -8,8 +8,12 @@ permalink: /:title/
 analytics: 'UA-MYANALYTICS'
 disqus: mydisqus
 facebook: myfacebook
+instagram: myinstagram
+linkedin: mylinkedin
 youtube: myyoutube
+spotify: myspotify
 github: mygithub
+email: myemail@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
