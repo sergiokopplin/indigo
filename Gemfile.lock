@@ -93,6 +93,8 @@ GEM
       jekyll (>= 2.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
+    jekyll-seo-tag (0.1.4)
+      jekyll (>= 2.0)
     jekyll-sitemap (0.9.0)
     jekyll-watch (1.3.0)
       listen (~> 3.0)
@@ -153,6 +155,12 @@ DEPENDENCIES
   github-pages
   html-proofer
   jekyll
+  jekyll-feed
+  jekyll-gist
+  jekyll-mentions
+  jekyll-seo-tag
+  jekyll-sitemap
+  jemoji
   pygments.rb
   rake
 
