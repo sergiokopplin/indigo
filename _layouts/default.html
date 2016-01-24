@@ -13,9 +13,9 @@ layout: compress
 
     <title>{{ page.title }}</title>
 
-    {% include favicon.html %}
+    {% seo %}
 
-    {% include metas.html %}
+    {% include favicon.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />

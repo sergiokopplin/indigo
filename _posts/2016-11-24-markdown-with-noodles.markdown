@@ -1,7 +1,7 @@
 ---
-title: "Markdown with noodles"
+title: "Markdown with noodles!"
 layout: post
-date: 2015-08-14 00:02
+date: 2015-11-24 14:40
 tag: markdown
 #star: true
 ---
@@ -23,6 +23,7 @@ You can pick as item to sse how to apply in markdown.
 ### Especial Elements
 - [Evidence](#evidence)
 - [Star](#star)
+- [Gist](#gist)
 
 ---
 
@@ -206,6 +207,18 @@ You can star a post. Just add the tag to the markdown file.
 {% highlight raw %}
 star: true
 {% endhighlight %}
+
+---
+
+## Gist
+
+You can add Gists from github.
+
+{% highlight raw %}
+{ % gist sergiokopplin/f393ac99fdb2d123e9f6 % }
+{% endhighlight %}
+
+{% gist sergiokopplin/f393ac99fdb2d123e9f6 %}
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
