@@ -672,6 +672,14 @@ footer a svg {
 footer a svg:hover {
   fill: #4b0082 !important;
 }
+footer p {
+  color: #aaa;
+  margin-top: 0;
+}
+footer p a {
+  color: #222;
+  text-decoration: none;
+}
 .disqus {
   margin: 0 auto;
   max-width: 100%;
