@@ -1,19 +1,19 @@
 ---
 layout: default
-permalink: /blog/index.html
 title: Blog
 ---
 {% include header.html %}
 
 <section class="home__sections">
-    {% for post in site.posts %}
+		{% for post in paginator.posts %}
         <div class="home__sections-single {% if post.star == true %}star{% endif %}">
             <a href="{{ site.url }}{{ post.url }}">
                 <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
                 <h3>{{ post.title }}</h3>
             </a>
         </div>
-    {% endfor %}
+        {% endfor %}
+    {% include pagination.html%}  
 </section>
 
 {% include footer.html %}
