@@ -22,9 +22,10 @@ What has inside?
 3. [Install Bundler](http://bundler.io/)
 4. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
 5. Edit `_config.yml` with your data.
-6. `npm install`
-7. `gulp`
-8. open in your browser: `http://localhost:3000`
+6. `bundle install`
+7. `npm install`
+8. `gulp`
+9. open in your browser: `http://localhost:3000`
 
 ## Settings
 
