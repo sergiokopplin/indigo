@@ -3,6 +3,7 @@ title: "Markdown with noodles!"
 layout: post
 date: 2015-11-24 14:40
 tag: markdown
+blog: true
 #star: true
 ---
 
