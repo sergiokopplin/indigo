@@ -3,7 +3,7 @@ bio: 'A Man who travels the world eating noodles'
 picture: 'assets/images/profile.jpg'
 
 url: http://sergiokopplin.github.io/indigo
-# your url: http://USERNAME.github.io/
+# your url: http://USERNAME.github.io
 permalink: /:title/
 
 analytics: 'UA-MYANALYTICS'
