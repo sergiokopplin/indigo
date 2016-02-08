@@ -1,0 +1,6 @@
+<div class="home__sections-single {% if post.star == true %}star{% endif %}">
+    <a href="{{ site.url }}{{ post.url }}">
+        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+        <h3>{{ post.title }}</h3>
+    </a>
+</div>

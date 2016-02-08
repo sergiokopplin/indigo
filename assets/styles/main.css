@@ -846,3 +846,23 @@ footer p a {
   background-image: -webkit-linear-gradient(top, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
   background-image: linear-gradient(to bottom, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
 }
+.pagination {
+  width: 95%;
+  margin: 3rem auto 0;
+  text-align: center;
+}
+.pagination .page_number {
+  display: inline-block;
+  font-size: 1.3rem;
+}
+.pagination .previous,
+.pagination .next {
+  display: inline-block;
+  font-size: 1.8rem;
+  position: relative;
+  top: 1px;
+  padding: 1px 9px;
+}
+.pagination .hidden {
+  visibility: hidden;
+}
