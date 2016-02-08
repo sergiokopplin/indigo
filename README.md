@@ -37,7 +37,8 @@ name: John Doe
 bio: 'A Man who travels the world eating noodles'
 picture: 'assets/images/profile.jpg'
 
-url: http://YOURURL.github.io/indigo
+url: http://YOURUSER.github.io
+# like: http://sergiokopplin.github.io
 permalink: /:title/
 
 analytics: 'UA-MYANALYTICS'
@@ -50,6 +51,17 @@ youtube: myyoutube
 spotify: myspotify
 github: mygithub
 email: myemail@gmail.com
+```
+
+If you want pagination:
+```
+paginate: 5
+paginate_path: "blog/:num/"
+```
+
+If you have some projects:
+```
+projects: true
 ```
 
 ---
