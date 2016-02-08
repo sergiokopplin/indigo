@@ -51,6 +51,12 @@ github: mygithub
 email: myemail@gmail.com
 ```
 
+---
+
+## Contributions
+
+- [siddhantjain](https://github.com/siddhantjain)
+
 ## Problems?
 
 Tell me on github or open a issue [GitHub Issue](https://github.com/sergiokopplin/indigo/issues/new).
