@@ -19,9 +19,9 @@ email: myemail@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
-# if you don't need pagination, comment the *paginate* below
+# if you don't need pagination, comment the *paginate* configs below
 paginate: 1
-paginate_path: "blog/page:num/"
+paginate_path: "blog/:num/"
 
 gems:
   - jemoji
