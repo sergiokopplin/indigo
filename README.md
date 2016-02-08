@@ -10,7 +10,7 @@ What has inside?
 
 - [Gulp](http://gulpjs.com/)
 - [BrowserSync](https://www.browsersync.io/)
-- [Stylus](http://stylus-lang.com/)
+- [Stylus](http://stylus-lang.com/) with [BEM](http://getbem.com/) Methodology
 - [SVG](https://www.w3.org/Graphics/SVG/)
 - [Travis](https://travis-ci.org/)
 - No JS
