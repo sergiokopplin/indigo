@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /projects/index.html
+title: Projects
+---
+{% include header.html %}
+
+<section class="home__sections">
+    {% for post in site.posts %}
+        {% if post.projects %}
+            <div class="home__sections-single {% if post.star == true %}star{% endif %}">
+                <a href="{{ post.url }}">
+                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    {{ post.jemoji }}<h3>{{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+{% include footer.html %}

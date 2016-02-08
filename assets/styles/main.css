@@ -352,7 +352,6 @@ tt {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
   line-height: 20px;
-  white-space: pre-wrap;
   background: #fff;
   border-radius: 2px;
   border-radius: 2px;
@@ -365,7 +364,6 @@ pre {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 1.2rem;
   line-height: 2rem;
-  white-space: pre;
   overflow: auto;
   background: #fff;
   border: 1px solid #ededed;
@@ -395,34 +393,41 @@ pre {
   color: #000;
 }
 .home,
-.blog {
+.blog,
+.projects {
   margin-top: 125px;
 }
 .home .home__header,
-.blog .home__header {
+.blog .home__header,
+.projects .home__header {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
 .home .home__header img,
-.blog .home__header img {
+.blog .home__header img,
+.projects .home__header img {
   width: 125px;
   margin-bottom: 25px;
   border-radius: 100%;
 }
 .home .home__header h1,
 .blog .home__header h1,
+.projects .home__header h1,
 .home .home__header h2,
-.blog .home__header h2 {
+.blog .home__header h2,
+.projects .home__header h2 {
   margin: 0;
 }
 .home .home__header h1,
-.blog .home__header h1 {
+.blog .home__header h1,
+.projects .home__header h1 {
   font-size: 4rem;
   margin-bottom: 13px;
 }
 .home .home__header h2,
-.blog .home__header h2 {
+.blog .home__header h2,
+.projects .home__header h2 {
   font-size: 1.85rem;
   font-weight: 300;
   font-style: normal;
@@ -431,35 +436,42 @@ pre {
   margin: 0 auto 30px;
 }
 .home .home__header h2 a,
-.blog .home__header h2 a {
+.blog .home__header h2 a,
+.projects .home__header h2 a {
   font-weight: 200;
 }
 .home .home__header .home__header-social,
-.blog .home__header .home__header-social {
+.blog .home__header .home__header-social,
+.projects .home__header .home__header-social {
   margin-top: 20px;
 }
 .home .home__header .home__header-social a,
-.blog .home__header .home__header-social a {
+.blog .home__header .home__header-social a,
+.projects .home__header .home__header-social a {
   margin: 0 3px;
 }
 .home .home__header .home__header-social a:hover svg,
-.blog .home__header .home__header-social a:hover svg {
+.blog .home__header .home__header-social a:hover svg,
+.projects .home__header .home__header-social a:hover svg {
   fill: #4b0082;
 }
 .home .home__header .home__header-social svg,
-.blog .home__header .home__header-social svg {
+.blog .home__header .home__header-social svg,
+.projects .home__header .home__header-social svg {
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
 }
 .home .home__sections,
-.blog .home__sections {
+.blog .home__sections,
+.projects .home__sections {
   border-top: 1px solid #ededed;
   margin-top: 30px;
   padding-top: 40px;
   position: relative;
 }
 .home .home__sections:before,
-.blog .home__sections:before {
+.blog .home__sections:before,
+.projects .home__sections:before {
   display: block;
   content: " ";
   width: 7px;
@@ -474,21 +486,25 @@ pre {
   border-radius: 3px;
 }
 .home .home__sections .home__sections-single,
-.blog .home__sections .home__sections-single {
+.blog .home__sections .home__sections-single,
+.projects .home__sections .home__sections-single {
   display: block;
   width: 95%;
   margin: 0 auto;
 }
 .home .home__sections .home__sections-single:hover h3,
-.blog .home__sections .home__sections-single:hover h3 {
+.blog .home__sections .home__sections-single:hover h3,
+.projects .home__sections .home__sections-single:hover h3 {
   color: #4b0082;
 }
 .home .home__sections .home__sections-single:hover aside,
-.blog .home__sections .home__sections-single:hover aside {
+.blog .home__sections .home__sections-single:hover aside,
+.projects .home__sections .home__sections-single:hover aside {
   color: #666;
 }
 .home .home__sections .home__sections-single a,
-.blog .home__sections .home__sections-single a {
+.blog .home__sections .home__sections-single a,
+.projects .home__sections .home__sections-single a {
   width: 100%;
   height: 100%;
   display: block;
@@ -496,7 +512,8 @@ pre {
   text-decoration: none;
 }
 .home .home__sections .home__sections-single h3,
-.blog .home__sections .home__sections-single h3 {
+.blog .home__sections .home__sections-single h3,
+.projects .home__sections .home__sections-single h3 {
   margin: 0;
   width: 75%;
   font-weight: 500;
@@ -504,7 +521,8 @@ pre {
           transition: all ease-in-out 0.2s;
 }
 .home .home__sections .home__sections-single aside,
-.blog .home__sections .home__sections-single aside {
+.blog .home__sections .home__sections-single aside,
+.projects .home__sections .home__sections-single aside {
   position: relative;
   top: 2px;
   margin: 0;
@@ -515,6 +533,15 @@ pre {
   text-align: right;
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
+}
+.projects .home__sections-single h3 {
+  display: inline;
+}
+.projects .home__sections-single .emoji {
+  display: inline;
+  position: relative;
+  top: -4px;
+  margin-right: 10px;
 }
 .page {
   margin-top: 125px;

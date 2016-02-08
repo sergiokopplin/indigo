@@ -23,6 +23,9 @@ exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.j
 # paginate: 5
 # paginate_path: "blog/:num/"
 
+# if you don't need projects, comment the *projects* configs below
+projects: true
+
 gems:
   - jemoji
   - jekyll-mentions
