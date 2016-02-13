@@ -6,6 +6,9 @@ url: http://sergiokopplin.github.io/indigo
 # your url: http://USERNAME.github.io
 permalink: /:title/
 
+markdown: kramdown
+highlighter: rouge
+
 analytics: 'UA-MYANALYTICS'
 disqus: mydisqus
 facebook: myfacebook
