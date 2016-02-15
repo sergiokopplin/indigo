@@ -1,6 +1,6 @@
 name: Phat Nguyen
 bio: 'A magician who turns coffee into codes'
-picture: 'assets/images/profile.jpg'
+picture: 'assets/images/mybio.jpg'
 
 url: http://npvinhphat.github.io
 # your url: http://USERNAME.github.io
@@ -11,14 +11,14 @@ highlighter: rouge
 
 analytics: 'UA-MYANALYTICS'
 disqus: mydisqus
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-email: myemail@gmail.com
+facebook: NPVPhat
+twitter: npvinhphat
+instagram:
+linkedin:
+youtube:
+spotify:
+github: npvinhphat
+email: npvinhphat@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
