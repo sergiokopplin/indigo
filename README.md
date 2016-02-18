@@ -64,6 +64,17 @@ If you have some projects:
 projects: true
 ```
 
+## Tests
+
+You can test your app with:
+
+```bash
+bundle exec htmlproof ./_site --verbose
+````
+
+If you want travis tests, you can take a look at:
+- [http://www.raywenderlich.com/109418/travis-ci-tutorial](http://www.raywenderlich.com/109418/travis-ci-tutorial)
+
 ---
 
 ## Contributions
