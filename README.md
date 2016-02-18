@@ -1,4 +1,4 @@
-## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
+## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/) [![Build Status](https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages)](https://travis-ci.org/sergiokopplin/indigo)
 
 ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
