@@ -70,6 +70,7 @@ projects: true
 
 - [siddhantjain](https://github.com/siddhantjain)
 - [jeandersonbc](https://github.com/jeandersonbc)
+- [rootulp](https://github.com/rootulp)
 
 ## Problems?
 
