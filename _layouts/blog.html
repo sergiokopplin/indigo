@@ -5,7 +5,9 @@ title: Blog
 {% include header.html %}
 
 <section class="home__sections">
-	{% if site.paginate %}
+	{% if site.posts.size == 0 %}
+		<p class="text-center">Nothing published yet!</p>
+	{% elsif site.paginate %}
 		{% for post in paginator.posts %}
 	        {% include blog-post.html %}
 	    {% endfor %}
