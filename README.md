@@ -69,6 +69,7 @@ projects: true
 ## Contributions
 
 - [siddhantjain](https://github.com/siddhantjain)
+- [jeandersonbc](https://github.com/jeandersonbc)
 
 ## Problems?
 
