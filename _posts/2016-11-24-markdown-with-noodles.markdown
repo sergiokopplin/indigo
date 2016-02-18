@@ -216,10 +216,10 @@ star: true
 You can add Gists from github.
 
 {% highlight raw %}
-{ % gist sergiokopplin/f393ac99fdb2d123e9f6 % }
+{ % gist sergiokopplin/5afb058da029a13de73e % }
 {% endhighlight %}
 
-{% gist sergiokopplin/f393ac99fdb2d123e9f6 %}
+{% gist sergiokopplin/5afb058da029a13de73e %}
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
