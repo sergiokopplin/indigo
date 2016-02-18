@@ -29,6 +29,10 @@ exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.j
 # if you don't need projects, comment the *projects* configs below
 projects: true
 
+# if you don't need about or blog, comment them out below
+about: true
+blog: true
+
 gems:
   - jemoji
   - jekyll-mentions
