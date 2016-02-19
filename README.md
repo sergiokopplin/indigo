@@ -81,7 +81,7 @@ If you want travis tests, you can take a look at:
 
 - [fohlen.github.io](http://fohlen.github.io/) by @[Lennard Berger](https://github.com/Fohlen)
 
-> open a ([pull-request](https://github.com/sergiokopplin/indigo/pulls) if you want your site in this awesome list)
+> open a [pull-request](https://github.com/sergiokopplin/indigo/pulls) if you want your site in this awesome list
 
 ---
 
