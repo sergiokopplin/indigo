@@ -512,14 +512,14 @@ pre {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-.post h2,
-.post h3,
-.post h4 {
+.post > h2,
+.post > h3,
+.post > h4 {
   margin-top: 40px;
 }
-.post h2 a,
-.post h3 a,
-.post h4 a {
+.post > h2 a,
+.post > h3 a,
+.post > h4 a {
   text-decoration: none;
 }
 .author {
