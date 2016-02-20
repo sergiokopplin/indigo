@@ -373,19 +373,19 @@ pre {
   border: 1px solid #ededed;
   border-radius: 2px;
 }
-.site-wrapper {
+.wrapper {
   height: 100%;
   max-width: 560px;
   width: 96%;
   margin: 0 auto;
 }
 @media only screen and (max-width: 400px) {
-  .site-wrapper {
+  .wrapper {
     width: 88%;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .site-wrapper {
+  .wrapper {
     width: 88%;
   }
 }
