@@ -91,6 +91,7 @@ If you want travis tests, you can take a look at:
 - [siddhantjain](https://github.com/siddhantjain)
 - [jeandersonbc](https://github.com/jeandersonbc)
 - [rootulp](https://github.com/rootulp)
+- [gedankenstuecke](http://github.com/gedankenstuecke)
 
 ## Problems?
 
