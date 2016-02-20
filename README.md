@@ -1,4 +1,4 @@
-## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
+## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/) [![Build Status](https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages)](https://travis-ci.org/sergiokopplin/indigo)
 
 ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
@@ -64,11 +64,32 @@ If you have some projects:
 projects: true
 ```
 
+## Tests
+
+You can test your app with:
+
+```bash
+bundle exec htmlproof ./_site --verbose
+````
+
+If you want travis tests, you can take a look at:
+- [http://www.raywenderlich.com/109418/travis-ci-tutorial](http://www.raywenderlich.com/109418/travis-ci-tutorial)
+
+---
+
+## Showcase
+
+- [fohlen.github.io](http://fohlen.github.io/) by @[Lennard Berger](https://github.com/Fohlen)
+
+> open a [pull-request](https://github.com/sergiokopplin/indigo/pulls) if you want your site in this awesome list
+
 ---
 
 ## Contributions
 
 - [siddhantjain](https://github.com/siddhantjain)
+- [jeandersonbc](https://github.com/jeandersonbc)
+- [rootulp](https://github.com/rootulp)
 
 ## Problems?
 
