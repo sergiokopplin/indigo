@@ -447,27 +447,6 @@ pre {
 .projects .home__header h2 a {
   font-weight: 200;
 }
-.home .home__header .home__header-social,
-.blog .home__header .home__header-social,
-.projects .home__header .home__header-social {
-  margin-top: 20px;
-}
-.home .home__header .home__header-social a,
-.blog .home__header .home__header-social a,
-.projects .home__header .home__header-social a {
-  margin: 0 3px;
-}
-.home .home__header .home__header-social a:hover svg,
-.blog .home__header .home__header-social a:hover svg,
-.projects .home__header .home__header-social a:hover svg {
-  fill: #4b0082;
-}
-.home .home__header .home__header-social svg,
-.blog .home__header .home__header-social svg,
-.projects .home__header .home__header-social svg {
-  -webkit-transition: all ease-in-out 0.2s;
-          transition: all ease-in-out 0.2s;
-}
 .home .home__sections,
 .blog .home__sections,
 .projects .home__sections {
@@ -667,6 +646,20 @@ pre {
 }
 .home__header-nav ul li a:hover {
   color: #666;
+}
+.social-links {
+  margin-top: 20px;
+}
+.social-links > .link {
+  margin: 0 3px;
+  text-decoration: none;
+}
+.social-links > .link:hover > .icon {
+  fill: #4b0082;
+}
+.social-links > .icon {
+  -webkit-transition: all ease-in-out 0.2s;
+          transition: all ease-in-out 0.2s;
 }
 footer {
   border-top: 1px solid #ededed;

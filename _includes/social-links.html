@@ -1,0 +1,43 @@
+<div class="social-links">
+    {% if site.facebook != false %}
+        <a class="link" href="http://facebook.com/{{ site.facebook }}" target="_blank">
+            <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.twitter != false %}
+        <a class="link" href="http://twitter.com/{{ site.twitter }}" target="_blank">
+            <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.github != false %}
+        <a class="link" href="https://github.com/{{ site.github }}" target="_blank">
+            <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.instagram != false %}
+        <a class="link" href="http://instagram.com/{{ site.instagram }}" target="_blank">
+            <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.linkedin != false %}
+        <a class="link" href="http://linkedin.com/{{ site.linkedin }}" target="_blank">
+            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.youtube != false %}
+        <a class="link" href="http://youtube.com/{{ site.youtube }}" target="_blank">
+            <svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.email != false %}
+        <a class="link" href="mailto:{{ site.email }}" target="_blank">
+            <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
+        </a>
+    {% endif %}
+</div>
