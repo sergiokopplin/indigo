@@ -1,11 +1,11 @@
 {% if page.title == "Home" or page.title == "Blog" or page.title == "Projects" %}{% assign showHeader = true %}{% endif %}
 
 {% if showHeader == true %}
-    <header class="home__header">
-        <img alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
+    <header class="header-home">
+        <img class="selfie" alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
 
-        <h1>{{ site.name }}</h1>
-        <h2>{{ site.bio }}</h2>
+        <h1 class="title">{{ site.name }}</h1>
+        <h2 class="description">{{ site.bio }}</h2>
 
         {% include social-links.html %}
     </header>

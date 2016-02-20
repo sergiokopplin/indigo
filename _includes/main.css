@@ -404,49 +404,6 @@ pre {
 .projects {
   margin-top: 125px;
 }
-.home .home__header,
-.blog .home__header,
-.projects .home__header {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.home .home__header img,
-.blog .home__header img,
-.projects .home__header img {
-  width: 125px;
-  margin-bottom: 25px;
-  border-radius: 100%;
-}
-.home .home__header h1,
-.blog .home__header h1,
-.projects .home__header h1,
-.home .home__header h2,
-.blog .home__header h2,
-.projects .home__header h2 {
-  margin: 0;
-}
-.home .home__header h1,
-.blog .home__header h1,
-.projects .home__header h1 {
-  font-size: 4rem;
-  margin-bottom: 13px;
-}
-.home .home__header h2,
-.blog .home__header h2,
-.projects .home__header h2 {
-  font-size: 1.85rem;
-  font-weight: 300;
-  font-style: normal;
-  color: #aaa;
-  width: 70%;
-  margin: 0 auto 30px;
-}
-.home .home__header h2 a,
-.blog .home__header h2 a,
-.projects .home__header h2 a {
-  font-weight: 200;
-}
 .home .home__sections,
 .blog .home__sections,
 .projects .home__sections {
@@ -600,6 +557,31 @@ pre {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+.header-home {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-home > .selfie {
+  width: 125px;
+  margin-bottom: 25px;
+  border-radius: 100%;
+}
+.header-home > .title {
+  font-size: 4rem;
+  margin: 0 0 13px;
+}
+.header-home > .description {
+  font-size: 1.85rem;
+  font-weight: 300;
+  font-style: normal;
+  color: #aaa;
+  width: 70%;
+  margin: 0 auto 30px;
+}
+.header-home > .description a {
+  font-weight: 200;
+}
 .nav {
   position: absolute;
   right: 0;
@@ -620,19 +602,19 @@ pre {
   padding: 20px 10px;
   text-decoration: none;
 }
-.home__header-nav {
+.nav-home {
   margin-top: 40px;
   text-align: center;
 }
-.home__header-nav ul {
+.nav-home ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.home__header-nav ul li {
+.nav-home ul li {
   display: inline-block;
 }
-.home__header-nav ul li a {
+.nav-home ul li a {
   display: inline-block;
   font-weight: 300;
   font-size: 2rem;
@@ -644,7 +626,7 @@ pre {
   width: 70px;
   text-decoration: none;
 }
-.home__header-nav ul li a:hover {
+.nav-home ul li a:hover {
   color: #666;
 }
 .social-links {

@@ -5,7 +5,7 @@ bio: 'A Man who travels the world eating noodles'
 picture: 'assets/images/profile.jpg'
 
 # url: http://sergiokopplin.github.io/indigo
-ulr: http://localhost:3000
+url: http://localhost:3000
 # your url: http://USERNAME.github.io
 # if testing locally: http://localhost:3000
 
