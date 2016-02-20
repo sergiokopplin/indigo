@@ -722,15 +722,15 @@ pre {
   right: 0;
   top: 0;
 }
-.nav ul {
+.nav > .list {
   list-style: none;
   margin: 0;
   padding: 0 13px 0;
 }
-.nav ul li {
+.nav > .list > .item {
   display: inline-block;
 }
-.nav ul li a {
+.nav > .list > .item > .link {
   display: inline-block;
   font-weight: 300;
   font-size: 1.4rem;
@@ -741,15 +741,15 @@ pre {
   margin-top: 40px;
   text-align: center;
 }
-.nav-home ul {
+.nav-home > .list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.nav-home ul li {
+.nav-home > .list > .item {
   display: inline-block;
 }
-.nav-home ul li a {
+.nav-home > .list > .item > .link {
   display: inline-block;
   font-weight: 300;
   font-size: 2rem;
@@ -761,7 +761,7 @@ pre {
   width: 70px;
   text-decoration: none;
 }
-.nav-home ul li a:hover {
+.nav-home > .list > .item > .link:hover {
   color: #666;
 }
 .evidence {

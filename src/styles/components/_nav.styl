@@ -3,43 +3,43 @@
     right 0
     top 0
 
-    ul
+    > .list
         list-style none
         margin 0
         padding 0 13px 0
 
-        li
-            display inline-block
+    > .list > .item
+        display inline-block
 
-            a
-                display inline-block
-                font-weight 300
-                font-size 1.4rem
-                padding 20px 10px
-                text-decoration none
+    > .list > .item > .link
+        display inline-block
+        font-weight 300
+        font-size 1.4rem
+        padding 20px 10px
+        text-decoration none
 
 .nav-home
     margin-top 40px
     text-align center
 
-    ul
+    > .list
         list-style none
         margin 0
         padding 0
 
-        li
-            display inline-block
+    > .list > .item
+        display inline-block
 
-            a
-                display inline-block
-                font-weight 300
-                font-size 2rem
-                padding 7px 15px
-                margin 0
-                border-radius 4%
-                transition all .4s ease-in-out
-                width 70px
-                text-decoration none
+    > .list > .item > .link
+        display inline-block
+        font-weight 300
+        font-size 2rem
+        padding 7px 15px
+        margin 0
+        border-radius 4%
+        transition all .4s ease-in-out
+        width 70px
+        text-decoration none
 
-                &:hover
-                    color alpha
+        &:hover
+            color alpha
