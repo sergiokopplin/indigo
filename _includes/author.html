@@ -1,0 +1,20 @@
+<section class="author">
+    <div class="toleft">
+        <img class="selfie" src="{{ site.url }}/{{ site.picture }}" alt="{{ site.name }}">
+    </div>
+
+    <div class="toright">
+        <h4 class="name">{{ site.name }}</h4>
+        <p class="bio">{{ site.bio }}</p>
+
+        <div class="share">
+            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }} - {{ page.title }} by @{{ site.github }}">
+                <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg><span class="icon-twitter">Tweet</span>
+            </a>
+
+            <a class="facebook" href="javascript:void(0)" onclick="window.open('https://facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;">
+                <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg><span class="icon-facebook-rect">Share</span>
+            </a>
+        </div>
+    </div>
+</section>

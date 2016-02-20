@@ -3,47 +3,15 @@ layout: default
 ---
 {% include header.html %}
 
-<h1 class="post__title">{{ page.title }}</h1>
+<h1 class="title">{{ page.title }}</h1>
 
-<span><time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time></span>
+<span class="date">
+    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
+</span>
 
 {{content}}
 
-<section class="author">
-    <div class="author__left">
-        <img class="author__picture reyes" src="{{ site.url }}/{{ site.picture }}" alt="{{ site.name }}">
-    </div>
+{% include author.html %}
 
-    <div class="author__right">
-        <h4 class="author__name">{{ site.name }}</h4>
-        <p class="author__bio">{{ site.bio }}</p>
-
-        <div class="author__share">
-            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }} - {{ page.title }} by @{{ site.github }}">
-                <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg><span class="icon-twitter">Tweet</span>
-            </a>
-
-            <a class="facebook" href="javascript:void(0)" onclick="window.open('https://facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;">
-                <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg><span class="icon-facebook-rect">Share</span>
-            </a>
-        </div>
-    </div>
-</section>
-
-<section class="disqus">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-
-        var disqus_shortname = '{{ site.disqus }}';
-        var disqus_developer = 0;
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
-
+{% include disqus.html %}
 {% include footer.html %}
