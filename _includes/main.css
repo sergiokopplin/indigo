@@ -643,7 +643,7 @@ pre {
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
 }
-footer {
+.footer-main {
   border-top: 1px solid #ededed;
   padding: 40px 0;
   margin: 40px 0 0;
@@ -653,7 +653,7 @@ footer {
   text-align: center;
   position: relative;
 }
-footer:before {
+.footer-main:before {
   display: block;
   content: " ";
   width: 7px;
@@ -667,10 +667,10 @@ footer:before {
   box-shadow: #fff 0 0 0 5px;
   border-radius: 3px;
 }
-footer a {
+.footer-main > .link {
   display: inline;
 }
-footer a svg {
+.footer-main > .link > .icon {
   width: 15px !important;
   fill: #aaa !important;
   -webkit-transition: ease-in-out all 0.3s;
@@ -678,14 +678,14 @@ footer a svg {
   position: relative;
   top: 3px;
 }
-footer a svg:hover {
+.footer-main > .link > .icon:hover {
   fill: #4b0082 !important;
 }
-footer p {
+.footer-main > .extra {
   color: #aaa;
   margin-top: 0;
 }
-footer p a {
+.footer-main > .extra > .link {
   color: #222;
   text-decoration: none;
 }
