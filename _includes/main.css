@@ -489,44 +489,9 @@ pre {
 .page {
   margin-top: 125px;
 }
-.page h1 {
+.page > h1 {
   text-align: center;
   margin-bottom: 6rem;
-}
-.page .home__sections {
-  border-top: 1px solid #ededed;
-  margin-top: 30px;
-  padding-top: 50px;
-}
-.page .home__sections .home__sections-single {
-  display: block;
-  border-bottom: 1px solid #ededed;
-  width: 95%;
-  margin: 0 auto;
-}
-.page .home__sections .home__sections-single a {
-  width: 100%;
-  height: 100%;
-  display: block;
-  padding: 30px 0;
-  text-decoration: none;
-}
-.page .home__sections .home__sections-single:last-child {
-  border: 0;
-}
-.page .home__sections .home__sections-single h3 {
-  margin: 0;
-  width: 75%;
-  font-weight: 500;
-}
-.page .home__sections .home__sections-single aside {
-  position: relative;
-  top: 0px;
-  margin: 0;
-  width: 25%;
-  float: right;
-  font-weight: 300;
-  color: #aaa;
 }
 .post {
   margin-top: 125px;
@@ -564,34 +529,34 @@ pre {
   max-width: 100%;
   margin: 9rem auto 0;
 }
-.author .selfie {
+.author > .selfie {
   width: 90%;
   border-radius: 100%;
 }
-.author .name,
-.author .bio {
+.author > .name,
+.author > .bio {
   width: 60%;
   display: inline-block;
 }
-.author .name {
+.author > .name {
   font-size: 1.5rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   margin: 6px 0 0;
 }
 @media only screen and (max-width: 400px) {
-  .author .name {
+  .author > .name {
     width: 100%;
     display: block;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author .name {
+  .author > .name {
     width: 100%;
     display: block;
   }
 }
-.author .bio {
+.author > .bio {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #aaa;
@@ -601,43 +566,43 @@ pre {
   margin: 0;
 }
 @media only screen and (max-width: 400px) {
-  .author .bio {
+  .author > .bio {
     width: 100%;
     display: block;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author .bio {
+  .author > .bio {
     width: 100%;
     display: block;
   }
 }
-.author .toleft {
+.author > .toleft {
   width: 10%;
   display: inline-block;
 }
 @media only screen and (max-width: 400px) {
-  .author .toleft {
+  .author > .toleft {
     width: 20%;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author .toleft {
+  .author > .toleft {
     width: 20%;
   }
 }
-.author .toright {
+.author > .toright {
   width: 89%;
   display: inline-block;
   vertical-align: top;
 }
 @media only screen and (max-width: 400px) {
-  .author .toright {
+  .author > .toright {
     width: 78%;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author .toright {
+  .author > .toright {
     width: 78%;
   }
 }
