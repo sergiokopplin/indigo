@@ -769,7 +769,7 @@ pre {
   background-image: linear-gradient(to bottom, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
   color: #222;
 }
-.star h3 {
+.star > h3 {
   width: auto !important;
   display: inline;
   background-image: -webkit-linear-gradient(top, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
@@ -780,19 +780,19 @@ pre {
   margin: 3rem auto 0;
   text-align: center;
 }
-.pagination .page_number {
+.pagination > .page_number {
   display: inline-block;
   font-size: 1.3rem;
 }
-.pagination .previous,
-.pagination .next {
+.pagination > .previous,
+.pagination > .next {
   display: inline-block;
   font-size: 1.8rem;
   position: relative;
   top: 1px;
   padding: 1px 9px;
 }
-.pagination .hidden {
+.pagination > .hidden {
   visibility: hidden;
 }
 .share {
