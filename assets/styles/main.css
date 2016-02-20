@@ -389,6 +389,9 @@ pre {
     width: 88%;
   }
 }
+.text-center {
+  text-align: center;
+}
 .icon {
   display: inline-block;
   width: 17px;
