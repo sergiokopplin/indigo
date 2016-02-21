@@ -1,45 +1,47 @@
+.nav,
+.nav-home
+    > .list
+        list-style none
+        margin 0
+        padding 0 13px 0
+
+        > .item
+            display inline-block
+
+        > .item > .link
+            display inline-block
+            font-weight 300
+            font-size 1.4rem
+            padding 20px 10px
+            text-decoration none
+
+
 .nav
     position absolute
     right 0
     top 0
 
-    ul
-        list-style none
-        margin 0
+    > .list
         padding 0 13px 0
 
-        li
-            display inline-block
+        > .item > .link
+            font-size 1.4rem
+            padding 20px 10px
 
-            a
-                display inline-block
-                font-weight 300
-                font-size 1.4rem
-                padding 20px 10px
-                text-decoration none
-
-.home__header-nav
+.nav-home
     margin-top 40px
     text-align center
 
-    ul
-        list-style none
-        margin 0
+    > .list
         padding 0
 
-        li
-            display inline-block
+        > .item > .link
+            font-size 2rem
+            padding 7px 15px
+            margin 0
+            border-radius 4%
+            transition all .4s ease-in-out
+            width 70px
 
-            a
-                display inline-block
-                font-weight 300
-                font-size 2rem
-                padding 7px 15px
-                margin 0
-                border-radius 4%
-                transition all .4s ease-in-out
-                width 70px
-                text-decoration none
-
-                &:hover
-                    color alpha
+            &:hover
+                color alpha

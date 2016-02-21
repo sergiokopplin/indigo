@@ -1,16 +1,22 @@
 name: John Doe
 bio: 'A Man who travels the world eating noodles'
+
+# main text of home
 picture: 'assets/images/profile.jpg'
 
 url: http://sergiokopplin.github.io/indigo
 # your url: http://USERNAME.github.io
+# if testing locally: http://localhost:3000
+
 permalink: /:title/
 
 markdown: kramdown
 highlighter: rouge
 
-analytics: 'UA-MYANALYTICS'
+analytics-google: 'UA-MYANALYTICS'
 disqus: mydisqus
+
+# if you don't have any of social below, set to false then
 facebook: myfacebook
 twitter: mytwitter
 instagram: myinstagram
