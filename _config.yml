@@ -42,6 +42,9 @@ blog: true
 # do you want to show the "read time" of the posts?
 read-time: true
 
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
 gems:
   - jemoji
   - jekyll-mentions

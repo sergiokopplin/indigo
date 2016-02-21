@@ -10,6 +10,14 @@ layout: default
     {% if site.read-time %} - {% include read-time.html %}{% endif %}
 </span>
 
+{% if site.show-tags %}
+    <div class="tags">
+        <span class="item">
+            {{ page.tags }}
+        </span>
+    </div>
+{% endif %}
+
 {{content}}
 
 {% include author.html %}
