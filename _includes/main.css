@@ -404,17 +404,17 @@ pre {
 .projects {
   margin-top: 125px;
 }
-.home .home__sections,
-.blog .home__sections,
-.projects .home__sections {
+.home > .list,
+.blog > .list,
+.projects > .list {
   border-top: 1px solid #ededed;
   margin-top: 30px;
   padding-top: 40px;
   position: relative;
 }
-.home .home__sections:before,
-.blog .home__sections:before,
-.projects .home__sections:before {
+.home > .list:before,
+.blog > .list:before,
+.projects > .list:before {
   display: block;
   content: " ";
   width: 7px;
@@ -428,44 +428,39 @@ pre {
   box-shadow: #fff 0 0 0 5px;
   border-radius: 3px;
 }
-.home .home__sections .home__sections-single,
-.blog .home__sections .home__sections-single,
-.projects .home__sections .home__sections-single {
+.home > .list > .item,
+.blog > .list > .item,
+.projects > .list > .item {
   display: block;
   width: 95%;
   margin: 0 auto;
 }
-.home .home__sections .home__sections-single:hover h3,
-.blog .home__sections .home__sections-single:hover h3,
-.projects .home__sections .home__sections-single:hover h3 {
-  color: #4b0082;
-}
-.home .home__sections .home__sections-single:hover aside,
-.blog .home__sections .home__sections-single:hover aside,
-.projects .home__sections .home__sections-single:hover aside {
-  color: #666;
-}
-.home .home__sections .home__sections-single a,
-.blog .home__sections .home__sections-single a,
-.projects .home__sections .home__sections-single a {
+.home > .list > .item > .url,
+.blog > .list > .item > .url,
+.projects > .list > .item > .url {
   width: 100%;
   height: 100%;
   display: block;
   padding: 20px 0;
   text-decoration: none;
 }
-.home .home__sections .home__sections-single h3,
-.blog .home__sections .home__sections-single h3,
-.projects .home__sections .home__sections-single h3 {
+.home > .list > .item > .url > .title,
+.blog > .list > .item > .url > .title,
+.projects > .list > .item > .url > .title {
   margin: 0;
   width: 75%;
   font-weight: 500;
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
 }
-.home .home__sections .home__sections-single aside,
-.blog .home__sections .home__sections-single aside,
-.projects .home__sections .home__sections-single aside {
+.home > .list:hover .title,
+.blog > .list:hover .title,
+.projects > .list:hover .title {
+  color: #4b0082;
+}
+.home > .list aside,
+.blog > .list aside,
+.projects > .list aside {
   position: relative;
   top: 2px;
   margin: 0;
@@ -477,10 +472,15 @@ pre {
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
 }
-.projects .home__sections-single h3 {
+.home > .list:hover aside,
+.blog > .list:hover aside,
+.projects > .list:hover aside {
+  color: #666;
+}
+.projects > .list > .item > .url > .title {
   display: inline;
 }
-.projects .home__sections-single .emoji {
+.projects > .list > .item > .url > .emoji {
   display: inline;
   position: relative;
   top: -4px;
@@ -529,34 +529,34 @@ pre {
   max-width: 100%;
   margin: 9rem auto 0;
 }
-.author > .selfie {
+.author > .toleft > .selfie {
   width: 90%;
   border-radius: 100%;
 }
-.author > .name,
-.author > .bio {
+.author > .toright > .name,
+.author > .toright > .bio {
   width: 60%;
   display: inline-block;
 }
-.author > .name {
+.author > .toright > .name {
   font-size: 1.5rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   margin: 6px 0 0;
 }
 @media only screen and (max-width: 400px) {
-  .author > .name {
+  .author > .toright > .name {
     width: 100%;
     display: block;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author > .name {
+  .author > .toright > .name {
     width: 100%;
     display: block;
   }
 }
-.author > .bio {
+.author > .toright > .bio {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #aaa;
@@ -566,13 +566,13 @@ pre {
   margin: 0;
 }
 @media only screen and (max-width: 400px) {
-  .author > .bio {
+  .author > .toright > .bio {
     width: 100%;
     display: block;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .author > .bio {
+  .author > .toright > .bio {
     width: 100%;
     display: block;
   }
