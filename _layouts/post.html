@@ -12,9 +12,9 @@ layout: default
 
 {% if site.show-tags %}
     <div class="tags">
-        <span class="item">
-            {{ page.tags }}
-        </span>
+        {% for tag in page.tags %}
+            <span class="item">{{ tag }}</span>
+        {% endfor %}
     </div>
 {% endif %}
 

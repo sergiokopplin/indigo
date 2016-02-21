@@ -528,6 +528,7 @@ pre {
   background: #ededed;
   color: #666;
   letter-spacing: 1px;
+  margin: 0 0.5rem;
 }
 .post > h2,
 .post > h3,

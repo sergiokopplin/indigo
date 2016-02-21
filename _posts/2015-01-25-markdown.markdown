@@ -2,7 +2,9 @@
 title: "Markdown!"
 layout: post
 date: 2015-10-19 14:40
-tag: markdown
+tag:
+- "markdown"
+- "moreone"
 blog: true
 #star: true
 ---
