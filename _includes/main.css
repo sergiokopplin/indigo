@@ -862,6 +862,7 @@ pre {
           transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear;
   -webkit-transform: translate3d(0, -8px, 0);
           transform: translate3d(0, -8px, 0);
+  z-index: 99;
 }
 .social-links > .icon {
   -webkit-transition: all ease-in-out 0.2s;
