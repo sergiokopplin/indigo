@@ -93,10 +93,14 @@ If you want travis tests, you can take a look at:
 - [rootulp](https://github.com/rootulp)
 - [gedankenstuecke](http://github.com/gedankenstuecke)
 
+---
+
 ## Problems?
 
-Tell me on github or open a issue [GitHub Issue](https://github.com/sergiokopplin/indigo/issues/new).
+Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issues/new).
+
+---
 
 ## License
 
-[MIT](http://kopplin.mit-license.org/) Licença © Sérgio Kopplin
+[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
