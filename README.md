@@ -1,4 +1,5 @@
-## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/) [![Build Status](https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages)](https://travis-ci.org/sergiokopplin/indigo)
+## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
+[![Build Status](https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages)](https://travis-ci.org/sergiokopplin/indigo)
 
 ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
@@ -6,7 +7,7 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
 
 ---
 
-What has inside?
+## What has inside?
 
 - [Gulp](http://gulpjs.com/)
 - [BrowserSync](https://www.browsersync.io/)
@@ -16,9 +17,7 @@ What has inside?
 - No JS
 - [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
 
----
-
-## Setup
+# Setup
 
 1. [Install Jekyll](http://jekyllrb.com)
 2. [Install NodeJS](https://nodejs.org/)
@@ -30,9 +29,7 @@ What has inside?
 8. `gulp`
 9. open in your browser: `http://localhost:3000`
 
----
-
-## Settings
+# Settings
 
 You have to fill some informations on `_config.yml` to customize your site.
 
@@ -79,8 +76,6 @@ bundle exec htmlproof ./_site --verbose
 If you want travis tests, you can take a look at:
 - [http://www.raywenderlich.com/109418/travis-ci-tutorial](http://www.raywenderlich.com/109418/travis-ci-tutorial)
 
----
-
 ## Showcase
 
 - [fohlen.github.io](http://fohlen.github.io/) by @[Lennard Berger](https://github.com/Fohlen)
@@ -88,16 +83,12 @@ If you want travis tests, you can take a look at:
 
 > open a [pull-request](https://github.com/sergiokopplin/indigo/pulls) if you want your site in this awesome list
 
----
-
 ## Contributions
 
 - [siddhantjain](https://github.com/siddhantjain)
 - [jeandersonbc](https://github.com/jeandersonbc)
 - [rootulp](https://github.com/rootulp)
 - [gedankenstuecke](http://github.com/gedankenstuecke)
-
----
 
 ## Problems?
 
