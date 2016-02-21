@@ -16,6 +16,8 @@ What has inside?
 - No JS
 - [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
 
+---
+
 ## Setup
 
 1. [Install Jekyll](http://jekyllrb.com)
@@ -27,6 +29,8 @@ What has inside?
 7. `npm install`
 8. `gulp`
 9. open in your browser: `http://localhost:3000`
+
+---
 
 ## Settings
 
