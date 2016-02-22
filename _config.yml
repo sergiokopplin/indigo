@@ -1,16 +1,27 @@
+<<<<<<< HEAD
 name: Phat Nguyen
 bio: 'A magician who turns coffee into codes'
 picture: 'assets/images/mybio.jpg'
+=======
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+
+# main text of home
+picture: 'assets/images/profile.jpg'
+>>>>>>> sergiokopplin/gh-pages
 
 url: http://npvinhphat.github.io
 # your url: http://USERNAME.github.io
+# if testing locally: http://localhost:3000
+
 permalink: /:title/
 
 markdown: kramdown
 highlighter: rouge
 
-analytics: 'UA-MYANALYTICS'
+analytics-google: 'UA-MYANALYTICS'
 disqus: mydisqus
+<<<<<<< HEAD
 facebook: NPVPhat
 twitter: npvinhphat
 instagram:
@@ -19,6 +30,18 @@ youtube:
 spotify:
 github: npvinhphat
 email: npvinhphat@gmail.com
+=======
+
+# if you don't have any of social below, set to false then
+facebook: myfacebook
+twitter: mytwitter
+instagram: myinstagram
+linkedin: mylinkedin
+youtube: myyoutube
+spotify: myspotify
+github: mygithub
+email: myemail@gmail.com
+>>>>>>> sergiokopplin/gh-pages
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
@@ -32,6 +55,12 @@ projects: true
 # if you don't need about or blog, comment them out below
 about: true
 blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
 
 gems:
   - jemoji

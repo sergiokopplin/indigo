@@ -1,8 +1,8 @@
 {% if post.blog == true %}
-    <div class="home__sections-single {% if post.star == true %}star{% endif %}">
-        <a href="{{ site.url }}{{ post.url }}">
-            <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-            <h3>{{ post.title }}</h3>
+    <div class="item {% if post.star == true %}star{% endif %}">
+        <a class="url" href="{{ site.url }}{{ post.url }}">
+            <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+            <h3 class="title">{{ post.title }}</h3>
         </a>
     </div>
 {% endif %}

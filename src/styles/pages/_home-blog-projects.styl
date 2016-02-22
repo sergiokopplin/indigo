@@ -1,47 +1,7 @@
 .home, .blog, .projects
     margin-top 125px
 
-    .home__header
-        display block
-        margin 0 auto
-        text-align center
-
-        img
-            width 125px
-            margin-bottom 25px
-            border-radius 100%
-
-        h1, h2
-            margin 0
-
-        h1
-            font-size 4rem
-            margin-bottom 13px
-
-        h2
-            font-size 1.85rem
-            font-weight 300
-            font-style normal
-            color gama
-            width 70%
-            margin 0 auto 30px
-
-            a
-                font-weight 200
-
-        .home__header-social
-            margin-top 20px
-
-            a
-                margin 0 3px
-
-                &:hover svg
-                    fill delta
-
-            svg
-                transition all ease-in-out .2s
-
-    .home__sections
+    > .list
         border-top 1px solid epsilon
         margin-top 30px
         padding-top 40px
@@ -61,48 +21,52 @@
             box-shadow #FFF 0 0 0 5px
             border-radius 3px
 
-        .home__sections-single
-            display block
-            width 95%
-            margin 0 auto
+.home > .list,
+.blog > .list,
+.projects > .list
+    > .item
+        display block
+        width 95%
+        margin 0 auto
 
-            &:hover h3
-                color delta
+    > .item > .url
+        width 100%
+        height 100%
+        display block
+        padding 20px 0
+        text-decoration none
 
-            &:hover aside
-                color alpha
+    > .item > .url > .title
+        margin 0
+        width 75%
+        font-weight 500
+        transition all ease-in-out .2s
 
-            a
-                width 100%
-                height 100%
-                display block
-                padding 20px 0
-                text-decoration none
+    &:hover .title
+        color delta
 
-            h3
-                margin 0
-                width 75%
-                font-weight 500
-                transition all ease-in-out .2s
+    // maybe we can't nest html5 elements
+    // can you help me?
+    aside
+        position relative
+        top 2px
+        margin 0
+        width 25%
+        float right
+        font-weight 300
+        color gama
+        text-align right
+        transition all ease-in-out .2s
 
-            aside
-                position relative
-                top 2px
-                margin 0
-                width 25%
-                float right
-                font-weight 300
-                color gama
-                text-align right
-                transition all ease-in-out .2s
+    &:hover aside
+        color alpha
 
-.projects
-    .home__sections-single
-        h3
-            display inline
+.projects > .list > .item > .url
+    > .title
+        display inline
 
-        .emoji
-            display inline
-            position relative
-            top -4px
-            margin-right 10px
+    > .emoji
+        display inline
+        position relative
+        top -4px
+        margin-right 10px

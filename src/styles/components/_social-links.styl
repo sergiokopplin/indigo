@@ -1,0 +1,38 @@
+.social-links
+    margin-top 20px
+
+    > .link
+        margin 0 3px
+        text-decoration none
+        position relative
+
+        &:hover
+            > .icon
+                fill delta
+
+        &:hover:before
+            opacity 1
+            transform translate3d(0,0,0)
+
+        &:before
+            content attr(data-title)
+            display inline-block
+            position absolute
+            bottom -38px
+            left -20px
+            margin 0 auto
+            font-size 13px
+            padding 3px 10px
+            background beta
+            color #fff
+            border solid 1px rgba(17,17,17,0.2)
+            border-radius 2px
+            height 22px
+            line-height 22px
+            opacity 0
+            transition opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear
+            transform translate3d(0,-8px,0)
+            z-index 99
+
+    > .icon
+        transition all ease-in-out .2s

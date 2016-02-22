@@ -5,16 +5,16 @@
     max-width 100%
     margin 9rem auto 0
 
-    .author__picture
+    > .toleft > .selfie
         width 90%
         border-radius 100%
 
-    .author__name,
-    .author__bio
+    > .toright > .name,
+    > .toright > .bio
         width 60%
         display inline-block
 
-    .author__name
+    > .toright > .name
         font-size 1.5rem
         font-family fontSans
         font-weight 500
@@ -28,7 +28,7 @@
             width 100%
             display block
 
-    .author__bio
+    > .toright > .bio
         font-family fontSans
         font-weight 300
         color gama
@@ -45,62 +45,7 @@
             width 100%
             display block
 
-    .author__share
-        float right
-        width 40%
-        display inline
-        text-align right
-        position relative
-        top -10px
-
-        a
-            text-decoration none
-
-        +mobile()
-            width 100%
-            display block
-            top 0
-            text-align left
-            float none
-            margin-top 5px
-
-        +tablet()
-            width 100%
-            display block
-            top 0
-            text-align left
-            float none
-            margin-top 5px
-
-        svg
-            fill #fff
-            position relative
-            top 3px
-            margin-right 4px
-
-        .twitter, .facebook
-            display inline
-            vertical-align middle
-            font-size 13px
-            font-weight 700
-            color #fff
-            padding 6px 10px
-            border-radius 3px
-            margin-left 5px
-
-            +mobile()
-                margin 0 5px 10px 0
-
-            +tablet()
-                margin 0 5px 10px 0
-
-        .twitter
-            background #4fafed
-
-        .facebook
-            background #4361b3
-
-    .author__left
+    > .toleft
         width 10%
         display inline-block
 
@@ -110,7 +55,7 @@
         +tablet()
             width 20%
 
-    .author__right
+    > .toright
         width 89%
         display inline-block
         vertical-align top

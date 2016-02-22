@@ -5,13 +5,13 @@ title: Projects
 ---
 {% include header.html %}
 
-<section class="home__sections">
+<section class="list">
     {% for post in site.posts %}
         {% if post.projects %}
-            <div class="home__sections-single {% if post.star == true %}star{% endif %}">
-                <a href="{{ site.url }}{{ post.url }}">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
                     <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    {{ post.jemoji }}<h3>{{ post.title }}</h3>
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
                 </a>
             </div>
         {% endif %}
