@@ -20,6 +20,10 @@ layout: default
 
 {{content}}
 
+{% if site.related %}
+    {% include related.html %}
+{% endif %}
+
 {% include author.html %}
 
 {% include disqus.html %}
