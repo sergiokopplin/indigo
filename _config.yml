@@ -15,10 +15,10 @@ analytics-google: 'UA-MYANALYTICS'
 disqus: mydisqus
 facebook: NPVPhat
 twitter: npvinhphat
-instagram:
+# instagram:
 linkedin:
-youtube:
-spotify:
+# youtube:
+# spotify:
 github: npvinhphat
 email: npvinhphat@gmail.com
 
