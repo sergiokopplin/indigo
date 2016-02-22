@@ -27,7 +27,6 @@ You can pick as item to sse how to apply in markdown.
 - [Evidence](#evidence)
 - [Star](#star)
 - [Gist](#gist)
-- [Twitter](#twitter)
 - [Codepen](#codepen)
 
 ---
@@ -224,25 +223,6 @@ You can add Gists from github.
 {% endhighlight %}
 
 {% gist sergiokopplin/5afb058da029a13de73e %}
-
----
-
-## Twitter
-
-You can add twetts.
-
-{% highlight html %}
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en">
-    <p lang="und" dir="ltr">2/
-        <a href="https://t.co/p4i1TR31Zv">pic.twitter.com/p4i1TR31Zv</a>
-    </p>
-    &mdash; Twitter (@twitter)
-    <a href="https://twitter.com/twitter/status/699999402962759681">February 17, 2016</a>
-</blockquote>
-{% endhighlight %}
-
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="und" dir="ltr">2/ <a href="https://t.co/p4i1TR31Zv">pic.twitter.com/p4i1TR31Zv</a></p>&mdash; Twitter (@twitter) <a href="https://twitter.com/twitter/status/699999402962759681">February 17, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
