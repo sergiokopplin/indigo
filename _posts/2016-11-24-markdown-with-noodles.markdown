@@ -25,6 +25,8 @@ You can pick as item to sse how to apply in markdown.
 - [Evidence](#evidence)
 - [Star](#star)
 - [Gist](#gist)
+- [Twitter](#twitter)
+- [Codepen](#codepen)
 
 ---
 
@@ -223,15 +225,34 @@ You can add Gists from github.
 
 ---
 
+## Twitter
+
+You can add twetts.
+
+{% highlight html %}
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en">
+    <p lang="und" dir="ltr">2/
+        <a href="https://t.co/p4i1TR31Zv">pic.twitter.com/p4i1TR31Zv</a>
+    </p>
+    &mdash; Twitter (@twitter)
+    <a href="https://twitter.com/twitter/status/699999402962759681">February 17, 2016</a>
+</blockquote>
+{% endhighlight %}
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="und" dir="ltr">2/ <a href="https://t.co/p4i1TR31Zv">pic.twitter.com/p4i1TR31Zv</a></p>&mdash; Twitter (@twitter) <a href="https://twitter.com/twitter/status/699999402962759681">February 17, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
 ## Codepen
 
 You can add Pens from Codepen.
 
 {% highlight html %}
-<iframe height='268' scrolling='no' src='//codepen.io/chriscoyier/embed/gfdDu/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.
+<iframe height='268' scrolling='no' src='//codepen.io/chriscoyier/embed/gfdDu/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
 {% endhighlight %}
 
-<iframe height='268' scrolling='no' src='//codepen.io/chriscoyier/embed/gfdDu/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.
+<iframe height='268' scrolling='no' src='//codepen.io/chriscoyier/embed/gfdDu/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
