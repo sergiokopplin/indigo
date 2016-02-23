@@ -1,10 +1,8 @@
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Phat Nguyen
+bio: 'A magician who turns coffee into codes'
+picture: 'assets/images/mybio.jpg'
 
-# main text of home
-picture: 'assets/images/profile.jpg'
-
-url: http://sergiokopplin.github.io/indigo
+url: http://npvinhphat.github.io
 # your url: http://USERNAME.github.io
 # if testing locally: http://localhost:3000
 
@@ -15,16 +13,14 @@ highlighter: rouge
 
 analytics-google: 'UA-MYANALYTICS'
 disqus: mydisqus
-
-# if you don't have any of social below, set to false then
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-email: myemail@gmail.com
+facebook: NPVPhat
+twitter: npvinhphat
+# instagram:
+linkedin:
+# youtube:
+# spotify:
+github: npvinhphat
+email: npvinhphat@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
