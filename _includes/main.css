@@ -453,9 +453,9 @@ pre {
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
 }
-.home > .list:hover .title,
-.blog > .list:hover .title,
-.projects > .list:hover .title {
+.home > .list > .item:hover > .url > .title,
+.blog > .list > .item:hover > .url > .title,
+.projects > .list > .item:hover > .url > .title {
   color: #4b0082;
 }
 .home > .list aside,
@@ -472,9 +472,9 @@ pre {
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
 }
-.home > .list:hover aside,
-.blog > .list:hover aside,
-.projects > .list:hover aside {
+.home > .list .item:hover .url aside,
+.blog > .list .item:hover .url aside,
+.projects > .list .item:hover .url aside {
   color: #666;
 }
 .projects > .list > .item > .url > .title {
