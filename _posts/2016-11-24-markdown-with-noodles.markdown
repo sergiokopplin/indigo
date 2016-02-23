@@ -26,7 +26,6 @@ You can pick as item to sse how to apply in markdown.
 - [Star](#star)
 - [Gist](#gist)
 - [Codepen](#codepen)
-- [Twitter](#twitter)
 
 ---
 
@@ -236,25 +235,6 @@ You can add Pens from Codepen.
 
 <p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
----
-
-## Twitter
-
-You can add twetts.
-
-{% highlight html %}
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en">
-    <p lang="und" dir="ltr">2/
-        <a href="https://t.co/p4i1TR31Zv">pic.twitter.com/p4i1TR31Zv</a>
-    </p>
-    &mdash; Twitter (@twitter)
-    <a href="https://twitter.com/twitter/status/699999402962759681">February 17, 2016</a>
-</blockquote>
-{% endhighlight %}
-
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="und" dir="ltr">2/ <a href="https://t.co/p4i1TR31Zv">pic.twitter.com/p4i1TR31Zv</a></p>&mdash; Twitter (@twitter) <a href="https://twitter.com/twitter/status/699999402962759681">February 17, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
