@@ -221,6 +221,18 @@ You can add Gists from github.
 
 {% gist sergiokopplin/5afb058da029a13de73e %}
 
+---
+
+## Codepen
+
+You can add Pens from Codepen.
+
+{% highlight html %}
+<iframe height='268' scrolling='no' src='//codepen.io/chriscoyier/embed/gfdDu/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.
+{% endhighlight %}
+
+<iframe height='268' scrolling='no' src='//codepen.io/chriscoyier/embed/gfdDu/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.
+
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
 [3]: http://www.markitdown.net/
