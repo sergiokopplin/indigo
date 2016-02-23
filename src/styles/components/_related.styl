@@ -1,0 +1,38 @@
+.related
+    margin 9rem 0 -3rem
+    padding 3rem 0 0
+
+    +mobile()
+        margin 5rem 0 -6rem
+        text-align center
+
+    > .previous,
+    > .next
+        color gama
+        text-decoration none
+        display inline-block
+        font-size 1.4rem
+        padding 1px 9px
+        transition all .2s
+        font-weight 300
+        text-transform lowercase
+        border 1px solid epsilon
+        border-radius 4px
+        padding 5px 9px
+
+        &:hover
+            border-color gama
+            color beta
+
+    > .previous
+        float left
+
+        +mobile()
+            float none
+            margin-bottom 1rem
+
+    > .next
+        float right
+
+        +mobile()
+            float none
