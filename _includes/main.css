@@ -784,51 +784,7 @@ pre {
   visibility: hidden;
 }
 .related {
-  margin: 9rem 0 -3rem;
-  padding: 3rem 0 0;
-}
-@media only screen and (max-width: 400px) {
-  .related {
-    margin: 5rem 0 -6rem;
-    text-align: center;
-  }
-}
-.related > .previous,
-.related > .next {
-  color: #aaa;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.4rem;
-  padding: 1px 9px;
-  -webkit-transition: all 0.2s;
-          transition: all 0.2s;
-  font-weight: 300;
-  text-transform: lowercase;
-  border: 1px solid #ededed;
-  border-radius: 4px;
-  padding: 5px 9px;
-}
-.related > .previous:hover,
-.related > .next:hover {
-  border-color: #aaa;
-  color: #222;
-}
-.related > .previous {
-  float: left;
-}
-@media only screen and (max-width: 400px) {
-  .related > .previous {
-    float: none;
-    margin-bottom: 1rem;
-  }
-}
-.related > .next {
-  float: right;
-}
-@media only screen and (max-width: 400px) {
-  .related > .next {
-    float: none;
-  }
+  margin: 10rem 0 -5rem;
 }
 .share {
   float: right;
