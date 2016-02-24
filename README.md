@@ -85,10 +85,11 @@ If you want travis tests, you can take a look at:
 
 ## Contributions
 
-- [siddhantjain](https://github.com/siddhantjain)
-- [jeandersonbc](https://github.com/jeandersonbc)
-- [rootulp](https://github.com/rootulp)
-- [gedankenstuecke](http://github.com/gedankenstuecke)
+- [Siddhant Jain](http://github.com/siddhantjain)
+- [Jeanderson Barros Candido](http://github.com/jeandersonbc)
+- [Rootul Patel](http://github.com/rootulp)
+- [Bastian Greshake](http://github.com/gedankenstuecke)
+- [Phat Nguyen](http://github.com/npvinhphat)
 
 ## Problems?
 
