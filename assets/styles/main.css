@@ -746,6 +746,8 @@ pre {
           transition: ease-in-out all 0.3s;
   position: relative;
   top: 3px;
+  display: inherit;
+  margin: 0;
 }
 .footer-main > .link > .icon:hover {
   fill: #4b0082 !important;
