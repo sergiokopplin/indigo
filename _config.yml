@@ -16,7 +16,7 @@ highlighter: rouge
 analytics-google: 'UA-MYANALYTICS'
 disqus: mydisqus
 
-# if you don't have any of social below, set to false then
+# if you don't have any of social below, comment the line
 facebook: myfacebook
 twitter: mytwitter
 instagram: myinstagram
