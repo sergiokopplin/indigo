@@ -414,7 +414,9 @@ pre {
   width: 17px;
   height: 17px;
   fill: #000;
+  text-align: center;
   color: #000;
+  margin: 7px auto;
 }
 .clearfix:before,
 .clearfix:after {
@@ -983,9 +985,12 @@ pre {
   margin-top: 20px;
 }
 .social-links > .link {
-  margin: 0 3px;
+  margin: 0;
   text-decoration: none;
   position: relative;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
 }
 .social-links > .link:hover > .icon {
   fill: #4b0082;
