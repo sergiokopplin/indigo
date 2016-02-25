@@ -960,6 +960,9 @@ pre {
     margin-bottom: 2rem;
   }
 }
+.side-by-side > figcaption {
+  top: 7px;
+}
 .social-links {
   margin-top: 20px;
 }
