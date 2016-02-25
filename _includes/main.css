@@ -335,6 +335,23 @@ img,
 pre {
   border-radius: 4px;
 }
+figcaption {
+  position: relative;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #aaa;
+  font-weight: 300;
+}
+@media only screen and (max-width: 400px) {
+  figcaption {
+    font-size: 1.2rem;
+  }
+}
 blockquote {
   padding-left: 15px;
   border-left: 3px solid #eee;
@@ -406,6 +423,16 @@ pre {
 }
 .clearfix:after {
   clear: both;
+}
+.caption {
+  position: relative;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
 }
 .animated {
   -webkit-animation: fade-in-down 0.6s;
