@@ -83,6 +83,10 @@ If you want travis tests, you can take a look at:
 
 Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issues/new).
 
+### Update your fork.
+
+- [github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
+
 ---
 
 ## License
