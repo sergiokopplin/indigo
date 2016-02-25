@@ -4,7 +4,7 @@ layout: post
 date: 2015-11-24 14:40
 tag: markdown
 blog: true
-#star: true
+star: true
 ---
 
 ## Summary:
@@ -135,7 +135,7 @@ It's sometimes handy for breaking things up.
 Markdown can also contain images. I'll need to add something here sometime.
 
 {% highlight raw %}
-![Markdowm Image][http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg]
+![Markdowm Image][/image/url]
 {% endhighlight %}
 
 ![Markdowm Image][6]
@@ -143,12 +143,20 @@ Markdown can also contain images. I'll need to add something here sometime.
 *Figure Caption*?
 
 {% highlight raw %}
-![Markdowm Image][http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg]
+![Markdowm Image][/image/url]
 <figcaption class="caption">Photo by John Doe</figcaption>
 {% endhighlight %}
 
 ![Markdowm Image][6]
 <figcaption class="caption">Photo by John Doe</figcaption>
+
+*Bigger Images*?
+
+{% highlight raw %}
+![Markdowm Image][/image/url]{: class="bigger-image" }
+{% endhighlight %}
+
+![Markdowm Image][6]{: class="bigger-image" }
 
 ---
 
@@ -227,12 +235,14 @@ Like the [Medium](https://medium.com/) component.
 <div class="side-by-side clearfix">
     <img class="left-image" src="http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg" alt="Alt Text">
     <p class="right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <figcaption class="caption">Photo by John Doe</figcaption>
 </div>
 {% endhighlight %}
 
 <div class="side-by-side clearfix">
     <img class="left-image" src="http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg" alt="Alt Text">
     <p class="right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <figcaption class="caption">Photo by John Doe</figcaption>
 </div>
 
 **Text** on the left and **Image** on the right:
@@ -241,12 +251,14 @@ Like the [Medium](https://medium.com/) component.
 <div class="side-by-side clearfix">
     <p class="left-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <img class="right-image" src="http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg" alt="Alt Text">
+    <figcaption class="caption">Photo by John Doe</figcaption>
 </div>
 {% endhighlight %}
 
 <div class="side-by-side clearfix">
     <p class="left-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <img class="right-image" src="http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg" alt="Alt Text">
+    <figcaption class="caption">Photo by John Doe</figcaption>
 </div>
 
 **IMPORTANT**: don't forget the 'clearfix' class for the div element.

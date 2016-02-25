@@ -835,7 +835,7 @@ pre {
   background-image: linear-gradient(to bottom, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
   color: #222;
 }
-.star > h3 {
+.star > .url > .title {
   width: auto !important;
   display: inline;
   background-image: -webkit-linear-gradient(top, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
