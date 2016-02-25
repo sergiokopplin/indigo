@@ -452,6 +452,21 @@ pre {
     margin: 2rem 0 2rem -7%;
   }
 }
+.breaker {
+  height: 1px;
+  margin: 6rem auto;
+  width: 100%;
+}
+.breaker:before {
+  content: "• • •";
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: #aaa;
+  letter-spacing: 4px;
+  position: relative;
+  top: -8px;
+}
 .animated {
   -webkit-animation: fade-in-down 0.6s;
           animation: fade-in-down 0.6s;

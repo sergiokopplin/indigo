@@ -15,8 +15,9 @@ You can pick as item to see how to apply in markdown.
 
 #### Especial Elements
 - [Evidence](#evidence)
-- [Star](#star)
 - [Side-by-Side](#side-by-side)
+- [Star](#star)
+- [Especial Breaker](#especial-breaker)
 
 #### External Elements
 - [Gist](#gist)
@@ -85,6 +86,18 @@ You can give evidence to a post. Just add the tag to the markdown file.
 {% highlight raw %}
 star: true
 {% endhighlight %}
+
+---
+
+## Especial Breaker
+
+You can add a especial *hr* to your text.
+
+{% highlight html %}
+<div class="breaker"></div>
+{% endhighlight %}
+
+<div class="breaker"></div>
 
 ---
 
