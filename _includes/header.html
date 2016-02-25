@@ -2,7 +2,9 @@
 
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
-        <img class="selfie" alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
+        <a class="link" href="{{ site.url }}/about">
+            <img class="selfie" alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
+        </a>
 
         <h1 class="title">{{ site.name }}</h1>
         <h2 class="description">{{ site.bio }}</h2>

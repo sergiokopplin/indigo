@@ -763,10 +763,16 @@ pre {
   margin: 0 auto;
   text-align: center;
 }
-.header-home > .selfie {
+.header-home > .link > .selfie {
   width: 125px;
   margin-bottom: 25px;
   border-radius: 100%;
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+  box-shadow: 0;
+}
+.header-home > .link > .selfie:hover {
+  box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15);
 }
 .header-home > .title {
   font-size: 4rem;
@@ -931,7 +937,9 @@ pre {
   fill: #fff;
   position: relative;
   top: 3px;
+  margin: 0;
   margin-right: 4px;
+  display: inherit;
 }
 @media only screen and (min-width: 780px) {
   .side-by-side {

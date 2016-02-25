@@ -3,10 +3,15 @@
     margin 0 auto
     text-align center
 
-    > .selfie
+    > .link > .selfie
         width 125px
         margin-bottom 25px
         border-radius 100%
+        transition all .2s
+        box-shadow 0
+
+        &:hover
+            box-shadow 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15)
 
     > .title
         font-size 4rem
