@@ -24,8 +24,12 @@ You can pick as item to sse how to apply in markdown.
 ### Especial Elements
 - [Evidence](#evidence)
 - [Star](#star)
+
+### External Elements
 - [Gist](#gist)
 - [Codepen](#codepen)
+- [Slideshare](#slideshare)
+- [Videos](#videos)
 
 ---
 
@@ -229,12 +233,40 @@ You can add Gists from github.
 You can add Pens from Codepen.
 
 {% highlight html %}
-<p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>
+    See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.
+</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 {% endhighlight %}
 
 <p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+---
+
+## Slideshare
+
+Add your presentations here!
+
+{% highlight html %}
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+{% endhighlight %}
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+---
+
+## Videos
+
+Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste on your post!
+
+**Example**
+
+{% highlight html %}
+<iframe width="854" height="480" src="https://www.youtube.com/embed/fwncgZ15RVQ" frameborder="0" allowfullscreen></iframe>
+{% endhighlight %}
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/fwncgZ15RVQ" frameborder="0" allowfullscreen></iframe>
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
