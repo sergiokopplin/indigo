@@ -2,7 +2,8 @@ var gulp        = require('gulp'),
     concat      = require('gulp-concat'),
     browserSync = require('browser-sync'),
     plumber     = require('gulp-plumber'),
-    cp          = require('child_process');
+    cp          = require('child_process'),
+    changed     = require('gulp-changed'),
 
     // stylus
     stylus      = require('gulp-stylus'),
@@ -19,7 +20,7 @@ var messages = {
 
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--drafts'], {stdio: 'inherit'}).on('close', done);
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--drafts', '--quiet', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'}).on('close', done);
     // return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'}).on('close', done);
 });
 
@@ -36,6 +37,7 @@ gulp.task('browserSync', ['jekyll-build'], function() {
 
 gulp.task('styles', function() {
     return gulp.src('src/styles/main.styl')
+        .pipe(changed('assets/styles'))
         .pipe(plumber())
         .pipe(stylus({
             use:[prefixer(), rupture(), nib()],
@@ -49,6 +51,7 @@ gulp.task('styles', function() {
 
 gulp.task('imagemin', function(tmp) {
     return gulp.src('assets/images/**/*.{jpg,png,gif}')
+        .pipe(changed('assets/images'))
         .pipe(plumber())
         .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
         .pipe(gulp.dest('assets/images'));

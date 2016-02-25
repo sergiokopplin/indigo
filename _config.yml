@@ -6,7 +6,6 @@ picture: 'assets/images/profile.jpg'
 
 url: http://sergiokopplin.github.io/indigo
 # your url: http://USERNAME.github.io
-# if testing locally: http://localhost:3000
 
 permalink: /:title/
 
