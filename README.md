@@ -9,13 +9,12 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
 
 ## What has inside?
 
-- [Gulp](http://gulpjs.com/)
-- [BrowserSync](https://www.browsersync.io/)
+- [Gulp](http://gulpjs.com/) && [BrowserSync](https://www.browsersync.io/)
 - [Stylus](http://stylus-lang.com/) with [RSCSS](http://rscss.io/) Methodology
 - [SVG](https://www.w3.org/Graphics/SVG/)
-- [Travis](https://travis-ci.org/)
+- Tests with [Travis](https://travis-ci.org/)
 - No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
 
 # Setup
 
@@ -52,17 +51,6 @@ youtube: myyoutube
 spotify: myspotify
 github: mygithub
 email: myemail@gmail.com
-```
-
-If you want pagination:
-```
-paginate: 5
-paginate_path: "blog/:num/"
-```
-
-If you have some projects:
-```
-projects: true
 ```
 
 ## Tests
