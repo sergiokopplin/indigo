@@ -2,7 +2,7 @@
 
 # TEAM
 
-	Your name - your home
+	Sérgio Kopplin's Indigo Theme, further customization by Arti Annaswamy
 
 # TECHNOLOGY
 

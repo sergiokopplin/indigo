@@ -5,6 +5,12 @@
         </a>
     {% endif %}
 
+    {% if site.linkedin %}
+        <a class="link" data-title="linkedin.com/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+    {% endif %}
+    
     {% if site.twitter %}
         <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
             <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
@@ -23,12 +29,6 @@
         </a>
     {% endif %}
 
-    {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/{{ site.linkedin }}" href="http://linkedin.com/{{ site.linkedin }}" target="_blank">
-            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
-        </a>
-    {% endif %}
-
     {% if site.youtube %}
         <a class="link" data-title="youtube.com/{{ site.youtube }}" href="http://youtube.com/{{ site.youtube }}" target="_blank">
             <svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
@@ -40,4 +40,8 @@
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+
+	<a class="link" data-title="{{ site.url }}/feed.xml" href="{{ site.url }}/feed.xml" target="_blank">
+			<svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
+	</a>   
 </div>

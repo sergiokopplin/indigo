@@ -13,7 +13,7 @@ layout: default
 {% if site.show-tags %}
     <div class="tags">
         {% for tag in page.tags %}
-            <span class="item">{{ tag }}</span>
+            <a class="tagpost" href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><span class="item">{{ tag }}</span></a>
         {% endfor %}
     </div>
 {% endif %}

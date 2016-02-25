@@ -1,4 +1,7 @@
-{% if page.title == "Home" or page.title == "Blog" or page.title == "Projects" %}{% assign showHeader = true %}{% endif %}
+{% if page.title == "Home" %}{% assign showHeader = true %}{% endif %}
+<!-- removed: or page.title == "Blog" or page.title == "Projects" --> 
+<!-- added: new minimal header-->
+{% if page.title == "Blog" or page.title == "Projects" or page.title == "About" %}{% assign showMinHeader = true %}{% endif %}
 
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
@@ -9,6 +12,13 @@
         <h1 class="title">{{ site.name }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
 
+        {% include social-links.html %}
+    </header>
+{% endif %}
+
+{% if showMinHeader == true %}
+    <header class="header-home {% if site.animation %}animated{% endif %}">
+        <h1 class="title">{{ page.title }}</h1>
         {% include social-links.html %}
     </header>
 {% endif %}
