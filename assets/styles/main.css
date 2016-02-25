@@ -405,6 +405,14 @@ pre {
   -webkit-animation-delay: 0.3s;
           animation-delay: 0.3s;
 }
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
 @-webkit-keyframes fade-in-down {
   0% {
     opacity: 0;
@@ -879,6 +887,28 @@ pre {
   position: relative;
   top: 3px;
   margin-right: 4px;
+}
+.side-by-side {
+  width: 130%;
+  margin: 4rem 0 0 -15%;
+}
+.side-by-side > .left-image {
+  float: left;
+  width: 48%;
+}
+.side-by-side > .right-image {
+  float: right;
+  width: 48%;
+}
+.side-by-side > .left-text {
+  float: left;
+  width: 48%;
+  margin: 0 0 4rem 0;
+}
+.side-by-side > .right-text {
+  float: right;
+  width: 48%;
+  margin: 0 0 4rem 0;
 }
 .social-links {
   margin-top: 20px;
