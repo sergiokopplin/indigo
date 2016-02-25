@@ -399,12 +399,6 @@ pre {
   fill: #000;
   color: #000;
 }
-.animated {
-  -webkit-animation: fade-in-down 0.6s;
-          animation: fade-in-down 0.6s;
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-}
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -412,6 +406,12 @@ pre {
 }
 .clearfix:after {
   clear: both;
+}
+.animated {
+  -webkit-animation: fade-in-down 0.6s;
+          animation: fade-in-down 0.6s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 @-webkit-keyframes fade-in-down {
   0% {
@@ -888,9 +888,17 @@ pre {
   top: 3px;
   margin-right: 4px;
 }
-.side-by-side {
-  width: 130%;
-  margin: 4rem 0 0 -15%;
+@media only screen and (min-width: 780px) {
+  .side-by-side {
+    width: 130%;
+    margin: 4rem 0 0 -15%;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .side-by-side {
+    width: 100%;
+    margin: 4rem 0 0;
+  }
 }
 .side-by-side > .left-image {
   float: left;
@@ -909,6 +917,21 @@ pre {
   float: right;
   width: 48%;
   margin: 0 0 4rem 0;
+}
+@media only screen and (max-width: 780px) {
+  .side-by-side > .right-text,
+  .side-by-side > .left-text {
+    float: none;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .side-by-side > .right-image,
+  .side-by-side > .left-image {
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 .social-links {
   margin-top: 20px;

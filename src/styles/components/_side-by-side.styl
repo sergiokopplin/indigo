@@ -1,6 +1,11 @@
 .side-by-side
-    width 130%
-    margin 4rem 0 0 -15%
+    +above(780px)
+        width 130%
+        margin 4rem 0 0 -15%
+
+    +below(780px)
+        width 100%
+        margin 4rem 0 0
 
     > .left-image
         float left
@@ -19,3 +24,16 @@
         float right
         width 48%
         margin 0 0 4rem 0
+
+    > .right-text,
+    > .left-text
+        +below(780px)
+            float none
+            width 100%
+
+    > .right-image,
+    > .left-image
+        +below(780px)
+            float none
+            width 100%
+            margin-bottom 2rem
