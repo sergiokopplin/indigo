@@ -137,7 +137,7 @@ It's sometimes handy for breaking things up.
 Markdown can also contain images. I'll need to add something here sometime.
 
 {% highlight raw %}
-![Markdowm Image][http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg]
+![Markdowm Image][/image/url]
 {% endhighlight %}
 
 ![Markdowm Image][6]
@@ -145,12 +145,20 @@ Markdown can also contain images. I'll need to add something here sometime.
 *Figure Caption*?
 
 {% highlight raw %}
-![Markdowm Image][http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg]
+![Markdowm Image][/image/url]
 <figcaption class="caption">Photo by John Doe</figcaption>
 {% endhighlight %}
 
 ![Markdowm Image][6]
 <figcaption class="caption">Photo by John Doe</figcaption>
+
+*Bigger Images*?
+
+{% highlight raw %}
+![Markdowm Image][/image/url]{: class="bigger-image" }
+{% endhighlight %}
+
+![Markdowm Image][6]{: class="bigger-image" }
 
 ---
 
