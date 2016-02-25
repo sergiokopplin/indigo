@@ -15,7 +15,6 @@ highlighter: rouge
 analytics-google: 'UA-MYANALYTICS'
 disqus: mydisqus
 
-
 # if you don't have any of social below, comment the line
 facebook: myfacebook
 twitter: mytwitter
@@ -25,8 +24,6 @@ youtube: myyoutube
 spotify: myspotify
 github: mygithub
 email: myemail@gmail.com
-
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
@@ -62,3 +59,5 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
