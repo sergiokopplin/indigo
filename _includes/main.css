@@ -1090,17 +1090,14 @@ pre {
 .tagblog {
 	font-variant: small-caps;
 	font-size: 1.4rem;
-	padding: 3px 6px;
-	border-radius: 3px;
-	background: #ededed;
+	padding: 3px 3px;
 	color: #666;
 	letter-spacing: 1px;
-	margin: 0 0.5rem;
 }
 
 .tagindex {
 	font-variant: small-caps;
-	padding: 3px 6px;
+	padding: 3px 3px 5px 3px;
 	border-radius: 3px;
 	font-size: 1.4rem;
 	background: #ededed;
