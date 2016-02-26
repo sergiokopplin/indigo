@@ -1,7 +1,7 @@
 {% if page.title == "Home" %}{% assign showHeader = true %}{% endif %}
 <!-- removed: or page.title == "Blog" or page.title == "Projects" --> 
 <!-- added: new minimal header-->
-{% if page.title == "Blog" or page.title == "Projects" or page.title == "About" %}{% assign showMinHeader = true %}{% endif %}
+{% if page.title == "Blog" or page.title == "Projects" or page.title == "About" or page.title == "Consulting" %}{% assign showMinHeader = true %}{% endif %}
 
 {% for post in site.posts %}	
 	{% for tag in post.tags %}
