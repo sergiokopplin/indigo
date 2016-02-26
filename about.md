@@ -35,3 +35,5 @@ permalink: /about/index.html
 	<li><a href="https://github.com/aannasw/movies-capstone/blob/master/Capstone%20Project.pdf" target="_blank">Springboard Capstone Project: Analysis of Movies</a></li>
 	<li><a href="http://public.tableau.com/profile/arti#!/vizhome/MovieAnalysisCapstone/MovieAnalysisCapstone" target="_blank">Tableau Public: Movie Analysis</a></li>	
 </ul>
+
+{% include doodle-mbpro.html %}
