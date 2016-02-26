@@ -1125,9 +1125,10 @@ pre {
 
 .services td {
 	width: 50%;
+	vertical-align: top;
 }
 
-.services > td {
-    /*height: 50px; */
-    vertical-align: top;
+.services td, 
+.services th {
+	padding: 5px;
 }
