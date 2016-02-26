@@ -28,7 +28,7 @@ permalink: /consulting/index.html
 	
 	<td>
 	<h3>Data Reporting</h3>
-    <p>Do you have an idea of the reports you like to see regularly, but difficulty creating the reports every month? I can work with you to create Excel or Google Sheets-based reporting that will simplify the process your team has to do to get you the reports.</p>
+    <p>Do you already know the exact reports you like to see regularly, but have difficulty creating the reports every month? I can work with you to create Excel or Google Sheets-based reporting that will automate and simplify the process your team has to do to get you the reports.</p>
 	</td>
 	</tr>
 
