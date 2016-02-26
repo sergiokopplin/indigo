@@ -1092,16 +1092,11 @@ pre {
 
 .tagpost {
 	font-variant: small-caps;
-}
-
-.post > .tags > .item a,
-.post > .tags > .item a:active,
-.post > .tags > .item a:hover  {
-  padding: 3px 6px;
-  border-radius: 3px;
-  font-size: 1.1rem;
-  background: #ededed;
-  color: #666;
-  letter-spacing: 1px;
-  margin: 0 0.5rem;
+	padding: 3px 6px;
+	border-radius: 3px;
+	font-size: 1.1rem;
+	background: #ededed;
+	color: #666;
+	letter-spacing: 1px;
+	margin: 0 0.5rem;
 }
