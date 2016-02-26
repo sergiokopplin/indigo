@@ -1,0 +1,74 @@
+---
+title: "2016 Reading List"
+layout: post
+date: 2016-01-23 22:10
+tag: books
+img: indigo/indigo.png
+projects: true
+summary: "List of books I'm reading this year, and ongoing reviews as I cross 'em off my list"
+permalink: reading-list-2016
+jemoji: '<img class="emoji" title=":books:" alt=":books:" src="https://assets.github.com/images/icons/emoji/unicode/1f4da.png" height="20" width="20" align="absmiddle">'
+---
+
+<p>I've never done a reading list before.</p>
+
+<p>Over the years, I'd pick up books recommended by friends, or on the bestseller lists, or something I heard in an interview on NPR. This has worked well for me in terms of quality and depth of reading, but it has been too haphazard and I occasionally end up with long stretches of barely any reading.</p>
+
+<p>After following along on Adventurous Kate's journey through the Pop Sugar 2015 Reading Challenge, and her excellent reviews and recommendations on books, I figured, I should do a reading list too.</p>
+
+<p>Then I read the Pop Sugar 2016 Reading Challenge and... was intimidated.</p>
+
+<p>Not by the number of books or the categories, but by the sheer amount of research I'd have to do to populate the list with books I could read like for 'a book with a blue cover' or 'a book that takes place on an island' or 'a book that takes place during summer'.</p> 
+
+<p>These are great categories, no doubt, but I did not want to delay beginning the reading while I researched the best* books I could find that satisfied the categories.</p>
+
+<p>So instead, I decided to pick one book from each of the major book categories listed on the [Amazon Kindle Books page](http://www.amazon.com/Kindle-eBooks/b?ie=UTF8&node=154606011).</p>
+
+*Best, because if I'm spending that much time with anything, and it has the potential to affect my thinking, it'd better make for good company.
+
+<p>Here are the categories:</p>
+- Arts & Photography
+- Biographies & Memoirs
+- Business & Money
+- Children's eBooks
+- Comics & Graphic Novels
+- Computers & Technology
+- Cookbooks, Food & Wine
+- Crafts, Hobbies & Home
+- Education & Teaching
+- Engineering & Transportation
+- Foreign Languages
+- Health, Fitness & Dieting
+- History
+- Humor & Entertainment
+- Law
+- Lesbian, Gay, Bisexual & Transgender eBooks
+- Literature & Fiction
+- Medical eBooks
+- Mystery, Thriller & Suspense
+- Nonfiction
+- Parenting & Relationships
+- Politics & Social Sciences
+- Reference
+- Religion & Spirituality
+- Romance
+- Science & Math
+- Science Fiction & Fantasy
+- Self-Help
+- Sports & Outdoors
+- Teen & Young Adult
+
+That's 28 pretty diverse categories, and 28-30 is a good enough number that'll average to about 3 books a month. 
+
+<p>So here we go.</p>
+<p>The books below are in the order: Completed, Reading and To Read. And as I read the books, I will move them up to the appropriate category.
+
+<h1>Books read so far</h1>
+<a href="http://www.amazon.com/Thinking-Type-Critical-Designers-Students-ebook/dp/B00JH8H4EG/ref=as_li_ss_il?s=digital-text&ie=UTF8&qid=1456508971&sr=1-1&keywords=Thinking+with+Type&linkCode=li3&tag=3pcobr-20&linkId=8340593410ab5c5f470fd5526aaa460e" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00JH8H4EG&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=3pcobr-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=3pcobr-20&l=li3&o=1&a=B00JH8H4EG" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />	<h2><a href="http://amzn.to/1UoRJSV" target="_blank">Thinking with Type</a> by Ellen Lupton (2004)</h2>	<h3> Category: Graphic Design > Typography</h3>	<p>Thinking with Type is the most non-textbookey textbook I've read. I was steeled for a slog of a read, through the minutiae of serifs and slabs and crossbars and x-heights, but this was a surprisingly satisfying read. Lupton peppers the lessons with a solid narrative, and uses the font examples as a part of the narrative (no wasted text!). I learned a lot about the history of type, while understanding what I should look for when choosing fonts.</p>
+</br>
+<h2><a href="http://amzn.to/21ncy6O" target="_blank">Ethan Frome</a> by Edith Wharton (1911)</h2>	<h3> Category: Literature & Fiction > Classics</h3>	"
+<p>This one was challenging. I figured, with this being such a small book (89 pages), it'd be a quick, engrossing read along the lines of 'Of Mice & Men', and I'd cross another book off my list. By the time I was half done with the book, I wanted to throw it at the wall - the depressing tone of the book never eases up. The NYTimes titling their 1911 review of this book ['Three Lives in Supreme Torture'](http://query.nytimes.com/mem/archive-free/pdf?res=9E05E1D71131E233A2575BC0A9669D946096D6CF) should be a tip off to you on how depressing this book can get.</p>
+<p>On a side note, that NYT review of Ethan Frome is pretty entertaining too. Some entertaining quotes, ""Mrs. Wharton prefers to present life in its unsmiling aspects, to look at it with the eye of the tragic poet, not with the deep sympathy, smiling tenderness, and affectionate tolerance of the greatest novelists. Thus she never shows life as it is, as the great novelists do, but an aspect or view of life - the reflex of life on the writer if you will - which colors all things with some mastering mood of him or her."" (or in other words, the reviewer thinks Edith Wharton doth project her own life too much) and ""The wife is, as a wife, an accident"" (Huh? Is he saying what I think he's saying? Also this writer's gotta be a he.)</p>
+<p>So, I did what any attention-challenged internet-age-person would do, and read the ending on Wikipedia. And that actually turned out to be a great idea. See, there's a twist. And it's a cruel twist, but a good one. Knowing the ending, I sped through the rest of the book and ended up enjoying it a lot. It makes a strong statement, one that's hard to miss, and takes a heck of a while getting there, but it is still ultimately worth the read.</p>
+</br>
+<a href="http://www.amazon.com/Boys-Boat-Americans-Berlin-Olympics/dp/0143125478/ref=as_li_ss_il?ie=UTF8&qid=1456509622&sr=8-1&keywords=he+Boys+in+the+Boat%3A+Nine+Americans+and+Their+Epic+Quest+for+Gold+at+the+1936+Berlin+Olympics&linkCode=li3&tag=3pcobr-20&linkId=b113121413759740ec8f8d88b579e1fd" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0143125478&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=3pcobr-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=3pcobr-20&l=li3&o=1&a=0143125478" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />	<h2><a href="http://amzn.to/1Q8sPEa" target="_blank">The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics</a> by Daniel James Brown (2013)</h2>	<h3> Category: Sports & Outdoors > Canoeing</h3>	<p>I loved reading 'Born to Run' last year, and in the same vein, picked up Boys in the Boat - and wasn't disappointed at all. The story drags at times, since it begins tracking the main character, a member of the final Olympic boat crew in his senior year of high school, and follows him through four more years, until he is a senior in college, when he becomes a member of the final Olympic crew. The 'making of the team' aspect gets muddled sometimes with the various characters, and the history of the dust bowl, and jarring asides that switch to the planning of the Olympics by Hitler and his favored propagandist, Riefenstahl.</p>
