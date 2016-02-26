@@ -8,6 +8,7 @@ tag:
 blog: true
 star: true
 summary: "A list of the most common markdown elements and how they look"
+permalink: markdown-common-elements
 ---
 
 ## Summary:
