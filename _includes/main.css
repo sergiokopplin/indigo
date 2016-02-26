@@ -993,6 +993,7 @@ pre {
   .side-by-side > .left-text {
     float: none;
     width: 100%;
+    margin-top: 1rem;
   }
 }
 @media only screen and (max-width: 780px) {
@@ -1005,6 +1006,11 @@ pre {
 }
 .side-by-side > figcaption {
   top: 7px;
+}
+@media only screen and (max-width: 780px) {
+  .side-by-side > figcaption {
+    top: -17px;
+  }
 }
 .social-links {
   margin-top: 20px;
