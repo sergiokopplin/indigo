@@ -1118,3 +1118,16 @@ pre {
 	letter-spacing: 1px;
 	margin: 0 0.5rem;
 }
+
+.services table {
+    width: 100%;
+}
+
+.services td {
+	width: 50%;
+}
+
+.services > td {
+    /*height: 50px; */
+    vertical-align: top;
+}
