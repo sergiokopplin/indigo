@@ -499,7 +499,8 @@ pre {
 }
 .home,
 .blog,
-.projects {
+.projects,
+.consulting {
   margin-top: 125px;
 }
 .home > .list,
