@@ -500,7 +500,7 @@ pre {
 .home,
 .blog,
 .projects,
-.consulting {
+.consulting /* arti-changes */ {
   margin-top: 125px;
 }
 .home > .list,
@@ -594,6 +594,7 @@ pre {
 }
 .about img {
   width: 50%;
+  height: 50%; /* arti-changes */
   margin: 0 auto;
   display: block;
 }
