@@ -787,9 +787,11 @@ pre {
   -webkit-transition: all 0.2s;
           transition: all 0.2s;
   box-shadow: 0;
+  opacity: 1;
 }
 .header-home > .link > .selfie:hover {
   box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15);
+  opacity: 0.8;
 }
 .header-home > .title {
   font-size: 4rem;
