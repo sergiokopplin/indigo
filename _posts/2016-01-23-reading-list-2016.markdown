@@ -61,7 +61,7 @@ That's 30 pretty diverse categories, and 30-35 is a good enough number that'll a
 
 So here we go.
 
-The books below are in the order: Books I've Read, Currently Reading and Hope To Read. And as I read the books, I will move them up to the appropriate category.
+The list categories below are in the order: Books I've Read, Currently Reading and On My Reading List. And as I read the books, I will move them up to the appropriate category.
 
 <div class="breaker"></div>
 <h2 class="title">Books I've Read</h2>
@@ -120,3 +120,27 @@ Where the book really shines is when it delves into the making of the athlete, a
 <div class="center"><a href="http://amzn.to/1UoRkQz" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/meditations.jpg" /></a></div>
 <h3><a href="http://amzn.to/1UoRkQz (better reviewed http://amzn.to/1Q8qJUU)" target="_blank">Meditations</a> by Marcus Aurelius, Martin Hammond, Diskin Clay (180 AD)</h3>
 *Category: Politics & Social Sciences > Philosophy*
+
+<div class="breaker"></div>
+<h2 class="title">On My Reading List</h2>
+---
+
+<a href="http://amzn.to/1VIYSfB" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/sapiens.jpg" /></a>
+<h3><a href="http://amzn.to/1VIYSfB" target="_blank">Sapiens: A Brief History of Humankind</a> by Yuval Noah Harari (2011)</h3>
+*Category: Anthropology*
+
+<a href="http://amzn.to/1oN14Z6" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/year-of-yes.jpg" /></a>
+<h3><a href="http://amzn.to/1oN14Z6" target="_blank">Year of Yes: How to Dance It Out, Stand In the Sun and Be Your Own Person</a> by Shonda Rhimes (2015)</h3>
+*Category: Biographies & Memoirs > Modern*
+
+<a href="http://amzn.to/1oN1ChD" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/the-origin-of-species.jpg" /></a>
+<h3><a href="http://amzn.to/1oN1ChD (lower reviews free version http://amzn.to/1LK8cu0)" target="_blank">The Origin of Species</a> by Charles Darwin (1844)</h3>
+*Category: Biology*
+
+<a href="http://amzn.to/1XPUpJ7" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/22-immutable-laws.jpg" /></a>
+<h3><a href="http://amzn.to/1XPUpJ7" target="_blank">The 22 Immutable Laws of Marketing: Violate Them at Your Own Risk</a> by Al Ries, Jack Trout (1993)</h3>
+*Category: Business & Money > Advertising*
+
+<a href="http://amzn.to/1VIZUYR" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/influence.jpg" /></a>
+<h3><a href="http://amzn.to/1VIZUYR" target="_blank">Influence: The Psychology of Persuasion</a> by Robert B. Cialdini (1984)</h3>
+*Category: Business & Money > Consumer Behavior*
