@@ -26,6 +26,8 @@ layout: default
 
 {% include author.html %}
 
-{% include disqus.html %}
+{% if site.disqus %}
+    {% include disqus.html %}
+{% endif %}
 
 {% include footer.html %}

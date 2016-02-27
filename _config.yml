@@ -13,6 +13,8 @@ markdown: kramdown
 highlighter: rouge
 
 analytics-google: 'UA-MYANALYTICS'
+
+# if you don't want comments in your posts, set to false
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
@@ -32,7 +34,7 @@ email: myemail@gmail.com
 # if you don't need projects, comment the *projects* configs below
 projects: true
 
-# if you don't need about or blog, comment them out below
+# if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
 
