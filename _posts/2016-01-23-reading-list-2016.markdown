@@ -61,13 +61,11 @@ That's 30 pretty diverse categories, and 30-35 is a good enough number that'll a
 
 So here we go.
 
-The books below are in the order: Books I've Read, Reading Currently and Hope To Read. And as I read the books, I will move them up to the appropriate category.
+The books below are in the order: Books I've Read, Currently Reading and Hope To Read. And as I read the books, I will move them up to the appropriate category.
 
 <div class="breaker"></div>
 
----
-<h2>Books I've Read</h2>
----
+<h2 class="title">Books I've Read</h2>
 
 <a href="http://amzn.to/1UoRJSV" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/thinking-with-type.jpg" /></a>
 
@@ -107,9 +105,9 @@ I loved reading [Born to Run](http://amzn.to/1Uq1m43) by Christopher McDougall l
 
 Where the book really shines is when it delves into the making of the athlete, and the constructing of the boat. The boat builder, a mysterious transplant from England, and the competing coaches of the Washington and Berkeley college teams are incredible characters and any scenes they are in just come alive.
 
----
-<h2>Reading Currently</h2>
----
+<div class="breaker"></div>
+
+<h2 class="title">Currently Reading</h2>
 
 <a href="http://amzn.to/1oN3wid" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/no-ordinary-time.jpg" /></a>	
 <h3><a href="http://amzn.to/1oN3wid" target="_blank">No ordinary time: Franklin and Eleanor Roosevelt : the home front in World War II</a> by Doris Kearns Goodwin (1994)</h3>	
