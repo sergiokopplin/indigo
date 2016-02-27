@@ -1132,3 +1132,7 @@ pre {
 .services th {
 	padding: 5px;
 }
+
+.center {
+	text-align: center;
+}
