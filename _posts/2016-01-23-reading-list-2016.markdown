@@ -25,45 +25,74 @@ So instead, I decided to pick one book from each of the major book categories li
 
 ** best, because if I'm spending that much time with anything and giving it attention and space, it'd better make for good company.
 
-Here are the categories:
+<h3>The categories:</h3>
 - Arts & Photography :o:
+
 - Biographies & Memoirs
+
 - Business & Money
+
 - Children's eBooks
+
 - Comics & Graphic Novels
+
 - Computers & Technology
+
 - Cookbooks, Food & Wine
+
 - Crafts, Hobbies & Home
+
 - Education & Teaching
+
 - Engineering & Transportation
+
 - Foreign Languages
+
 - Health, Fitness & Dieting
+
 - History
+
 - Humor & Entertainment
+
 - Law
+
 - Lesbian, Gay, Bisexual & Transgender eBooks
+
 - Literature & Fiction :o:
+
 - Medical eBooks
+
 - Mystery, Thriller & Suspense
+
 - Nonfiction
+
 - Parenting & Relationships
+
 - Politics & Social Sciences
+
 - Reference
+
 - Religion & Spirituality
+
 - Romance
+
 - Science & Math
+
 - Science Fiction & Fantasy
+
 - Self-Help
+
 - Sports & Outdoors :o:
+
 - Teen & Young Adult
 
 That's 30 pretty diverse categories, and 30-35 is a good enough number that'll average to about 3 books a month. A good number of my picks seem to have gravitated towards the Business & Money category as you will see, so down the road, I may have to compensate with overloading on other categories.
 
 So here we go.
 
-The books below are in the order: Completed, Reading and To Read. And as I read the books, I will move them up to the appropriate category.
+The books below are in the order: Books I've Read, What I'm Reading Currently and Hope To Read. And as I read the books, I will move them up to the appropriate category.
 
-<h2>Books I've read so far</h2>
+<h2>Books I've Read</h2>
 
 <a href="http://amzn.to/1UoRJSV" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/thinking-with-type.jpg" /></a>
 
@@ -79,7 +108,7 @@ Thinking with Type is the most non-textbookey textbook I've read. I was steeled 
 
 *Category: Literature & Fiction > Classics*
 
-This one was challenging. I figured, with this being such a small book (89 pages), it'd be a quick, engrossing read along the lines of 'Of Mice & Men', and I'd cross another book off my list. By the time I was half done with the book, I wanted to throw it at the wall - the depressing tone of the book never eases up. The NYTimes titling their 1911 review of this book '[Three Lives in Supreme Torture](http://query.nytimes.com/mem/archive-free/pdf?res=9E05E1D71131E233A2575BC0A9669D946096D6CF)' should be a tip off to you on how depressing this book can get.
+This one was challenging. I figured, with this being such a small book (89 pages), it'd be a quick, engrossing read along the lines of 'Of Mice & Men', and I'd cross another book off my list. By the time I was half done with the book, I wanted to throw it at the wall - the depressing tone of the book would not ease up. The NYTimes giving their 1911 review of this book the title, '[Three Lives in Supreme Torture](http://query.nytimes.com/mem/archive-free/pdf?res=9E05E1D71131E233A2575BC0A9669D946096D6CF)', is hopefully a tip off to you on how depressing this book can get.
 
 On a side note, that NYT review of Ethan Frome is pretty entertaining too. Some entertaining quotes, 
 
@@ -91,12 +120,14 @@ or in other words, the reviewer thinks Edith Wharton doth project her own life t
 
 ... Is he saying what I think he's saying? Also this writer's gotta be a he.
 
-So, not seeing any light at the end of the tunnel, I did what any attention-challenged internet-age-person would do, and read the ending on Wikipedia. And that actually turned out to be a great idea. See, there's a twist. And it's a cruel twist, but a good one. Knowing the ending, I sped through the rest of the book and ended up enjoying it a lot. It makes a strong statement, one that's hard to miss, and takes a heck of a while getting there, but it is still ultimately worth the read.
+So, back to the reading of Frome - not seeing any light at the end of the tunnel, I did what any attention-challenged internet-age-person would do, and read the ending on Wikipedia. And that actually turned out to be a great idea. See, there's a twist. And it's a cruel twist, but a good one. Knowing the ending, I sped through the rest of the book and ended up enjoying it a lot. It makes a strong statement, one that's hard to miss, and takes a heck of a while getting there, but it is still ultimately worth the read.
 
 <a href="http://amzn.to/1Q8sPEa" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/boys-in-the-boat.jpg" /></a>
 
 <h3><a href="http://amzn.to/1Q8sPEa" target="_blank">The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics</a> by Daniel James Brown (2013)</h3>	
+
 *Category: Sports & Outdoors > Canoeing* 	
+
 I loved reading 'Born to Run' last year, and in the same vein, picked up Boys in the Boat - and wasn't disappointed at all. The story drags at times, since it begins tracking the main character, a member of the final Olympic boat crew in his senior year of high school, and follows him through four more years, until he is a senior in college, when he becomes a member of the final Olympic crew. The 'making of the team' aspect gets muddled sometimes with the various characters, and the history of the dust bowl, and jarring asides that switch to the planning of the Olympics by Hitler and his favored propagandist, Riefenstahl.
 
 <h2>What I'm Reading Currently</h2>
