@@ -9,7 +9,7 @@ permalink: reading-list-2016
 jemoji: '<img class="emoji" title=":books:" alt=":books:" src="https://assets.github.com/images/icons/emoji/unicode/1f4da.png" height="20" width="20" align="absmiddle">'
 ---
 
-I've never done a reading list before.
+I've never done a reading challenge before.
 
 Over the years, I've picked up books recommended by friends, or books that were on the bestseller lists, or books mentioned in NPR interviews. This mostly worked well for me in terms of quality and depth of reading, but it has been too haphazard and I occasionally end up with long stretches of barely any reading.
 
@@ -17,7 +17,7 @@ After following along on Adventurous Kate's journey through the [Pop Sugar 2015 
 
 Then I read the [Pop Sugar 2016 Reading Challenge](http://www.popsugar.com/love/Reading-Challenge-2016-39126431) and... was intimidated.
 
-Not by the number of books or the categories, but by the sheer amount of research I'd have to do to populate the list with books I could read, looking for 'a book with a blue cover' or 'a book that takes place on an island' or 'a book that takes place during summer'. 
+Not by the number of books or the categories, but by the sheer amount of research I'd have to do to populate the list with books I could read, like looking for 'a book with a blue cover' or 'a book that takes place on an island' or 'a book that takes place during summer'. 
 
 These are great categories, no doubt, but I did not want to delay beginning the reading while I researched the best** books I could find that satisfied the categories.
 
@@ -101,7 +101,7 @@ So, back to the reading of Frome - not seeing any light at the end of the tunnel
 
 *Category: Sports & Outdoors > Canoeing* 	
 
-I loved reading [Born to Run](http://amzn.to/1Uq1m43) by Christopher McDougall last year, and in the same vein, picked up Boys in the Boat - and wasn't disappointed at all. The story drags at times, since it begins tracking the main character, a member of the final Olympic boat crew in his senior year of high school, and follows him through four more years, until he is a senior in college, when he becomes a member of the final Olympic crew. The 'making of the team' aspect gets muddled sometimes with the various characters, and the history of the dust bowl, and jarring asides that switch to the planning of the Olympics by Hitler and his favored propagandist, Riefenstahl. In these scenes, the tone switches to rose-tinted-happy-with-heavy-foreboding, and it's more distracting than helpful.
+I loved reading [Born to Run](http://amzn.to/1Uq1m43) by Christopher McDougall last year, and in the same vein, picked up Boys in the Boat - and wasn't disappointed at all. The story drags at times, since it begins tracking the main character, a member of the final Olympic boat crew, in his senior year of high school and follows him through four more years, until he is a senior in college who makes it on the final Olympics team. The 'making of the team' aspect gets muddled sometimes with the various characters, the history of the dust bowl, and jarring asides that switch to the planning of the Olympics by Hitler and his favored propagandist, Riefenstahl. In these scenes, the tone switches to rose-tinted-happy-with-heavy-foreboding, and it's more distracting than helpful.
 
 Where the book really shines is when it delves into the making of the athlete, and the constructing of the boat. The boat builder, a mysterious transplant from England, and the competing coaches of the Washington and Berkeley college teams are incredible characters and any scenes they are in just come alive.
 
@@ -125,22 +125,22 @@ Where the book really shines is when it delves into the making of the athlete, a
 <h2 class="title">On My Reading List</h2>
 ---
 
-<a href="http://amzn.to/1VIYSfB" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/sapiens.jpg" /></a>
+<div class="center"><a href="http://amzn.to/1VIYSfB" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/sapiens.jpg" /></a></div>
 <h3><a href="http://amzn.to/1VIYSfB" target="_blank">Sapiens: A Brief History of Humankind</a> by Yuval Noah Harari (2011)</h3>
 *Category: Anthropology*
 
-<a href="http://amzn.to/1oN14Z6" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/year-of-yes.jpg" /></a>
+<div class="center"><a href="http://amzn.to/1oN14Z6" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/year-of-yes.jpg" /></a></div>
 <h3><a href="http://amzn.to/1oN14Z6" target="_blank">Year of Yes: How to Dance It Out, Stand In the Sun and Be Your Own Person</a> by Shonda Rhimes (2015)</h3>
 *Category: Biographies & Memoirs > Modern*
 
-<a href="http://amzn.to/1oN1ChD" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/the-origin-of-species.jpg" /></a>
+<div class="center"><a href="http://amzn.to/1oN1ChD" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/the-origin-of-species.jpg" /></a></div>
 <h3><a href="http://amzn.to/1oN1ChD (lower reviews free version http://amzn.to/1LK8cu0)" target="_blank">The Origin of Species</a> by Charles Darwin (1844)</h3>
 *Category: Biology*
 
-<a href="http://amzn.to/1XPUpJ7" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/22-immutable-laws.jpg" /></a>
+<div class="center"><a href="http://amzn.to/1XPUpJ7" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/22-immutable-laws.jpg" /></a></div>
 <h3><a href="http://amzn.to/1XPUpJ7" target="_blank">The 22 Immutable Laws of Marketing: Violate Them at Your Own Risk</a> by Al Ries, Jack Trout (1993)</h3>
 *Category: Business & Money > Advertising*
 
-<a href="http://amzn.to/1VIZUYR" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/influence.jpg" /></a>
+<div class="center"><a href="http://amzn.to/1VIZUYR" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/influence.jpg" /></a></div>
 <h3><a href="http://amzn.to/1VIZUYR" target="_blank">Influence: The Psychology of Persuasion</a> by Robert B. Cialdini (1984)</h3>
 *Category: Business & Money > Consumer Behavior*
