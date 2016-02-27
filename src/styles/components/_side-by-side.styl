@@ -1,46 +1,43 @@
 .side-by-side
     +above(780px)
         width 130%
-        margin 4rem 0 0 -15%
+        margin 6rem 0 6rem -15%
 
     +below(780px)
         width 100%
-        margin 4rem 0 0
+        margin 4rem 0
 
-    > .left-image
-        float left
-        width 48%
+    > .toleft,
+    > .toright
+        display inline-block
+        width 47.5%
 
-    > .right-image
-        float right
-        width 48%
+        +below(780px)
+            img
+                text-align center
+                display block
+                margin 0 auto
 
-    > .left-text
-        float left
-        width 48%
+    > .toleft
+        +above(780px)
+            margin-right 2%
+
+        +below(780px)
+            width 100%
+            margin 0 0 4rem 0
+
+    > .toright
+        +above(780px)
+            margin-left 2%
+            vertical-align top
+
+        +below(780px)
+            width 100%
+            margin 0 0 4rem 0
+
+    > .toleft > p,
+    > .toright > p
         margin 0 0 4rem 0
 
-    > .right-text
-        float right
-        width 48%
-        margin 0 0 4rem 0
-
-    > .right-text,
-    > .left-text
         +below(780px)
-            float none
-            width 100%
-            margin-top 1rem
-
-    > .right-image,
-    > .left-image
-        +below(780px)
-            float none
-            width 100%
-            margin-bottom 2rem
-
-    > figcaption
-        top 7px
-
-        +below(780px)
-            top -17px
+            margin 0
