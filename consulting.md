@@ -36,5 +36,5 @@ permalink: /consulting/index.html
 
 <p>Have a different kind of data problem? Send me a quick note at my email below and I'd be happy to work with you on possible solutions.</p>
 
-[Contact Info](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/custom/contact.png)
+![Contact Info](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/custom/contact.png)
 
