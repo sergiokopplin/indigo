@@ -7,8 +7,6 @@ tag:
 - components
 - extra
 blog: true
-star: false
-draft: false
 summary: "Extra markdown components like highlighted text, side-by-side items, starring/highlighting a blog or project, and embedding gists, videos etc"
 permalink: markdown-extra-components
 ---

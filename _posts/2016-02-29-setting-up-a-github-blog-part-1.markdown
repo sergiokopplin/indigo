@@ -4,8 +4,6 @@ layout: post
 date: 2016-02-27 10:00
 tag: blog-setup
 blog: true
-star: false
-draft: false
 summary: "A step by step "
 permalink: setting-up-a-github-blog-part-1
 ---
