@@ -392,18 +392,18 @@ pre {
 }
 .wrapper {
   height: 100%;
-  max-width: 560px; /* arti-changes; original: 560px */
+  max-width: 820px; /* arti-changes; original: 560px */
   width: 96%;
   margin: 0 auto;
 }
 @media only screen and (max-width: 400px) {
   .wrapper {
-    width: 88%; /* arti-changes; original: 88% */
+    width: 95%; /* arti-changes; original: 88% */
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   .wrapper {
-    width: 88%; /* arti-changes; original: 88% */
+    width: 95%; /* arti-changes; original: 88% */
   }
 }
 .text-center {
