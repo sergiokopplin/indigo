@@ -1,11 +1,11 @@
 ---
-title: "Testing a draft post"
+title: "Setting up a personal site and blog with github"
 layout: post
 date: 2016-02-27 10:00
-tag: books
+tag: blog-setup
 blog: true
-summary: "Testing a draft post to make sure it doesn't show up in the main list of blog posts"
-permalink: draft-post
+summary: "A step by step "
+permalink: setting-up-a-github-blog-part-1
 draft: true
 ---
 
