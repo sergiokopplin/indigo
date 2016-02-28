@@ -1,0 +1,23 @@
+---
+title: "Testing a draft post"
+layout: post
+date: 2016-02-27 10:00
+tag: books
+blog: true
+summary: "Testing a draft post to make sure it doesn't show up in the main list of blog posts"
+permalink: draft-post
+---
+
+## Summary:
+
+You can pick as item to see how to apply in markdown.
+
+## Basic formatting
+
+This note **demonstrates** some of what [Markdown][1] is *capable of doing*.
+
+And that's how to do it.
+
+{% highlight html %}
+This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.
+{% endhighlight %}
