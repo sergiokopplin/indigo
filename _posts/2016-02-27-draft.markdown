@@ -6,7 +6,7 @@ tag: books
 blog: true
 summary: "Testing a draft post to make sure it doesn't show up in the main list of blog posts"
 permalink: draft-post
-published: false
+draft: true
 ---
 
 ## Summary:
