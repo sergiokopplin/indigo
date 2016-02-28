@@ -398,12 +398,12 @@ pre {
 }
 @media only screen and (max-width: 400px) {
   .wrapper {
-    width: 88%;
+    width: 95%; /* arti-changes; original: 88% */
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   .wrapper {
-    width: 88%;
+    width: 95%; /* arti-changes; original: 88% */
   }
 }
 .text-center {
@@ -443,13 +443,13 @@ pre {
 @media only screen and (max-width: 400px) {
   .bigger-image {
     min-width: 114%;
-    margin: 2rem 0 2rem 0; /* arti-changes; margin: 2rem 0 2rem -7%; */
+    margin: 2rem 0 2rem -3%; /* arti-changes; margin: 2rem 0 2rem -7%; */
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   .bigger-image {
     min-width: 114%;
-    margin: 2rem 0 2rem 0; /* arti-changes; margin: 2rem 0 2rem -7%; */
+    margin: 2rem 0 2rem -3%; /* arti-changes; margin: 2rem 0 2rem -7%; */
   }
 }
 .breaker {
