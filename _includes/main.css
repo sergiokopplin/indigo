@@ -398,12 +398,12 @@ pre {
 }
 @media only screen and (max-width: 400px) {
   .wrapper {
-    width: 95%; /* arti-changes; original: 88% */
+    width: 88%; /* arti-changes; original: 88% */
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   .wrapper {
-    width: 95%; /* arti-changes; original: 88% */
+    width: 88%; /* arti-changes; original: 88% */
   }
 }
 .text-center {
