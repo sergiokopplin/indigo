@@ -35,11 +35,14 @@ So, without further ado, here's the process that's got me this far.
 - [.. A Starting Point](#starting-point)
 - [1. Buying A Domain](#buying-domain)
 - [2. Setting up GitHub](#github-repository)
+- &nbsp;&nbsp;&nbsp; [Option 1. Fork an existing repo](#fork-repo)
+- &nbsp;&nbsp;&nbsp; [Option 2. Start with an empty repo](#empty-repo)
+- &nbsp;&nbsp;&nbsp; [Bonus - Configure a Remote Link](#bonus-option-1)
 - [3. Redirecting DNS Nameservers](#dns-nameservers)
 - [4. Creating a CNAME file](#cname)
 
-<div class="breaker"></div>
-<a id="starting-point"></a>
+<div class="breaker"></div> <a id="starting-point"></a>
+
 ## 0. Everyone needs a starting point 
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
@@ -90,13 +93,16 @@ So, you need to do the following to get set up on GitHub:
 - Pick a username you can tell your grandmother without making her blush. Also pick a short one - this doesn't need to look like your resume name either. Mine is aannasw, for example.
 - Download and install a copy of GitHub desktop, especially if you don't want to be using git code.
 
+Now here's the part where I had to start over. 
+
 **Lessons Learned - Forking a Repo vs Download/Upload Zip**
-Now here's the part where I had to start over. If you are starting with an existing github theme, especially one that's being actively worked on, the developer of the theme may want you to 'fork' the theme from their repository. It creates a link from your repository to theirs, and you can also more easily update your copy of it when they make changes to their theme.
+If you are starting with an existing github theme, especially one that's being actively worked on, the developer of the theme may want you to 'fork' the theme from their repository. It creates a link from your repository to theirs, and you can also more easily update your copy of it when they make changes to their theme.
 
 **Lessons Learned - Modifying a Theme's Structure**
-I also figured I could pretty easily modify an existing blog theme that had the blog on the front page, to something that had a landing page, and a link to the blog page. I ended up chasing my tail for several weeks before I decided to look for a theme already set up the way I wanted, and start over with that.
+I also figured I could pretty easily modify an existing blog theme that had the blog on the front page, to something that had a landing page + a link to the blog page. I ended up chasing my tail for several weeks before I decided to look for a theme already set up the way I wanted, and start over with that.
 
 The theme I ultimately went with is the [Indigo theme](http://koppl.in/indigo) by [Sérgio Kopplin](http://koppl.in).
+<a id="fork-repo"></a>
 
 #### Option 1 - Fork an existing repository
 
@@ -113,8 +119,9 @@ The theme I ultimately went with is the [Indigo theme](http://koppl.in/indigo) b
 
 - Type in the url http://yourusername.github.io and you should now see the theme you just forked.
 - You're done for now, but if you have the patience for some git code, check out the 'Bonus Section for Option 1' below, after Option 2.
+<a id="empty-repo"></a>
 
-#### Option 2 - Start with an empty repository and upload a .zip theme file or DIY it
+#### Option 2 - Start with an empty repository and copy a .zip theme file or DIY it
 
 - Go to your GitHub account and create a new repository and <span class="evidence">name it like so: yourusername.github.io</span>. **This is important**. Mine, for example, is aannasw.github.io.
 - Click the 'Save to your Desktop' icon. This will create an empty folder inside your GitHub repositories folder.
@@ -136,19 +143,20 @@ The theme I ultimately went with is the [Indigo theme](http://koppl.in/indigo) b
 
 - Hit 'Ctrl + S' on your keyboard, or click the 'Sync' button on the top right of your GitHub desktop, and after all the changes have gone through, wait for about 5 seconds for GitHub to build your site and display it.
 - Type in the url http://yourusername.github.io and you should now see the theme you just uploaded to your repository.
+<a id="bonus-option-1"></a>
 
 <span class="evidence">**Bonus section for Option 1**</span>
 
 If you have the patience for some git code, this will help set up a back end connection between your repository and your source theme repository, so that any changes made by the theme developer will show up in your GitHub Desktop as a clickable button that says 'Update from sourceuser/sourcerepo'. 
 
-You may not always want to make every change, especially if it overrides customizations you've made, but it helps when the theme developer adds new features or fixes bugs.
-
-Also, I only know how to do this on a Mac. Google the keywords in the articles for the Windows equivalent.
+**Note** - *You may not always want to make every change, especially if it overrides customizations you've made*, but it helps when the theme developer adds new features or fixes bugs.
 
 **GitHub Help articles to get started with:**
 
 - <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 - <https://help.github.com/articles/syncing-a-fork/>
+
+#### Configuring a remote link
 
 - Open up your Terminal. Git comes pre-installed in your Terminal, so no need to install anything further
 - Change the directory to get to your website repository
@@ -157,7 +165,7 @@ $ cd Github
 $ cd aannasw.github.io
 {% endhighlight %}
 
-- Type in ````remote -v```` to see what the current remote status is. It should look like this:
+- Type in ````git remote -v```` to see what the current remote status is. It should look like this:
 {% highlight raw %}
 $ git remote -v
 origin	https://github.com/aannasw/aannasw.github.io.git (fetch)
@@ -191,15 +199,15 @@ $ git merge upstream/gh-pages
 Already up-to-date.
 {% endhighlight %}
 
-````
+- With either of the routes above, you may end up with changes you don't want to merge, as those may override 
 
-<div class="breaker"></div><a id="dns-nameservers"></a>
+<div class="breaker"></div> <a id="dns-nameservers"></a>
 
 ## 3. Redirecting your domain (DNS Nameservers) to point to GitHub 
 
 I dusted off my logins to GoDaddy, and after following David Ensinger's post recommended in the article above, [Setting the DNS for GitHub Pages on Namecheap](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) and Andrew Sturges' post on [Configuring a Godaddy domain name with github pages](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html), I had successfully redirected my domain to point to GitHub.
 
-<div class="breaker"></div><a id="cname"></a>
+<div class="breaker"></div> <a id="cname"></a>
 
 ## 4. Creating a CNAME file 
 
