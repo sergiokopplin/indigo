@@ -85,7 +85,7 @@ Now here's the part where I had to start over. If you are starting with an exist
 
 #### Option 1 - Fork an existing repository
 
-![Fork a repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/fork.png)
+<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/fork.png" />
 
 - Browse through the themes listed on [jekyllthemes.org](http://jekyllthemes.org/), play with the demos, check out all the features, and if they have the files hosted on Github, follow the link to their repository
 - Log in to your GitHub account
@@ -94,7 +94,7 @@ Now here's the part where I had to start over. If you are starting with an exist
 - Go to the repository settings and <span class="evidence">rename it like so: yourusername.github.io</span>. **This is important**. Mine, for example, is aannasw.github.io.
 - Click the 'Save to your Desktop' icon to download all the files to your desktop.
 
-![Download a repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo.png)
+<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo.png" />
 
 - Type in the url http://yourusername.github.io and you should now see the theme you just forked.
 
@@ -104,20 +104,20 @@ Now here's the part where I had to start over. If you are starting with an exist
 - Go to your GitHub account and create a new repository and <span class="evidence">name it like so: yourusername.github.io</span>. **This is important**. Mine, for example, is aannasw.github.io.
 - Click the 'Save to your Desktop' icon. This will create an empty folder inside your GitHub repositories folder.
 
-![Download your repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo2.png)
+<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo2.png" />
 
 - Find a theme you like, and download the zip file to your desktop
 
-![Download a zip](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadzip.png)
+<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadzip.png" />
 
 - Extract the contents and copy everything over to your empty username.github.io repository
 - Launch your GitHub Desktop, and you will see that the new repository you created now shows several files in a list, with the tab titled '# Uncommitted Changes'. 
 
-![Uncommitted Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/uncommittedchanges.png)
+<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/uncommittedchanges.png" />
 
 - Type up a description for the update you're about to send to your github and click 'Commit to Master'
 
-![Commit Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/commitchanges.png)
+<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/commitchanges.png" />
 
 - Hit 'Ctrl + S' on your keyboard, or click the 'Sync' button on the top right of your GitHub desktop, and after all the changes have gone through, wait for about 5 seconds for GitHub to build your site and display it.
 - Type in the url http://yourusername.github.io and you should now see the theme you just uploaded to your repository.
@@ -141,7 +141,7 @@ This would be a good time to download TextWrangler (Mac) or Notepad++ (Windows) 
 - Type in your domain name like so: **domainname.com** without any www or http in the front. My CNAME file just has that one snippet of text: artiannaswamy.com.
 - Save the file
 
-![CNAME file](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/cname.png)
+<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/cname.png" />
 
 - Go to GitHub Desktop, and you should see one uncommitted change for the edit you made to the CNAME file. Type a short update summary and commit this change.
 - Wait for a few seconds, and then type in your <span class="evidence">personal domain name</span> in a *different* browser than the one you normally use, and if it has a private mode, use that. The browser you regularly use might have cached history that could confuse things, and you want to see how the world will see your domain.
