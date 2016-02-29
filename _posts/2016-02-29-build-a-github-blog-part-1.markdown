@@ -103,8 +103,10 @@ Now here's the part where I had to start over. If you are starting with an exist
 - Click the 'Save to your Desktop' icon. This will create an empty folder inside your GitHub repositories folder.![Download your repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo2.png)
 - Find a theme you like, and download the zip file to your desktop![Download a zip](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadzip.png)
 - Extract the contents and copy everything over to your empty username.github.io repository
-- Launch your GitHub Desktop, and you will see that the new repository you created now shows several files in a list, with the tab titled '# Uncommitted Changes'. ![Uncommitted Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/uncommittedchanges.png)
-- Type up a description for the update you're about to send to your github and click 'Commit to Master'![Commit Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/commitchanges.png)
+- Launch your GitHub Desktop, and you will see that the new repository you created now shows several files in a list, with the tab titled '# Uncommitted Changes'. 
+![Uncommitted Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/uncommittedchanges.png)
+- Type up a description for the update you're about to send to your github and click 'Commit to Master'
+![Commit Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/commitchanges.png)
 - Hit 'Ctrl + S' on your keyboard, or click the 'Sync' button on the top right of your GitHub desktop, and after all the changes have gone through, wait for about 5 seconds for GitHub to build your site and display it.
 - Type in the url http://yourusername.github.io and you should now see the theme you just uploaded to your repository.
 
@@ -112,7 +114,7 @@ Now here's the part where I had to start over. If you are starting with an exist
 
 ## 3. Redirecting your domain (DNS Nameservers) to point to GitHub
 
-I dusted off my logins to GoDaddy, and with the help of David Ensinger's post recommended in the article above, [Setting the DNS for GitHub Pages on Namecheap](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) and Andrew Sturges' post on [Configuring a Godaddy domain name with github pages](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html), I had successfully redirected my domain to point to GitHub.
+I dusted off my logins to GoDaddy, and after following David Ensinger's post recommended in the article above, [Setting the DNS for GitHub Pages on Namecheap](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) and Andrew Sturges' post on [Configuring a Godaddy domain name with github pages](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html), I had successfully redirected my domain to point to GitHub.
 
 <div class="breaker"></div>
 
@@ -120,7 +122,7 @@ I dusted off my logins to GoDaddy, and with the help of David Ensinger's post re
 
 So, if you finished the step above to redirect your domain, you must have created or updated the 'CNAME' of your domain. GitHub doesn't know what your domain is, so you now have to create a file in your new repository to connect it up from this end.
 
-This would be a good time to download TextWrangler (Mac) or Notepad++ (Windows) or your advanced text editor of choice, if you don't already have it installed. It's a more advanced version of TextEdit / Notepad, and you will need this going forward if you want to maintain this blog.
+This would be a good time to download TextWrangler (Mac) or Notepad++ (Windows) or your advanced text editor of choice, if you don't already have it installed. It's a more advanced version of TextEdit / Notepad, and you will need this going forward if you want to maintain your blog.
 
 - Go to your repository folder and find the file called 'CNAME'. If you've downloaded a theme maintained specifically for download and reuse, they'll have a file named CNAME in there.
 - Double-click on it, and hope it opens up in your text editor. If it doesn't, open up the text editor and then browse to and open this file.
@@ -128,8 +130,13 @@ This would be a good time to download TextWrangler (Mac) or Notepad++ (Windows) 
 - Save the file
 ![CNAME file](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/cname.png)
 - Go to GitHub Desktop, and you should see one uncommitted change for the edit you made to the CNAME file. Type a short update summary and commit this change.
-- Wait for a few seconds, and then type in your **personal domain name** in a different browser than the one you normally use (the browser you regularly use might have cached history that could confuse things, and you want to see how the world will see your domain)
-- What hopefully happens at this stage is, the theme you uploaded to your new repository on GitHub now shows up when you go to your domain name (If it doesn't, go through all the steps above again, read all the linked articles and google until you find the answer. Like I said, this is the fun part).
+- Wait for a few seconds, and then type in your <span class="evidence">personal domain name</span> in a *different* browser than the one you normally use, and if it has a private mode, use that. The browser you regularly use might have cached history that could confuse things, and you want to see how the world will see your domain.
+- What hopefully happens at this stage is, the theme you uploaded to your new repository on GitHub now shows up when you go to your domain name.
+- If it doesn't, go through all the steps above again, read all the linked articles and google until you find the answer. Like I said, this is the fun part.
 
-**You now have a live website.**
+<h2 class="title">You now have a live website.</h2>
+
+Stay tuned for how you can modify content, add new pages, set custom post URLs, add tags, and create a dynamic tag index in the part 2 of this post.
+
+<div class="breaker"></div>
 
