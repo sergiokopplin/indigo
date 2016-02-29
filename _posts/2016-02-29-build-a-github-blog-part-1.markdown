@@ -128,7 +128,9 @@ This would be a good time to download TextWrangler (Mac) or Notepad++ (Windows) 
 - Double-click on it, and hope it opens up in your text editor. If it doesn't, open up the text editor and then browse to and open this file.
 - Type in your domain name like so: **domainname.com** without any www or http in the front. My CNAME file just has that one snippet of text: artiannaswamy.com.
 - Save the file
+
 ![CNAME file](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/cname.png)
+
 - Go to GitHub Desktop, and you should see one uncommitted change for the edit you made to the CNAME file. Type a short update summary and commit this change.
 - Wait for a few seconds, and then type in your <span class="evidence">personal domain name</span> in a *different* browser than the one you normally use, and if it has a private mode, use that. The browser you regularly use might have cached history that could confuse things, and you want to see how the world will see your domain.
 - What hopefully happens at this stage is, the theme you uploaded to your new repository on GitHub now shows up when you go to your domain name.
@@ -136,7 +138,7 @@ This would be a good time to download TextWrangler (Mac) or Notepad++ (Windows) 
 
 <h2 class="title">You now have a live website.</h2>
 
-Stay tuned for how you can modify content, add new pages, set custom post URLs, add tags, and create a dynamic tag index in the part 2 of this post.
+Stay tuned for how you can modify content, add new pages, set custom post URLs, create a hidden draft feature, add tags, and create a dynamic tag index in the part 2 of this post.
 
 <div class="breaker"></div>
 
