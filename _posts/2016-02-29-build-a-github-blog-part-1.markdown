@@ -43,13 +43,13 @@ I had bought my domain artiannaswamy.com several years ago on GoDaddy, and every
 
 There are a lot of articles recommending good domain name registrars and telling you what to watch out for - everything ranging from customer service, transfer fees, selling your info to shady marketers and so on. I'd read these and do your research, especially if you find a new registrar with a great price on the domain you want, but no reviews to go on.
 
-GoDaddy is the better known brand name, but a domain name registrar I've seen recommended quite often is **NameCheap**. 
+GoDaddy is the better known brand name, but another company I've seen recommended quite often is **NameCheap**. 
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; a. Private Registration
 
 With most of the registrars out there, you pay one price per year for registering the domain, and another extra charge per year to protect your privacy, so they don't put your name and address up publicly as the owner of the domain. 
 
-I always tack on the extra private registration charge, and GoDaddy and most other bigger registrars often have good coupons and deals if you're ready to commit to your domain for a long time. 
+I always tack on the extra private registration charge, and GoDaddy and most other bigger companies often have good coupons and deals if you're ready to commit to your domain for a long time. 
 
 #### &nbsp;&nbsp;&nbsp;&nbsp; b. Google and Amazon are in this business too
 
@@ -85,7 +85,7 @@ Now here's the part where I had to start over. If you are starting with an exist
 
 #### Option 1 - Fork an existing repository
 
-<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/fork.png" />
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/fork.png" /></div>
 
 - Browse through the themes listed on [jekyllthemes.org](http://jekyllthemes.org/), play with the demos, check out all the features, and if they have the files hosted on Github, follow the link to their repository
 - Log in to your GitHub account
@@ -94,7 +94,7 @@ Now here's the part where I had to start over. If you are starting with an exist
 - Go to the repository settings and <span class="evidence">rename it like so: yourusername.github.io</span>. **This is important**. Mine, for example, is aannasw.github.io.
 - Click the 'Save to your Desktop' icon to download all the files to your desktop.
 
-<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo.png" />
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo.png" /></div>
 
 - Type in the url http://yourusername.github.io and you should now see the theme you just forked.
 
@@ -104,20 +104,20 @@ Now here's the part where I had to start over. If you are starting with an exist
 - Go to your GitHub account and create a new repository and <span class="evidence">name it like so: yourusername.github.io</span>. **This is important**. Mine, for example, is aannasw.github.io.
 - Click the 'Save to your Desktop' icon. This will create an empty folder inside your GitHub repositories folder.
 
-<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo2.png" />
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo2.png" /></div>
 
 - Find a theme you like, and download the zip file to your desktop
 
-<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadzip.png" />
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadzip.png" /></div>
 
 - Extract the contents and copy everything over to your empty username.github.io repository
 - Launch your GitHub Desktop, and you will see that the new repository you created now shows several files in a list, with the tab titled '# Uncommitted Changes'. 
 
-<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/uncommittedchanges.png" />
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/uncommittedchanges.png" /></div>
 
 - Type up a description for the update you're about to send to your github and click 'Commit to Master'
 
-<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/commitchanges.png" />
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/commitchanges.png" /></div>
 
 - Hit 'Ctrl + S' on your keyboard, or click the 'Sync' button on the top right of your GitHub desktop, and after all the changes have gone through, wait for about 5 seconds for GitHub to build your site and display it.
 - Type in the url http://yourusername.github.io and you should now see the theme you just uploaded to your repository.
@@ -141,7 +141,7 @@ This would be a good time to download TextWrangler (Mac) or Notepad++ (Windows) 
 - Type in your domain name like so: **domainname.com** without any www or http in the front. My CNAME file just has that one snippet of text: artiannaswamy.com.
 - Save the file
 
-<img class="center" src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/cname.png" />
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/cname.png" /></div>
 
 - Go to GitHub Desktop, and you should see one uncommitted change for the edit you made to the CNAME file. Type a short update summary and commit this change.
 - Wait for a few seconds, and then type in your <span class="evidence">personal domain name</span> in a *different* browser than the one you normally use, and if it has a private mode, use that. The browser you regularly use might have cached history that could confuse things, and you want to see how the world will see your domain.
