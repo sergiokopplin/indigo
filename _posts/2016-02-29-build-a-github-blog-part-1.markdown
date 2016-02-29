@@ -39,14 +39,14 @@ So, without further ado, here's the process that's got me this far.
 - [4. Creating a CNAME file](#cname)
 
 <div class="breaker"></div>
-
-## 0. Everyone needs a starting point <a id="starting-point"></a>
+<a id="starting-point"></a>
+## 0. Everyone needs a starting point 
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
 
 <div class="breaker"></div>
-
-## 1. Buying a domain <a id="buying-domain"></a>
+<a id="buying-domain"></a>
+## 1. Buying a domain 
 
 I had bought my domain artiannaswamy.com several years ago on GoDaddy, and every time I renewed it, I re-upped for the longest possible time (5 years, I think), so that part was set. We will return to this one in the section on redirecting DNS nameservers (English: pointing your domain to Github to look for your website).
 
@@ -77,8 +77,8 @@ Basically, make sure the following is squared away:
 - Turn off auto renewal if you want to shop around, but put a reminder for yourself
 
 <div class="breaker"></div>
-
-## 2. Setting up your Github repository <a id="github-repository"></a>
+ <a id="github-repository"></a>
+## 2. Setting up your Github repository
 
 This was one of those paths I mentioned earlier that led to a dead-end and a do over. You may end up having to do things over even after I've given you a heads-up, but hey, that's the fun of this.
 
@@ -194,14 +194,14 @@ Already up-to-date.
 ````
 
 <div class="breaker"></div>
-
-## 3. Redirecting your domain (DNS Nameservers) to point to GitHub <a id="dns-nameservers"></a>
+<a id="dns-nameservers"></a>
+## 3. Redirecting your domain (DNS Nameservers) to point to GitHub 
 
 I dusted off my logins to GoDaddy, and after following David Ensinger's post recommended in the article above, [Setting the DNS for GitHub Pages on Namecheap](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) and Andrew Sturges' post on [Configuring a Godaddy domain name with github pages](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html), I had successfully redirected my domain to point to GitHub.
 
 <div class="breaker"></div>
-
-## 4. Creating a CNAME file <a id="cname"></a>
+<a id="cname"></a>
+## 4. Creating a CNAME file 
 
 So, if you finished the step above to redirect your domain, you must have created or updated the 'CNAME' of your domain. GitHub doesn't know what your domain is, so you now have to create a file in your new repository to connect it up from this end.
 
