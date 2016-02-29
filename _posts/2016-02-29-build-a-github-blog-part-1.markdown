@@ -31,21 +31,22 @@ So, without further ado, here's the process that's got me this far.
 
 <div class="breaker"></div>
 
-### Index
-- [Buying A Domain](#buying-a-domain)
-- [Setting up GitHub](#setting-up-your-github-repository)
-- [Redirecting DNS Nameservers](#redirecting-your-dns-nameservers)
-- [Creating a CNAME file](#creating-a-cname-file)
+## Index
+- [.. A Starting Point](#starting-point)
+- [1. Buying A Domain](#buying-domain)
+- [2. Setting up GitHub](#github-repository)
+- [3. Redirecting DNS Nameservers](#dns-nameservers)
+- [4. Creating a CNAME file](#cname)
 
 <div class="breaker"></div>
 
-## Everyone needs a starting point
+## 0. Everyone needs a starting point <a id="starting-point"></a>
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
 
 <div class="breaker"></div>
 
-## Buying a domain
+## 1. Buying a domain <a id="buying-domain"></a>
 
 I had bought my domain artiannaswamy.com several years ago on GoDaddy, and every time I renewed it, I re-upped for the longest possible time (5 years, I think), so that part was set. We will return to this one in the section on redirecting DNS nameservers (English: pointing your domain to Github to look for your website).
 
@@ -77,7 +78,7 @@ Basically, make sure the following is squared away:
 
 <div class="breaker"></div>
 
-## Setting up your Github repository
+## 2. Setting up your Github repository <a id="github-repository"></a>
 
 This was one of those paths I mentioned earlier that led to a dead-end and a do over. You may end up having to do things over even after I've given you a heads-up, but hey, that's the fun of this.
 
@@ -136,7 +137,7 @@ The theme I ultimately went with is the [Indigo theme](http://koppl.in/indigo) b
 - Hit 'Ctrl + S' on your keyboard, or click the 'Sync' button on the top right of your GitHub desktop, and after all the changes have gone through, wait for about 5 seconds for GitHub to build your site and display it.
 - Type in the url http://yourusername.github.io and you should now see the theme you just uploaded to your repository.
 
-##### Bonus section for Option 1
+<span class="evidence">**Bonus section for Option 1**</span>
 
 If you have the patience for some git code, this will help set up a back end connection between your repository and your source theme repository, so that any changes made by the theme developer will show up in your GitHub Desktop as a clickable button that says 'Update from sourceuser/sourcerepo'. 
 
@@ -149,34 +150,58 @@ Also, I only know how to do this on a Mac. Google the keywords in the articles f
 - <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 - <https://help.github.com/articles/syncing-a-fork/>
 
-````git
+- Open up your Terminal. Git comes pre-installed in your Terminal, so no need to install anything further
+- Change the directory to get to your website repository
+{% highlight raw %}
+$ cd Github
+$ cd aannasw.github.io
+{% endhighlight %}
 
-Artis-MacBook-Pro:~ Arti$ 		cd Github
-Artis-MacBook-Pro:Github Arti$ 	cd aannasw.github.io
-Artis-MacBook-Pro:aannasw.github.io Arti$ 		git remote -v
+- Type in ````remote -v```` to see what the current remote status is. It should look like this:
+{% highlight raw %}
+$ git remote -v
+origin	https://github.com/aannasw/aannasw.github.io.git (fetch)
+origin	https://github.com/aannasw/aannasw.github.io.git (push)
+{% endhighlight %}
+
+- Log in to GitHub in your browser, and go to the source page of your theme
+- Click on the 'Copy to Clipboard' icon to copy the url of the source repo
+
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/copyclipboard.png" /></div>
+
+- Return to Terminal and type in ````git remote add upstream <the-url-you-just-copied>.```` Then re-type ````git remote -v```` to confirm the remote upstream link.
+{% highlight raw %}
+$ git remote add upstream https://github.com/sergiokopplin/indigo.git
+$ git remote -v
 origin	https://github.com/aannasw/aannasw.github.io.git (fetch)
 origin	https://github.com/aannasw/aannasw.github.io.git (push)
 sergiokopplin	https://github.com/sergiokopplin/indigo.git (fetch)
 sergiokopplin	https://github.com/sergiokopplin/indigo.git (push)
 upstream	https://github.com/sergiokopplin/indigo.git (fetch)
 upstream	https://github.com/sergiokopplin/indigo.git (push)
-Artis-MacBook-Pro:aannasw.github.io Arti$ git fetch upstream
+{% endhighlight %}
+
+- You can check for the latest updates by entering ````git fetch upstream```` and ````git merge upstream/gh-pages````, or by clicking on the 'Update from sourceuser/sourcerepo' button in your GitHub Desktop
+
+{% highlight raw %}
+$ git fetch upstream
 From https://github.com/sergiokopplin/indigo
  * [new branch]      gh-pages   -> upstream/gh-pages
-Artis-MacBook-Pro:aannasw.github.io Arti$ git merge upstream/gh-pages
+$ git merge upstream/gh-pages
 Already up-to-date.
+{% endhighlight %}
 
 ````
 
 <div class="breaker"></div>
 
-## Redirecting your DNS Nameservers
+## 3. Redirecting your domain (DNS Nameservers) to point to GitHub <a id="dns-nameservers"></a>
 
 I dusted off my logins to GoDaddy, and after following David Ensinger's post recommended in the article above, [Setting the DNS for GitHub Pages on Namecheap](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) and Andrew Sturges' post on [Configuring a Godaddy domain name with github pages](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html), I had successfully redirected my domain to point to GitHub.
 
 <div class="breaker"></div>
 
-## 4. Creating a CNAME file
+## 4. Creating a CNAME file <a id="cname"></a>
 
 So, if you finished the step above to redirect your domain, you must have created or updated the 'CNAME' of your domain. GitHub doesn't know what your domain is, so you now have to create a file in your new repository to connect it up from this end.
 
