@@ -81,7 +81,13 @@ So, you need to do the following to get set up on GitHub:
 - Pick a username you can tell your grandmother without making her blush. Also pick a short one - this doesn't need to look like your resume name either. Mine is aannasw, for example.
 - Download and install a copy of GitHub desktop, especially if you don't want to be using git code.
 
+**Lessons Learned - Forking a Repo vs Download/Upload Zip**
 Now here's the part where I had to start over. If you are starting with an existing github theme, especially one that's being actively worked on, the developer of the theme may want you to 'fork' the theme from their repository. It creates a link from your repository to theirs, and you can also more easily update your copy of it when they make changes to their theme.
+
+**Lessons Learned - Modifying a Theme's Structure**
+I also figured I could pretty easily modify an existing blog theme that had the blog on the front page, to something that had a landing page, and a link to the blog page. I ended up chasing my tail for several weeks before I decided to look for a theme already set up the way I wanted, and start over with that.
+
+The theme I ultimately went with is the [Indigo theme](http://koppl.in/indigo) by [Sérgio Kopplin](http://koppl.in).
 
 #### Option 1 - Fork an existing repository
 
@@ -97,7 +103,7 @@ Now here's the part where I had to start over. If you are starting with an exist
 <div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo.png" /></div>
 
 - Type in the url http://yourusername.github.io and you should now see the theme you just forked.
-
+- You're done for now, but if you have the patience for some git code, check out the 'Bonus Section for Option 1' below, after Option 2.
 
 #### Option 2 - Start with an empty repository and upload a .zip theme file or DIY it
 
@@ -106,7 +112,7 @@ Now here's the part where I had to start over. If you are starting with an exist
 
 <div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo2.png" /></div>
 
-- Find a theme you like, and download the zip file to your desktop
+- Go to [jekyllthemes.org](http://jekyllthemes.org/), find a theme you like, and download the zip file to your desktop
 
 <div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadzip.png" /></div>
 
@@ -121,6 +127,37 @@ Now here's the part where I had to start over. If you are starting with an exist
 
 - Hit 'Ctrl + S' on your keyboard, or click the 'Sync' button on the top right of your GitHub desktop, and after all the changes have gone through, wait for about 5 seconds for GitHub to build your site and display it.
 - Type in the url http://yourusername.github.io and you should now see the theme you just uploaded to your repository.
+
+##### Bonus section for Option 1
+
+If you have the patience for some git code, this will help set up a back end connection between your repository and your source theme repository, so that any changes made by the theme developer will show up in your GitHub Desktop as a clickable button that says 'Update from sourceuser/sourcerepo'. 
+
+You may not always want to make every change, especially if it overrides customizations you've made, but it helps when the theme developer adds new features or fixes bugs.
+
+Also, I only know how to do this on a Mac. Google the keywords in the articles for the Windows equivalent.
+
+**GitHub Help articles**
+<https://help.github.com/articles/configuring-a-remote-for-a-fork/>
+<https://help.github.com/articles/syncing-a-fork/>
+
+{% highlight raw %}
+
+Artis-MacBook-Pro:~ Arti$ cd Github
+Artis-MacBook-Pro:Github Arti$ cd aannasw.github.io
+Artis-MacBook-Pro:aannasw.github.io Arti$ git remote -v
+origin	https://github.com/aannasw/aannasw.github.io.git (fetch)
+origin	https://github.com/aannasw/aannasw.github.io.git (push)
+sergiokopplin	https://github.com/sergiokopplin/indigo.git (fetch)
+sergiokopplin	https://github.com/sergiokopplin/indigo.git (push)
+upstream	https://github.com/sergiokopplin/indigo.git (fetch)
+upstream	https://github.com/sergiokopplin/indigo.git (push)
+Artis-MacBook-Pro:aannasw.github.io Arti$ git fetch upstream
+From https://github.com/sergiokopplin/indigo
+ * [new branch]      gh-pages   -> upstream/gh-pages
+Artis-MacBook-Pro:aannasw.github.io Arti$ git merge upstream/gh-pages
+Already up-to-date.
+
+{% endhighlight %}
 
 <div class="breaker"></div>
 
