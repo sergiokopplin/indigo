@@ -100,15 +100,11 @@ Now here's the part where I had to start over. If you are starting with an exist
 #### Option 2 - Start with an empty repository and upload a .zip theme file or DIY it
 
 - Go to your GitHub account and create a new repository and <span class="evidence">name it like so: yourusername.github.io</span>. **This is important**. Mine, for example, is aannasw.github.io.
-- Click the 'Save to your Desktop' icon. This will create an empty folder inside your GitHub repositories folder.
-![Download your repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo2.png)
-- Find a theme you like, and download the zip file to your desktop
-![Download a zip](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadzip.png)
+- Click the 'Save to your Desktop' icon. This will create an empty folder inside your GitHub repositories folder.![Download your repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo2.png)
+- Find a theme you like, and download the zip file to your desktop![Download a zip](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadzip.png)
 - Extract the contents and copy everything over to your empty username.github.io repository
-- Launch your GitHub Desktop, and you will see that the new repository you created now shows several files in a list, with the tab titled '# Uncommitted Changes'. 
-![Uncommitted Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/uncommittedchanges.png)
-- Type up a description for the update you're about to send to your github and click 'Commit to Master'
-![Commit Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/commitchanges.png)
+- Launch your GitHub Desktop, and you will see that the new repository you created now shows several files in a list, with the tab titled '# Uncommitted Changes'. ![Uncommitted Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/uncommittedchanges.png)
+- Type up a description for the update you're about to send to your github and click 'Commit to Master'![Commit Changes](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/commitchanges.png)
 - Hit 'Ctrl + S' on your keyboard, or click the 'Sync' button on the top right of your GitHub desktop, and after all the changes have gone through, wait for about 5 seconds for GitHub to build your site and display it.
 - Type in the url http://yourusername.github.io and you should now see the theme you just uploaded to your repository.
 
