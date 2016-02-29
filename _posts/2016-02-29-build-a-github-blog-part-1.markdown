@@ -32,20 +32,20 @@ So, without further ado, here's the process that's got me this far.
 <div class="breaker"></div>
 
 ### Index
-- [Buying A Domain](#1.-buying-a-domain)
-- [Setting up GitHub](#2.-setting-up-your-github-repository)
-- [Redirecting DNS Nameservers](#3.-redirecting-your-DNS-Nameservers)
-- [Creating a CNAME file](#4.-creating-a-CNAME-file)
+- [Buying A Domain](#buying-a-domain)
+- [Setting up GitHub](#setting-up-your-github-repository)
+- [Redirecting DNS Nameservers](#redirecting-your-dns-nameservers)
+- [Creating a CNAME file](#creating-a-cname-file)
 
 <div class="breaker"></div>
 
-## 0. Everyone needs a starting point
+## Everyone needs a starting point
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
 
 <div class="breaker"></div>
 
-## 1. Buying a domain
+## Buying a domain
 
 I had bought my domain artiannaswamy.com several years ago on GoDaddy, and every time I renewed it, I re-upped for the longest possible time (5 years, I think), so that part was set. We will return to this one in the section on redirecting DNS nameservers (English: pointing your domain to Github to look for your website).
 
@@ -65,7 +65,7 @@ Google Domains is a new entrant in the field, and it looks like they have a flat
 
 Same goes with Amazon 53's domain name registration - their [pricing schedule](https://d32ze2gidvkk54.cloudfront.net/Amazon_Route_53_Domain_Registration_Pricing_20140731.pdf) lists a flat $12/year with free private registration for .com domains. See here for the announcement <http://aws.amazon.com/about-aws/whats-new/2014/07/31/amazon-route-53-announces-domain-name-registration-geo-routing-and-lower-pricing/>
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; 1c. Bottomline on buying domains
+#### &nbsp;&nbsp;&nbsp;&nbsp; c. Bottomline on buying domains
 
 Basically, make sure the following is squared away:
 
@@ -77,7 +77,7 @@ Basically, make sure the following is squared away:
 
 <div class="breaker"></div>
 
-## 2. Setting up your Github repository
+## Setting up your Github repository
 
 This was one of those paths I mentioned earlier that led to a dead-end and a do over. You may end up having to do things over even after I've given you a heads-up, but hey, that's the fun of this.
 
@@ -149,7 +149,7 @@ Also, I only know how to do this on a Mac. Google the keywords in the articles f
 - <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 - <https://help.github.com/articles/syncing-a-fork/>
 
-{% highlight raw %}
+````git
 
 Artis-MacBook-Pro:~ Arti$ 		cd Github
 Artis-MacBook-Pro:Github Arti$ 	cd aannasw.github.io
@@ -166,11 +166,11 @@ From https://github.com/sergiokopplin/indigo
 Artis-MacBook-Pro:aannasw.github.io Arti$ git merge upstream/gh-pages
 Already up-to-date.
 
-{% endhighlight %}
+````
 
 <div class="breaker"></div>
 
-## 3. Redirecting your DNS Nameservers
+## Redirecting your DNS Nameservers
 
 I dusted off my logins to GoDaddy, and after following David Ensinger's post recommended in the article above, [Setting the DNS for GitHub Pages on Namecheap](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) and Andrew Sturges' post on [Configuring a Godaddy domain name with github pages](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html), I had successfully redirected my domain to point to GitHub.
 
