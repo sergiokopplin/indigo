@@ -83,7 +83,7 @@ So, you need to do the following to get set up on GitHub:
 
 Now here's the part where I had to start over. If you are starting with an existing github theme, especially one that's being actively worked on, the developer of the theme may want you to 'fork' the theme from their repository. It creates a link from your repository to theirs, and you can also more easily update your copy of it when they make changes to their theme.
 
-####Option 1 - Fork an existing repository####
+####Option 1 - Fork an existing repository
 
 ![Fork a repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/fork.png)
 
@@ -92,16 +92,16 @@ Now here's the part where I had to start over. If you are starting with an exist
 - Click 'Fork' on the repository you want to copy to your profile
 - Name it whatever the theme's name is, for now. You'll be renaming this anyway.
 - Go to the repository settings and <span class="evidence">rename it like so: yourusername.github.io</span>. **This is important**. Mine, for example, is aannasw.github.io.
-- Click the 'Save to your Desktop' icon ![Download a repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo.jpg)
+- Click the 'Save to your Desktop' icon ![Download a repository](https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/downloadrepo.png)
 
 
-####Option 2 - Start with an empty repository and upload a .zip theme file or DIY it####
+####Option 2 - Start with an empty repository and upload a .zip theme file or DIY it
 
 - Go to your GitHub account and create a new repository and <span class="evidence">name it like so: yourusername.github.io</span>. **This is important**. Mine, for example, is aannasw.github.io.
 - Click on the button to save 
 
 <div class="breaker"></div>
 
-3. Redirecting your domain (DNS Nameservers) to point to GitHub 
+## 3. Redirecting your domain (DNS Nameservers) to point to GitHub
 
 I dusted off my logins to GoDaddy, and with the help of David Ensinger's post recommended in the article above, [Setting the DNS for GitHub Pages on Namecheap](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) and, after googling something more relevant to GoDaddy, Andrew Sturges' post on [Configuring a Godaddy domain name with github pages](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html), I had successfully redirected my domain to point to GitHub.
