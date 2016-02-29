@@ -31,6 +31,14 @@ So, without further ado, here's the process that's got me this far.
 
 <div class="breaker"></div>
 
+### Index
+- [Buying A Domain](#1.-buying-a-domain)
+- [Setting up GitHub](#2.-setting-up-your-github-repository)
+- [Redirecting DNS Nameservers](#3.-redirecting-your-DNS-Nameservers)
+- [Creating a CNAME file](#4.-creating-a-CNAME-file)
+
+<div class="breaker"></div>
+
 ## 0. Everyone needs a starting point
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
@@ -136,15 +144,16 @@ You may not always want to make every change, especially if it overrides customi
 
 Also, I only know how to do this on a Mac. Google the keywords in the articles for the Windows equivalent.
 
-**GitHub Help articles**
-<https://help.github.com/articles/configuring-a-remote-for-a-fork/>
-<https://help.github.com/articles/syncing-a-fork/>
+**GitHub Help articles to get started with:**
+
+- <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
+- <https://help.github.com/articles/syncing-a-fork/>
 
 {% highlight raw %}
 
-Artis-MacBook-Pro:~ Arti$ cd Github
-Artis-MacBook-Pro:Github Arti$ cd aannasw.github.io
-Artis-MacBook-Pro:aannasw.github.io Arti$ git remote -v
+Artis-MacBook-Pro:~ Arti$ 		cd Github
+Artis-MacBook-Pro:Github Arti$ 	cd aannasw.github.io
+Artis-MacBook-Pro:aannasw.github.io Arti$ 		git remote -v
 origin	https://github.com/aannasw/aannasw.github.io.git (fetch)
 origin	https://github.com/aannasw/aannasw.github.io.git (push)
 sergiokopplin	https://github.com/sergiokopplin/indigo.git (fetch)
@@ -161,7 +170,7 @@ Already up-to-date.
 
 <div class="breaker"></div>
 
-## 3. Redirecting your domain (DNS Nameservers) to point to GitHub
+## 3. Redirecting your DNS Nameservers
 
 I dusted off my logins to GoDaddy, and after following David Ensinger's post recommended in the article above, [Setting the DNS for GitHub Pages on Namecheap](http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/) and Andrew Sturges' post on [Configuring a Godaddy domain name with github pages](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html), I had successfully redirected my domain to point to GitHub.
 
