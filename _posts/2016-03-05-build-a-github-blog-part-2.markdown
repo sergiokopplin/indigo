@@ -109,19 +109,37 @@ exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.j
 
 #### Name & Bio
 
+{% highlight raw %}
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+{% endhighlight %}
+
 The first thing you want to change is, of course, the name and bio with your own name and a short description of who you are / what you do. Follow the syntax of the original file when updating with new information. That is, for example, replace John Doe with your name, but don't put it in quotes. However, in the Bio, the author has used single quotes on either side of the phrase, so you should do the same. 
 
 #### Profile Picture
 
+{% highlight raw %}
+picture: 'assets/images/profile.jpg'
+{% endhighlight %}
+
 On your computer, browse to the GitHub directory you created for your site, browse to the assets > images folder, and find the profile.jpg file. Note the dimensions of the file, and create a file with your own picture (or whatever pleases you) with the same dimensions. Replace the profile.jpg file with your file.
 
 #### URLs
+
+{% highlight raw %}
+url: http://sergiokopplin.github.io/indigo
+# your url: http://USERNAME.github.io
+{% endhighlight %}
 
 If you were sticking with the *yourusername.github.io* naming for your website, you'd change this URL to the github.io address. But since you have your personal domain mapped to this, you want to change this field to **http://yourdomain.com**.
 
 #### Google Analytics
 
 You can leave the permalink, markdown and highlighter fields alone for now.
+
+{% highlight raw %}
+analytics-google: 'UA-MYANALYTICS'
+{% endhighlight %}
 
 With the Google Analytics field, this is definitely something you want to set up now so you can keep an eye on the stats of your site.
 
@@ -139,3 +157,38 @@ With the Google Analytics field, this is definitely something you want to set up
 
 - Google will create tracking ID for you that'll look something like 'UA-########'.
 - Copy this tracking ID, return to your _config.yml and paste it in the analytics-google field.
+
+#### Disqus
+
+{% highlight raw %}
+disqus: mydisqus
+{% endhighlight %}
+
+If you'd like to set up Disqus commenting on your blog:
+
+- Go to Disqus.com and set up an account (need not match any name or URL you've used to set up this site).
+- Once you have an account, go to Settings and click 'Add Disqus to Site'
+- Click 'Start using Engage'
+- Fill out the form, and make sure you note the shortname you use in setting up this account
+
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/disqus.png" /></div>
+
+- Return to your config file and paste this shortname in the disqus field.
+
+#### Social Links
+
+{% higlight raw %}
+facebook: myfacebook
+twitter: mytwitter
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+linkedin: mylinkedin
+youtube: myyoutube
+spotify: myspotify
+github: mygithub
+email: myemail@gmail.com
+{% endhighlight %}
+
+- Replace the 'myfacebook', 'mytwitter' dummy names with your actual IDs from each of the sites, and you're good to go!
+- If you don't want a specific social link to show below your picture on the front page, put a '#' symbol in the front, which will 'comment out' the line and not run it as code.
