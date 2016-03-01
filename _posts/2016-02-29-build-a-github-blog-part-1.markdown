@@ -21,7 +21,7 @@ Problem solved!
 
 *Or so I thought.*
 
-It's when I started to really wade deep into setting up a Github personal site and blog that I realized that it can be fairly intimidating to a non-programmer. I know just enough HTML and CSS to be dangerous and break things, which makes me the kind of adventurer that will start full throttle with a project like this, and get pretty far down a path before realizing I need to start over (several times). 
+It's when I started to really wade deep into setting up a Github personal site and blog that I realized it can be fairly intimidating to a non-programmer. I know just enough HTML and CSS to be dangerous and break things, which makes me the kind of adventurer that will start full throttle with a project like this, and get pretty far down a path before realizing I need to start over (several times). 
 
 At this point, I've got this at a stable enough state that I can call it a minor success. Some of you may want the journey with the dead ends because you can learn a lot from those - I know I learned quite a bit from all the paths that didn't work out.
 
@@ -93,10 +93,10 @@ So, you need to do the following to get set up on GitHub:
 - Pick a username you can tell your grandmother without making her blush. Also pick a short one - this doesn't need to look like your resume name either. Mine is aannasw, for example.
 - Download and install a copy of GitHub desktop, especially if you don't want to be using git code.
 
-Now here's the part where I had to start over. 
+Now here's a couple of reasons why I had to start over. 
 
-**Lessons Learned - Forking a Repo vs Download/Upload Zip**
-If you are starting with an existing github theme, especially one that's being actively worked on, the developer of the theme may want you to 'fork' the theme from their repository. It creates a link from your repository to theirs, and you can also more easily update your copy of it when they make changes to their theme.
+**Lessons Learned - Forking a Repo**
+If you are starting with an existing github theme, especially one that's being actively worked on, the developer of the theme may want you to 'fork' the theme from their repository. It creates a link from your repository to theirs, and you can also update your copy of it when they make changes to their theme.
 
 **Lessons Learned - Modifying a Theme's Structure**
 I also figured I could pretty easily modify an existing blog theme that had the blog on the front page, to something that had a landing page + a link to the blog page. I ended up chasing my tail for several weeks before I decided to look for a theme already set up the way I wanted, and start over with that.

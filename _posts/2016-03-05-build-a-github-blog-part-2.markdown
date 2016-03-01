@@ -323,7 +323,7 @@ Here's how you include a drafts feature with the [Indigo theme](http://koppl.in/
 
 At some point, I realized, I didn't want to see my face at the top of every single page - Blog, About, Project, Consulting, in addition to Home.
 
-The place you can change this is a familiar one - the header.html file we modified in section 2 above. Add the two sections below to the header.html file, and you should now have a more minimal header on all pages except the Home page.
+The place you can change this is a familiar one - the header.html file we modified in section 2 above. Add the two sections below (line 4, and lines 20 - 25) to the header.html file, and you should now have a more minimal header on all pages except the Home page.
 
 <script src="https://gist.github.com/aannasw/cb895b8bb72d73926f0a.js"></script>
 
