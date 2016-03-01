@@ -728,6 +728,13 @@ pre {
 .footer-main > .extra > .link {
   color: #222;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: ease-in-out all 0.3s;
+          transition: ease-in-out all 0.3s;
+  padding-bottom: 1px;
+}
+.footer-main > .extra > .link:hover {
+  border-color: #aaa;
 }
 .header-home {
   display: block;
