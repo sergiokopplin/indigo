@@ -20,8 +20,9 @@ Let's fix that first, then try a few customizations.
 - [2. Add New Pages](#add-pages)
 - [3. Set Custom URLs for Posts](#custom-urls)
 - [4. Setup Hidden Drafts](#hidden-drafts)
-- [5. Tags and Tag Indexes](#tags)
-- [6. Different headers for different pages](#different-headers)
+- [5. Different headers for different pages](#different-headers)
+- [6. Tags and Tag Indexes](#tags)
+
 
 <div class="breaker"></div> <a id="personalize"></a>
 
@@ -305,19 +306,30 @@ A few pros and cons on how this works out practically:
 
 Here's how you include a drafts feature with the [Indigo theme](http://koppl.in/indigo) we are using.
 
-- At this point, hopefully you haven't published too many blog posts already. Open up all the posts (not projects - you can tell by checking for projects: true or blog:true in the YAML front matter) in the _posts folder in your text editor, and 
+- At this point, hopefully you haven't published too many blog posts. 
+- Open up all the posts (not projects - you can tell by checking for projects: true or blog:true in the YAML front matter) in the _posts folder in your text editor, and 
 - Add ````drafts: true```` or ````drafts: false```` to the header, depending on whether or not you want that post to show in the blog page. 
-- Switch to your GitHub directory, browse to the _includes folder, and open up the blog-post.html file in your text editor
+- Switch to your GitHub directory, browse to the _includes folder, and open up the ````blog-post.html```` file in your text editor
 - Here's the original file:
 <script src="https://gist.github.com/aannasw/b00ad0f31f4d4ad3a15a.js"></script>
 - You want to change this as follows:
 <script src="https://gist.github.com/aannasw/331c4386020437befa6f.js"></script>
-- As you can tell, it adds another validation to check if the draft variable is set to false (i.e. it is not a draft, but a published post) before including it in the blog post list.
+- As you can tell, it adds a validation to the blog post page to check if the draft variable is set to false (i.e. it is not a draft, but a published post) before including it in the list.
 - That's it. When you commit and sync up the changes, you should now only see the non-draft posts in your blog home page.
+
+<div class="breaker"></div> <a id="#different-headers"></a>
+
+## 5. Different headers for different pages
+
+At some point, I realized, I didn't want to see my face at the top of every single page - Blog, About, Project, Consulting, in addition to Home.
+
+The place you can change this is a familiar one - the header.html file we modified in section 2 above. Add the two sections below to the header.html file, and you should now have a more minimal header on all pages except the Home page.
+
+<script src="https://gist.github.com/aannasw/cb895b8bb72d73926f0a.js"></script>
 
 <div class="breaker"></div> <a id="tags"></a>
 
-## 5. Tags and Tag Indexes
+## 6. Tags and Tag Indexes
 
 This one's a little involved, but still not too hard. Let's look at the various phases of this:
 
@@ -326,3 +338,4 @@ This one's a little involved, but still not too hard. Let's look at the various 
 3. Create a tag index page, just like a blog post page
 4. Edit the blog post page to also show the tags
 5. Create dummy folders and index.html pages (this is a GitHub quirk) to get the individual tag pages to show
+6. Add a custom header and navigation to the top
