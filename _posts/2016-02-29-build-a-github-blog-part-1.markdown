@@ -43,7 +43,7 @@ So, without further ado, here's the process that's got me this far.
 
 <div class="breaker"></div> <a id="starting-point"></a>
 
-## A starting point 
+## Everyone needs a starting point 
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
 
