@@ -1,5 +1,5 @@
 ---
-title: "Build a blog with GitHub - Part 2"
+title: "Build a Blog with GitHub - Part 2"
 layout: post
 date: 2016-02-29 10:00
 tag: blog-setup
