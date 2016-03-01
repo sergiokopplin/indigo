@@ -243,7 +243,7 @@ Here's that code in the original theme:
 
 From that first line, it looks like the header defined in lines 3 - 14 will show only if the page title is Home or Blog or About.
 
-Which means, if you add any new pages, it won't show in the Navigation, unless you add it here. So, let's start here.
+Which means, if you add any new pages, it won't include the Header, unless you add a reference to that new page here. So, let's do that.
 
 - Edit the first part of the snippet to:
 {% highlight raw %}
@@ -272,8 +272,57 @@ permalink: /consulting/index.html
 ---
 {% endhighlight %}
 
-- Next, head over to the nav.html file, and you'll see sections of code for each of the pages. Copy and paste the 'About' section, and change all the 'about's to 'consulting's.
+- Next, head over to the nav.html file, and you'll see sections of code for each of the pages. Copy and paste the 'About' section, and change all the **about**s to **consulting**s.
 
 <script src="https://gist.github.com/aannasw/4d50dff33c4ef8d26593.js"></script>
 
 - That should do it for adding a new page. After you commit all the changes and sync, you should see a link to the new Consulting page on your site.
+
+<div class="breaker"></div> <a id="custom-urls"></a>
+
+## 3. Set Custom URLs for Posts
+
+For this one, I refer you to another excellent post by Joshua Lande <http://joshualande.com/short-urls-jekyll/>. I followed this exactly, and it's worked great for me.
+
+<div class="breaker"></div> <a id="hidden-drafts"></a>
+
+## 4. Setup Hidden Drafts
+
+This feature's something I'm still testing, and I may end up making edits to this section down the road. At this point, I set this up as described in this thread <https://gist.github.com/carlo/2870636>.
+
+A few pros and cons on how this works out practically:
+
+**Pros:**
+
+- If you're using GitHub Desktop for your updates, you don't have the benefit of installing jekyll, ruby et all and building the site on your desktop and testing it locally (without publishing to the web). Implementing this introduces the missing draft feature.
+- It publishes the post, but hides it from the Blog page list, so you can review the content and layout before officially publishing it
+
+**Cons:**
+
+- It does actually publish it online. Where that shows up, is in the RSS feed. I'm still looking for a way to exclude draft posts from the rss feed. 
+
+[Jekyll Feed documentation](https://github.com/jekyll/jekyll-feed) seems to suggest this is already a feature, but only if it's implemented as a _drafts folder, which you will need to run some git code on to build and serve on your desktop. 
+
+Here's how you include a drafts feature with the [Indigo theme](http://koppl.in/indigo) we are using.
+
+- At this point, hopefully you haven't published too many blog posts already. Open up all the posts (not projects - you can tell by checking for projects: true or blog:true in the YAML front matter) in the _posts folder in your text editor, and 
+- Add ````drafts: true```` or ````drafts: false```` to the header, depending on whether or not you want that post to show in the blog page. 
+- Switch to your GitHub directory, browse to the _includes folder, and open up the blog-post.html file in your text editor
+- Here's the original file:
+<script src="https://gist.github.com/aannasw/b00ad0f31f4d4ad3a15a.js"></script>
+- You want to change this as follows:
+<script src="https://gist.github.com/aannasw/331c4386020437befa6f.js"></script>
+- As you can tell, it adds another validation to check if the draft variable is set to false (i.e. it is not a draft, but a published post) before including it in the blog post list.
+- That's it. When you commit and sync up the changes, you should now only see the non-draft posts in your blog home page.
+
+<div class="breaker"></div> <a id="tags"></a>
+
+## 5. Tags and Tag Indexes
+
+This one's a little involved, but still not too hard. Let's look at the various phases of this:
+
+1. Add the ruby script in the plugins folder
+2. Update the tag links inside blog posts to be clickable links
+3. Create a tag index page, just like a blog post page
+4. Edit the blog post page to also show the tags
+5. Create dummy folders and index.html pages (this is a GitHub quirk) to get the individual tag pages to show
