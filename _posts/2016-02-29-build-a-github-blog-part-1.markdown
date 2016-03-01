@@ -32,7 +32,7 @@ So, without further ado, here's the process that's got me this far.
 <div class="breaker"></div>
 
 ## Index
-- [.. A Starting Point](#starting-point)
+- [.. A Starting Point]
 - [1. Buying A Domain](#buying-domain)
 - [2. Setting up GitHub](#github-repository)
 - &nbsp;&nbsp;&nbsp; [Option 1. Fork an existing repo](#fork-repo)
@@ -41,7 +41,7 @@ So, without further ado, here's the process that's got me this far.
 - [3. Redirecting DNS Nameservers](#dns-nameservers)
 - [4. Creating a CNAME file](#cname)
 
-<div class="breaker"></div> <a id="starting-point"></a>
+<div class="breaker"></div>
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
 
