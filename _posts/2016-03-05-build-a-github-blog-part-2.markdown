@@ -141,7 +141,7 @@ You can leave the permalink, markdown and highlighter fields alone for now.
 analytics-google: 'UA-MYANALYTICS'
 {% endhighlight %}
 
-With the Google Analytics field, this is definitely something you want to set up now so you can keep an eye on the stats of your site.
+With the Google Analytics field, this is definitely something you want to set up now so you can keep an eye on the stats for your site.
 
 - Go to <https://www.google.com/analytics/> and sign in with your Gmail ID (or create one, if you don't have one).
 - Go to the 'Admin' tab
@@ -166,7 +166,7 @@ disqus: mydisqus
 
 If you'd like to set up Disqus commenting on your blog:
 
-- Go to Disqus.com and set up an account (need not match any name or URL you've used to set up this site).
+- Go to the [Disqus](https://disqus.com) website and set up an account (need not match any name or URL you've used to set up this site).
 - Once you have an account, go to Settings and click 'Add Disqus to Site'
 - Click 'Start using Engage'
 - Fill out the form, and make sure you note the shortname you use in setting up this account
@@ -190,5 +190,5 @@ github: mygithub
 email: myemail@gmail.com
 {% endhighlight %}
 
-- Replace the 'myfacebook', 'mytwitter' dummy names with your actual IDs from each of the sites, and you're good to go!
-- If you don't want a specific social link to show below your picture on the front page, put a '#' symbol in the front, which will 'comment out' the line and not run it as code.
+- Replace the dummy names (myfacebook, mytwitter etc) with your actual IDs from each of the sites, and you're good to go.
+- If you don't want a specific social link to show below your picture on the front page, put a '#' symbol in the front, which will comment out the line and not run it as code.
