@@ -1,11 +1,11 @@
 ---
-title: "Build a blog with github"
+title: "Build a blog with Github - Part 1"
 layout: post
 date: 2016-02-27 10:00
 tag: blog-setup
 blog: true
 draft: true
-summary: "A step by step non-coder's guide to setting up a personal site on github"
+summary: "Part 1 of a step by step non-coder's guide to setting up a personal site on Github"
 permalink: build-a-github-blog-part-1
 ---
 
@@ -32,7 +32,7 @@ So, without further ado, here's the process that's got me this far.
 <div class="breaker"></div>
 
 ## Index
-- [.. A Starting Point]
+- [.. A Starting Point](#starting-point)
 - [1. Buying A Domain](#buying-domain)
 - [2. Setting up GitHub](#github-repository)
 - &nbsp;&nbsp;&nbsp; [Option 1. Fork an existing repo](#fork-repo)
@@ -41,7 +41,9 @@ So, without further ado, here's the process that's got me this far.
 - [3. Redirecting DNS Nameservers](#dns-nameservers)
 - [4. Creating a CNAME file](#cname)
 
-<div class="breaker"></div>
+<div class="breaker"></div> <a id="starting-point"></a>
+
+## Everyone needs a starting point 
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
 
