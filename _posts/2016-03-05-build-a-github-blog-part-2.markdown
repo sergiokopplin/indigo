@@ -239,9 +239,7 @@ I liked the way this theme was organized, because I found it pretty intuitive to
 
 Here's that code in the original theme:
 
-{% highlight raw %}
-{% gist aannasw/b69681d6520bbda0fe71 %}
-{% endhighlight %}
+<script src="https://gist.github.com/aannasw/b69681d6520bbda0fe71.js"></script>
 
 From that first line, it looks like the header defined in lines 3 - 14 will show only if the page title is Home or Blog or About.
 
@@ -276,8 +274,6 @@ permalink: /consulting/index.html
 
 - Next, head over to the nav.html file, and you'll see sections of code for each of the pages. Copy and paste the 'About' section, and change all the 'about's to 'consulting's.
 
-{% highlight raw %}
-{% gist aannasw/4d50dff33c4ef8d26593 %}
-{% endhighlight %}
+<script src="https://gist.github.com/aannasw/4d50dff33c4ef8d26593.js"></script>
 
 - That should do it for adding a new page. After you commit all the changes and sync, you should see a link to the new Consulting page on your site.
