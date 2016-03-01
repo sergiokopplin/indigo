@@ -1,7 +1,7 @@
 ---
 title: "Build a blog with GitHub - Part 2"
 layout: post
-date: 2016-03-05 10:00
+date: 2016-02-29 10:00
 tag: blog-setup
 blog: true
 draft: true
