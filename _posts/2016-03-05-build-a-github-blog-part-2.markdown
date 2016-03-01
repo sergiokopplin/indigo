@@ -346,12 +346,13 @@ The instructions on this came from this excellent post <http://erjjones.github.i
 
 - Go to the blog post linked above, and copy just the code for the **tag_gen.rb** file.
 - Paste this in a new file in your text editor
-- Save the file as **tag_gen.rb** in a new **_plugins** directory at the root level of your website repository
+- Create a new **_plugins** directory at the root level of your website repository
+- Save the file as **tag_gen.rb** in this new folder
 
 For the next three steps, note that your tags can be displayed in three places:
 
 - Inside the blog post, just near the header
-- In it's own tag home page that will show all the posts related to that tag
+- In its own tag home page that will show all the posts related to that tag
 - On the blog post home page, where all your blog posts are listed
 
 #### Step 2. Update tag links inside blog posts to be clickable links
@@ -362,37 +363,44 @@ For the next three steps, note that your tags can be displayed in three places:
 - Replace that line in the middle with the updated line below
 <script src="https://gist.github.com/aannasw/2ae9db3a8de76d283166.js"></script>
 
-This will change the non-hyperlinked tags displayed in your post to clickable links.
+This will change the non-hyperlinked tags displayed in your post to clickable links. Your final result may not *look* like this, but play with the appropriate CSS to get it looking that way. 
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/post-tags" /></div>
 
 #### Step 3. Create a tag index page and folder structure
 
 Here's the code for creating tag index pages.
 - Copy and paste the code below into a new text editor file, and save the file as **tag_content.html** in the **_includes** folder
 <script src="https://gist.github.com/aannasw/386911d1e21ed48ddaa3.js"></script>
+
 - Next, create a **tags** folder at the root level of your directory
 - Create individual folders for each of the tags you have in your blog posts. This is the one pain of this system - each time you create a new tag, you'll have to remember to create a folder for it in your repository.
 - For the following example, let's assume you've created a folder named **markdown**, one of the tags you are using in your blog post.
 - Next, copy the code below into a new text editor file. Save that file as **index.html** in the **tags/markdown/** folder. 
 <script src="https://gist.github.com/aannasw/b4150810fe548e98a901.js"></script>
+
 - The path of the file above will be **/tags/markdown/index.html**
+- Test to make sure this works. Commit all the changes, browse to the blog post that uses the markdown tag, and click on the markdown tag to see if the tag index page shows up.
+- Copy that **index.html** file into each of the tag folders you've created, and make sure to change the **title** and the **tag** YAML fields every time.
 
-Test to make sure this works by committing/syncing all the changes, browsing to the blog post that uses the markdown tag, and then clicking on the markdown tag to see if the tag index page shows up.
-
-- Copy that **index.html** file into each of the tag folders you've created, and make sure to change the Title and the Tag YAML fields every time.
-
-That's it - you have a working tag functionality!
+That's it - you now have a working tag feature on your blog!
 
 #### Step 4. Edit the blog post page to also show the tags (OPTIONAL)
 
-This one is option - only if you want the blog home page containing the list of all your blog posts to also show the tags associated with each post. Currently these tag links aren't clickable from the home page - when you click on that row, it'll lead to the blog post you just clicked.
+This one is optional - only if you want the blog home page containing the list of all your blog posts to also show the tags associated with each post. Currently these tag links aren't clickable from the home page - when you click on that row, it'll lead to the blog post you just clicked. 
+
+You might find that look too busy, or not very useful since the tags aren't clickable from the main page, so consider this feature optional.
 
 Recall that your **_includes/blog-post.html** file currently looks like this:
 <script src="https://gist.github.com/aannasw/331c4386020437befa6f.js"></script>
 
-We are going to add one more section of code between lines 5 and 6, to make the tags into clickable links that lead to their own tag index pages.
+We are going to add one more section of code between lines 5 and 6 to display the list of tags on the main page.
 
-Here's what that looks like:
+Here's the updated file with the new code from line 6 to line 14:
 <script src="https://gist.github.com/aannasw/7e85f1aa93bf91a69e9e.js"></script>
+
+The tags should now show up on your blog post home page. Your final result may not *look* like this, but play with the appropriate CSS to get it looking that way. 
+
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/blog-page-tags" /></div>
 
 #### Step 5. Add a custom header and navigation to the top
 
@@ -406,6 +414,8 @@ If you recall, in [section 5 of this post](#different-headers), we created custo
 <script src="https://gist.github.com/aannasw/0758e9a6ca317133dc1b.js"></script>
 
 The minimal header should now show for your tag index pages as well.
+
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/tag-index" /></div>
 
 <div class="breaker"></div>
 
