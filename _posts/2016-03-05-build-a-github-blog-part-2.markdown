@@ -177,7 +177,7 @@ If you'd like to set up Disqus commenting on your blog:
 
 #### Social Links
 
-{% higlight raw %}
+{% highlight raw %}
 facebook: myfacebook
 twitter: mytwitter
 # google: mygoogle
