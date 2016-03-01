@@ -32,11 +32,9 @@ With a GitHub theme, the first place you start is with the <span class="evidence
 
 The developer will have provided some documentation to go with the theme - read that first to see if there are any special quirks to the config file. Then open up the config file, and browse through the various variables.
 
-This is the settings section or the control center of your site. Updates you make here will get reflected in multiple areas of the site, not necessarily just the home page. 
+This is the control center of your site. Updates you make here will get reflected in multiple areas of the site, not necessarily just the home page. 
 
-Let's go through some of the config settings in the [Indigo theme](http://koppl.in/indigo) I am using on my site.
-
-Here, first, is the original _config.yml file from the source theme. Let's take each of these one at a time.
+Let's go through some of the config settings in the [Indigo theme](http://koppl.in/indigo) I am using on my site. Here is the original _config.yml file from the source theme. Let's take these one at a time.
 
 {% highlight raw %}
 name: John Doe
@@ -116,7 +114,7 @@ name: John Doe
 bio: 'A Man who travels the world eating noodles'
 {% endhighlight %}
 
-The first thing you want to change is, of course, the name and bio with your own name and a short description of who you are / what you do. Follow the syntax of the original file when updating with new information. That is, for example, replace John Doe with your name, but don't put it in quotes. However, in the Bio, the author has used single quotes on either side of the phrase, so you should do the same. 
+The first thing you want to replace is, of course, the name and bio with your own name and a short description of who you are / what you do. Follow the syntax of the original file when changing the information. That is, for example, replace John Doe with your name, but don't put it in quotes, just like in the original file. However, in the Bio, the author has used single quotes on either side of the phrase, so you should do the same. 
 
 #### Profile Picture
 
@@ -124,7 +122,10 @@ The first thing you want to change is, of course, the name and bio with your own
 picture: 'assets/images/profile.jpg'
 {% endhighlight %}
 
-On your computer, browse to the GitHub directory you created for your site, browse to the assets > images folder, and find the profile.jpg file. Note the dimensions of the file, and create a file with your own picture (or whatever pleases you) with the same dimensions. Replace the profile.jpg file with your file.
+- On your computer, browse to the assets > images folder in your GitHub directory for this site, and find the profile.jpg file. 
+- Note the dimensions of the file, and 
+- Create a file with your own picture (or whatever pleases you) with the same dimensions.
+- Replace the profile.jpg file with your file.
 
 #### URLs
 
@@ -143,7 +144,7 @@ You can leave the permalink, markdown and highlighter fields alone for now.
 analytics-google: 'UA-MYANALYTICS'
 {% endhighlight %}
 
-With the Google Analytics field, this is definitely something you want to set up now so you can keep an eye on the stats for your site.
+Google Analytics is definitely something you want to set up now so you can keep an eye on the stats for your site.
 
 - Go to <https://www.google.com/analytics/> and sign in with your Gmail ID (or create one, if you don't have one).
 - Go to the 'Admin' tab
@@ -166,7 +167,7 @@ With the Google Analytics field, this is definitely something you want to set up
 disqus: mydisqus
 {% endhighlight %}
 
-If you'd like to set up Disqus commenting on your blog:
+To set up Disqus commenting on your blog:
 
 - Go to the [Disqus](https://disqus.com) website and set up an account (need not match any name or URL you've used to set up this site).
 - Once you have an account, go to Settings and click 'Add Disqus to Site'
@@ -228,9 +229,9 @@ The sections here are all self-explanatory. If you want to see exactly what they
 
 To summarize the settings: 
 
-- projects, about and blog pages turning off and on will remove the links from the front page and the navigation
-- read time, tags and related posts affects extra info inside the posts itself
-- animations will affect that initial dropping effect by the title and the social links when you launch the home page
+- **projects**, **about** and **blog** settings set to ````false```` will remove the links from the front page and the navigation
+- **read time**, **tags** and **related posts** settings affect extra info inside the posts itself
+- **animations** will affect that initial dropping effect visible in the title and the social links whenever you launch/refresh the home page
 
 <div class="breaker"></div> <a id="add-pages"></a>
 

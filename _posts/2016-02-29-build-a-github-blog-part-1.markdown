@@ -96,9 +96,11 @@ So, you need to do the following to get set up on GitHub:
 Now here's a couple of reasons why I had to start over. 
 
 **Lessons Learned - Forking a Repo**
+
 If you are starting with an existing github theme, especially one that's being actively worked on, the developer of the theme may want you to 'fork' the theme from their repository. It creates a link from your repository to theirs, and you can also update your copy of it when they make changes to their theme.
 
 **Lessons Learned - Modifying a Theme's Structure**
+
 I also figured I could pretty easily modify an existing blog theme that had the blog on the front page, to something that had a landing page + a link to the blog page. I ended up chasing my tail for several weeks before I decided to look for a theme already set up the way I wanted, and start over with that.
 
 The theme I ultimately went with is the [Indigo theme](http://koppl.in/indigo) by [Sérgio Kopplin](http://koppl.in).
