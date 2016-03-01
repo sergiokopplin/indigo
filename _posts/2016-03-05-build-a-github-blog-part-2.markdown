@@ -240,7 +240,7 @@ I liked the way this theme was organized, because I found it pretty intuitive to
 Here's that code in the original theme:
 
 {% highlight raw %}
-{ % gist aannasw/b69681d6520bbda0fe71 % }
+{% gist aannasw/b69681d6520bbda0fe71 %}
 {% endhighlight %}
 
 From that first line, it looks like the header defined in lines 3 - 14 will show only if the page title is Home or Blog or About.
@@ -252,12 +252,12 @@ Which means, if you add any new pages, it won't show in the Navigation, unless y
 if page.title == "Home" or page.title == "Blog" or page.title == "Projects" or page.title == "Consulting"
 {% endhighlight %}
 
-- Then, switch over to your GitHub directory, and find the about page and make a copy of it.
-- Rename this copy to consulting, and keep the file extension the same as the about page
-- Open the newly renamed consulting.md
+- Then, switch over to your GitHub directory, and find the About page and make a copy of it.
+- Rename this copy to Consulting, and keep the file extension the same as the About page
+- Open the newly renamed Consulting.md
 - The part at the very top between the two triple-dashed lines is called the **YAML front matter** and will be processed first, and that's the key.
-- Here's the YAML from the about page:
-{% highlight html %}
+- Here's the YAML from the About page:
+{% highlight raw %}
 ---
 title: About
 layout: page
@@ -277,13 +277,7 @@ permalink: /consulting/index.html
 - Next, head over to the nav.html file, and you'll see sections of code for each of the pages. Copy and paste the 'About' section, and change all the 'about's to 'consulting's.
 
 {% highlight raw %}
-        {% if site.about == true %}
-            {% if page.title != "Consulting" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/consulting">Consulting</a>
-                </li>
-            {% endif %}
-        {% endif %}
+{% gist aannasw/4d50dff33c4ef8d26593 %}
 {% endhighlight %}
 
 - That should do it for adding a new page. After you commit all the changes and sync, you should see a link to the new Consulting page on your site.
