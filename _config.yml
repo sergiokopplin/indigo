@@ -20,11 +20,11 @@ disqus: mydisqus
 # if you don't have any of social below, comment the line
 facebook: myfacebook
 twitter: mytwitter
-google: mygoogle
+# google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: mylinkedin
-# youtube: myyoutube
+youtube: myyoutube
 spotify: myspotify
 github: mygithub
 email: myemail@gmail.com
