@@ -233,5 +233,7 @@ This would be a good time to download TextWrangler (Mac) or Notepad++ (Windows) 
 
 Stay tuned for how you can modify content, add new pages, set custom post URLs, create a hidden draft feature, add tags, and create a dynamic tag index in the part 2 of this post.
 
+Here's Part 2 of this post <http://artiannaswamy.com/build-a-github-blog-part-2>
+
 <div class="breaker"></div>
 
