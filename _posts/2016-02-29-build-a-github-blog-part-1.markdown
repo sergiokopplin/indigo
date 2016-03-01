@@ -43,7 +43,7 @@ So, without further ado, here's the process that's got me this far.
 
 <div class="breaker"></div> <a id="starting-point"></a>
 
-## 0. Everyone needs a starting point 
+## A starting point 
 
 ... and for that, I thank Joshua Lande for his excellent post <http://joshualande.com/jekyll-github-pages-poole/> that gave me a general map to get started with.
 
@@ -51,7 +51,7 @@ So, without further ado, here's the process that's got me this far.
 
 ## 1. Buying a domain 
 
-I had bought my domain artiannaswamy.com several years ago on GoDaddy, and every time I renewed it, I re-upped for the longest possible time (5 years, I think), so that part was set. We will return to this one in the section on redirecting DNS nameservers (English: pointing your domain to Github to look for your website).
+I had bought my domain artiannaswamy.com several years ago on GoDaddy, and every time I renewed it, I re-upped for the longest possible time, so that part was set. 
 
 There are a lot of articles recommending good domain name registrars and telling you what to watch out for - everything ranging from customer service, transfer fees, selling your info to shady marketers and so on. I'd read these and do your research, especially if you find a new registrar with a great price on the domain you want, but no reviews to go on.
 
