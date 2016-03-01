@@ -364,7 +364,7 @@ For the next three steps, note that your tags can be displayed in three places:
 <script src="https://gist.github.com/aannasw/2ae9db3a8de76d283166.js"></script>
 
 This will change the non-hyperlinked tags displayed in your post to clickable links. Your final result may not *look* like this, but play with the appropriate CSS to get it looking that way. 
-<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/post-tags" /></div>
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/post-tags.png" /></div>
 
 #### Step 3. Create a tag index page and folder structure
 
@@ -400,7 +400,7 @@ Here's the updated file with the new code from line 6 to line 14:
 
 The tags should now show up on your blog post home page. Your final result may not *look* like this, but play with the appropriate CSS to get it looking that way. 
 
-<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/blog-page-tags" /></div>
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/blog-page-tags.png" /></div>
 
 #### Step 5. Add a custom header and navigation to the top
 
@@ -415,7 +415,7 @@ If you recall, in [section 5 of this post](#different-headers), we created custo
 
 The minimal header should now show for your tag index pages as well.
 
-<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/tag-index" /></div>
+<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/tag-index.png" /></div>
 
 <div class="breaker"></div>
 
