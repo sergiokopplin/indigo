@@ -145,11 +145,11 @@ The theme I ultimately went with is the [Indigo theme](http://koppl.in/indigo) b
 - Type in the url http://yourusername.github.io and you should now see the theme you just uploaded to your repository.
 <a id="bonus-option-1"></a>
 
-<span class="evidence">**Bonus section for Option 1**</span>
+#### <span class="evidence">Bonus section for Option 1</span>
 
 If you have the patience for some git code, this will help set up a back end connection between your repository and your source theme repository, so that any changes made by the theme developer will show up in your GitHub Desktop as a clickable button that says 'Update from sourceuser/sourcerepo'. 
 
-**Note** - *You may not always want to make every change, especially if it overrides customizations you've made*, but it helps when the theme developer adds new features or fixes bugs.
+**Note** - You may not always want to make every change, especially if it overrides customizations you've made, but it helps when the theme developer adds new features or fixes bugs.
 
 **GitHub Help articles to get started with:**
 
@@ -199,7 +199,7 @@ $ git merge upstream/gh-pages
 Already up-to-date.
 {% endhighlight %}
 
-- With either of the routes above, you may end up with changes you don't want to merge, as those may override 
+- With either of the routes above, you may end up with changes you don't want to merge, as those may override custom code you've added, but decide that on a file-by-file basis.
 
 <div class="breaker"></div> <a id="dns-nameservers"></a>
 
