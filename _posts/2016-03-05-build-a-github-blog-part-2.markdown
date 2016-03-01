@@ -21,10 +21,11 @@ Let's fix that first, then try a few customizations.
 - [3. Set Custom URLs for Posts](#custom-urls)
 - [4. Setup Hidden Drafts](#hidden-drafts)
 - [5. Tags and Tag Indexes](#tags)
+- [6. Different headers for different pages](#different-headers)
 
 <div class="breaker"></div> <a id="personalize"></a>
 
-## Personalize your site
+## 1. Personalize your site
 
 With a GitHub theme, the first place you start is with the <span class="evidence">_config.yml</span> file.
 
@@ -192,3 +193,97 @@ email: myemail@gmail.com
 
 - Replace the dummy names (myfacebook, mytwitter etc) with your actual IDs from each of the sites, and you're good to go.
 - If you don't want a specific social link to show below your picture on the front page, put a '#' symbol in the front, which will comment out the line and not run it as code.
+
+#### Blog features setup
+
+{% highlight raw %}
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# do you want some animations?
+animation: true
+
+{% endhighlight %}
+
+The sections here are all self-explanatory. If you want to see exactly what they affect, turn off and on each of the features, and see what happens. 
+
+To summarize the settings: 
+
+- projects, about and blog pages turning off and on will remove the links from the front page and the navigation
+- read time, tags and related posts affects extra info inside the posts itself
+- animations will affect that initial dropping effect by the title and the social links when you launch the home page
+
+<div class="breaker"></div> <a id="add-pages"></a>
+
+## 2. Add New Pages
+
+I liked the way this theme was organized, because I found it pretty intuitive to follow along on the various references to other files till I found the one I wanted to change. For example, if you start at index.html (Right Click > Open With ... TextWrangler), you'll see references to header.html and footer.html. If you open up header.html in the _includes folder, you will see the code that controls which pages the header applies to.
+
+Here's that code in the original theme:
+
+{% highlight raw %}
+{ % gist aannasw/b69681d6520bbda0fe71 % }
+{% endhighlight %}
+
+From that first line, it looks like the header defined in lines 3 - 14 will show only if the page title is Home or Blog or About.
+
+Which means, if you add any new pages, it won't show in the Navigation, unless you add it here. So, let's start here.
+
+- Edit the first part of the snippet to:
+{% highlight raw %}
+if page.title == "Home" or page.title == "Blog" or page.title == "Projects" or page.title == "Consulting"
+{% endhighlight %}
+
+- Then, switch over to your GitHub directory, and find the about page and make a copy of it.
+- Rename this copy to consulting, and keep the file extension the same as the about page
+- Open the newly renamed consulting.md
+- The part at the very top between the two triple-dashed lines is called the **YAML front matter** and will be processed first, and that's the key.
+- Here's the YAML from the about page:
+{% highlight html %}
+---
+title: About
+layout: page
+permalink: /about/index.html
+---
+{% endhighlight %}
+
+- Change that to:
+{% highlight html %}
+---
+title: Consulting
+layout: page
+permalink: /consulting/index.html
+---
+{% endhighlight %}
+
+- Next, head over to the nav.html file, and you'll see sections of code for each of the pages. Copy and paste the 'About' section, and change all the 'about's to 'consulting's.
+
+{% highlight raw %}
+        {% if site.about == true %}
+            {% if page.title != "Consulting" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/consulting">Consulting</a>
+                </li>
+            {% endif %}
+        {% endif %}
+{% endhighlight %}
+
+- That should do it for adding a new page. After you commit all the changes and sync, you should see a link to the new Consulting page on your site.
