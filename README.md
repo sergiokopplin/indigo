@@ -68,6 +68,7 @@ If you want travis tests, you can take a look at:
 
 - [fohlen.github.io](http://fohlen.github.io/) by @[Lennard Berger](https://github.com/Fohlen)
 - [gedankenstuecke.github.io](http://gedankenstuecke.github.io) by @[Bastian Greshake](https://github.com/gedankenstuecke)
+- [artiannaswamy.com](http://artiannaswamy.com/) by @[Arti Annaswamy](https://github.com/aannasw)
 
 > open a [pull-request](https://github.com/sergiokopplin/indigo/pulls) if you want your site in this awesome list
 
