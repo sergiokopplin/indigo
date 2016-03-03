@@ -3,7 +3,7 @@ name: John Doe
 bio: 'A Man who travels the world eating noodles'
 
 # if it's an external image, update below for true
-external-image: true
+external-image: false
 picture: 'assets/images/profile.jpg'
 
 url: http://sergiokopplin.github.io/indigo
