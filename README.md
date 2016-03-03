@@ -79,6 +79,7 @@ If you want travis tests, you can take a look at:
 
 ## Contributions
 
+- [Wojciech Dzikowski](http://github.com/DzikowskiW)
 - [Siddhant Jain](http://github.com/siddhantjain)
 - [Jeanderson Barros Candido](http://github.com/jeandersonbc)
 - [Rootul Patel](http://github.com/rootulp)
