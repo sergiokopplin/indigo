@@ -30,7 +30,7 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
 
 # Settings
 
-You have to fill some informations on `_config.yml` to customize your site.
+You must fill some informations on `_config.yml` to customize your site.
 
 ```
 name: John Doe
@@ -51,6 +51,10 @@ youtube: myyoutube
 spotify: myspotify
 github: mygithub
 email: myemail@gmail.com
+
+...
+
+and lot of other options, like width, projects, pages, read-time, tags, relateds, animations, etc.
 ```
 
 ## Tests
