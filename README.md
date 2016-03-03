@@ -30,7 +30,7 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
 
 # Settings
 
-You have to fill some informations on `_config.yml` to customize your site.
+You must fill some informations on `_config.yml` to customize your site.
 
 ```
 name: John Doe
@@ -51,6 +51,10 @@ youtube: myyoutube
 spotify: myspotify
 github: mygithub
 email: myemail@gmail.com
+
+...
+
+and lot of other options, like width, projects, pages, read-time, tags, relateds, animations, etc.
 ```
 
 ## Tests
@@ -68,6 +72,7 @@ If you want travis tests, you can take a look at:
 
 - [fohlen.github.io](http://fohlen.github.io/) by @[Lennard Berger](https://github.com/Fohlen)
 - [gedankenstuecke.github.io](http://gedankenstuecke.github.io) by @[Bastian Greshake](https://github.com/gedankenstuecke)
+- [artiannaswamy.com](http://artiannaswamy.com/) by @[Arti Annaswamy](https://github.com/aannasw)
 
 > open a [pull-request](https://github.com/sergiokopplin/indigo/pulls) if you want your site in this awesome list
 
