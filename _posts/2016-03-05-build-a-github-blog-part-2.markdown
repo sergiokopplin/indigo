@@ -368,7 +368,8 @@ This will change the non-hyperlinked tags displayed in your post to clickable li
 
 #### Step 3. Create a tag index page and folder structure
 
-Here's the code for creating tag index pages.
+Here's the code for creating tag index pages:
+
 - Copy and paste the code below into a new text editor file, and save the file as **tag_content.html** in the **_includes** folder
 <script src="https://gist.github.com/aannasw/386911d1e21ed48ddaa3.js"></script>
 
