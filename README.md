@@ -28,6 +28,8 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
 8. `gulp`
 9. open in your browser: `http://localhost:3000`
 
+> [Arti Annaswamy](https://github.com/aannasw) wrote a really nice tutorial of "how to install jekyll". Here's the [part 1](http://artiannaswamy.com/build-a-github-blog-part-1) and [part 2](http://artiannaswamy.com/build-a-github-blog-part-2). :metal:
+
 # Settings
 
 You must fill some informations on `_config.yml` to customize your site.
