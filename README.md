@@ -50,6 +50,7 @@ linkedin: mylinkedin
 youtube: myyoutube
 spotify: myspotify
 github: mygithub
+medium: mymedium
 email: myemail@gmail.com
 
 ...

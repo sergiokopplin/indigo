@@ -53,6 +53,12 @@
         </a>
     {% endif %}
 
+    {% if site.medium %}
+        <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
+            <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.email %}
         <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}" target="_blank">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
