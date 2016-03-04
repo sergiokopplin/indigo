@@ -1,0 +1,82 @@
+.tags
+    margin-top 125px
+
+    > .list
+        border-top 1px solid epsilon
+        margin-top 30px
+        padding-top 40px
+        position relative
+
+        &:before
+            display block
+            content " "
+            width 7px
+            height 7px
+            border epsilon 1px solid
+            position absolute
+            top -5px
+            left 50%
+            margin-left -5px
+            background #FFF
+            box-shadow #FFF 0 0 0 5px
+            border-radius 3px
+
+.tags > .list
+    > .item
+        font-weight 300
+        text-transform uppercase
+        text-align center
+        margin-bottom 6rem
+        -webkit-font-smoothing antialiased
+        text-rendering optimizeLegibility
+        padding 3px 6px
+        border-radius 3px
+        font-size 1.3rem
+        background epsilon
+        color alpha
+        letter-spacing 1px
+        margin 0 0.5rem 1rem
+        text-decoration none
+        display inline-block
+
+.tag-list > .list
+    padding 0
+
+    > .item
+        display block
+        width 80%
+        margin 0 10%
+
+    > .item > .url
+        width 100%
+        height 100%
+        display block
+        padding 20px 0
+        text-decoration none
+
+    > .item > .url > .title
+        margin 0
+        width 75%
+        font-weight 400
+        transition all ease-in-out .2s
+        font-size 1.6rem
+
+    > .item:hover > .url > .title
+        color delta
+
+    // maybe we can't nest html5 elements
+    // can you help me?
+    aside
+        position relative
+        top 2px
+        margin 0
+        width 25%
+        float right
+        font-weight 300
+        color gama
+        text-align right
+        transition all ease-in-out .2s
+        font-size 1.6rem
+
+    .item:hover .url aside
+        color alpha

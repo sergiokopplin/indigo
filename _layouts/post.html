@@ -11,9 +11,9 @@ layout: default
 </span>
 
 {% if site.show-tags %}
-    <div class="tags">
+    <div class="post-tags">
         {% for tag in page.tags %}
-            <span class="item">{{ tag }}</span>
+            <a class="item" href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
         {% endfor %}
     </div>
 {% endif %}

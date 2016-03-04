@@ -562,7 +562,7 @@ pre {
   margin-bottom: 3rem;
 }
 .post > .date,
-.post > .tags {
+.post > .post-tags {
   color: #aaa;
   font-weight: 300;
   font-size: 1.4rem;
@@ -577,7 +577,7 @@ pre {
 .post > .date {
   margin-bottom: 2rem;
 }
-.post > .tags > .item {
+.post > .post-tags > .item {
   padding: 3px 6px;
   border-radius: 3px;
   font-size: 1.1rem;
@@ -585,6 +585,7 @@ pre {
   color: #666;
   letter-spacing: 1px;
   margin: 0 0.5rem;
+  text-decoration: none;
 }
 .post > h2,
 .post > h3,
@@ -595,6 +596,88 @@ pre {
 .post > h3 a,
 .post > h4 a {
   text-decoration: none;
+}
+.tags {
+  margin-top: 125px;
+}
+.tags > .list {
+  border-top: 1px solid #ededed;
+  margin-top: 30px;
+  padding-top: 40px;
+  position: relative;
+}
+.tags > .list:before {
+  display: block;
+  content: " ";
+  width: 7px;
+  height: 7px;
+  border: #ededed 1px solid;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+  background: #fff;
+  box-shadow: #fff 0 0 0 5px;
+  border-radius: 3px;
+}
+.tags > .list > .item {
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 6rem;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  background: #ededed;
+  color: #666;
+  letter-spacing: 1px;
+  margin: 0 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.tag-list > .list {
+  padding: 0;
+}
+.tag-list > .list > .item {
+  display: block;
+  width: 80%;
+  margin: 0 10%;
+}
+.tag-list > .list > .item > .url {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+}
+.tag-list > .list > .item > .url > .title {
+  margin: 0;
+  width: 75%;
+  font-weight: 400;
+  -webkit-transition: all ease-in-out 0.2s;
+          transition: all ease-in-out 0.2s;
+  font-size: 1.6rem;
+}
+.tag-list > .list > .item:hover > .url > .title {
+  color: #4b0082;
+}
+.tag-list > .list aside {
+  position: relative;
+  top: 2px;
+  margin: 0;
+  width: 25%;
+  float: right;
+  font-weight: 300;
+  color: #aaa;
+  text-align: right;
+  -webkit-transition: all ease-in-out 0.2s;
+          transition: all ease-in-out 0.2s;
+  font-size: 1.6rem;
+}
+.tag-list > .list .item:hover .url aside {
+  color: #666;
 }
 .author {
   padding: 3rem 0;
