@@ -23,8 +23,6 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
     <b><a href="README.md#update-your-fork">Update your fork</a></b>
     |
     <b><a href="README.md#license">License</a></b>
-    |
-    
 </p>
 
 ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
