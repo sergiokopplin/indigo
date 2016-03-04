@@ -99,7 +99,6 @@ tt
 	font-family fontMonospace
 	font-size 12px
 	line-height 20px
-	// white-space pre-wrap
 	background #fff
 	border-radius 2px
 	border-radius 2px
@@ -112,15 +111,14 @@ pre
 	font-family fontMonospace
 	font-size 1.2rem
 	line-height 2rem
-	// white-space pre
 	overflow auto
 	background #fff
 	border 1px solid epsilon
 	border-radius 2px
 
-.wrapper
+.wrapper-normal,
+.wrapper-large
 	height 100%
-	max-width 560px
 	width 96%
 	margin 0 auto
 
@@ -129,3 +127,9 @@ pre
 
 	+tablet()
 		width 88%
+
+.wrapper-normal
+	max-width 560px
+
+.wrapper-large
+	max-width 810px

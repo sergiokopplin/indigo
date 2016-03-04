@@ -390,21 +390,29 @@ pre {
   border: 1px solid #ededed;
   border-radius: 2px;
 }
-.wrapper {
+.wrapper-normal,
+.wrapper-large {
   height: 100%;
-  max-width: 560px;
   width: 96%;
   margin: 0 auto;
 }
 @media only screen and (max-width: 400px) {
-  .wrapper {
+  .wrapper-normal,
+  .wrapper-large {
     width: 88%;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .wrapper {
+  .wrapper-normal,
+  .wrapper-large {
     width: 88%;
   }
+}
+.wrapper-normal {
+  max-width: 560px;
+}
+.wrapper-large {
+  max-width: 810px;
 }
 .text-center {
   text-align: center;
