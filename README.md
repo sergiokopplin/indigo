@@ -1,9 +1,33 @@
 ## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
 [![Build Status](https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages)](https://travis-ci.org/sergiokopplin/indigo)
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
-
 This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+
+***
+
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside?</a></b>
+    |
+    <b><a href="README.md#setup">Setup?</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#tests">Tests</a></b>
+    |
+    <b><a href="README.md#showcase">Showcase</a></b>
+    |
+    <b><a href="README.md#contributions">Contributions</a></b>
+    |
+    <b><a href="README.md#problems">Problems</a></b>
+    |
+    <b><a href="README.md#update-your-fork">Update your fork</a></b>
+    |
+    <b><a href="README.md#license">License</a></b>
+    |
+    
+</p>
+
+![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
 ---
 
