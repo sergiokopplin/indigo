@@ -103,6 +103,7 @@ If you want travis tests, you can take a look at:
 
 ## Contributions
 
+- [Breno da Mata](http://github.com/brenodamata)
 - [Wojciech Dzikowski](http://github.com/DzikowskiW)
 - [Siddhant Jain](http://github.com/siddhantjain)
 - [Jeanderson Barros Candido](http://github.com/jeandersonbc)
