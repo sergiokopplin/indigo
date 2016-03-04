@@ -1,7 +1,9 @@
+# main text of home
 name: John Doe
 bio: 'A Man who travels the world eating noodles'
 
-# main text of home
+# if it's an external image, update below for true
+external-image: true
 picture: 'assets/images/profile.jpg'
 
 url: http://sergiokopplin.github.io/indigo
