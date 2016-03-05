@@ -1,12 +1,12 @@
 # main text of home
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Matt Dolan
+bio: "@Square engineer, @Princeton '13, tv binge watcher who codes in his free time."
 
 # if it's an external image, update below for true
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://sergiokopplin.github.io/indigo
+url: http://dolan.xyz/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -17,20 +17,20 @@ highlighter: rouge
 analytics-google: 'UA-MYANALYTICS'
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: matthew.dolan1
+twitter: matthewdolan123
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-email: myemail@gmail.com
+linkedin: in/matthew-dolan-b34aa056
+# youtube: myyoutube
+# spotify: myspotify
+github: matthewdolan
+medium: dolan
+# email: myemail@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
