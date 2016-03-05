@@ -48,14 +48,13 @@ So, here's how to get around the problem of opening EPS files in CS4 (Mac only).
 2. Wait for Preview to convert the file to PDF format.
 <div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/eps-illustrator/converting-eps.png" /></div>
 
-3. Save the file as a PDF
+3. Save the file as PDF
 <div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/eps-illustrator/save-as.png" /></div>
 
-4. Fire up the Illustrator application, and open the newly saved PDF in Illustrator.
+4. Launch the Illustrator application, and open the newly saved PDF in Illustrator.
 
-5. You may see this error. This conversion may be causing some loss of color or shading, but it wasn't too significant.
-3. Save the file as a PDF
+5. You may see this error. This conversion may be causing some loss of color or shading, but I didn't find it too significant for my purposes. If you are working on color-sensitive, large format graphics, this could pose a problem.
 <div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/eps-illustrator/open-error.png" /></div>
 
-5. And there you have it. From an EPS file, to an editable vector graphic in Illustrator CS4.
+6. And there you have it. From an EPS file, to an editable vector graphic in Illustrator CS4.
 <div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/eps-illustrator/editable.png" /></div>
