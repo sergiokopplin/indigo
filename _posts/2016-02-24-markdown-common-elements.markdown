@@ -6,7 +6,7 @@ tag:
 - markdown
 - elements
 blog: true
-draft: false
+draft: true
 summary: "A list of the most common markdown elements and how they look"
 permalink: markdown-common-elements
 
