@@ -4,7 +4,7 @@ layout: post
 date: 2016-02-27 10:00
 tag: blog-setup
 blog: true
-draft: true
+draft: false
 summary: "Part 1 of a step by step non-coder's guide to setting up a personal site on Github"
 permalink: build-a-github-blog-part-1
 ---
