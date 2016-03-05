@@ -4,18 +4,20 @@ layout: post
 date: 2016-03-04 09:00
 tag: tips-and-tricks
 blog: true
-draft: true
+draft: false
 summary: "A trick to opening EPS files in Adobe Illustrator CS4 on a Mac"
 permalink: eps-files-in-illustrator-cs4
 ---
 
 Today, I ended up having to take a 2 hour detour for something I thought would be a simple process - download a free 'swoosh' vector graphic I found online (it's a long story why I needed a swoosh graphic, but suffice it to say I did), split it up into individual graphics and export it to a .png for use in a project.
 
-I found a perfect swoosh graphic set ([this one](http://www.vecteezy.com/vector-art/106447-different-type-of-business-banners). I clicked the 'Free Download' button, which downloaded a zip file containing an EPS file and a JPEG screenshot of the graphic.
+I found this perfect swoosh graphic set on Vecteezy, and proceeded to download it - which gave me a zip file containing an EPS file and a JPEG screenshot of the graphic.
+
+<div class="center"><a href="http://www.vecteezy.com/vector-art/106447-different-type-of-business-banners"><img src="http://static.vecteezy.com/system/resources/previews/000/106/447/non_2x/different-type-of-business-banners-vector.jpg" /></a></div>
 
 Now, I own a copy of Adobe CS4 suite from a long, long time ago, and have both Illustrator and PhotoShop installed on my Mac for one-off projects that might suddenly need a fully featured photo or vector editor. I figured it would be a simple matter of double-clicking the EPS file, it would open in Illustrator, and life would be good.
 
-I double-clicked the file, and it opened the file in the Preview application, giving me a flat, unusable image that I couldn't edit in a vector format.
+I double-clicked the file ... and it opened the file in the Preview application, giving me an uneditable image. Not useful.
 
 To force the file to open in Illustrator, I fired up the application, browsed over to the location of the EPS file, and opened it. That's when I encountered this error.
 
