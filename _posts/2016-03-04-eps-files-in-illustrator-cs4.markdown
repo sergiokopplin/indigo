@@ -1,7 +1,7 @@
 ---
 title: "Opening EPS files on Adobe Illustrator CS4 (Mac)"
 layout: post
-date: 2016-03-04 21:00
+date: 2016-03-04 09:00
 tag: tips-and-tricks
 blog: true
 draft: true
