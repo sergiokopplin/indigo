@@ -161,6 +161,8 @@ Google Analytics is definitely something you want to set up now so you can keep 
 - Google will create tracking ID for you that'll look something like 'UA-########'.
 - Copy this tracking ID, return to your _config.yml and paste it in the analytics-google field.
 
+**Note**: Make sure you set up filters in the Google Analytics Admin panel to exclude your own IP address. This excellent tutorial will help you through the steps: [How to exclude internal traffic from Google Analytics](http://www.cognique.co.uk/blog/exclude-internal-traffic-google-analytics/#.VuWvH8cUEdc).
+
 #### Disqus
 
 {% highlight raw %}
