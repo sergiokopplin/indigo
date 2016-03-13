@@ -2,9 +2,9 @@
 title: "Markdown Common Elements"
 layout: post
 date: 2016-02-24 22:44
-tag:
-- markdown
-- elements
+# tag:
+# - markdown
+# - elements
 blog: true
 draft: true
 summary: "A list of the most common markdown elements and how they look"
