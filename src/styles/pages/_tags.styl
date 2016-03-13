@@ -1,4 +1,4 @@
-.home, .blog, .projects
+.tags
     margin-top 125px
 
     > .list
@@ -21,16 +21,35 @@
             box-shadow #FFF 0 0 0 5px
             border-radius 3px
 
-.home > .list,
-.blog > .list,
-.projects > .list
+.tags > .list
+    > .item
+        font-weight 300
+        text-transform uppercase
+        text-align center
+        margin-bottom 6rem
+        -webkit-font-smoothing antialiased
+        text-rendering optimizeLegibility
+        padding 3px 6px
+        border-radius 3px
+        font-size 1.3rem
+        background epsilon
+        color alpha
+        letter-spacing 1px
+        margin 0 0.5rem 1rem
+        text-decoration none
+        display inline-block
+
+.tag-list > .list
+    padding 0
+
     > .item
         display block
-        width 95%
-        margin 0 auto
+        width 80%
+        margin 0 10%
 
     > .item > .url
         width 100%
+        height 100%
         display block
         padding 20px 0
         text-decoration none
@@ -38,8 +57,9 @@
     > .item > .url > .title
         margin 0
         width 75%
-        font-weight 500
+        font-weight 400
         transition all ease-in-out .2s
+        font-size 1.6rem
 
     > .item:hover > .url > .title
         color delta
@@ -56,16 +76,7 @@
         color gama
         text-align right
         transition all ease-in-out .2s
+        font-size 1.6rem
 
     .item:hover .url aside
         color alpha
-
-.projects > .list > .item > .url
-    > .title
-        display inline
-
-    > .emoji
-        display inline
-        position relative
-        top -4px
-        margin-right 10px

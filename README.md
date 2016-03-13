@@ -1,9 +1,31 @@
 ## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
 [![Build Status](https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages)](https://travis-ci.org/sergiokopplin/indigo)
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
-
 This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+
+***
+
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside?</a></b>
+    |
+    <b><a href="README.md#setup">Setup?</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#tests">Tests</a></b>
+    |
+    <b><a href="README.md#showcase">Showcase</a></b>
+    |
+    <b><a href="README.md#contributions">Contributions</a></b>
+    |
+    <b><a href="README.md#problems">Problems</a></b>
+    |
+    <b><a href="README.md#update-your-fork">Update your fork</a></b>
+    |
+    <b><a href="README.md#license">License</a></b>
+</p>
+
+![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
 ---
 
@@ -28,9 +50,11 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
 8. `gulp`
 9. open in your browser: `http://localhost:3000`
 
+> [Arti Annaswamy](https://github.com/aannasw) wrote a really nice tutorial of "how to install jekyll". Here's the [part 1](http://artiannaswamy.com/build-a-github-blog-part-1) and [part 2](http://artiannaswamy.com/build-a-github-blog-part-2). :metal:
+
 # Settings
 
-You have to fill some informations on `_config.yml` to customize your site.
+You must fill some informations on `_config.yml` to customize your site.
 
 ```
 name: John Doe
@@ -50,7 +74,12 @@ linkedin: mylinkedin
 youtube: myyoutube
 spotify: myspotify
 github: mygithub
+medium: mymedium
 email: myemail@gmail.com
+
+...
+
+and lot of other options, like width, projects, pages, read-time, tags, relateds, animations, etc.
 ```
 
 ## Tests
@@ -68,11 +97,14 @@ If you want travis tests, you can take a look at:
 
 - [fohlen.github.io](http://fohlen.github.io/) by @[Lennard Berger](https://github.com/Fohlen)
 - [gedankenstuecke.github.io](http://gedankenstuecke.github.io) by @[Bastian Greshake](https://github.com/gedankenstuecke)
+- [artiannaswamy.com](http://artiannaswamy.com/) by @[Arti Annaswamy](https://github.com/aannasw)
 
 > open a [pull-request](https://github.com/sergiokopplin/indigo/pulls) if you want your site in this awesome list
 
 ## Contributions
 
+- [Breno da Mata](http://github.com/brenodamata)
+- [Wojciech Dzikowski](http://github.com/DzikowskiW)
 - [Siddhant Jain](http://github.com/siddhantjain)
 - [Jeanderson Barros Candido](http://github.com/jeandersonbc)
 - [Rootul Patel](http://github.com/rootulp)

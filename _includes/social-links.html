@@ -6,7 +6,7 @@
     {% endif %}
 
     {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
             <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
     {% endif %}
@@ -29,9 +29,34 @@
         </a>
     {% endif %}
 
+    {% if site.pinterest %}
+        <a class="link" data-title="pinterest.com/{{ site.pinterest }}" href="http://pinterest.com/{{ site.pinterest }}" target="_blank">
+            <svg class="icon icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg>
+        </a>
+    {% endif %}
+
+
     {% if site.youtube %}
         <a class="link" data-title="youtube.com/{{ site.youtube }}" href="http://youtube.com/{{ site.youtube }}" target="_blank">
             <svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.spotify %}
+        <a class="link" data-title="spotify.com/{{ site.spotify }}" href="https://spotify.com/{{ site.spotify }}" target="_blank">
+            <svg class="icon icon-spotify"><use xlink:href="#icon-spotify"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.github %}
+        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+            <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.medium %}
+        <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
+            <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
         </a>
     {% endif %}
 
