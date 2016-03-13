@@ -1217,6 +1217,10 @@ pre {
 	margin: 0 0.5rem;
 }
 
+.tag-list > .title {
+  text-transform: capitalize;
+}
+
 .services table {
     width: 100%;
 }
