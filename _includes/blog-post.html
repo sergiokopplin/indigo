@@ -3,14 +3,6 @@
     <div class="item {% if post.star %}star{% endif %}">
         <a class="url" href="{{ site.url }}{{ post.url }}">
             <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-			<!-- arti-changes -->
-            <aside>
-			    <div class="tags item">
-       				 {% for tag in post.tags %}
-           				 <span class="tagblog">{{ tag }}</span>
-  				      {% endfor %}
-			    </div>            
-            </aside>
             <h3 class="title">{{ post.title }}</h3>
         </a>
     </div>
