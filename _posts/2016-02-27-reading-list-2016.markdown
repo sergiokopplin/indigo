@@ -25,6 +25,19 @@ So instead, I decided to pick one book from each of the major book categories li
 
 <em>** best, because if I'm spending that much time with anything and giving it attention and space, it'd better make for good company.</em>
 
+So here we go.
+
+Let's start with the list of categories, followed by the books. As I read the books, I'll move them up to the appropriate category.
+
+## Index
+- [List of Amazon Book Categories](#categories)
+- [Books I've Read in 2016](#read)
+- [Currently Reading](#reading)
+- [On My Reading List](#on-the-list)
+
+The list categories below are in the order: Books I've Read, Currently Reading and On My Reading List. And as I read the books, I will move them up to the appropriate category.
+
+<a id="categories"></a>
 <h3>The categories:</h3>
 - Arts & Photography :o:
 - Biographies & Memoirs
@@ -59,11 +72,7 @@ So instead, I decided to pick one book from each of the major book categories li
 
 That's 30 pretty diverse categories, and 30-35 is a good enough number that'll average to about 3 books a month. A good number of my picks seem to have gravitated towards the Business & Money category as you will see, so down the road, I may have to compensate with overloading on other categories.
 
-So here we go.
-
-The list categories below are in the order: Books I've Read, Currently Reading and On My Reading List. And as I read the books, I will move them up to the appropriate category.
-
-<div class="breaker"></div>
+<div class="breaker"></div><a id="read"></a>
 <h2 class="title">Books I've Read</h2>
 ---
 
@@ -105,7 +114,7 @@ I loved reading [Born to Run](http://amzn.to/1Uq1m43) by Christopher McDougall l
 
 Where the book really shines is when it delves into the making of the athlete, and the constructing of the boat. The boat builder, a mysterious transplant from England, and the competing coaches of the Washington and Berkeley college teams are incredible characters and any scenes they are in just come alive.
 
-<div class="breaker"></div>
+<div class="breaker"></div><a id="reading"></a>
 <h2 class="title">Currently Reading</h2>
 ---
 
@@ -113,15 +122,15 @@ Where the book really shines is when it delves into the making of the athlete, a
 <h3><a href="http://amzn.to/1oN3wid" target="_blank">No ordinary time: Franklin and Eleanor Roosevelt : the home front in World War II</a> by Doris Kearns Goodwin (1994)</h3>	
 *Category: Biographies & Memoirs > Presidents*
 
-<div class="center"><a href="http://amzn.to/1VIYTjn" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/flash-boys.jpg" /></a></div>
-<h3><a href="http://amzn.to/1VIYTjn" target="_blank">Flash Boys: A Wall Street Revolt</a> by Michael Lewis (2014)</h3>
-*Category: Business & Money > Fiction*
+<div class="center"><a href="http://amzn.to/1Q8qxov" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/zero-to-one.jpg" /></a></div>
+<h3><a href="http://amzn.to/1Q8qxov" target="_blank">Zero to One: Notes on Startups, or How to Build the Future</a> by Peter Thiel, Blake  Masters (2014)</h3>
+*Category: Entrepreneurship*
 
-<div class="center"><a href="http://amzn.to/1UoRkQz" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/meditations.jpg" /></a></div>
-<h3><a href="http://amzn.to/1UoRkQz (better reviewed http://amzn.to/1Q8qJUU)" target="_blank">Meditations</a> by Marcus Aurelius, Martin Hammond, Diskin Clay (180 AD)</h3>
-*Category: Politics & Social Sciences > Philosophy*
+<div class="center"><a href="http://amzn.to/1Q8qVDw" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/career-of-evil.jpg" /></a></div>
+<h3><a href="http://amzn.to/1Q8qVDw" target="_blank">Career of Evil (Cormoran Strike, #3)</a> by Robert Galbraith (J.K. Rowling) (2015)</h3>
+*Category: Fiction > Mystery, Thriller & Suspense*
 
-<div class="breaker"></div>
+<div class="breaker"></div><a id="on-the-list"></a>
 <h2 class="title">On My Reading List</h2>
 ---
 
@@ -144,3 +153,12 @@ Where the book really shines is when it delves into the making of the athlete, a
 <div class="center"><a href="http://amzn.to/1VIZUYR" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/influence.jpg" /></a></div>
 <h3><a href="http://amzn.to/1VIZUYR" target="_blank">Influence: The Psychology of Persuasion</a> by Robert B. Cialdini (1984)</h3>
 *Category: Business & Money > Consumer Behavior*
+
+<div class="center"><a href="http://amzn.to/1VIYTjn" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/flash-boys.jpg" /></a></div>
+<h3><a href="http://amzn.to/1VIYTjn" target="_blank">Flash Boys: A Wall Street Revolt</a> by Michael Lewis (2014)</h3>
+*Category: Business & Money > Fiction*
+
+<div class="center"><a href="http://amzn.to/1UoRkQz" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/meditations.jpg" /></a></div>
+<h3><a href="http://amzn.to/1UoRkQz (better reviewed http://amzn.to/1Q8qJUU)" target="_blank">Meditations</a> by Marcus Aurelius, Martin Hammond, Diskin Clay (180 AD)</h3>
+*Category: Politics & Social Sciences > Philosophy*
+
