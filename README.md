@@ -40,6 +40,7 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
 
 # Setup
 
+0. :star: to the project. :metal:
 1. [Install Jekyll](http://jekyllrb.com)
 2. [Install NodeJS](https://nodejs.org/)
 3. [Install Bundler](http://bundler.io/)
