@@ -6,31 +6,31 @@ bio: "@Square engineer, @Princeton '13, tv binge watcher who codes in his free t
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://dolan.xyz/
-# your url: http://USERNAME.github.io
+url: http://www.dolan.xyz/
 
 permalink: /:title/
 
 markdown: kramdown
 highlighter: rouge
 
-analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-75244461-1'
 
 # if you don't want comments in your posts, set to false
 disqus: false
 
 # if you don't have any of social below, comment the line
 facebook: matthew.dolan1
-twitter: matthewdolan123
+twitter: __mdolan__
+linkedin: in/mrldolan
+github: matthewdolan
+medium: dolan
+email: blog@dolan.xyz
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: in/matthew-dolan-b34aa056
 # youtube: myyoutube
 # spotify: myspotify
-github: matthewdolan
-medium: dolan
-# email: myemail@gmail.com
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -38,14 +38,11 @@ medium: dolan
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
-# if you don't need projects, comment the *projects* configs below
-projects: true
-
-# if you don't need "about" or "blog", comment them out below
 about: true
+projects: false
 blog: true
 
 # do you want to show the "read time" of the posts?
