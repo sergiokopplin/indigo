@@ -6,8 +6,8 @@ bio: 'A Man who travels the world eating noodles'
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: "//koppl.in/indigo"
-# your url: "http://USERNAME.github.io"
+url: https://koppl.in/indigo
+# your url: http://USERNAME.github.io
 
 permalink: /:title/
 
