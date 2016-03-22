@@ -1,6 +1,6 @@
 <section class="author{% if site.disqus == false %} no-disqus{% endif %}">
     <div class="toleft">
-        <img class="selfie" src="{{ site.url }}/{{ site.picture }}" alt="{{ site.name }}">
+        <img class="selfie" src="{% if site.external-image == true %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" alt="{{ site.name }}">
     </div>
 
     <div class="toright">
