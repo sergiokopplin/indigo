@@ -70,13 +70,6 @@ analytics: 'UA-MYANALYTICS'
 disqus: mydisqus
 facebook: myfacebook
 twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: mymedium
-email: myemail@gmail.com
 
 ...
 
@@ -101,16 +94,6 @@ If you want travis tests, you can take a look at:
 - [artiannaswamy.com](http://artiannaswamy.com/) by @[Arti Annaswamy](https://github.com/aannasw)
 
 > open a [pull-request](https://github.com/sergiokopplin/indigo/pulls) if you want your site in this awesome list
-
-## Contributions
-
-- [Breno da Mata](http://github.com/brenodamata)
-- [Wojciech Dzikowski](http://github.com/DzikowskiW)
-- [Siddhant Jain](http://github.com/siddhantjain)
-- [Jeanderson Barros Candido](http://github.com/jeandersonbc)
-- [Rootul Patel](http://github.com/rootulp)
-- [Bastian Greshake](http://github.com/gedankenstuecke)
-- [Phat Nguyen](http://github.com/npvinhphat)
 
 ## Problems?
 
