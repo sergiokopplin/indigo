@@ -48,8 +48,9 @@ This is a simple and minimalist template for Jekyll for those who likes to eat n
 5. Edit `_config.yml` with your data.
 6. `bundle install`
 7. `npm install`
-8. `gulp`
-9. open in your browser: `http://localhost:3000`
+8. `npm install -g gulp`
+9. `gulp`
+10. open in your browser: `http://localhost:3000`
 
 > [Arti Annaswamy](https://github.com/aannasw) wrote a really nice tutorial of "how to install jekyll". Here's the [part 1](http://artiannaswamy.com/build-a-github-blog-part-1) and [part 2](http://artiannaswamy.com/build-a-github-blog-part-2). :metal:
 
