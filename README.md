@@ -82,7 +82,7 @@ and lot of other options, like width, projects, pages, read-time, tags, relateds
 You can test your app with:
 
 ```bash
-bundle exec htmlproof ./_site --verbose
+bundle exec htmlproof ./_site
 ````
 
 If you want travis tests, you can take a look at:
