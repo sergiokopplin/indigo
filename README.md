@@ -1,7 +1,6 @@
-## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
-[![Build Status](https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages)](https://travis-ci.org/sergiokopplin/indigo)
+## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/) · [![Build Status](https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages)](https://travis-ci.org/sergiokopplin/indigo)
 
-This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
 ***
 
