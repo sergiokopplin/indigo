@@ -106,6 +106,11 @@ Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issu
 
 ---
 
+### Inspirations:
+- [Addy Osmani](https://addyosmani.com/)
+
+---
+
 ## License
 
 [MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
