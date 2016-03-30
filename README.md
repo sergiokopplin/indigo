@@ -19,6 +19,8 @@
     |
     <b><a href="README.md#problems">Problems</a></b>
     |
+    <b><a href="README.md#how-to">How to</a></b>
+    |
     <b><a href="README.md#update-your-fork">Update your fork</a></b>
     |
     <b><a href="README.md#license">License</a></b>
@@ -98,6 +100,14 @@ If you want travis tests, you can take a look at:
 ## Problems?
 
 Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issues/new).
+
+---
+
+### How to
+
+- [Emojis in the projects list?](https://github.com/sergiokopplin/indigo/issues/72)
+
+---
 
 ### Update your fork.
 
