@@ -124,10 +124,10 @@ You can add a especial *hr* to your text.
 You can add Gists from github.
 
 {% highlight raw %}
-{ % gist sergiokopplin/5afb058da029a13de73e % }
+{ % gist sergiokopplin/a344e39fef90e453c22815493475937c % }
 {% endhighlight %}
 
-{% gist sergiokopplin/5afb058da029a13de73e %}
+{% gist sergiokopplin/a344e39fef90e453c22815493475937c %}
 
 ---
 
