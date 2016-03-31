@@ -103,9 +103,10 @@ Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issu
 
 ---
 
-### How to
+### How to:
 
 - [Emojis in the projects list?](https://github.com/sergiokopplin/indigo/issues/72)
+- [Nokogiri dependencie problems?](https://github.com/sergiokopplin/indigo/issues/81)
 
 ---
 
