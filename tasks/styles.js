@@ -9,7 +9,7 @@ var gulp        = require('gulp'),
     nib         = require('nib');
 
 gulp.task('styles', function() {
-    return gulp.src('src/styles/main.styl')
+    return gulp.src('assets/styles/main.styl')
         .pipe(plumber())
         .pipe(stylus({
             use:[prefixer(), rupture(), nib()],
@@ -18,5 +18,5 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('_site/assets/styles'))
         .pipe(gulp.dest('_includes'))
         .pipe(browserSync.reload({stream: true}))
-        .pipe(gulp.dest('src/styles'));
+        .pipe(gulp.dest('assets/styles'));
 });

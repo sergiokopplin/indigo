@@ -5,8 +5,8 @@ var gulp        = require('gulp'),
     imagemin    = require('gulp-imagemin');
 
 gulp.task('imagemin', function(tmp) {
-    return gulp.src('src/images/**/*.{jpg,png,gif}')
+    return gulp.src('assets/images/**/*.{jpg,png,gif}')
         .pipe(plumber())
         .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-        .pipe(gulp.dest('src/images'));
+        .pipe(gulp.dest('assets/images'));
 });
