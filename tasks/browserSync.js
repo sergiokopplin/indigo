@@ -3,7 +3,6 @@ var gulp        = require('gulp'),
 
 gulp.task('browserSync', ['jekyll-build'], function() {
     browserSync({
-        server: { baseDir: "_site/" },
-        open: false
+        server: { baseDir: "_site/" }
     });
 });

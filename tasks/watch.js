@@ -1,4 +1,4 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 
 gulp.task('watch', function() {
     gulp.watch('src/styles/**/*', ['styles']);
