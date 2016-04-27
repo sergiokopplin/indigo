@@ -59,6 +59,12 @@
         </a>
     {% endif %}
 
+    {% if site.googlescholar %}
+        <a class="link" data-title="scholar.google.com/citations?user={{ site.googlescholar }}" href="https://scholar.google.com/citations?user={{ site.googlescholar }}" target="_blank">
+            <svg class="icon icon-google-scholar"><use xlink:href="#icon-google-scholar"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.email %}
         <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}" target="_blank">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>

@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Eric W. Tramel
+bio: 'Postdoctoral Researcher in Statistical Signal Processsing & Machine Learning at ENS'
 
 # if it's an external image, update below for true
 external-image: false
@@ -14,6 +14,10 @@ permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 
+kramdown: 
+  input: GFM
+  syntax_highlighter: rouge
+
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
 
@@ -25,17 +29,18 @@ highlighter: rouge
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-# google: mygoogle
+# facebook: myfacebook
+twitter: fujikanaeda
+google: EricTramel
+googlescholar: jre2iwMAAAAJ
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-email: myemail@gmail.com
+linkedin: erictramel
+# youtube: myyoutube
+# spotify: myspotify
+github: 'eric-tramel'
+# medium: medium
+email: eric.tramel@lps.ens.fr
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -47,11 +52,11 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
-
+projects: false
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
+publications: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -77,4 +82,4 @@ gems:
 jekyll-mentions:
     base_url: https://github.com
 
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh,indigo.sublime-project]

@@ -1,0 +1,71 @@
+---
+layout: default
+permalink: /publications/index.html
+title: Publications
+---
+{% include header.html %}
+
+<h2 class="books">Books</h2>
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.publication %}
+            {% if post.book %}
+                <div class="item {% if post.star == true %}star{% endif %}">
+                    <a class="url" href="{{ site.url }}{{ post.url }}">                
+                        {{ post.jemoji }}<h4 class="title">{{ post.title }}</h4>
+                    </a>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</section>
+
+<hr>
+<h2 class="books">Journal Articles</h2>
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.publication %}
+            {% if post.article %}
+                <div class="item {% if post.star == true %}star{% endif %}">
+                    <a class="url" href="{{ site.url }}{{ post.url }}">                
+                        {{ post.jemoji }}<i>{{ post.title }}</i>
+                    </a>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</section>
+
+<hr>
+
+<h2 class="books">Conference Papers</h2>
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.publication %}
+            {% if post.conference %}                
+                <div class="item {% if post.star == true %}star{% endif %}">
+                    {{ post.jemoji }} {{ post.authors }},
+                    "<a class="url" href="{{ site.url }}{{ post.url }}">                
+                        {{ post.title }}
+                    </a>,"
+                    <i>{{ post.in }}</i>,
+                    {{ post.year }}.
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</section>
+
+<!-- <section class="list">
+    {% for post in site.posts %}
+        {% if post.publication %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">                
+                    {{ post.jemoji }}<h4 class="title">{{ post.title }}</h4>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section> -->
+
+{% include footer.html %}
