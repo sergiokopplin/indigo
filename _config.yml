@@ -1,13 +1,12 @@
 # main text of home
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Karl Pitrich
+bio: 'fidgeting with hardware since 1984'
 
 # if it's an external image, update below for true
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://koppl.in/indigo
-# your url: http://USERNAME.github.io
+url: http://karl.pitrich.com/
 
 permalink: /:title/
 
@@ -17,25 +16,21 @@ highlighter: rouge
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
 
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
-
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: 0xPIT
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+twitter: 0xPIT
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-email: myemail@gmail.com
+youtube: 0xPIT
+#spotify: myspotify
+github: 0xPIT
+#medium: medium
+email: karl@pitrich.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
