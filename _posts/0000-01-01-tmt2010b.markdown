@@ -1,0 +1,45 @@
+---
+title: "Multistage Compressed-Sensing Reconstruction of Multiview Images"
+layout: post
+date: 2010-10-01
+tag: 
+- publication
+- compressed sensing
+- inverse problems
+- multiview imaging 
+- block cs
+publication: true
+conference: true
+authors: "M. Trocan, T. Maugey, E. W. Tramel, J. E. Fowler, & B. Pesquet-Popescu"
+in: "Proc. of the IEEE Int. Workshop on Multimedia Signal Processing (MMSP)"
+year: 2010
+---
+
+<div align="center">
+<h3>Maria Trocan, Thomas Maugey, Eric W. Tramel, James E. Fowler, & Béatrice Pesquet-Popescu</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/tmt2010b.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+inproceedings{tmt2010b,
+    Address = {Saint-Malo, France},
+    Author = {Maria Trocan and Thomas Maugey and Eric W. Tramel and James E. Fowler and B{\'e}atrice Pesquet-Popescu},
+    Booktitle = {Proc. of the IEEE Int. Workshop on Multimedia Signal Processing (MMSP)},
+    Month = October,
+    Pages = {111--115},
+    Title = {Multistage Compressed-Sensing Reconstruction of Multiview Images},
+    Year = 2010}
+```

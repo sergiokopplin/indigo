@@ -1,0 +1,47 @@
+---
+title: "Block-based Compressed Sensing of Images and Video"
+layout: post
+date: 2012-03-01
+tag: 
+- publication
+- compressed sensing
+- imaging
+- video
+- multiview imaging
+- block cs
+publication: true
+book: true
+authors: "J. E. Fowler, S. Mun, & E. W. Tramel"
+in: "Foundations and Trends in Signal Processing"
+year: 2012
+---
+
+<div align="center">
+<h3>James E. Fowler, Sungkwang Mun, & Eric W. Tramel</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/fmt2012.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+article{fmt2012,
+    Author = {James E. Fowler and Sungkwang Mun and Eric W. Tramel},
+    Journal = {Foundations and Trends in Signal Processing},
+    Month = {March},
+    Number = {4},
+    Pages = {297--416},
+    Title = {Block-based Compressed Sensing of Images and Video},
+    Volume = {4},
+    Year = {2012}}
+```

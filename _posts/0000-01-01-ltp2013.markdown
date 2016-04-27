@@ -1,0 +1,45 @@
+---
+title: "Nearest Regularized Subspace for Hyperspectral Classification"
+layout: post
+date: 2013-07-01
+tag: 
+- publication
+- remote sensing
+- supervised classification
+- machine learning
+- hyperspectral imaging
+publication: true
+article: true
+authors: "W. Li, E. W. Tramel, S. Prasad, & J. E. Fowler"
+in: "IEEE Transactions on Geoscience and Remote Sensing"
+year: 2013
+---
+
+<div align="center">
+<h3>Wei Li, Eric W. Tramel, Saurabh Prasad, & James E. Fowler</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/lpt2013.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+article{ltp2013,
+    Author = {Wei Li and Eric W. Tramel and Saurabh Prasad and James E. Fowler},
+    Journal = {IEEE Transactions on Geoscience and Remote Sensing},
+    Number = {1},
+    Pages = {477-489},
+    Title = {Nearest Regularized Subspace for Hyperspectral Classification},
+    Volume = {52},
+    Year = {2013}}
+```

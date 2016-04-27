@@ -1,0 +1,45 @@
+---
+title: "Compressed Sensing of Multiview Images using Disparity Compensation"
+layout: post
+date: 2010-09-01
+tag: 
+- publication
+- compressed sensing
+- inverse problems
+- multiview imaging 
+- block cs
+publication: true
+conference: true
+authors: "M. Trocan, T. Maugey, E. W. Tramel, J. E. Fowler, & B. Pesquet-Popescu"
+in: "Proc. of the IEEE Int. Conf. on Image Processing (ICIP)"
+year: 2010
+---
+
+<div align="center">
+<h3>Maria Trocan, Thomas Maugey, Eric W. Tramel, James E. Fowler, & Béatrice Pesquet-Popescu</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/tmt2010.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+inproceedings{tmt2010,
+    Address = {Hong Kong},
+    Author = {Maria Trocan and Thomas Maugey and Eric W. Tramel and James E. Fowler and B{\'e}atrice Pesquet-Popescu},
+    Booktitle = {Proc. of the {IEEE} Int. Conf. on Image Processing (ICIP)},
+    Month = sep,
+    Pages = {3345--3348},
+    Title = {Compressed Sensing of Multiview Images using Disparity Compensation},
+    Year = 2010}
+```

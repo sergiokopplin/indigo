@@ -1,0 +1,44 @@
+---
+title: "Spectral-Spatial Preprocessing Using Multihypothesis Prediction for Noise-Robust Hyperspectral Image Classification"
+layout: post
+date: 2014-09-01
+tag: 
+- publication
+- supervised classification
+- hyperspectral imaging
+- machine learning
+- remote sensing
+publication: true
+article: true
+authors: "C. Chen, W. Li, E. W. Tramel, M. Cui, S. Prasad, & J. E. Fowler"
+in: "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+year: 2014
+---
+
+<div align="center">
+<h3>Chen Chen, Wei Li, Eric W. Tramel, Minshan Cui, Saurabh Prasad, & James E. Fowler</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/clt2014b.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+article{clt2014b,
+    Author = {Chen Chen and Wei Li and Eric W. Tramel and Minshan Cui and Saurabh Prasad and James E. Fowler},
+    Journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+    Number = {99},
+    Title = {Spectral-Spatial Preprocessing Using Multihypothesis Prediction for Noise-Robust Hyperspectral Image Classification},
+    Volume = {PP},
+    Year = {2014}}
+```

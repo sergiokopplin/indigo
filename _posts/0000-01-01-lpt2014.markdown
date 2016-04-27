@@ -1,0 +1,46 @@
+---
+title: "Decision Fusion for Hyperspectral Image Classification Based on Minimum-Distance Classifiers in the Wavelet Domain"
+layout: post
+date: 2014-07-01
+tag: 
+- publication
+- remote sensing
+- supervised classification
+- machine learning
+- hyperspectral imaging
+- wavelets
+publication: true
+conference: true
+authors: "W. Li, S. Prasad, E. W. Tramel, J. E. Fowler, & Q. Du"
+in: "IEEE China Summit on Signal and Info. Processing"
+year: 2014
+---
+
+<div align="center">
+<h3>Wei Li, Saurabh Prasad,  Eric W. Tramel, James E. Fowler, & Qian Du</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/lpt2014.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+inproceedings{lpt2014,
+    Address = {Xi'an, China},
+    Author = {Wei Li and Saurabh Prasad and Eric W. Tramel and James E. Fowler and Qian Du},
+    Booktitle = {IEEE China Summit on Signal and Info. Processing},
+    Month = {July},
+    Pages = {162--15},
+    Title = {Decision Fusion for Hyperspectral Image Classification Based on Minimum-Distance Classifiers in the Wavelet Domain},
+    Year = {2014}}
+```

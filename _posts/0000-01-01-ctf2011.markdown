@@ -1,0 +1,45 @@
+---
+title: "Compressed-sensing Recovery of Images and Video Using Multihypothesis Predictions"
+layout: post
+date: 2011-11-01
+tag: 
+- publication
+- compressed sensing
+- imaging
+- inverse problems
+- video 
+- block cs
+publication: true
+conference: true
+authors: "C. Chen, E. W. Tramel, & J. E. Fowler"
+in: "Asilomar Conf. on Signals, Systems, and Computers"
+year: 2011
+---
+
+<div align="center">
+<h3>Chen Chen, Eric W. Tramel, & James E. Fowler</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/ctf2011.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+inproceedings{ctf2011,
+    Address = {Pacific Grove, CA},
+    Author = {Chen Chen and Eric W. Tramel and James E. Fowler},
+    Booktitle = {Asilomar Conf. on Signals, Systems, and Computers},
+    Month = {November},
+    Title = {Compressed-sensing Recovery of Images and Video Using Multihypothesis Predictions},
+    Year = {2011}}
+```

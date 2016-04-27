@@ -1,0 +1,45 @@
+---
+title: "Video Compressed Sensing with Multihypothesis"
+layout: post
+date: 2011-02-01
+tag: 
+- publication
+- compressed sensing
+- inverse problems
+- video 
+- block cs
+publication: true
+conference: true
+authors: "E. W. Tramel & J. E. Fowler"
+in: "Proc. of the IEEE Data Compression Conf. (DCC)"
+year: 2011
+---
+
+<div align="center">
+<h3>Eric W. Tramel & James E. Fowler</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/tf2011.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+inproceedings{tf2011,
+    Address = {Snowbird, Utah},
+    Author = {Eric W. Tramel and James E. Fowler},
+    Booktitle = {Proc. of the {IEEE} Data Compression Conf. (DCC)},
+    Month = march,
+    Pages = {193--202},
+    Title = {Video Compressed Sensing with Multihypothesis},
+    Year = 2011}
+```

@@ -1,0 +1,43 @@
+---
+title: "Statistical Physics, Optimization, Inference, and Message-Passing Algorithms"
+layout: post
+date: 2016-01-01
+tag: 
+- publication
+- inference
+- statistical physics
+- machine learning
+- belief propagation
+- optimization
+publication: true
+book: true
+authors: "F.Krzakala, F. Ricci-Tersenghi, L. Zdeborová, R. Zecchina, E. W. Tramel, & L. F. Cugliandolo"
+in: "Oxford University Press"
+year: 2016
+---
+
+<div align="center">
+<h3>Florent Krzakala, Federico Ricci-Tersenghi, Lenka Zdeborová, Riccardo Zecchina, Eric W. Tramel, & Leticia F. Cugliandolo</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/krz2016.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+book{krz2016,
+    Author = {Florent Krzakala and Federico Ricci-Tersenghi and Lenka Zdeborov\`{a} and Riccardo Zecchina and Eric W. Tramel and Leticia F. Cugliandolo},
+    Publisher = {Oxford University Press},
+    Title = {Statistical Physics, Optimization, Inference, and Message-Passing Algorithms},
+    Year = {2016}}
+```

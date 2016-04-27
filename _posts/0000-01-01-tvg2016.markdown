@@ -1,0 +1,46 @@
+---
+title: "Statistical Physics, Optimization, Inference, and Message-Passing Algorithms"
+layout: post
+date: 2016-01-01
+tag: 
+- publication
+- inference
+- statistical physics
+- machine learning
+- belief propagation
+- message passing
+publication: true
+bookchap: true
+authors: "E. W. Tramel, S. Kumar, A. Giurgiu, & A. Montanari"
+in: "Statistical Physics, Optimization, Inference, and Message-Passing Algorithms, Oxford University Press"
+year: 2016
+---
+
+<div align="center">
+<h3>Eric W. Tramel, Santhosh Kumar, Andrei Giurgiu, & Andrea Montanari</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/tvg2016.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+incollection{tvg2014,
+    Author = {Eric W. Tramel and Santhosh Kumar and Andrei Giurgiu and Andrea Montanari},
+    Booktitle = {Statistical Physics, Optimization, Inference, and Message-Passing Algorithms},
+    Editor = {Florent Krzakala and Federico Ricci-Tersenghi and Lenka Zdeborov\`{a} and Riccardo Zecchina and Eric W. Tramel and Leticia F. Cugliandolo},
+    Pages = {120--177},
+    Publisher = {Oxford University Press},
+    Title = {Statistical Estimation: From Denoising to Sparse Regression and Hidden Cliques},
+    Year = {2015}}
+```

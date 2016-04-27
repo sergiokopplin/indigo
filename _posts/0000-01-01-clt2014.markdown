@@ -1,0 +1,45 @@
+---
+title: "Reconstruction of Hyperspectral Imagery from Random Projections using Multihypothesis Prediction"
+layout: post
+date: 2014-08-01
+tag: 
+- publication
+- inverse problems
+- compressed sensing
+- hyperspectral imaging
+- remote sensing
+publication: true
+article: true
+authors: "C. Chen, W. Li, E. W. Tramel, & J. E. Fowler"
+in: "IEEE Transactions on Geoscience and Remote Sensing"
+year: 2014
+---
+
+<div align="center">
+<h3>Chen Chen, Wei Li, Eric W. Tramel, & James E. Fowler</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/clt2014.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+article{clt2014,
+    Author = {Chen Chen and Wei Li and Eric W. Tramel and James E. Fowler},
+    Journal = {IEEE Transactions on Geoscience and Remote Sensing},
+    Number = {1},
+    Pages = {365-374},
+    Title = {Reconstruction of Hyperspectral Imagery from Random Projections using Multihypothesis Prediction},
+    Volume = {52},
+    Year = {2014}}
+```

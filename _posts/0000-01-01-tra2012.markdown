@@ -1,0 +1,46 @@
+---
+title: "Distance-Weighted Regularization for Compressed-Sensing Video Recovery and Supervised Hyperspectral Classification"
+layout: post
+date: 2012-01-01
+tag: 
+- publication
+- compressed sensing
+- block cs
+- inverse problems
+- imaging
+- video
+- multiview imaging
+publication: true
+book: true
+authors: "E. W. Tramel"
+in: "Mississippi State University (Dissertation)"
+year: 2012
+---
+
+<div align="center">
+<h3>Eric W. Tramel</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/tra2012.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+phdthesis{Tra2012,
+    Address = {Starkville, MS},
+    Author = {Eric W. Tramel},
+    Month = {December},
+    School = {Mississippi State University},
+    Title = {Distance-Weighted Regularization for Compressed-Sensing Video Recovery and Supervised Hyperspectral Classification},
+    Year = {2012}}
+```

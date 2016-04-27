@@ -1,0 +1,46 @@
+---
+title: "Multiscale Block Compressed Sensing with Smoothed Projected Landweber Reconstruction"
+layout: post
+date: 2011-10-01
+tag: 
+- publication
+- compressed sensing
+- imaging
+- inverse problems
+- video 
+- block cs
+publication: true
+conference: true
+authors: "J. E. Fowler and S. Mun, & E. W. Tramel"
+in: "Proc. European Signal Processing Conf. (EUSIPCO)"
+year: 2011
+---
+
+<div align="center">
+<h3>James E. Fowler, Sungkwang Mun, & Eric W. Tramel</h3>
+<a href="http://">[Link]</a>
+<a href="http://">[PDF]</a>
+</div>
+
+- - -
+
+![Main Figure](/assets/images/fmt2011.png)
+<figcaption class="caption">
+caption
+</figcaption>
+
+<br><br>
+
+***Abstract ---*** text
+
+### BibTeX Record
+```
+inproceedings{fmt2011,
+    Address = {Barcelona, Spain},
+    Author = {James E. Fowler and Sungkwang Mun and Eric W. Tramel},
+    Booktitle = {Proc. European Signal Processing Conf. (EUSIPCO)},
+    Month = {August},
+    Pages = {564--568},
+    Title = {Multiscale Block Compressed Sensing with Smoothed Projected Landweber Reconstruction},
+    Year = {2011}}
+```
