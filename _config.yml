@@ -26,7 +26,7 @@ analytics-google: 'UA-36574119-2'
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: false
+disqus: ewtgithub
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
