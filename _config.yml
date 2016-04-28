@@ -6,7 +6,7 @@ bio: 'Postdoctoral Researcher in Statistical Signal Processsing & Machine Learni
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://koppl.in/indigo
+url: http://eric-tramel.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -26,7 +26,7 @@ kramdown:
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
