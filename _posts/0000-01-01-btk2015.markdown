@@ -13,6 +13,7 @@ conference: true
 authors: J. Barbier, E. W. Tramel, & F. Krzakala
 in: Proc. Int. Mtg. on High-Dimensional Data Driven Science (HD^3)
 year: 2015
+img: "/assets/images/btk2015.png"
 ---
 
 <div align="center">
@@ -23,7 +24,7 @@ year: 2015
 
 - - -
 
-![Main Figure](/assets/images/btk2015.png)
+![Main Figure]({{ page.img }})
 <figcaption class="caption">Visual comparison for some \(512 \times 512\) images: a zoom on the original image (left) is compared with the Scampi (center) and GrAMPA (right) reconstructions for different settings, all with a fixed SNIPE prior parameter \(\omega = 0\). From top to bottom are peppers at \(\alpha =0.1\) for an ISNR of 20dB, Lena at \(\alpha =0.5\) for an ISNR of 40dB, Barbara at \(\alpha =0.5\) for an ISNR of 30dB and <i>phantom</i> at \(\alpha =0.1\) for an ISNR of 20dB.
 </figcaption>
 

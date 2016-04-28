@@ -14,24 +14,25 @@ book: true
 authors: "F.Krzakala, F. Ricci-Tersenghi, L. Zdeborová, R. Zecchina, E. W. Tramel, & L. F. Cugliandolo"
 in: "Oxford University Press"
 year: 2016
+img: /assets/images/krz2016.jpg
 ---
 
 <div align="center">
 <h3>Florent Krzakala, Federico Ricci-Tersenghi, Lenka Zdeborová, Riccardo Zecchina, Eric W. Tramel, & Leticia F. Cugliandolo</h3>
-<a href="http://">[Link]</a>
-<a href="http://">[PDF]</a>
+<a href="https://global.oup.com/academic/product/statistical-physics-optimization-inference-and-message-passing-algorithms-9780198743736?cc=fr&lang=en&">[Link]</a>
+<a href="http://www.lps.ens.fr/~krzakala/LESHOUCHES2013/book.htm">[Chapter PDFs]</a>
 </div>
 
 - - -
 
-![Main Figure](/assets/images/krz2016.png)
-<figcaption class="caption">
+![Main Figure]({{ page.img }})
+<!-- <figcaption class="caption">
 caption
-</figcaption>
+</figcaption> -->
 
 <br><br>
 
-***Abstract ---*** text
+***Abstract ---*** In the last decade, there have been an increasing convergence of interest and methods between theoretical physics and fields as diverse as probability, machine learning, optimization and compressed sensing. In particular, many theoretical and applied works in statistical physics and computer science have relied on the use of message passing algorithms and their connection to statistical physics of spin glasses. The aim of this book, especially adapted to PhD students, post-docs, and young researchers, is to present the background necessary for entering this fast developing field.
 
 ### BibTeX Record
 ```

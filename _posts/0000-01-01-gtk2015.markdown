@@ -12,6 +12,7 @@ conference: true
 authors: M. Gabrié, E. W. Tramel, & F. Krzakala
 in: Neural and Information Processing Symposium (NIPS)
 year: 2015
+img: /assets/images/gtk2015.png
 ---
 
 <div align="center">
@@ -23,7 +24,7 @@ year: 2015
 
 - - -
 
-![Main Figure](/assets/images/gtk2015.png)
+![Main Figure]({{ page.img }})
 <figcaption class="caption">Estimates of the per-sample log-likelihood over the MNIST test set, normalized by the total number of units, as a function of the number of training epochs. The results for the different training algorithms are plotted in different colors with the same color code used for both panels. <b>Left panel:</b> Pseudo log-likelihood estimate. The difference between EMF algorithms and contrastive divergence algorithms is minimal. <b>Right panel:</b> EMF log-likelihood estimate at 2nd order. The improvement from MF to TAP is clear. Perhaps reasonably, TAP demonstrates an advantage over CD and PCD. Notice how the second-order EMF approximation of L provides less noisy estimates, at a lower computational cost.</figcaption>
 
 <br><br>

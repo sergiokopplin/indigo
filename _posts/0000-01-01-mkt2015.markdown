@@ -15,17 +15,19 @@ conference: true
 authors: A. Manoel, E. W. Tramel, F. Krzakala, & L. Zdeborová
 in: Proc. Int. Conf. on Machine Learning (ICML)
 year: 2015
+img: /assets/images/mtk2015.png
 ---
 
 <div align="center">
 <h3>Andre Manoel, Eric W. Tramel, Florent Krzakala, & Lenka Zdeborová</h3>
 <a href="http://machinelearning.wustl.edu/mlpapers/papers/icml2015_manoel15">[Link]</a>
 <a href="http://machinelearning.wustl.edu/mlpapers/paper_files/icml2015_manoel15.pdf">[PDF]</a>
+<a href="https://github.com/eric-tramel/SwAMP-Demo">[Code]</a>
 </div>
 
 - - -
 
-![Main Figure](/assets/images/mtk2015.png)
+![Main Figure]({{ page.img }})
 <figcaption class="caption">
 At the top, convergence behavior of AMP and
 SwAMP are compared for CS signal reconstruction for correlated sensing matrices on sparse signals of size \(N = 10^4\) and sparsity \(\rho = 0.2\) with noise variance \(\Delta = 10^{−8}\). The projec- tors have been created according to (30) and are rank-deficient for \(\eta < \alpha = 0.6\). At the bottom, a comparison between log- scale average reconstruction MSE obtained by SwAMP , BPDN, adaptive Lasso, and \(\ell_p\) regularization is given for signals of size \(N = 1024\) for \(\Delta=10−8\), \(\rho=0.2\),and \(\alpha=0.6\).

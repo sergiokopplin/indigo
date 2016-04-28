@@ -14,24 +14,25 @@ conference: true
 authors: "W. Li, S. Prasad, E. W. Tramel, J. E. Fowler, & Q. Du"
 in: "IEEE China Summit on Signal and Info. Processing"
 year: 2014
+img: /assets/images/lpt2014.png
 ---
 
 <div align="center">
 <h3>Wei Li, Saurabh Prasad,  Eric W. Tramel, James E. Fowler, & Qian Du</h3>
-<a href="http://">[Link]</a>
-<a href="http://">[PDF]</a>
+<a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6889223&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6889223">[Link]</a>
+<a href="http://my.ece.msstate.edu/faculty/fowler/Publications/Papers/LPT2014.pdf">[PDF]</a>
 </div>
 
 - - -
 
-![Main Figure](/assets/images/lpt2014.png)
+![Main Figure]({{ page.img }})
 <figcaption class="caption">
-caption
+Flowchart of the proposed classification framework.
 </figcaption>
 
 <br><br>
 
-***Abstract ---*** text
+***Abstract ---*** A decision-fusion approach is introduced for hyperspectral data classification based on minimum-distance classifiers in the wavelet domain. In the proposed approach, multi-scale features of each hyperspectral pixel are extracted by implementing a redundant discrete wavelet transformation on the spectral signature. Following this, a pair of minimum distance classifiers-a local mean-based nonparametric classifirer and a nearest regularization subspace-are applied on wavelet coefficients at each scale. Classification results are finally merged in a multi-classifier decision-fusion system. Experimental results using real hyperspectral data demonstrate the benefits of the proposed approach-in addition to improved classification performance compared to a traditional single classifier, the resulting classifier framework is effective even for low signal-to-noise-ratio images.
 
 ### BibTeX Record
 ```
