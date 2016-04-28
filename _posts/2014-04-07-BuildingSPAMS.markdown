@@ -9,6 +9,7 @@ tag:
 - Matlab
 - optimization
 blog: true
+post: true
 ---
 
 For one of our projects, we wanted to have a nice set of “optimized” software for running a number of different types of sparse reconstruction problems. One nice set of software that runs for both signal reconstruction and for dictionary learning/sparse decomposition is the **SPArse Modeling Software (SPAMS)** package for Matlab developed by J. Mairal, F. Bach, J. Ponce, G. Sapiro, R. Jenatton, and G. Obozinski with additional support from J. Chieze for the R and Python interfaces.
