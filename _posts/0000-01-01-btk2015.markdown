@@ -20,6 +20,7 @@ img: "/assets/images/btk2015.png"
 <h3>Jean Barbier, Eric W. Tramel, & Florent Krzakala</h3>
 <a href="http://iopscience.iop.org/article/10.1088/1742-6596/699/1/012013">[Link]</a>
 <a href="http://iopscience.iop.org/article/10.1088/1742-6596/699/1/012013/pdf">[PDF]</a>
+<a href="https://github.com/jeanbarbier/scampi">[Code]</a>
 </div>
 
 - - -
