@@ -20,34 +20,29 @@
     <b><a href="README.md#problems">Problems</a></b>
     |
     <b><a href="README.md#how-to">How to</a></b>
-    |
-    <b><a href="README.md#license">License</a></b>
 </p>
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png" />
+</p>
 
 ## What has inside?
 
-- [Gulp](http://gulpjs.com/) && [BrowserSync](https://www.browsersync.io/)
-- [Stylus](http://stylus-lang.com/) with [RSCSS](http://rscss.io/) Methodology
-- [SVG](https://www.w3.org/Graphics/SVG/)
+- [Gulp](http://gulpjs.com/), [BrowserSync](https://www.browsersync.io/), [Stylus](http://stylus-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
 - Tests with [Travis](https://travis-ci.org/)
-- No JS
 - Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+- No JS. :sunglasses:
 
 ## Setup
 
 0. :star: to the project. :metal:
-1. [Install Jekyll](http://jekyllrb.com)
-2. [Install NodeJS](https://nodejs.org/)
-3. [Install Bundler](http://bundler.io/)
-4. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
-5. Edit `_config.yml` with your data.
-6. `bundle install`
-7. `npm install`
-8. `npm install -g gulp`
-9. `gulp`
-10. open in your browser: `http://localhost:3000`
+1. [Install Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
+2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+3. Edit `_config.yml` with your data.
+4. `bundle install`
+5. `npm install && npm install -g gulp`
+6. `gulp`
+7. open in your browser: `http://localhost:3000`
 
 > [Arti Annaswamy](https://github.com/aannasw) wrote a really nice tutorial of "how to install jekyll". Here's the [part 1](http://artiannaswamy.com/build-a-github-blog-part-1) and [part 2](http://artiannaswamy.com/build-a-github-blog-part-2). :metal:
 
@@ -83,9 +78,9 @@ bundle exec htmlproof ./_site
 
 Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issues/new).
 
-## Inspirations:
+#### Inspirations:
 - [Addy Osmani](https://addyosmani.com/)
 
-## License
+---
 
 [MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
