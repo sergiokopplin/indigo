@@ -596,6 +596,18 @@ pre {
 .post > h4 a {
   text-decoration: none;
 }
+.post > .title-image {
+  max-height: 120px;
+  float: left;
+  margin-top: -25px;
+}
+@media only screen and (max-width: 400px) {
+  .post > .title-image {
+    float: none;
+    margin: auto;
+    display: block;
+  }
+}
 .tags {
   margin-top: 125px;
 }
