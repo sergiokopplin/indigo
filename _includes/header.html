@@ -6,7 +6,7 @@
 
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
-        <a class="link" href="{{ site.url }}">
+        <a class="link" href="{{ site.url/home}}">
             <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image == true %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
         </a>
 
