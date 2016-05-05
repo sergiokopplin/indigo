@@ -34,7 +34,7 @@ linkedin: raghavb95
 youtube: raghavb95
 # spotify: myspotify
 github: raghavb95
-medium: medium
+# medium: medium
 email: ping@raghavbhasin.in
 
 # do you want a larger site? change the option below
@@ -47,20 +47,20 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+# about: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+# read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+# show-tags: true
 
 # related posts inside a post?
-related: true
+# related: true
 
 # do you want some animations?
 animation: true
