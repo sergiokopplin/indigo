@@ -25,17 +25,17 @@ highlighter: rouge
 disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: raghav.bhasin
+# twitter: raghavb95
 # google: mygoogle
-# instagram: myinstagram
+instagram: raghavb95
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
+linkedin: raghavb95
+youtube: raghavb95
+# spotify: myspotify
+github: raghavb95
 medium: medium
-email: myemail@gmail.com
+email: ping@raghavbhasin.in
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
