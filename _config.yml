@@ -1,7 +1,7 @@
 # main text of home
 name: Raghav Bhasin
-bio: 'All those who wander are not lost'
-
+bio: 'Engineering Student and Photography Enthusiast'
+# All those who wander are not lost
 # if it's an external image, update below for true
 external-image: true
 picture: 'http://raghavb95.github.io/raghavbhasin.in/assets/images/profile.jpg'
