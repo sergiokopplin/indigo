@@ -13,15 +13,11 @@
     |
     <b><a href="README.md#settings">Settings</a></b>
     |
+    <b><a href="README.md#how-to">How to</a></b>
+    |
     <b><a href="README.md#tests">Tests</a></b>
     |
-    <b><a href="README.md#showcase">Showcase</a></b>
-    |
-    <b><a href="README.md#contributions">Contributions</a></b>
-    |
     <b><a href="README.md#problems">Problems</a></b>
-    |
-    <b><a href="README.md#how-to">How to</a></b>
 </p>
 
 <p align="center">
