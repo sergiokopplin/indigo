@@ -16,7 +16,6 @@ gulp.task('styles', function() {
 			compress: false
         }))
         .pipe(gulp.dest('_site/assets/styles'))
-        .pipe(gulp.dest('_includes'))
         .pipe(browserSync.reload({stream: true}))
         .pipe(gulp.dest('assets/styles'));
 });
