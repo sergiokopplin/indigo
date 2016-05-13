@@ -23,7 +23,7 @@ permalink: /about/index.html
 	<li>Finance DCF analysis, Forecast modeling, Scenario modeling, Financial statement analysis & recon</li>
 	<li>Excel pivots, data tables, solver, stats, vba/macros, integrations with access & sharepoint, dashboards & form tools, pretty charts</li>
 	<li>ERP Finance software - Oracle, SAP, PeopleSoft, Hyperion Brio Query</li>
-	<li>SharePoint 2013</li>
+	<li>SharePoint 2013, Nintex Forms & Workflows O365, PowerBI</li>
 	<li>HTML, CSS, CSS frameworks, jQuery, Javascript</li>
 	<li>baby steps in Python</li>
 </ul>
