@@ -369,7 +369,7 @@ figure.highlight {
 }
 code,
 tt {
-  padding: 1px 3px;
+  padding: 1px 0;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
   line-height: 20px;
@@ -1127,6 +1127,7 @@ pre {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
+  white-space: nowrap;
 }
 .social-links > .link:before {
   content: attr(data-title);
