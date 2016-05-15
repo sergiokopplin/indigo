@@ -1,12 +1,12 @@
 # main text of home
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Jacob Kimmel
+bio: 'PhD student @ UC San Francisco. Interested in aging & systems biology.'
 
 # if it's an external image, update below for true
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://koppl.in/indigo
+url: http://jacobkimmel.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -22,21 +22,21 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook:
+twitter: jacobkimmel
 # google: mygoogle
-# instagram: myinstagram
+instagram: jacobkimmel
 # pinterest: mypinterest
 # linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+#youtube: myyoutube
+#spotify: myspotify
+github: jacobkimmel
+#medium: medium
+#vimeo: myvimeo
+email: jacob@jckimmel.me
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -67,7 +67,6 @@ related: true
 animation: true
 
 gems:
-  - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
   - jekyll-feed
