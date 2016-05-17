@@ -1,10 +1,7 @@
 ---
-layout: default
-permalink: /projects/index.html
+layout: page
 title: Projects
 ---
-{% include header.html %}
-
 <section class="list">
     {% for post in site.posts %}
         {% if post.projects %}
@@ -17,5 +14,3 @@ title: Projects
         {% endif %}
     {% endfor %}
 </section>
-
-{% include footer.html %}
