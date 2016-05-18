@@ -598,6 +598,11 @@ pre {
 .post > h4 a {
   text-decoration: none;
 }
+.post > .title-image {
+  max-height: 120px;
+  display: block;
+  margin: 0 auto;
+}
 .tags {
   margin-top: 125px;
 }

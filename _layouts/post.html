@@ -1,6 +1,11 @@
 ---
 layout: page
 ---
+
+{% if page.img %}
+    <img class="title-image" src="{{ page.img }}" alt="{{ page.title }}">
+{% endif %}
+
 <h1 class="title">{{ page.title }}</h1>
 
 <span class="date">
