@@ -53,7 +53,7 @@ GEM
     html-pipeline (2.3.0)
       activesupport (>= 2, < 5)
       nokogiri (>= 1.4)
-    html-proofer (2.6.4)
+    html-proofer (3.0.5)
       activesupport (~> 4.2)
       addressable (~> 2.3)
       colored (~> 1.2)
@@ -156,4 +156,4 @@ DEPENDENCIES
   rouge
 
 BUNDLED WITH
-   1.11.2
+   1.12.3
