@@ -837,6 +837,8 @@ pre {
   display: block;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+  z-index: 99;
 }
 .header-home > .link > .selfie {
   width: 125px;
