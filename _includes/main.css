@@ -579,7 +579,7 @@ pre {
   margin-bottom: 2rem;
 }
 .post > .post-tags > .item {
-  padding: 3px 6px;
+  padding: 1px 9px;
   border-radius: 3px;
   font-size: 1.1rem;
   background: #ededed;
