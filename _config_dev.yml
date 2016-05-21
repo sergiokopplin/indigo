@@ -1,4 +1,2 @@
 # for local testing
 url: http://localhost:3000
-# local testing does not yet support extensionless URLs
-permalink: /:title/
