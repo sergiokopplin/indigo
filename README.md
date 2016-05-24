@@ -38,11 +38,9 @@
 2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
 3. Edit `_config.yml` with your data.
 4. `bundle install`
-5. `npm install && npm install -g gulp`
+5. `npm i && npm i -g gulp`
 6. `gulp`
 7. open in your browser: `http://localhost:3000`
-
-> [Arti Annaswamy](https://github.com/aannasw) wrote a really nice tutorial of "how to install jekyll". Here's the [part 1](http://artiannaswamy.com/build-a-github-blog-part-1) and [part 2](http://artiannaswamy.com/build-a-github-blog-part-2). :metal:
 
 ## Settings
 
@@ -59,6 +57,7 @@ and lot of other options, like width, projects, pages, read-time, tags, relateds
 
 ## How to:
 
+- Article: How to Install Jekyll - by [Arti Annaswamy](https://github.com/aannasw). [Part 1](http://artiannaswamy.com/build-a-github-blog-part-1) and [Part 2](http://artiannaswamy.com/build-a-github-blog-part-2)
 - [Emojis in the projects list?](https://github.com/sergiokopplin/indigo/issues/72)
 - [Nokogiri dependencie problems?](https://github.com/sergiokopplin/indigo/issues/81)
 - [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/)
@@ -70,6 +69,8 @@ and lot of other options, like width, projects, pages, read-time, tags, relateds
 You can test your app with:
 
 ```bash
+npm run test
+# or
 bundle exec htmlproof ./_site
 ````
 
