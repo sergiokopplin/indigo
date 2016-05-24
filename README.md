@@ -63,6 +63,7 @@ and lot of other options, like width, projects, pages, read-time, tags, relateds
 - [Nokogiri dependencie problems?](https://github.com/sergiokopplin/indigo/issues/81)
 - [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/)
 - [Tests with Travis CI - Tutorial](http://www.raywenderlich.com/109418/travis-ci-tutorial)
+- [Why Sass?](https://github.com/sergiokopplin/indigo/issues/117)
 
 ## Tests
 
