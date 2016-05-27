@@ -30,7 +30,9 @@ layout: page
     {% include related.html %}
 {% endif %}
 
-{% include author.html %}
+{% if site.show-author %}
+    {% include author.html %}
+{% endif %}
 
 {% if site.disqus %}
     {% include disqus.html %}

@@ -63,6 +63,9 @@ show-tags: true
 # related posts inside a post?
 related: true
 
+# show author block at the end of a post ?
+show-author: true
+
 # do you want some animations?
 animation: true
 
