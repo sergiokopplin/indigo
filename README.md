@@ -17,6 +17,8 @@
     |
     <b><a href="README.md#tests">Tests</a></b>
     |
+    <b><a href="README.md#donate">Donate</a></b>
+    |
     <b><a href="README.md#problems">Problems</a></b>
 </p>
 
@@ -73,6 +75,12 @@ npm run test
 # or
 bundle exec htmlproof ./_site
 ````
+
+## Donate
+
+If you liked my work, buy me a coffee <3
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7B6UM6QWLG7E)
 
 ## Problems?
 
