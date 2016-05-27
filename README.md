@@ -66,6 +66,16 @@ and lot of other options, like width, projects, pages, read-time, tags, relateds
 - [Tests with Travis CI - Tutorial](http://www.raywenderlich.com/109418/travis-ci-tutorial)
 - [Why Sass?](https://github.com/sergiokopplin/indigo/issues/117)
 
+#### Create posts:
+
+You can use the `initpost.sh` to create your new posts. Just follow the command:
+
+```
+./initpost.sh -c Post Title
+```
+
+The new file will be created at `_posts` with this format `date-title.md`.
+
 ## Tests
 
 You can test your app with:
