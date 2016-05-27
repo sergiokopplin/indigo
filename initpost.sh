@@ -33,7 +33,7 @@ POST_TITLE="${@:2:$(($#-1))}"
 POST_NAME="$(echo ${@:2:$(($#-1))} | sed -e 's/ /-/g' | sed "y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/")"
 CURRENT_DATE="$(date +'%Y-%m-%d')"
 TIME=$(date +"%T")
-FILE_NAME="${CURRENT_DATE}-${POST_NAME}.md"
+FILE_NAME="${CURRENT_DATE}-${POST_NAME}.markdown"
 # ----------------------------------------------------------------
 
 
@@ -46,10 +46,10 @@ POSTPATH="${BINPATH}/_posts"
 DIST_FOLDER="$POSTPATH"
 
 # Set your blog URL
-BLOG_URL="http://willianjusten.com.br"
+BLOG_URL="https://koppl.in/indigo"
 
 # Set your assets URL
-ASSETS_URL="assets/img/"
+ASSETS_URL="assets/images/"
 # ----------------------------------------------------------------
 
 
@@ -110,17 +110,14 @@ EOT
 initpost_content() {
 
 echo "---"
-echo "layout: post"
 echo "title: \"${POST_TITLE}\""
+echo "layout: post"
 echo "date: ${CURRENT_DATE} ${TIME}"
 echo "image: '/assets/img/'"
 echo "description:"
-echo "main-class:"
-echo "color:"
 echo "tags:"
-echo "categories:"
-echo "twitter_text:"
-echo "introduction:"
+echo "blog: true"
+echo "jemoji:"
 echo "---"
 
 }
