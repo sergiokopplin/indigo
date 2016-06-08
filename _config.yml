@@ -1,13 +1,13 @@
 # main text of home
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Bexandy Rodríguez
+bio: 'Un Emprendedor Entusiasta que ama la programación...'
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://koppl.in/indigo
+url: http://bexandy.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -26,18 +26,18 @@ highlighter: rouge
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-# google: mygoogle
+facebook: bexandy
+twitter: BexandyR
+google: BexandyRodriguez
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+linkedin: bexandyrodriguez
+#youtube: myyoutube
+#spotify: myspotify
+github: bexandy
+#medium: medium
+#vimeo: myvimeo
+email: bexandy@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
