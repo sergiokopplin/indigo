@@ -1,11 +1,11 @@
 <section class="author{% if site.disqus == false %} no-disqus{% endif %}">
     <div class="toleft">
-        <img class="selfie" src="{% if site.external-image == true %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" alt="{{ site.name }}">
+        <img class="selfie" src="{% if site.authors[page.author].external-image == true %}{{ site.authors[page.author].picture }}{% else %}{{ site.url }}/{{ site.authors[page.author].picture }}{% endif %}" alt="{{ site.authors[page.author].name }}">
     </div>
 
     <div class="toright">
-        <h4 class="name">{{ site.name }}</h4>
-        <p class="bio">{{ site.bio }}</p>
+        <h4 class="name">{{ site.authors[page.author].name }}</h4>
+        <p class="bio">{{ site.authors[page.author].bio }}</p>
 
         <div class="share">
             <a class="twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }} - {{ page.title }} by @{{ site.twitter }}">
