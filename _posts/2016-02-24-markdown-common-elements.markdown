@@ -7,6 +7,7 @@ tag:
 - elements
 blog: true
 star: true
+author: john
 ---
 
 ## Summary:
