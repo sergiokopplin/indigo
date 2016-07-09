@@ -118,6 +118,7 @@ echo "description:"
 echo "tag:"
 echo "blog: true"
 echo "jemoji:"
+echo "author:"
 echo "---"
 
 }
