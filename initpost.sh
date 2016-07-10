@@ -84,7 +84,7 @@ e_warning() {
 # | MAIN FUNCTIONS                                                             |
 # ------------------------------------------------------------------------------
 
-# Everybody need some help
+# Everybody needs some help
 initpost_help() {
 
 cat <<EOT
@@ -106,7 +106,7 @@ EOT
 
 }
 
-# Initial Content
+# Initial content
 initpost_content() {
 
 echo "---"
@@ -130,7 +130,7 @@ initpost_file() {
         initpost_content > "${DIST_FOLDER}/${FILE_NAME}"
         e_success "Initial post successfully created!"
     else
-        e_warning "File already exist."
+        e_warning "File already exists."
         exit 1
     fi
 
