@@ -1,17 +1,16 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: PyCav
+bio: PyCav is developing Python tools for teaching Physics at the University of Cambridge
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Homepage of the PyCav project at the University of Cambridge
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/crocodile_brickwork.gif
 
-url: http://koppl.in/indigo
-# your url: http://USERNAME.github.io
+url: https://github.com/PyCav
 
 permalink: /:title/
 
@@ -29,32 +28,26 @@ highlighter: rouge
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+#twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+# youtube: myyoutube
+# spotify: myspotify
+# github: mygithub
+# medium: medium
+# vimeo: myvimeo
+# email: myemail@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+    austenlamacraft:
+        name: Austen Lamacraft
+        bio: Condensed Matter
+        external-image: true
+        picture: https://avatars2.githubusercontent.com/u/17982553?v=3&u=d8a5e54a6a41d44185fed4d8f90a84bc55a767a7&s=140
+        twitter: austenlamacraft
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -69,7 +62,7 @@ width: normal
 projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: false
+about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
