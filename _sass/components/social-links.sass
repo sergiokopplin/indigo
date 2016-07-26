@@ -1,0 +1,60 @@
+.social-links
+    margin-top: 20px
+
+    > .link
+        margin: 0
+        text-decoration: none
+        position: relative
+        display: inline-block
+        height: 35px
+        width: 35px
+
+        &:hover
+            > .icon
+                fill: $delta
+
+        &:hover:before
+            opacity: 1
+            transform: translate3d(0,0,0)
+            white-space: nowrap
+
+        &:before
+            content: attr(data-title)
+            display: inline-block
+            position: absolute
+            bottom: -34px
+            left: -6px
+            margin: 0 auto
+            font-size: 13px
+            padding: 3px 10px
+            background: $beta
+            color: #fff
+            border-radius: 2px
+            height: 22px
+            line-height: 22px
+            opacity: 0
+            transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear
+            transform: translate3d(0,-8px,0)
+            z-index: 99
+
+        &:after
+            content: ""
+            position: absolute
+            top: 35px
+            left: 13px
+            width: 0
+            height: 0
+            border-left: 5px solid transparent
+            border-right: 5px solid transparent
+            border-bottom: 6px solid $beta
+            opacity: 0
+            transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear
+            transform: translate3d(0,-8px,0)
+            z-index: 100
+
+        &:hover:after
+            opacity: 1
+            transform: translate3d(0,0,0)
+
+    > .icon
+        transition: all ease-in-out .2s

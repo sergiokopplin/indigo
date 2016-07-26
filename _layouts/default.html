@@ -13,13 +13,17 @@ layout: compress
     <meta name=author content="{{ site.name }}">
 
     {% seo %}
-
+    
     {% include favicon.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
 
-    <style>{% include main.css %}</style>
+    <style>
+    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {{ scss_sheet | scssify }}
+    </style>
+
 </head>
 <body>
 
@@ -27,7 +31,7 @@ layout: compress
         {% if page.tag %}
             <div class="post">
         {% else %}
-            {% if page.title == "About" or page.title == "404" %}
+            {% if showHeader != true %}
                 <div class="page {{ page.title | downcase }}">
             {% else %}
                 <div class="{{ page.title | downcase }}">

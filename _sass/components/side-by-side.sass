@@ -1,0 +1,43 @@
+.side-by-side
+    @media #{$above}
+        width: 130%
+        margin: 6rem 0 6rem -15%
+
+    @media #{$below}
+        width: 100%
+        margin: 4rem 0
+
+    > .toleft,
+    > .toright
+        display: inline-block
+        width: 47.5%
+
+        @media #{$below}
+            img
+                text-align: center
+                display: block
+                margin: 0 auto
+
+    > .toleft
+        @media #{$above}
+            margin-right: 2%
+
+        @media #{$below}
+            width: 100%
+            margin: 0 0 4rem 0
+
+    > .toright
+        @media #{$above}
+            margin-left: 2%
+            vertical-align: top
+
+        @media #{$below}
+            width: 100%
+            margin: 0 0 4rem 0
+
+    > .toleft > p,
+    > .toright > p
+        margin: 0 0 4rem 0
+
+        @media #{$below}
+            margin: 0
