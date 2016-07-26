@@ -10,7 +10,9 @@ jemoji: '<img class="emoji" title=":books:" alt=":books:" src="https://assets.gi
 ---
 
 Published: Feb 27, 2016
+
 Updated: Mar 13, 2016
+
 Updated: Jul 26, 2016
 
 I've never done a reading challenge before.
@@ -19,30 +21,22 @@ Over the years, I've picked up books recommended by friends, or books that were 
 
 After following along on Adventurous Kate's journey through the [Pop Sugar 2015 Reading Challenge](http://www.adventurouskate.com/my-favorite-reads-of-2015/), and her excellent reviews and recommendations on books, I figured, I should try a reading challenge too.
 
-Then I read the [Pop Sugar 2016 Reading Challenge](http://www.popsugar.com/love/Reading-Challenge-2016-39126431) and... was quite intimidated.
+Then I read the [Pop Sugar 2016 Reading Challenge](http://www.popsugar.com/love/Reading-Challenge-2016-39126431) and... was quite intimidated by the sheer amount of research I'd have to do to populate the list with books I could read, like looking for 'a book with a blue cover' or 'a book that takes place on an island' or 'a book that takes place during summer'. 
 
-Not by the number of books or the categories, but by the sheer amount of research I'd have to do to populate the list with books I could read, like looking for 'a book with a blue cover' or 'a book that takes place on an island' or 'a book that takes place during summer'. 
-
-These are great categories, no doubt, but I did not want to delay beginning the reading while I researched the best** books I could find that satisfied the categories.
+These are great categories, no doubt, but I did not want to delay beginning the reading while I researched the books I wanted to read that satisfied the categories.
 
 So instead, I decided to pick one book from each of the major book categories listed on the [Amazon Kindle Books page](http://www.amazon.com/Kindle-eBooks/b?ie=UTF8&node=154606011).
 
-<em>** best, because if I'm spending that much time with anything and giving it attention and space, it'd better make for good company.</em>
-
 So here we go.
 
-Let's start with the list of categories, followed by the books. As I read the books, I'll move them up to the appropriate category.
-
 ## Index
-- [List of Amazon Book Categories](#categories)
-- [Books I've Read in 2016](#read)
+- [List of categories on Amazon Books](#categories)
+- [Books I've Read](#read)
 - [Currently Reading](#reading)
-- [On My Reading List](#on-the-list)
-
-The list categories below are in the order: Books I've Read, Currently Reading and On My Reading List. And as I read the books, I will move them up to the appropriate category.
+- [On The Reading List](#on-the-list)
 
 <a id="categories"></a>
-<h3>The categories:</h3>
+<h3>Categories on Amazon Books</h3>
 - Arts & Photography :heavy_check_mark:
 - Biographies & Memoirs
 - Business & Money
@@ -158,7 +152,7 @@ Here are a few notes I jotted down before I gave up:
 
 
 <div class="breaker"></div><a id="on-the-list"></a>
-<h2 class="title">On My Reading List</h2>
+<h2 class="title">On The Reading List</h2>
 ---
 
 <div class="center"><a href="http://amzn.to/1VIYSfB" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/sapiens.jpg" /></a></div>
