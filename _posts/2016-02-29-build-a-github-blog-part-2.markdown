@@ -5,6 +5,7 @@ date: 2016-02-29 10:00
 tag: blog-setup
 blog: true
 draft: false
+author: artiannaswamy
 summary: "Part 2 of a step by step non-coder's guide to setting up a personal site on GitHub"
 permalink: build-a-github-blog-part-2
 ---

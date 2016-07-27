@@ -4,6 +4,7 @@ layout: post
 tag: books
 img: indigo/indigo.png
 projects: true
+author: artiannaswamy
 summary: "List of books I'm reading this year, and ongoing reviews as I cross 'em off my list"
 permalink: reading-list-2016
 jemoji: '<img class="emoji" title=":books:" alt=":books:" src="https://assets.github.com/images/icons/emoji/unicode/1f4da.png" height="20" width="20" align="absmiddle">'

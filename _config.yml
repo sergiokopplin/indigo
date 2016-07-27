@@ -2,7 +2,11 @@
 name: Arti Annaswamy
 bio: 'Data analytics, process improvement, project management, coffee drinking'
 
+# twitter summary info
+description: A blog about technology and stuff related
+
 # if it's an external image, update below for true
+# better with square images
 external-image: false
 picture: 'assets/images/profile.jpg'
 
@@ -14,7 +18,10 @@ permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 
+# To enable google analytics, supply your token below
 analytics-google: 'UA-74313908-1'
+
+# if you don't want comments in your posts, set to false
 disqus: artiannaswamy
 
 # if you don't have any of social below, comment the line
@@ -29,6 +36,15 @@ linkedin: artiannaswamy
 github: aannasw
 # medium: medium
 email: hello@artiannaswamy.com
+
+authors:
+    artiannaswamy:
+        name: Arti Annaswamy
+        bio: Data analytics, process improvement, project management, coffee drinking
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: aannasw
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -55,8 +71,18 @@ show-tags: true
 # related posts inside a post?
 related: true
 
+# show next & prev links in blog post?
+blog-nav-links: false
+
+# show author block at the end of a post ?
+show-author: true
+
 # do you want some animations?
 animation: true
+
+sass:
+    sass_dir: _sass
+    style: :compressed
 
 gems:
   - jemoji
@@ -70,4 +96,4 @@ gems:
 jekyll-mentions:
     base_url: http://artiannaswamy.com
 
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh, tasks]

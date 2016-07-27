@@ -5,6 +5,7 @@ date: 2016-03-04 09:00
 tag: tips-and-tricks
 blog: true
 draft: false
+author: artiannaswamy
 summary: "A trick to opening EPS files in Adobe Illustrator CS4 on a Mac"
 permalink: eps-files-in-illustrator-cs4
 ---

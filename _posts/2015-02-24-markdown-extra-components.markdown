@@ -8,6 +8,7 @@ date: 2016-02-24 22:48
 # - extra
 blog: true
 draft: true
+author: artiannaswamy
 summary: "Extra markdown components like highlighted text, side-by-side items, starring/highlighting a blog or project, and embedding gists, videos etc"
 permalink: markdown-extra-components
 ---
