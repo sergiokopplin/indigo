@@ -36,13 +36,13 @@ NWF$(".hidden-control").hide();
 
 One of the workflow solutions I have been working on involves linking multiple workflows in sequence. The reason these had to be split was because of some rather complicated task assignment logic we've used in a couple of these workflows, and size limitations prevented us from combining all of these in one workflow. There are a couple of ways to achieve multiple workflows:
 
-### Option 1. Firing off all workflows simultaneously on item creation, but having the other workflows wait for a certain field to change.
+#### Option 1. Firing off all workflows simultaneously on item creation, but having the other workflows wait for a certain field to change.
 
 This worked great for a couple of reasons - the transition from one workflow ending to the other workflow beginning was very short and seamless, and all workflows were launched with the same initial permissions.
 
 But the problem was if the user had to restart the workflow for any reason. The user would have to remember to fire off all the workflows, in the right order, and even then the "wait for field change" didn't always work.
 
-### Option 2. Linking one workflow to the next using the 'Start workflow' action.
+#### Option 2. Linking one workflow to the next using the 'Start workflow' action.
 
 I quite thought I had found the holy grail with this solution - I could even do conditional branches and fire off different workflows depending on whether particular fields had been filled. It did require me to put in an admin user ID and password into the workflow action that launches a separate workflow, and getting the configurations filled out just right took some research as well. For more information on how to configure the 'Start workflow' action, see article: [Start a Workflow using NINTEX Workflow in SharePoint 2013 Online](http://www.c-sharpcorner.com/blogs/start-a-workflow-using-nintex-workflow-in-sharepoint-2013-online)
 
@@ -88,7 +88,7 @@ While setting up an App Step seemed like the best solution of all of the above, 
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/siteactions.PNG?raw=true" /></div>
 
 And enabled the 'Workflows can use app permissions' setting.
-<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/workflowapp.png?raw=true" /></div> 
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/workflowapp.PNG?raw=true" /></div> 
 
 I tentatively kicked off a workflow from a test user account with lower permissions, and .... it worked! 
 
