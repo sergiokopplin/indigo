@@ -1,5 +1,5 @@
 ---
-title: "Connected Workflows on Nintex"
+title: "Lessons Learned working with Nintex"
 layout: post
 date: 2016-08-16 11:00
 tag: tips-and-tricks
@@ -7,7 +7,7 @@ blog: true
 draft: true
 author: artiannaswamy
 summary: "Lessons learned from developing Nintex O365 workflows"
-permalink: nintex-connected-workflows
+permalink: nintex-workflows
 ---
 
 Earlier this year, I started as a project manager / business analyst consultant on a SharePoint implementation project. We needed to transition over several sub-sites containing complex approval workflows from an older document sharing platform, and since InfoPath is being deprecated, we ended up going with Nintex O365 as our workflow add-on of choice for SharePoint.
@@ -20,10 +20,12 @@ Within the Nintex workflow, we are able to set up task assignments that have one
 
 Until, a colleague of mine found this hack online that leveraged the Control-CSS field and some simple jquery to make the field invisible. 
 
+In the Control CSS field associated with the Task Outcome choice control, put in a unique class name.
 ```css
 Control CSS = hidden-control
 ```
 
+Switch over to the Form Settings, and in the Custom Javascript field, add in the following jquery snippet.
 ```jquery
 NWF$(".hidden-control").hide();
 ```
@@ -34,32 +36,30 @@ NWF$(".hidden-control").hide();
 
 One of the workflow solutions I have been working on involves linking multiple workflows in sequence. The reason these had to be split was because of some rather complicated task assignment logic we've used in a couple of these workflows, and size limitations prevented us from combining all of these in one workflow. There are a couple of ways to achieve multiple workflows:
 
-1. Firing off all workflows simultaneously on item creation, but having the other workflows wait for a certain field to change.
+### Option 1. Firing off all workflows simultaneously on item creation, but having the other workflows wait for a certain field to change.
 
 This worked great for a couple of reasons - the transition from one workflow ending to the other workflow beginning was very short and seamless, and all workflows were launched with the same initial permissions.
 
 But the problem was if the user had to restart the workflow for any reason. The user would have to remember to fire off all the workflows, in the right order, and even then the "wait for field change" didn't always work.
 
-2. Linking one workflow to the next using the 'Start a workflow' action.
+### Option 2. Linking one workflow to the next using the 'Start workflow' action.
 
-I quite thought I had found the holy grail with this solution - I could even do conditional branches and fire off different workflows depending on whether particular fields had been filled. It did require me to put in an admin user ID and password into the workflow action that launches a separate workflow, and getting the configurations filled out just right took some research as well.
+I quite thought I had found the holy grail with this solution - I could even do conditional branches and fire off different workflows depending on whether particular fields had been filled. It did require me to put in an admin user ID and password into the workflow action that launches a separate workflow, and getting the configurations filled out just right took some research as well. For more information on how to configure the 'Start workflow' action, see article: [Start a Workflow using NINTEX Workflow in SharePoint 2013 Online](http://www.c-sharpcorner.com/blogs/start-a-workflow-using-nintex-workflow-in-sharepoint-2013-online)
 
-See article: [Start a Workflow using NINTEX Workflow in SharePoint 2013 Online](http://www.c-sharpcorner.com/blogs/start-a-workflow-using-nintex-workflow-in-sharepoint-2013-online)
-
-However, it turned out - the workflows launched correctly, and in sequence, only as long as the initial request was submitted by my account, the one with site administrator rights. Another issue, that I'll circle back to later, is that the 'Start a workflow' action takes a good 15-20 minutes to launch the next workflow. In live usage, this will occur in the background and be invisible to users, but during demo sessions, I'd have to come up with a lot of filler to keep the audience entertained while I waited for the next workflow to launch.
-
-Getting back to the issue of workflows only launching with site administrator access:
-When a user with lower permissions (Edit or Contribute) initiated the workflows, the first workflow kicked off without any problems, but the next linked workflow would fail and get suspended with the following error message:
+However, it turned out that the workflows launched correctly, and in sequence, only as long as the initial request was submitted by my account, the one with site administrator rights. When a user with lower permissions (Edit or Contribute) initiated the workflows, the first workflow kicked off without any problems, but the next linked workflow would fail and get suspended with the following error message:
 
 ```
-Retrying last request. Next attempt scheduled after (date/time). Details of last request: HTTP NotFound to https://siteurl/sites/subsite/web/lists(guid'xxxx')/Items(n)? Correlation Id: xxxx Instance Id: xxxx
+Retrying last request. Next attempt scheduled after (date/time). 
+Details of last request: HTTP NotFound to 
+https://siteurl/sites/subsite/web/lists(guid'xxxx')/Items(n)? 
+Correlation Id: xxxx Instance Id: xxxx
 
 Item does not exist. It may have been deleted by another user.
 ```
 
-I had seen the 'Item does not exist' error before - it tended to appear when the user didn't have access to view that particular item, because of permissions issues.
+I had encountered the 'Item does not exist' error before - it tended to appear when a user didn't have access to view that particular item. 
 
-And since the workflows ran without problem when initiated from my account, I knew it was a permissions issue.
+And since the workflows ran without problem when initiated from my account, I knew it had to be a permissions issue.
 
 I went down the rabbit hole researching several possible solutions, all listed below including the final solution that works like a charm.
 
@@ -85,10 +85,10 @@ Workflows can use app permissions
 While setting up an App Step seemed like the best solution of all of the above, it still felt like a lot of added weight to the workflow. I wondered for a moment if simply enabling this setting might allow the workflow to run with elevated permissions, and this was certainly worth a try.
 
 6. (SOLUTION THAT WORKED) So, I went into Site Settings > Site Actions > Manage site features:
-<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/nintex/siteactions.png" /></div>
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/siteactions.PNG" /></div>
 
 And enabled the 'Workflows can use app permissions' setting.
-<div class="center"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/workflowapp.png" /></div> 
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/workflowapp.png" /></div> 
 
 I tentatively kicked off a workflow from a test user account with lower permissions, and .... it worked! 
 
