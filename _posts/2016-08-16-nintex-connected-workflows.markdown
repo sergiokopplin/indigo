@@ -1,34 +1,18 @@
 ---
-title: "Lessons Learned working with Nintex"
+title: "Working with Nintex Workflows and SharePoint"
 layout: post
 date: 2016-08-16 11:00
 tag: tips-and-tricks
 blog: true
-draft: true
+draft: false
 author: artiannaswamy
-summary: "Lessons learned from developing Nintex O365 workflows"
+summary: "Tips and hacks learned from developing Nintex O365 workflows on SharePoint 2013 / O365"
 permalink: nintex-workflows
 ---
 
-Earlier this year, I started as a project manager / business analyst consultant on a SharePoint implementation project. We needed to transition over several sub-sites containing complex approval workflows from an older document sharing platform, and since InfoPath is being deprecated, we ended up going with Nintex O365 as our workflow add-on of choice for SharePoint.
+Earlier this year, I started as a project manager / business analyst consultant on a SharePoint implementation project. We needed to transition over several sub-sites containing complex approval workflows from an older document sharing platform, and since InfoPath is being deprecated, we ended up going with Nintex O365 as our workflow add-on of choice for SharePoint 2013 Office 365.
 
 The journey has been interesting, to say the least. Nintex behaves in very unexpected ways, and with our workflows being fairly complex, we've had to cross a lot of hurdles and come up with workarounds, hacks and a fair amount of research to solve these problems. The Nintex forums have also been a great resource and I'm including links to any helpful solutions posted there as well. I'm recording these below as a reference for myself and anyone else facing the same hurdles.
-
-## Hiding the Task Outcome field 
-
-Within the Nintex workflow, we are able to set up task assignments that have one of several outcomes (Approve / Reject / On Hold etc). These task outcome options show up as a visible radio-button field on the custom task form that can be created for the approvers. This field refuses to elegantly hide or be switched off in any way - in fact, it's a requirement that the field be enabled/rendered on the form for the approvers to successfully select an outcome. For the longest time, we'd keep tucking this outcome field behind other fields, or behind an empty white square graphic and it would still manage to peek through.
-
-Until, a colleague of mine found this hack online that leveraged the Control-CSS field and some simple jquery to make the field invisible. 
-
-In the Control CSS field associated with the Task Outcome choice control, put in a unique class name.
-```css
-Control CSS = hidden-control
-```
-
-Switch over to the Form Settings, and in the Custom Javascript field, add in the following jquery snippet.
-```jquery
-NWF$(".hidden-control").hide();
-```
 
 <div class="breaker"></div>
 
@@ -63,11 +47,20 @@ And since the workflows ran without problem when initiated from my account, I kn
 
 I went down the rabbit hole researching several possible solutions, all listed below including the final solution that works like a charm.
 
-#1. Upgraded user permissions from Contribute to Edit - didn't work, same error message
+#### Giving the user higher permissions
+
+#1. Upgraded user permissions from Contribute to Edit - this didn't work and gave me the same error message. Giving the user any higher permissions would result in users being able to see each others' List items, which would contradict business requirements.
+
+#### Giving the user higher permissions temporarily
 
 #2. Considered elevating user permissions on the SharePoint List temporarily while one workflow transitions to the other, per this article [Set Item Permissions - Start Workflow Issue](https://community.nintex.com/message/15315) but it was a risky move to add more permissions temporarily since if anything failed, the user would basically see everyone else's requests and this was a no-no.
 
-#3. Found a series of articles on using elevated workflow permissions to remedy the issue. One of the articles, [Workflow App Permissions](http://www.stuartroberts.net/index.php/2014/11/20/workflow-app-permissions/) suggested tricking SharePoint into thinking of the workflow as an App (i.e. a functioning widget or add-in like a Document Library or a List). This was an interesting approach, and definitely worth a try, until I found...
+
+#### Giving the workflow higher permissions
+
+I found a series of articles on using elevated workflow permissions to remedy the issue.
+
+#3.  One of the articles, [Workflow App Permissions](http://www.stuartroberts.net/index.php/2014/11/20/workflow-app-permissions/) suggested tricking SharePoint into thinking of the workflow as an App (i.e. a functioning widget or add-in like a Document Library or a List). This was an interesting approach, and definitely worth a try, until I found...
 
 #4. An article on using an App Step, a Nintex feature that can leverage higher permissions than the rest of the workflow, per this article [We use Nintex online with SharePoint 2013...](https://community.nintex.com/message/35520), and this Nintex O365 documentation article for [App Step](http://help.nintex.com/en-US/O365/O365WorkFlow/Workflow%20Actions%20-%20STD/App%20Step.htm). 
 
@@ -93,6 +86,55 @@ And enabled the 'Workflows can use app permissions' setting.
 I tentatively kicked off a workflow from a test user account with lower permissions, and .... it worked! 
 
 However, as I mentioned earlier, kicking off a new workflow from an existing workflow seems to take Nintex a good 15-20 minutes to slowly work its way through. This can be fairly awkward during live demo sessions, but shouldn't be a problem during normal live usage.
+
+<div class="breaker"></div>
+
+## Hiding the Task Outcome field 
+
+Within the Nintex workflow, we are able to set up task assignments that have one of several outcomes (Approve / Reject / On Hold etc). These task outcome options show up as a visible radio-button field on the custom task form that can be created for the approvers. This field refuses to elegantly hide or be switched off in any way - in fact, it's a requirement that the field be enabled/rendered on the form for the approvers to successfully select an outcome. For the longest time, we'd keep tucking this outcome field behind other fields, or behind an empty white square graphic and it would still manage to peek through.
+
+Until, a colleague of mine found this hack online that leveraged the Control-CSS field and some simple jquery to make the field invisible. 
+
+In the Control CSS field associated with the Task Outcome choice control, put in a unique class name.
+
+```css
+Control CSS = hidden-control
+```
+
+Switch over to the Form Settings, and in the Custom Javascript field, add in the following jquery snippet.
+
+```jquery
+NWF$(".hidden-control").hide();
+```
+
+<div class="breaker"></div>
+
+## Hiding or disabling fields by SharePoint Group membership
+
+Nintex has a neat function called ```fn-IsMemberOfGroup()``` that checks if the user currently looking at the form is a part of a particular SharePoint group.
+
+The trick here is to make sure you type in the name of the group and enclose in quotation marks. If you copy-paste the name of the SharePoint group, especially from SharePoint, it seems to carry some artifacts that Nintex dislikes and the hide/disable based on SharePoint group functionality refuses to work.
+
+See articles: [fn-IsMemberOfGroup("Task Team") not working in Nintex Forms O365](https://community.nintex.com/thread/11375) and [fn-not not working](https://community.nintex.com/thread/2874)
+
+<div class="breaker"></div>
+
+## Date/Time Format Strings
+
+A couple of handy reference articles on using inline functions [Date and Time Format Strings - Quick Reference Guide](https://community.nintex.com/community/build-your-own/blog/2015/08/11/date-and-time-format-strings-quick-reference-guide) or the default options available in a 'Set Variable' action [Using the Format this Value Feature with Dates](https://community.nintex.com/community/build-your-own/blog/2015/04/17/using-the-format-this-value-feature-with-dates) to format dates.
+
+<div class="breaker"></div>
+
+## Checking for an empty Person field
+
+This turns out to be more complicated than it seems. One would think that a simple check for "Is this field blank" ought to do it, but the "Run If" and "Conditional If" actions don't contain a "is blank" or "is not blank" check for List Lookup columns; the only options available are "equals" and "not equals".
+
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/if_listlookup.PNG?raw=true" /></div>
+
+The trick, as described in this Nintex post [Check for empty person field in workflow](https://community.nintex.com/thread/2787) is to instead save the Person field as a string field in a Workflow Variable. Once this field is available as a workflow variable, the "Run If" action does have a ```is not empty``` check.
+
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/if_variables.PNG?raw=true" /></div>
+
 
 <div class="breaker"></div>
 
