@@ -85,7 +85,7 @@ And enabled the 'Workflows can use app permissions' setting.
 
 I tentatively kicked off a workflow from a test user account with lower permissions, and .... it worked! 
 
-However, as I mentioned earlier, kicking off a new workflow from an existing workflow seems to take Nintex a good 15-20 minutes to slowly work its way through. This can be fairly awkward during live demo sessions, but shouldn't be a problem during normal live usage.
+However, kicking off a new workflow from an existing workflow seems to take Nintex a good 15-20 minutes to slowly work its way through. This can be fairly awkward during live demo sessions, but shouldn't be a problem during normal live usage.
 
 <div class="breaker"></div>
 
