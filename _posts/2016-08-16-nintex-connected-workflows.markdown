@@ -45,7 +45,7 @@ I had encountered the 'Item does not exist' error before - it tended to appear w
 
 And since the workflows ran without problem when initiated from my account, I knew it had to be a permissions issue.
 
-I went down the rabbit hole researching several possible solutions, all listed below including the final solution that works like a charm.
+I went down the rabbit hole researching several possible solutions, all listed below including the final solution that works like a charm. Scroll down to #6 if you want the tl;dr.
 
 #### Giving the user higher permissions
 
@@ -77,7 +77,7 @@ Workflows can use app permissions
 
 While setting up an App Step seemed like the best solution of all of the above, it still felt like a lot of added weight to the workflow. I wondered for a moment if simply enabling this setting might allow the workflow to run with elevated permissions, and this was certainly worth a try.
 
-#6. (SOLUTION THAT WORKED) So, I went into Site Settings > Site Actions > Manage site features:
+#6. **(SOLUTION THAT WORKED)** So, I went into Site Settings > Site Actions > Manage site features:
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/siteactions.PNG?raw=true" /></div>
 
 And enabled the 'Workflows can use app permissions' setting.
