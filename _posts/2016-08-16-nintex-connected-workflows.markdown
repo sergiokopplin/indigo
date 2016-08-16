@@ -127,11 +127,11 @@ A couple of handy reference articles on using inline functions [Date and Time Fo
 
 ## Checking for an empty Person field
 
-This turns out to be more complicated than it seems. One would think that a simple check for "Is this field blank" ought to do it, but the "Run If" and "Conditional If" actions don't contain a "is blank" or "is not blank" check for List Lookup columns; the only options available are "equals" and "not equals".
+This turns out to be more complicated than it seems. One would think that a simple check for *Is this field blank* ought to do it, but the **Run If** and **Conditional If** actions don't contain a *is blank* / *is not blank* check for List Lookup columns; the only options available are *equals* and *not equals*.
 
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/if_listlookup.PNG?raw=true" /></div>
 
-The trick, as described in this Nintex post [Check for empty person field in workflow](https://community.nintex.com/thread/2787) is to instead save the Person field as a string field in a Workflow Variable. Once this field is available as a workflow variable, the "Run If" action does have a ```is not empty``` check.
+The trick, as described in this Nintex post [Check for empty person field in workflow](https://community.nintex.com/thread/2787) is to instead save the Person field as a string field in a Workflow Variable. Once this field is available as a workflow variable, the **Run If** action does have an *is not empty* check.
 
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/if_variables.PNG?raw=true" /></div>
 
