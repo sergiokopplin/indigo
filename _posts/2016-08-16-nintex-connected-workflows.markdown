@@ -113,7 +113,7 @@ NWF$(".hidden-control").hide();
 
 Nintex has a neat function called ```fn-IsMemberOfGroup()``` that checks if the user currently looking at the form is a part of a particular SharePoint group.
 
-The trick here is to make sure you type in the name of the group and enclose in quotation marks. If you copy-paste the name of the SharePoint group, especially from SharePoint, it seems to carry some artifacts that Nintex dislikes and the hide/disable based on SharePoint group functionality refuses to work.
+The trick here is to make sure you **manually** type in the name of the group and enclose in quotation marks. If you copy-paste the name of the SharePoint group, especially from SharePoint, it seems to carry some artifacts that Nintex dislikes and the hide/disable based on SharePoint group functionality refuses to work.
 
 See articles: [fn-IsMemberOfGroup("Task Team") not working in Nintex Forms O365](https://community.nintex.com/thread/11375) and [fn-not not working](https://community.nintex.com/thread/2874)
 
