@@ -63,13 +63,13 @@ And since the workflows ran without problem when initiated from my account, I kn
 
 I went down the rabbit hole researching several possible solutions, all listed below including the final solution that works like a charm.
 
-1. Upgraded user permissions from Contribute to Edit - didn't work, same error message
+#1. Upgraded user permissions from Contribute to Edit - didn't work, same error message
 
-2. Considered elevating user permissions on the SharePoint List temporarily while one workflow transitions to the other, per this article [Set Item Permissions - Start Workflow Issue](https://community.nintex.com/message/15315) but it was a risky move to add more permissions temporarily since if anything failed, the user would basically see everyone else's requests and this was a no-no.
+#2. Considered elevating user permissions on the SharePoint List temporarily while one workflow transitions to the other, per this article [Set Item Permissions - Start Workflow Issue](https://community.nintex.com/message/15315) but it was a risky move to add more permissions temporarily since if anything failed, the user would basically see everyone else's requests and this was a no-no.
 
-3. Found a series of articles on using elevated workflow permissions to remedy the issue. One of the articles, [Workflow App Permissions](http://www.stuartroberts.net/index.php/2014/11/20/workflow-app-permissions/) suggested tricking SharePoint into thinking of the workflow as an App (i.e. a functioning widget or add-in like a Document Library or a List). This was an interesting approach, and definitely worth a try, until I found...
+#3. Found a series of articles on using elevated workflow permissions to remedy the issue. One of the articles, [Workflow App Permissions](http://www.stuartroberts.net/index.php/2014/11/20/workflow-app-permissions/) suggested tricking SharePoint into thinking of the workflow as an App (i.e. a functioning widget or add-in like a Document Library or a List). This was an interesting approach, and definitely worth a try, until I found...
 
-4. An article on using an App Step, a Nintex feature that can leverage higher permissions than the rest of the workflow, per this article [We use Nintex online with SharePoint 2013...](https://community.nintex.com/message/35520), and this Nintex O365 documentation article for [App Step](http://help.nintex.com/en-US/O365/O365WorkFlow/Workflow%20Actions%20-%20STD/App%20Step.htm). 
+#4. An article on using an App Step, a Nintex feature that can leverage higher permissions than the rest of the workflow, per this article [We use Nintex online with SharePoint 2013...](https://community.nintex.com/message/35520), and this Nintex O365 documentation article for [App Step](http://help.nintex.com/en-US/O365/O365WorkFlow/Workflow%20Actions%20-%20STD/App%20Step.htm). 
 
 I added an App Step to my workflow and when I clicked into the action to configure it, was greeted with this message. 
 
@@ -80,15 +80,15 @@ To enable App Step, the following site feature must be activated:
 Workflows can use app permissions
 ```
 
-5. The Nintex App Step documentation linked above also led to a SharePoint Dev center artice on how to [Create a workflow with elevated permissions by using the SharePoint 2013 Workflow platform](https://msdn.microsoft.com/en-us/library/office/jj822159(v=office.15).aspx). This article in conjunction with another helpful article [How to enable usage of App Step](https://community.nintex.com/thread/4793) led me to the Site setting that allows workflows to use app permissions.
+#5. The Nintex App Step documentation linked above also led to a SharePoint Dev center artice on how to [Create a workflow with elevated permissions by using the SharePoint 2013 Workflow platform](https://msdn.microsoft.com/en-us/library/office/jj822159(v=office.15).aspx). This article in conjunction with another helpful article [How to enable usage of App Step](https://community.nintex.com/thread/4793) led me to the Site setting that allows workflows to use app permissions.
 
 While setting up an App Step seemed like the best solution of all of the above, it still felt like a lot of added weight to the workflow. I wondered for a moment if simply enabling this setting might allow the workflow to run with elevated permissions, and this was certainly worth a try.
 
-6. (SOLUTION THAT WORKED) So, I went into Site Settings > Site Actions > Manage site features:
-<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/siteactions.PNG" /></div>
+#6. (SOLUTION THAT WORKED) So, I went into Site Settings > Site Actions > Manage site features:
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/siteactions.PNG?raw=true" /></div>
 
 And enabled the 'Workflows can use app permissions' setting.
-<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/workflowapp.png" /></div> 
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/workflowapp.png?raw=true" /></div> 
 
 I tentatively kicked off a workflow from a test user account with lower permissions, and .... it worked! 
 
