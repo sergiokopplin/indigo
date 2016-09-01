@@ -1,7 +1,7 @@
 ---
-title: "Indigo, minimalist jekyll theme"
+title: "YourShots - The Inventine Photo Library"
 layout: post
-date: 2016-01-23 22:10
+date: 2016-09-02 22:10
 tag: jekyll
 img: indigo/indigo.png
 projects: true
