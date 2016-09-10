@@ -1,18 +1,18 @@
 {
   "name": "indigo",
   "version": "1.0.0",
+  "homepage": "https://github.com/sergiokopplin/indigo#readme",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/sergiokopplin/indigo/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergiokopplin/indigo.git"
   },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sergiokopplin/indigo/issues"
-  },
-  "homepage": "https://github.com/sergiokopplin/indigo#readme",
   "scripts": {
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
-    "test": "bundle exec htmlproof ./_site"
+    "test": "bundle exec htmlproofer ./_site"
   }
 }

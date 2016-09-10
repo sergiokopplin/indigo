@@ -2,4 +2,4 @@
 _site
 .sass-cache
 .npm-debug.log
-.lock
+Gemfile.lock
