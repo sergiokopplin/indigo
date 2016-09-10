@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png" />
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
 </p>
 
 ## What has inside?
