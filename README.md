@@ -16,8 +16,6 @@
     <b><a href="README.md#how-to">How to</a></b>
     |
     <b><a href="README.md#tests">Tests</a></b>
-    |
-    <b><a href="README.md#problems">Problems</a></b>
 </p>
 
 <p align="center">
@@ -70,13 +68,6 @@ You can test your app with:
 ```bash
 npm run test
 ```
-
-## Problems?
-
-Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issues/new).
-
-#### Inspirations:
-- [Addy Osmani](https://addyosmani.com/)
 
 ---
 
