@@ -70,5 +70,10 @@ npm run test
 ```
 
 ---
+@abhi18av added YAML file for GITLAB. 
+
+See Issues 
+- [ Unable to setup the .gitlab-ci.yml file ](https://gitlab.com/gitlab-org/gitlab-ce/issues/22219) 
+- [Help with Jekyll Pages](https://gitlab.com/pages/jekyll/issues/7).
 
 [MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
