@@ -1,0 +1,9 @@
+# humanstxt.org/
+
+# TEAM
+
+	Abhinav Sharma - http://abhi18av.github.io
+
+# TECHNOLOGY
+
+	HTML5, CSS3, JS, JEKYLL

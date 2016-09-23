@@ -1,0 +1,54 @@
+# Using the ruby:2.3 Docker image
+image: "ruby:2.3"
+
+# Use a cache file to speed up build times. We cache the vendor directory
+# which we use in the jobs below to install the gems.
+# The key is used to define  the affinity of caching between jobs.
+# In this case we use the same cache file globally.
+# See https://docs.gitlab.com/ce/ci/yaml/README.html#cachekey
+cache:
+  key: "jekyll"
+  paths:
+    - vendor
+
+# Setting up the variables that will be available in our jobs.
+variables:
+  NOKOGIRI_USE_SYSTEM_LIBRARIES: "true"
+  LANG: "C.UTF-8"
+
+# Run the following commands before each job. We install the gems in the
+# vendor directory so that it can be cached and re-used without the need to
+# re-install all gems. It speeds up build times.
+before_script:
+  - ruby -v
+  - bundle install --jobs $(nproc) --path vendor
+
+# The test job ensures that the site is built successfully and tested if
+# links work correctly. The except: master keyword tells this job to run
+# in all branches except master. That means that if you push straight
+# to master, htmlproof will not run. You can remove this job completely
+# or copy the htmlproof script in the pages job.
+test:
+  script:
+    - jekyll build
+    - htmlproof ./_site --only-4xx
+  except:
+    - gh-pages
+
+# This job has the special name pages and GitLab understands that it
+# needs to upload the contents of the website and serve it under .gitlab.io.
+# Notice that we build jekyll inside the public directory which is essential
+# as is the one that GitLab will look for to upload to the Pages location.
+# This is what artifacts means. After the site builds inside the public dir,
+# take that dir and upload it to Pages. The site is deployed only in master.
+# That ensures that if you make an merge requests in a separate branch,
+# it will no override the existing site.
+pages:
+  stage: deploy
+  script:
+  - jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - gh-pages
