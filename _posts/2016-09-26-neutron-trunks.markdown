@@ -398,5 +398,5 @@ rtt min/avg/max/mdev = 0.434/0.434/0.434/0.000 ms
 
 ### Summary
 
-In my limited experience so far, the VLAN trunking feature has worked flawlessly in my environment consisting of three infra nodes and a single compute node in a fairly-close-to-reference OpenStack-Ansible-based architecture. I have deviated, though, due to my use of Open vSwitch rather than LinuxBridge in this Newton-based installation. From what I can tell, both the Open vSwitch and LinuxBridge drivers will support the VLAN trunking feature. It will definitely come in handy with another project I'm working on leveraging third-party vendor virtual networking devices. 
+In my limited experience so far, the VLAN trunking feature has worked flawlessly in my environment consisting of three infra nodes and a single compute node in a fairly-close-to-reference OpenStack-Ansible-based architecture. I have deviated, though, due to my use of Open vSwitch rather than LinuxBridge in this Newton-based installation. From what I can tell, both the Open vSwitch and LinuxBridge drivers will support the VLAN trunking feature. There will likely be bugs encountered along the way, but it's a feature that is much needed to meet today's requirements for networking in the cloud. 
 
