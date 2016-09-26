@@ -401,3 +401,5 @@ rtt min/avg/max/mdev = 0.434/0.434/0.434/0.000 ms
 
 In my limited experience so far, the VLAN trunking feature has worked flawlessly in my environment consisting of three infra nodes and a single compute node in a fairly-close-to-reference OpenStack-Ansible-based architecture. I have deviated, though, due to my use of Open vSwitch rather than LinuxBridge in this Newton-based installation. From what I can tell, both the Open vSwitch and LinuxBridge drivers will support the VLAN trunking feature. There will likely be bugs encountered along the way, but it's a feature that is much needed to meet today's requirements for networking in the cloud. 
 
+If you have any questions about this feature, notice any issues with the writeup, or would like to learn more about some other feature in Neutron, please hit me up on Twitter!
+
