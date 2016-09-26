@@ -30,7 +30,7 @@ Not only do you need a version of OpenStack that supports the feature, but also 
 
 ## Configuration changes
 
-If you're not using OpenStack-Ansible to manage your environment, you'll want to make the following change to the `neutron.conf` file on the host(s) running the Neutron API and restart the `neutron-server` service:
+If you're not using OpenStack-Ansible to manage your environment, you'll want to add the `trunk` service plugin to the existing list of service plugins in the `neutron.conf` file on the host(s) running the Neutron API and restart the `neutron-server` service:
 
 ```
 [neutron.conf]
@@ -226,6 +226,7 @@ MyInstance
 ```
 
 The `openstack server list` command can be used to validate the server is ACTIVE. At this time, only the IP address of the parent port attached to the instance at boot can be observed in the output:
+
 ```
 # openstack server list
 +--------------------------------------+------------+---------+-----------------------------------------------+---------------+
@@ -263,8 +264,8 @@ ubuntu@myinstance:~$ ip a
     inet6 fe80::f816:3eff:fea2:a23d/64 scope link
        valid_lft forever preferred_lft forever
 ```
-From Neutron's perspective, the `eth0` interface will be treated as a trunk interface and will support VLAN tagging as long as the VLAN tag matches that of an associated child port. In a previous step, the child port associated with the trunk had the following attributes:
 
+From Neutron's perspective, the `eth0` interface will be treated as a trunk interface and will support VLAN tagging as long as the VLAN tag matches that of an associated child port. In a previous step, the child port associated with the trunk had the following attributes:
 
 ```
 segmentation_id: 190
