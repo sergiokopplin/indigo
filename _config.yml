@@ -10,7 +10,8 @@ description: A blog about cloud and networking and other related things
 external-image: false
 picture: assets/images/profile.jpg
 
-url: http://koppl.in/indigo
+url: http://blog.jimmdenton.com
+# url: http://127.0.0.1:4000
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -26,7 +27,8 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+#disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
@@ -40,7 +42,7 @@ linkedin: jamesmdenton
 github: busterswt
 #medium: medium
 #vimeo: myvimeo
-email: james@jimmdenton.com
+email: james.denton@outlook.com
 
 authors:
     jamesdenton:
@@ -53,17 +55,17 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: false
+about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
