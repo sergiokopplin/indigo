@@ -9,6 +9,9 @@ tag:
 - blog
 - neutron
 - openstack
+- trunks
+- vlan
+- tagging
 blog: true
 author: jamesdenton
 description: VLAN trunking in Neutron (vlan-aware-vms)
@@ -168,7 +171,7 @@ When creating child ports, or any port for that matter, Neutron dynamically assi
 
 ### Create the trunk
 
-.. Describe the purpose of the trunk ..
+In Neutron, a VLAN trunk allows multiple networks to be connected to an instance using a single virtual NIC (vNIC). To create the trunk, use the `openstack network trunk create` command and specify a single parent port and one of more child ports:
 
 ```
 Syntax:
