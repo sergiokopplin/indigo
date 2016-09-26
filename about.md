@@ -8,7 +8,7 @@ Thanks for visiting my site! My name is James Denton, and this is my first attem
 
 ## Personal 
 
-I live with my wife, Amanda, and our two children in the San Antonio, Texas area. We've got two dogs who are are often more work to maintain than the kids. Love 'em, though.  
+I live with my wife, Amanda, and our two children in the San Antonio, Texas area. We've also got two dogs who are are often more work to maintain than the kids. Wouldn't have it any other way, though! In my spare time I like to restore broken things, and have spent too much time recently waxing nostalgic for old Macintosh computers and outdated networking technologies.
 
 ## Professional 
 
