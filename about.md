@@ -4,43 +4,30 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Thanks for visiting my site! My name is James Denton, and this is my first attempt at a weblog about various topics focused around OpenStack and various network technologies.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+# Personal 
 
-<h2>Skills</h2>
+I live with my wife, Amanda, and our two children in the San Antonio, Texas area. 
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+## Professional 
 
-<h2>Projects</h2>
+I’ve been in the Information Technology field for nearly 15 years, starting out with desktop support for a small school district in South Texas. In that job, I cut my teeth on Novell Netware 3.x and DOS, gradually working my way up to the Network Administrator role and administerting Netware, Linux, and Windows systems along with it. For the last eight years I've been employed at Rackspace Hosting in San Antonio, Texas, and am currently a Principal Architect focused on cloud networking and support for the Rackspace Private Cloud product based on OpenStack.
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+In my spare time, I managed to crank out a few books on OpenStack networking:
+
+- _Learning OpenStack Networking_, published in late 2014 (ISBN 978-1783983308)
+- _Learning OpenStack Networking, Second Edition_, published in late 2015 (ISBN 978-1785287725)
+- _OpenStack Networking Essentials_, published in early 2016 (ISBN 978-1785283277)
+  
+All three of these books are available from Amazon.com and other major booksellers.
+
+If you’d like more information, my LinkedIn profile is available [here](https://www.linkedin.com/in/jamesmdenton).
+
+### Disclaimer
+
+Any views or opinions expressed here are strictly my own. As this is a personal blog, not a corporate blog, I am solely responsible for all content published here. Content published here is not read, reviewed, or approved in advance by my employer and does not necessarily represent or reflect the views or opinions of my employer or any of its divisions, subsidiaries, or business partners.
+
+## Contact Me
+
+If you’d like to send me an e-mail, you can reach me at james dot denton at outlook dot com.
