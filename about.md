@@ -6,9 +6,9 @@ layout: page
 
 Thanks for visiting my site! My name is James Denton, and this is my first attempt at a weblog about various topics focused around OpenStack and various network technologies.
 
-# Personal 
+## Personal 
 
-I live with my wife, Amanda, and our two children in the San Antonio, Texas area. 
+I live with my wife, Amanda, and our two children in the San Antonio, Texas area. We've got two dogs who are are often more work to maintain than the kids. Love 'em, though.  
 
 ## Professional 
 
