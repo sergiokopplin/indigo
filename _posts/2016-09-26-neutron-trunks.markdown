@@ -14,6 +14,7 @@ tag:
 - tagging
 - newton
 blog: true
+star: false
 author: jamesdenton
 description: VLAN trunking in Neutron (vlan-aware-vms)
 ---
@@ -22,6 +23,7 @@ One of the features I've been looking forward to for the last few release cycles
 
 In a traditional network, a trunk is a type of interface that carries multiple VLANs, and is defined by the 802.1q standard. Trunks are often used to connect multiple switches together and allow for VLAN sprawl across the network.
 
+<!--more-->
 With the advent of the hypervisor, trunks were a popular way for a server to host machines from multiple networks using a single interface. In an OpenStack cloud, most compute nodes have one or more interfaces that are configured as trunks and host virtual machines on many different networks. When virtual machines required connections to multiple networks, the solution was to multi-home them by assigning multiple interfaces, resulting in `eth0`, `eth1`, `eth2`, etc., inside the virtual machine and respective connections to the virtual switch(es) on the compute node. This is problematic for certain types of virtual machines, as they may have a limited number of interfaces that can be attached to them. This is especially seen with VNFs like virtual firewalls, load balancers, etc. provided by popular third-party vendors.
 
 ## Prerequisites
