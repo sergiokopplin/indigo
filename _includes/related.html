@@ -1,7 +1,6 @@
 <div class="related">
     {% assign hasSimilar = '' %}
     {% for post in site.posts  %}
-	{% if post.blog == true %}
           {% assign postHasSimilar = false %}
           {% for tag in post.tags %}
             {% for thisTag in page.tags %}
@@ -22,7 +21,6 @@
                 {% endif %}
             {% endfor %}
           {% endfor %}
-	{% endif %}
     {% endfor %}
     {% if hasSimilar.size > 0 %}
         </ul>
