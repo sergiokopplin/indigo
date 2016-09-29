@@ -12,8 +12,6 @@ author: jamesdenton
 description: First blog. Nothing to see here.
 ---
 
-## Welcome.
-
 ![8 Macs in a row by nealcampbell](/assets/images/2016-09-25-first-blog/8macs.jpg)
 
 Thanks for coming.
