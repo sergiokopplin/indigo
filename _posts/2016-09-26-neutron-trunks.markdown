@@ -12,6 +12,7 @@ tag:
 - trunks
 - vlan
 - tagging
+- newton
 blog: true
 author: jamesdenton
 description: VLAN trunking in Neutron (vlan-aware-vms)
