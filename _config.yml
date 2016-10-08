@@ -1,16 +1,16 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Aman Chandra
+bio: Student. Robotics Enthusiast. Music.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My personal website
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
 
-url: http://koppl.in/indigo
+url: http://amanchandra333.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -26,35 +26,29 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+#disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-# google: mygoogle
-# instagram: myinstagram
+facebook: fb.com/amanchandra333
+twitter: twitter.com/amanchandra333
+#google: mygoogle
+instagram: instagram.com/amanchandra_333
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+linkedin: in.linkedin.com/in/amanchandra333
+#youtube: myyoutube
+#spotify: myspotify
+github: github.com/amanchandra333
+#medium: medium
+#vimeo: myvimeo
+email: amanchandra333@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    amanchandra333:
+        name: Aman Chandra
+        bio: Student. Robotics Enthusiast. Music.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: amanchandra333
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -66,20 +60,20 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: false
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+show-tags: false
 
 # related posts inside a post?
-related: true
+related: false
 
 # show next & prev links in blog post?
 blog-nav-links: false
