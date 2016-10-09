@@ -5,11 +5,6 @@ date: 2016-09-28
 image: /assets/images/2016-09-26-neutron-trunks/tree-trunk.png
 headerImage: true
 tag:
-- networking
-- blog
-- neutron
-- openstack
-- IPv6
 blog: false
 author: jamesdenton
 description: Using IPv6 in Neutron with SLAAC and an external gateway device
