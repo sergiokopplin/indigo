@@ -135,6 +135,25 @@ The trick, as described in this Nintex post [Check for empty person field in wor
 
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/nintex/if_variables.PNG?raw=true" /></div>
 
+<div class="breaker"></div>
+
+## Regular Expressions in Nintex
+
+It's completely amazing that Nintex allows RegEx parsing. That's powerful stuff, and it enables you to do a lot with just a static text field. I ran into having to use this to extract an internal reference number from a text string.
+
+This reference number was always preceded by a hashtag '#' symbol, which made things easier, but it wasn't always in a constant position and could be varying lengths, so I couldn't use the **substring** action available in Nintex. It was however the first set of consecutive numbers in that string, which is a useful piece of information for leveraging RegEx.
+
+To start with, the Nintex documentation on using Regular Expressions was pretty helpful: 
+[Nintex Actions > Regular Expressions](http://help.nintex.com/en-US/O365/O365WorkFlow/Workflow%20Actions%20-%20STD/Regular%20Expression.htm)
+
+The goal was, for example, to parse the number 543 from the string "#543 Test List Item with additional descriptors and possible more numbers 93940". 
+
+The actions required were as follows:
+
+1. This Regex expression successfully extracts all the number sequences and stores them in a collection: ``` ^#([\d]+)? ```
+2. Since we want just the first iteration of this expression, we use the Nintex action to retrieve just the first item in the collection
+3. The '#' symbol is still stuck to the first expression, so we do a substring-replace action to remove the # and we now have the pure number code from the list item description.
+
 
 <div class="breaker"></div>
 
