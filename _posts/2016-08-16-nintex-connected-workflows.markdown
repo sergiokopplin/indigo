@@ -150,7 +150,7 @@ The goal was, for example, to parse the number 543 from the string "#543 Test Li
 
 The actions required were as follows:
 
-1. This Regex expression successfully extracts all the number sequences and stores them in a collection: ``` ^#([\d]+)? ```
+1. This Regex expression successfully extracts all the number sequences and stores them in a collection: **``` ^#([\d]+)? ```**
 2. Since we want just the first iteration of this expression, we use the Nintex action to retrieve just the first item in the collection
 3. The '#' symbol is still stuck to the first expression, so we do a substring-replace action to remove the # and we now have the pure number code from the list item description.
 
