@@ -16,7 +16,7 @@ Some companies have made this into an art form.
 
 Google, for example.
 
-I still remember the "launch" as it were, of Gmail. The excited chatter on Yahoo Messenger with friends about rumored acquaintances who had an invite. That thrilling IM from a friend telling you they had an account and were waiting for their quota of invites. Then actually getting the invite yourself, and becoming part of the Gmail beta.
+I still remember the "launch" as it were, of Gmail. The excited chatter with friends about rumored acquaintances who had an invite. That thrilling instant message from a friend telling you they had an account and were waiting for their quota of invites. Then actually getting the invite yourself, and becoming part of the Gmail beta. (And the hilarious anti-climax of now having a very minimal, cool, and empty email account.)
 
 Google has since launched so many other products, all in similar fashion and I have signed up for so many of these over the years (Google Reader RIP, Bookmarks RIP, Calendar, Drive, Blogger, Google+ etc although some have bit the dust or transformed since).
 
