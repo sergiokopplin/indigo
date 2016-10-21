@@ -59,6 +59,18 @@
         </a>
     {% endif %}
 
+    {% if site.quora %}
+        <a class="link" data-title="quora.com/profile/{{ site.quora }}" href="https://www.quora.com/profile/{{ site.quora }}" target="_blank">
+            <svg class="icon icon-quora"><use xlink:href="#icon-quora"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.reddit %}
+        <a class="link" data-title="reddit.com/user/{{ site.reddit }}" href="https://www.reddit.com/user/{{ site.reddit }}" target="_blank">
+            <svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.medium %}
         <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
             <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
