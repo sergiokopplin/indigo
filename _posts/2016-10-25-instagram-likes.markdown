@@ -30,16 +30,16 @@ The method I've outlined below is still not fully automated, but it is better th
 - Set up a recipe to post from Twitter to Instagram, like so. The tweet that you post from instagram will actually just have the IG username and a permalink to the specific instagram post. But, Pinterest is smart enough to pull the only available image from that page although it links to the twitter post (which is not great, but not bad either).
 
 What your IFTTT recipe summary looks like:
-<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram_likes/ig_ifttt_recipe.PNG?raw=true" /></div>
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_ifttt_recipe.PNG?raw=true" /></div>
 
 What the 'action' part of your IFTTT recipe summary looks like:
-<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram_likes/ig_action.PNG?raw=true" /></div>
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_action.PNG?raw=true" /></div>
 
 - Find your past Instagram likes via the Settings menu on your iPhone or iPad Instagram app. I'm not sure what it looks like on Android.
-<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram_likes/if_variables.PNG?raw=true" /></div>
+<div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.PNG?raw=true" /></div>
 
 - Forward the Instagram posts individually and tweet them to the Twitter account you've created for this purpose.
-<div class="center"><iframe width="560" height="310" src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram_likes/ig_twitter.mp4" frameborder="0" allowfullscreen></iframe></div>
+<div class="center"><iframe width="560" height="310" src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.mp4" frameborder="0" allowfullscreen></iframe></div>
 
 - That's it! IFTTT works its magic, and posts the photos to your Pinterest page and now you can refer to a selection of your Instagram likes.
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram_likes/ig_pinterest.PNG?raw=true" /></div>
