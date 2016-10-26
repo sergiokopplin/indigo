@@ -2,7 +2,7 @@
 title: "Instagram Likes"
 layout: post
 date: 2016-10-25 11:00
-tag: thoughts
+tag: tips-and-tricks
 blog: true
 draft: true
 author: artiannaswamy
