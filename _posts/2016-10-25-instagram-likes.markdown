@@ -29,14 +29,14 @@ The method I've outlined below is still not fully automated, but it is better th
 - After you have your Instagram and Twitter accounts in place, login to your IFTTT account
 - Set up a recipe to post from Twitter to Instagram, like so. The tweet that you post from instagram will actually just have the IG username and a permalink to the specific instagram post. But, Pinterest is smart enough to pull the only available image from that page although it links to the twitter post (which is not great, but not bad either).
 
-What your IFTTT recipe summary looks like:
+**What your IFTTT recipe summary looks like:**
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_ifttt_recipe.png?raw=true" /></div>
 
-What the 'action' part of your IFTTT recipe summary looks like:
+**What the 'action' part of your IFTTT recipe summary looks like:**
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_action.png?raw=true" /></div>
 
 - Find your past Instagram likes via the Settings menu on your iPhone or iPad Instagram app. I'm not sure what it looks like on Android.
-<div class="center"><iframe width="560" height="310" src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.mp4?raw=true" frameborder="0" allowfullscreen></iframe></div>
+<video src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.mp4" poster="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_vid_poster.png?raw=true" width="320" height="200" controls preload></video>
 
 - Forward the Instagram posts individually and tweet them to the Twitter account you've created for this purpose.
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.png?raw=true" /></div>
