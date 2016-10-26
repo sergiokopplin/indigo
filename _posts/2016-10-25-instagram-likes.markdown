@@ -36,8 +36,7 @@ The method I've outlined below is still not fully automated, but it is better th
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_action.png?raw=true" /></div>
 
 - Find your past Instagram likes via the Settings menu on your iPhone or iPad Instagram app. I'm not sure where the menu option is on Android.
-<iframe src="https://player.vimeo.com/video/188945683" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/188945683">Instagram Likes</a> from <a href="https://vimeo.com/user58310471">Arti Annaswamy</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<div class="center"><iframe src="https://player.vimeo.com/video/188945683" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 - Forward the Instagram posts individually and tweet them to the Twitter account you've created for this purpose.
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.png?raw=true" /></div>
