@@ -36,7 +36,7 @@ What the 'action' part of your IFTTT recipe summary looks like:
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_action.png?raw=true" /></div>
 
 - Find your past Instagram likes via the Settings menu on your iPhone or iPad Instagram app. I'm not sure what it looks like on Android.
-<div class="center"><iframe width="560" height="310" src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.mp4" frameborder="0" allowfullscreen></iframe></div>
+<div class="center"><iframe width="560" height="310" src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.mp4?raw=true" frameborder="0" allowfullscreen></iframe></div>
 
 - Forward the Instagram posts individually and tweet them to the Twitter account you've created for this purpose.
 <div class="center"><img src="https://github.com/aannasw/aannasw.github.io/blob/master/assets/images/posts/instagram-likes/ig_twitter.png?raw=true" /></div>
