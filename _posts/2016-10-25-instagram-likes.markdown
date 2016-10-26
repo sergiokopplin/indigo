@@ -7,7 +7,7 @@ blog: true
 draft: true
 author: artiannaswamy
 summary: "How to export your Instagram likes"
-permalink: product-launches
+permalink: instagram-likes
 ---
 
 I recently had reason to want to look up some of my past likes on my Instagram account. Turns out, it's not that easy.
