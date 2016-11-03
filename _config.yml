@@ -1,6 +1,6 @@
 # main text of home
 name: Jacob Kimmel
-bio: 'PhD student @ UC San Francisco. Interested in aging & systems biology.'
+bio: 'PhD student @ UC San Francisco. Interested in aging, imaging, & machine learning.'
 
 # if it's an external image, update below for true
 external-image: false
@@ -36,7 +36,7 @@ instagram: jacobkimmel
 github: jacobkimmel
 #medium: medium
 #vimeo: myvimeo
-email: jacob@jckimmel.me
+email: jacobkimmel@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
