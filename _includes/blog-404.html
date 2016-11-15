@@ -1,0 +1,9 @@
+{% if post.blog == true %}
+{% if post.draft == false %}	
+    <div class="item {% if post.star %}star{% endif %}">
+        <a class="url" href="{{ site.url }}{{ post.url }}">
+            <p>{{ post.title }}</p>
+        </a>
+    </div>
+{% endif %}
+{% endif %}

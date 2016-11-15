@@ -12,7 +12,7 @@ permalink: /404
 		<p>Nothing published yet!</p>
 	{% elsif site.paginate %}
 		{% for post in paginator.posts %}
-	        {% include blog-post.html %}
+	        {% include blog-404.html %}
 	    {% endfor %}
 
 		{% if site.paginate %}
@@ -20,7 +20,7 @@ permalink: /404
 		{% endif %}
 	{% else %}
 		{% for post in site.posts %}
-			{% include blog-post.html %}
+			{% include blog-404.html %}
 		{% endfor %}
 	{% endif %}
 </p>
