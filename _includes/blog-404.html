@@ -1,9 +1,11 @@
 {% if post.blog == true %}
 {% if post.draft == false %}	
     <div class="item {% if post.star %}star{% endif %}">
-        <a class="url" href="{{ site.url }}{{ post.url }}">
-            <p>&#x25aa; {{ post.title }}</p>
-        </a>
+        <p>&#x25aa; 
+        	<a class="url" href="{{ site.url }}{{ post.url }}">
+            {{ post.title }}
+	        </a>
+        </p>
     </div>
 {% endif %}
 {% endif %}
