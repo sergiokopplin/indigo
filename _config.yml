@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.jpeg
 
 url: http://malayat.github.io/
 # your url: http://USERNAME.github.io
@@ -44,6 +44,7 @@ github: malayat
 # medium: 
 # vimeo: 
 email: alejandro.ayala@solmedia.ec
+url: http://alejandroayala.solmedia.ec/
 
 authors:
     johndoe:
@@ -69,11 +70,11 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: false
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
