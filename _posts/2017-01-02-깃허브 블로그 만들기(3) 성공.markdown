@@ -1,0 +1,25 @@
+---
+title: "깃허브 블로그 만들기 (3) 성공"
+layout: post
+date: 2017-01-01 09:09
+image: /assets/images/post/001/01title.jpg
+headerImage: true
+tag:
+- 깃허브
+- jekyll
+- 블로그 만들기
+blog: true
+star: true
+author: Hyeyeon
+description: 깃허브 블로그 만들기 과정 정리
+---
+
+### Summary:
+
+여러 시도 끝에 깃허브 블로그를 만들어냈습니다. 감동입니다.
+
+---
+
+
+
+## 완성까지
