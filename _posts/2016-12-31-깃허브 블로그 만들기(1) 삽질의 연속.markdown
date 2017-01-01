@@ -1,5 +1,5 @@
 ---
-title: "깃허브 블로그 만들기(1) 삽질의 연속"
+title: "깃허브 블로그 만들기 (1) 삽질의 연속"
 layout: post
 date: 2016-12-31 16:09
 image: /assets/images/post/001/01title.jpg
