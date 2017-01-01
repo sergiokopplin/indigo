@@ -1,5 +1,5 @@
 # main text of home
-name: John Doe
+name: Hyeyeon Yang
 bio: A Man who travels the world eating noodles
 
 # twitter summary info
@@ -7,10 +7,10 @@ description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: true
 picture: assets/images/profile.jpg
 
-url: https://koppl.in/indigo
+url: https://imyeonn.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/

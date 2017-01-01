@@ -1,0 +1,45 @@
+---
+title: "깃허브 블로그 만들기 (2) 난 안되나보다"
+layout: post
+date: 2017-01-01 09:09
+image: /assets/images/post/001/01title.jpg
+headerImage: true
+tag:
+- 깃허브
+- jekyll
+- 블로그 만들기
+blog: true
+star: true
+author: Hyeyeon
+description: 깃허브 블로그 만들기 과정 정리
+---
+
+### Summary:
+
+깃허브 블로그를 만들지 못하더라도 깃허브를 자료저장소로 써보자!
+
+---
+
+
+
+## 깃허브 연동이라도
+
+그 외에도 수많은 시도를 했다. 구글링, 스택오버플로우, 네이버에 검색을 하고 블로그에서 가이드해주는대로 따라했는데 결국 포기. 말하는 게 다 달랐다. `jekyll` 등을 설치해야 한다고 하는 데도 있고 아니다, 이미 만들어진 블로그를 포크하면 된다기도 하는데 `jekyll` 등을 설치하는 건 중간에 터미널에서 오류가 뜨면서 막히고 포크를 하면 그 포크한 블로그 템플릿이 반영이 되질 않았다.
+
+이렇게 또 깃허브와 멀어지는 것인가. 아니다. 싫다. 분명 비개발자도, 비전공자도 충분히 이해하고 이용할 수 있다고 누군가가 말했었고 게다가 오늘은 2017년 첫 날인데. 첫 날부터 망치고 싶지 않다.
+
+블로그는 이따 다시 도전하고 우선 내 컴퓨터에서 만든 파일을 깃허브에 올리고 깃허브에서 웹에 바로 올린 파일을 또 내 컴퓨터에 연동시키는 걸 목표로 잡자.
+
+[완전 초보를 위한 깃허브
+[@n0lb00’s Blog](https://nolboo.kim/blog/2013/10/06/github-for-beginner/)
+그래서 깃을 만들고 깃허브 연동시킬건데 과정을 잘 따라가다가 역시나 오류가 떴다. 점점 자괴감이 든다.
+
+[github - Git master branch has no upstream branch - Stack Overflow](https://stackoverflow.com/questions/16493396/git-master-branch-has-no-upstream-branch)
+
+여기서 So I... did a "git push -f" command after the git branch, which worked finally worked for me. 이거 보고 해결. 나이스.
+up to date 확인하고 깃허브 새로고침했더니 싱크됨!!!
+
+이제 로컬에서 수정하고 업로딩해볼까?
+test.txt 안에 내용 만들고 업로딩해보기로! 이것도 됨
+아까 만든 겁나빠른 웹레시피도 연동해놓음
+깃허브 온라인에서 readme 만들어서 로컬로도 연동시킴
