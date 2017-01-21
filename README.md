@@ -36,7 +36,7 @@
 2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
 3. Edit `_config.yml` with your data.
 4. `bundle install`
-5. `npm run serve`
+5. `bundle exec jekyll serve`
 6. open in your browser: `http://localhost:4000`
 
 ## Settings
@@ -66,7 +66,7 @@ and lot of other options, like width, projects, pages, read-time, tags, related 
 You can test your app with:
 
 ```bash
-npm run test
+bundle exec htmlproofer ./_site
 ```
 
 ---
