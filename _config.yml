@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://github.com/sergiokopplin/resume
+resume-url: https://google.com/?q=my+resume
 
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
@@ -78,7 +78,7 @@ width: normal
 projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: false
+about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
