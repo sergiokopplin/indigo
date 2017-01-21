@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/madison-bell.jpg
 
 url: http://madibell.github.io
 # your url: http://USERNAME.github.io
@@ -29,16 +29,16 @@ highlighter: rouge
 disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: https://www.facebook.com/madibell
+facebook: /madibell
 # twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: https://www.linkedin.com/in/madisonbell/
+linkedin: /madisonbell
 #youtube: myyoutube
 #spotify: myspotify
 github: mygithub
-#stackoverflow: 7044681/mystackoverflow
+#stackoverflow: stackoverflow
 #quora: userquora
 #reddit: username
 #medium: medium
