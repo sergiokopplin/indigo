@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Madison Bell
+bio: Product Manager
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -10,7 +10,7 @@ description: A blog about technology and stuff related
 external-image: false
 picture: assets/images/profile.jpg
 
-url: https://koppl.in/indigo
+url: http://madibell.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -26,24 +26,24 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: https://www.facebook.com/madibell
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
+linkedin: https://www.linkedin.com/in/madisonbell/
+#youtube: myyoutube
+#spotify: myspotify
 github: mygithub
-stackoverflow: 7044681/mystackoverflow
-quora: userquora
-reddit: username
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+#stackoverflow: 7044681/mystackoverflow
+#quora: userquora
+#reddit: username
+#medium: medium
+#vimeo: myvimeo
+# email: email
 
 authors:
     johndoe:
