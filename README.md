@@ -52,13 +52,9 @@ picture: 'assets/images/profile.jpg'
 and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
 ```
 
----
-
 ## How To?
 
 Check the [FAQ](./FAQ.md) if you have any doubt or problem.
-
----
 
 ## Tests
 
