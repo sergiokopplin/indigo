@@ -36,7 +36,7 @@
 2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
 3. Edit `_config.yml` with your data.
 4. `bundle install`
-5. `bundle exec jekyll serve`
+5. `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
 6. open in your browser: `http://localhost:4000`
 
 ## Settings
