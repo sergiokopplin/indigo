@@ -31,8 +31,10 @@ highlighter: rouge
 # analytics-piwik-url: 'piwik.my-host.com'
 # analytics-piwik-id: 1
 
-# if you don't want comments in your posts, set to false
-disqus: mydisqus
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: mydisqus # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: myfacebook
@@ -90,8 +92,8 @@ show-tags: true
 # related posts inside a post?
 related: true
 
-# show next & prev links in blog post?
-blog-nav-links: false
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
 
 # show author block at the end of a post ?
 show-author: true
