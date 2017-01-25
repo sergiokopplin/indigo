@@ -6,3 +6,4 @@
 - [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/)
 - [Tests with Travis CI - Tutorial](http://www.raywenderlich.com/109418/travis-ci-tutorial)
 - [Why Sass?](https://github.com/sergiokopplin/indigo/issues/117)
+- [Jekyll Example](https://github.com/barryclark/jekyll-now) - how to clone, run and edit jekyll configs
