@@ -7,9 +7,9 @@
 ***
 
 <p align="center">
-    <b><a href="README.md#what-has-inside">What has inside?</a></b>
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
     |
-    <b><a href="README.md#setup">Setup?</a></b>
+    <b><a href="README.md#setup">Setup</a></b>
     |
     <b><a href="README.md#settings">Settings</a></b>
     |
@@ -20,7 +20,7 @@
     <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
 </p>
 
-## What has inside?
+## What has inside
 
 - [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
 - Tests with [Travis](https://travis-ci.org/)
