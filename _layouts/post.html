@@ -23,7 +23,7 @@ layout: page
 
 {{content}}
 
-{% if page.blog and site.blog-nav-links %}
+{% if site.post-advance-links contains page.category %}
     <div class="blog-navigation">
         {% if page.previous.url %}
             <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
@@ -44,6 +44,6 @@ layout: page
     {% include author.html %}
 {% endif %}
 
-{% if site.disqus %}
+{% if site.disqus.categories contains page.category %}
     {% include disqus.html %}
 {% endif %}
