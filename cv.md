@@ -14,6 +14,7 @@ San Francisco, California
 
 **B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
+*Funding**: National Merit Scholarship, Full Tuition & Stipend
 *GPA*: 4.0 / 4.0  
 *GRE*: 170/170, 98th% Q, 169/170, 99th% V
 
@@ -54,8 +55,9 @@ San Francisco, California
 
 ## Computational Skills
 
-* Python, Matlab, R
-* Quantitative imaging, multivariate data analysis, machine learning
+* Python, Matlab, R, Torch
+* Quantitative Image Analysis, Multivariate Data Analysis, Machine Learning
+* Deep Learning with Convolutional Neural Networks
 * Distributed computing, Unix systems automation
 * Object-oriented programming, VCS (git/svn), Test Driven Development
 
