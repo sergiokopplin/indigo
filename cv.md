@@ -14,7 +14,7 @@ San Francisco, California
 
 **B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
-*Funding*: National Merit Scholarship, Full Tuition & Stipend
+*Funding*: National Merit Scholarship, Full Tuition & Stipend  
 *GPA*: 4.0 / 4.0  
 *GRE*: 170/170, 98th% Q, 169/170, 99th% V
 
@@ -106,5 +106,5 @@ San Francisco, California
 * Burnett Research Scholar, U. of Central Florida, 2013
 * NIH Summer Fellow, National Institute on Aging, 2012
 * Florida Academic Scholar, State of Florida, 2012-2015
-* National Merit Scholar, 2012
+* National Merit Scholar, National Merit Scholarship Corp., 2012
 * International Science & Engineering Fair Finalist, 2011, 2012
