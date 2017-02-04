@@ -9,28 +9,28 @@ Jacob C. Kimmel
 San Francisco, California
 
 ## Education
-**Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - Present** \
+**Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - Present**  
 *Funding*: PhRMA Informatics Fellowship & NIH T32HD007470
 
-**B.S. — Biotechnology, University of Central Florida, 2012 - 2015** \
-*Distinctions*: Summa Cum Laude, Top Honors, University Honors \
-*GPA*: 4.0 / 4.0 \
+**B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
+*Distinctions*: Summa Cum Laude, Top Honors, University Honors  
+*GPA*: 4.0 / 4.0  
 *GRE*: 170/170, 98th% Q, 169/170, 99th% V
 
-**Marine Biological Laboratory, Woods Hole, MA, 2016** \
+**Marine Biological Laboratory, Woods Hole, MA, 2016**  
 *Course*: Computational Image Analysis in Cell and Developmental Biology
 
 ## Research Experience
 
-**University of California San Francisco, San Francisco, CA, 2015 - Present** \
-*Graduate Student Researcher* \
+**University of California San Francisco, San Francisco, CA, 2015 - Present**  
+*Graduate Student Researcher*  
 *Principal Investigators:* Andrew Brack & Wallace Marshall
 
 * Developed software to analyze cell motility in a multidimensional manner, identified distinct motility states in fibroblasts, myoblasts, and muscle stem cells
 * Developing an image based classification method for muscle stem cell subpopulation states
 
-**University of Central Florida, Orlando, FL, 2011 - 2015** \
-*Research and Mentoring Program Scholar, Burnett Research Scholar* \
+**University of Central Florida, Orlando, FL, 2011 - 2015**  
+*Research and Mentoring Program Scholar, Burnett Research Scholar*  
 *Principal Investigator:* Kiminobu Sugaya, PhD
 
 * Characterized induced pluripotent reprogramming in mesenchymal stem cells using machine-learning based image analysis, investigated cell sorting applications
@@ -38,15 +38,15 @@ San Francisco, California
 * Investigated the use of gel capillary scaffolds in therapeutic protein delivery and cell culture
 * Investigated a pathway for producing neuronal cells from adipose derived stem cells by modulation of Nanog. Published as a first-author paper, presented at Neuroscience 2013.
 
-**University of California San Francisco, San Francisco, CA, 2014 Summer** \
-*Summer Research and Training Program, Amgen Scholar* \
+**University of California San Francisco, San Francisco, CA, 2014 Summer**  
+*Summer Research and Training Program, Amgen Scholar*  
 *Principal Investigator:* K. Mark Ansel, PhD
 
 * Investigated the role of microRNA-29 in the regulation of cytokine production in T-cells
 * Awarded the summer program’s competitive Outstanding Presentation Award
 
-**National Institute on Aging, Baltimore, MD, 2012 Summer** \
-*Summer Fellow, Image Informatics and Computational Biology Unit* \
+**National Institute on Aging, Baltimore, MD, 2012 Summer**  
+*Summer Fellow, Image Informatics and Computational Biology Unit*  
 *Principal Investigator:* Ilya G. Goldberg, PhD
 
 * Identified differential aging rates across the anatomy of C. elegans using machine learning based image classification
