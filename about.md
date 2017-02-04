@@ -11,4 +11,4 @@ I'm currently in the Developmental & Stem Cell Biology PhD program at UC San Fra
 
 When I’m not doing science, I like to write poorly, climb big hills, and play several instruments with equitable levels of mediocrity.
 
-If you ever want to get in touch with me, shoot me an email at [jacob@jckimmel.me](mailto:jacob@jckimmel.me) or find me on Twitter @jacobkimmel.
+If you ever want to get in touch with me, shoot me an email at [jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com) or find me on Twitter @jacobkimmel.
