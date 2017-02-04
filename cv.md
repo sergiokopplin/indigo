@@ -3,7 +3,6 @@ title: CV
 layout: page
 permalink: /cv/index.html
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
 
 Jacob C. Kimmel  
 [Jacob.Kimmel@ucsf.edu](mailto:Jacob.Kimmel@ucsf.edu)  
