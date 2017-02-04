@@ -14,7 +14,7 @@ San Francisco, California
 
 **B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
-*Funding**: National Merit Scholarship, Full Tuition & Stipend
+*Funding*: National Merit Scholarship, Full Tuition & Stipend
 *GPA*: 4.0 / 4.0  
 *GRE*: 170/170, 98th% Q, 169/170, 99th% V
 
