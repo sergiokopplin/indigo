@@ -21,9 +21,6 @@ url: https://koppl.in/indigo
 
 permalink: /:title/
 
-markdown: kramdown
-highlighter: rouge
-
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
 
@@ -101,18 +98,9 @@ show-author: true
 # do you want some animations?
 animation: true
 
-sass:
-    sass_dir: _sass
-    style: :compressed
-
 gems:
-  - jemoji
-  - jekyll-mentions
   - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
   - jekyll-gist
-  - jekyll-paginate
 
 jekyll-mentions:
     base_url: https://github.com
