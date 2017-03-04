@@ -11,10 +11,12 @@ star: false
 projects: true
 category: project
 author: kchromik
-description: Video navigation with gesture-based interaction
+description: Video navigation with flick-based interaction
 ---
 
 The scope of my master's thesis project was the implementation and evaluation of a gesture-based video player. By definition the user should be able to navigation within a video by using flick gestures, which means a fast slide across the screen. This behaviour is already used by mobile devices to navigate within a list. By using flick gestures, the video playback accelerates, same as scrolling of a list does. Compared to the [SwiPlayer]({{ site.baseurl }}{% post_url 2017-03-01-swiplayer %}) the user doesn't loose visual information by navigating to a different position in the video.
+
+Through a user study, the prototype has been evaluated and compared to a standard video player. The results of this study can be found by either reading my [thesis](#thesis) or the [paper](#paper) which has been published about this project.
 
 ![Flickplayer Image]({{ site.url }}/assets/images/projects/flickplayer.png)
 
@@ -22,7 +24,9 @@ The scope of my master's thesis project was the implementation and evaluation of
 * dynamic playback speed
 * indication for current playback speed
 * up to 32x faster than regular playback
+* maximum playback without visible frame drops
 * reversed playback
+* indication of current position
 
 ### Implementation
 * Objective-C
@@ -35,10 +39,10 @@ The scope of my master's thesis project was the implementation and evaluation of
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aEx7hCEQA2c" frameborder="0" allowfullscreen></iframe>
 
 ---
-### Master's Thesis
+### Master's Thesis <a name="thesis"></a>
 I successfully defended my master's thesis in April 2016. A copy of my thesis can be downloaded here: [Master's Thesis]({{ site.url }}/files/thesis.pdf)
 
-### Publications:
+### Publications: <a name="paper"></a>
 
 Klaus Schoeffmann, Marco A. Hudelist, Bonifaz Kaufmann and Kevin Chromik, **“Interactive Search in Video: Navigation With Flick Gestures vs. Seeker-Bars”**, In Proceedings of the 2016 International Conference on Multimedia Modeling (MMM ’16). Springer, Switzerland.
 
