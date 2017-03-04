@@ -6,7 +6,7 @@ image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - iPad
-- video
+- video navigation
 star: false
 projects: true
 category: project

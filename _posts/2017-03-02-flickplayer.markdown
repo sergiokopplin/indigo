@@ -7,6 +7,7 @@ headerImage: false
 tag:
 - iPad
 - video
+- thesis
 star: false
 projects: true
 category: project
