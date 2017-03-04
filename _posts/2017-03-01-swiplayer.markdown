@@ -1,5 +1,5 @@
 ---
-title: "SwiPlayer - Gesture-based video navigation"
+title: "SwiPlayer - Swipe Video Player"
 layout: post
 date: 2017-03-01 20:45
 image: /assets/images/markdown.jpg
