@@ -2,8 +2,7 @@
 name: Kevin Chromik
 bio: "Passionate iOS Developer<br />Sports Enthusiast"
 
-# twitter summary info
-description: A blog about technology and stuff related
+description: iOS Developer at Freeletics
 
 # if it's an external image, update below for true
 # better with square images
@@ -84,7 +83,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
