@@ -16,7 +16,7 @@ description: A swipe gesture-based video player for the Apple iPad
 
 # A swipe gesture-based video player for the Apple iPad
 
-As part of my master's studies I had to design and implement a video player for the Apple iPad, which uses gestures controls only. The concept of the navigation within a photo library on a smartphone or tablet has been transferred to video navigation. A horizontal swipe gesture allows the user to jump temporary to a next/previous sequence in the video. Depending on the vertical position of the finger, the time interval of the scene jump adapts dynamically, which enables the user to execute fast but less detailed navigation.
+As part of my Master studies I had to design and implement a video player for the Apple iPad, which uses gesture controls only. The concept of the navigation within a photo library on a smartphone or tablet has been transferred to video navigation. A horizontal swipe gesture allows the user to jump temporary to a next/previous sequence in the video. Depending on the vertical position of the finger, the time interval of the scene jump adapts dynamically, which enables the user to execute fast but less detailed navigation.
 
 ![SwiPlayer Image]({{ site.url }}/assets/images/projects/swiplayer.png)
 

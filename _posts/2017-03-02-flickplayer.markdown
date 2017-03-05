@@ -15,9 +15,9 @@ author: kchromik
 description: Video navigation with flick-based interaction
 ---
 
-The scope of my master's thesis project was the implementation and evaluation of a gesture-based video player. By definition the user should be able to navigation within a video by using flick gestures, which means a fast slide across the screen. This behaviour is already used by mobile devices to navigate within a list. By using flick gestures, the video playback accelerates, same as scrolling of a list does. Compared to the [SwiPlayer]({{ site.baseurl }}{% post_url 2017-03-01-swiplayer %}) the user doesn't loose visual information by navigating to a different position in the video.
+The scope of my Master thesis' project was the implementation and evaluation of a gesture-based video player. By definition, the user should be able to navigate within a video by using flick gestures, which means a fast slide across the screen. This behaviour is already used by mobile devices to navigate within a list. By using flick gestures, the video playback accelerates, in the same way the scrolling of a list would do. Compared to the [SwiPlayer]({{ site.baseurl }}{% post_url 2017-03-01-swiplayer %}) the user doesn't lose visual information by navigating to a different position in the video.
 
-Through a user study, the prototype has been evaluated and compared to a standard video player. The results of this study can be found by either reading my [thesis](#thesis) or the [paper](#paper) which has been published about this project.
+Through a user study, the prototype has been evaluated and compared to a standard video player. The results of this study can be found in my [thesis](#thesis) or reading the [paper](#paper) about this project, which has been published in the International Conference on Multimedia Modeling in 2016.
 
 ![Flickplayer Image]({{ site.url }}/assets/images/projects/flickplayer.png)
 
