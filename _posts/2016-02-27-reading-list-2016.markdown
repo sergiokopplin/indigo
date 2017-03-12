@@ -22,7 +22,9 @@ These are great categories, no doubt, but I did not want to delay beginning the 
 
 So instead, I decided to pick one book from each of the major book categories listed on the [Amazon Kindle Books page](http://www.amazon.com/Kindle-eBooks/b?ie=UTF8&node=154606011).
 
-So here we go.
+Update (Mar 11, 2017):  I had been meaning to do an update to wrap up, as it were, the 2016 reading list and provide an end-of-year review of the project and the number of books read. I am sad to say that I didn't finish the 30-35 books I was aiming for. I am however, happy to say that I did get to 11 books read, although the timeline of these books read was heavily skewed to the last week of the year when I traveled and had a lot of no-internet time on my hands.
+
+
 
 ## Index
 - [List of categories on Amazon Books](#categories)
@@ -33,8 +35,8 @@ So here we go.
 <a id="categories"></a>
 <h3>Categories on Amazon Books</h3>
 - Arts & Photography :heavy_check_mark:
-- Biographies & Memoirs
-- Business & Money
+- Biographies & Memoirs :hourglass:
+- Business & Money :heavy_check_mark:
 - Children's eBooks
 - Comics & Graphic Novels
 - Computers & Technology
@@ -44,22 +46,22 @@ So here we go.
 - Engineering & Transportation
 - Foreign Languages
 - Health, Fitness & Dieting
-- History
+- History :heavy_check_mark:
 - Humor & Entertainment
 - Law
 - Lesbian, Gay, Bisexual & Transgender eBooks
 - Literature & Fiction :heavy_check_mark:
-- Medical eBooks
+- Medical eBooks :hourglass:
 - Mystery, Thriller & Suspense :heavy_check_mark:
-- Nonfiction
+- Nonfiction :heavy_check_mark:
 - Parenting & Relationships
 - Politics & Social Sciences
 - Reference
 - Religion & Spirituality
-- Romance
+- Romance :heavy_check_mark:
 - Science & Math
 - Science Fiction & Fantasy
-- Self-Help
+- Self-Help :heavy_check_mark:
 - Sports & Outdoors :heavy_check_mark:
 - Teen & Young Adult
 
@@ -70,13 +72,14 @@ History:
 - Published: Feb 27, 2016
 - Updated: Mar 13, 2016
 - Updated: Jul 26, 2016
-
+- Updated: Mar 11, 2017 (Final update for 2016 Reading List)
 
 <div class="breaker"></div><a id="read"></a>
 <h2 class="title">Books I've Read</h2>
+
 ---
 
-<h3><a href="http://amzn.to/1UoRJSV" target="_blank">Thinking with Type</a> by Ellen Lupton (2004)</h3>	
+<h3>1. <a href="http://amzn.to/1UoRJSV" target="_blank">Thinking with Type</a> by Ellen Lupton (2004)</h3>	
 
 *Category: Arts & Photography > Graphic Design > Typography* 
 	
@@ -84,7 +87,7 @@ History:
 
 Thinking with Type is the most non-textbookey textbook I've read. I was steeled for a slog of a read, through the minutiae of serifs and slabs and crossbars and x-heights, but this was a surprisingly satisfying read. Lupton peppers the lessons with a solid narrative, and uses the font examples as a part of the narrative (no wasted text!). I learned a lot about the history of type, while understanding what I should look for when choosing fonts.
 
-<h3><a href="http://amzn.to/21ncy6O" target="_blank">Ethan Frome</a> by Edith Wharton (1911)</h3>	
+<h3>2. <a href="http://amzn.to/21ncy6O" target="_blank">Ethan Frome</a> by Edith Wharton (1911)</h3>	
 
 *Category: Literature & Fiction > Classics*
 
@@ -105,7 +108,7 @@ or in other words, the reviewer thinks Edith Wharton doth project her own life t
 So, back to the reading of Frome - not seeing any light at the end of the tunnel, I did what any attention-challenged internet-age-person would do, and read the ending on Wikipedia. And that actually turned out to be a great idea. See, there's a twist. And it's a cruel twist, but a good one. Knowing the ending, I sped through the rest of the book and ended up enjoying it a lot. It makes a strong statement, one that's hard to miss, and takes a heck of a while getting there, but it is still ultimately worth the read.
 
 
-<h3><a href="http://amzn.to/1Q8sPEa" target="_blank">The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics</a> by Daniel James Brown (2013)</h3>	
+<h3>3. <a href="http://amzn.to/1Q8sPEa" target="_blank">The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics</a> by Daniel James Brown (2013)</h3>	
 
 *Category: Sports & Outdoors > Canoeing* 	
 
@@ -115,7 +118,7 @@ I loved reading [Born to Run](http://amzn.to/1Uq1m43) by Christopher McDougall l
 
 Where the book really shines is when it delves into the making of the athlete, and the constructing of the boat. The boat builder, a mysterious transplant from England, and the competing coaches of the Washington and Berkeley college teams are incredible characters and any scenes they are in just come alive.
 
-<h3><a href="http://amzn.to/1Q8qVDw" target="_blank">Career of Evil (Cormoran Strike, #3)</a> by Robert Galbraith (J.K. Rowling) (2015)</h3>
+<h3>4. <a href="http://amzn.to/1Q8qVDw" target="_blank">Career of Evil (Cormoran Strike, #3)</a> by Robert Galbraith (J.K. Rowling) (2015)</h3>
 
 *Category: Fiction > Mystery, Thriller & Suspense*
 
@@ -125,6 +128,64 @@ I picked this up with much anticipation, as I love the Harry Potter series and h
 
 Unfortunately, the ending was a considerable let down for me. I don't want to spoil this book for someone, but let's just say that the person who *did it* turns out to be the most logical person to have done it, but viscerally, it wasn't as satisfying. I wanted the bad person to be someone who was waiting in the wings, peripherally introduced as a character if not explicitly set up as a good person, and to then jump out at you as the person who was responsible all along (see the character setup for Moriarty in the BBC Sherlock series).
 
+<h3>5. <a href="http://amzn.to/1XPUBYV" target="_blank">The Nightingale</a> by Kristin Hannah (2015)</h3>	
+*Category: Literature & Fiction > Historical Fiction*
+<p align="center"><a href="http://amzn.to/1XPUBYV" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/nightingale.jpg" /></a></p>	
+
+Review to come...
+
+<h3>6. <a href="http://a.co/bLKhjwC" target="_blank">Last Train to Istanbul</a> by Ayse Kulin (2013)</h3>
+*Category: World Literature > Middle Eastern*
+<p align="center"><a href="http://a.co/bLKhjwC" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/last-train-to-istanbul.jpg" /></a></p>
+
+Review to come...
+
+<h3>7. <a href="http://a.co/goUROj9" target="_blank">Trail of Broken Wings</a> by Sejal Badani (2015)</h3>	
+*Category: Literature & Fiction > Women's Fiction*
+<p align="center"><a href="http://a.co/goUROj9" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/trail-of-broken-wings.jpg" /></a></p>
+
+Review to come...
+
+<h3>8. <a href="http://amzn.to/1UoQcwb" target="_blank">We Should All Be Feminists</a> by Chimamanda Ngozi Adichie (2014)</h3>	
+*Category: Politics & Social Sciences > Feminism*
+<p align="center"><a href="http://amzn.to/1UoQcwb" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/we-should-all-be-feminists.jpg" /></a></p>	
+
+I didn't adequately research this book before putting it on my reading list, since I'd heard so much about the author. Unfortunately, the read was too short (it's a speech delivered by the author, and runs to about 47 pages) and perhaps I've already read a fair bit of modern feminist writing, as the content didn't surprise or wow me. What Chimamanda says is powerful and true and I agree with every word, but not much in the speech really surprised me. 
+
+The parts that did stand out for me, in a shaking-my-head-that-this-still-happens is the level of gender attitude imbalances in Africa. I grew up in India and I've witnessed first hand how patriarchal the culture can be, and incorrectly assumed that I had seen the worst, but Chimamanda's experiences showed me a different picture of the gender imbalance around the world.
+
+<h3>9. <a href="http://amzn.to/1pcNHS1" target="_blank">The Power of Habit: Why We Do What We Do in Life and Business</a> by Charles Duhigg (2011)</h3>	
+*Category: Self-Help > Social Psychology & Interactions*
+<p align="center"><a href="http://amzn.to/1pcNHS1" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/power-of-habit.jpg" /></a></p>	
+
+I really loved this book. I was expecting several chapters full of insights from research papers, which this book did contain, but it leveraged the insights beautifully into actionable steps and lists, and provided a detailed breakdown of exactly what works, what doesn't work, and why in either case. 
+
+The part that struck a real chord with me was a chapter at the end of the book where the author selects a trivial example (he likes to snack on cookies roughly around the same time every afternoon), which he turns into a self-experiment to show an implementation of the book's recommendations and insights. I'd like to re-read this book with a similarly smaller scale example in mind (writing blog posts regularly, as an example) and see if I can successfully build that habit.
+
+<h3>10. <a href="http://amzn.to/1VJ0i9T" target="_blank">The Start-up of You: Adapt to the Future, Invest in Yourself, and Transform Your Career</a> by Reid Hoffman, Ben Casnocha (2012)</h3>	
+*Category: Business & Money > Job Hunting & Careers / Entrepreneurship*
+<p align="center"><a href="http://amzn.to/1VJ0i9T" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/startup-of-you.jpg" /></a></p>
+
+<div class="breaker"></div><a id="reading"></a>
+<h2 class="title">In process books carried over to 2017</h2>
+---
+
+<h3><a href="http://amzn.to/1oN3wid" target="_blank">No ordinary time: Franklin and Eleanor Roosevelt : the home front in World War II</a> by Doris Kearns Goodwin (1994)</h3>	
+*Category: Biographies & Memoirs > Presidents*
+<p align="center"><a href="http://amzn.to/1oN3wid" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/no-ordinary-time.jpg" /></a></p>	
+
+<h3><a href="http://amzn.to/1VIYSfB" target="_blank">Sapiens: A Brief History of Humankind</a> by Yuval Noah Harari (2011)</h3>
+*Category: Anthropology*
+<p align="center"><a href="http://amzn.to/1VIYSfB" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/sapiens.jpg" /></a></p>
+
+<h3><a href="http://a.co/eH5mleN" target="_blank">Open</a> by Andre Agassi (2009)</h3>
+*Category: Biographies & Memoirs > Modern*
+<p align="center"><a href="http://a.co/eH5mleN" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/open-andre-agassi.jpg" /></a></p>
+
+
+<div class="breaker"></div><a id="abandoned"></a>
+<h2 class="title">Books abandoned for good</h2>
+---
 
 <h3><a href="http://amzn.to/1Q8qxov" target="_blank">Zero to One: Notes on Startups, or How to Build the Future</a> by Peter Thiel, Blake  Masters (2014)</h3>
 
@@ -144,48 +205,3 @@ Here are a few notes I jotted down before I gave up:
 - Individuals with Asperger-like insensitivity to social cues seem to thrive in Silicon Valley 🙄
 - Calling Twitter a future monopoly especially considering current loss of faith in Twitter kind of undercuts the argument
 - Good point about short-term obsessed Zynga, and Groupon vs LinkedIn.
-
-<div class="breaker"></div><a id="reading"></a>
-<h2 class="title">Currently Reading</h2>
----
-
-<h3><a href="http://amzn.to/1oN3wid" target="_blank">No ordinary time: Franklin and Eleanor Roosevelt : the home front in World War II</a> by Doris Kearns Goodwin (1994)</h3>	
-*Category: Biographies & Memoirs > Presidents*
-<p align="center"><a href="http://amzn.to/1oN3wid" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/no-ordinary-time.jpg" /></a></p>	
-
-
-<div class="breaker"></div><a id="on-the-list"></a>
-<h2 class="title">On The Reading List</h2>
----
-
-<h3><a href="http://amzn.to/1VIYSfB" target="_blank">Sapiens: A Brief History of Humankind</a> by Yuval Noah Harari (2011)</h3>
-*Category: Anthropology*
-<p align="center"><a href="http://amzn.to/1VIYSfB" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/sapiens.jpg" /></a></p>
-
-<h3><a href="http://amzn.to/1oN14Z6" target="_blank">Year of Yes: How to Dance It Out, Stand In the Sun and Be Your Own Person</a> by Shonda Rhimes (2015)</h3>
-*Category: Biographies & Memoirs > Modern*
-<p align="center"><a href="http://amzn.to/1oN14Z6" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/year-of-yes.jpg" /></a></p>
-
-<h3><a href="http://amzn.to/1oN1ChD (lower reviews free version http://amzn.to/1LK8cu0)" target="_blank">The Origin of Species</a> by Charles Darwin (1844)</h3>
-*Category: Biology*
-<p align="center"><a href="http://amzn.to/1oN1ChD" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/the-origin-of-species.jpg" /></a></p>
-
-<h3><a href="http://amzn.to/1VIYTjn" target="_blank">Flash Boys: A Wall Street Revolt</a> by Michael Lewis (2014)</h3>
-*Category: Business & Money > Fiction*
-<p align="center"><a href="http://amzn.to/1VIYTjn" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/flash-boys.jpg" /></a></p>
-
-<h3><a href="http://amzn.to/1XPUug3" target="_blank">The TV Showrunner's Roadmap: 21 Navigational Tips for Screenwriters to Create and Sustain a Hit TV Series</a> by Neil Landau (2013)</h3>
-*Category: Humor & Entertainment > Screenwriting*
-<p align="center"><a href="http://amzn.to/1XPUug3" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/tv-showrunners-roadmap.jpg" /></a></p>
-
-<h3><a href="http://amzn.to/1XPUBYV" target="_blank">The Nightingale</a> by Kristin Hannah (2015)</h3>	
-*Category: Literature & Fiction > Historical Fiction*
-<p align="center"><a href="http://amzn.to/1XPUBYV" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/nightingale.jpg" /></a></p>	
-
-<h3><a href="http://amzn.to/1UoQcwb" target="_blank">We Should All Be Feminists</a> by Chimamanda Ngozi Adichie (2014)</h3>	
-*Category: Politics & Social Sciences > Feminism*
-<p align="center"><a href="http://amzn.to/1UoQcwb" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/we-should-all-be-feminists.jpg" /></a></p>	
-
-<h3><a href="http://amzn.to/1pcNHS1" target="_blank">The Power of Habit: Why We Do What We Do in Life and Business</a> by Charles Duhigg (2011)</h3>	
-*Category: Self-Help > Social Psychology & Interactions*
-<p align="center"><a href="http://amzn.to/1pcNHS1" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/power-of-habit.jpg" /></a></p>	
