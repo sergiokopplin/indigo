@@ -116,10 +116,12 @@ See full article [here](https://www.gatesnotes.com/About-Bill-Gates/Best-Books-2
 
 <h3>14. <a href="http://a.co/4yzUiTT" target="_blank">The Gene: An Intimate History</a> by Siddhartha Mukherjee</h3>	
 *Category: Medicine > Basic Sciences > Genetics*	
+
 Bill Gates's review of [The Gene: An Intimate History](https://www.gatesnotes.com/Books/The-Gene)
 <p align="center"><a href="http://a.co/4yzUiTT" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/gene-intimate-history.jpg" /></a></p>
 
 <h3>15. <a href="http://a.co/a9C6bG5" target="_blank">The Grid: The Fraying Wires Between Americans and Our Energy Future</a> by Gretchen Bakke</h3>	
 *Category: Engineering > Energy Production & Extraction > Electric*	
+
 Read the main [My Favorite Books of 2016](https://www.gatesnotes.com/About-Bill-Gates/Best-Books-2016) article for a short note from Bill Gates about the book.
 <p align="center"><a href="http://a.co/a9C6bG5" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/grid-bakke.jpg" /></a></p>
