@@ -6,7 +6,7 @@ img: indigo/indigo.png
 projects: true
 author: artiannaswamy
 summary: "List of books I'm reading this year, and ongoing reviews as I cross 'em off my list"
-permalink: reading-list-2016
+permalink: reading-list
 jemoji: '<img class="emoji" title=":books:" alt=":books:" src="https://assets.github.com/images/icons/emoji/unicode/1f4da.png" height="20" width="20" align="absmiddle">'
 ---
 
@@ -48,7 +48,7 @@ History:
 
 *Category: Arts & Photography > Graphic Design > Typography* 
 	
-<p align="center"><a href="http://amzn.to/1UoRJSV" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/thinking-with-type.jpg" /></a></p>
+<p align="center"><a href="http://amzn.to/1UoRJSV" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/thinking-with-type.jpg" /></a></p>
 
 Thinking with Type is the most non-textbookey textbook I've read. I was steeled for a slog of a read, through the minutiae of serifs and slabs and crossbars and x-heights, but this was a surprisingly satisfying read. Lupton peppers the lessons with a solid narrative, and uses the font examples as a part of the narrative (no wasted text!). I learned a lot about the history of type, while understanding what I should look for when choosing fonts.
 
@@ -56,7 +56,7 @@ Thinking with Type is the most non-textbookey textbook I've read. I was steeled 
 
 *Category: Literature & Fiction > Classics*
 
-<p align="center"><a href="http://amzn.to/21ncy6O" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/ethan-frome.jpg" /></a></p>
+<p align="center"><a href="http://amzn.to/21ncy6O" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/ethan-frome.jpg" /></a></p>
 
 This one was challenging. I figured, with this being such a small book (89 pages), it'd be a quick, engrossing read along the lines of 'Of Mice & Men', and I'd cross another book off my list. By the time I was half done with the book, I wanted to throw it at the wall - the depressing tone of the book would not ease up. The NYTimes giving their 1911 review of this book the title, '[Three Lives in Supreme Torture](http://query.nytimes.com/mem/archive-free/pdf?res=9E05E1D71131E233A2575BC0A9669D946096D6CF)', is hopefully a tip off to you on how depressing this book can get.
 
@@ -77,7 +77,7 @@ So, back to the reading of Frome - not seeing any light at the end of the tunnel
 
 *Category: Sports & Outdoors > Canoeing* 	
 
-<p align="center"><a href="http://amzn.to/1Q8sPEa" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/boys-in-the-boat.jpg" /></a></p>
+<p align="center"><a href="http://amzn.to/1Q8sPEa" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/boys-in-the-boat.jpg" /></a></p>
 
 I loved reading [Born to Run](http://amzn.to/1Uq1m43) by Christopher McDougall last year, and in the same vein, picked up Boys in the Boat - and wasn't disappointed at all. The story drags at times, since it begins tracking the main character, a member of the final Olympic boat crew, in his senior year of high school and follows him through four more years, until he is a senior in college who makes it on the final Olympics team. The 'making of the team' aspect gets muddled sometimes with the various characters, the history of the dust bowl, and jarring asides that switch to the planning of the Olympics by Hitler and his favored propagandist, Riefenstahl. In these scenes, the tone switches to rose-tinted-happy-with-heavy-foreboding, and it's more distracting than helpful.
 
@@ -87,7 +87,7 @@ Where the book really shines is when it delves into the making of the athlete, a
 
 *Category: Fiction > Mystery, Thriller & Suspense*
 
-<p align="center"><a href="http://amzn.to/1Q8qVDw" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/career-of-evil.jpg" /></a></p>
+<p align="center"><a href="http://amzn.to/1Q8qVDw" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/career-of-evil.jpg" /></a></p>
 
 I picked this up with much anticipation, as I love the Harry Potter series and have re-read it multiple times. I was actually pretty hooked from the start, the character and the world set up for these characters was palpable and the suspense didn't let up. 
 
@@ -95,25 +95,25 @@ Unfortunately, the ending was a considerable let down for me. I don't want to sp
 
 <h3>5. <a href="http://amzn.to/1XPUBYV" target="_blank">The Nightingale</a> by Kristin Hannah (2015)</h3>	
 *Category: Literature & Fiction > Historical Fiction*
-<p align="center"><a href="http://amzn.to/1XPUBYV" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/nightingale.jpg" /></a></p>	
+<p align="center"><a href="http://amzn.to/1XPUBYV" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/nightingale.jpg" /></a></p>	
 
 Review to come...
 
 <h3>6. <a href="http://a.co/bLKhjwC" target="_blank">Last Train to Istanbul</a> by Ayse Kulin (2013)</h3>
 *Category: World Literature > Middle Eastern*
-<p align="center"><a href="http://a.co/bLKhjwC" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/last-train-to-istanbul.jpg" /></a></p>
+<p align="center"><a href="http://a.co/bLKhjwC" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/last-train-to-istanbul.jpg" /></a></p>
 
 Review to come...
 
 <h3>7. <a href="http://a.co/goUROj9" target="_blank">Trail of Broken Wings</a> by Sejal Badani (2015)</h3>	
 *Category: Literature & Fiction > Women's Fiction*
-<p align="center"><a href="http://a.co/goUROj9" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/trail-of-broken-wings.jpg" /></a></p>
+<p align="center"><a href="http://a.co/goUROj9" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/trail-of-broken-wings.jpg" /></a></p>
 
 Review to come...
 
 <h3>8. <a href="http://amzn.to/1UoQcwb" target="_blank">We Should All Be Feminists</a> by Chimamanda Ngozi Adichie (2014)</h3>	
 *Category: Politics & Social Sciences > Feminism*
-<p align="center"><a href="http://amzn.to/1UoQcwb" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/we-should-all-be-feminists.jpg" /></a></p>	
+<p align="center"><a href="http://amzn.to/1UoQcwb" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/we-should-all-be-feminists.jpg" /></a></p>	
 
 I didn't adequately research this book before putting it on my reading list, since I'd heard so much about the author. Unfortunately, the read was too short (it's a speech delivered by the author, and runs to about 47 pages) and perhaps I've already been steeped in modern feminist writing, but the content didn't surprise me. What Chimamanda says is powerful and true and I agree with every word, but I hoped for a transformative view of feminism and was disappointed. 
 
@@ -121,7 +121,7 @@ The part that did surprise me was when the author talked about her experiences w
 
 <h3>9. <a href="http://amzn.to/1pcNHS1" target="_blank">The Power of Habit: Why We Do What We Do in Life and Business</a> by Charles Duhigg (2011)</h3>	
 *Category: Self-Help > Social Psychology & Interactions*
-<p align="center"><a href="http://amzn.to/1pcNHS1" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/power-of-habit.jpg" /></a></p>	
+<p align="center"><a href="http://amzn.to/1pcNHS1" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/power-of-habit.jpg" /></a></p>	
 
 I really loved this book. I was expecting several chapters full of insights from research papers, which this book did contain, but it leveraged the insights beautifully into actionable steps and lists, and provided a detailed breakdown of exactly what works, what doesn't work, and why in either case. 
 
@@ -129,7 +129,7 @@ The part that struck a real chord with me was a chapter at the end of the book w
 
 <h3>10. <a href="http://amzn.to/1VJ0i9T" target="_blank">The Start-up of You: Adapt to the Future, Invest in Yourself, and Transform Your Career</a> by Reid Hoffman, Ben Casnocha (2012)</h3>	
 *Category: Business & Money > Job Hunting & Careers / Entrepreneurship*
-<p align="center"><a href="http://amzn.to/1VJ0i9T" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/startup-of-you.jpg" /></a></p>
+<p align="center"><a href="http://amzn.to/1VJ0i9T" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/startup-of-you.jpg" /></a></p>
 
 Review to come...
 
@@ -140,15 +140,15 @@ Review to come...
 
 <h3><a href="http://amzn.to/1oN3wid" target="_blank">No ordinary time: Franklin and Eleanor Roosevelt : the home front in World War II</a> by Doris Kearns Goodwin (1994)</h3>	
 *Category: Biographies & Memoirs > Presidents*
-<p align="center"><a href="http://amzn.to/1oN3wid" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/no-ordinary-time.jpg" /></a></p>	
+<p align="center"><a href="http://amzn.to/1oN3wid" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/no-ordinary-time.jpg" /></a></p>	
 
 <h3><a href="http://amzn.to/1VIYSfB" target="_blank">Sapiens: A Brief History of Humankind</a> by Yuval Noah Harari (2011)</h3>
 *Category: Anthropology*
-<p align="center"><a href="http://amzn.to/1VIYSfB" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/sapiens.jpg" /></a></p>
+<p align="center"><a href="http://amzn.to/1VIYSfB" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/sapiens.jpg" /></a></p>
 
 <h3><a href="http://a.co/eH5mleN" target="_blank">Open</a> by Andre Agassi (2009)</h3>
 *Category: Biographies & Memoirs > Modern*
-<p align="center"><a href="http://a.co/eH5mleN" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/open-andre-agassi.jpg" /></a></p>
+<p align="center"><a href="http://a.co/eH5mleN" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/open-andre-agassi.jpg" /></a></p>
 
 ---
 <div class="breaker"></div><a id="abandoned"></a>
@@ -159,7 +159,7 @@ Review to come...
 
 *Category: Entrepreneurship*
 
-<p align="center"><a href="http://amzn.to/1Q8qxov" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/zero-to-one.jpg" /></a></p>
+<p align="center"><a href="http://amzn.to/1Q8qxov" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/zero-to-one.jpg" /></a></p>
 
 Guys, I had to abandon this one. Peter Thiel is an entrepreneur-extraordinaire who has attained more success than I could ever imagine, but even a handful of chapters into the book, I was vocally disagreeing with what he was saying. I figured this wasn't healthy, and that I shouldn't be reading the book if I felt like I had to argue with it out loud, so I gave it up.
 
