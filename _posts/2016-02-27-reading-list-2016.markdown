@@ -27,7 +27,7 @@ Update (Mar 11, 2017):  I had been meaning to do an end-of-year review of the 20
 For next year, I hope to arrive at a less ambitious number of books, but a more ambitious content/length/complexity. 
 
 ## Index
-- [Books I've Read](#read)
+- [Books Read in 2016](#read)
 - [Currently Reading, Carried over to 2017](#reading)
 - [Abandoned](#abandoned)
 
@@ -41,7 +41,7 @@ History:
 ---
 
 <div class="breaker"></div><a id="read"></a>
-<h2 class="title">Books I Read in 2016</h2>
+<h2 class="title">Books Read in 2016</h2>
 
 
 <h3>1. <a href="http://amzn.to/1UoRJSV" target="_blank">Thinking with Type</a> by Ellen Lupton (2004)</h3>	
