@@ -22,50 +22,14 @@ These are great categories, no doubt, but I did not want to delay beginning the 
 
 So instead, I decided to pick one book from each of the major book categories listed on the [Amazon Kindle Books page](http://www.amazon.com/Kindle-eBooks/b?ie=UTF8&node=154606011).
 
-Update (Mar 11, 2017):  I had been meaning to do an update to wrap up, as it were, the 2016 reading list and provide an end-of-year review of the project and the number of books read. I am sad to say that I didn't finish the 30-35 books I was aiming for. I am however, happy to say that I did get to 11 books read, although the timeline of these books read was heavily skewed to the last week of the year when I traveled and had a lot of no-internet time on my hands.
+Update (Mar 11, 2017):  I had been meaning to do an end-of-year review of the 2016 reading list project. I am sad to say that I didn't finish the 30-35 books I was aiming for. I am happy, however, to report that I did read 10 books out of which 2-3 will definitely get re-read. The timeline of these books read was heavily skewed to the last week of the year when I traveled and had a lot of no-internet time on my hands.
 
-
+For next year, I hope to arrive at a less ambitious number of books, but a more ambitious content/length/complexity. 
 
 ## Index
-- [List of categories on Amazon Books](#categories)
 - [Books I've Read](#read)
-- [Currently Reading](#reading)
-- [On The Reading List](#on-the-list)
-
-<a id="categories"></a>
-<h3>Categories on Amazon Books</h3>
-- Arts & Photography :heavy_check_mark:
-- Biographies & Memoirs :hourglass:
-- Business & Money :heavy_check_mark:
-- Children's eBooks
-- Comics & Graphic Novels
-- Computers & Technology
-- Cookbooks, Food & Wine
-- Crafts, Hobbies & Home
-- Education & Teaching
-- Engineering & Transportation
-- Foreign Languages
-- Health, Fitness & Dieting
-- History :heavy_check_mark:
-- Humor & Entertainment
-- Law
-- Lesbian, Gay, Bisexual & Transgender eBooks
-- Literature & Fiction :heavy_check_mark:
-- Medical eBooks :hourglass:
-- Mystery, Thriller & Suspense :heavy_check_mark:
-- Nonfiction :heavy_check_mark:
-- Parenting & Relationships
-- Politics & Social Sciences
-- Reference
-- Religion & Spirituality
-- Romance :heavy_check_mark:
-- Science & Math
-- Science Fiction & Fantasy
-- Self-Help :heavy_check_mark:
-- Sports & Outdoors :heavy_check_mark:
-- Teen & Young Adult
-
-That's 30 pretty diverse categories, and 30-35 is a good enough number that'll average to about 3 books a month. A good number of my picks seem to have gravitated towards the Business & Money category as you will see, so down the road, I may have to compensate with overloading on other categories.
+- [Currently Reading, Carried over to 2017](#reading)
+- [Abandoned](#abandoned)
 
 History:
 
@@ -74,10 +38,11 @@ History:
 - Updated: Jul 26, 2016
 - Updated: Mar 11, 2017 (Final update for 2016 Reading List)
 
-<div class="breaker"></div><a id="read"></a>
-<h2 class="title">Books I've Read</h2>
-
 ---
+
+<div class="breaker"></div><a id="read"></a>
+<h2 class="title">Books I Read in 2016</h2>
+
 
 <h3>1. <a href="http://amzn.to/1UoRJSV" target="_blank">Thinking with Type</a> by Ellen Lupton (2004)</h3>	
 
@@ -150,9 +115,9 @@ Review to come...
 *Category: Politics & Social Sciences > Feminism*
 <p align="center"><a href="http://amzn.to/1UoQcwb" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/we-should-all-be-feminists.jpg" /></a></p>	
 
-I didn't adequately research this book before putting it on my reading list, since I'd heard so much about the author. Unfortunately, the read was too short (it's a speech delivered by the author, and runs to about 47 pages) and perhaps I've already read a fair bit of modern feminist writing, as the content didn't surprise or wow me. What Chimamanda says is powerful and true and I agree with every word, but not much in the speech really surprised me. 
+I didn't adequately research this book before putting it on my reading list, since I'd heard so much about the author. Unfortunately, the read was too short (it's a speech delivered by the author, and runs to about 47 pages) and perhaps I've already been steeped in modern feminist writing, but the content didn't surprise me. What Chimamanda says is powerful and true and I agree with every word, but I hoped for a transformative view of feminism and was disappointed. 
 
-The parts that did stand out for me, in a shaking-my-head-that-this-still-happens is the level of gender attitude imbalances in Africa. I grew up in India and I've witnessed first hand how patriarchal the culture can be, and incorrectly assumed that I had seen the worst, but Chimamanda's experiences showed me a different picture of the gender imbalance around the world.
+The part that did surprise me was when the author talked about her experiences with gender imbalances in Africa, which for some reason, I had assumed would be better than several Asian cultures. I grew up in India and I've witnessed first hand how patriarchal the culture can be, and incorrectly assumed that I had seen the worst, but Chimamanda's experiences showed me a different, worse picture of what women go through around the world.
 
 <h3>9. <a href="http://amzn.to/1pcNHS1" target="_blank">The Power of Habit: Why We Do What We Do in Life and Business</a> by Charles Duhigg (2011)</h3>	
 *Category: Self-Help > Social Psychology & Interactions*
@@ -166,9 +131,12 @@ The part that struck a real chord with me was a chapter at the end of the book w
 *Category: Business & Money > Job Hunting & Careers / Entrepreneurship*
 <p align="center"><a href="http://amzn.to/1VJ0i9T" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/startup-of-you.jpg" /></a></p>
 
-<div class="breaker"></div><a id="reading"></a>
-<h2 class="title">In process books carried over to 2017</h2>
+Review to come...
+
 ---
+<div class="breaker"></div><a id="reading"></a>
+<h2 class="title">Books I'm still reading, carried over to 2017</h2>
+
 
 <h3><a href="http://amzn.to/1oN3wid" target="_blank">No ordinary time: Franklin and Eleanor Roosevelt : the home front in World War II</a> by Doris Kearns Goodwin (1994)</h3>	
 *Category: Biographies & Memoirs > Presidents*
@@ -182,10 +150,10 @@ The part that struck a real chord with me was a chapter at the end of the book w
 *Category: Biographies & Memoirs > Modern*
 <p align="center"><a href="http://a.co/eH5mleN" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list-2016/open-andre-agassi.jpg" /></a></p>
 
-
+---
 <div class="breaker"></div><a id="abandoned"></a>
 <h2 class="title">Books abandoned for good</h2>
----
+
 
 <h3><a href="http://amzn.to/1Q8qxov" target="_blank">Zero to One: Notes on Startups, or How to Build the Future</a> by Peter Thiel, Blake  Masters (2014)</h3>
 
