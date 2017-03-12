@@ -8,7 +8,7 @@ layout: page
 
 <p>I grew up in India, in a metropolitan town called <a href="https://en.wikipedia.org/wiki/Vadodara" target="_blank">Baroda</a>. Baroda is best known for its beautiful <a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Baroda_Lvp.JPG" target="_blank">royal</a> <a href="https://en.wikipedia.org/wiki/Laxmi_Vilas_Palace,_Vadodara" target="_blank">palace</a>, an <a href="https://en.wikipedia.org/wiki/Maharaja_Sayajirao_University_of_Baroda" target="_blank">awesome university</a> and a small-city feel with big city values.</p>
 
-<p>I moved here in my senior year of high school, and have made my home in Southern California since. Except for an incredibly fulfilling year in grad school at <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>.</p>
+<p>I moved here in my senior year of high school, and have happily made my home in various parts of Southern California since, except for an wonderful year in grad school at <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>.</p>
 
 <p>These days, I'm consulting with Warner Bros. as a hybrid project manager / business analyst on a SharePoint 2013 implementation project, where I've had the opportunity to flex muscles in project and people management, Nintex workflow development, PowerBI reporting, thinking about UX/design for user guides and training materials, possibilities of recording tutorial videos (and consequently launching a budding career as a voiceover artist, ha) and the incredible privilege of assisting folks in solving daily work problems.</p>
 
@@ -25,6 +25,8 @@ layout: page
 	<li>SharePoint 2013, Nintex Forms & Workflows O365, PowerBI</li>
 	<li>HTML, CSS, CSS frameworks, jQuery, Javascript</li>
 	<li>building Python scrapers</li>
+	<li>thinking about best practice design principles for user guides, training materials</li>
+	<li>recording training videos, exploring best practices in doing voiceovers, audio recording, video annotation</li>
 </ul>
 
 <h2>Project Samples</h2>
