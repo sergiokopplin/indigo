@@ -10,7 +10,7 @@ layout: page
 
 <p>I moved here in my senior year of high school, and have happily made my home in various parts of Southern California since, except for an wonderful year in grad school at <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>.</p>
 
-<p>These days, I'm consulting with Warner Bros. as a hybrid project manager / business analyst on a SharePoint 2013 implementation project, where I've had the opportunity to flex muscles in project and people management, Nintex workflow development, PowerBI reporting, thinking about UX/design for user guides and training materials, possibilities of recording tutorial videos (and consequently launching a budding career as a voiceover artist, ha) and the incredible privilege of assisting folks in solving daily work problems.</p>
+<p>These days, I'm working full-time (again) for Warner Bros. as a project manager for tech and process improvement initiatives. It's different from what I've done before, and completely awesome so far. I'm learning first hand how to think strategically about organizational change and the level of communication needed to make the change stick.</p>
 
 <h2>Skills</h2>
 
