@@ -97,7 +97,7 @@ Nothing to see here yet...
 <p align="center"><a href="http://amzn.to/1OCxYQN" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/longitude-dava-sobel.jpg" /></a></p>
 
 <h2>Barack Obama's Recommended Books</h2>
-See full article here: http://ew.com/books/2017/01/18/barack-obama-book-recommendations/
+See full article [here](http://ew.com/books/2017/01/18/barack-obama-book-recommendations/)
 
 <h3>11. <a href="http://a.co/86GuX22" target="_blank">The Three-Body Problem</a> by Cixin Liu et al.</h3>	
 *Category: Science Fiction > Hard Science Fiction*	
@@ -112,14 +112,14 @@ See full article here: http://ew.com/books/2017/01/18/barack-obama-book-recommen
 <p align="center"><a href="http://a.co/0huzFw8" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/ghost-wars.jpg" /></a></p>
 
 <h2>Bill Gates's Favorite Books of 2016</h2>
-See full article here: https://www.gatesnotes.com/About-Bill-Gates/Best-Books-2016)
+See full article [here](https://www.gatesnotes.com/About-Bill-Gates/Best-Books-2016)
 
 <h3>14. <a href="http://a.co/4yzUiTT" target="_blank">The Gene: An Intimate History</a> by Siddhartha Mukherjee</h3>	
 *Category: Medicine > Basic Sciences > Genetics*	
-<p align="center"><a href="http://a.co/4yzUiTT" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/gene-intimate-history.jpg" /></a></p>
 Bill Gates's review of [The Gene: An Intimate History](https://www.gatesnotes.com/Books/The-Gene)
+<p align="center"><a href="http://a.co/4yzUiTT" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/gene-intimate-history.jpg" /></a></p>
 
 <h3>15. <a href="http://a.co/a9C6bG5" target="_blank">The Grid: The Fraying Wires Between Americans and Our Energy Future</a> by Gretchen Bakke</h3>	
 *Category: Engineering > Energy Production & Extraction > Electric*	
-<p align="center"><a href="http://a.co/a9C6bG5" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/grid-bakke.jpg" /></a></p>
 Read the main [My Favorite Books of 2016](https://www.gatesnotes.com/About-Bill-Gates/Best-Books-2016) article for a short note from Bill Gates about the book.
+<p align="center"><a href="http://a.co/a9C6bG5" target="_blank"><img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/reading-list/grid-bakke.jpg" /></a></p>
