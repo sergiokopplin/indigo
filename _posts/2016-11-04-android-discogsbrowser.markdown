@@ -7,7 +7,8 @@ tag:
 - Unit Testing
 - CI
 - Dagger
-- Data Binding
+- RxJava
+- Retrofit
 image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
 projects: true
@@ -22,6 +23,8 @@ externalLink: false
 <img src="https://raw.githubusercontent.com/miquelbeltran/android-discogsbrowser/master/art/screenshots/wantlist_640.png" alt="Wantlist" style="width: 200px;"/>
 
 Android app using Retrofit, RxJava, Dagger and more
+
+Source code: [https://github.com/miquelbeltran/android-discogsbrowser](https://github.com/miquelbeltran/android-discogsbrowser)
 
 ## App Features
 

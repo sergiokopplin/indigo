@@ -8,7 +8,7 @@ layout: page
 last 5 (since API 14).</p>
 
 <p>I've worked in different B2B industries: Telecomunications, Gaming and Multimedia.
-Currenly I am working in B2C, building a social app for consumers.</p>
+Currently I am working in B2C, building a social app for consumers.</p>
 
 <p>I'm also coorganizer of events for the Google
 Developer's Group and Women Techmakers in Berlin, coaching and leading
