@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Miquel Beltran
+bio: Software engineer, Android specialist and newbie mentor
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Miquel Beltran personal website
 
 # if it's an external image, update below for true
 # better with square images
@@ -12,17 +12,17 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://miquelbeltran.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-569590-4'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -31,38 +31,32 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: mi
+twitter: miqubel
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: miquelbeltran
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
-# stackoverflow: 7044681/mystackoverflow
+github: miquelbeltran
+stackoverflow: 673294/mike
 # quora: userquora
 # reddit: username
-medium: medium
+medium: miqubel
 # vimeo: myvimeo
-email: myemail@gmail.com
+email: miquelbeltran@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    miquel:
+        name: Miquel Beltran
+        bio: Software engineer, Android specialist and newbie mentor
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: miqubel
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
