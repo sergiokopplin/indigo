@@ -26,6 +26,13 @@ workshops for beginners and promoting diversity in IT.</p>
   <li>TDD & Continuous Integration</li>
 </ul>
 
+## Professional Experience
+
+`Since 2016` **Lead Android Engineer** _Nebenan.de (Good Hood GmbH)_<br/>
+`2012-2015` **Technical Team Lead Mobile** _castLabs GmbH_<br/>
+`2009-2011` **Software Engineer** _Win Systems Intl_<br/>
+`2006-2008` **Software Engineer** _W-Onesys S.L._
+
 <h2>Notable Open Source Projects & Contributions</h2>
 
 <ul>
@@ -35,3 +42,20 @@ workshops for beginners and promoting diversity in IT.</p>
   <li><a href="https://github.com/miquelbeltran/kotlin-node.js">Kotlin Node.js example</a></li>
   <li><a href="https://github.com/google/ExoPlayer/commits?author=miquelbeltran">Google Exoplayer</a></li>
 </ul>
+
+<h2>Community & Volunteering</h2>
+
+<p>Since 2016 I am part of the Google Developers Group organizers team in
+Berlin. Since then, I've been hosting workshops as part of the Women Techmakers
+activities twice a month to teach Android development to beginners. Our events
+have a strong focus on being inclusive and help those who did not have the
+opportuniy to start a carreer in IT.</p>
+
+<p>As part of the Google Developers Group, I've been organizer of the DevFest,
+a community conference with international speakers on Google technologies.</p>
+
+<h2>Passion for coding</h2>
+
+<p>I consider myself lucky for having a profession that is as well one of my
+hobbies. I enjoy attending to tech conferences, reading and writing blog posts
+and learning new things through personal projects.</p>
