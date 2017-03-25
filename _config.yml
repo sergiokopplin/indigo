@@ -16,7 +16,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: http://beltran.work
+url: https://miquelbeltran.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
