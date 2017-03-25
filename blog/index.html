@@ -17,7 +17,9 @@ title: Blog
 		{% include pagination.html%}
 	{% else %}
 		{% for post in site.posts %}
-			{% include blog-post.html %}
+			{% if post.category == 'blog' %}
+			    {% include blog-post.html %}
+			{% endif %}
 		{% endfor %}
 	{% endif %}
 </section>
