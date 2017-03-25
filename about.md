@@ -4,43 +4,34 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>More than ten years developing software and doing Android development for the
+last 5 (since API 14).</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I've worked in different B2B industries: Telecomunications, Gaming and Multimedia.
+Currenly I am working in B2C, building a social app for consumers.</p>
 
-<h2>Skills</h2>
+<p>I'm also coorganizer of events for the Google
+Developer's Group and Women Techmakers in Berlin, coaching and leading
+workshops for beginners and promoting diversity in IT.</p>
+
+<h2>Specialized In</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+  <li>Android Development, with special interest in Kotlin and RxJava</li>
+  <li>App publishing</li>
+  <li>Project Management</li>
+  <li>Google Firebase</li>
+  <li>Clean Code</li>
+  <li>Unit and Integration tests</li>
+  <li>TDD & Continuous Integration</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Notable Open Source Projects & Contributions</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+  <li><a href="https://github.com/miquelbeltran/android-discogsbrowser">Android Discogs Browser</a></li>
+  <li><a href="https://github.com/miquelbeltran/android-rxjava-realm-cache">RxJava Realm Cache example</a></li>
+  <li><a href="https://github.com/miquelbeltran/java-dagger-example">Java Dagger example</a></li>
+  <li><a href="https://github.com/miquelbeltran/kotlin-node.js">Kotlin Node.js example</a></li>
+  <li><a href="https://github.com/google/ExoPlayer/commits?author=miquelbeltran">Google Exoplayer</a></li>
 </ul>
