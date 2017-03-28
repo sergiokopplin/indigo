@@ -101,6 +101,7 @@ animation: true
 gems:
   - jekyll-seo-tag
   - jekyll-gist
+  - jekyll-feed
 
 jekyll-mentions:
     base_url: https://github.com
