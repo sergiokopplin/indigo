@@ -5,15 +5,19 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>More than ten years developing software and doing Android development for the
-last 5 (since API 14).</p>
+Software Engineer with more than then years of experience.
+Focused on Android development for the last 5 (since API 14).
+Currently located in Berlin.
 
-<p>I've worked in different B2B industries: Telecomunications, Gaming and Multimedia.
-Currently I am working in B2C, building a social app for consumers.</p>
+**Open for freelancing and full time positions, both in Berlin or remotely.**
 
-<p>I'm also coorganizer of events for the Google
-Developer's Group and Women Techmakers in Berlin, coaching and leading
-workshops for beginners and promoting diversity in IT.</p>
+I've worked in different B2B industries: Telecomunications, Gaming and Multimedia.
+Currently I am working in B2C, building a social app for consumers.
+
+As part of my job, I am also technical blogger and speaker. My articles have
+been featured in [Android Weekly](http://androidweekly.net/),
+[Kotlin Weekly](http://www.kotlinweekly.net/) and [The Practical
+Dev](https://twitter.com/ThePracticalDev).
 
 <h2>Specialized In</h2>
 
@@ -33,6 +37,11 @@ workshops for beginners and promoting diversity in IT.</p>
 `2012-2015` **Technical Team Lead Mobile** _castLabs GmbH_<br/>
 `2009-2011` **Software Engineer** _Win Systems Intl_<br/>
 `2006-2008` **Software Engineer** _W-Onesys S.L._
+
+## Formal Education
+
+`2010-2011` **Project Management** _Master of Schience (Msc)_<br/>
+`2002-2008` **Computer Science** _Bachellor and Master_
 
 <h2>Notable Open Source Projects & Contributions</h2>
 
