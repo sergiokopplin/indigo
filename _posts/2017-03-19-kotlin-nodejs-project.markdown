@@ -7,7 +7,8 @@ tag:
 - Nodejs
 image: /assets/images/kotlin-logo-text.png
 headerImage: true
-projects: true
+opensource: true
+projects: false
 hidden: true # don't count this post in blog pagination
 description: "Node.js REST API server in Kotlin"
 category: project

@@ -11,7 +11,7 @@ tag:
 - Retrofit
 image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
-projects: true
+opensource: true
 hidden: true # don't count this post in blog pagination
 description: "Sample app using Retrofit, RxJava, Dagger and more"
 category: project
