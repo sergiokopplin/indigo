@@ -10,13 +10,12 @@ San Francisco, California
 
 ## Education
 **Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - Present**  
-*Funding*: PhRMA Informatics Fellowship & NIH T32HD007470
+*Funding*: NSF Graduate Fellowship, PhRMA Informatics Fellowship, NIH T32HD007470
 
 **B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
 *Funding*: National Merit Scholarship, Full Tuition & Stipend  
 *GPA*: 4.0 / 4.0  
-*GRE*: 170/170, 98th% Q, 169/170, 99th% V
 
 **Marine Biological Laboratory, Woods Hole, MA, 2016**  
 *Course*: Computational Image Analysis in Cell and Developmental Biology
@@ -28,6 +27,7 @@ San Francisco, California
 *Principal Investigators:* Andrew Brack & Wallace Marshall
 
 * Developed software to analyze cell motility in a multidimensional manner, identified distinct motility states in fibroblasts, myoblasts, and muscle stem cells
+* Developed methods to apply deep convolutional neural networks to cell motility analysis
 * Developing an image based classification method for muscle stem cell subpopulation states
 
 **University of Central Florida, Orlando, FL, 2011 - 2015**  
@@ -99,6 +99,7 @@ San Francisco, California
 
 ## Honors and Awards
 
+* NSF Graduate Research Fellowship, National Science Foundation, 2017
 * PhRMA Informatics Fellowship, PhRMA Foundation, 2017
 * Honorable Mention, NSF Graduate Research Fellowship,  2016
 * Amgen Scholar, University of California San Francisco, 2014
@@ -107,4 +108,3 @@ San Francisco, California
 * NIH Summer Fellow, National Institute on Aging, 2012
 * Florida Academic Scholar, State of Florida, 2012-2015
 * National Merit Scholar, National Merit Scholarship Corp., 2012
-* International Science & Engineering Fair Finalist, 2011, 2012
