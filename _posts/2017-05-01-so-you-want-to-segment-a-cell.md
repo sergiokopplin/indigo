@@ -1,7 +1,7 @@
 ---
 title: "So You Want to Segment a Cell?"
 layout: post
-date: 2016-05-01
+date: 2017-05-01
 tag:
 - science
 - imaging
