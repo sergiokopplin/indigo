@@ -1,6 +1,6 @@
 # main text of home
 name: Fariborz Ghavamian
-bio: Ph.D. student at TU Delft, Machine Learning enthusiast.
+bio: Ph.D. student at TU Delft, Computational Mechanics researcher, Machine Learning enthusiast.
 
 # twitter summary info
 # description: A blog about me
@@ -17,7 +17,6 @@ resume-external: false
 resume-url: assets/cv/cv_FGhavamian.pdf
 
 # url: https://koppl.in/indigo
-# your url: http://USERNAME.github.io
 url: https://FariborzGh.github.io
 
 permalink: /:title/
@@ -54,7 +53,7 @@ github: FariborzGh
 email: fari.ghavamian@gmail.com
 
 authors:
-    johndoe:
+    fariborzghavamian:
         name: Fariborz Ghavamian
         bio: Ph.D. student at TU Delft, Machine Learning enthusiast.
         external-image: false
