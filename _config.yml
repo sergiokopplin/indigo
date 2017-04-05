@@ -37,12 +37,12 @@ disqus:
 # if you don't have any of social below, comment the line
 facebook: myfacebook
 twitter: mytwitter
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
-# linkedin: mylinkedin
-# youtube: myyoutube
-# spotify: myspotify
+google: mygoogle
+instagram: myinstagram
+pinterest: mypinterest
+linkedin: mylinkedin
+youtube: myyoutube
+spotify: myspotify
 github: mygithub
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
