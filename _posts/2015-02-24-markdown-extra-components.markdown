@@ -8,6 +8,7 @@ tag:
 - markdown
 - components
 - extra
+hidden: true
 category: blog
 author: fariborzghavamian
 description: Markdown summary with different options

@@ -2,14 +2,14 @@
     <ul class="list">
         {% if page.title != "Home" %}
             <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
+                <a class="link" href="{{ site.url }}/" align="center">Home</a>
             </li>
         {% endif %}
 
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
+        {% if site.academic == true %}
+            {% if page.title != "Academic" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                    <a class="link" href="{{ site.url }}/academic" align="center">Academic</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -17,7 +17,21 @@
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
+                    <a class="link" href="{{ site.url }}/projects" align="center">Projects</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
+        {% if site.resume == true %}
+            <li class="item">
+                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}" align="center">Résumé</a>
+            </li>
+        {% endif %}
+
+        {% if site.blog == true %}
+            {% if page.title != "Blog" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/blog" align="center">Blog</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -25,15 +39,9 @@
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
+                    <a class="link" href="{{ site.url }}/about" align="center">About</a>
                 </li>
             {% endif %}
-        {% endif %}
-
-        {% if site.resume == true %}
-            <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
-            </li>
         {% endif %}
     </ul>
 </nav>
