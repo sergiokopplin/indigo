@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-I am a Ph.D. student at TU Delft. I do research on employing Machine Learning techniques in field of Computational Mechanics of Materials. I am currently developing a Deep Learning model to simulate behaviour of materials.
+I am a Ph.D. student at TU Delft. I do research on employing Machine Learning techniques in field of Computational Mechanics of Materials. I am currently developing a Deep Learning model to simulate the behaviour of materials.
 
 Personality-wise, I am self-thaught and goal-oriented.
 
