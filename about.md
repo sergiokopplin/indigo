@@ -5,7 +5,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-Software Engineer with more than then years of experience.
+Software Engineer with more than ten years of experience.
 Focused on Android development for the last 5 (since API 14).
 Currently located in Berlin.
 
