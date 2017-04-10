@@ -55,7 +55,7 @@ email: fari.ghavamian@gmail.com
 authors:
     fariborzghavamian:
         name: Fariborz Ghavamian
-        bio: Ph.D. student at TU Delft, Machine Learning enthusiast.
+        bio: Ph.D. student at TU Delft, Computational Mechanics researcher, Machine Learning enthusiast.
         external-image: false
         picture: assets/images/profile.jpg
 
@@ -69,13 +69,11 @@ width: large
 # paginate: 5
 # paginate_path: "blog/:num/"
 
-# if you don't need projects, comment the *projects* configs below
-# projects: true
-
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
 academic: true
+projects: true
 
 # do you want to show the "read time" of the posts?
 read-time: false
