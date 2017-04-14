@@ -11,7 +11,7 @@ url: http://jacobkimmel.github.io
 
 permalink: /:title/
 
-markdown: maruku
+markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
