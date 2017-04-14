@@ -2,7 +2,10 @@
 title: "Heteromotility"
 layout: post
 date: 2016-05-14
-tag: software, image analysis, biology
+tag:
+- software
+- image analysis
+- biology
 projects: true
 description: "Software tool for quantitative analysis of cell motility"
 ---
