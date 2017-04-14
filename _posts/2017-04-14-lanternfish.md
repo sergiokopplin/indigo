@@ -5,6 +5,7 @@ date: 2017-04-14
 tag: software, deep learning, convolutional neural networks
 projects: true
 description: "Convolutional neural network analysis of biological motion"
+use_math: true
 ---
 
 ![Lanternfish logo]( {{ site.url }}/assets/images/lanternfish_logo.png )
