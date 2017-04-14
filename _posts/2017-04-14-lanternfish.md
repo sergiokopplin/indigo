@@ -16,6 +16,8 @@ use_math: true
 
 ### Conversion of motion paths into 3-dimensional images
 
+![Lanternfish 3D Motion Cubes]( {{ site.url }}/assets/images/lanternfish_fig1.png )
+
 2-dimensional motion paths are converted into 3-dimensional images with dimensions $(x, y, time)$. Each timepoint in the series is represented by a slice of the resulting 'motion cube.' Each slice marks the location of the object at the corresponding timepoint as the center of an anisotropic kernel.
 
 A typical kernel may be a Gaussian with a broad $\sigma_x = \sigma_y$ and a unit depth in the time domain. The magnitude $\mu$ of the kernel may be specified independently at each timepoint to allow for an additional information parameter to be encoded within the motion cube. Encoding the instantaneous speed of an object as the $\mu$ parameter tends to be useful for general classification tasks. `Lanternfish` also contains tools to specify a truly dynamic kernel for each timepoint, for instance encoding additional parameters as $\sigma_x$ and $\sigma_y$, by convolution on either CPUs or CUDA capable GPUs.
