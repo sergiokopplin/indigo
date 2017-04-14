@@ -19,6 +19,10 @@ layout: compress
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
 
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
+
     <style>{% include main.css %}</style>
 </head>
 <body>
