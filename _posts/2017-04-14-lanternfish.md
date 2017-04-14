@@ -10,7 +10,7 @@ use_math: true
 
 ![Lanternfish logo]( {{ site.url }}/assets/images/lanternfish_logo.png )
 
-`Lanternfish` is a set of software tools to analyze motion data with convolutional neural networks (CNNs). `Lanternfish` converts recorded motion paths in 2-dimensions into 3-dimensional 'motion cube' images, representing motion in an entirely spatial manner. `Lanternfish` includes CNN architectures suitable for classification of these 3-dimensional 'motion cubes' or unsupervised learning of motion features by autoencoding.
+`Lanternfish` is a set of software tools to analyze motion data with convolutional neural networks \(CNNs\). `Lanternfish` converts recorded motion paths in 2-dimensions into 3-dimensional 'motion cube' images, representing motion in an entirely spatial manner. `Lanternfish` includes CNN architectures suitable for classification of these 3-dimensional 'motion cubes' or unsupervised learning of motion features by autoencoding.
 
 ## Lanternfish Core Features
 
