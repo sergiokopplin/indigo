@@ -88,7 +88,7 @@ related: false
 post-advance-links: []
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true

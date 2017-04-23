@@ -14,5 +14,6 @@ author: fariborzghavamian
 description: Prerequisite math for the course Analysis of Slender Structures
 ---
 
-## Lecture 1:
+[Youtube Lectures]()
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_2dqgllHSjtqMMEx1fqlxWRRsKHOapKb" frameborder="0" allowfullscreen></iframe>
