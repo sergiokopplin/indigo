@@ -4,7 +4,7 @@ title: Publications
 ---
 # Publications
 ### 2017
-* [POD-DEIM model order reduction for strain softening viscoplasticity](https://www.researchgate.net/publication/311565898_POD-DEIM_model_order_reduction_for_strain_softening_viscoplasticity); Ghavamian, F., Tiso, P., and Simone, A. 
+* <a href="http://www.sciencedirect.com/science/article/pii/S0045782516304054" target="_blank">POD-DEIM model order reduction for strain softening viscoplasticity</a> Ghavamian, F., Tiso, P., and Simone, A.
 
 <br><br>
 

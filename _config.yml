@@ -71,7 +71,7 @@ width: large
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blog: false
 academic: true
 projects: true
 

@@ -10,6 +10,7 @@ tag:
 - matrix
 hidden: false
 teaching: true
+blog: false
 author: fariborzghavamian
 description: Prerequisite math for the course Analysis of Slender Structures
 ---

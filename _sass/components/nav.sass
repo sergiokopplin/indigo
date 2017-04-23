@@ -15,6 +15,7 @@
             padding: 20px 10px
             text-decoration: none
 
+
 .nav
     position: absolute
     right: 0
@@ -34,6 +35,9 @@
     > .list
         padding: 0
 
+        > .item 
+            margin-left: 40px
+
         > .item > .link
             font-size: 2rem
             padding: 7px 15px
@@ -44,3 +48,17 @@
 
             &:hover
                 color: $alpha
+
+.nav-academic
+    text-align: center
+
+    > ul
+        list-style-type: none
+
+    > ul > li 
+        display: inline-block
+        margin-right: 100px
+
+    > ul > li > h2 > a
+        text-decoration: none
+        vertical-align: bottom
