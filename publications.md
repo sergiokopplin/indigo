@@ -4,7 +4,6 @@ layout: page
 permalink: /publications/index.html
 ---
 <style>
-img { width: 80%; margin: 0 auto; display: block; }
 #bibbase .nav {
     position: inherit;
 }

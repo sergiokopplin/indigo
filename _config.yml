@@ -19,7 +19,7 @@ resume-url: https://google.com/?q=my+resume
 # If you want to include your publications via bibbase.org,
 # set to true and specify source of your citation history
 # in bibtex format
-publications: true
+publications: false
 citations_bib: 'assets/static/citations.bib'
 
 url: https://koppl.in/indigo
