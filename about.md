@@ -7,7 +7,7 @@ permalink: /about/index.html
 
 ## Hi, I'm Jacob
 
-I'm currently in the Developmental & Stem Cell Biology PhD program at UC San Francisco. I'm studying aging and cellular decision making with a systems approach in the [Brack](http://bracklab.com) and [Marshall](http://biochemistry2.ucsf.edu/labs/marshall/index.html) labs.
+I'm currently a PhD Candidate in the Developmental & Stem Cell Biology program at UC San Francisco. I study muscle stem cell function using quantitative imaging in the [Brack](http://bracklab.com) and [Marshall](http://biochemistry2.ucsf.edu/labs/marshall/index.html) labs.
 
 When I’m not doing science, I like to write poorly, climb big hills, and play several instruments with equitable levels of mediocrity.
 
