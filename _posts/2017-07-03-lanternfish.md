@@ -1,7 +1,7 @@
 ---
 title: "Lanternfish"
 layout: post
-date: 2017-04-14
+date: 2017-07-03
 tag:
 - software
 - deep learning
@@ -15,6 +15,9 @@ use_math: true
 ![Lanternfish logo]( {{ site.url }}/assets/images/lanternfish_logo.png )
 
 `Lanternfish` is a set of software tools to analyze motion data with convolutional neural networks. `Lanternfish` converts recorded motion paths in 2-dimensions into 3-dimensional 'motion cube' images, representing motion in an entirely spatial manner. `Lanternfish` includes CNN architectures suitable for classification of these 3-dimensional 'motion cubes' or unsupervised learning of motion features by autoencoding.
+
+We've published a pre-print using `Lanternfish` to analyze cell motility in myogenic cells and a model of neoplastic transformation.  
+[Check it out on bioRxiv!](http://www.biorxiv.org/content/early/2017/07/05/159202)
 
 ## Lanternfish Core Features
 
@@ -43,5 +46,7 @@ CNN architectures are included which have proven effective in classification of 
 CNN architectures for autoencoding of motion cubes to learn representations of motion feature space in an unsupervised manner are included. Architectures optimized for different motion cube sizes are provided.  
 
 ## Source code
+
+All source code is freely available on the `Lanternfish` Github page. Feel free to [email me with any questions!](mailto:jacobkimmel@gmail.com)
 
 [Lanternfish Github](https://github.com/jacobkimmel/lanternfish)
