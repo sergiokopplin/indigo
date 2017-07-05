@@ -31,11 +31,9 @@ A typical kernel may be a Gaussian with a broad $\sigma_x = \sigma_y$ and a unit
 
 Motion cube generation tools also include the option to compress or crop collected tracks. This feature is useful to deal with limited GPU memory for downstream CNN training. Compression is performed by simple division and rounding of path coordinates, reducing the number of pixels required to represent the full field-of-view in each slice of a motion cube. Cropping allows for removal of a minority of paths that require much larger fields of view to fit, preventing a few outliers from 'diluting' the other motion cubes with empty space.
 
-### Simulation of Motion and Transfer Learning
+### Cell Mimetic Simulations of Motion and Transfer Learning
 
-Borrowed from [`Heteromotility`]( {{site.url }}/heteromotility ), `Lanternfish` contains tools to simulate multiple biologically relevant models of motion. These simulations are useful for pre-training networks to learn 3-dimensional image features relevant to the image size and kernels chosen. Simulators of random walks, Levy fliers, and fractal Brownian motion are included.  
-
-Tools to transfer learned representations from CNNs trained on simulated data to CNNs operating on real data are included.  
+`Lanternfish` contains tools to simulate motion that mimics a sample of heterogeneous motion phenotypes, referred to as "cell mimesis". Sample motility behaviors are mimicked by decomposing the observed behavior into a set of k clusters based on displacement and directionality features, then simulating each of these clusters by fitting a Johnson distribution to displacement and turn angle observations within the cluster. Simulations are generated from each cluster proportional to their representation in the original sample.
 
 ### Motion Classification CNNs
 
