@@ -1,9 +1,9 @@
 # main text of home
 name: Niveditha Ram
-bio: 'Data analytics, process improvement, project management, coffee drinking'
+bio: 'Physics, Teaching, Physics.'
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about Physics and teaching science
 
 # if it's an external image, update below for true
 # better with square images
@@ -19,31 +19,31 @@ markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-74313908-1'
+#analytics-google: 'UA-74313908-1'
 
 # if you don't want comments in your posts, set to false
-disqus: artiannaswamy
+#disqus: artiannaswamy
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: aannasw
+twitter: NivedithaRam
 # google: mygoogle
 # instagram: myinstagram
-pinterest: annasw
-linkedin: artiannaswamy
+#pinterest: annasw
+#linkedin: artiannaswamy
 # youtube: myyoutube
 # spotify: myspotify
-github: aannasw
+github: NivedithaRam
 # medium: medium
-email: hello@artiannaswamy.com
+email: niveditha.ramasubramanian@stonybrook.edu
 
 authors:
-    artiannaswamy:
-        name: Arti Annaswamy
-        bio: Data analytics, process improvement, project management, coffee drinking
+    NivedithaRam:
+        name: Niveditha Ram
+        bio: Physics, Reading, Teaching.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: aannasw
+        twitter: NivedithaRam
 
 
 # do you want a larger site? change the option below
@@ -72,7 +72,7 @@ show-tags: true
 related: true
 
 # show next & prev links in blog post?
-blog-nav-links: false
+blog-nav-links: true
 
 # show author block at the end of a post ?
 show-author: true
@@ -93,7 +93,7 @@ gems:
   - jekyll-gist
   - jekyll-paginate
 
-jekyll-mentions:
+#jekyll-mentions:
     base_url: http://artiannaswamy.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh, tasks]
