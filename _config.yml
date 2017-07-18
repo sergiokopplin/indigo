@@ -1,5 +1,5 @@
 # main text of home
-name: Arti Annaswamy
+name: Niveditha Ram
 bio: 'Data analytics, process improvement, project management, coffee drinking'
 
 # twitter summary info
@@ -10,7 +10,7 @@ description: A blog about technology and stuff related
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://artiannaswamy.com
+# url: http://artiannaswamy.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
