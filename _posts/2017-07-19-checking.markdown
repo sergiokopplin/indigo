@@ -12,6 +12,7 @@ summary: "Part 1 of a step by step non-coder's guide to setting up a personal si
 
 ## How it all started
 ## First step is to check if it all works
+permalink: build-a-github-blog-part-1
 
 *Or so I thought.*
 
