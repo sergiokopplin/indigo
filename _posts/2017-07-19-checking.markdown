@@ -1,7 +1,7 @@
 ---
-title: "Build a Blog with Github - Part 1"
+title: "Test Post"
 layout: post
-date: 2016-02-27 10:00
+date: 2017-07-19 10:00
 tag: blog-setup
 blog: true
 draft: false
@@ -11,14 +11,7 @@ permalink: build-a-github-blog-part-1
 ---
 
 ## How it all started
-
-I've owned my personal domain name for a while now, but never got around to putting anything up. As someone previously in the corporate finance world, I didn't have any particular information or portfolio pieces I needed to put up on a personal site that LinkedIn couldn't handle. 
-
-Once I started to feel the need for a blog, $50-$100/year in hosting fees just felt like too much for a blog that I planned on updating occasionally and only when I had something substantial to document online.
-
-Then I joined GitHub, and realized they allow you to host a personal blog/site, and map it to a custom domain.
-
-Problem solved!
+## First step is to check if it all works
 
 *Or so I thought.*
 
