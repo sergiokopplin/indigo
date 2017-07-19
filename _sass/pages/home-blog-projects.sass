@@ -1,6 +1,7 @@
 .home,
 .blog,
-.projects
+.projects,
+.teaching
     margin-top: 125px
 
     > .list
@@ -25,7 +26,8 @@
 
 .home > .list,
 .blog > .list,
-.projects > .list
+.projects > .list,
+.teaching > .list
     > .item
         display: block
         width: 95%
@@ -63,6 +65,16 @@
         color: $alpha
 
 .projects > .list > .item > .url
+    > .title
+        display: inline
+
+    > .emoji
+        display: inline
+        position: relative
+        top: -4px
+        margin-right: 10px
+
+.teaching > .list > .item > .url
     > .title
         display: inline
 
