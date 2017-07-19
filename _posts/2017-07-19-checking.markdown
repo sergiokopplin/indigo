@@ -7,12 +7,12 @@ blog: true
 draft: false
 author: artiannaswamy
 summary: "Part 1 of a step by step non-coder's guide to setting up a personal site on Github"
-permalink: build-a-github-blog-part-1
+ 
 ---
 
 ## How it all started
 ## First step is to check if it all works
-
+permalink: build-a-github-blog-part-1
 *Or so I thought.*
 
 It's when I started to really wade deep into setting up a Github personal site and blog that I realized it can be fairly intimidating to a non-programmer. I know just enough HTML and CSS to be dangerous and break things, which makes me the kind of adventurer that will start full throttle with a project like this, and get pretty far down a path before realizing I need to start over (several times). 
