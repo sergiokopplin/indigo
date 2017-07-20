@@ -2,7 +2,10 @@
 title: "India-based Neutrino Observatory"
 layout: post
 date: 2017-07-19 18:23
-tag: Neutrino Physics, India, Physics
+tag:
+-Neutrino Physics
+-India
+-Physics
 blog: true
 draft: false
 author: Niveditha Ram
