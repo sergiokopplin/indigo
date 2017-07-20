@@ -16,9 +16,9 @@ India-based Neutrino Observatory is a project done in collaboration with multipl
 
 On January 5th, 2015, the union cabinet of the government of India chaired by the Prime minister has given the approval for this project. It is worth noting that this project is behind schedule by many years due to environmental concerns, unfounded radiation fears and bureaucratic issues. 
 
-The total cost of the project will be approximately Rs. 1500 Crores including pre-project work, underground laboratory, construction work, setting up of Inter -Institutional Centre for High Energy Physics (IICHEP) facility at Madurai and building of the Iron Calorimetry (ICAL) detector. 
+The total cost of the project will be approximately Rs. 1500 Crores including pre-project work, underground laboratory, construction work, setting up of Inter -Institutional Centre for High Energy Physics (IICHEP) facility at Madurai and building of the Iron Calorimetry [(ICAL)](https://arxiv.org/pdf/1505.07380.pdf) detector. 
 
-# What are Neutrinos and why do we have to study them?
+### What are Neutrinos and why do we have to study them?
 
 In 1930, Pauli postulated the existence of neutrinos ("the little neutral one") to explain the conservation of energy, momentum and angular momentum in beta decay. 
 Too much jargon? Let me simplify it. 
@@ -32,7 +32,7 @@ Over the years, since its discovery, we have come to know quite a few things abo
 
 3) *Mass hierarchy* - So I told you that there are three flavors of neutrino and that they have mass. But I never mentioned anything about their hierarchy. That is which is heavier? The muon neutrino of the Tau Neutrino? We still don't have answer to this question. One way to find out is by studying the behavior of neutrinos as they cross through matter (Earth). The normal and the inverted hierarchy will have different values of probability of oscillation and the more precise we are able to make the measurement, the more knowledge we would have about this sector. 
 
-# What is INO trying to answer
+### What is INO trying to answer
 
 INO will be studying the atmospheric neutrinos. It's main aim is to measure the mixing angles (~ the probability that one flavor of neutrino converts to another) with more accuracy and to demystify the mass hierarchy. 
 For the problem of mass hierarchy, they will be considering two channels of neutrinos - the up-going and the down-going, compare the two and understand the effect of matter.
