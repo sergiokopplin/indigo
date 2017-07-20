@@ -2,10 +2,8 @@
 title: "India-based Neutrino Observatory"
 layout: post
 date: 2017-07-19 18:23
-tag:
--Neutrino Physics
--India
--Physics
+tag: Neutrino Physics
+tag: India
 blog: true
 draft: false
 author: Niveditha Ram
@@ -13,7 +11,7 @@ summary: "India Based Neutrino Observatory - Physics questions and what the obse
  
 ---
 
-
+Check tags
 
 India-based Neutrino Observatory is a project done in collaboration with multiple institutes within India to understand the working of neutrinos. It is an observatory which will be at Pottipuram in Theni District and is expected to be running from 2020.
 
