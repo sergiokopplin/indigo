@@ -1,12 +1,14 @@
 ---
-title: "Markdown Common Elements"
+title: "First Post July 19"
 layout: post
-date: 2016-02-24 22:44
+date: 2017-07-19 22:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - markdown
 - elements
+- hello
+- kitty
 star: true
 category: blog
 author: johndoe
@@ -15,7 +17,7 @@ description: Markdown summary with different options
 
 ## Summary:
 
-You can pick as item to see how to apply in markdown.
+ahhhhhhhhhhhhh this is my first post to this blog
 
 ### Comum Elements
 - [Basic formatting](#basic-formatting)

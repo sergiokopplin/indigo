@@ -15,6 +15,7 @@ jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.gi
 category: project
 author: Eli Rosen
 externalLink: false
+publish: false
 ---
 
 ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
@@ -22,9 +23,9 @@ externalLink: false
 Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
 ---
-#What should go here?
+##What should go here?
 
-What has inside?
+:89898: What has inside?
 
 - Gulp
 - BrowserSync
