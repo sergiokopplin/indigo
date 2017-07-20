@@ -4,35 +4,13 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I love analyzing data, managing process improvement projects and learning new things. I am Founder/CEO of a data analytics consultancy called 3PM Coffee Break. I've lived all over Southern California in the last 15 years now, loved every minute of it and currently make my home in the greater San Diego area, with my husband.</p>
+I am a PhD student in Nuclear Physics at [Stony Brook university](http://www.physics.sunysb.edu/Physics/) supervised by Prof. Thomas Hemmick and Prof. Abhay Deshpande. I did my undergraduate studies in Electrical and Elctronics Engineering at [SASTRA University] (http://www.sastra.edu/), India. 
 
-<p>I grew up in India, in a metropolitan town called <a href="https://en.wikipedia.org/wiki/Vadodara" target="_blank">Baroda</a>. Baroda is best known for its beautiful <a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Baroda_Lvp.JPG" target="_blank">royal</a> <a href="https://en.wikipedia.org/wiki/Laxmi_Vilas_Palace,_Vadodara" target="_blank">palace</a>, an <a href="https://en.wikipedia.org/wiki/Maharaja_Sayajirao_University_of_Baroda" target="_blank">awesome university</a> and a small-city feel with big city values.</p>
+I work on a really fun hardware project in which, I help in the design and construction of a [Time Projection Chamber](https://en.wikipedia.org/wiki/Time_projection_chamber) for a proposedhttps://www.sphenix.bnl.gov/web/) [sPHENX](https://www.sphenix.bnl.gov/web/) detector system. In parallel, I also work on the measurement of direct photons in forward rapidities from d+Au collisions fron run 2016 at Brookhaven National Lab. This measurement allows for strong constraints of nuclear effects related to gluon saturation as well as insight into the physics of the color glass condensate. More details on my research can be found here.
 
-<p>I moved here in my senior year of high school, and except for a year in grad school at <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>, have happily made my home in various parts of Southern California since.</p>
+Apart from research, I am very passionate about teaching. Over the last couple of years, I have taught a lab courses in Physics for life science undergraduate majors and have volunteered at local elementary school to set up small lab sessions to kindle curiosity and interest in science. More recently, I am designing a curriculum to teach year long to High school students as part of the University's [graduate women in science outreach program](http://www.stonybrook.edu/commcms/wise/pre-college/high_school). More details of this can be found here. 
 
-<p>These days, I'm working full-time (again) for Warner Bros. as a project manager for tech and process improvement initiatives. It's different from what I've done before, and completely awesome so far. I'm learning first hand how to think strategically about organizational change and the level/scope of communication needed to make the change stick.</p>
 
-<h2>Skills</h2>
+More information on my academic journey can be found in my CV.
 
-<ul class="skill-list">
-	<li>Project management, data analytics, process improvement, financial analysis</li>
-	<li>R - data analysis algorithms, data vis packages, R-Studio</li>
-	<li>Tableau, MicroStrategy, Alteryx</li>
-	<li>SQL Server Mgmt Studio, tSql, PL/SQL</li>
-	<li>Finance DCF analysis, Forecast modeling, Scenario modeling, Financial statement analysis & recon</li>
-	<li>Excel pivots, data tables, solver, stats, vba/macros, integrations with access & sharepoint, dashboards & form tools, pretty charts</li>
-	<li>ERP Finance software - Oracle, SAP, PeopleSoft, Hyperion Brio Query</li>
-	<li>SharePoint 2013, Nintex Forms & Workflows O365, PowerBI</li>
-	<li>HTML, CSS, CSS frameworks, jQuery, Javascript</li>
-	<li>building Python scrapers</li>
-	<li>thinking about best practice design principles for user guides, training materials</li>
-	<li>recording training videos, exploring best practices in doing voiceovers, audio recording, video annotation</li>
-</ul>
-
-<h2>Project Samples</h2>
-
-<ul>
-	<li><a href="http://soc.sh/n2IqhVcpTf" target="_blank">Data story on Shorthand: How many Screens do you need for a Blockbuster movie?</a></li>
-	<li><a href="https://github.com/aannasw/movies-capstone/blob/master/Capstone%20Project.pdf" target="_blank">Springboard Capstone Project: Analysis of Movies</a></li>
-	<li><a href="http://public.tableau.com/profile/arti#!/" target="_blank">Tableau Public profile</a></li>	
-</ul>
+Apart from all this, I love theatre, meeting new people, travelling and reading. Feel free to write to me with any questions or opportunities in teeaching or theatre that you think will interest me. 
