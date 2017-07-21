@@ -9,7 +9,7 @@ summary: "List of books I'm reading this year, and ongoing reviews as I cross 'e
 permalink: reading-list
 jemoji: '<img class="emoji" title=":books:" alt=":books:" src="https://assets.github.com/images/icons/emoji/unicode/1f4da.png" height="20" width="20" align="absmiddle">'
 ---
-
+Checking if it changes
 I've never done a reading challenge before.
 
 Over the years, I've picked up books recommended by friends, or books that were on the bestseller lists, or books mentioned in NPR interviews. This mostly worked well for me in terms of quality and depth of reading, but it has been too haphazard and I occasionally end up with long stretches of barely any reading.
