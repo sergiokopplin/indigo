@@ -508,12 +508,14 @@ pre {
 .home,
 .blog,
 .teaching,
+.research
 .projects {
   margin-top: 125px;
 }
 .home > .list,
 .blog > .list,
 .teaching > .list,
+.research > .list,
 .projects > .list {
   border-top: 1px solid #ededed;
   margin-top: 30px;
@@ -523,6 +525,7 @@ pre {
 .home > .list:before,
 .blog > .list:before,
 .teaching > .list:before,
+.research > .list:before,
 .projects > .list:before {
   display: block;
   content: " ";
@@ -540,6 +543,7 @@ pre {
 .home > .list > .item,
 .blog > .list > .item,
 .teaching > .list > .item,
+.research > .list > .item,
 .projects > .list > .item {
   display: block;
   width: 95%;
@@ -548,6 +552,7 @@ pre {
 .home > .list > .item > .url,
 .blog > .list > .item > .url,
 .teaching > .list > .item > .url,
+.research > .list > .item > .url,
 .projects > .list > .item > .url {
   width: 100%;
   display: block;
@@ -557,6 +562,7 @@ pre {
 .home > .list > .item > .url > .title,
 .blog > .list > .item > .url > .title,
 .teaching > .list > .item > .url > .title,
+.research > .list > .item > .url > .title,
 .projects > .list > .item > .url > .title {
   margin: 0;
   width: 75%;
@@ -567,12 +573,14 @@ pre {
 .home > .list > .item:hover > .url > .title,
 .blog > .list > .item:hover > .url > .title,
 .teaching > .list > .item:hover > .url > .title,
+.research > .list > .item:hover > .url > .title,
 .projects > .list > .item:hover > .url > .title {
   color: #4b0082;
 }
 .home > .list aside,
 .blog > .list aside,
 .teaching > .list aside,
+.research > .list aside,
 .projects > .list aside {
   position: relative;
   top: 2px;
@@ -588,6 +596,7 @@ pre {
 .home > .list .item:hover .url aside,
 .blog > .list .item:hover .url aside,
 .teaching > .list .item:hover .url aside,
+.research > .list .item:hover .url aside,
 .projects > .list .item:hover .url aside {
   color: #666;
 }
@@ -598,6 +607,15 @@ pre {
   display: inline;
 }
 .teaching > .list > .item > .url > .emoji {
+  display: inline;
+  position: relative;
+  top: -4px;
+  margin-right: 10px;
+}
+.research > .list > .item > .url > .title {
+  display: inline;
+}
+.research > .list > .item > .url > .emoji {
   display: inline;
   position: relative;
   top: -4px;
