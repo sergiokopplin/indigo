@@ -33,8 +33,8 @@ description: "Software tool for quantitative analysis of cell motility"
 * Levy flights  
 * Fractal Brownian motion  
 
-**(3)** Visualization of cell paths and motility state spaces
-**(4)** Cell state transition quantification tools
+**(3)** Visualization of cell paths and motility state spaces  
+**(4)** Cell state transition quantification tools  
 **(5)** Course grained probability flux analysis
 
 ## Workflow & Usage
