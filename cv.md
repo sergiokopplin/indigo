@@ -9,22 +9,21 @@ San Francisco, California
 
 ## Education
 
-**Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - Present** \
-*Funding*: NSF Graduate Fellowship, PhRMA Informatics Fellowship, NIH T32 \
+**Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - Present**  
+*Funding*: NSF Graduate Fellowship, PhRMA Informatics Fellowship, NIH T32  
+
+**B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
+*Distinctions*: Summa Cum Laude, Top Honors, University Honors  
 *GPA*: 4.0 / 4.0
 
-**B.S. — Biotechnology, University of Central Florida, 2012 - 2015** \
-*Distinctions*: Summa Cum Laude, Top Honors, University Honors \
-*GPA*: 4.0 / 4.0
-
-**Marine Biological Laboratory, Woods Hole, MA, 2016** \
+**Marine Biological Laboratory, Woods Hole, MA, 2016**  
 *Course*: Computational Image Analysis in Cell and Developmental Biology
 
 ## Research Experience
 
-**University of California San Francisco, San Francisco, CA, 2015 - Present** \
-*PhD Candidate* \
-*Principal Investigators:* Andrew Brack & Wallace Marshall \
+**University of California San Francisco, San Francisco, CA, 2015 - Present**  
+*PhD Candidate*  
+*Principal Investigators:* Andrew Brack & Wallace Marshall  
 *Thesis:* Inferring stem cell state from cell behavior
 
 * Developed software tools to infer cell state from motility behaviors
@@ -32,23 +31,23 @@ San Francisco, California
 * Developed tools to apply deep convolutional neural networks to the analysis of cell motility
 * Developing an image based classification method for muscle stem cell subpopulation states
 
-**University of Central Florida, Orlando, FL, 2011 - 2015** \
-*Research and Mentoring Program Scholar, Burnett Research Scholar* \
+**University of Central Florida, Orlando, FL, 2011 - 2015**  
+*Research and Mentoring Program Scholar, Burnett Research Scholar*  
 *Principal Investigator:* Kiminobu Sugaya, PhD
 
 * Characterized induced pluripotent reprogramming in mesenchymal stem cells using machine-learning based image analysis, investigated cell sorting applications
 * Examined the use of polarized optical torques to guide cell motility in collaboration with U. of Central Florida's optics research center
 * Investigated a pathway for producing neuronal cells from adipose derived stem cells by modulation of Nanog. Published as a first-author paper, presented at Neuroscience 2013.
 
-**University of California San Francisco, San Francisco, CA, 2014 Summer** \
-*Summer Research and Training Program, Amgen Scholar* \
+**University of California San Francisco, San Francisco, CA, 2014 Summer**  
+*Summer Research and Training Program, Amgen Scholar*  
 *Principal Investigator:* K. Mark Ansel, PhD
 
 * Investigated the role of microRNA-29 in the regulation of cytokine production in T-cells
 * Awarded the summer program’s competitive Outstanding Presentation Award
 
-**National Institute on Aging, Baltimore, MD, 2012 Summer** \
-*Summer Fellow, Image Informatics and Computational Biology Unit* \
+**National Institute on Aging, Baltimore, MD, 2012 Summer**  
+*Summer Fellow, Image Informatics and Computational Biology Unit*  
 *Principal Investigator:* Ilya G. Goldberg, PhD
 
 * Identified differential aging rates across the anatomy of C. elegans using machine learning based image classification
