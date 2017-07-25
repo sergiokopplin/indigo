@@ -21,17 +21,17 @@ description: "Software tool for quantitative analysis of cell motility"
 
 1. Extraction of 70+ motion features, considering diverse aspects of motility, such as:
 
-* Displacement statistics
-* Turning direction and magnitude features
-* Features of the cell path in the Cartesian plane
-* Comparators to canonical models of motion
-* Descriptors of long-term dependence
+- Displacement statistics  
+- Turning direction and magnitude features  
+- Features of the cell path in the Cartesian plane  
+- Comparators to canonical models of motion  
+- Descriptors of long-term dependence  
 
 2. Simulation of canonical models of motion, including:
 
-* Random walks
-* Levy flights
-* Fractal Brownian motion
+- Random walks  
+- Levy flights  
+- Fractal Brownian motion  
 
 3. Visualization of cell paths and motility state spaces
 4. Cell state transition quantification tools
