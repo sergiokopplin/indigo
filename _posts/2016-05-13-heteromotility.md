@@ -17,6 +17,10 @@ description: "Software tool for quantitative analysis of cell motility"
 
 `Heteromotility` also contains a suite of tools to quantify and visualize cell state spaces, and dynamic state transitions within the state space. While these tools were developed for use with `Heteromotility` features, they may be applied to any arbitrary time-series feature set.
 
+We've posted a pre-print applying `Heteromotility` analysis to quantify dynamic cell state transitions in muscle stem cells and a cancer cell model. Check it out on bioRxiv!  
+
+[Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance](http://www.biorxiv.org/content/early/2017/07/26/168534.article-info)
+
 ## Heteromotility Features
 
 **(1)** Extraction of 70+ motion features, considering diverse aspects of motility, such as:
