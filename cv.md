@@ -64,8 +64,8 @@ San Francisco, California
 
 1. **Jacob C. Kimmel**, Amy Y. Chang, Andrew S. Brack, Wallace F. Marshall. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2017. bioRxiv 168534; doi: https://doi.org/10.1101/168534. *(Submitted for publication).*
 2. **Jacob C. Kimmel**, Andrew S. Brack, and Wallace F. Marshall. 2017. Deep convolutional neural networks allow analysis of cell motility during stem cell differentiation and neoplastic transformation. bioRxiv. doi: https://doi.org/10.1101/159202. *(Submitted for publication).*
-2. Colin Constant, **Jacob C. Kimmel**, Kiminobu Sugaya, Aristide Dogariu. Optically Controlled Subcellular Diffusion. Frontiers in Optics & Laser Science. 2015.
-3. **Jacob C. Kimmel**, Kiminobu Sugaya. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
+3. Colin Constant, **Jacob C. Kimmel**, Kiminobu Sugaya, Aristide Dogariu. Optically Controlled Subcellular Diffusion. Frontiers in Optics & Laser Science. 2015.
+4. **Jacob C. Kimmel**, Kiminobu Sugaya. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
 
 ## Presentations
 
