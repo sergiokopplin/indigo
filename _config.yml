@@ -1,14 +1,14 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: proNtra
+bio: open all eyes
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: The landing page for prontra.
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/logo_450x450.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -63,7 +63,7 @@ authors:
         name: James Foster
         bio: A Man who develops software with coffee
         external-image: false
-        picture: assets/images/james.jpg
+        picture: assets/images/logo_450x450.png
         twitter: jamesfoster
 
 # do you want a larger site? change the option below
