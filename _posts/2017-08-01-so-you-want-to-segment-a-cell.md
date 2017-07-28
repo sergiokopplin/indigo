@@ -8,6 +8,7 @@ tag:
 - microscopy
 - image analysis
 blog: true
+use_math: true
 ---
 
 # What is segmentation?
