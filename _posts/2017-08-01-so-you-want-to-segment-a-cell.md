@@ -110,7 +110,7 @@ plt.imshow(I, cmap='gray') # use the grayscale color map
 plt.show()
 ```
 
-[One pixel image]( {{site.url}}/assets/images/segment_a_cell/one_px.png)
+![One pixel image]( {{site.url}}/assets/images/segment_a_cell/one_px.png)
 
 ```
 # Now dilate the image with a disk structuring element
@@ -119,7 +119,7 @@ plt.imshow(I_dil_disk, cmap='gray')
 plt.show()
 ```
 
-[Dilated image]( {{site.url}}/assets/images/segment_a_cell/dil_img.png)
+![Dilated image]( {{site.url}}/assets/images/segment_a_cell/dil_img.png)
 
 
 ### Erosion
@@ -140,7 +140,7 @@ plt.imshow(I_erod_square, cmap='gray')
 plt.show()
 ```
 
-[Eroded disk]({{site.url}}/assets/images/segment_a_cell/erod_img.png)
+![Eroded disk]({{site.url}}/assets/images/segment_a_cell/erod_img.png)
 
 
 ### Opening and Closing
@@ -166,7 +166,7 @@ plt.imshow(broken_bridge, cmap='gray')
 plt.show()
 ```
 
-[Bridge]({{site.url}}/assets/images/segment_a_cell/broken_bridge.png)
+![Bridge]({{site.url}}/assets/images/segment_a_cell/broken_bridge.png)
 
 Let's repair the middle using a morphological closing.
 
@@ -182,7 +182,7 @@ plt.show()
 # Good thing no one will try and cross it :-D
 ```
 
-[Fixed Bridge]({{site.url}}/assets/images/segment_a_cell/fixed_bridge.png)
+![Fixed Bridge]({{site.url}}/assets/images/segment_a_cell/fixed_bridge.png)
 
 Now let's do some demolition instead and get a feel for how morphological opening can disconnect two objects with a small connection.
 
@@ -196,7 +196,7 @@ plt.imshow(sacrificial_bridge, cmap='gray')
 plt.show()
 ```
 
-[Sacrificial Bridge]({{site.url}}/assets/images/segment_a_cell/sacrificial_bridge.png)
+![Sacrificial Bridge]({{site.url}}/assets/images/segment_a_cell/sacrificial_bridge.png)
 
 ```
 # Controlled demolition, using `binary_opening` with a small disk
@@ -209,21 +209,21 @@ plt.show()
 # is performed
 ```
 
-[Demolished Bridge]({{site.url}}/assets/images/segment_a_cell/demolished_bridge.png)
+![Demolished Bridge]({{site.url}}/assets/images/segment_a_cell/demolished_bridge.png)
 
 # Segmenting a Cell Image
 
 Now that we've taken a look through the tool box, here's our challenge: create a binary "mask" that labels pixels representing a cell as $1$ and pixels labeling background as $0$ in this image of a muscle stem cell (MuSC) taken in DIC.
 
-[MuSC Image]({{site.url}}/assets/images/segment_a_cell/musc_0.png)
+![MuSC Image]({{site.url}}/assets/images/segment_a_cell/musc_0.png)
 
 When we're done, we'll have a mask that looks like this.
 
-[mask placeholder]
+![Filled binary]({{site.url}}/assets/images/segment_a_cell/bw_fill.png)
 
-As you can see, it separates cells from the background quite nicely.
+As you can see, it separates the cell from the background quite nicely.
 
-[overlay placeholder]
+![Segmented overlay]({{site.url}}/assets/images/segment_a_cell/overlay_musc_0.png)
 
 ## Start with Edges
 
@@ -277,7 +277,7 @@ plt.show()
 
 Look how well that worked!
 
-[Sobel filtered MuSC]({{site.url}}/assets/images/segment_a_cell/sobel_musc_0.png)
+![Sobel filtered MuSC]({{site.url}}/assets/images/segment_a_cell/sobel_musc_0.png)
 
 Let's double check we did it properly using the `scikit-image` implementation.
 
@@ -312,7 +312,7 @@ plt.imshow(bw, cmap='gray')
 plt.show()
 ```
 
-[Thresholded edges]({{site.url}}/assets/images/segment_a_cell/bw_edges.png)
+![Thresholded edges]({{site.url}}/assets/images/segment_a_cell/bw_edges.png)
 
 You'll see there's some grainy noise in the image. Let's clear small objects to get rid of this.
 
@@ -324,7 +324,7 @@ plt.imshow(bw_cleared, cmap='gray')
 plt.show()
 ```
 
-[Cleared binary]({{site.url}}/assets/images/segment_a_cell/bw_cleared.png)
+![Cleared binary]({{site.url}}/assets/images/segment_a_cell/bw_cleared.png)
 
 Now let's use morphological closing to connect the gaps between edges.
 
@@ -335,7 +335,7 @@ plt.imshow(bw_close, cmap='gray')
 plt.show()
 ```
 
-[Closed binary]({{site.url}}/assets/images/segment_a_cell/bw_close.png)
+![Closed binary]({{site.url}}/assets/images/segment_a_cell/bw_close.png)
 
 That looks pretty good! Now let's fill in that one hole in the center. This uses one of the binary tools from `scipy.ndimage`.
 
@@ -347,7 +347,7 @@ plt.imshow(bw_fill, cmap='gray')
 plt.show()
 ```
 
-[Filled binary]({{site.url}}/assets/images/segment_a_cell/bw_fill.png)
+![Filled binary]({{site.url}}/assets/images/segment_a_cell/bw_fill.png)
 
 That looks pretty good!
 Let's look at an overlay to make sure.
@@ -361,4 +361,4 @@ plt.show()
 # Not bad!
 ```
 
-[Segmented overlay]({{site.url}}/assets/images/segment_a_cell/overlay_musc_0.png)
+![Segmented overlay]({{site.url}}/assets/images/segment_a_cell/overlay_musc_0.png)
