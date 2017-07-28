@@ -293,7 +293,7 @@ plt.show()
 
 You'll see it looks the same!
 
-## Fill in the Gaps
+## Make a binary image
 
 So, now we have an outline of the cell, but we need to get from our intensity image to a simple binary -- `1` for edges, and `0` for everything else.
 
@@ -323,6 +323,8 @@ bw_cleared = remove_small_objects(bw, 300) # clear objects <300 px
 plt.imshow(bw_cleared, cmap='gray')
 plt.show()
 ```
+
+## Fill in the Gaps
 
 ![Cleared binary]({{site.url}}/assets/images/segment_a_cell/bw_cleared.png)
 
@@ -362,3 +364,10 @@ plt.show()
 ```
 
 ![Segmented overlay]({{site.url}}/assets/images/segment_a_cell/overlay_musc_0.png)
+
+
+# Conclusion
+
+We've now walked through how to segment a cell using the bread and butter tools of traditional image analysis. Scenarios in the real world are often *much* more difficult than this toy example, but the approaches and concepts are largely the same. It's amazing how much you can do with just these simple tools -- convolution, thresholding, and morphological operators.
+
+[Let me know if you have any questions!](mailto:jacobkimmel@gmail.com)
