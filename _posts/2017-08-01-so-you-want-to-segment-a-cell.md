@@ -69,13 +69,24 @@ How do we decide what the "neighborhood" around each pixel we're transforming is
 
 [Structuring elements](https://en.wikipedia.org/wiki/Structuring_element) are essentially shapes encoded as a binary matrix. So, if we want the neighborhood for morphological operation to be a disk with a radius $r$, we can generate a structuring element matrix that encodes a circle of `True` pixels. Using this disk structuring element, we can apply some transformation to each pixel in the image based on the neighboring pixels within the disk centered on the pixel to be transformed.
 
-Example 1 -- Disk structuring element for $r = 3$
+Let's generate a structuring element using Python's `scikit-image` and `numpy` toolsets.
+
+```
+# import some image processing functions and modules
+from skimage.morphology import binary_erosion, binary_dilation, disk, square
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Look at some structuring elements
+disk(10)
+plt.imshow(disk(10), cmap='gray')
+plt.show()
+square(5)
+```
+
+If we view the resulting plotted image, we get a nice disk!
 
 ![Disk structuring element]( {{ site.url }}/assets/images/segment_a_cell/disk_se.png)
-
-Example 2 -- Square structuring element for $h = 3$
-
-![Square structuring element]
 
 ### Dilation
 
@@ -90,24 +101,53 @@ where $\bigcup$ is the union operator, denoting that our final dilated image is 
 What does dilation look like in practice?
 Here, we perform dilation on a single pixel at the center of an image using a disk structuring element. You'll see we create a disk! This makes intuitive sense, as when we scan across the image and perform the $\max$ operation
 
-[Example images]
+```
+# Create a binary image with only 1 pixel 'True' at the center
+I = np.zeros([50, 50])
+I[I.shape[0]//2, I.shape[1]//2] = 1 # set center pixel to 1
+# plot the image with matplotlib.pyplot.imshow()
+plt.imshow(I, cmap='gray') # use the grayscale color map
+plt.show()
+```
+
+[One pixel image]( {{site.url}}/assets/images/segment_a_cell/one_px.png)
+
+```
+# Now dilate the image with a disk structuring element
+I_dil_disk = binary_dilation(I, selem=disk(10))
+plt.imshow(I_dil_disk, cmap='gray')
+plt.show()
+```
+
+[Dilated image]( {{site.url}}/assets/images/segment_a_cell/dil_img.png)
+
 
 ### Erosion
 
 Now that we understand dilation, understanding erosion is easy.
 
-[Erosion]() considers each pixel in image and sets each pixel to the *minimum* value of all pixels in a neighborhood. Just like dilation, but instead of taking the $\max$ we're taking the $\min$.
+[Erosion](https://en.wikipedia.org/wiki/Erosion_(morphology)) considers each pixel in image and sets each pixel to the *minimum* value of all pixels in a neighborhood. Just like dilation, but instead of taking the $\max$ we're taking the $\min$.
 
 We can see how this works when we erode the images we just dilated.
 
-[Example images]
+```
+# Let's erode some of those structuring elements we just dilated
+I_erod_disk = binary_erosion(I_dil_disk, selem=disk(3))
+plt.imshow(I_erod_disk, cmap='gray')
+plt.show()
+I_erod_square = binary_erosion(I_dil_square, selem=square(10))
+plt.imshow(I_erod_square, cmap='gray')
+plt.show()
+```
+
+[Eroded disk]({{site.url}}/assets/images/segment_a_cell/erod_img.png)
 
 
 ### Opening and Closing
 
 It can be useful to perform a dilation followed by a corresponding erosion, and vice-versa. At first this seems a bit counterintuitive. Why perform two operations that leave us close to the starting point?
 
-Eroding an image followed by a corresponding dilation (i.e. a dilation of similar magnitude and shape) is known as **opening**. This name comes from the fact that eroding tends to break thin "bridges" between binary objects. The subsequent dilation returns objects to roughly the same size as the starting point, but doesn't restore these bridges, unlinking connected objects. You can think of it like "opening" a drawbridge linking two binary land masses.
+Eroding an image followed by a corresponding dilation (i.e. a dilation of similar magnitude and shape) is known as **opening**. This name comes from the fact that eroding tends to break thin "bridges" between binary objects. The subsequent dilation returns objects to roughly the same size as the starting point, but doesn't restore these bridges, unlinking connected objects. You can think of it like "opening" a drawbridge linking two binary land masses. This is super useful in situations where a couple cells are just barely touching, letting you segment them individually.
 
 Conversely, dilating an image followed by a corresponding erosion is known as **closing**. Two binary objects that are separated by a thin margin may form a connecting bridge when dilated, and the subsequent erosion may not break this bridge if it is thick enough. This "closes" the gaps between two objects.
 
@@ -115,14 +155,67 @@ As may be obvious, these dilation/erosion combinations are useful when you're tr
 
 In grayscale images, the same intuitions apply. Just think of opening as removing small high intensity connections between larger high intensity areas, and vice-versa for closing.
 
-[Example images]
+Lets create a bridge that we close, then open.
 
+```
+# Create a bridge to close and open with morphological operators
+broken_bridge = np.zeros((50,50))
+broken_bridge[24:26, 0:24] = 1
+broken_bridge[24:26, 25:] = 1
+plt.imshow(broken_bridge, cmap='gray')
+plt.show()
+```
+
+[Bridge]({{site.url}}/assets/images/segment_a_cell/broken_bridge.png)
+
+Let's repair the middle using a morphological closing.
+
+```
+# Let's fix the bridge using morphological closing
+# Here we use `binary_closing` and a disk structuring
+# element `selem` to define the neighborhood
+from skimage.morphology import binary_closing, binary_opening
+fixed_bridge = binary_closing(broken_bridge, selem=square(5))
+plt.imshow(fixed_bridge, cmap='gray')
+plt.show()
+# Notice, the erosion step at the end actually cuts off the bridge ends!
+# Good thing no one will try and cross it :-D
+```
+
+[Fixed Bridge]({{site.url}}/assets/images/segment_a_cell/fixed_bridge.png)
+
+Now let's do some demolition instead and get a feel for how morphological opening can disconnect two objects with a small connection.
+
+```
+# Let's make another bridge, then break it
+sacrificial_bridge = np.zeros((50,50))
+sacrificial_bridge[22:30, 0:21] = 1
+sacrificial_bridge[22:30, 30:] = 1
+sacrificial_bridge[25:27, 21:30] = 1
+plt.imshow(sacrificial_bridge, cmap='gray')
+plt.show()
+```
+
+[Sacrificial Bridge]({{site.url}}/assets/images/segment_a_cell/sacrificial_bridge.png)
+
+```
+# Controlled demolition, using `binary_opening` with a small disk
+# structuring element `selem` as the neighborhood
+demolished_bridge = binary_opening(sacrificial_bridge, selem=disk(1))
+plt.imshow(demolished_bridge, cmap='gray')
+plt.show()
+# Notice the corners of the bridge get "opened" too, since there are no
+# + pixels off the edge of the image to recover those pieces when the dilation
+# is performed
+```
+
+[Demolished Bridge]({{site.url}}/assets/images/segment_a_cell/demolished_bridge.png)
 
 # Segmenting a Cell Image
 
-Here's our challenge: create a binary "mask" that labels pixels representing a cell as $1$ and pixels labeling background as $0$ in this image.
+Now that we've taken a look through the tool box, here's our challenge: create a binary "mask" that labels pixels representing a cell as $1$ and pixels labeling background as $0$ in this image of a muscle stem cell (MuSC) taken in DIC.
 
-[img placeholder]
+[MuSC Image]({{site.url}}/assets/images/segment_a_cell/musc_0.png)
 
 When we're done, we'll have a mask that looks like this.
 
@@ -132,4 +225,140 @@ As you can see, it separates cells from the background quite nicely.
 
 [overlay placeholder]
 
-## Considering Brightness
+## Start with Edges
+
+When beginning any cell segmentation problem, it's prudent to start by trying to identify the cell edges. In low contrast images this doesn't always work so well, but it's a great start if you can find a reliable algorithm to outline each cell.
+
+In the example image we're using, our DIC imaging provided a nice 'halo' around the cell edge, making it very distinct.
+
+Sobel's edge finding algorithm is an old-school, reliable place to start. As noted above, Sobel's edge finding algorithm is a convolution of our image `I` with a 3x3 kernel that identifies areas with one bright side, and one dark side -- an edge!
+
+`scikit-image` has a handy `sobel` function, but let's do this from scratch to remove some of the magic.
+
+```
+# Build Sobel filter for the x dimension
+s_x = np.array([[1, 0, -1],
+                [2, 0, -2],
+                [1, 0, -1]])
+# Build a Sobel filter for the y dimension
+s_y = s_x.T # transposes the matrix
+print(s_x)
+print(s_y)
+```
+
+This will return our filters. Notice how `s_x` finds edges with bright pixels on one side, and dimmer pixels on the other, and the same for `s_y` in the vertical direction.
+
+```
+# s_x
+[[ 1  0 -1]
+ [ 2  0 -2]
+ [ 1  0 -1]]
+
+# s_y
+[[ 1  2  1]
+ [ 0  0  0]
+ [-1 -2 -1]]
+```
+
+Now, we just convolve our image `I` with both kernels and add the responses together to estimate the gradient `G`. Note, we're only checking the kernels in one direction. This means `s_x` responds with positive values for edges that are bright on the left, dark on the right, and negative values for edges that are dark on the left, bright on the right. All we need to do to account for this is square both responses and calculate the gradient `G` as the square root of their sum.
+
+```
+# Convolve with s_x and s_y
+from scipy.ndimage.filters import convolve
+
+res_x = convolve(I, s_x)
+res_y = convolve(I, s_y)
+
+# square the responses, to capture both sides of each edge
+G = np.sqrt(res_x**2 + res_y**2)
+plt.imshow(G, cmap='gray')
+plt.show()
+```
+
+Look how well that worked!
+
+[Sobel filtered MuSC]({{site.url}}/assets/images/segment_a_cell/sobel_musc_0.png)
+
+Let's double check we did it properly using the `scikit-image` implementation.
+
+```
+# Let's check that our homemade version is the same
+# as the result from the sobel() function
+# made by the pros
+from skimage.filters import sobel
+I_edges = sobel(I)
+plt.imshow(I_edges, cmap='gray')
+plt.show()
+```
+
+You'll see it looks the same!
+
+## Fill in the Gaps
+
+So, now we have an outline of the cell, but we need to get from our intensity image to a simple binary -- `1` for edges, and `0` for everything else.
+
+Otsu's threshold as described above is perfect for this task. Let's try it out.
+
+```
+# Threshold on edges
+from skimage.filters import threshold_otsu
+
+threshold_level = threshold_otsu(G)
+bw = G > threshold_level # bw is a standard variable name for binary images
+
+threshold_level
+
+plt.imshow(bw, cmap='gray')
+plt.show()
+```
+
+[Thresholded edges]({{site.url}}/assets/images/segment_a_cell/bw_edges.png)
+
+You'll see there's some grainy noise in the image. Let's clear small objects to get rid of this.
+
+```
+# Let's clear any small object noise
+from skimage.morphology import remove_small_objects
+bw_cleared = remove_small_objects(bw, 300) # clear objects <300 px
+plt.imshow(bw_cleared, cmap='gray')
+plt.show()
+```
+
+[Cleared binary]({{site.url}}/assets/images/segment_a_cell/bw_cleared.png)
+
+Now let's use morphological closing to connect the gaps between edges.
+
+```
+# Let's close the edges of the outline with morphological closing
+bw_close = binary_closing(bw_cleared, selem=disk(5))
+plt.imshow(bw_close, cmap='gray')
+plt.show()
+```
+
+[Closed binary]({{site.url}}/assets/images/segment_a_cell/bw_close.png)
+
+That looks pretty good! Now let's fill in that one hole in the center. This uses one of the binary tools from `scipy.ndimage`.
+
+```
+# Now let's fill in the holes
+from scipy.ndimage import binary_fill_holes
+bw_fill = binary_fill_holes(bw_close)
+plt.imshow(bw_fill, cmap='gray')
+plt.show()
+```
+
+[Filled binary]({{site.url}}/assets/images/segment_a_cell/bw_fill.png)
+
+That looks pretty good!
+Let's look at an overlay to make sure.
+
+```
+# Plot an overlay of our binary image
+f = plt.figure()
+plt.imshow(I, cmap='gray', interpolation=None)
+plt.imshow(bw_fill, cmap='gray', alpha=0.5, interpolation=None)
+plt.show()
+# Not bad!
+```
+
+[Segmented overlay]({{site.url}}/assets/images/segment_a_cell/overlay_musc_0.png)
