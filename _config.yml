@@ -52,6 +52,16 @@ medium: medium
 # lanyrd: mylanyrd
 email: myemail@gmail.com
 
+# if you don't have any scientific social links below, comment the line
+# scholar: myscholar
+# researchgate: myresearchgate
+# mendeley: mymendeley
+# pubmed: mypubmed
+# orcid: myorcid
+# impactstory: myimpactstory
+# figshare: myfigshare
+# slideshare: myslideshare
+
 authors:
     johndoe:
         name: John Doe

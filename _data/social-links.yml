@@ -1,0 +1,97 @@
+# yaml manifest of supported social links
+#
+# requirements:
+# `name`
+#     - plain-text name of the site (e.g. facebook)
+#     - **mandatory**
+# `url-prefix`
+#     - part of the site URL prior to username (e.g. facebook.com/)
+#     - must include the trailing slash
+#     - **mandatory** (for non-email type links)
+# `scheme` corresponds to the hardcoded URI/URN scheme (e.g. https://)
+#     - can be one of: ['https://', 'http://', 'mailto:']
+#     - defaults to '//'
+#     - **optional**
+# `icon`
+#     - name of svg asset used in icons.html (e.g. icon-facebook)
+#     - defaults to value in `name` attribute
+#     - **optional**
+#
+- name: facebook
+  url-prefix: facebook.com/
+
+- name: twitter
+  url-prefix: twitter.com/
+
+- name: google
+  url-prefix: plus.google.com/
+
+- name: instagram
+  url-prefix: instagram.com/
+
+- name: pinterest
+  url-prefix: pinterest.com/
+
+- name: linkedin
+  url-prefix: linkedin.com/in/
+
+- name: youtube
+  url-prefix: youtube.com/
+
+- name: spotify
+  url-prefix: open.spotify.com/user/
+
+- name: lastfm
+  url-prefix: last.fm/user/
+
+- name: github
+  url-prefix: github.com/
+
+- name: keybase
+  url-prefix: keybase.io/
+  icon: key
+
+- name: stackoverflow
+  url-prefix: stackoverflow.com/users/
+
+- name: quora
+  url-prefix: www.quora.com/profile/
+
+- name: reddit
+  url-prefix: reddit.com/user/
+
+- name: medium
+  url-prefix: medium.com/@
+
+- name: lanyrd
+  url-prefix: lanyrd.com/
+  scheme: 'http://'
+  icon: microphone
+
+- name: scholar
+  url-prefix: scholar.google.com/citations?user=
+
+- name: researchgate
+  url-prefix: www.researchgate.net/profile/
+
+- name: mendeley
+  url-prefix: mendeley.com/profiles/
+
+- name: pubmed
+  url-prefix: www.ncbi.nlm.nih.gov/myncbi/browse/collection/
+
+- name: orcid
+  url-prefix: orcid.org/
+
+- name: impactstory
+  url-prefix: profiles.impactstory.org/u/
+
+- name: figshare
+  url-prefix: fighshare.com/authors/
+
+- name: slideshare
+  url-prefix: www.slideshare.net/
+
+- name: email
+  scheme: 'mailto:'
+  icon: mail
