@@ -62,6 +62,9 @@ email: myemail@gmail.com
 # figshare: myfigshare
 # slideshare: myslideshare
 
+# if desired, specify custom order of social links in the array below
+social-links-order: [github, facebook, twitter, medium, email]
+
 authors:
     johndoe:
         name: John Doe
