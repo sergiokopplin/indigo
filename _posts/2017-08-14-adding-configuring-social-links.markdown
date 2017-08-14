@@ -76,8 +76,8 @@ With the existing implementation, it was not very easy to add new links or re-or
     social-links-order: [github, facebook, twitter, medium, email]
     ```
 
-[1]: https://github.com/sergiokopplin/indigo/blob/gh-pages/76d0b3c/_includes/social-links.html
-[2]: https://github.com/sergiokopplin/indigo/blob/gh-pages/_include/icons.html
+[1]: https://github.com/sergiokopplin/indigo/blob/76d0b3c/_includes/social-links.html
+[2]: https://github.com/sergiokopplin/indigo/blob/gh-pages/_includes/icons.html
 [3]: http://yaml.org
 [4]: https://github.com/sergiokopplin/indigo/blob/gh-pages/_data/social-links.yml
 [5]: https://github.com/sergiokopplin/indigo/blob/gh-pages/_includes/social-links.html
