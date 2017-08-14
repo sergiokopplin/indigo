@@ -13,7 +13,7 @@
 {% for link in links %}
     {% assign link-username = site[link.name] %}
     {% if link-username %}
-    <a target="_blank" class="link" data-title="{{ link.url-prefix }}{{ link-username }}" href="{{ link.scheme | default: '//' }}{{ link.url-prefix }}{{ link-username }}">
+    <a target="_blank" class="link" data-title="{{ link.url-prefix }}{{ link-username }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-prefix }}{{ link-username }}">
         <svg class="icon icon-{{ link.icon | default: link.name }}"><use xlink:href="#icon-{{ link.icon | default: link.name }}"></use></svg>
     </a>
     {% endif %}

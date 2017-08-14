@@ -8,7 +8,8 @@
 #     - part of the site URL prior to username (e.g. facebook.com/)
 #     - must include the trailing slash
 #     - **mandatory** (for non-email type links)
-# `scheme` corresponds to the hardcoded URI/URN scheme (e.g. https://)
+# `url-scheme`
+#     - corresponds to the hardcoded URI/URN url-scheme (e.g. https://)
 #     - can be one of: ['https://', 'http://', 'mailto:']
 #     - defaults to '//'
 #     - **optional**
@@ -65,7 +66,7 @@
 
 - name: lanyrd
   url-prefix: lanyrd.com/
-  scheme: 'http://'
+  url-scheme: 'http://'
   icon: microphone
 
 - name: scholar
@@ -93,5 +94,5 @@
   url-prefix: www.slideshare.net/
 
 - name: email
-  scheme: 'mailto:'
+  url-scheme: 'mailto:'
   icon: mail
