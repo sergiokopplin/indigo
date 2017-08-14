@@ -23,6 +23,7 @@ A recent modification to this functionality makes configuring and maintaining th
 ### Index
 - [Background](#background)
 - [Improvements](#improvements)
+- [Additions for scientific users](#additions-for-scientific-users)
 
 ---
 
@@ -75,6 +76,19 @@ With the existing implementation, it was not very easy to add new links or re-or
     ```
     social-links-order: [github, facebook, twitter, medium, email]
     ```
+
+## Additions for scientific users
+
+For users in the scientific field who wish to link out to relevant resources that track their publication records, citation impact metrics, etc., Indigo now offers a set of scientific social linkouts to the following websites:
+
+- **Google Scholar**
+- **ResearchGate**
+- **Mendeley**
+- **PubMed**
+- **ORCiD**
+- **Impactstory**
+- **figshare**
+- **Slideshare (by LinkedIn)**
 
 [1]: https://github.com/sergiokopplin/indigo/blob/76d0b3c/_includes/social-links.html
 [2]: https://github.com/sergiokopplin/indigo/blob/gh-pages/_includes/icons.html
