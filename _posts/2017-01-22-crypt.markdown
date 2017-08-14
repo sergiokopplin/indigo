@@ -1,0 +1,29 @@
+---
+title: "Crypt: A More Secure Password Manager"
+layout: post
+date: 2017-01-22 22:10
+tag: security
+image: 
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Winner of PennApps XV's Best Use of Encryption Award and Finalist"
+category: project
+author: arun
+externalLink: false
+
+---
+
+![Crypt's mascot](https://camo.githubusercontent.com/8ee567cf7f857ca1c330c8838632bdd427fe18b7/687474703a2f2f692e696d6775722e636f6d2f735a6a75795a702e706e67)
+
+# About
+
+Due to a recent influx in security breaches and an increasing need for privacy, password managers have become incredibly useful for browsing the internet. However, even the most sophisticated password managers (i.e. LastPass) forget one crucial security flaw: email addresses.
+
+Even though more people are beginning to use different passwords for their accounts, they usually use the same email. This presents an opportunity for hackers to group an individual's accounts together using a shared email which is a HUGE security hole.
+
+Crypt solves this by generating cryptographically secure emails that you can sign up for accounts with. All emails are forwarded back to your master email (passwords are encrypted using AES256), preventing hackers from gaining access to all of your accounts if one account is compromised and reassuring your privacy by preventing "email lookup" services from identifying you through a common email.
+
+---
+
+[Check it out](https://getcrypt.co) here or [look at the code](https://github.com/kirubarajan/crypt).

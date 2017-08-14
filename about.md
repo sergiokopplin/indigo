@@ -2,45 +2,38 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Profile Image](https://avatars1.githubusercontent.com/u/6424868?v=4&u=d24618ec74388c7273b99a2509ce7f3944f826a7&s=400)
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>hello world</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>My name is Arun Kirubarajan. I'm currently enrolled in the Artificial Intelligence program at the University of Pennsylvania, where I am pursuing two degrees in Computer Science and Cognitive Science. <br /> <br /> 
+
+I am interested in deep learning, security, and quantitative trading. Reach out to me if you would like to collaborate on a project!</p>
+
+<h2> Fun Facts </h2>
+
+<p> I am an aspiring filmmaker, shawarma enthusiast, and lover of all things Batman-related.</p>
+
+<h2> Work Experience </h2>
+
+<p>Currently a software engineer at TrackGen and a research assistant at McMaster University. Previously a startup founder at MIT. Even more previously a volunteer at a coding nonprofit.</p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Keras</li>
+	<li>NumPy</li>
+	<li>Pandas</li>
+	<li>AWS</li>
+	<li>Linux</li>
+	<li>Node.js</li>
+	<li>React</li>
+	<li>MongoDB</li>
+	<li>SQL</li>
 </ul>
 
 <h2>Projects</h2>
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+I write about the <a href="/projects">projects</a> that I've worked on (how I contributed if a group effort, technical challenges etc.) and interesting efforts in the industry.
+
+I also write <a href="https://medium.com/the-elore-blog">crash courses</a> on various topics in computer science, such as machine learning, software engineering, and security.
