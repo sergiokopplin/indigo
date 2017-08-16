@@ -14,8 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
-
+resume-url: assets/Austin-Tse-Software-resume-8-24-16.pdf
 url: http://austntatious.github.io
 
 permalink: /:title/
