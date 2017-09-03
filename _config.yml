@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Seo Yeon
+bio: Always on going
 
 # twitter summary info
-description: A blog about technology and stuff related
+description:Computer Science & Fragments
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://ASTONISHER.github.io/TodayLearning
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
