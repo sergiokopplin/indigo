@@ -13,4 +13,4 @@ Apart from research, I am very passionate about teaching. Over the last couple o
 
 More information on my academic journey can be found in my CV.
 
-Apart from all this, I love theatre, meeting new people, travelling and reading. Feel free to write to me with any questions or opportunities in teeaching or theatre that you think will interest me. 
+Apart from all this, I love theatre, meeting new people, travelling and reading. Feel free to write to me with any questions or opportunities in teaching or theatre that you think will interest me. 
