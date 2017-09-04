@@ -507,7 +507,7 @@ pre {
 }
 .home,
 .blog,
-.projects,
+.research,
 .research,
 .teaching,
 .consulting /* arti-changes */ {
@@ -515,7 +515,6 @@ pre {
 }
 .home > .list,
 .blog > .list,
-.projects > .list,
 .research > .list,
 .teaching > .list{
   border-top: 1px solid #ededed;
@@ -525,7 +524,6 @@ pre {
 }
 .home > .list:before,
 .blog > .list:before,
-.projects > .list:before,
 .research > .list:before,
 .teaching > .list:before{
   display: block;
@@ -543,7 +541,6 @@ pre {
 }
 .home > .list > .item,
 .blog > .list > .item,
-.projects > .list > .item,
 .research > .list > .item,
 .teaching > .list > .item{
   display: block;
@@ -552,7 +549,6 @@ pre {
 }
 .home > .list > .item > .url,
 .blog > .list > .item > .url,
-.projects > .list > .item > .url,
 .research > .list > .item > .url,
 .teaching > .list > .item > .url{
   width: 100%;
@@ -562,7 +558,6 @@ pre {
 }
 .home > .list > .item > .url > .title,
 .blog > .list > .item > .url > .title,
-.projects > .list > .item > .url > .title,
 .research > .list > .item > .url > .title,
 .teaching > .list > .item > .url > .title{
   margin: 0;
@@ -573,14 +568,12 @@ pre {
 }
 .home > .list > .item:hover > .url > .title,
 .blog > .list > .item:hover > .url > .title,
-.projects > .list > .item:hover > .url > .title,
 .research > .list > .item:hover > .url > .title,
 .teaching > .list > .item:hover > .url > .title{
   color: #4b0082;
 }
 .home > .list aside,
 .blog > .list aside,
-.projects > .list aside,
 .research > .list aside,
 .teaching > .list aside{
   position: relative;
@@ -596,17 +589,14 @@ pre {
 }
 .home > .list .item:hover .url aside,
 .blog > .list .item:hover .url aside,
-.projects > .list .item:hover .url aside,
 .research > .list .item:hover .url aside,
 .teaching > .list .item:hover .url aside{
   color: #666;
 }
-.projects > .list > .item > .url > .title,
 .research > .list > .item > .url > .title,
 .teaching > .list > .item > .url > .title{
   display: inline;
 }
-.projects > .list > .item > .url > .emoji,
 .research > .list > .item > .url > .emoji,
 .teaching > .list > .item > .url > .emoji{
   display: inline;
