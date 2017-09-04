@@ -3,7 +3,7 @@ title: "2016 Reading List"
 layout: post
 tag: books
 img: indigo/indigo.png
-projects: true
+teaching: true
 author: artiannaswamy
 summary: "List of books I'm reading this year, and ongoing reviews as I cross 'em off my list"
 permalink: reading-list
