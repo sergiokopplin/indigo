@@ -50,6 +50,8 @@ github: mygithub
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
+# slideshare: myslideshare
+# speakerdeck: myspeakerdeck
 email: myemail@gmail.com
 
 # if you don't have any scientific social links below, comment the line
@@ -60,7 +62,6 @@ email: myemail@gmail.com
 # orcid: myorcid
 # impactstory: myimpactstory
 # figshare: myfigshare
-# slideshare: myslideshare
 
 # if desired, specify custom order of social links in the array below
 social-links-order: [github, facebook, twitter, medium, email]

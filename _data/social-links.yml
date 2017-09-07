@@ -93,6 +93,9 @@
 - name: slideshare
   url-prefix: www.slideshare.net/
 
+- name: speakerdeck
+  url-prefix: speakerdeck.com/
+
 - name: email
   url-scheme: 'mailto:'
   icon: mail
