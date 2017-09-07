@@ -88,7 +88,6 @@ For users in the scientific field who wish to link out to relevant resources tha
 - **ORCiD**
 - **Impactstory**
 - **figshare**
-- **Slideshare (by LinkedIn)**
 
 [1]: https://github.com/sergiokopplin/indigo/blob/76d0b3c/_includes/social-links.html
 [2]: https://github.com/sergiokopplin/indigo/blob/gh-pages/_includes/icons.html
