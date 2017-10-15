@@ -11,3 +11,5 @@ I graduated my Information Management master's at Alpen-Adria University in Klag
 
 ### Previous Work
 I've been working at [CupoNation GmbH](https://www.cuponation.com) for almost two years as a Software Quality Assurance Engineer.
+
+For more information, please visit my [LinkedIn profile](https://www.linkedin.com/in/kevin-chromik-28464897/).
