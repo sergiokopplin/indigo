@@ -1,6 +1,6 @@
 # main text of home
 name: Kevin Chromik
-bio: "Passionate iOS Developer<br />Sports Enthusiast"
+bio: "iOS Developer<br/>Sports Enthusiast<br/>Hobby Photographer"
 
 description: iOS Developer at Freeletics
 
@@ -52,7 +52,7 @@ twitter: kevinchromik
 authors:
     kchromik:
         name: Kevin Chromik
-        bio: Passionate iOS Developer
+        bio: iOS Developer
         external-image: false
         picture: assets/images/profile.png
         twitter: kevinchromik
@@ -92,5 +92,5 @@ gems:
   - jekyll-seo-tag
   - jekyll-gist
 
-jekyll-mentions:
-    base_url: https://github.com
+#jekyll-mentions:
+#    base_url: https://github.com
