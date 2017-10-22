@@ -66,3 +66,7 @@ Detailed usage information is available on the `Heteromotility` GitHub page.
 Please write to me if you have any difficulty or suggestions for improvements!
 
 [jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com)
+
+## Cell Motility Video Gallery
+
+{% vimeo 239268681 %}
