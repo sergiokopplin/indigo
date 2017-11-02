@@ -105,6 +105,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-admin
 
 jekyll-mentions:
     base_url: https://github.com
