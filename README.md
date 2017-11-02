@@ -42,7 +42,7 @@ If you want to test locally on your machine, do the following steps also:
 4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
 5. Open it in your browser: `http://localhost:4000`
 6. Test your app with `bundle exec htmlproofer ./_site`
-7. Do you want to see your posts? Go to the admin panel: `http://localhost:4000/admin`. More docs about, [here](https://jekyll.github.io/jekyll-admin/).
+7. Do you want to use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) plugin to edit your posts? Go to the admin panel: `http://localhost:4000/admin`. The admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
 
 ## Settings
 
