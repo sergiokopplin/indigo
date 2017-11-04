@@ -44,6 +44,6 @@ layout: page
     {% include author.html %}
 {% endif %}
 
-{% if site.disqus.categories contains page.category %}
+{% if page.comments %}
     {% include disqus.html %}
 {% endif %}

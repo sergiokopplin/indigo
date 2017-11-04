@@ -11,6 +11,7 @@ star: true
 category: blog
 author: johndoe
 description: Markdown summary with different options
+comments: true
 ---
 
 ## Summary:
