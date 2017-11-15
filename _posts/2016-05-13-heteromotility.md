@@ -59,7 +59,7 @@ Detailed usage information is available on the `Heteromotility` GitHub page.
 
 ## Source code
 
-[Heteromotility Github](https://github.com/jacobkimmel/heteromotility)
+[Heteromotility Github](https://github.com/cellgeometry/heteromotility)
 
 ## Help or Suggestions
 
@@ -69,4 +69,4 @@ Please write to me if you have any difficulty or suggestions for improvements!
 
 ## Cell Motility Video Gallery
 
-{% vimeo 239268681 %}
+A gallery of cell motility videos is available on the [Laboratory of Cell Geometry website!](https://cellgeometry.ucsf.edu/heteromotility)
