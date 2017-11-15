@@ -23,6 +23,7 @@ A recent modification to this functionality makes configuring and maintaining th
 ### Index
 - [Background](#background)
 - [Improvements](#improvements)
+- [Compatibility](#compatibility)
 - [Additions for scientific users](#additions-for-scientific-users)
 
 ---
@@ -77,9 +78,15 @@ With the existing implementation, it was not very easy to add new links or re-or
     social-links-order: [github, facebook, twitter, medium, email]
     ```
 
-## Additions for scientific users
+## Compatibility
 
-For users in the scientific field who wish to link out to relevant resources that track their publication records, citation impact metrics, etc., Indigo now offers a set of scientific social linkouts to the following websites:
+These changes are fully backward compatible with the previous social link configuration set in `_config.yml`. No changes are needed as long as you did not make modifications to your own [`_includes/social-links.html`][1].
+
+If you use the new `social-links-order` variable, ensure that you add all the social media names to the list, otherwise they will not show up.
+
+## Additions for scientific/academic users
+
+For users in the scientific/academic fields who wish to link out to relevant resources that track their publication records, citation impact metrics, etc., Indigo now offers a set of scientific social linkouts to the following websites:
 
 - **Google Scholar**
 - **ResearchGate**
