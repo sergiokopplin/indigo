@@ -72,7 +72,7 @@ How do we decide what the "neighborhood" around each pixel we're transforming is
 
 Let's generate a structuring element using Python's `scikit-image` and `numpy` toolsets.
 
-```
+```python
 # import some image processing functions and modules
 from skimage.morphology import binary_erosion, binary_dilation, disk, square
 import numpy as np
@@ -102,7 +102,7 @@ where $\bigcup$ is the union operator, denoting that our final dilated image is 
 What does dilation look like in practice?
 Here, we perform dilation on a single pixel at the center of an image using a disk structuring element. You'll see we create a disk! This makes intuitive sense, as when we scan across the image and perform the $\max$ operation
 
-```
+```python
 # Create a binary image with only 1 pixel 'True' at the center
 I = np.zeros([50, 50])
 I[I.shape[0]//2, I.shape[1]//2] = 1 # set center pixel to 1
@@ -113,7 +113,7 @@ plt.show()
 
 ![One pixel image]( {{site.url}}/assets/images/segment_a_cell/one_px.png)
 
-```
+```python
 # Now dilate the image with a disk structuring element
 I_dil_disk = binary_dilation(I, selem=disk(10))
 plt.imshow(I_dil_disk, cmap='gray')
@@ -131,7 +131,7 @@ Now that we understand dilation, understanding erosion is easy.
 
 We can see how this works when we erode the images we just dilated.
 
-```
+```python
 # Let's erode some of those structuring elements we just dilated
 I_erod_disk = binary_erosion(I_dil_disk, selem=disk(3))
 plt.imshow(I_erod_disk, cmap='gray')
@@ -158,7 +158,7 @@ In grayscale images, the same intuitions apply. Just think of opening as removin
 
 Lets create a bridge that we close, then open.
 
-```
+```python
 # Create a bridge to close and open with morphological operators
 broken_bridge = np.zeros((50,50))
 broken_bridge[24:26, 0:24] = 1
@@ -171,7 +171,7 @@ plt.show()
 
 Let's repair the middle using a morphological closing.
 
-```
+```python
 # Let's fix the bridge using morphological closing
 # Here we use `binary_closing` and a disk structuring
 # element `selem` to define the neighborhood
@@ -187,7 +187,7 @@ plt.show()
 
 Now let's do some demolition instead and get a feel for how morphological opening can disconnect two objects with a small connection.
 
-```
+```python
 # Let's make another bridge, then break it
 sacrificial_bridge = np.zeros((50,50))
 sacrificial_bridge[22:30, 0:21] = 1
@@ -199,7 +199,7 @@ plt.show()
 
 ![Sacrificial Bridge]({{site.url}}/assets/images/segment_a_cell/sacrificial_bridge.png)
 
-```
+```python
 # Controlled demolition, using `binary_opening` with a small disk
 # structuring element `selem` as the neighborhood
 demolished_bridge = binary_opening(sacrificial_bridge, selem=disk(1))
@@ -236,7 +236,7 @@ Sobel's edge finding algorithm is an old-school, reliable place to start. As not
 
 `scikit-image` has a handy `sobel` function, but let's do this from scratch to remove some of the magic.
 
-```
+```python
 # Build Sobel filter for the x dimension
 s_x = np.array([[1, 0, -1],
                 [2, 0, -2],
@@ -249,7 +249,7 @@ print(s_y)
 
 This will return our filters. Notice how `s_x` finds edges with bright pixels on one side, and dimmer pixels on the other, and the same for `s_y` in the vertical direction.
 
-```
+```python
 # s_x
 [[ 1  0 -1]
  [ 2  0 -2]
@@ -263,7 +263,7 @@ This will return our filters. Notice how `s_x` finds edges with bright pixels on
 
 Now, we just convolve our image `I` with both kernels and add the responses together to estimate the gradient `G`. Note, we're only checking the kernels in one direction. This means `s_x` responds with positive values for edges that are bright on the left, dark on the right, and negative values for edges that are dark on the left, bright on the right. All we need to do to account for this is square both responses and calculate the gradient `G` as the square root of their sum.
 
-```
+```python
 # Convolve with s_x and s_y
 from scipy.ndimage.filters import convolve
 
@@ -282,7 +282,7 @@ Look how well that worked!
 
 Let's double check we did it properly using the `scikit-image` implementation.
 
-```
+```python
 # Let's check that our homemade version is the same
 # as the result from the sobel() function
 # made by the pros
@@ -300,7 +300,7 @@ So, now we have an outline of the cell, but we need to get from our intensity im
 
 Otsu's threshold as described above is perfect for this task. Let's try it out.
 
-```
+```python
 # Threshold on edges
 from skimage.filters import threshold_otsu
 
@@ -317,7 +317,7 @@ plt.show()
 
 You'll see there's some grainy noise in the image. Let's clear small objects to get rid of this.
 
-```
+```python
 # Let's clear any small object noise
 from skimage.morphology import remove_small_objects
 bw_cleared = remove_small_objects(bw, 300) # clear objects <300 px
@@ -331,7 +331,7 @@ plt.show()
 
 Now let's use morphological closing to connect the gaps between edges.
 
-```
+```python
 # Let's close the edges of the outline with morphological closing
 bw_close = binary_closing(bw_cleared, selem=disk(5))
 plt.imshow(bw_close, cmap='gray')
@@ -342,7 +342,7 @@ plt.show()
 
 That looks pretty good! Now let's fill in that one hole in the center. This uses one of the binary tools from `scipy.ndimage`.
 
-```
+```python
 # Now let's fill in the holes
 from scipy.ndimage import binary_fill_holes
 bw_fill = binary_fill_holes(bw_close)
@@ -355,7 +355,7 @@ plt.show()
 That looks pretty good!
 Let's look at an overlay to make sure.
 
-```
+```python
 # Plot an overlay of our binary image
 f = plt.figure()
 plt.imshow(I, cmap='gray', interpolation=None)
