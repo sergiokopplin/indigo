@@ -23,45 +23,10 @@ To do so, we rely on the `torch.Tensor.scatter_()` function, which fills the tar
 Below is a quick function I threw together to convert 2D integer labels to 2D one-hot labels, which can easily be altered for a different input/output dimensionality.
 See the [Gist here](https://gist.github.com/jacobkimmel/4ccdc682a45662e514997f724297f39f).
 
-```python
-import torch
-from torch.autograd import labels
-def make_one_hot(labels):
-    '''
-    Converts an integer label Tensor/Variable to a one-hot variable.
-
-    Parameters
-    ----------
-    labels : torch.Tensor or torch.Variable
-        N x H x W, where N is batch size.
-        Each value is an integer representing correct classification.
-
-    Returns
-    -------
-    target : torch.LongTensor or torch.Variable
-        N x C x H x W, where C is class number. One-hot encoded.
-        Returns `Variable` if `Variable` is given as input, otherwise
-        returns `torch.LongTensor`.
-    '''
-    v = False
-    if isinstance(labels, torch.autograd.variable.Variable):
-        labels = labels.data
-        v = True
-
-    C = labels.max() + 1
-    labels_ = labels.unsqueeze(1)
-    one_hot = torch.LongTensor(labels_.size(0), C, labels_.size(2), labels_.size(3)).zero_()
-    target = one_hot.scatter_(1, labels_, 1)
-
-    if v and torch.cuda.is_available():
-        target = Variable(target)
-
-    return target
-```
+<script src="https://gist.github.com/jacobkimmel/4ccdc682a45662e514997f724297f39f.js"></script>
 
 
 Let's see this in action.
-
 
 ```python
 >> labels = torch.LongTensor(4,4) % 3
