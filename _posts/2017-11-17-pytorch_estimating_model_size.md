@@ -86,7 +86,7 @@ for i in range(len(sizes)):
 print(total_bits) # 148480
 ```
 
-Calculating the size of intermediate variables in PyTorch is a bit trickier. Since PyTorch uses dynamic computational graphs, the output size of each layer in a network isn't defined *a priori* like it is in "define-and-run" frameworks. In order to account for dimensionality changes in a general way that supports even custom layers, we need to actual run a sample through a layer and see how its size changes. Here, we'll do that with a dummy variable with the `volatile = True` parameter set to use minimal resources for this probing sojourn.
+Calculating the size of intermediate variables in PyTorch is a bit trickier. Since PyTorch uses dynamic computational graphs, the output size of each layer in a network isn't defined *a priori* like it is in "define-and-run" frameworks. In order to account for dimensionality changes in a general way that supports even custom layers, we need to actually run a sample through a layer and see how its size changes. Here, we'll do that with a dummy variable with the `volatile = True` parameter set to use minimal resources for this probing sojourn.
 
 ```python
 input_ = Variable(torch.FloatTensor(*self.input_size), volatile=True)
@@ -104,7 +104,7 @@ for i in range(len(self.out_sizes)):
     bits = np.prod(np.array(s))*self.bits
     total_bits += bits
 
-# multiple by 2
+# multiply by 2
 # we need to store values AND gradients
 total_bits *= 2
 print(total_bits) # 4595712
