@@ -40,7 +40,7 @@ where $z_t$ is an update gate at time $t$, $r_t$ is a reset gate at time $t$, an
 
 With this simple restatement, our GRU now preserves spatial information!
 
-I was interested in using these units for some recent experiments, so I reimplemented them in [PyTorch](https://pytorch.org) with lots of inspiration from [@halochou's gist](https://gist.github.com/halochou/acbd669af86ecb8f988325084ba7a749) and [the PyTorch RNN source.](http://pytorch.org/docs/master/_modules/torch/nn/modules/rnn.html#RNN)
+I was interested in using these units for some recent experiments, so I reimplemented them in [PyTorch](https://pytorch.org), borrowing heavily from [@halochou's gist](https://gist.github.com/halochou/acbd669af86ecb8f988325084ba7a749) and [the PyTorch RNN source.](http://pytorch.org/docs/master/_modules/torch/nn/modules/rnn.html#RNN)
 
 My implementation is [available on Github as `pytorch_convgru`](https://github.com/jacobkimmel/pytorch_convgru). The implementation currently supports multi-cell layers with different hidden state depths and kernel sizes. Currently, the spatial dimensions of the input are preserved by zero padding in the module. If you want to change the spatial dimensions in the ConvGRU, you can simply place a `.view()` op that implements your desired transformation between two separate `ConvGRU` modules.
 
