@@ -12,7 +12,7 @@ use_math: true
 
 Deep neural networks can be incredibly powerful models, but the vanilla variety suffers from a fundamental limitation. DNNs are built in a purely linear fashion, with one layer feeding directly into the next. Once a forward pass is made, vanilla DNNs don't retain any "memory," of the inputs they've seen before outside the parameters of the model itself. In many circumstances, this is totally fine! The classic supervised image classification task is a good example. A model doesn't need to "remember," anything about the inputs it saw previously, outside the parameters of the model, in order to demonstrate super-human performance. There is no temporal relationship between the examples shown to a simple supervised classification network competing on the traditional ImageNet or CIFAR datasets.
 
-But what about situations where temporal relationships do exist? Where "remembering," the last input you've seen is beneficial to understanding the current one? To allow neural networks to "remember," [recurrent units](https://en.wikipedia.org/wiki/Recurrent_neural_network?oldformat=true) have been developed that allow the network to store memory of previous inputs in a "hidden state" $h$. Recurrent units in the most general sense were demonstrated [as early as 1982](http://www.pnas.org/content/79/8/2554.abstract). However, the earliest recurrent neural networks (RNNs) were difficult to train on data with long-term temporal relationships due to the problem of vanishing gradients [(Bengio 1994)](http://ieeexplore.ieee.org/document/279181/). [Long- short-term memory units (LSTMs)](https://en.wikipedia.org/wiki/Long_short-term_memory?oldformat=true) and their somewhat simpler relative [gated recurrent units (GRUs)](https://en.wikipedia.org/wiki/Gated_recurrent_unit?oldformat=true) have arisen as the recurrent unit of choice to solve these issues, and allow standard training by backpropogation. Chris Olah has [an incredibly lucid explanation of how both of these units work](https://en.wikipedia.org/wiki/Gated_recurrent_unit?oldformat=true).
+But what about situations where temporal relationships do exist? Where "remembering," the last input you've seen is beneficial to understanding the current one? To allow neural networks to "remember," [recurrent units](https://en.wikipedia.org/wiki/Recurrent_neural_network?oldformat=true) have been developed that allow the network to store memory of previous inputs in a "hidden state" $h$. Recurrent units in the most general sense were demonstrated [as early as 1982](http://www.pnas.org/content/79/8/2554.abstract). However, the earliest recurrent neural networks \(RNNs\) were difficult to train on data with long-term temporal relationships due to the problem of vanishing gradients [\(Bengio 1994\)](http://ieeexplore.ieee.org/document/279181/). [Long- short-term memory \(LSTMs\)](https://en.wikipedia.org/wiki/Long_short-term_memory?oldformat=true) and their somewhat simpler relative [gated recurrent units \(GRUs\)](https://en.wikipedia.org/wiki/Gated_recurrent_unit?oldformat=true) have arisen as the recurrent unit of choice to solve these issues, and allow standard training by backpropogation. Chris Olah has [an incredibly lucid explanation of how both of these units work](https://en.wikipedia.org/wiki/Gated_recurrent_unit?oldformat=true).
 
 Both LSTMs and GRUs were originally conceived as fully connected layers. Implementing transformations of the general form
 
@@ -22,18 +22,18 @@ where $g$ is the output of a "gate" within the recurrent unit, $\sigma$ is the s
 
 In this form, it's obvious that any spatial relationships which exist in the input $x_t$ are lost by the simple linear matrix multiplication of $W x_t$. In the case of image based inputs, it is likely advantageous to preserve this information.
 
-Enter: convolutional gated recurrent units.
+**Enter: convolutional gated recurrent units.**
 
 [Ballas *et. al.*](https://arxiv.org/abs/1511.06432) have recently explored a convolutional form of the traditional gated recurrent unit to learn temporal relationships between images of a video. Their formulation of the convolutional GRU simply takes the standard linear GRU
 
-$$z_t = \sigma_g(W_z x_t + U_z h_{t-1} + b_z)$$
-$$r_t = \sigma_g(W_r x_t + U_r h_{t-1} + b_z)$$
+$$z_t = \sigma_g(W_z x_t + U_z h_{t-1} + b_z)$$  
+$$r_t = \sigma_g(W_r x_t + U_r h_{t-1} + b_z)$$  
 $$h_t = z_t \circ h_{t-1} + (1 - z_t) \circ \sigma_h(W_h x_t + U_h(r_t \circ h_{t-1}) + b_h)$$
 
 and replaces the matrix multiplications with convolutions
 
-$$z_t = \sigma_g(W_z \star x_t + U_z \star h_{t-1} + b_z)$$
-$$r_t = \sigma_g(W_r \star x_t + U_r \star h_{t-1} + b_z)$$
+$$z_t = \sigma_g(W_z \star x_t + U_z \star h_{t-1} + b_z)$$  
+$$r_t = \sigma_g(W_r \star x_t + U_r \star h_{t-1} + b_z)$$  
 $$h_t = z_t \circ h_{t-1} + (1 - z_t) \circ \sigma_h(W_h \star x_t + U_h \star (r_t \circ h_{t-1}) + b_h)$$
 
 where $z_t$ is an update gate at time $t$, $r_t$ is a reset gate at time $t$, and $h_t$ is the updated hidden state at time $t$.
