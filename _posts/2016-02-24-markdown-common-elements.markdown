@@ -157,6 +157,7 @@ Markdown can also contain images. I'll need to add something here sometime.
 
 ---
 
+---
 ## Code
 
 A HTML Example:

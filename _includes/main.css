@@ -505,8 +505,7 @@ pre {
   margin: 0;
   width: 75%;
   font-weight: 500;
-  -webkit-transition: all ease-in-out 0.2s;
-          transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 .home > .list > .item:hover > .url > .title,
 .blog > .list > .item:hover > .url > .title,
@@ -524,8 +523,7 @@ pre {
   font-weight: 300;
   color: #aaa;
   text-align: right;
-  -webkit-transition: all ease-in-out 0.2s;
-          transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 .home > .list .item:hover .url aside,
 .blog > .list .item:hover .url aside,
@@ -655,8 +653,7 @@ pre {
   margin: 0;
   width: 75%;
   font-weight: 400;
-  -webkit-transition: all ease-in-out 0.2s;
-          transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
   font-size: 1.6rem;
 }
 .tag-list > .list > .item:hover > .url > .title {
@@ -671,8 +668,7 @@ pre {
   font-weight: 300;
   color: #aaa;
   text-align: right;
-  -webkit-transition: all ease-in-out 0.2s;
-          transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
   font-size: 1.6rem;
 }
 .tag-list > .list .item:hover .url aside {
@@ -801,8 +797,7 @@ pre {
 .footer-main > .link > .icon {
   width: 15px !important;
   fill: #aaa !important;
-  -webkit-transition: ease-in-out all 0.3s;
-          transition: ease-in-out all 0.3s;
+  transition: ease-in-out all 0.3s;
   position: relative;
   top: 3px;
   display: inherit;
@@ -819,8 +814,7 @@ pre {
   color: #222;
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  -webkit-transition: ease-in-out all 0.3s;
-          transition: ease-in-out all 0.3s;
+  transition: ease-in-out all 0.3s;
   padding-bottom: 1px;
 }
 .footer-main > .extra > .link:hover {
@@ -835,8 +829,7 @@ pre {
   width: 125px;
   margin-bottom: 25px;
   border-radius: 100%;
-  -webkit-transition: all 0.2s;
-          transition: all 0.2s;
+  transition: all 0.2s;
   box-shadow: 0;
   opacity: 1;
 }
@@ -901,22 +894,19 @@ pre {
   padding: 7px 15px;
   margin: 0;
   border-radius: 4%;
-  -webkit-transition: all 0.4s ease-in-out;
-          transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   width: 70px;
 }
 .nav-home > .list > .item > .link:hover {
   color: #666;
 }
 .evidence {
-  background-image: -webkit-linear-gradient(top, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
   background-image: linear-gradient(to bottom, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
   color: #222;
 }
 .star > .url > .title {
   width: auto !important;
   display: inline;
-  background-image: -webkit-linear-gradient(top, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
   background-image: linear-gradient(to bottom, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
 }
 .twitter-tweet {
@@ -1153,8 +1143,8 @@ pre {
   height: 22px;
   line-height: 22px;
   opacity: 0;
-  -webkit-transition: opacity 150ms linear, -webkit-transform 150ms linear, -webkit-transform 150ms linear;
-          transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear;
+  transition: opacity 150ms linear, -webkit-transform 150ms linear, -webkit-transform 150ms linear;
+  transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear;
   -webkit-transform: translate3d(0, -8px, 0);
           transform: translate3d(0, -8px, 0);
   z-index: 99;
@@ -1170,8 +1160,8 @@ pre {
   border-right: 5px solid transparent;
   border-bottom: 6px solid #222;
   opacity: 0;
-  -webkit-transition: opacity 150ms linear, -webkit-transform 150ms linear, -webkit-transform 150ms linear;
-          transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear;
+  transition: opacity 150ms linear, -webkit-transform 150ms linear, -webkit-transform 150ms linear;
+  transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear;
   -webkit-transform: translate3d(0, -8px, 0);
           transform: translate3d(0, -8px, 0);
   z-index: 100;
@@ -1182,6 +1172,5 @@ pre {
           transform: translate3d(0, 0, 0);
 }
 .social-links > .icon {
-  -webkit-transition: all ease-in-out 0.2s;
-          transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
 }
