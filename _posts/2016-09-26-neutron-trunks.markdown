@@ -9,7 +9,12 @@ tag:
 - blog
 - neutron
 - openstack
+- trunks
+- vlan
+- tagging
+- newton
 blog: true
+star: false
 author: jamesdenton
 description: VLAN trunking in Neutron (vlan-aware-vms)
 ---
@@ -18,6 +23,7 @@ One of the features I've been looking forward to for the last few release cycles
 
 In a traditional network, a trunk is a type of interface that carries multiple VLANs, and is defined by the 802.1q standard. Trunks are often used to connect multiple switches together and allow for VLAN sprawl across the network.
 
+<!--more-->
 With the advent of the hypervisor, trunks were a popular way for a server to host machines from multiple networks using a single interface. In an OpenStack cloud, most compute nodes have one or more interfaces that are configured as trunks and host virtual machines on many different networks. When virtual machines required connections to multiple networks, the solution was to multi-home them by assigning multiple interfaces, resulting in `eth0`, `eth1`, `eth2`, etc., inside the virtual machine and respective connections to the virtual switch(es) on the compute node. This is problematic for certain types of virtual machines, as they may have a limited number of interfaces that can be attached to them. This is especially seen with VNFs like virtual firewalls, load balancers, etc. provided by popular third-party vendors.
 
 ## Prerequisites
@@ -27,7 +33,7 @@ Not only do you need a version of OpenStack that supports the feature, but also 
 
 ## Configuration changes
 
-If you're not using OpenStack-Ansible to manage your environment, you'll want to make the following change to the `neutron.conf` file on the host(s) running the Neutron API and restart the `neutron-server` service:
+If you're not using OpenStack-Ansible to manage your environment, you'll want to add the `trunk` service plugin to the existing list of service plugins in the `neutron.conf` file on the host(s) running the Neutron API and restart the `neutron-server` service:
 
 ```
 [neutron.conf]
@@ -168,7 +174,7 @@ When creating child ports, or any port for that matter, Neutron dynamically assi
 
 ### Create the trunk
 
-.. Describe the purpose of the trunk ..
+In Neutron, a VLAN trunk allows multiple networks to be connected to an instance using a single virtual NIC (vNIC). To create the trunk, use the `openstack network trunk create` command and specify a single parent port and one of more child ports:
 
 ```
 Syntax:
@@ -223,6 +229,7 @@ MyInstance
 ```
 
 The `openstack server list` command can be used to validate the server is ACTIVE. At this time, only the IP address of the parent port attached to the instance at boot can be observed in the output:
+
 ```
 # openstack server list
 +--------------------------------------+------------+---------+-----------------------------------------------+---------------+
@@ -260,8 +267,8 @@ ubuntu@myinstance:~$ ip a
     inet6 fe80::f816:3eff:fea2:a23d/64 scope link
        valid_lft forever preferred_lft forever
 ```
-From Neutron's perspective, the `eth0` interface will be treated as a trunk interface and will support VLAN tagging as long as the VLAN tag matches that of an associated child port. In a previous step, the child port associated with the trunk had the following attributes:
 
+From Neutron's perspective, the `eth0` interface will be treated as a trunk interface and will support VLAN tagging as long as the VLAN tag matches that of an associated child port. In a previous step, the child port associated with the trunk had the following attributes:
 
 ```
 segmentation_id: 190
@@ -395,5 +402,7 @@ rtt min/avg/max/mdev = 0.434/0.434/0.434/0.000 ms
 
 ### Summary
 
-In my limited experience so far, the VLAN trunking feature has worked flawlessly in my environment consisting of three infra nodes and a single compute node in a fairly-close-to-reference OpenStack-Ansible-based architecture. I have deviated, though, due to my use of Open vSwitch rather than LinuxBridge in this Newton-based installation. From what I can tell, both the Open vSwitch and LinuxBridge drivers will support the VLAN trunking feature. It will definitely come in handy with another project I'm working on leveraging third-party vendor virtual networking devices. 
+In my limited experience so far, the VLAN trunking feature has worked flawlessly in my environment consisting of three infra nodes and a single compute node in a fairly-close-to-reference OpenStack-Ansible-based architecture. I have deviated, though, due to my use of Open vSwitch rather than LinuxBridge in this Newton-based installation. From what I can tell, both the Open vSwitch and LinuxBridge drivers will support the VLAN trunking feature. There will likely be bugs encountered along the way, but it's a feature that is much needed to meet today's requirements for networking in the cloud. 
+
+If you have any questions about this feature, notice any issues with the writeup, or would like to learn more about some other feature in Neutron, please hit me up on Twitter!
 

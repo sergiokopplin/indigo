@@ -4,5 +4,15 @@
             <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
             <h3 class="title">{{ post.title }}</h3>
         </a>
+        {{ post.excerpt }}
+	{% capture content_words %} 
+      	    {{ post.content | number_of_words }} 
+    	{% endcapture %} 
+    	{% capture excerpt_words %} 
+            {{ post.excerpt | number_of_words }} 
+    	{% endcapture %} 
+    	{% if excerpt_words != content_words %}
+    	    <p><a class="btn btn-sm btn-primary" href="{{ post.url }}" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a></p>
+	{% endif %}
     </div>
 {% endif %}
