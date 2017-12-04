@@ -14,9 +14,6 @@ external-image: false
 picture: assets/images/profile.jpg
 
 url: http://www.jimmdenton.com
-#url: http://127.0.0.1:4000
-# your url: http://USERNAME.github.io
-
 permalink: /:title/
 
 markdown: kramdown
