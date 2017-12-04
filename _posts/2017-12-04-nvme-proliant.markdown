@@ -1,5 +1,5 @@
 ---
-title: "Using am NVMe to PCIe adapter in an HP Proliant DL360e G8"
+title: "Using an NVMe to PCIe adapter in an HP Proliant DL360e G8"
 layout: post
 date: 2017-12-04
 image: /assets/images/2017-12-01-nvme-proliant/ricky-bobby.png
@@ -15,7 +15,7 @@ tag:
 - openstack-ansible
 blog: true
 author: jamesdenton
-description: Using am NVMe to PCIe adapter in an HP Proliant DL360e G8
+description: Using an NVMe to PCIe adapter in an HP Proliant DL360e G8
 ---
 
 Like many homelabbers, my home lab consists of machines and equipment that was procured from eBay or the dark alleys of Craigslist. In its heyday, my gear wasn't breaking performance records, but it's still useful as an all-purpose virtualization and sometimes-baremetal platform, and that's exactly what I was looking for.
