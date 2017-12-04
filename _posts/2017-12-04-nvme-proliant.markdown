@@ -161,5 +161,5 @@ min/avg/max/mdev = 277 us / 313 us / 6.74 ms / 83 us
 
 ## Summary
 
-Overall, I'm pleased with the way this turned out, and hope that others wanting to leverage NVMe->PCIe adapters in an older Proliant will remember to turn to those slower SATA disks before giving up. The speed increase alone is worth the $15 I paid for each adapter, and nothing feels better than putting dormant hardware to use.
+Overall, I'm pleased with the way this turned out, and hope that others wanting to leverage NVMe to PCIe adapters in an older Proliant will remember to turn to those slower SATA disks before giving up. I definitely think I can improve on the performance seen here, but that may mean moving this to the other slot or tuning some other knobs. The speed increase seen here is worth the $15 I paid for each adapter, and nothing feels better than putting dormant hardware to use.
 
