@@ -84,7 +84,7 @@ root@hp01:/home/jdenton# sync; dd if=/dev/zero of=/var/log/tempfile bs=1M count=
 4294967296 bytes (4.3 GB, 4.0 GiB) copied, 42.1565 s, 102 MB/s
 ```
 
-##### SSD
+##### NVMe SSD
 ```
 root@hp01:/home/jdenton# sync; dd if=/dev/zero of=/tmp/tempfile bs=1M count=4096; sync
 4096+0 records in
@@ -102,7 +102,7 @@ root@hp01:/home/jdenton# dd if=/var/log/tempfile of=/dev/null bs=1M count=4096
 4294967296 bytes (4.3 GB, 4.0 GiB) copied, 35.3813 s, 121 MB/s
 ```
 
-##### SSD
+##### NVMe SSD
 ```
 root@hp01:/home/jdenton# dd if=/tmp/tempfile of=/dev/null bs=1M count=4096
 4096+0 records in
@@ -120,7 +120,7 @@ root@hp01:~/ioping# hdparm -Tt /dev/sda
  Timing buffered disk reads: 364 MB in  3.00 seconds = 121.20 MB/sec
 ```
 
-#### SSD
+#### NVMe SSD
 ```
 root@hp01:~/ioping# hdparm -Tt /dev/nvme0n1
 
@@ -145,7 +145,7 @@ root@hp01:~/ioping# ioping -RL /dev/sda
 min/avg/max/mdev = 1.16 ms / 2.08 ms / 26.8 ms / 901 us
 ```
 
-##### SSD
+##### NVMe SSD
 ```
 root@hp01:~/ioping# ioping -R /dev/nvme0n1
 
@@ -157,6 +157,95 @@ root@hp01:~/ioping# ioping -RL /dev/nvme0n1
 --- /dev/nvme0n1 (block device 238.5 GiB) ioping statistics ---
 9.18 k requests completed in 3.00 s, 3.19 k iops, 797.5 MiB/s
 min/avg/max/mdev = 277 us / 313 us / 6.74 ms / 83 us
+```
+
+### Sysbench
+
+##### SATA
+```
+root@hp01:/home/jdenton# sysbench --test=fileio --file-total-size=192G --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from timer.
+
+
+Extra file open flags: 0
+128 files, 1.5Gb each
+192Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Operations performed:  28800 Read, 19200 Write, 61361 Other = 109361 Total
+Read 450Mb  Written 300Mb  Total transferred 750Mb  (2.4999Mb/sec)
+  159.99 Requests/sec executed
+
+Test execution summary:
+    total time:                          300.0106s
+    total number of events:              48000
+    total time taken by event execution: 137.3199
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  2.86ms
+         max:                                 86.53ms
+         approx.  95 percentile:              11.77ms
+
+Threads fairness:
+    events (avg/stddev):           48000.0000/0.00
+    execution time (avg/stddev):   137.3199/0.00
+
+```
+
+##### NVMe SSD
+```
+root@hp01:~/files# sysbench --test=fileio --file-total-size=192G --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from timer.
+
+
+Extra file open flags: 0
+128 files, 1.5Gb each
+192Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Operations performed:  195660 Read, 130440 Write, 417378 Other = 743478 Total
+Read 2.9855Gb  Written 1.9904Gb  Total transferred 4.9759Gb  (16.984Mb/sec)
+ 1087.00 Requests/sec executed
+
+Test execution summary:
+    total time:                          300.0005s
+    total number of events:              326100
+    total time taken by event execution: 15.6276
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.05ms
+         max:                                  4.72ms
+         approx.  95 percentile:               0.12ms
+
+Threads fairness:
+    events (avg/stddev):           326100.0000/0.00
+    execution time (avg/stddev):   15.6276/0.00
 ```
 
 ## Summary
