@@ -2,7 +2,7 @@
 title: "Installing the Cisco NX-OSv on VMWare ESXi 6.5"
 layout: post
 date: 2017-12-17
-image: /assets/images/2017-12-01-nvme-proliant/square-peg.png
+image: /assets/images/2017-12-17-nxosv-on-esxi/square-peg.png
 headerImage: true
 tag:
 - blog
