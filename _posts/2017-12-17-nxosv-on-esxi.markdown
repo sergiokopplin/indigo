@@ -20,7 +20,7 @@ description: Installing the Cisco NX-OSv on VMWare ESXi 6.5
 A colleague recently mentioned the Cisco NX-OSv 9000, a virtual platform that simulates the control plane of a Cisco Nexus 9000-based device. Supposedly, it's the same software image that runs on the Cisco Nexus 9000 series without any sort of hardware emulation. The idea is that engineers can develop scripts, test maintenance plans, and learn device configurations quicker and cheaper against the NX-OSv versus using hardware alone. Not a bad argument.
 <!--more-->
 
-Intrigued, I downloaded the virtual image earlier this evening with the end goal of implementing some form of OpenStack Neutron integration over the next few weeks. I'm hoping to leverage the Cisco Nexus mechanism driver to configure and manage a set of these virtual NX-OSv top-of-rack (ToR) switches, but I'm not holding my breath based on the lack of recent tagged releases available in the public GitHub repository at [https://github.com/openstack/networking-cisco](https://github.com/openstack/networking-cisco).
+Intrigued, I downloaded the virtual image earlier this evening with the end goal of implementing some form of OpenStack Neutron integration over the next few weeks. I'm hoping to leverage the Cisco Nexus mechanism driver to configure and manage a set of these virtual NX-OSv top-of-rack (ToR) switches using the releases available at the following GitHub repository: [https://github.com/openstack/networking-cisco](https://github.com/openstack/networking-cisco).
 
 # Installation
 
