@@ -2,7 +2,7 @@
 title: "Using the Cisco ASR1k Router Service Plugin in OpenStack - Part 1"
 layout: post
 date: 2017-12-25
-image: /assets/images/2017-12-25-networking-cisco-asr-l3-install/homer-simpson-1.png
+image: /assets/images/2017-12-25-networking-cisco-asr-l3-install/clockwise-intersection-sign.png
 headerImage: true
 tag:
 - blog
