@@ -532,4 +532,4 @@ The number of routers that can be created in a particular environment may vary b
 
 If you run into a bug or operation that results in a traceback, the routers may not be implemented properly and may not work at all. Until the issue is resolved, the agent may forever be unable to move forward with the changes being reverted or the agent being restarted. Be sure to check the Neutron and Cisco CFG Agent logs when things aren't working as expected.
 
-The next blog in this series will walk through the process of creating Neutron routers and attaching interfaces using the OpenStack API, and I will demonstrate how those routers are constructed on the Cisco ASR device. In the meantime, feel free to hit me up on Twitter at @jimmdenton with any questions or corrections.
+The next blog in this series will walk through the process of creating and assigning Floating IPs using the OpenStack API. We'll take a look at how floating IPs are constructed on the Cisco ASR device, and maybe cover some other details or gotchas that we run into. In the meantime, feel free to hit me up on Twitter at @jimmdenton with any questions or corrections.
