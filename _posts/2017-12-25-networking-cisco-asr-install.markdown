@@ -19,8 +19,12 @@ description: Using the Cisco ASR1k Neutron Plugin on OpenStack Ocata - Part 1
 
 ---
 
-As part of my ongoing effort to test L2 mechanism drivers and L3 drivers for OpenStack Neutron, this blog series will document my experience installing and using the Neutron L3 plugin for the Cisco Aggregation Services Router, otherwise known as the Cisco ASR. Cisco hosts these drivers for OpenStack at [https://github.com/openstack/networking-cisco](https://github.com/openstack/networking-cisco).
+2018 is calling, and I've been involved with OpenStack for the better part of six years. I've seen the 'Stack mature greatly over that time, Neutron included. I'm very familiar with stock Neutron components, to include namespace-based routers, openvswitch and linuxbridge mechanism drivers, DVR, etc. My overall goal with this series is to wade through various vendor offerings and see how they improve upon those stock Neutron components. First up is one of the plugins offered by Cisco for the Cisco Aggregation Services Router, otherwise known as the Cisco ASR, known as the **Cisco ASR1k Router Service Plugin**. 
+
 <!--more-->
+Cisco hosts this plugin, along with others, at [https://github.com/openstack/networking-cisco](https://github.com/openstack/networking-cisco).
+
+# Features and Limitations
 
 Cisco [documentation](http://networking-cisco.readthedocs.io/en/latest/admin/l3-asr1k.html) states the following features are provided by the L3 router service plugin:
 
@@ -38,10 +42,10 @@ The Cisco L3 router service plugin relies on two components:
 
 The device manager plugin manages a repository in which Cisco ASR 1000-series routers are registered. An ASR1k router in the DMP repository is referred to as a *hosting device*. The configuration agent is a standalone service that monitors hosting devices as well as performs configurations in them upon instruction from the Layer 3 plugin or the device manager plugin. Multiple configuration agents can be installed within a single environment, but that configuration is out of scope here.
 
-The following limitations are noted within the documentation:
+The following limitations are also noted within the documentation:
 
-* The neutron deployment must use VLAN-based network segmentation
-* Access to Nova’s Metadata service via Neutron routers is not supported. Instead, the DHCP service can provide a classless static route to instances or config-drive can be used. 
+* The neutron deployment must use VLAN-based network segmentation. VXLAN is not supported.
+* Access to Nova’s Metadata service via Neutron routers is not supported. Instead, the DHCP service can provide a classless static route for metadata to instances or config-drive can be used. 
 * Only one router can be attached to a particular internal Neutron network. If a user attempts to attach a router to an internal network that already has another router attached to it, the L3 plugin will reject the request.
 
 # Environment
