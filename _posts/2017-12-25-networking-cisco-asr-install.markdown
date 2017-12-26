@@ -19,7 +19,7 @@ description: Using the Cisco ASR1k Router Service Plugin in OpenStack - Part 1
 
 ---
 
-2018 is calling, and I've been involved with OpenStack for the better part of six years. I've seen the 'Stack mature greatly over that time, Neutron included. I'm very familiar with stock Neutron components, to include namespace-based routers, openvswitch and linuxbridge mechanism drivers, DVR, etc. My overall goal with this series is to wade through various vendor offerings and see how they improve upon those stock Neutron components. First up is one of the plugins offered by Cisco for the Cisco Aggregation Services Router, otherwise known as the Cisco ASR, known as the **Cisco ASR1k Router Service Plugin**. 
+2018 is calling, and I've been involved with OpenStack for the better part of six years. I've seen the 'Stack mature greatly over that time, Neutron included. I'm very familiar with stock Neutron components, to include namespace-based routers, openvswitch and linuxbridge mechanism drivers, DVR, etc. My overall goal with this series is to wade through various vendor offerings and see how they improve upon those stock Neutron components. First up is one of the plugins offered by Cisco for the Cisco Aggregation Services Router (ASR) known as the **Cisco ASR1k Router Service Plugin**. 
 
 <!--more-->
 Cisco hosts this plugin, along with others, at [https://github.com/openstack/networking-cisco](https://github.com/openstack/networking-cisco).
@@ -35,12 +35,12 @@ Cisco [documentation](http://networking-cisco.readthedocs.io/en/latest/admin/l3-
 * Static routes on neutron routers
 * HSRP-based high availability (HA) whereby a neutron router is supported by two (or more) ASR1k routers, one actively doing L3 forwarding, the others ready to take over in case of disruptions
 
-The Cisco L3 router service plugin relies on two components:
+To accomplish this, the Cisco L3 router service plugin relies on two components:
 
 * Device manager plugin (DMP)
 * Configuration agent (CFGA)
 
-The device manager plugin manages a repository in which Cisco ASR 1000-series routers are registered. An ASR1k router in the DMP repository is referred to as a *hosting device*. The configuration agent is a standalone service that monitors hosting devices as well as performs configurations in them upon instruction from the Layer 3 plugin or the device manager plugin. Multiple configuration agents can be installed within a single environment, but that configuration is out of scope here.
+The device manager plugin manages a repository in which Cisco ASR 1000-series routers are registered. An ASR1k router in the DMP repository is referred to as a **hosting device**. The configuration agent is a standalone service that monitors hosting devices and performs configurations in them upon instruction from the Layer 3 plugin *or* the device manager plugin. 
 
 The following limitations are also noted within the documentation:
 
@@ -97,7 +97,7 @@ The following diagram represents at a high-level the connections used by the Ope
 
 ![<img>](/assets/images/2017-12-25-networking-cisco-asr-l3-install/base-asr-diagram.png)
 
-Interface `g0` is the management interface of the ASR, while `g0/0/0` and `g0/0/2` will be configured for management by the Cisco L3 plugin later in this walkthough. The trunks for both the ASR and the OpenStack host carry tenant VLANs 700-799 that will be used within this environment. 
+Interface `g0` is the management interface of the ASR that Neutron will use to manage the device, while `g0/0/0` and `g0/0/2` will be configured and leveraged for tenant router traffic. The trunks for both the ASR and the OpenStack host carry tenant VLANs 700-799 that will be used within this environment. 
 
 ## Installation of Packstack/RDO
 
@@ -178,7 +178,7 @@ Keep in mind that the Cisco ASR plugin only supports VLAN network types, and VLA
 
 ## Install the networking-cisco package
 
-In a vanilla CentOS installation, you will need to install the `python-pip` package shown here:
+In a vanilla CentOS installation, you will need to install the `python-pip` package as shown here:
 
 ```
 sudo yum install python-pip
@@ -243,9 +243,9 @@ chgrp neutron -R /etc/neutron/plugins/cisco/
 
 #### Cisco Device Manager Plugin
 
-The `/etc/neutron/plugins/cisco/cisco_device_manager_plugin.ini` file is where you supply credentials for the Cisco ASR(s) and also define templates used when the Cisco agent interacts with the ASR or other service.
+The `/etc/neutron/plugins/cisco/cisco_device_manager_plugin.ini` file is where you supply credentials for the Cisco ASR(s) and also define device templates leveraged by the plugin.
 
-Copy the following block to the `cisco_device_manager_plugin.ini` file and modify it accordingly, leaving any blank field alone unless told otherwise:
+Copy the following block to the `cisco_device_manager_plugin.ini` file and modify it accordingly, leaving any blank fields alone unless instructed otherwise:
 
 ```
 [hosting_device_credentials]
@@ -296,7 +296,7 @@ device_driver=networking_cisco.plugins.cisco.device_manager.hosting_device_drive
 plugging_driver=networking_cisco.plugins.cisco.device_manager.plugging_drivers.hw_vlan_trunking_driver.HwVLANTrunkingPlugDriver
 ```
 
-Template `1` can be ignored for now. Template `3` defines base characteristics of an ASR, including which set of credentials to use by default, the port used to access the device, and the number of VRFs supported.
+Template `1` can be ignored for now. Template `3` defines base characteristics of an ASR, including which set of credentials to use by default, the port used to access the device, and the number of VRFs (slots) supported.
 
 Define the following devices:
 
@@ -326,7 +326,7 @@ internal_net_interface_1=*:GigabitEthernet0/0/2
 external_net_interface_1=*:GigabitEthernet0/0/0
 ```
 
-In the example above, the `GigabitEthernet0/0/0` will be used for interfaces attached to a router object using the `openstack router set --external-gateway` command. The `GigabitEthernet0/0/2` interface will be used for interfaces attached to a router object using the `openstack router interface add subnet` command. The VLAN subinterface created off the `external_net_interface` interface will reside in the default VRF, while the subinterface created off the `internal_net_interface` interface will reside in a unique VRF that corresponds to the tenant router object.
+In the example above, the `GigabitEthernet0/0/0` will be used for interfaces attached to a router object using the `openstack router set --external-gateway` command. The `GigabitEthernet0/0/2` interface will be used for interfaces attached to a router object using the `openstack router interface add subnet` command. The VLAN subinterface created off the `external_net_interface` interface will reside in the default VRF, while the subinterface created off the `internal_net_interface` interface will reside in a unique VRF that corresponds to the tenant router object. We'll cover this more later in this series.
 
 #### Cisco Router Plugin
 
@@ -350,7 +350,7 @@ cfg_agent_driver=
 name=ASR1k_router
 description="Neutron router implemented in Cisco ASR1k device"
 template_id=3
-ha_enabled_by_default=True
+ha_enabled_by_default=False
 shared=True
 slot_need=2
 scheduler=networking_cisco.plugins.cisco.l3.schedulers.l3_router_hosting_device_scheduler.L3RouterHostingDeviceHARandomScheduler
