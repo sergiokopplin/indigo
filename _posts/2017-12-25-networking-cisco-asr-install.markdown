@@ -48,6 +48,8 @@ The following limitations are also noted within the documentation:
 * Access to Nova’s Metadata service via Neutron routers is not supported. Instead, the DHCP service can provide a classless static route for metadata to instances or config-drive can be used. 
 * Only one router can be attached to a particular internal Neutron network. If a user attempts to attach a router to an internal network that already has another router attached to it, the L3 plugin will reject the request.
 
+I highly recommend reading the Cisco documentation for a proper overview on the architecture of the plugin and agent, related commands, caveats, expectations, etc.
+
 # Environment
 
 My lab is equipped with a Cisco ASR 1001 running Cisco IOS XE Software version `03.16.06.S`. Cisco mentions [prerequisities](http://networking-cisco.readthedocs.io/en/latest/install/l3-asr1k.html#prerequisites) of IOS XE `03.16.04` and Ubuntu 14.04 and above, but so far I have not experienced any issues that were caused by the IOS or server operating system versions. From what I can see in the documentation, Cisco does not call out a requirement for highly-available ASRs, but we will see later in this blog series how the lack of highly-available ASRs will cause issues with the implementation.
