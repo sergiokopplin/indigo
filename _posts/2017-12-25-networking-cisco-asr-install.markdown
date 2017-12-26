@@ -1,5 +1,5 @@
 ---
-title: "Using the Cisco ASR1k Neutron Plugin on OpenStack Ocata - Part 1"
+title: "Using the Cisco ASR1k Router Service Plugin in OpenStack - Part 1"
 layout: post
 date: 2017-12-25
 image: /assets/images/2017-12-25-networking-cisco-asr-l3-install/homer-simpson-1.png
@@ -15,7 +15,7 @@ tag:
 - router
 blog: true
 author: jamesdenton
-description: Using the Cisco ASR1k Neutron Plugin on OpenStack Ocata - Part 1
+description: Using the Cisco ASR1k Router Service Plugin in OpenStack - Part 1
 
 ---
 
