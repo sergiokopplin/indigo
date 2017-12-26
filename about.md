@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image](assets/images/family.png)
+![Profile Image](/assets/images/family.png)
 
 Thanks for visiting my site! My name is James Denton, and this is my first attempt at a weblog about various topics focused around OpenStack and various network technologies or general tech stuff.
 
