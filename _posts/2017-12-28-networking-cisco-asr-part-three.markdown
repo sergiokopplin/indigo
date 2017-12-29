@@ -315,7 +315,8 @@ No output is returned upon successful acceptance of the command, but we can see 
 </config>
  caller:networking_cisco.plugins.cisco.cfg_agent.device_drivers.csr1kv.iosxe_routing_driver.ASR1kRoutingDriver._add_static_route
 2017-12-29 02:41:19.125 10484 INFO ncclient.operations.rpc [-] Requesting 'EditConfig'
-2017-12-29 02:41:19.240 10484 INFO networking_cisco.plugins.cisco.cfg_agent.device_drivers.csr1kv.iosxe_routing_driver [-] SET_IP_ROUTE was successfully executed```
+2017-12-29 02:41:19.240 10484 INFO networking_cisco.plugins.cisco.cfg_agent.device_drivers.csr1kv.iosxe_routing_driver [-] SET_IP_ROUTE was successfully executed
+```
 
 As expected, the route shows up in the VRF's route table:
 
