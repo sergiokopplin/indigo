@@ -397,4 +397,4 @@ Like the last post, I'd like to say this all worked perfectly the first time, bu
 
 I hope to be able to follow up this series of walkthroughs with some benchmarks comparing a stock namespace-based implementation to one using a Cisco ASR. What I'm mainly interested in is "time to ping", meaning how long it takes for an instance to become reachable once a floating IP assignment has been made. When you're talking hundreds or thousands of floating IPs on a single router, things get interesting. 
 
-If you've found this series interesting and would like to see more, feel free to hit me up on Twitter at @jimmdenton.
+If you've found this series interesting and would like to see more, or have any questions or corrections, don't hesitate to hit me up on Twitter at @jimmdenton.
