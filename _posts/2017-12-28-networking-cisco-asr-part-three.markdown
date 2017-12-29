@@ -395,6 +395,18 @@ Whether this is expected behavior on the part of the Cisco plugin is unknown, bu
 
 Like the last post, I'd like to say this all worked perfectly the first time, but I'd be lying. When floating IPs are created, the asr1k snippet `SET_STATIC_SRC_TRL_NO_VRF_MATCH` implements a `redundancy` parameter that requires an HSRP group number that doesn't exist for standalone interfaces. I've since opened a bug [here](https://bugs.launchpad.net/networking-cisco/+bug/1739976) and patched my snippet and driver files accordingly. 
 
+I also found that waiting too long between these exercises resulted in some timeouts when communicating with the ASR via Neutron. Messages like `2017-12-29 04:02:38.250 10484 WARNING oslo.service.loopingcall [-] Function 'networking_cisco.plugins.cisco.cfg_agent.cfg_agent.CiscoCfgAgentWithStateReport.process_services' run outlasted interval by 171.41 sec` would be seen in the CFG Agent log file after invoking some command and watching it not be applied to the device. In my environment, the management interface of the ASR is in an out-of-band network not directly reachable by my OpenStack host. The Cisco ASA maintains the routes between those networks. The Cisco ASA also has a default TCP idle timeout of one hour. Upon further inspection, neither the Neutron server nor the Cisco CFG Agent implement any sort of keep-alive mechanism to the ASR. The ASA firewall drops the connection while the connection remains `ESTABLISHED` on the host with packets sitting in the Send Queue:
+
+```
+ciscoasa-5506# sh conn | i 10.4.90.2
+ciscoasa-5506# 
+
+[root@rdo02-ocata ~(keystone_admin)]# netstat -an | grep 10.4.90.2
+tcp        0   2713 10.50.0.235:35100       10.4.90.2:22            ESTABLISHED
+```
+
+The only way to recover is to restart the Cisco CFG Agent. Using the Modular Policy Framework on the ASA to implement a custom timeout (or none at all) for these connections to the ASR from Neutron hosts is probably the way to go, as I'm not sure how trivial it is to implement a keepalive via the Cisco CFG Agent/ncclient/paramiko.
+
 I hope to be able to follow up this series of walkthroughs with some benchmarks comparing a stock namespace-based implementation to one using a Cisco ASR. What I'm mainly interested in is "time to ping", meaning how long it takes for an instance to become reachable once a floating IP assignment has been made. When you're talking hundreds or thousands of floating IPs on a single router, things get interesting. 
 
 If you've found this series interesting and would like to see more, or have any questions or corrections, don't hesitate to hit me up on Twitter at @jimmdenton.
