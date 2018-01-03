@@ -129,6 +129,7 @@ San Francisco, California
 * NVidia Developer Grant, 2018
 * NSF Graduate Research Fellowship, 2017
 * PhRMA Informatics Fellowship, PhRMA Foundation, 2017
+* Discovery Fellowship, UC San Francisco, 2017
 * Honorable Mention, NSF Graduate Research Fellowship,  2016
 * Amgen Scholar, University of California San Francisco, 2014
 * Research & Mentoring Program Scholar, U. of Central Florida, 2013-2015
