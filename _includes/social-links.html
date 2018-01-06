@@ -11,6 +11,12 @@
         </a>
     {% endif %}
 
+    {% if site.instructables %}
+        <a class="link" data-title="instructables.com/member/{{ site.instructables }}" href="https://www.instructables.com/member/{{ site.instructables }}" target="_blank">
+            <svg class="icon icon-instructables"><use xlink:href="#icon-instructables"></use></svg>
+        </a>
+    {% endif %}    
+
     {% if site.google %}
         <a class="link" data-title="plus.google.com/+{{ site.google }}" href="http://plus.google.com/+{{ site.google }}" target="_blank">
             <svg class="icon icon-google"><use xlink:href="#icon-google"></use></svg>
