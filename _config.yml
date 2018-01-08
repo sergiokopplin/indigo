@@ -59,7 +59,7 @@ authors:
         external-image: true
         picture: https://www.dropbox.com/s/49ghhds1yfsls7d/balcony.jpg?raw=1
         twitter: ljameswilliams
-    
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -75,7 +75,7 @@ projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: false
-blog: false
+blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
