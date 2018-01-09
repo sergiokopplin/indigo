@@ -1,4 +1,12 @@
-# My Self-taught web development curriculum
+---
+title: "My Self-taught web development curriculum"
+layout: post
+date: 2018-01-08 19:00
+headerImage: false
+category: blog
+author: jameswilliams
+description: Summary of web development study plan
+---
 
 This is the curriculum I have settled on to learn web development in 2018. I work an unusual three day a week schedule so this will take that into account.
 
@@ -28,7 +36,7 @@ Ruby, Sinatra, and Ruby on Rails
 
 Projects
 
-Projects are included in the courses I'll be working through during the week as well. This day is intended to allow for additional projects as well as 
+Projects are included in the courses I'll be working through during the week as well. This day is intended to allow for additional projects as well as
 ___
 
 Resources:
