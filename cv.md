@@ -83,7 +83,7 @@ San Francisco, California
 
 ## Publications
 
-1. **Jacob C. Kimmel**, Amy Y. Chang, Andrew S. Brack, Wallace F. Marshall. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2017. bioRxiv 168534; doi: https://doi.org/10.1101/168534. *(Accepted for publication, PLoS Computational Biology, 2018).*
+1. **Jacob C. Kimmel**, Amy Y. Chang, Andrew S. Brack, Wallace F. Marshall. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. doi :  https://doi.org/10.1371/journal.pcbi.1005927.
 2. **Jacob C. Kimmel**, Andrew S. Brack, and Wallace F. Marshall. 2017. Deep convolutional neural networks allow analysis of cell motility during stem cell differentiation and neoplastic transformation. bioRxiv. doi: https://doi.org/10.1101/159202. *(Submitted for publication).*
 3. Colin Constant, **Jacob C. Kimmel**, Kiminobu Sugaya, Aristide Dogariu. Optically Controlled Subcellular Diffusion. Frontiers in Optics & Laser Science. 2015.
 4. **Jacob C. Kimmel**, Kiminobu Sugaya. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
@@ -91,16 +91,17 @@ San Francisco, California
 ## Presentations
 
 1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018.
-2. Biswas S\*, **Kimmel JC\***, Paulson A\*, Zimmerman T\*, Bianco S. Deep learning methods for cell engineering. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018. (\* Equal Contribution)
-3. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the American Society of Cell Biology. ASCB-EMBO 2017 Annual Meeting, Philadelphia, PA. 2017.
-4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
-5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the Developmental and Stem Cell Biology Retreat. UCSF Developmental and Stem Cell Biology Retreat, Tomales Bay, CA. 2017.
-6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
-7. **Kimmel JC**, Willenberg BJ, Brown A, Sugaya K. Delivery of TGF-beta signaling factors by capillary alginate gel. U. of Central Florida, Showcase of Research Excellence. 2015.
-8. **Kimmel JC**, Kageyama R, Steiner D, Ansel KM. miR-29 Regulation of TNF-alpha production in T cells. University of California, San Francisco. 2014.
-9. **Kimmel JC**, Yuan B, Constant C, Dogariu D, Foroosh H, Sugaya K. Characterization of induced pluripotent reprogramming in mesenchymal stem cells by quantitative image analysis. U. of Central Florida, Showcase of Research Excellence. 2014.
-10. **Kimmel JC**, Sugaya K. Nanog overexpression improves neural transdifferentiation in adipose derived stem cells. Neuroscience 2013, San Diego, CA. 2013.
-11. **Kimmel JC**, Eckley DM, Colleta C, Long J, Orlov N, Rapp P, Goldberg IG. Do different tissues age at different rates?. National Institute on Aging, Baltimore, MD. 2012.
+2. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Poster presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Best Poster Award).*
+3. Biswas S\*, **Kimmel JC\***, Paulson A\*, Zimmerman T\*, Bianco S. Deep learning methods for cell engineering. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018. (\* Equal Contribution)
+4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the American Society of Cell Biology. ASCB-EMBO 2017 Annual Meeting, Philadelphia, PA. 2017.
+5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
+6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the Developmental and Stem Cell Biology Retreat. UCSF Developmental and Stem Cell Biology Retreat, Tomales Bay, CA. 2017.
+7. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
+8. **Kimmel JC**, Willenberg BJ, Brown A, Sugaya K. Delivery of TGF-beta signaling factors by capillary alginate gel. U. of Central Florida, Showcase of Research Excellence. 2015.
+9. **Kimmel JC**, Kageyama R, Steiner D, Ansel KM. miR-29 Regulation of TNF-alpha production in T cells. University of California, San Francisco. 2014.
+10. **Kimmel JC**, Yuan B, Constant C, Dogariu D, Foroosh H, Sugaya K. Characterization of induced pluripotent reprogramming in mesenchymal stem cells by quantitative image analysis. U. of Central Florida, Showcase of Research Excellence. 2014.
+11. **Kimmel JC**, Sugaya K. Nanog overexpression improves neural transdifferentiation in adipose derived stem cells. Neuroscience 2013, San Diego, CA. 2013.
+12. **Kimmel JC**, Eckley DM, Colleta C, Long J, Orlov N, Rapp P, Goldberg IG. Do different tissues age at different rates?. National Institute on Aging, Baltimore, MD. 2012.
 
 ## Outreach
 
@@ -126,7 +127,8 @@ San Francisco, California
 
 ## Honors and Awards
 
-* NVidia Developer Grant, 2018
+* Nvidia Developer Grant, 2018
+* Nvidia Best Presentation Award, Nvidia Deep Learning in Biomed. Workshop, 2018
 * NSF Graduate Research Fellowship, 2017
 * PhRMA Informatics Fellowship, PhRMA Foundation, 2017
 * Discovery Fellowship, UC San Francisco, 2017
