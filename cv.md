@@ -26,10 +26,11 @@ San Francisco, California
 *Principal Investigators:* Andrew Brack & Wallace Marshall  
 *Thesis:* Inferring stem cell state from cell behavior
 
-* Developed software tools to infer cell state from motility behaviors
-* Quantified state transition rates during muscle stem cell activation based on timelapse image data
-* Developed tools to apply deep convolutional neural networks to the analysis of cell motility
-* Developing an image based classification method for muscle stem cell subpopulation states
+* Developed [*Heteromotility*](http://jacobkimmel.github.io/heteromotility) biological motion analysis package, including feature extraction, unsupervised clustering, and time-series analysis tools to quantify dynamic state transitions in cellular systems
+* Quantified rates of muscle stem cell activation with single cell resolution for the first time using [*Heteromotility*](http://jacobkimmel.github.io/heteromotility)
+* Developed [*Lanternfish*](http://jacobkimmel.github.io/lanternfish) deep learning package to enable discrimination of cell states from cell motility measurements and prediction of cell motility behaviors
+* Demonstrated classification of stem cell differentiation states and cancerous transformation detection using [*Lanternfish*](http://jacobkimmel.github.io/lanternfish)
+* Performed single-cell RNA-sequencing to identify heterogeneous muscle stem cell states during aging and myogenic activation
 
 **IBM Research, Cell Engineering Group, San Jose, CA, 2017 Fall**  
 *Deep Learning Research Intern*  
@@ -64,11 +65,11 @@ San Francisco, California
 
 ## Computational Skills
 
-* Python, Matlab, R
-* Deep learning with convolutional and recurrent neural networks (Tensorflow, PyTorch)
-* Quantitative imaging, multivariate data analysis, machine learning
-* Object-oriented programming, Git, Test Driven Development
-* Open Source Contributions: Python `statsmodels`
+**Data Analysis:** Experimental design, hypothesis testing, time series analysis, multivariate statistics  
+**Machine Learning:** Supervised, unsupervised, feature engineering, distributed computing (MPI, SGE)  
+**Deep Learning:** Deep neural networks, evolution strategies, PyTorch, Tensorflow, Keras  
+**Image Analysis:** Image segmentation, classification, object detection, particle tracking    
+**Programming:** Python (scipy, scikit-learn, statsmodels), Matlab, R, git, shell scipt, LaTeX  
 
 ## Biological Skills
 
@@ -83,10 +84,10 @@ San Francisco, California
 
 ## Publications
 
-1. **Jacob C. Kimmel**, Amy Y. Chang, Andrew S. Brack, Wallace F. Marshall. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. doi :  https://doi.org/10.1371/journal.pcbi.1005927.
-2. **Jacob C. Kimmel**, Andrew S. Brack, and Wallace F. Marshall. 2017. Deep convolutional neural networks allow analysis of cell motility during stem cell differentiation and neoplastic transformation. bioRxiv. doi: https://doi.org/10.1101/159202. *(Submitted for publication).*
-3. Colin Constant, **Jacob C. Kimmel**, Kiminobu Sugaya, Aristide Dogariu. Optically Controlled Subcellular Diffusion. Frontiers in Optics & Laser Science. 2015.
-4. **Jacob C. Kimmel**, Kiminobu Sugaya. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
+1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. https://doi.org/10.1371/journal.pcbi.1005927
+2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional neural networks allow analysis of cell motility during stem cell differentiation and neoplastic transformation. 2018. bioRxiv. doi: [https://doi.org/10.1101/159202](https://doi.org/10.1101/159202). *(Submitted for publication).*
+3. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
+4. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
 
 ## Presentations
 
@@ -127,11 +128,11 @@ San Francisco, California
 
 ## Honors and Awards
 
-* Nvidia Developer Grant, 2018
-* Nvidia Best Presentation Award, Nvidia Deep Learning in Biomed. Workshop, 2018
 * NSF Graduate Research Fellowship, 2017
 * PhRMA Informatics Fellowship, PhRMA Foundation, 2017
 * Discovery Fellowship, UC San Francisco, 2017
+* Nvidia Best Presentation Award, *Nvidia Deep Learning in Biomedicine*, 2018
+* Nvidia GPU Grant, 2017 & 2018
 * Honorable Mention, NSF Graduate Research Fellowship,  2016
 * Amgen Scholar, University of California San Francisco, 2014
 * Research & Mentoring Program Scholar, U. of Central Florida, 2013-2015
@@ -140,3 +141,25 @@ San Francisco, California
 * Florida Academic Scholar, State of Florida, 2012-2015
 * National Merit Scholar, 2012
 * International Science & Engineering Fair Finalist, 2011, 2012
+
+## References
+
+Andrew S. Brack \
+Associate Professor, UCSF \
+Andrew.Brack@ucsf.edu
+
+Wallace F. Marshall \
+Professor, UCSF \
+Wallace.Marshall@ucsf.edu
+
+Todd Nystul \
+Professor, UCSF \
+Todd.Nystul@ucsf.edu
+
+Orion Weiner \
+Professor, UCSF \
+Orion.Weiner@ucsf.edu
+
+Eric Verdin \
+President & CEO, The Buck Institute \
+eric.verdin@buckinstitute.org
