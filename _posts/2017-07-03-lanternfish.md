@@ -9,7 +9,6 @@ tag:
 - biology
 projects: true
 description: "Convolutional and recurrent neural networks for cell motility analysis and prediction"
-use_math: true
 ---
 ![Lanternfish Logo]({{site.url}}/assets/images/lanternfish_logo.png)
 
