@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Haris Riaz
+bio: Computer Scientist. Deep Learning enthusiast. CS@NUST.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: I'm a CS Sophomore at NUST-SEECS, working on deep learning projects. Algorithmic thinker. 
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://harisriaz17.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+facebook: https://www.facebook.com/programming.god
 twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
@@ -42,10 +42,10 @@ twitter: mytwitter
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: www.github.com/harisriaz17
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
-# quora: userquora
+# quora: https://www.quora.com/profile/Haris-Riaz-5
 # reddit: username
 medium: medium
 # vimeo: myvimeo
