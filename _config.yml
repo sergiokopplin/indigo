@@ -8,7 +8,7 @@ description: I'm a CS Sophomore at NUST-SEECS, working on deep learning projects
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
