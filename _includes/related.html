@@ -6,13 +6,13 @@
             {% for thisTag in page.tags %}
                 {% if postHasSimilar == false and hasSimilar.size < 5 and post != page and tag == thisTag %}
                     {% if hasSimilar.size == 0 %}
-                    <h4>Related Posts</h4>
+                    <h4>{{ site.data.ui-text[site.locale].related_posts | default: "Related Posts" }}</h4>
                     <ul>
                     {% endif %}
                     <li class="relatedPost">
                         <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
                         {% if post.series %}
-                            (Series: {{ post.series }})
+                            ({{ site.data.ui-text[site.locale].series_label | default: "Series" }}: {{ post.series }})
                         {% endif %}
                         </a>
                     </li>

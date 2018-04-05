@@ -1,0 +1,38 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  home_label                 : "Home"
+  blog_label                 : "Blog"
+  projects_label             : "Projects"
+  about_label                : "About"
+  resume_label               : "Resume"
+  related_posts              : "Related Posts"
+  minute_read                : "minute read"
+  tags_label                 : "Tags"
+  series_label               : "Series"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+
+# Russian / Русский
+# -----------------
+ru: &DEFAULT_RU
+  home_label                 : "Главная"
+  blog_label                 : "Блог"
+  projects_label             : "Проекты"
+  about_label                : "О себе"
+  resume_label               : "Резюме"
+  related_posts              : "Похожие записи"
+  minute_read                : "мин на чтение"
+  tags_label                 : "Метки"
+  series_label               : "Серии"
+ru-RU:
+  <<: *DEFAULT_RU

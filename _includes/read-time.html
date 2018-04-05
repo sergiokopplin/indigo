@@ -2,8 +2,8 @@
     {% assign words = content | number_of_words %}
 
     {% if words < 360 %}
-        1 min
+        1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
     {% else %}
-        {{ words | divided_by:180 }} mins
+        {{ words | divided_by:180 }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
     {% endif %}
 </span>
