@@ -106,4 +106,11 @@
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+
+    {% if site.hackernews %}
+        <a class="link" data-title="{{ site.hackernews }}" href="https://news.ycombinator.com/user?id={{ site.hackernews }}">
+            <svg class="icon icon-hacker-news-square"><use xlink:href="#icon-hacker-news-square"></use></svg>
+        </a>
+    {% endif %}
+
 </div>
