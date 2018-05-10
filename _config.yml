@@ -39,7 +39,7 @@ twitter: scottcohn97
 # google: mygoogle
 instagram: scott.cohn
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: scottkcohn
 # youtube: myyoutube
 #spotify: myspotify
 github: scottcohn97
@@ -57,7 +57,7 @@ authors:
         name: Scott Cohn
         bio: Resource Economics and Statistics, UMass Amherst
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: IMG_1053.png
         twitter: scottcohn97
     jamesfoster:
         name: James Foster
