@@ -1,7 +1,7 @@
 ---
 title: "Differential Equations"
 layout: post
-date: 2016-03-24 22:48
+date: 2018-05-29 22:48
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:

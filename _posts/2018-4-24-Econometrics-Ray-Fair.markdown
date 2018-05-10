@@ -1,7 +1,7 @@
 ---
 title: "Introductory Econometrics Project"
 layout: page
-date: 2018-02-24 22:44
+date: 2018-04-24 22:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
