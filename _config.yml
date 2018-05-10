@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Scott K Cohn
+bio: Resource Economics and Statistics, UMass Amherst
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A bunch of 404
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://scottcohn97.github.io/indigo
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,31 +34,31 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+twitter: scottcohn97
 # google: mygoogle
-# instagram: myinstagram
+nstagram: scott.cohn
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: scottkcohn
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: scottcohn97
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: scott97kc@gmail.com
 
 authors:
     johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: Scott Cohn
+        bio: Resource Economics and Statistics, UMass Amherst
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        twitter: scott.cohn
     jamesfoster:
         name: James Foster
         bio: A Man who develops software with coffee
