@@ -1,0 +1,20 @@
+---
+title: "Test Post"
+layout: post
+date: 2018-02-24 22:44
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- elements
+star: false
+category: blog
+author: scottcohn
+description: Test
+---
+
+## Summary:
+
+You can pick as item to see how to apply in markdown.
+
+
