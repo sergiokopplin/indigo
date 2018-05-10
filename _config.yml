@@ -56,15 +56,10 @@ authors:
     scottcohn:
         name: Scott Cohn
         bio: Resource Economics and Statistics, UMass Amherst
-        external-image: false
+        external-image: true
         picture: assets/images/profile.jpg
         twitter: scottcohn97
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
