@@ -1,9 +1,9 @@
 # main text of home
-name: Scott K Cohn
-bio: Resource Economics and Statistics, UMass Amherst
+name: John Doe
+bio: A Man who travels the world eating noodles
 
 # twitter summary info
-description: A lot of 404 errors
+description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://scottcohn97.github.io
+url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -30,36 +30,41 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: scottkc97 # enter this from your disqus account
+  shortname: mydisqus # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-#facebook: myfacebook
-twitter: scottcohn97
+facebook: myfacebook
+twitter: mytwitter
 # google: mygoogle
-instagram: scott.cohn
+# instagram: myinstagram
 # pinterest: mypinterest
-linkedin: scottkcohn
+# linkedin: mylinkedin
 # youtube: myyoutube
-#spotify: myspotify
-github: scottcohn97
+# spotify: myspotify
+github: mygithub
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-#medium: medium
+medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: scott97kc@gmail.com
+email: myemail@gmail.com
 
 authors:
-    scottcohn:
-        name: Scott Cohn
-        bio: Resource Economics and Statistics, UMass Amherst
-        external-image: true
+    johndoe:
+        name: John Doe
+        bio: A Man who travels the world eating noodles
+        external-image: false
         picture: assets/images/profile.jpg
-        twitter: scottcohn97
-
+        twitter: johndoe
+    jamesfoster:
+        name: James Foster
+        bio: A Man who develops software with coffee
+        external-image: false
+        picture: assets/images/james.jpg
+        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
