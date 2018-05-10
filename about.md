@@ -15,7 +15,6 @@ layout: page
 	<li>SAS</li>
 	<li>Python</li>
 	<li>LaTeX</li>
-	<li>Javascript (Design Patterns, Testes)</li>
 	<li>Git</li>
 </ul>
 
