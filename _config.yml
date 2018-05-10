@@ -3,12 +3,12 @@ name: Scott Cohn
 bio: Resource Economics and Statistics, UMass Amherst
 
 # twitter summary info
-description: A lot of 404
+description: A lot of 404 errors
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: /assets/images/IMG_1053.png
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -57,7 +57,7 @@ authors:
         name: Scott Cohn
         bio: Resource Economics and Statistics, UMass Amherst
         external-image: false
-        picture: /assets/images/IMG_1053.png
+        picture: assets/images/profile.jpg
         twitter: scottcohn97
     jamesfoster:
         name: James Foster
