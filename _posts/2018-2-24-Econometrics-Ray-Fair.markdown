@@ -15,7 +15,9 @@ description: Resource Economics 312
 
 # The Effect of Economic Events on Votes for the President
 
-## Abstract: 
+By Scott Cohn and Samuel Hostetter
+
+### Abstract: 
 
 *The Presidential Equation is a logistic probability model created by Yale University Professor Ray C. Fair to estimate the Democratic share of votes in any given U.S. presidential election. Fair incorporates both economic and political variables to predict which party will gain the majority of votes. This paper recreates and analyzes the significance of Fair’s popular election model. We then provided a forecast for the 2020 presidential election. We found Fair’s model to hold strong prediction power, providing accurate foresight for every election from 1940 to today. However, the significance of some variables used in his predictions is quite low, leading to questions on how the model remains accurate.*
 
