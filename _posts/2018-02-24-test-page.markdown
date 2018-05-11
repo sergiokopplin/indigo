@@ -9,7 +9,7 @@ tag:
 - elements
 star: false
 projects: true
-
+comments: true
 author: scottcohn
 description: Test
 ---

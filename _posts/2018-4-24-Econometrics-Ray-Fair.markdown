@@ -9,6 +9,7 @@ tag:
 - markdown
 star: false
 projects: true
+comments: true
 author: scottcohn
 description: Resource Economics 312
 ---
