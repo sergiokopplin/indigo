@@ -15,12 +15,13 @@
 
         &:hover:before
             opacity: 1
+            display: inline-block
             transform: translate3d(0,0,0)
             white-space: nowrap
 
         &:before
             content: attr(data-title)
-            display: inline-block
+            display: none
             position: absolute
             bottom: -34px
             left: -6px

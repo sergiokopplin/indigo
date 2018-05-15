@@ -2,15 +2,16 @@
 title: "Markdown Extra Components"
 layout: post
 date: 2016-02-24 22:48
-# tag:
-# - markdown
-# - components
-# - extra
-blog: true
-draft: true
-author: artiannaswamy
-summary: "Extra markdown components like highlighted text, side-by-side items, starring/highlighting a blog or project, and embedding gists, videos etc"
-permalink: markdown-extra-components
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- components
+- extra
+category: blog
+author: jamesfoster
+description: Markdown summary with different options
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
 ## Summary:

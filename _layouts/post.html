@@ -20,12 +20,25 @@ layout: default
 
 {{content}}
 
+{% if site.post-advance-links contains page.category %}
+    <div class="blog-navigation">
+        {% if page.previous.url %}
+            <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+        {% else %}
+            <a class="prev"></a>
+        {% endif %}
+        {% if page.next.url %}
+            <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+        {% endif %}
+    </div>
+{% endif %}
+
 {% if site.related %}
     {% include related.html %}
 {% endif %}
 
 {% include author.html %}
 
-{% include disqus.html %}
-
-{% include footer.html %}
+{% if site.disqus.categories contains page.category %}
+    {% include disqus.html %}
+{% endif %}
