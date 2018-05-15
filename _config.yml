@@ -1,9 +1,9 @@
 # main text of home
-name: Niveditha Ram
-bio: 'Physics, Teaching, Engineering.'
+name: Michael Kimmins
+bio: software engineer | masters rower | violin player | queer | she/them
 
 # twitter summary info
-description: A blog about Physics and teaching science
+description: Hi! This is a placeholder for my blog contents
 
 # if it's an external image, update below for true
 # better with square images
@@ -26,24 +26,24 @@ highlighter: rouge
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: NivedithaRam
+twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 #pinterest: annasw
 #linkedin: artiannaswamy
 # youtube: myyoutube
 # spotify: myspotify
-github: NivedithaRam
+github: mlkimmins
 # medium: medium
-email: niveditha.ramasubramanian@stonybrook.edu
+# email: placeholder
 
 authors:
-    NivedithaRam:
-        name: Niveditha Ram
-        bio: Physics, Reading, Teaching.
+    mlkimmins:
+        name: Michael Kimmins
+        bio: software engineer | masters rower | violin player | queer | she/them
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: NivedithaRam
+        twitter: mytwitter
 
 
 # do you want a larger site? change the option below
