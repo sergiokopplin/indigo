@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Michael Kimmins
+bio: software engineer | masters rower | violin player | queer AF 
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Placeholder for a blog
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://mlkimmins.github.io/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
