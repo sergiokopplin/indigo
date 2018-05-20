@@ -14,7 +14,7 @@ picture: 'assets/images/profile.jpg'
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+resume-url: https://github.com/mlkimmins/resume
 
 url: https://mlkimmins.github.io/
 # your url: http://USERNAME.github.io
@@ -31,14 +31,14 @@ permalink: /:title/
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: mytwitter
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: mlkimmins
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -46,7 +46,7 @@ github: mygithub
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+# email: myemail@gmail.com
 
 authors:
     mlkimmins:
