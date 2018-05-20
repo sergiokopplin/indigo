@@ -13,7 +13,7 @@ picture: 'assets/images/profile.jpg'
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: false
+resume-external: true
 resume-url: https://github.com/mlkimmins/resume
 
 url: https://mlkimmins.github.io/
