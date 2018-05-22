@@ -1,9 +1,0 @@
-# humanstxt.org/
-
-# TEAM
-
-	Your name - your home
-
-# TECHNOLOGY
-
-	HTML5, CSS3, JS, JEKYLL
