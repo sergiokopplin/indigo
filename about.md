@@ -7,7 +7,9 @@ permalink: /about/index.html
 
 ## Hi, I'm Jacob
 
-I'm currently a PhD Candidate in the Developmental & Stem Cell Biology program at [UC San Francisco](https://ucsf.edu). I study muscle stem cell function using quantitative imaging in the [Laboratory of Cell Geometry](https://cellgeometry.ucsf.edu) as part of the NSF [Center for Cellular Construction](https://ccc.ucsf.edu), advised by [Wallace Marshall](http://tetrad.ucsf.edu/faculty/wallace-wallace) and [Andrew Brack](http://bracklab.com).
+I'm currently a Computational Biologist at [Calico](https://calicolabs.com) where I work on the biology of aging.
+
+I previously earned my PhD at the [University of California San Francisco](https://ucsf.edu) in the [Laboratory of Cell Geometry](https://cellgeometry.ucsf.edu) as part of the NSF [Center for Cellular Construction](https://ccc.ucsf.edu), advised by [Wallace Marshall](http://tetrad.ucsf.edu/faculty/wallace-wallace) and [Andrew Brack](http://bracklab.com). My thesis work developed methods to infer how cell states change over time from timelapse imaging data. This approach allowed me to measure the rate of muscle stem cell activation for the first time and helped reveal age-related changes in muscle stem cells.
 
 When I’m not doing science, I like to write poorly, climb big hills, and play several instruments with equitable levels of mediocrity.
 

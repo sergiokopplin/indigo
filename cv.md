@@ -4,12 +4,12 @@ layout: page
 permalink: /cv/index.html
 ---
 Jacob C. Kimmel  
-[Jacob.Kimmel@ucsf.edu](mailto:Jacob.Kimmel@ucsf.edu)  
+[jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com)  
 San Francisco, California
 
 ## Education
 
-**Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - Present**  
+**Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - 2018**  
 *Funding*: NSF Graduate Fellowship, PhRMA Informatics Fellowship, NIH T32  
 
 **B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
@@ -21,9 +21,14 @@ San Francisco, California
 
 ## Experience
 
-**University of California San Francisco, San Francisco, CA, 2015 - Present**  
+**Calico Life Sciences, South San Francisco, CA, 2018 - Present**  
+*Computational Biologist*
+
+* Applying image analysis and machine learning methods to unravel the biology of aging and disease
+
+**University of California San Francisco, San Francisco, CA, 2015 - 2018**  
 *PhD Candidate*  
-*Principal Investigators:* Andrew Brack & Wallace Marshall  
+*Principal Investigators:* Wallace Marshall, Andrew Brach
 *Thesis:* Inferring stem cell state from cell behavior
 
 * Developed [*Heteromotility*](http://jacobkimmel.github.io/heteromotility) biological motion analysis package, including feature extraction, unsupervised clustering, and time-series analysis tools to quantify dynamic state transitions in cellular systems
@@ -140,26 +145,25 @@ San Francisco, California
 * NIH Summer Fellow, National Institute on Aging, 2012
 * Florida Academic Scholar, State of Florida, 2012-2015
 * National Merit Scholar, 2012
-* International Science & Engineering Fair Finalist, 2011, 2012
 
 ## References
 
-Andrew S. Brack \
-Associate Professor, UCSF \
-Andrew.Brack@ucsf.edu
-
-Wallace F. Marshall \
-Professor, UCSF \
+Wallace F. Marshall  
+Professor, UCSF  
 Wallace.Marshall@ucsf.edu
 
-Todd Nystul \
-Professor, UCSF \
+Andrew S. Brack  
+Associate Professor, UCSF  
+Andrew.Brack@ucsf.edu  
+
+Todd Nystul  
+Professor, UCSF  
 Todd.Nystul@ucsf.edu
 
-Orion Weiner \
-Professor, UCSF \
+Orion Weiner  
+Professor, UCSF  
 Orion.Weiner@ucsf.edu
 
-Eric Verdin \
-President & CEO, The Buck Institute \
+Eric Verdin  
+President & CEO, The Buck Institute  
 eric.verdin@buckinstitute.org
