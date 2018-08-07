@@ -131,6 +131,13 @@ San Francisco, California
 * Assisted high school students with the development and implementation of science fair projects
 * Arranged for students to access laboratory equipment at the U. of Central Florida, trained students in molecular biology
 
+## Academic Service
+
+Reviewer for:
+
+* *PLoS Computational Biology*
+* *IEEE Journal of Biomedical and Health Informatics* (JBHI)
+
 ## Honors and Awards
 
 * NSF Graduate Research Fellowship, 2017
