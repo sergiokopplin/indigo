@@ -32,6 +32,16 @@ A[:,i:i+1,:].shape # (5,1,5)
 
 # Pandas
 
+## Replicate each row in a DataFrame *N* times
+
+Use the `.values` attribute of a DataFrame and `np.repeat`
+
+```python
+N = 3 # times to replicate
+newdf = pd.DataFrame(np.repeat(df.values, N, axis=0))
+newdf.columns = df.columns
+```
+
 ## Sort a DataFrame by multiple columns
 
 Use the `sort_values` method of DataFrames.
