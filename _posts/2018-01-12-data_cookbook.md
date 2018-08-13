@@ -32,6 +32,16 @@ A[:,i:i+1,:].shape # (5,1,5)
 
 # Pandas
 
+## Split a column by a text delimiter
+
+Use `.str.split`
+
+```python
+# split by a '-' delimiter
+# split is a pd.DataFrame, with each delimited column separated out
+split = df.str.split('-', expand=True)
+```
+
 ## Replicate each row in a DataFrame *N* times
 
 Use the `.values` attribute of a DataFrame and `np.repeat`
