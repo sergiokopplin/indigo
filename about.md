@@ -2,45 +2,30 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Oleksii zeleniuk]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>
+Hi! My name is Oleksii Zeleniuk.
+</p>
 
-<h2>Skills</h2>
+<p>
+I was born in Prag (Czech Republic), grew up in Kyiv (Ukraine) and currently live in Hamburg (Germany).
+I have a master degree in Computer science at <a href="http://kpi.ua/en" target="_blank">The National Technical University of Ukraine</a>.
+</p>
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+<p>
+Since 2009 I work as a software developer in <a href="/experience">various companies</a> where I was focusing on building web-based tools and systems as well as taking care about infrastructure, test automation and a little bit of frontend =)
+</p>
 
-<h2>Projects</h2>
+<p>
+I started building software with PHP first but nowadays it's not limited to that and I enjoy projects in Python, Go, Node.js, Typescript etc. I'm especially happy to work with AWS services. 
+<p>
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+<p>
+On a personal note, I'm into a sport (like judo, football, jogging), traveling and exploring new music.
+<p>
+
+<p>
+I do speak Ukrainian, Russian, English and German
+</p>
