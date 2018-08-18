@@ -15,7 +15,7 @@ I have a master degree in Computer science at <a href="http://kpi.ua/en" target=
 </p>
 
 <p>
-Since 2009 I work as a software developer in <a href="/experience">various companies</a> where I was focusing on building web-based tools and systems as well as taking care about infrastructure, test automation and a little bit of frontend =)
+Since 2009 I work as a software developer in <a href="/experience">various companies</a> where I was focusing on building web-based tools and systems as well as taking care about infrastructure, test automation and a little bit of frontend.
 </p>
 
 <p>
@@ -27,5 +27,5 @@ On a personal note, I'm into a sport (like judo, football, jogging), traveling a
 <p>
 
 <p>
-I do speak Ukrainian, Russian, English and German
+I do speak Ukrainian, Russian, English and German languages.
 </p>
