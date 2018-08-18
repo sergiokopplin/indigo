@@ -106,4 +106,11 @@
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+
+    {% if site.xing %}
+    <a class="link" data-title="https://www.xing.com/profile/{{ site.xing }}" href="https://www.xing.com/profile/{{ site.xing }}" target="_blank">
+        <svg class="icon icon-xing"><use xlink:href="#icon-xing"></use></svg>
+    </a>
+    {% endif %}
+
 </div>
