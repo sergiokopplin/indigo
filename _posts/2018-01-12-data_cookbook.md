@@ -82,3 +82,41 @@ v = np.array([0,1])
 g = sns.barplot(...)
 g.set_xticklabels(g.get_xticklabels(), rotation=45)
 ```
+
+## Plot a line with a continuous color variable
+
+Use a `matplotlib.collections` `LineCollection` to plot a set of smaller lines
+each with a different color, as desired.
+
+[StackOverflow Credit](https://stackoverflow.com/questions/10252412/matplotlib-varying-color-of-line-to-capture-natural-time-parameterization-in-da/10253183#10253183)
+
+```python
+import numpy as np
+from matplotlib import pyplot as plt
+from matplotlib.collections import LineCollection
+
+x  = np.sin(np.linspace(0, 2*np.pi, 100))
+y  = np.cos(np.linspace(0, 2*np.pi, 100))
+t = np.linspace(0,1,x.shape[0]) # your "time" variable
+
+# set up a list of (x,y) points
+points = np.array([x,y]).transpose().reshape(-1,1,2)
+print points.shape  # Out: (len(x),1,2)
+
+# set up a list of segments
+segs = np.concatenate([points[:-1],points[1:]],axis=1)
+print segs.shape  # Out: ( len(x)-1, 2, 2 )
+                  # see what we've done here -- we've mapped our (x,y)
+                  # points to an array of segment start/end coordinates.
+                  # segs[i,0,:] == segs[i-1,1,:]
+
+# make the collection of segments
+lc = LineCollection(segs, cmap=plt.get_cmap('viridis'))
+lc.set_array(t) # color the segments by our parameter
+
+# plot the collection
+fig, ax = plt.subplots(1,1)
+ax.add_collection(lc) # add the collection to the plot
+ax.set_xlim(x.min(), x.max()) # line collections don't auto-scale the plot
+ax.set_ylim(y.min(), y.max())
+```
