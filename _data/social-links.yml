@@ -48,6 +48,9 @@
 - name: github
   url-prefix: github.com/
 
+- name: gitlab
+  url-prefix: gitlab.com/
+
 - name: keybase
   url-prefix: keybase.io/
   icon: key
