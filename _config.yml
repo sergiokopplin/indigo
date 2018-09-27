@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Zhuoran Li
+bio: A Man who travels the world fanning Houston Rockets
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://lizhuorancoding.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -51,21 +51,16 @@ github: mygithub
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: lizhuoranget@outlook.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    zhuoranli:
+        name: Zhuoran Li
+        bio: A Man who travels the world fanning Houston Rockets
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: 李卓然
+    
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
