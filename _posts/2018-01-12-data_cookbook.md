@@ -120,3 +120,18 @@ ax.add_collection(lc) # add the collection to the plot
 ax.set_xlim(x.min(), x.max()) # line collections don't auto-scale the plot
 ax.set_ylim(y.min(), y.max())
 ```
+
+## Remove space between subplots
+
+This is useful when plotting a grid of images.
+
+```python
+H, W = 2, 2
+fig, ax = plt.subplots(H, W)
+fig.subplots_adjust(hspace=0.020,
+                    wspace=0.00005)
+for i in range(4):
+  ax[i//2, i%2].imshow(I)
+  ax.set_xticks([])
+  ax.set_yticks([])
+```
