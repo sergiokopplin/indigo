@@ -130,4 +130,10 @@
             <svg class="icon icon-unsplash"><use xlink:href="#icon-unsplash"></use></svg>
         </a>
     {% endif %}
+
+		{% if site.hackernews %}
+        <a class="link" data-title="news.ycombinator.com/user?id=/{{ site.hackernews }}" href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank">
+            <svg class="icon icon-hackernews"><use xlink:href="#icon-hackernews"></use></svg>
+        </a>
+    {% endif %}
 </div>
