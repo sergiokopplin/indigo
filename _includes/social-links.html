@@ -107,6 +107,12 @@
         </a>
     {% endif %}
 
+    {% if site.keybase %}
+        <a class="link" data-title="keybase.io/{{ site.keybase }}" href="https://keybase.io/{{ site.keybase }}" target="_blank">
+            <svg class="icon icon-keybase"><use xlink:href="#icon-keybase"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.email %}
         <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
