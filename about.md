@@ -7,7 +7,7 @@ layout: page
 I develop clean, flexible and reliable code to meet today's business objectives immediately and to be ready to change
 for whatever tomorrow will bring. I pride myself on constantly considering the latest technologies for solving new and
 existing problems in a more efficient manner. I believe it is possible to write code so cleanly that any experienced
-engineer can understand the code and contribute to it in less than day's study. I strive to meet these ideals with
+engineer can understand my code and contribute to it in less than day's study. I strive to meet these ideals with
 every line of code that I write.
 
 I have experience in a variety of business settings, including being the primary developer for an Anti-Money Laundering
