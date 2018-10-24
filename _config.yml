@@ -9,6 +9,7 @@ description: ''
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
+body-picture: assets/images/body.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
