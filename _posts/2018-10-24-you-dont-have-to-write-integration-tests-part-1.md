@@ -10,8 +10,21 @@ tag:
 category: blog
 author: andrew
 description: Why integration tests aren't the best and how to avoid them.
-# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
+
+*Work in Progress*
+
+In his seminal post
+[*Integrated Tests are a Scam*](https://blog.thecodewhisperer.com/permalink/integrated-tests-are-a-scam),
+J. B. Rainsberger explains how the completeness of integration (or "integrated") tests lure developers into a trap.
+Integration tests require a complex development environment. Integration tests are slow. They cover many lines of code
+and don't help pinpoint problems.
+
+However, used sparingly, integration tests are a powerful tool. A limited number of integration tests that ensure the
+proper function of the most common use-cases can catch bugs from unexpected changes in a dependency. At the very least,
+they serve as sanity checks that give developers confidence in a continuously-deployed (CD) workflow.
+
+TODO: the rest
 
 ## Summary:
 
