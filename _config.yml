@@ -111,4 +111,4 @@ plugins:
 jekyll-mentions:
     base_url: https://github.com
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
