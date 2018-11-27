@@ -95,6 +95,12 @@
         </a>
     {% endif %}
 
+    {% if site.tumblr %}
+        <a class="link" data-title="{{ site.tumblr }}.tumblr.com" href="https://{{ site.tumblr }}.tumblr.com">
+            <svg class="icon icon-tumblr"><use xlink:href="#icon-tumblr"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.lanyrd %}
         <a class="link" data-title="lanyrd.com/{{ site.lanyrd }}" href="https://lanyrd.com/{{ site.lanyrd }}" target="_blank">
             <svg class="icon icon-microphone"><use xlink:href="#icon-microphone"></use></svg>
