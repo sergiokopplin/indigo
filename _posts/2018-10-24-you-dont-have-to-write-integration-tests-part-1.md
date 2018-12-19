@@ -117,3 +117,7 @@ The solution is easy: only run the integration tests when you need to:
 Here we separate our integration tests into an `integration` package and eliminate that package from our `make test` command.
 
 In this way a developer may run a (hopefully) comprehensive unit test suite with `make test` and get back results immediately. The `integration` target can be saved for the rare moments when we require a new contract from our dependencies, or it could be run exclusively by CI.
+
+# Look forward to Part 2
+
+That's all for now, but in Part 2 I'll explain a useful tactic for avoiding integration tests altogether. Look forward to it!
