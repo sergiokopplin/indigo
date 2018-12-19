@@ -12,8 +12,6 @@ author: andrew
 description: Why integration tests aren't the best and how to avoid them.
 ---
 
-*Work in Progress*
-
 In his seminal post
 [*Integrated Tests are a Scam*](https://blog.thecodewhisperer.com/permalink/integrated-tests-are-a-scam),
 J. B. Rainsberger explains how the completeness of integration (or "integrated") tests lure developers into a trap.
@@ -57,7 +55,7 @@ Let's say we are testing the integration of our service with PostgreSQL, a popul
     test:
       go test ./...
 
-Now that some of our tests rely on a PostgreSQL instance, we add a dependency to our `test` target:
+To test integration with our new PostgreSQL component, we add a dependency to our `test` target:
 
     test: db
       go test ./...
@@ -103,3 +101,19 @@ Secondly, Docker containers launched via Docker Compose are named according to t
 Thirdly, the `docker-compose` command has subcommands for interacting with containers launched from the respective `docker-compose.yml`. This allows you to get precise results from the containers you care about. For example, while `docker ps` will present information about all of the containers running on your system, `docker-compose ps` only presents the containers in your `docker-compose.yml`.
 
 In this way, launching containers via `docker-compose` provides automatic organization of your containers per-project, and eases the operation and analysis of these containers.
+
+# Back to the example, how do we maintain a rapid develop-test-evaluate loop?
+
+Integration tests are necessary for keeping trust in a CI/CD workflow, but they seriously hamper a developer's ability to iterate on their unit test suite. While a system can run hundreds of unit tests in parallel at a lightning-fast pace, even just a few integration tests can slow testing down to minutes.
+
+The solution is easy: only run the integration tests when you need to:
+
+    test:
+      go test $$(go list ./... | grep -v -e integration)
+
+    integration: db
+      go test ./integration/...
+
+Here we separate our integration tests into an `integration` package and eliminate that package from our `make test` command.
+
+In this way a developer may run a (hopefully) comprehensive unit test suite with `make test` and get back results immediately. The `integration` target can be saved for the rare moments when we require a new contract from our dependencies, or it could be run exclusively by CI.
