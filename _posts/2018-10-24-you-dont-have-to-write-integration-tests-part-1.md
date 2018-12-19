@@ -32,7 +32,7 @@ In my own words,
 
 > An integration test ensures your service uses code from another repository to produce expected results.
 
-When testing your own code, you have the freedom to write your code that it is easily testable. E.g., instead of writing a function like
+When testing your own code, you have the freedom to write code that is easily testable. E.g., instead of writing a function like
 
     func NewPersonFromFile(path string) (Person, error)
 
@@ -50,6 +50,42 @@ These are the important and unavoidable cases when your testing environment must
 
 # Writing Integration Tests for Minimal Impact
 
-While writing integration tests, we must be vigilant in reducing the performance impact these tests have on the execution of our unit tests and the duration of our CI and CD builds as a whole. I'll illustrate some useful tactics to achieve this goal with an example.
+While writing integration tests, we must be vigilant in maintaining the ease-of-use and performance of our developer workflow. I'll illustrate some strategies with an example.
 
-**TODO: finish**
+Let's say we are testing the integration of our service with PostgreSQL, a popular database. Before we added PostgreSQL to our project, we ran our unit tests with this `make` target:
+
+    test:
+      go test ./...
+
+Now that some of our tests rely on a PostgreSQL instance, we add a dependency to our `test` target:
+
+    test: db
+      go test ./...
+
+    db:
+      docker-compose up -d
+
+with the following `docker-compose.yml`:
+
+    db:
+      image: postgres:9.6
+      ports: [‘5432:5432’]
+
+This provides our tests with a PostgreSQL instance contained in a Docker image.
+
+## Why Docker?
+
+Why are we using a Docker image for this? Why not just run a PostgreSQL server on our development machine? There's a few reasons.
+
+Firstly, we improve developer portability by simplifying development environment setup. If we required a developer to provide a PostgreSQL server running on their development machine, they would need to
+1. install PostgreSQL
+1. configure PostgreSQL to provide the appropriate roles, passwords, and databases for the test environment
+1. launch the server and keep it running
+
+A PostgreSQL Docker container, on the other hand, can be completely configured on the command-line (`docker run ...`) or, in our case, in a `docker-compose.yml`. The user need not install PostgreSQL: Docker will pull the requisite images for them.
+
+Lastly, Docker images are easy to start, stop, destroy, and restart. It's easy to guarantee that the PostgreSQL instance will have a fresh state for a test case to run on.
+
+A PostgreSQL server running on the host, however, may be used by other applications on the developer's machine. It's hard to know what still the server will have before a test case runs.
+
+## Why Docker Compose?
