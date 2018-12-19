@@ -90,7 +90,7 @@ A PostgreSQL server running on the host, however, may be used by other applicati
 
 ## Why Docker Compose?
 
-Why do we use `docker-compose` instead of `docker run`? Firstly, a `docker-compose.yml` file is a well-organized way of configuring Docker containers. For example, if we need our PostgreSQL instance to provide a specific database, we can have
+Why do we use `docker-compose` instead of `docker run`? Firstly, a `docker-compose.yml` file is a readable way of configuring Docker containers. For example, if we need our PostgreSQL instance to provide a database with the name `my-database`, we can have
 
     db:
       image: postgres:9.6
@@ -100,6 +100,6 @@ Why do we use `docker-compose` instead of `docker run`? Firstly, a `docker-compo
 
 Secondly, Docker containers launched via Docker Compose are named according to the filepath of the `docker-compose.yml` from which they are launched. A `postgres` image launched by your project's `docker-compose.yml` will not conflict with any other `postgres` images running on a development machine.
 
-Thirdly, the `docker-compose` command has subcommands for interacting with containers launched from the respective `docker-compose.yml`. This allows you to get precise results from the containers you care about. For example, `docker ps` will present information about all of the containers running on your system. `docker-compose ps`, on the other hand, only presents the containers in your `docker-compose.yml`.
+Thirdly, the `docker-compose` command has subcommands for interacting with containers launched from the respective `docker-compose.yml`. This allows you to get precise results from the containers you care about. For example, while `docker ps` will present information about all of the containers running on your system, `docker-compose ps` only presents the containers in your `docker-compose.yml`.
 
 In this way, launching containers via `docker-compose` provides automatic organization of your containers per-project, and eases the operation and analysis of these containers.
