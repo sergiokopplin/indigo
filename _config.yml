@@ -31,7 +31,7 @@ analytics-google: 'UA-124226580-1'
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project, experience] # only show disqus for posts that have these categories
+  categories: [blog, project, companies] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
@@ -85,7 +85,7 @@ width: normal
 about: true
 blog: false
 
-experience: true
+companies: true
 
 skills: true
 
