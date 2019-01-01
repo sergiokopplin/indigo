@@ -22,13 +22,14 @@ San Francisco, California
 ## Experience
 
 **Calico Life Sciences, South San Francisco, CA, 2018 - Present**  
-*Computational Biologist*
+*Data Scientist, Computing*
 
-* Applying image analysis and machine learning methods to unravel the biology of aging and disease
+* Developing single cell analysis methods for timelapse imaging data
+* Developing single cell RNA-sequencing analysis methods to study heterogeneity and cellular dynamics
 
 **University of California San Francisco, San Francisco, CA, 2015 - 2018**  
 *PhD Candidate*  
-*Principal Investigators:* Wallace Marshall, Andrew Brach
+*Principal Investigators:* Wallace Marshall, Andrew Brack
 *Thesis:* Inferring stem cell state from cell behavior
 
 * Developed [*Heteromotility*](http://jacobkimmel.github.io/heteromotility) biological motion analysis package, including feature extraction, unsupervised clustering, and time-series analysis tools to quantify dynamic state transitions in cellular systems
@@ -89,7 +90,7 @@ San Francisco, California
 
 ## Publications
 
-1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. https://doi.org/10.1371/journal.pcbi.1005927
+1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
 2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional neural networks allow analysis of cell motility during stem cell differentiation and neoplastic transformation. 2018. bioRxiv. doi: [https://doi.org/10.1101/159202](https://doi.org/10.1101/159202). *(Submitted for publication).*
 3. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
 4. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
@@ -135,8 +136,9 @@ San Francisco, California
 
 Reviewer for:
 
+* *Bioinformatics*
+* *IEEE Journal of Biomedical and Health Informatics*
 * *PLoS Computational Biology*
-* *IEEE Journal of Biomedical and Health Informatics* (JBHI)
 
 ## Honors and Awards
 
