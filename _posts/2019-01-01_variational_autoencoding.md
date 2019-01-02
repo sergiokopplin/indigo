@@ -1,7 +1,7 @@
 ---
 title: Variational Autoencoding for Biologists
 layout: post
-date: 2019-01-02
+date: 2019-01-01
 tag:
 - biology
 - machine learning

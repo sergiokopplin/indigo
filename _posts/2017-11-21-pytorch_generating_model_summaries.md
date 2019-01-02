@@ -9,7 +9,7 @@ tag:
 blog: true
 ---
 
-Some of the most common bugs I encounter when building deep neural network models are dimensionality mismatches, or simple implementation errors that lead to a model architecture different than the one I intended. Judging based on the number of forum posts related to dimensionality errors, I guess I'm not the only one! While these bugs may be trivial to detect, the cryptic error messages produced when CUDA devices run out of memory (i.e. if you unintentionally multiply two huge matrices) aren't always helpful in tracking these bugs down.
+Some of the most common bugs I encounter when building deep neural network models are dimensionality mismatches, or simple implementation errors that lead to a model architecture different than the one I intended. Judging based on the number of forum posts related to dimensionality errors, I guess I'm not the only one. While these bugs may be trivial to detect, the cryptic error messages produced when CUDA devices run out of memory (i.e. if you unintentionally multiply two huge matrices) aren't always helpful in tracking these bugs down.
 
 To solve this, the [`keras`](https://keras.io) high-level neural network framework has a nice `model.summary()` method that lists all the layers in the network, and the dimensions of their output tensors. This sort of summary allows a user to quickly glance through the structure of their model and identify where dimensionality mismatches may be occurring.
 
@@ -17,7 +17,7 @@ I've taken up [`pytorch`](https://pytorch.org) as my DNN lingua-franca, but this
 
 This isn't the most elegant way of doing things. I considered briefly implementing a method that identified the common layer types in a `pytorch` model, then computed the output dimensions based on known properties of the layer. I decided against this approach though, since it would require defining effects of each layer on dimensionality *a priori*, such that any custom layers or future layers added to `pytorch` would break the summary method for the whole model.
 
-Instead, I implemented the inelegant solution described above of passing a sample input through the model and watching it's dimensionality change. The simple tool is available as [`pytorch_modelsummary`](https://github.com/jacobkimmel/pytorch_modelsummary). As with [the model size estimation tool]({{ site.url }}/pytorch_estimating_model_size) I described last week, the `pytorch_modelsummary` tool takes advantage of `pytorch`'s `volatile` Variables to minimize the memory expense of this forward pass. Model summaries are provided as a `pandas.DataFrame`, both for downstream analysis, and because `pandas` gives us pretty-printing "for free" :).
+Instead, I implemented the inelegant solution described above of passing a sample input through the model and watching its dimensionality change. The simple tool is available as [`pytorch_modelsummary`](https://github.com/jacobkimmel/pytorch_modelsummary). As with [the model size estimation tool]({{ site.url }}/pytorch_estimating_model_size) I described last week, the `pytorch_modelsummary` tool takes advantage of `pytorch`'s `volatile` Variables to minimize the memory expense of this forward pass. Model summaries are provided as a `pandas.DataFrame`, both for downstream analysis, and because `pandas` gives us pretty-printing "for free" :).
 
 An example of using the model summary is provided below:
 
