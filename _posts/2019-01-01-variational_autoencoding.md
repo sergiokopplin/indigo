@@ -25,7 +25,7 @@ This means that operations like $z_\text{Metaphase} = z_\text{Prophase} + z_\tex
 ## 2 - VAEs are generative models, providing a lens from which we can begin to disentangle individual generative factors beneath observed variables.
 
 High dimensional biological data, like transcriptomes or images, is the emergent product of underlying *generative factors*. [Recent work from DeepMind et. al.](https://arxiv.org/abs/1804.03599) on $\beta$-VAEs has shown promise for finding latent dimensions that map to specific generative factors, allowing for interpretable latent dimensions.  
-**Biological Use Case:** Learn a latent space where generative factors of interest \(i.e. cell cycle state, differentiation state, etc.\) map uniquely to individual dimensions, allowing for estimates of covariance between generative factors & measurement space variables.  
+**Biological Use Case:** Learn a latent space where generative factors of interest like cell cycle state, differentiation state, &c., map uniquely to individual dimensions, allowing for estimates of covariance between generative factors and measurement space variables.  
 
 ## 3 - VAE latent spaces provide a notion of variation in the latent space.
 
