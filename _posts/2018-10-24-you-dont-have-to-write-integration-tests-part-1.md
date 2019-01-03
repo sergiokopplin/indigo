@@ -7,6 +7,8 @@ headerImage: false
 tag:
 - integration
 - testing
+- docker
+- docker-compose
 category: blog
 author: andrew
 description: Why integration tests aren't the best and how to avoid them.
