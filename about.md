@@ -15,7 +15,7 @@ I have a master degree in Computer science at <a href="http://kpi.ua/en" target=
 </p>
 
 <p>
-Since 2009 I work as a software developer in <a href="/companies">various companies</a> where I was focusing on building web-based tools and systems as well as taking care about infrastructure, test automation and a little bit of frontend.
+Since 2009 I work as a software developer for <a href="/companies">various companies</a> where I was focusing on building web-based tools and systems as well as taking care about infrastructure, test automation and a little bit of frontend.
 </p>
 
 <p>
