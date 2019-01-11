@@ -14,7 +14,7 @@ picture: assets/images/oleksii-zeleniuk.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://docs.google.com/document/d/1T-ckZ9kJLYN8IazJCIPQ_9bNFKXO5vDPaY2C6eR_FVY/edit
+resume-url: https://docs.google.com/document/d/1T-ckZ9kJLYN8IazJCIPQ_9bNFKXO5vDPaY2C6eR_FVY/edit?usp=sharing
 
 url: https://alexzelenuyk.github.io/indigo
 # your url: http://USERNAME.github.io
@@ -53,7 +53,7 @@ github: alexzelenuyk
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 xing: Oleksii_Zeleniuk
-email: alexzelenuyk@gmail.com
+email: mail@zeleniuk.com
 
 # authors:
 #     johndoe:
