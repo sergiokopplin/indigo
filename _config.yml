@@ -34,21 +34,24 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
+
+email: myemail@gmail.com
 facebook: myfacebook
-twitter: mytwitter
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
-# linkedin: mylinkedin
-# youtube: myyoutube
-# spotify: myspotify
 github: mygithub
-# stackoverflow: 7044681/mystackoverflow
+# google: mygoogle
+goodreads: BillGates
+# instagram: myinstagram
+# linkedin: mylinkedin
+medium: medium
+# pinterest: mypinterest
 # quora: userquora
 # reddit: username
-medium: medium
+# spotify: myspotify
+# stackoverflow: 7044681/mystackoverflow
+twitter: mytwitter
+# Video Sharing Platform
 # vimeo: myvimeo
-email: myemail@gmail.com
+# youtube: myyoutube
 
 authors:
     johndoe:
