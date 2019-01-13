@@ -88,4 +88,10 @@
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+	
+	{% if site.goodreads %}
+        <a class="link" data-title="{{ site.goodreads }}" href="https://www.goodreads.com/{{ site.goodreads }}" target="_blank">
+            <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
+        </a>
+    {% endif %}
 </div>
