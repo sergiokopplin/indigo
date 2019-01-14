@@ -30,10 +30,6 @@ changes in a dependency. At the very
 least, they serve as sanity checks that give developers confidence in a
 continuously-deployed (CD) workflow.
 
-In this post I'll explain how you can apply integration tests to your project 
-with minimal impact on your workflow. In a follow-up, I'll showcase a great 
-tool for avoiding integration tests except when absolutely necessary.
-
 # Firstly, What is an Integration Test?
 
 In my own words,
