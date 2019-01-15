@@ -34,10 +34,10 @@ continuously-deployed (CD) workflow.
 
 In my own words,
 
-> An integration test ensures your service uses code from another repository to 
+> An integration test ensures your service uses code from another repository to
 produce expected results.
 
-When testing your own code, you have the freedom to write code that is easily 
+When testing your own code, you have the freedom to write code that is easily
 testable. E.g., instead of writing a function like
 
     func NewPersonFromFile(path string) (Person, error)
@@ -50,13 +50,13 @@ which could be tested like
 
     p, err := NewPersonFromFile(strings.NewReader(`{"name":"Andrew"}`))
 
-Things get tricky when testing the integration of your code with code in 
-another repository. You are not responsible for the design of this code. It may 
-be very unfriendly to testing. Perhaps it only works if you provide a working 
+Things get tricky when testing the integration of your code with code in
+another repository. You are not responsible for the design of this code. It may
+be very unfriendly to testing. Perhaps it only works if you provide a working
 database instance, or some other complex resource.
 
-These are the important and unavoidable cases when your testing environment 
-must get (uncomfortably) more complicated than what is provided by `go test`. 
+These are the important and unavoidable cases when your testing environment
+must get (uncomfortably) more complicated than what is provided by `go test`.
 This is when we resort to integration tests.
 
 # Writing Integration Tests for Minimal Impact
