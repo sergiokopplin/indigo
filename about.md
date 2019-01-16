@@ -11,8 +11,8 @@ engineer can understand my code and contribute to it in less than day's study. I
 every line of code that I write.
 
 I have experience in a variety of business settings, including being the primary developer for an Anti-Money Laundering
-deployment (Palantir, 2015-2016), transforming the Raspberry Pi into an HDMI test device (Google, 2014), and creating
-an innovative storage product that promises to make latency a thing of the past (Cloudflare, 2018). My work has also
+deployment (Palantir, 2015-16), transforming the Raspberry Pi into an HDMI test device (Google, 2014), and creating
+an innovative storage product that promises to make latency a thing of the past (Cloudflare, 2018-19). My work has also
 taken me around the globe, from Seoul to Singapore and San Francisco to New York.
 
 I now reside in Austin, Texas not far from my alma mater, the University of Texas at Austin. I am always excited to
