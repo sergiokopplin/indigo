@@ -52,7 +52,7 @@ could find this page. The page would explain where services' repositories lie in
 | stable | a place to keep horses | [https://github.com/ags799/stable]() |
 
 It's important not to overdo the "purpose" description here. Precise documentation expires more quickly. Documentation
-outside of source control may be discoverable to your broader organization, but its rarely visited by the experts
+outside of source control may be discoverable to your broader organization, but it's rarely visited by the experts
 working on a product. Thus, if we have the "true", all-encompassing description of a service on this wiki page, it is
 almost certainly going to be misleading a month later.
 
