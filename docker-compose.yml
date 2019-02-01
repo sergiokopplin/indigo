@@ -1,0 +1,21 @@
+version: "3.1"
+
+services:
+
+  jekyll:
+    environment:
+      - JEKYLL_ENV=development
+    container_name: jekyll_indigo
+    image: jekyll/jekyll:3.8.5
+    labels:
+      jekyll_docker_indigo: true
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:4000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    command: jekyll serve --config _config.yml,_config-dev.yml --watch --incremental
+    ports:
+        - 127.0.0.1:4000:4000
+    volumes:
+        - .:/srv/jekyll

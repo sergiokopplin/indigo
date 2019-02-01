@@ -4,3 +4,4 @@ _site
 Gemfile.lock
 .bundle
 vendor/
+.jekyll-metadata
