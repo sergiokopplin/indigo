@@ -23,6 +23,10 @@ I started building software with PHP first but nowadays it's not limited to that
 <p>
 
 <p>
+Currently, I work as a Freelancer(Contractor) developer in Hamburg and strive to bring products and ideas of my Customers live faster and keep their technical stack up to date with IT trends.
+</p>
+
+<p>
 On a personal note, I'm into a sport (like judo, football, jogging), traveling and exploring new music.
 <p>
 
