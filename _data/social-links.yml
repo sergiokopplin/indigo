@@ -1,15 +1,14 @@
-# yaml manifest of supported social links
-#
-# requirements:
+# Yaml manifest of supported social links
+# Requirements:
 # `name`
-#     - plain-text name of the site (e.g. facebook)
+#     - plain-text name of the site (e.g. twitter)
 #     - **mandatory**
-# `url-prefix`
-#     - part of the site URL prior to username (e.g. facebook.com/)
-#     - must include the trailing slash
+# `url-pattern`
+#     - site URL pattern containing a placeholder string (e.g. twitter.com/__USERNAME__)
+#     - placeholder will be replaced by username or value specified in _config.yml (e.g. twitter.com/mytwitter)
 #     - **mandatory** (for non-email type links)
 # `url-scheme`
-#     - corresponds to the hardcoded URI/URN url-scheme (e.g. https://)
+#     - the hardcoded URI/URN url_scheme (e.g. https://)
 #     - can be one of: ['https://', 'http://', 'mailto:']
 #     - defaults to '//'
 #     - **optional**
@@ -19,86 +18,87 @@
 #     - **optional**
 #
 - name: facebook
-  url-prefix: facebook.com/
+  url-pattern: facebook.com/__USERNAME__
 
 - name: twitter
-  url-prefix: twitter.com/
+  url-pattern: twitter.com/__USERNAME__
 
 - name: google
-  url-prefix: plus.google.com/
+  url-pattern: plus.google.com/+__USERNAME__
 
 - name: instagram
-  url-prefix: instagram.com/
+  url-pattern: instagram.com/__USERNAME__
 
 - name: pinterest
-  url-prefix: pinterest.com/
+  url-pattern: pinterest.com/__USERNAME__
 
 - name: linkedin
-  url-prefix: linkedin.com/in/
+  url-pattern: linkedin.com/in/__USERNAME__
 
 - name: youtube
-  url-prefix: youtube.com/
+  url-pattern: youtube.com/__USERNAME__
 
 - name: spotify
-  url-prefix: open.spotify.com/user/
+  url-pattern: open.spotify.com/user/__USERNAME__
 
 - name: lastfm
-  url-prefix: last.fm/user/
+  url-pattern: last.fm/user/__USERNAME__
 
 - name: github
-  url-prefix: github.com/
+  url-pattern: github.com/__USERNAME__
 
 - name: gitlab
-  url-prefix: gitlab.com/
+  url-pattern: gitlab.com/__USERNAME__
 
 - name: keybase
-  url-prefix: keybase.io/
+  url-pattern: keybase.io/__USERNAME__
   icon: key
 
 - name: stackoverflow
-  url-prefix: stackoverflow.com/users/
+  url-pattern: stackoverflow.com/users/__USERNAME__
 
 - name: quora
-  url-prefix: www.quora.com/profile/
+  url-pattern: www.quora.com/profile/__USERNAME__
 
 - name: reddit
-  url-prefix: reddit.com/user/
+  url-pattern: reddit.com/user/__USERNAME__
 
 - name: medium
-  url-prefix: medium.com/@
+  url-pattern: medium.com/@__USERNAME__
 
 - name: lanyrd
-  url-prefix: lanyrd.com/
+  url-pattern: lanyrd.com/__USERNAME__
   url-scheme: 'http://'
   icon: microphone
 
 - name: scholar
-  url-prefix: scholar.google.com/citations?user=
+  url-pattern: scholar.google.com/citations?user=__USERNAME__
 
 - name: researchgate
-  url-prefix: www.researchgate.net/profile/
+  url-pattern: www.researchgate.net/profile/__USERNAME__
 
 - name: mendeley
-  url-prefix: mendeley.com/profiles/
+  url-pattern: mendeley.com/profiles/__USERNAME__
 
 - name: pubmed
-  url-prefix: www.ncbi.nlm.nih.gov/myncbi/browse/collection/
+  url-pattern: www.ncbi.nlm.nih.gov/myncbi/browse/collection/__USERNAME__
 
 - name: orcid
-  url-prefix: orcid.org/
+  url-pattern: orcid.org/__USERNAME__
 
 - name: impactstory
-  url-prefix: profiles.impactstory.org/u/
+  url-pattern: profiles.impactstory.org/u/__USERNAME__
 
 - name: figshare
-  url-prefix: fighshare.com/authors/
+  url-pattern: fighshare.com/authors/__USERNAME__
 
 - name: slideshare
-  url-prefix: www.slideshare.net/
+  url-pattern: www.slideshare.net/__USERNAME__
 
 - name: speakerdeck
-  url-prefix: speakerdeck.com/
+  url-pattern: speakerdeck.com/__USERNAME__
 
 - name: email
+  url-pattern: '__USERNAME__'
   url-scheme: 'mailto:'
   icon: mail

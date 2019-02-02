@@ -1,5 +1,5 @@
 <div class="social-links">
-{% assign links = '' | split: '' %}
+{% assign links = null | compact %}
 {% if site.social-links-order %}
     {% for link in site.social-links-order %}
         {% assign link-elem = include.links | where: "name", link %}
@@ -10,10 +10,12 @@
 {% endif %}
 
 {% for link in links %}
-    {% assign link-username = site[link.name] %}
-    {% if link-username %}
-    <a target="_blank" class="link" data-title="{{ link.url-prefix }}{{ link-username }}" href="{{ link.url-scheme | default: '//' }}{{ link.url-prefix }}{{ link-username }}">
-        <svg class="icon icon-{{ link.icon | default: link.name }}"><use xlink:href="#icon-{{ link.icon | default: link.name }}"></use></svg>
+    {% assign username = site[link.name] %}
+    {% if username %}
+    {% assign icon-name = link.icon | default: link.name %}
+    {% assign site-url = link.url-pattern | replace: '__USERNAME__', username %}
+    <a target="_blank" class="link" data-title="{{ site-url }}" href="{{ link.url-scheme | default: '//' }}{{ site-url }}">
+        <svg class="icon icon-{{ icon-name }}"><use xlink:href="#icon-{{ icon-name }}"></use></svg>
     </a>
     {% endif %}
 {% endfor %}
