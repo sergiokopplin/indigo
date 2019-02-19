@@ -86,7 +86,7 @@ process as fluid as possible to keep our development team running like a well-oi
 ## 2. Preparing the Development Environment
 
 Before you can build a C project, you must have `gcc`. Before you can build a JavaScript project, you probably need
-`node` or `yarn`.
+`node` or `yarn`. And you almost always need a specific version of such tools.
 
 It's important that our projects be specific about such environmental requirements to their build processes. Debugging
 production issues may require specific knowledge of how the production binaries were constructed. It's important that
@@ -94,6 +94,36 @@ we be specific about how we construct production binaries so that we can be cons
 another. And it's important that we communicate these same specifics to developers so that their development
 environment may match production as closely as possible. Many hours can be saved by catching bugs on production in a
 local development environment.
+
+How do we describe our services' environmental requirements with exact precision? How do automate the preparation of
+such environments to maximize developer portability? How do we keep such environments lean so that builds run quickly
+and efficiently on development machines?
+
+Build systems.
+
+### What is a Build System?
+
+If you have any professional development experience, you almost certainly have used a build system.
+
+[`make`](https://www.gnu.org/software/make/) is a classic example. If you've ever run `./configure && make` to install
+a package on a Linux system, you've used this build system. I'm going to take a minute to explain how `make` works, as
+it exemplifies the core competencies of a build system in a plain way.
+
+When you run `make`, the program first looks for project configuration in `./Makefile`. This file lists a project's
+*build targets*, which could be executable files to be constructed in a `bin` directory, e.g. `bin/server`, `bin/client`.
+I say "could" because a build target can be anything you want, from concrete artifacts like test coverage outputs and
+Docker images, to simple bash commands like `go test ./...`.
+
+Let's illustrate with an example Go project. If our project looks like
+```
+my-project/
+  README.md
+  my_project.go
+  Makefile
+  bin/
+    server
+    client
+```
 
 # Why an Ideal Development Workflow is Impossible and Why We Try to Approximate It
 
