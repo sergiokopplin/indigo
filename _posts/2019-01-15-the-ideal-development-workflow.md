@@ -151,6 +151,16 @@ target, executes its dependencies (it has none), then executes its command. When
 `bin/server` command, then the `bin/client` command, then finish. Also, small detail, if you run `make` without any
 arguments, it uses the first target by default (in our case, `all`).
 
+This illustrates the base design of any build system.
+
+> A build system accepts as input a graph of all of a project's build steps, where the nodes are the steps and the
+> edges are the dependencies between these steps, and a target node in this graph. The build system then executes the
+> node and its dependencies in order, dependencies built first.
+
+### Why is this Useful?
+
+TODO
+
 # Why an Ideal Development Workflow is Impossible and Why We Try to Approximate It
 
 TODO
