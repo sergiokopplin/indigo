@@ -35,14 +35,31 @@ problem, we empower the talent we already have to work more effectively.
 # The Steps of an Ideal Development Workflow
 
 Our workflow begins with a well-described feature request or bug report, a highly readable codebase, and a developer
-skilled in whatever language the codebase is written in. To make things interesting, we will assume that the developer
-is new to the project: this will be their first pull request for this repository.
+skilled in whatever language the codebase is written in. This may not be a practical scenario (see below on practical
+concerns) but it illustrates how valuable a well-maintained codebase can be.
+
+To make things comprehensive, we will assume that the developer is new to the project: this will be their first pull
+request for this repository. It's our goal to get them from zero to productive with as little effort or guidance as
+possible.
 
 ## 1. Cloning the Repository
 
 This may seem simple. A `git clone ...` command is truly all we need here. But how do we find the Git URL?
 
-Ideally, your product would have a wiki page entitled as 'Your Product Name', so any layperson in your organization
+> *Why not just ask a colleague?*
+>
+> Asking a colleague is the practical solution to this problem. And this is totally reasonable when onboarding a new
+> hire. But what if this developer just internally transferred to our team, or what if they work on another team but
+> just want to implement one feature for us? In order to leverage our company's pool of engineering talent, we aim to
+> maximize *portability*: the ease with which our developers may move from one project to another, making contributions
+> as deemed necessary to meet their team's objectives.
+>
+> So, here and throughout this article, we strive to present a development workflow that is as *self-serve* as possible.
+> We want an aspirational contributor to have no problem at all locating and developing our codebase and submitting
+> their pull request. We want them to be able to do this on their own time, rather than waiting for a maintainer to be
+> available for support. Thus we avoid resorting to Q&A solutions to problems.
+
+Ideally, your product would have a wiki page entitled 'Your Product Name', so any layperson in your organization
 could find this page. The page would explain where services' repositories lie in a concise, tabular form:
 
 | name   | purpose                | repository                           |
