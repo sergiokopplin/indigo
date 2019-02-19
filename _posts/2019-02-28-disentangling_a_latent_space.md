@@ -53,7 +53,9 @@ While that looks hairy, there are basically two parts to this objective, each do
 
 ### Reconstruction error pushes the latent space to capture meaningful variation
 
-The first portion $-\mathbb{E}[ \log_{q_\phi (z \vert x)} p_\theta (x \vert z)]$ is the log likelihood of the data we observed in the measurement space $x$, given a particular configuration of the latent space $z$. If the latent space is configured in a way that doesn't capture much variation in our data, the decoder $p(x \vert z)$ will perform poorly and this log likelihood will be low. Vice-versa, a latent space that captures variation in $x$ will allow the decoder to reconstruct $\hat x$ much better, and the log likelihood will be higher.
+The first portion $-\mathbb{E}[ \log_{q_\phi (z \vert x)} p_\theta (x \vert z)]$ is the log likelihood of the data we observed in the measurement space $x$, given the latent space $z$.
+
+If the latent space is configured in a way that doesn't capture much variation in our data, the decoder $p(x \vert z)$ will perform poorly and this log likelihood will be low. Vice-versa, a latent space that captures variation in $x$ will allow the decoder to reconstruct $\hat x$ much better, and the log likelihood will be higher.
 
 This is known as the **reconstruction error**. Since we want to minimize $L$, better reconstruction will make $L$ more negative. In practice, we estimate reconstruction error using a metric of difference between the observed data $x$ and the reconstructed data $\hat x$ using some metric of difference like binary cross-entropy. In order to get reasonable reconstructions, the latent space $q(z \vert x)$ has to capture variation in the measurement data. The reconstruction error therefore acts as a pressure on the encoder network to capture meaningful variation in $x$ within the latent variables $z$. This portion of the objective is actually very similar to a "normal" autoencoder, simply optimizing how close we can make the reconstructed $\hat x$ to the original $x$ after forcing it through a smaller number of dimensions $z$.
 
@@ -75,13 +77,15 @@ Notice that the objective doesn't scale either of the reconstruction or divergen
 
 ### What sort of latent spaces does this generate?
 
-The Gaussian prior $p(z) = \mathcal{N}(0, \mathbf{I})$ pulls the dimensions of the latent space to be independent. However, it does not explicitly force the disentangling between generative factors that we so desire. As we outlined earlier, independence is necessary but not sufficient for disentanglement.
+The Gaussian prior $p(z) = \mathcal{N}(0, \mathbf{I})$ pulls the dimensions of the latent space to be independent. Why? The covariance matrix we specified for the prior is the identity matrix $\mathbf{I}$, where no dimension covaries with any others. However, it does not explicitly force the disentangling between generative factors that we so desire. As we outlined earlier, independence is necessary but not sufficient for disentanglement. The latent spaces generated with this unweighted Gaussian prior often map multiple generative factors to each of the latent dimensions, making them hard to interpret semantically.
+
+We can see an example of this entangling between generative factors in a VAE trained on the dSprites data set. dSprites is a set of synthetic images of white objects moving across black backgrounds. Because the images are synthesized, we have a ground truth set of generative factors (object $x$ coordinate, object $y$ coordinate, shape, size, rotation) and we know the value of each generative factor for each image.
 
 
 # Footnotes
 
 [^1]: An Objective function is also known as a loss function or energy criterion.
 
-[^2]: The Kullback-Leibler divergence is a fundamental concept that allows us to measure a distance between two probability distributions. Since "the KL" is a distance, it is bounded on the low end at zero and unbounded on the upper end. $$\mathbb{D}_\text{KL} \rightarrow [0, \infty)$$.
+[^2]: The Kullback-Leibler divergence is a fundamental concept that allows us to measure a distance between two probability distributions. Since "the KL" is a divergence (something like a distance, but it doesn't obey the [triangle inequality](https://en.wikipedia.org/wiki/Triangle_inequality)), it is bounded on the low end at zero and unbounded on the upper end. $$\mathbb{D}_\text{KL} \rightarrow [0, \infty)$$.
 
 [^3]: The identity matrix $\mathbf{I}$ is a square matrix with $1$ on the diagonal and $0$ everywhere else. In mathematical notation, $\mathcal{N}(\mu, \Sigma)$ is used to shorthand the [Gaussian distribution function.](https://en.wikipedia.org/wiki/Normal_distribution?oldformat=true#General_normal_distribution)

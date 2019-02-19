@@ -121,6 +121,13 @@ ax.set_xlim(x.min(), x.max()) # line collections don't auto-scale the plot
 ax.set_ylim(y.min(), y.max())
 ```
 
+## Add a label to heatmap colorbars in `seaborn`
+
+```python
+seaborn.heatmap(data,
+  cbar_kws={'label': 'colorbar title'})
+```
+
 ## Remove space between subplots
 
 This is useful when plotting a grid of images.
@@ -134,4 +141,40 @@ for i in range(4):
   ax[i//2, i%2].imshow(I)
   ax.set_xticks([])
   ax.set_yticks([])
+```
+
+## Remove axis spines from a `matplotlib` plot
+
+```python
+fig, ax = plt.subplots(H, W, figsize=(h, w))
+ax[idx].spines['right'].set_visible(False)
+# `.spines` keys are {'left', 'right', 'top', 'bottom'}
+```
+
+## Animate an image
+
+```python
+from matplotlib import animation, rc
+
+fig, ax = plt.subplots(1, 1, figsize=(10,10))
+# remove white frame around image
+fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=None, hspace=None)
+
+im = ax.imshow(data, animated=True)
+
+
+def updatefig(idx):
+    im.set_array(new_data_iterable[idx])
+    return im
+
+anim = animation.FuncAnimation(
+  fig, # figure with initialized artists
+  updatefig, # updating function
+  frames=100, # number of iterations, passes `range(0, frames)` to `updatefig`
+  interval=1e3/30, # ms between frames, i.e. 1e3/FPS for a FPS argument
+  blit=True) # drawing optimization
+
+# if in a Jupyter notebook, the HTML module can display the animation inline
+from IPython.display import HTML
+HTML(anim.to_html5_video())
 ```

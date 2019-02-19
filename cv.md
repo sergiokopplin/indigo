@@ -95,20 +95,19 @@ San Francisco, California
 3. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
 4. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
 
-## Presentations
+## Selected Presentations
 
-1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018.
-2. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Poster presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Best Poster Award).*
-3. Biswas S\*, **Kimmel JC\***, Paulson A\*, Zimmerman T\*, Bianco S. Deep learning methods for cell engineering. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018. (\* Equal Contribution)
-4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the American Society of Cell Biology. ASCB-EMBO 2017 Annual Meeting, Philadelphia, PA. 2017.
-5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
-6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the Developmental and Stem Cell Biology Retreat. UCSF Developmental and Stem Cell Biology Retreat, Tomales Bay, CA. 2017.
-7. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
-8. **Kimmel JC**, Willenberg BJ, Brown A, Sugaya K. Delivery of TGF-beta signaling factors by capillary alginate gel. U. of Central Florida, Showcase of Research Excellence. 2015.
-9. **Kimmel JC**, Kageyama R, Steiner D, Ansel KM. miR-29 Regulation of TNF-alpha production in T cells. University of California, San Francisco. 2014.
-10. **Kimmel JC**, Yuan B, Constant C, Dogariu D, Foroosh H, Sugaya K. Characterization of induced pluripotent reprogramming in mesenchymal stem cells by quantitative image analysis. U. of Central Florida, Showcase of Research Excellence. 2014.
-11. **Kimmel JC**, Sugaya K. Nanog overexpression improves neural transdifferentiation in adipose derived stem cells. Neuroscience 2013, San Diego, CA. 2013.
-12. **Kimmel JC**, Eckley DM, Colleta C, Long J, Orlov N, Rapp P, Goldberg IG. Do different tissues age at different rates?. National Institute on Aging, Baltimore, MD. 2012.
+1. **Kimmel JC**, Hwang H, Marshall WF, Brack AS. Inferring stem cell dynamics with machine learning methods. Invited speaker to the *Machine Learning in Cell Biology** subgroup at [ASCB-EMBO 2018](https://www.ascb.org/). San Diego, CA. 2018.
+2. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018.
+3. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Poster presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Best Poster Award).*
+4. Biswas S\*, **Kimmel JC\***, Paulson A\*, Zimmerman T\*, Bianco S. Deep learning methods for cell engineering. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018. (\* Equal Contribution)
+5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the American Society of Cell Biology. ASCB-EMBO 2017 Annual Meeting, Philadelphia, PA. 2017.
+6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
+7. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the Developmental and Stem Cell Biology Retreat. UCSF Developmental and Stem Cell Biology Retreat, Tomales Bay, CA. 2017.
+8. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
+9. **Kimmel JC**, Willenberg BJ, Brown A, Sugaya K. Delivery of TGF-beta signaling factors by capillary alginate gel. U. of Central Florida, Showcase of Research Excellence. 2015.
+10. **Kimmel JC**, Kageyama R, Steiner D, Ansel KM. miR-29 Regulation of TNF-alpha production in T cells. University of California, San Francisco. 2014.
+11. **Kimmel JC**, Eckley DM, Colleta C, Long J, Orlov N, Rapp P, Goldberg IG. Do different tissues age at different rates?. National Institute on Aging, Baltimore, MD. 2012.
 
 ## Outreach
 
@@ -138,13 +137,14 @@ Reviewer for:
 
 * *Bioinformatics*
 * *IEEE Journal of Biomedical and Health Informatics*
+* *Nature Medicine*
 * *PLoS Computational Biology*
 
 ## Honors and Awards
 
 * NSF Graduate Research Fellowship, 2017
 * PhRMA Informatics Fellowship, PhRMA Foundation, 2017
-* Discovery Fellowship, UC San Francisco, 2017
+* Discovery Fellow, UC San Francisco, 2017
 * Nvidia Best Presentation Award, *Nvidia Deep Learning in Biomedicine*, 2018
 * Nvidia GPU Grant, 2017 & 2018
 * Honorable Mention, NSF Graduate Research Fellowship,  2016
