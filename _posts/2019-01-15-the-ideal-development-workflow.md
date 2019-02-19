@@ -85,7 +85,15 @@ process as fluid as possible to keep our development team running like a well-oi
 
 ## 2. Preparing the Development Environment
 
-TODO
+Before you can build a C project, you must have `gcc`. Before you can build a JavaScript project, you probably need
+`node` or `yarn`.
+
+It's important that our projects be specific about such environmental requirements to their build processes. Debugging
+production issues may require specific knowledge of how the production binaries were constructed. It's important that
+we be specific about how we construct production binaries so that we can be consistent about it one release after
+another. And it's important that we communicate these same specifics to developers so that their development
+environment may match production as closely as possible. Many hours can be saved by catching bugs on production in a
+local development environment.
 
 # Why an Ideal Development Workflow is Impossible and Why We Try to Approximate It
 
