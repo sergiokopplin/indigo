@@ -103,7 +103,8 @@ Build systems.
 
 ### What is a Build System?
 
-If you have any professional development experience, you almost certainly have used a build system.
+If you have any professional development experience, you almost certainly have used a build system. You might just not
+know it.
 
 [`make`](https://www.gnu.org/software/make/) is a classic example. If you've ever run `./configure && make` to install
 a package on a Linux system, you've used this build system. I'm going to take a minute to explain how `make` works, as
