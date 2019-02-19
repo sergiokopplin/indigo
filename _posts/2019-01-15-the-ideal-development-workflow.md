@@ -60,7 +60,7 @@ This may seem simple. A `git clone ...` command is truly all we need here. But h
 > available for support. Thus we avoid resorting to Q&A solutions to problems.
 
 Ideally, your product would have a wiki page entitled 'Your Product Name', so any layperson in your organization
-could find this page. The page would explain where services' repositories lie in a concise, tabular form:
+could find this page. The page would explain where components' repositories lie in a concise, tabular form:
 
 | name   | purpose                | repository                           |
 |--------|------------------------|--------------------------------------|
@@ -68,7 +68,7 @@ could find this page. The page would explain where services' repositories lie in
 | cowboy | herds cattle           | [https://github.com/ags799/cowboy]() |
 | stable | a place to keep horses | [https://github.com/ags799/stable]() |
 
-It's important not to overdo the "purpose" description here. Precise documentation expires more quickly. Documentation
+It's important not to overdo the "purpose" description here. Precise documentation expires quickly. Documentation
 outside of source control may be discoverable to your broader organization, but it's rarely visited by the experts
 working on a product. Thus, if we have the "true", all-encompassing description of a service on this wiki page, it is
 almost certainly going to be misleading a month later.
