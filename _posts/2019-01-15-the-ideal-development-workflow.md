@@ -110,9 +110,9 @@ a package on a Linux system, you've used this build system. I'm going to take a 
 it exemplifies the core competencies of a build system in a plain way.
 
 When you run `make`, the program first looks for project configuration in `./Makefile`. This file lists a project's
-*build targets*, which could be executable files to be constructed in a `bin` directory, e.g. `bin/server`, `bin/client`.
-I say "could" because a build target can be anything you want, from concrete artifacts like test coverage outputs and
-Docker images, to simple bash commands like `go test ./...`.
+*build targets*, which could be executable files to be constructed in a `bin/` directory, e.g. `bin/server`,
+`bin/client`. I say "could" because a build target can be anything you want, from concrete artifacts like test coverage
+outputs and Docker images, to simple bash commands like `go test ./...`.
 
 Let's illustrate with an example Go project. If our project looks like
 ```
@@ -123,6 +123,17 @@ my-project/
   bin/
     server
     client
+```
+
+Then `Makefile` probably contains
+```
+all: bin/server bin/client
+
+bin/server:
+  go build ./server/... -o bin/server
+
+bin/client:
+  go build ./client/... -o bin/client
 ```
 
 # Why an Ideal Development Workflow is Impossible and Why We Try to Approximate It
