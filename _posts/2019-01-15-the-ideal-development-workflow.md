@@ -118,8 +118,11 @@ Let's illustrate with an example Go project. If our project looks like
 ```
 my-project/
   README.md
-  my_project.go
   Makefile
+  server/
+    server.go
+  client/
+    client.go
   bin/
     server
     client
