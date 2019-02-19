@@ -63,7 +63,7 @@ Ideally, your product would have a wiki page entitled 'Your Product Name', so an
 could find this page. The page would explain where components' repositories lie in a concise, tabular form:
 
 | name   | purpose                | repository                           |
-|--------|------------------------|--------------------------------------|
+|:-------|:-----------------------|:-------------------------------------|
 | barn   | a place to keep cows   | [https://github.com/ags799/barn]()   |
 | cowboy | herds cattle           | [https://github.com/ags799/cowboy]() |
 | stable | a place to keep horses | [https://github.com/ags799/stable]() |
@@ -82,6 +82,10 @@ After browsing this highly-discoverable wiki page and the highly-descriptive REA
 has a high chance of identifying the repository for which to submit a change without ever asking for help. Of course,
 it is ridiculous to expect a new developer to accomplish anything without asking questions. We only try to make our
 process as fluid as possible to keep our development team running like a well-oiled machine.
+
+## 2. Preparing the Development Environment
+
+TODO
 
 # Why an Ideal Development Workflow is Impossible and Why We Try to Approximate It
 
