@@ -136,6 +136,18 @@ bin/client:
   go build ./client/... -o bin/client
 ```
 
+Our build targets are the names before the colons: `all`, `bin/server`, and `bin/client`. The `all` target has two
+dependencies: `bin/server` and `bin/client`. A target's dependencies are listed on the same line, right after the
+colon.
+
+A target may also have an associated command, in plain bash. The `bin/server` target has command
+`go build ./server/... -o bin/server`, for example.
+
+How does this all fit together? When we run `make bin/server`, `make` finds our `Makefile`, looks for the `bin/server`
+target, executes its dependencies (it has none), then executes its command. When we run `make all`, we first run the
+`bin/server` command, then the `bin/client` command, then finish. Also, small detail, if you run `make` without any
+arguments, it uses the first target by default (in our case, `all`).
+
 # Why an Ideal Development Workflow is Impossible and Why We Try to Approximate It
 
 TODO
