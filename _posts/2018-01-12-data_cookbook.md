@@ -13,7 +13,33 @@ blog: true
 
 # Data Cookbook
 
-An ever-growing collection of code blocks to perform useful data manipulation and plotting functions with standard Python libraries. This is mostly for my own self-reference, but possibly useful to others!
+An ever-growing collection of code blocks to perform useful data manipulation and plotting functions with standard Python libraries. This is mostly for my own self-reference, but possibly useful to others.
+
+# Python
+
+These code snacks describe useful features of Python 3+ that aren't always emphasized.
+
+## Force only named arguments to functions
+
+In the below example, arguments following the splat `*` must be supplied
+as named arguments.
+
+This is somewhat intuitive if you're used to Pythons splat operator for
+`*args` or `**kwargs`. Here, the lonely splat "catches" positional arguments
+passed to the function after its introduction in the definition string.
+
+```
+def function(positional, *, named_only0, named_only1):
+  # do some things
+  return
+
+def only_takes_named_args(*, named_only0, named_only1):
+  # do some things
+  return
+```
+
+This is useful when defining functions that may have arguments added and removed
+over time, explicitly preventing code from relying on the positional order.
 
 # Numpy
 
