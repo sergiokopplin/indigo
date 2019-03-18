@@ -34,15 +34,15 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: https://www.fb.me/elewiz17
+facebook: elewiz17
 # twitter: mytwitter
 # google: mygoogle
-instagram: https://instagram.com/lew_iz
+instagram: lew_iz
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: https://github.com/lewiz17
+github: lewiz17
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
