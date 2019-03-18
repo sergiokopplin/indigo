@@ -68,8 +68,7 @@ authors:
         twitter: jamesfoster
 
 # do you want a larger site? change the option below
-options: [large]
-#| default: normal
+# options: [normal, large] | default: normal
 # normal = 560px / large = 810px
 width: normal
 
@@ -97,7 +96,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: false
+show-author: true
 
 # do you want some animations?
 animation: true
@@ -111,3 +110,11 @@ plugins:
 
 jekyll-mentions:
     base_url: https://github.com
+
+compress_html:
+    ignore:
+        envs:
+        - development
+        - stage
+
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
