@@ -13,10 +13,10 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: false
-resume-url: https://eapresume.netlify.com/myresume
+resume-external: true
+resume-url: https://www.linkedin.com/in/eduacope/
 
-url: /myresume
+url: https://lewiz17.github.io/myresume
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
