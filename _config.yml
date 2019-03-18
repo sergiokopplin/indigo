@@ -14,9 +14,9 @@ picture: /assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: https://lewiz17.github.io/
+resume-url: https://lewiz17.github.io
 
-url: myresume/
+url: /myresume
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
