@@ -8,15 +8,15 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: myresume/assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+# resume-url: https://google.com/?q=my+resume
 
-url: https://songet01.github.io/myresume
+# url: https://songet01.github.io/myresume
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -42,13 +42,13 @@ instagram: https://instagram.com/lew_iz
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: https://github.com/songet01
+github: https://github.com/lewiz17
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: lewiz.acosta18@gmail.com
@@ -96,7 +96,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
