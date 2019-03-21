@@ -1,0 +1,17 @@
+= Post template
+:page-liquid:
+:uri-asciidoctor: http://asciidoctor.org
+:page-tags: [ruby, jekyll, asciidoctor, ssg]
+:page-author: tanguybaudrin
+:page-layout: post
+:page-tag: test
+:page-category: blog
+
+{{ page.document | tocify_asciidoc }}
+
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
+
+[source,ruby]
+puts "Hello, World!"

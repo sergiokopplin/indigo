@@ -1,0 +1,9 @@
+FROM jekyll/jekyll:latest as builder
+WORKDIR /tmp
+COPY Gemfile .
+
+RUN bundle install
+
+COPY . .
+ARG config=_config.yml
+RUN jekyll build --config $config

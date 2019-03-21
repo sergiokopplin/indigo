@@ -1,0 +1,23 @@
+= BoardGameApp
+:page-externalLink: false
+:page-layout: post
+:page-tags: [ruby, jekyll, asciidoctor, ssg]
+:page-projects: true
+:page-hidden: true
+:page-description: "Simple app for managing a board game app collection"
+:page-categories: project
+:page-author: tanguybaudrin
+
+== What has inside?
+
+- Gulp
+- BrowserSync
+- Stylus
+- SVG
+- Travis
+- No JS
+- https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F[98/100]
+
+== Sources
+Check it out http://sergiokopplin.github.io/indigo/[here].
+If you need some help, just http://github.com/sergiokopplin/indigo/issues[tell me].

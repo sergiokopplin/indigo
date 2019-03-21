@@ -1,0 +1,16 @@
+= Asciidoctor Common Elements
+:page-liquid:
+:uri-asciidoctor: http://asciidoctor.org
+:page-tags: [ruby, jekyll, asciidoctor, ssg]
+:page-author: tanguybaudrin
+:page-layout: post
+:page-tag: test
+:page-category: blog
+:page-header: { image: /assets/images/markdown.jpg }
+
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using {uri-asciidoctor}[Asciidoctor].
+
+[source,ruby]
+puts "Hello, World!"

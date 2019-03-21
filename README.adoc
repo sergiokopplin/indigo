@@ -1,0 +1,16 @@
+= My personnal blog
+Tanguy BAUDRIN
+
+== Techonology
+
+This blog uses Jekyll, and is based on the indigo theme : https://github.com/sergiokopplin/indigo
+
+Some adjustments have been done :
+
+- Use asciidoctor for writing articles
+
+- Adding Makefile for automations
+
+- Using Docker to build website
+
+- Using github actions to publish website

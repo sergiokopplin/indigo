@@ -3,7 +3,7 @@
     <script type="text/javascript">
 
         var disqus_config = function () {
-            this.page.url = '{{ site.url }}{{ page.url | replace:"index.html","" }}';
+            this.page.url = '{{ page.url | replace:"index.html","" }}';
             this.page.identifier = '{{ page.id }}';
         };
         var disqus_shortname = '{{ site.disqus.shortname }}';

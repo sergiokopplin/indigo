@@ -32,7 +32,7 @@ title: Tags
             {% if post.title != null %}
                 {% if group == null or group == post.group %}
                     <li class="item">
-                        <a class="url" href="{{ site.url }}{{ post.url }}">
+                        <a class="url" href="{{ post.url }}">
                             <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
                             <h3 class="title">{{ post.title }}</h3>
                         </a>

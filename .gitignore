@@ -4,3 +4,16 @@ _site
 Gemfile.lock
 .bundle
 vendor/
+.idea
+**/account.json
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
