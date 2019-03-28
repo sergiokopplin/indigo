@@ -9,7 +9,8 @@ env:
 
 branches:
   only:
-    - master
+    - gh-pages
+    - next
 
 script:
   - bundle exec jekyll build
