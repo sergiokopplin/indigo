@@ -89,6 +89,12 @@
         </a>
     {% endif %}
 
+    {% if site.speakerdeck %}
+        <a class="link" data-title="speakerdeck.com/{{ site.speakerdeck }}" href="https://speakerdeck.com/{{ site.speakerdeck }}" target="_blank">
+            <svg class="icon icon-speakerdeck"><use xlink:href="#icon-speakerdeck"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.vimeo %}
         <a class="link" data-title="vimeo.com/{{ site.vimeo }}" href="https://vimeo.com/{{ site.vimeo }}" target="_blank">
             <svg class="icon icon-vimeo"><use xlink:href="#icon-vimeo"></use></svg>
