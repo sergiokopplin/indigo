@@ -1,7 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
-
+name: Annisa Dea
+bio: Graduate Student @ University of Chicago. Interested in molecular mechanisms of biological processes.
 # twitter summary info
 description: A blog about technology and stuff related
 
@@ -16,7 +15,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://annisa-dea.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,24 +33,24 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+twitter: annisadea17
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: annisa-dea-116aa09b
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: annisa-dea
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: adea@g.hmc.edu
 
 authors:
     johndoe:
@@ -84,13 +83,13 @@ about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
 # related posts inside a post?
-related: true
+related: false
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
