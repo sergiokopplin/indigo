@@ -2,6 +2,7 @@
 title: About
 layout: page
 ---
+<<<<<<< HEAD
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -44,3 +45,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li><a href="https://github.com/">Ipsum Dolor</a></li>
 	<li><a href="https://github.com/">Dolor Lorem</a></li>
 </ul>
+=======
+
+网络工程专业在读学生，瞎捣鼓了一堆应用软件，不久的将来会在西安某校攻读图像处理方向的硕士学位。
+    
+此博客用来分享和记录自己学到的知识，希望可以帮到求知路上的你我他。
+
+Build Software better, together.
+>>>>>>> e0e85c56e43850ca798d35d23f58893a7e172019

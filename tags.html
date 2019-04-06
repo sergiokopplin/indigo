@@ -24,7 +24,11 @@ title: Tags
 
 <section class="tag-list">
     {% for tag in site.tags  %}
+<<<<<<< HEAD
     <h2 class="title" id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h2>
+=======
+    <h2 class="title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+>>>>>>> e0e85c56e43850ca798d35d23f58893a7e172019
 
     <ul class="list">
         {% assign pages_list = tag[1] %}

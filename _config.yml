@@ -1,6 +1,11 @@
 # main text of home
+<<<<<<< HEAD
 name: John Doe
 bio: A Man who travels the world eating noodles
+=======
+name: Inger Chao
+bio: A girl willing to learn and progress
+>>>>>>> e0e85c56e43850ca798d35d23f58893a7e172019
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -12,7 +17,11 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
+<<<<<<< HEAD
 resume: true
+=======
+resume: false
+>>>>>>> e0e85c56e43850ca798d35d23f58893a7e172019
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
@@ -30,24 +39,40 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
+<<<<<<< HEAD
   shortname: mydisqus # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: myfacebook
 twitter: mytwitter
+=======
+  shortname: Inger # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+# facebook: myfacebook
+# twitter: mytwitter
+>>>>>>> e0e85c56e43850ca798d35d23f58893a7e172019
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
+<<<<<<< HEAD
 github: mygithub
+=======
+github: github/inger-chao
+wechat: Yue-6666666
+# qq: 396558528
+>>>>>>> e0e85c56e43850ca798d35d23f58893a7e172019
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
+<<<<<<< HEAD
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
@@ -66,6 +91,19 @@ authors:
         external-image: false
         picture: assets/images/james.jpg
         twitter: jamesfoster
+=======
+# medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+email: ingerchao@outlook.com
+
+authors:
+    ingerchao:
+        name: Inger Chao
+        bio: A girl willing to learn and progress
+        external-image: false
+        picture: assets/images/profile.jpg
+>>>>>>> e0e85c56e43850ca798d35d23f58893a7e172019
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
