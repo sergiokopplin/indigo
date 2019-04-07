@@ -38,7 +38,7 @@ description: The notes of software engineering
   * 综合测试：测试计划、详细测试方案及实际测试结果报告，实现完整一致的软件配置
   * 软件维护：使系统持久的满足用户的需要
 
-![软件开发生命周期](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/软件开发生命周期.png)
+![软件开发生命周期](http://i2.bvimg.com/683003/a559dc16ed160eea.png)
 
 
 
@@ -65,7 +65,7 @@ description: The notes of software engineering
 
 #### 数据流图 
 
-![数据流图基本符号](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/数据流图基本符号.png)
+![数据流图基本符号](http://i2.bvimg.com/683003/01718ee3a6127ed6.png)
 
 [安光的作业图书管理系统数据流图、E-R图](https://github.com/Angus-Liu/Notes/blob/master/Notes_Subject/Subject_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E4%BD%9C%E4%B8%9A%EF%BC%9A%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.md)
 
@@ -85,7 +85,7 @@ description: The notes of software engineering
 
 #### 状态转换图
 
-![状态图画法](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/状态图画法.png)
+![状态图画法](http://i2.bvimg.com/683003/1d749ad668727390.png)
 
 - 初态：同心圆
 - 终态：一对同心圆
@@ -95,7 +95,7 @@ description: The notes of software engineering
   - 下：当前状态下需要做的一些事情，不会改变状态
 - 状态转换：带箭头的连线
 
-![电话系统状态转换图](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/电话系统状态转换图.png)
+![电话系统状态转换图](http://i2.bvimg.com/683003/cc0e2c7313f6e71c.png)
 
 ### 设计
 
@@ -134,20 +134,20 @@ description: The notes of software engineering
 
 结构图：方块代表模块，直线代表模块间调用关系，尾部空心圆表示传递 **数据**，实心圆表示传递 **控制信息**
 
-![系统结构图中模块类型](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/系统结构图中模块类型.png)
+![系统结构图中模块类型](http://i2.bvimg.com/683003/ce184d9235b93bb3.png)
 
 * 变换流：输入信息经过变换中心加工处理作为另外一种形式离开系统
 * 事务流：事务中心T根据输入数据类型在若干个动作序列中选择1个来执行
 
-![1530519386705](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/设计过程.png)
+![设计过程](http://i2.bvimg.com/683003/22256cf4bb72565f.png)
 
 ####PAD图的画法
 
-![PAD图的基本符号](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/PAD图的基本符号.png)
+![PAD图的基本符号](http://i2.bvimg.com/683003/e967b30f94017f57.png)
 
-![程序流程图](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/程序流程图.png)
+![程序流程图](http://i2.bvimg.com/683003/5480c759708541e0.png)
 
-![PAD图](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/PAD图.png)
+![PAD图](http://i2.bvimg.com/683003/81a6fcffff7aa422.png)
 
 ### 软件测试
 
@@ -159,7 +159,7 @@ description: The notes of software engineering
 
 #### 白盒测试技术
 
-![测试程序](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/测试程序.png)
+![测试程序](http://i2.bvimg.com/683003/6507230561ac72e1.png)
 
 | 白盒测试技术       | 描述                                                         |                                                              |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -167,9 +167,9 @@ description: The notes of software engineering
 | 分支覆盖(判定覆盖) | 每个判定的每种可能的结果都至少执行1次。                      | `aTbF`:A=3,B=0,X=3<br>`aFbT`:A=2,B=1,X=2                     |
 | 条件覆盖           | 判定表达式中每个条件都取到可能的取值                         | 所有条件:<br>`A>1,A<=1`;`B=0,B!=0`;<br>`A=2,A!=2`;`X>1,X<=1` |
 | 判定/条件覆盖      | 判定表达式中每个条件取到可能值且每个判定表达式都取到各种结果 |                                                              |
-| 条件组合判定       | 使每个判定表达式中条件的各种可能组合出现一次                 | ![1530522663236](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/条件组合测试.png)  |
+| 条件组合判定       | 使每个判定表达式中条件的各种可能组合出现一次                 | ![条件组合测试](http://i2.bvimg.com/683003/63b122739ca4b894.png) |
 
-![各种逻辑覆盖间的关系](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/各种逻辑覆盖间的关系.png)
+![各种逻辑覆盖间的关系](http://i2.bvimg.com/683003/60d17ef9dfd26971.png)
 
 
 
@@ -180,7 +180,7 @@ description: The notes of software engineering
   - 确定线性独立路径的基本集合，下图中的为`1-11`,`1-2,3-6-7--9-10-1...-11`,`1-2,3-6-8-9-10-1...-11`,`1-2,3-4,5-10-1...-11`
   - 设计可强制执行基本集合中每条路径的测试用例
 
-  ![基本路径测试法控制流图](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/基本路径测试法控制流图.png)
+  ![基本路径测试法控制流图](http://i2.bvimg.com/683003/8f13399b48195e0b.png)
 
 #### 黑盒测试技术
 
@@ -202,7 +202,7 @@ description: The notes of software engineering
 
 
 
-![UML图形分类](https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/UML图形分类.png)
+![UML图形分类](http://i2.bvimg.com/683003/e34ca56e5380b5e8.png)
 
 
 

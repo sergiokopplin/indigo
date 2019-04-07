@@ -43,13 +43,13 @@ Cache：高速缓冲存储器，位于CPU内部，速度可与CPU相匹配，用
 
 ### Cache高速缓冲存储器
 
-![Cache基本工作原理](https://github.com/Inger-Chao/Mylearning/blob/master/803/computer-organization/assets/3-3cache工作原理.JPEG)
+![Cache基本工作原理](../assets/images/computer-organization/assets/3-3cache工作原理.JPEG)
 
 Cache通常由SRAM构成，Cache和主存都被分为若干大小相等的块，**Cache与主存间的交换是以块为单位的**。Cache速度比主存高的多，所以也贵很多，从而Cache容量也比主存小很多。
 
 每当CPU要访问主存时，会**给出主存某存储单元的地址**，检查Cache中是否含有此访存地址的数据，如果命中，就将此**主存地址转换成Cache地址**，对Cache进行操作；若不命中，则仍需访问主存，并**把此字所在的块一次从主存调入Cache内**，如果Cache满，则根据某种替换算法，替换掉Cache中原来的某块信息。
 
-![Cache行结构](https://github.com/Inger-Chao/Mylearning/blob/master/803/computer-organization/assets/3-4数据Cache行结构.png)
+![Cache行结构](../assets/images/computer-organization/assets/3-4数据Cache行结构.png)
 
 Cache每行分为**标记项**和每行**存储数据**两部分，不同的Cache映射方式Cache的标记项是不同的。但一般含有以下几种：
 
@@ -68,7 +68,7 @@ Cache地址映射指的是**把主存地址空间映射到Cache地址空间**，
 
 这样在映射方式给出后，CPU便可以通过规定的映射方式，将主存地址转化为Cache地址从而查找Cache内的数据。
 
-![Cache](https://github.com/Inger-Chao/Mylearning/blob/master/803/computer-organization/assets/3-5Cache地址映射结构.JPEG)
+![Cache](../assets/images/computer-organization/assets/3-5Cache地址映射结构.JPEG)
 
 - 直接映射：主存中的某块数据块只能装入到Cache中的某一个位置。
   - 主存地址结构：`主存字块标记 + Cache块地址 + 块内地址`
@@ -83,7 +83,7 @@ Cache地址映射指的是**把主存地址空间映射到Cache地址空间**，
   - 主存地址结构：`主存字块标记 + 组地址 + 字块内地址`
   - 地址变换时，根据主存地址得到组号，在Cache组内遍历查找与主存标记字段一致的数据块，如果有则命中。
 
-![Cache基本工作原理](https://github.com/Inger-Chao/Mylearning/blob/master/803/computer-organization/assets/3-6多路组相联映射.JPG)
+![Cache基本工作原理](../assets/images/computer-organization/assets/3-6多路组相联映射.JPG)
 
 #### Cache写策略
 
@@ -104,7 +104,7 @@ Cache中的内容本质是主存块副本，所以当对Cache中的内容更新�
 
 ***程序的装入和链接***
 
-![从源程序到执行](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/存储器管理篇/1512314513856.png)
+![从源程序到执行](../assets/images/operating-system/存储器管理篇/1512314513856.png)
 
 - 逻辑地址：用户编程时用到的地址空间
   - 不同程序的相同逻辑地址会映射到主存的不同位置
@@ -168,11 +168,11 @@ Cache中的内容本质是主存块副本，所以当对Cache中的内容更新�
 
   - 空闲分区表
 
-  ![Alt text](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/1512317100764.png)
+  ![Alt text](../assets/images/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/1512317100764.png)
 
   - 空闲分区链：双向链表
 
-  ![Alt text](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/1512317112936.png)
+  ![Alt text](../assets/images/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/1512317112936.png)
 
   ***分区分配操作***
 
@@ -180,7 +180,7 @@ Cache中的内容本质是主存块副本，所以当对Cache中的内容更新�
      - m.size：空闲分区大小
      - u.size：请求的分区大小
 
-  ![Alt text](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/1512317256786.png)
+  ![Alt text](../assets/images/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/1512317256786.png)
 
   1. 回收内存
      - 回收区*与插入点的前一个空闲分区相邻接*：合并，修改前一分区大小
@@ -188,7 +188,7 @@ Cache中的内容本质是主存块副本，所以当对Cache中的内容更新�
      - *与插入点的前后两个空闲分区相邻接*：三个合并，首址为前空闲分区首地址，大小为`F1+回收区大小+F2`
      - *不与任何一个相邻接*：增加新的表项
 
-  ![内存回收四种情况](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/1512317781195.png)
+  ![内存回收四种情况](../assets/images/operating-system/%E5%AD%98%E5%82%A8%E5%99%A8%E7%AE%A1%E7%90%86%E7%AF%87/1512317781195.png)
 
 ##### 基于顺序搜索的动态分区分配算法
 
@@ -216,7 +216,7 @@ Cache中的内容本质是主存块副本，所以当对Cache中的内容更新�
 
 分页形式上与固定分区分配相似，但固定分区是为每个作业分配一个连续的分区，而分页是为作业分配很多个页面，页面比分区小的多得多。但进程的最后一个页面很可能会占不满页面，这就形成了内部碎片。
 
-![页表的作用](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/assets/3-1页表的作用.JPEG)
+![页表的作用](../assets/images/operating-system/assets/3-1页表的作用.JPEG)
 
 - 页面的三种形式
   - 页（逻辑）：进程中的块
@@ -225,13 +225,13 @@ Cache中的内容本质是主存块副本，所以当对Cache中的内容更新�
 - 逻辑地址结构：`页号+页内偏移`
 - 页表：系统为每个进程建立一张页表，记录页面在内存中对应的物理块号。
 
-![分页存储管理的地址变换机构](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/assets/3-2分页存储管理的地址变换机构.JPEG)题目给出一个逻辑地址，根据题目中给出的页面大小可以计算出逻辑地址结构中的页内偏移所占bit，从而得出页号。根据页号查页表，得到对应逻辑页号的物理块号，再加上页内偏移地址就可得出物理地址。
+![分页存储管理的地址变换机构](../assets/images/operating-system/assets/3-2分页存储管理的地址变换机构.JPEG)题目给出一个逻辑地址，根据题目中给出的页面大小可以计算出逻辑地址结构中的页内偏移所占bit，从而得出页号。根据页号查页表，得到对应逻辑页号的物理块号，再加上页内偏移地址就可得出物理地址。
 
 注意：每次访存操作都需要进行逻辑地址到物理地址的转换，转换过程必须足够快，否则访存效率会较低；**页表不能太大，否则内存利用率会降低**。
 
 **快表TLB** ：具有并行查找能力的高速缓冲存储器，存放当前访问的若干页表项。快表是联想寄存器，可以实现按内容查找。
 
-![3-3具有快表的地址变换机构](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/assets/3-3具有快表的地址变换机构.JPEG)
+![3-3具有快表的地址变换机构](../assets/images/operating-system/assets/3-3具有快表的地址变换机构.JPEG)
 
 引入快表之后，如果在快表中存在逻辑页号对应的页表项，那么存取数据只需要访问 1次内存就可以实现。如果没有找到，则需要访问主存中的页表，在读出页表项之后，同时将其存入快表，所以还是需要2次内存访问，1次查页表，1次访问内存单元。
 
@@ -239,20 +239,20 @@ Cache中的内容本质是主存块副本，所以当对Cache中的内容更新�
 
 实际上就是在原有页表结构上再加了若干层页表，顶级页表中存的不再是数据，而是二级页表的地址，等等以此递推。
 
-![3-4二级页表结构示意图](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/assets/3-4二级页表结构示意图.JPEG)
+![3-4二级页表结构示意图](../assets/images/operating-system/assets/3-4二级页表结构示意图.JPEG)
 
 ps：顶级页表最多只能有 1 个页面；n级页表每次访问某页需要那n+1次访存。
 
 ***基本分段存储管理方式***
 
-![3-5利用段表实现地址映射](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/assets/3-5利用段表实现地址映射.JPEG)
+![3-5利用段表实现地址映射](../assets/images/operating-system/assets/3-5利用段表实现地址映射.JPEG)
 
 - 分段：按照用户进程中的自然段划分逻辑空间，段内要求连续，段间不要求连续。
   - 逻辑地址结构：`段号 + 段内偏移`
 - 段表：每个进程有一张自己的逻辑空间与内存空间映射的段表。
   - 段表项：`段号 + 段长 + 本段在主存中的起始地址`
 
-![3-6分段系统的地址变换过程](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/assets/3-6分段系统的地址变换过程.JPEG)
+![3-6分段系统的地址变换过程](../assets/images/operating-system/assets/3-6分段系统的地址变换过程.JPEG)
 
 1. 从逻辑地址中取出前几位段号；
 2. 比较段号和段表长度，如果段号 > 段表长度，产生越界中断；
@@ -272,7 +272,7 @@ ps：顶级页表最多只能有 1 个页面；n级页表每次访问某页需�
 - 缺页中断属于内中断（异常），指令执行期间产生和处理中断信号；
 - 一条指令在执行期间可能会产生多次缺页中断。
 
-![3-7请求分页中的地址变换过程](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/assets/3-7请求分页中的地址变换过程.JPEG)
+![3-7请求分页中的地址变换过程](../assets/images/operating-system/assets/3-7请求分页中的地址变换过程.JPEG)
 
 #### 页面置换算法（略）
 
@@ -302,7 +302,7 @@ ps：顶级页表最多只能有 1 个页面；n级页表每次访问某页需�
 
 #### 概念与计算
 
-![磁盘结构图](https://github.com/Inger-Chao/Mylearning/blob/master/803/operating-system/IO/磁盘结构图.png)
+![磁盘结构图](../assets/images/operating-system/IO/磁盘结构图.png)
 
 PS：所有盘片上相对位置相同的磁道组成柱面。扇区是磁盘可寻址的最小存储单位，磁盘地址用柱面号 + 盘面好 + 扇区号表示。
 

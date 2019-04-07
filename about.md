@@ -7,4 +7,4 @@ layout: page
     
 此博客用来分享和记录自己学到的知识，希望可以帮到求知路上的你我他。
 
-Build Software better, together.
+Keep Moving.

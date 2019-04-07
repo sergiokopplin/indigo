@@ -123,7 +123,7 @@ description: notes of computer network
 
 #### 三种数据交换方式
 
-![三中数据的传输方式](https://github.com/Inger-Chao/Mylearning/tree/master/803/network/overview/assets/1521377973889.png)
+![三中数据的传输方式](../assets/images/network/overview/assets/1521377973889.png)
 
 - 电路交换：通信前两结点间必须建立一条专用的物理通信路径，该线路在整个数据传输期间一直被独占，直到通信结束后才释放。
   - 优点：通信时延小、有序传输、没有冲突、实时性强等；
@@ -274,7 +274,7 @@ description: notes of computer network
   - ***冲突停发***：传输过程中如果检测到其他适配器的信号，停止传输并传输一个48bit的拥塞信号。
   - ***随机重发***：发送拥塞信号之后，采用截断**二进制指数退避算法**等待一段时间后回到终止前的状态继续发送。
 
-![CSMA/CD流程图](https://github.com/Inger-Chao/Mylearning/tree/master/803/network/assets/CSMA-CD%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![CSMA/CD流程图](../assets/images/network/assets/CSMA-CD%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 - CSMA/CA(碰撞避免)：应用于无线局域网中
 
@@ -528,7 +528,7 @@ BGP寻找一条能够到达目的网络且比较好的路径。
 
 在IPv4中，这些地址在 D 类地址空间中分配；IPv6 也有一部分地址空间保留给组播组。
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/network/assets/单播和组播的区别.JPEG)
+![](../assets/images/network/assets/单播和组播的区别.JPEG)
 
 主机使用 IGMP 协议加入组播组，通过扩展路由器的路由选择和转发功能，可以在许多路由器互联的支持硬件组播的网络上实现因特网组播。
 
@@ -571,15 +571,15 @@ IGMP协议是让连接在本地局域网上的组播路由器知道本局域网�
 
 ### CS、P2P
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/network/assets/cs-p2p.JPEG)
+![](../assets/images/network/assets/cs-p2p.JPEG)
 
 
 
 ### Domain Name System
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/network/assets/dns-system.JPEG)
+![](../assets/images/network/assets/dns-system.JPEG)
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/network/assets/dns-theory.JPEG)
+![](../assets/images/network/assets/dns-theory.JPEG)
 
 
 
@@ -590,14 +590,14 @@ IGMP协议是让连接在本地局域网上的组播路由器知道本局域网�
 - 启动从属进程来处理客户进程发来的请求；请求处理完毕后终止；
 - 回到等待状态。
 
-![ftp](https://github.com/Inger-Chao/Mylearning/tree/master/803/network/assets/ftp.jpg)
+![ftp](../assets/images/network/assets/ftp.jpg)
 
 - 服务器监听在 21 号端口，等待客户连接，建立在这个端口上的连接称为控制连接。
 - 服务器端的控制进程在收到 FTP 客户发来的文件传输请求后就创建“数据传送进程”和“数据连接”。
 
 ### SMTP\POP3
 
-![smtp-pop3](https://github.com/Inger-Chao/Mylearning/tree/master/803/network/assets/smtp-pop3.jpg)
+![smtp-pop3](../assets/images/network/assets/smtp-pop3.jpg)
 
 ### World Wide Web
 

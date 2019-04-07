@@ -1,7 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3372ba27-6f81-48a3-8d38-c1e6cf24fc37" name="Default Changelist" comment="" />
+    <list default="true" id="3372ba27-6f81-48a3-8d38-c1e6cf24fc37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-1计算机系统.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-2计算机分层结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-3冯诺依曼型计算机结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-4计算机存储系统.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-5现代计算机系统组成.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-6程序的编译到运行过程.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-1双端口RAM示意图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-2低位交叉编址的多体存储器.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-3cache工作原理.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-4数据Cache行结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-5Cache地址映射结构.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-6多路组相联映射.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-1CPU的结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-2指令执行过程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-2时钟周期-机器周期和指令周期的关系.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-3指令执行周期.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-4硬件系统及控制器部件的组成.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-5控制单元图.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-6硬布线控制器.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-7微操作时序图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-8微程序控制器组成原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-1链式查询.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-2计数器定时查询.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-3独立请求方式.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-4PCI总线结构.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-5异步定时方式.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-6分布式仲裁方式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-10DMA传送过程.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-11通道控制方式工作原理.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-1外部设备.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-2IO接口基本结构.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-3IO方式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-4程序查询方式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-5程序中断方式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-6DMA方式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-7CPU暂停方式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-8周期挪用.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-9CPU和DMA交替访问内存.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521374809579.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521375054618.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521375329315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521375393652.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521377973889.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521466259721.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521467599042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521548228355.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521548859549.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521550229558.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521550442504.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521550847346.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521551212467.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521638792018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521639808131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521724062353.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521725096748.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521725201254.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521725388067.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521725455691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521804729473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521804892058.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521805477045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521805590031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512017159916.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512017167417.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512018336531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512018708983.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512019403783.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512039580446.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512040054645.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512042565548.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512048568934.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512048647858.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512049808712.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512228100903.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512228871344.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512229045589.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512229258824.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512230631792.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512231352315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512231567213.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512231603280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512232716472.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512232729278.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512398382277.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512398610740.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512399735293.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512400055012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512401569321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512401612398.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512402051690.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512402391717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512402851338.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512402919459.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512403774689.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/IO系统的层次结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/SPOOLing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/单缓冲区工作示意图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/双缓冲区工作示意图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/环形缓冲区.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/磁盘结构图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/缓冲池.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/1-1操作系统的发展历程.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/1-2系统调用的执行过程.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-1进程状态切换.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-2用户级和内核级线程.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-3处理机的三级调度.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-4消息传递.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-5共享存储通信.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-6管道通信.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-1页表的作用.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-2分页存储管理的地址变换机构.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-3具有快表的地址变换机构.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-4二级页表结构示意图.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-5利用段表实现地址映射.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-6分段系统的地址变换过程.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-7请求分页中的地址变换过程.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-1索引顺序存储.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-2文件系统层次结构.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-3连续分配.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-4成组链接法.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-5隐式链接分配.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-6索引分配.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512310702789.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512314513856.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317007305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317100764.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317112936.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317256786.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317781195.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512487511356.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512487746591.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512488051956.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512488250193.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512461355098.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512461731035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512462461903.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512462768799.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512462853762.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512463211693.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512463318534.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-03-20-Java-inner-class.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-20-Java-inner-class.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-03-23-Java-Exception.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-23-Java-Exception.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-03-25-Java-IOStream.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-25-Java-IOStream.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-03-27-Java-memory-area.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-27-Java-memory-area.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-08-24-Java-reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-08-24-Java-reflection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-02-software-engineering-review-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-02-software-engineering-review-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-17-operating-system-review-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-17-operating-system-review-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-21-computer-network.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-21-computer-network.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-30-computer-memory-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-30-computer-memory-system.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-30-computer-organization-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-30-computer-organization-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -77,51 +232,95 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1948205584">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="jpg" value="1" />
+          <entry key="markdown" value="1" />
+          <entry key="md" value="4" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="Markdown" value="5" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="md" value="13" />
+          <entry key="yml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="Markdown" value="13" />
+          <entry key="YAML" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="182">
-                <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <first_editor relative-caret-position="234">
+                <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/about/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#style#0;n#symbol#21;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="198">
+              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects.html">
+        <entry file="file://$PROJECT_DIR$/_site/computer-organization-notes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="104">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-07-12-We-all-special.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-117">
+                <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,19 +337,23 @@
       <find>description</find>
       <find>desc</find>
       <find>favicon</find>
+      <find>https://github.com/Inger-Chao/Mylearning/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/</find>
+      <find>markdown</find>
+      <find>github</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_sass/pages/home-blog-projects.sass" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_site/计算机存储系统-CPU-Cache-主存-辅助存储器/index.html" />
         <option value="$PROJECT_DIR$/_posts/2018-11-30-计算机存储系统-CPU-Cache-主存-辅助存储器.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-07-12-Madonna-Michael-Jackson.markdown" />
         <option value="$PROJECT_DIR$/_includes/social-links.html" />
         <option value="$PROJECT_DIR$/_includes/icons.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_site/about/index.html" />
         <option value="$PROJECT_DIR$/_site/blog/index.html" />
         <option value="$PROJECT_DIR$/_site/projects/index.html" />
@@ -160,7 +363,12 @@
         <option value="$PROJECT_DIR$/tags.html" />
         <option value="$PROJECT_DIR$/_posts/2018-07-12-We-all-special.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-03-23-Java-Exception.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-07-02-software-engineering-review-notes.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-11-30-computer-organization-notes.md" />
+        <option value="$PROJECT_DIR$/_site/computer-organization-notes/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/about.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -172,17 +380,6 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/_site/node_modules/@types/q/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/bundler/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/coa/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/q/package.json" />
-      <path value="$PROJECT_DIR$/_site/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/node_modules/@types/q/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
       <path value="$PROJECT_DIR$/node_modules/bundler/package.json" />
@@ -206,18 +403,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="indigo-gh-pages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="indigo-gh-pages" type="462c0819:PsiDirectoryNode" />
+              <item name="inger-chao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inger-chao.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inger-chao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inger-chao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inger-chao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inger-chao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inger-chao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inger-chao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inger-chao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inger-chao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
+              <item name="computer-organization-notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inger-chao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inger-chao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inger-chao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inger-chao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inger-chao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inger-chao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="computer-organization" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,10 +463,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\blog\inger-chao.github.io\assets\images\network" />
+      <recent name="F:\blog\inger-chao.github.io\_posts" />
       <recent name="F:\blog\indigo-gh-pages\_posts" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\blog\inger-chao.github.io\assets\images\operating-system" />
+      <recent name="F:\blog\inger-chao.github.io\assets\images\network\overview" />
+      <recent name="F:\blog\inger-chao.github.io\assets\images" />
       <recent name="F:\blog\indigo-gh-pages\_posts" />
     </key>
   </component>
@@ -261,11 +502,12 @@
       <workItem from="1554529231433" duration="12252000" />
       <workItem from="1554542341866" duration="3862000" />
       <workItem from="1554562244848" duration="376000" />
+      <workItem from="1554641251605" duration="4815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27567000" />
+    <option name="totallyTimeSpent" value="32382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,19 +522,19 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31968296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2992074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993395" visible="true" weight="0.34357542" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993395" visible="true" weight="0.38181818" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006605" side_tool="true" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -325,18 +567,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/images/favicon/favicon-32x32.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/favicon/favicon-128.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/favicon/favicon-96x96.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-152x152.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-144x144.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -377,14 +607,7 @@
     <entry file="file://$PROJECT_DIR$/travis.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1457" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -397,9 +620,7 @@
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/robots.txt" />
     <entry file="file://$PROJECT_DIR$/_includes/blog-post.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -426,32 +647,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/2017-03-23-异常类/index.html" />
-    <entry file="file://$PROJECT_DIR$/_site/We-all-special/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2496">
-          <folding>
-            <element signature="e#900#904#0" expanded="true" />
-            <element signature="e#910#916#0" expanded="true" />
-            <element signature="e#930#936#0" expanded="true" />
-            <element signature="e#936#940#0" expanded="true" />
-            <element signature="e#954#958#0" expanded="true" />
-            <element signature="e#961#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/tags/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="1537" column="8" selection-start-line="1537" selection-start-column="8" selection-end-line="1537" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/We-all-special/index.html" />
+    <entry file="file://$PROJECT_DIR$/_site/feed.xml" />
+    <entry file="file://$PROJECT_DIR$/_site/tags/index.html" />
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -463,13 +661,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/Java-Exception/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1277">
-          <caret line="1543" column="5" selection-start-line="1543" selection-start-column="5" selection-end-line="1543" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/Java-Exception/index.html" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-03-23-Java-Exception.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -485,21 +677,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-12-We-all-special.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="12" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -524,24 +701,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html" />
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -550,21 +714,76 @@
         <state relative-caret-position="-402" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/assets/images/favicon/favicon.ico">
+    <entry file="file://$PROJECT_DIR$/_site/assets/images/favicon/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/_site/assets/images/favicon/code.txt" />
+    <entry file="file://$PROJECT_DIR$/_site/about/index.html" />
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-02-software-engineering-review-notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="292">
+            <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/computer-organization/assets/7-11通道控制方式工作原理.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/assets/images/favicon/code.txt">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-12-We-all-special.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-117">
+            <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-11-30-computer-organization-notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/computer-organization-notes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="104">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="182">
-            <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <first_editor relative-caret-position="234">
+            <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
@@ -575,29 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/about/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#symbol#21;n#defs#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -39,15 +39,15 @@ description: notes of conputer organization
 
 计算机系统：软件系统和硬件系统。两者在逻辑上等效（并不等价），同一功能硬件实现效率更高。
 
-![计算机系统组成](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/1-1计算机系统.png)
+![计算机系统组成](../assets/images/computer-organization/assets/1-1计算机系统.png)
 
 计算机系统分层结构如下图所示：
 
-![计算机系统的分层结构](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/1-2计算机分层结构.png)
+![计算机系统的分层结构](../assets/images/computer-organization/assets/1-2计算机分层结构.png)
 
 计算机硬件的基本组成
 
-![1541774942898](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/1-3冯诺依曼型计算机结构.png)
+![1541774942898](../assets/images/computer-organization/assets/1-3冯诺依曼型计算机结构.png)
 
 显然，冯诺伊曼计算机是指令执行的计算机系统，故其基本工作方式为控制流（指令流）驱动方式。
 
@@ -70,7 +70,7 @@ description: notes of conputer organization
 
 现代计算机：CPU=运算器+控制器
 
-![1-5现代计算机系统组成](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/1-5现代计算机系统组成.jpg)
+![1-5现代计算机系统组成](../assets/images/computer-organization/assets/1-5现代计算机系统组成.jpg)
 
 #### 计算机工作过程
 
@@ -234,7 +234,7 @@ ps：基数不同时，浮点数的规格化形式也不同。当基数为 4 时
 
 ## 存储器
 
-![计算机存储系统层次图](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/1-4计算机存储系统.jpg)
+![计算机存储系统层次图](../assets/images/computer-organization/assets/1-4计算机存储系统.jpg)
 
 常识：CPU-Cache-主存-辅助存储器构成计算机的三级存储系统
 
@@ -273,7 +273,7 @@ ROM也是随机读取的存储器，信息一旦写入就固定不变了，即�
 
 双口RAM：有左、右两个独立的端口，分别具有两组相互独立的地址线、数据线和读写控制线，允许两个独立的控制器同时异步地访问存储单元。
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/3-1双端口RAM示意图.jpg)
+![](../assets/images/computer-organization/assets/3-1双端口RAM示意图.jpg)
 
 当两个端口访问同一地址单元时，不可以同时对一个地址单元写入，会出现写入错误；也不可以两个端口一个在写一个读，会出现读出错误。
 
@@ -289,7 +289,7 @@ ROM也是随机读取的存储器，信息一旦写入就固定不变了，即�
       $$
       t = T + (m-1)r		 {\text{，T:存取周期 r：总线传输周期}}
       $$
-      ![](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/3-2低位交叉编址的多体存储器.JPEG)
+      ![](../assets/images/computer-organization/assets/3-2低位交叉编址的多体存储器.JPEG)
 
 ### Cache ：局部性原理
 
@@ -298,7 +298,7 @@ ROM也是随机读取的存储器，信息一旦写入就固定不变了，即�
 
 那么我们就可以开辟一小片相对主存教高速的区域，专门用来存放某段时间内需要访问的数据，这就是cache，通常由SRAM构成，位于CPU内部。
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/3-3cache工作原理.JPEG)
+![](../assets/images/computer-organization/assets/3-3cache工作原理.JPEG)
 
 着重要搞清楚三种主存地址映射结构、cache标记阵列这里主要是需要练习各种习题深入理解。
 
@@ -335,7 +335,7 @@ RISC：选取使用频率最高的一些指令，其余指令的功能由简单�
 
 ### CPU功能和基本结构
 
-![CPU的结构](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-1CPU的结构.png)
+![CPU的结构](../assets/images/computer-organization/assets/5-1CPU的结构.png)
 
 - 运算器：加工数据
   - ALU：算术运算与逻辑运算
@@ -361,11 +361,11 @@ RISC：选取使用频率最高的一些指令，其余指令的功能由简单�
 - 机器周期（CPU周期）：在同步控制的机器中，执行指令周期中一步相对完整的操作所需要的时间（指令步）。通常机器周期=主存周期。
 - 时钟周期：计算机运行的最小时间单位，也是完成一个微操作所需的时间。
 
-![时钟周期、机器周期和指令周期的关系.JPEG](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-2时钟周期-机器周期和指令周期的关系.JPEG)
+![时钟周期、机器周期和指令周期的关系.JPEG](../assets/images/computer-organization/assets/5-2时钟周期-机器周期和指令周期的关系.JPEG)
 
 #### 指令周期
 
-![1541922814371](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-2指令执行过程.png)
+![1541922814371](../assets/images/computer-organization/assets/5-2指令执行过程.png)
 
 1. 取指周期：PC -> MAR ->  MDR -> IR -> ID，PC+1 -> PC
 2. 间址周期（可能没有）：取操作数的有效地址。Ad(IR) -> MAR -> MDR
@@ -373,7 +373,7 @@ RISC：选取使用频率最高的一些指令，其余指令的功能由简单�
 3. 执行周期
 4. 中断周期（可能没有）：处理中断请求。
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-3指令执行周期.jpg)
+![](../assets/images/computer-organization/assets/5-3指令执行周期.jpg)
 
 ### 数据通路的功能和基本结构
 
@@ -395,11 +395,11 @@ RISC：选取使用频率最高的一些指令，其余指令的功能由简单�
 
 ### 控制器
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-4硬件系统及控制器部件的组成.JPEG)
+![](../assets/images/computer-organization/assets/5-4硬件系统及控制器部件的组成.JPEG)
 
 #### 硬布线控制器（组合逻辑电路+触发器）
 
-![控制单元图](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-5控制单元图.JPEG)
+![控制单元图](../assets/images/computer-organization/assets/5-5控制单元图.JPEG)
 
 CU的三种输入信息
 
@@ -416,7 +416,7 @@ CU的三种输入信息
 
 **硬布线控制单元设计步骤**
 
-![1541923624488](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-6硬布线控制器.jpg)
+![1541923624488](../assets/images/computer-organization/assets/5-6硬布线控制器.jpg)
 
 1. 列出微操作命令的操作时间表，包括各个机器周期、节拍下的每条指令完成的微操作控制信号。
    1. 原则一：被操作的先后顺序不能随意更改；
@@ -429,7 +429,7 @@ CU的三种输入信息
    - 菱形符号：判别或测试
    - ~：公操作
 
-![5-7微操作时序图](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-7微操作时序图.jpg)
+![5-7微操作时序图](../assets/images/computer-organization/assets/5-7微操作时序图.jpg)
 
 #### 微程序控制器
 
@@ -443,7 +443,7 @@ CU的三种输入信息
 - 微程序：微指令的有序集合，一个微程序对应一条机器指令。
 - 控制存储器：位于CPU内部用ROM实现
 
-![微程序控制器组成原理](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/5-8微程序控制器组成原理.png)
+![微程序控制器组成原理](../assets/images/computer-organization/assets/5-8微程序控制器组成原理.png)
 
 - CM：存放微程序
 - CIR：存放CM取出的正在执行的微指令，位数与微指令字长相等
@@ -547,11 +547,11 @@ CU的三种输入信息
 
 将所有的设备请求集中于一个设备，采用一定的算法进行裁决。
 
-![链式查询](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/6-1链式查询.JPEG)
+![链式查询](../assets/images/computer-organization/assets/6-1链式查询.JPEG)
 
 链式查询（故障敏感）：总线上所有部件公用一个BR、BS和BG。若某个设备想使用总线，通过BR发出请求，总线控制部件检查是否忙，忙的话就回馈BS信号；若不忙回馈BG信号，从最靠近总线控制部件的设备开始往下传，所以越靠近总线控制部件的设备优先级越高，在响应某设备的过程中很有可能被高优先级的设备抢占。
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/6-2计数器定时查询.JPEG)
+![](../assets/images/computer-organization/assets/6-2计数器定时查询.JPEG)
 
 计时器定时查询方式：取消了总线响应线BG，多了一组设备地址线，所以 N 个设备需要添加 log 2 N条设备地址线。
 
@@ -559,7 +559,7 @@ CU的三种输入信息
 
 计数值可以从 0 开始，这样设备优先级依然固定；也可以从上一次的终点开始，这样就是循环方式，各设备使用总线的优先级相等
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/6-3独立请求方式.JPEG)
+![](../assets/images/computer-organization/assets/6-3独立请求方式.JPEG)
 
 独立请求方式：每个设备都有一组自己的 BR和 BG，所以控制线条数为 2n + 1 。
 
@@ -567,7 +567,7 @@ CU的三种输入信息
 
 #### 分布仲裁方式
 
-![分布式仲裁方式](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/6-6分布式仲裁方式.png)
+![分布式仲裁方式](../assets/images/computer-organization/assets/6-6分布式仲裁方式.png)
 
 不需要中央仲裁器，而是多个仲裁器竞争使用总线。
 
@@ -583,11 +583,11 @@ CU的三种输入信息
   - 半互锁方式
   - 全互锁方式
 
-![](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/6-5异步定时方式.JPEG)
+![](../assets/images/computer-organization/assets/6-5异步定时方式.JPEG)
 
 ### 总线标准
 
-![PCI](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/6-4PCI总线结构.jpg)
+![PCI](../assets/images/computer-organization/assets/6-4PCI总线结构.jpg)
 
 
 
@@ -604,7 +604,7 @@ CU的三种输入信息
 
 ### 外部设备
 
-![外部设备](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-1外部设备.jpg)
+![外部设备](../assets/images/computer-organization/assets/7-1外部设备.jpg)
 
 - 键盘、鼠标：慢速设备
 - 显示器：分辨率 = 宽 * 高 * 灰度级
@@ -629,7 +629,7 @@ I/O接口：若干个端口加上响应的控制逻辑。
 - 信号格式的转换
 - 传送控制命令和状态信息
 
-![IO接口基本结构](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-2IO接口基本结构.JPEG)
+![IO接口基本结构](../assets/images/computer-organization/assets/7-2IO接口基本结构.JPEG)
 
 - 设备选择电路：设备选址
 - 命令寄存器和命令译码器；传送命令
@@ -652,11 +652,11 @@ I/O端口 ： 接口电路中可以进行读/写的寄存器，CPU可以直接�
 
 定义：主机与I/O设备之间数据传送采用的控制方式。
 
-![IO控制方式](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-3IO方式.png)
+![IO控制方式](../assets/images/computer-organization/assets/7-3IO方式.png)
 
 #### 程序查询方式
 
-![程序查询方式](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-4程序查询方式.png)
+![程序查询方式](../assets/images/computer-organization/assets/7-4程序查询方式.png)
 
 1. CPU先向I/O设备发出命令字，请求进行数据传送；
 2. 从IO接口读入状态字；
@@ -667,7 +667,7 @@ I/O端口 ： 接口电路中可以进行读/写的寄存器，CPU可以直接�
 
 #### 程序中断方式
 
-![程序中断方式](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-5程序中断方式.png)
+![程序中断方式](../assets/images/computer-organization/assets/7-5程序中断方式.png)
 
 1. 程序启动外设，将外设接口忙标志的 BS 置1，准备就绪标志 RD 清0；
 2. 接口向外设发出启动信号；
@@ -684,7 +684,7 @@ I/O端口 ： 接口电路中可以进行读/写的寄存器，CPU可以直接�
 
 由 **DMA控制器给出当前正在传送的数据的主存地址**，并统计传送数据的个数以确定一组数据的传送是否已结束。在**主存中要开辟连续地址的专用缓冲器**，用来提供或接收传送的数据。在数据**传送前和结束后要通过程序或中断方式对缓冲器和DMA控制器进行预处理和后处理**。
 
-![DMA方式](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-6DMA方式.png)
+![DMA方式](../assets/images/computer-organization/assets/7-6DMA方式.png)
 
 - 内存地址计数器：存放内存中要交换的数据地址。
   - 每次DMA传送前，通过程序将数据在内存中的起始位置送到内存地址计数器；
@@ -708,7 +708,7 @@ I/O端口 ： 接口电路中可以进行读/写的寄存器，CPU可以直接�
 
 ##### DMA传送过程
 
-![DMA传送过程](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-10DMA传送过程.jpg)
+![DMA传送过程](../assets/images/computer-organization/assets/7-10DMA传送过程.jpg)
 
 ##### DMA传送方式
 
@@ -716,7 +716,7 @@ DMA方式是**通过硬件控制实现主存与I／O设备间的直接数据传�
 
 在DMA传送过程中，主存和I/O设备间有一条直接通路，不通过CPU。但当I/O设备和CPU同时访问主存时，就会可能发生冲突，在传送过程中DMA控制器和通常用以下三种方式使用主存。
 
-![CPU暂停方式](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-7CPU暂停方式.png)
+![CPU暂停方式](../assets/images/computer-organization/assets/7-7CPU暂停方式.png)
 
 - CPU暂停方式
   - DMA向CPU申请总线
@@ -727,7 +727,7 @@ DMA方式是**通过硬件控制实现主存与I／O设备间的直接数据传�
 
 采用这种工作方式的I／O设备，在其接口中一般设置有小容量存储器，I／O设备先与小容量存储器交换数据，然后由小容量存储器与主机交换数据，这样可减少DMA传送占用存储总线的时间，也即减少了CPU暂停工作的时间。
 
-![周期挪用](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-8周期挪用.png)
+![周期挪用](../assets/images/computer-organization/assets/7-8周期挪用.png)
 
 - 周期挪用：DMA控制器与主存之间传送一个数据窃取一个CPU周期，CPU只暂停工作一个周期，然后继续执行程序。
   - CPU不访存时：DMA直接用
@@ -735,7 +735,7 @@ DMA方式是**通过硬件控制实现主存与I／O设备间的直接数据传�
   - CPU与DMA同时发生：DMA先用，否则数据会丢失
   - I/O设备每次挪用一个主存周期都需要申请、建立再归还，所以尽管只传送一个字，对于DMA接口而言，实质上要占用2-5个主存周期。
 
-![CPU和DMA交替访问内存](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-9CPU和DMA交替访问内存.png)
+![CPU和DMA交替访问内存](../assets/images/computer-organization/assets/7-9CPU和DMA交替访问内存.png)
 
 - DMA和CPU交替访问内存：不需要总线使用权的建立和归还过程，总线使用权是通过C1和C2分别控制的。
   - 如果CPU的工作周期比内存周期长很多时可以采用该方法；
@@ -751,7 +751,7 @@ DMA方式是**通过硬件控制实现主存与I／O设备间的直接数据传�
 
 在CPU启动通道后，**通道自动地去内存取出通道指令并执行指令**。直到数**据交换过程结束向CPU发出中断请求**，进行通道结束处理工作。
 
-![通道控制方式](https://github.com/Inger-Chao/Mylearning/tree/master/803/computer-organization/assets/7-11通道控制方式工作原理.jpg)
+![通道控制方式](../assets/images/computer-organization/assets/7-11通道控制方式工作原理.jpg)
 
 1. CPU组织通道程序放入内存中；
 2. CPU给通道发出I/O指令启动；
@@ -764,4 +764,4 @@ DMA方式是**通过硬件控制实现主存与I／O设备间的直接数据传�
 
 参考资料：《2019王道计算机组成原理》、教学课件、CSAPP、部分博客等
 
-Cache和虚存大题会开一篇专门讲[点击这里]()，可变长指令结构、中断屏蔽字、流水线等也是需要理解的东西，真正理解都不难，只是简单的放一段话或文字也很难直接明白是怎么回事。计算机组成原理需要系统的理解，死记硬背不能根本解决问题。
+Cache和虚存大题会开一篇专门讲，可变长指令结构、中断屏蔽字、流水线等也是需要理解的东西，真正理解都不难，只是简单的放一段话或文字也很难直接明白是怎么回事。计算机组成原理需要系统的理解，死记硬背不能根本解决问题。

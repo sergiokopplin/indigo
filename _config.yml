@@ -5,6 +5,8 @@ bio: A girl willing to learn and progress
 # twitter summary info
 description: A blog about technology and stuff related
 
+markdown: kramdown
+
 # if it's an external image, update below for true
 # better with square images
 external-image: false
@@ -42,7 +44,7 @@ disqus:
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: github/inger-chao
+github: inger-chao
 wechat: Yue-6666666
 # qq: 396558528
 # gitlab: mygitlab
