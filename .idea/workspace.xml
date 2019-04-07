@@ -2,160 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3372ba27-6f81-48a3-8d38-c1e6cf24fc37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-1计算机系统.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-2计算机分层结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-3冯诺依曼型计算机结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-4计算机存储系统.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-5现代计算机系统组成.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/1-6程序的编译到运行过程.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-1双端口RAM示意图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-2低位交叉编址的多体存储器.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-3cache工作原理.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-4数据Cache行结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-5Cache地址映射结构.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/3-6多路组相联映射.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-1CPU的结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-2指令执行过程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-2时钟周期-机器周期和指令周期的关系.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-3指令执行周期.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-4硬件系统及控制器部件的组成.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-5控制单元图.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-6硬布线控制器.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-7微操作时序图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/5-8微程序控制器组成原理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-1链式查询.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-2计数器定时查询.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-3独立请求方式.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-4PCI总线结构.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-5异步定时方式.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/6-6分布式仲裁方式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-10DMA传送过程.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-11通道控制方式工作原理.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-1外部设备.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-2IO接口基本结构.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-3IO方式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-4程序查询方式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-5程序中断方式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-6DMA方式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-7CPU暂停方式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-8周期挪用.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/computer-organization/assets/7-9CPU和DMA交替访问内存.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521374809579.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521375054618.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521375329315.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521375393652.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521377973889.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521466259721.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521467599042.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521548228355.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521548859549.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521550229558.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521550442504.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521550847346.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521551212467.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521638792018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521639808131.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521724062353.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521725096748.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521725201254.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521725388067.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521725455691.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521804729473.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521804892058.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521805477045.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/network/overview/assets/1521805590031.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512017159916.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512017167417.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512018336531.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512018708983.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512019403783.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512039580446.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512040054645.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512042565548.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512048568934.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512048647858.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512049808712.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512228100903.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512228871344.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512229045589.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512229258824.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512230631792.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512231352315.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512231567213.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512231603280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512232716472.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/CPU/1512232729278.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512398382277.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512398610740.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512399735293.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512400055012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512401569321.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512401612398.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512402051690.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512402391717.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512402851338.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512402919459.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/1512403774689.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/IO系统的层次结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/SPOOLing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/单缓冲区工作示意图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/双缓冲区工作示意图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/环形缓冲区.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/磁盘结构图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/IO/缓冲池.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/1-1操作系统的发展历程.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/1-2系统调用的执行过程.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-1进程状态切换.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-2用户级和内核级线程.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-3处理机的三级调度.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-4消息传递.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-5共享存储通信.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/2-6管道通信.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-1页表的作用.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-2分页存储管理的地址变换机构.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-3具有快表的地址变换机构.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-4二级页表结构示意图.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-5利用段表实现地址映射.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-6分段系统的地址变换过程.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/3-7请求分页中的地址变换过程.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-1索引顺序存储.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-2文件系统层次结构.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-3连续分配.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-4成组链接法.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-5隐式链接分配.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/assets/4-6索引分配.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512310702789.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512314513856.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317007305.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317100764.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317112936.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317256786.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512317781195.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512487511356.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512487746591.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512488051956.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/存储器管理篇/1512488250193.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512461355098.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512461731035.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512462461903.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512462768799.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512462853762.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512463211693.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/operating-system/文件管理/1512463318534.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-03-20-Java-inner-class.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-20-Java-inner-class.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-03-23-Java-Exception.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-23-Java-Exception.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-03-25-Java-IOStream.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-25-Java-IOStream.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-03-27-Java-memory-area.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-27-Java-memory-area.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-08-24-Java-reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-08-24-Java-reflection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-02-software-engineering-review-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-02-software-engineering-review-notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-17-operating-system-review-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-17-operating-system-review-notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-21-computer-network.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-21-computer-network.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-30-computer-memory-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-30-computer-memory-system.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-30-computer-organization-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-30-computer-organization-notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -260,14 +107,14 @@
         <counts>
           <entry key="html" value="2" />
           <entry key="md" value="13" />
-          <entry key="yml" value="8" />
+          <entry key="yml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="Markdown" value="13" />
-          <entry key="YAML" value="8" />
+          <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -289,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+            <state relative-caret-position="146">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -502,12 +349,12 @@
       <workItem from="1554529231433" duration="12252000" />
       <workItem from="1554542341866" duration="3862000" />
       <workItem from="1554562244848" duration="376000" />
-      <workItem from="1554641251605" duration="4815000" />
+      <workItem from="1554641251605" duration="5379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32382000" />
+    <option name="totallyTimeSpent" value="32946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="146">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>

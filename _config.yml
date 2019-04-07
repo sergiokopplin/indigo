@@ -6,6 +6,7 @@ bio: A girl willing to learn and progress
 description: A blog about technology and stuff related
 
 markdown: kramdown
+language: zh-CN
 
 # if it's an external image, update below for true
 # better with square images
