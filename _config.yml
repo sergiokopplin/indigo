@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://www.cs.utoronto.ca/~wangyupe/resume_walton.pdf
 
-url: https://koppl.in/indigo
+url: http://wangwalton.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
