@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Walton Wang
+bio: University of Toronto Computer Engineering (Grad 2020), Amazon Software Development Intern (2019), Manulife Data Science Intern (2018), Software Development Research Assistant (2018), Photography, Long Distance Running, Piano
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -8,13 +8,13 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/portrait_logo.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://www.cs.utoronto.ca/~wangyupe/resume_walton.pdf
 
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
@@ -34,24 +34,24 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: waltonwang
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: wangwalton
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: waltonwang98@gmail.com
 
 authors:
     johndoe:
@@ -70,7 +70,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
