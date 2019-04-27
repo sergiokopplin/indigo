@@ -11,21 +11,24 @@ San Francisco, California
 
 **Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - 2018**  
 *Funding*: NSF Graduate Fellowship, PhRMA Informatics Fellowship, NIH T32  
+*GPA*: 4.0 / 4.0
 
 **B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
 *GPA*: 4.0 / 4.0
 
-**Marine Biological Laboratory, Woods Hole, MA, 2016**  
+**Marine Biological Laboratory, Woods Hole, MA, 2016 Fall**  
 *Course*: Computational Image Analysis in Cell and Developmental Biology
 
 ## Experience
 
 **Calico Life Sciences, South San Francisco, CA, 2018 - Present**  
-*Data Scientist, Computing*
+*Data Scientist, Computing*  
 
-* Developing single cell analysis methods for timelapse imaging data
-* Developing single cell RNA-sequencing analysis methods to study heterogeneity and cellular dynamics
+* Developed timelapse image analysis methods for oncology applications, enabling multi-cell tracking and analysis over many days
+* Automated quantification of yeast cell aging using convolutional neural networks
+* Built an automated targeting system for a laser ablation microscope with sub-millisecond timing -- integrates hardware control and computer vision to shoot only interesting cells, leaving others untouched
+* Developing single cell RNA-sequencing analysis methods to study heterogeneity and cellular dynamics in oncology and aging
 
 **University of California San Francisco, San Francisco, CA, 2015 - 2018**  
 *PhD Candidate*  
@@ -75,7 +78,7 @@ San Francisco, California
 **Machine Learning:** Supervised, unsupervised, feature engineering, distributed computing (MPI, SGE)  
 **Deep Learning:** Deep neural networks, evolution strategies, PyTorch, Tensorflow, Keras  
 **Image Analysis:** Image segmentation, classification, object detection, particle tracking    
-**Programming:** Python (scipy, scikit-learn, statsmodels), Matlab, R, git, shell scipt, LaTeX  
+**Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, LaTeX  
 
 ## Biological Skills
 
@@ -91,23 +94,18 @@ San Francisco, California
 ## Publications
 
 1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
-2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional neural networks allow analysis of cell motility during stem cell differentiation and neoplastic transformation. 2018. bioRxiv. doi: [https://doi.org/10.1101/159202](https://doi.org/10.1101/159202). *(Submitted for publication).* Featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
+2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2018. *bioRxiv*. doi: [https://doi.org/10.1101/159202](https://doi.org/10.1101/159202). *(Submitted for publication).* Featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
 3. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
 4. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
 
 ## Selected Presentations
 
-1. **Kimmel JC**, Hwang H, Marshall WF, Brack AS. Inferring stem cell dynamics with machine learning methods. Invited speaker to the *Machine Learning in Cell Biology** subgroup at [ASCB-EMBO 2018](https://www.ascb.org/). San Diego, CA. 2018.
+1. **Kimmel JC**, Hwang A, Brack AS, Marshall WF. Inferring cell state dynamics with machine learning models. Invited presentation to the *Machine Learning in Cell Biology* Group meeting at ASCB-EMBO 2018. San Diego, CA. 2018.
 2. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018.
 3. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Poster presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Best Poster Award).*
 4. Biswas S\*, **Kimmel JC\***, Paulson A\*, Zimmerman T\*, Bianco S. Deep learning methods for cell engineering. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018. (\* Equal Contribution)
-5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the American Society of Cell Biology. ASCB-EMBO 2017 Annual Meeting, Philadelphia, PA. 2017.
-6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
-7. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Poster presentation to the Developmental and Stem Cell Biology Retreat. UCSF Developmental and Stem Cell Biology Retreat, Tomales Bay, CA. 2017.
-8. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
-9. **Kimmel JC**, Willenberg BJ, Brown A, Sugaya K. Delivery of TGF-beta signaling factors by capillary alginate gel. U. of Central Florida, Showcase of Research Excellence. 2015.
-10. **Kimmel JC**, Kageyama R, Steiner D, Ansel KM. miR-29 Regulation of TNF-alpha production in T cells. University of California, San Francisco. 2014.
-11. **Kimmel JC**, Eckley DM, Colleta C, Long J, Orlov N, Rapp P, Goldberg IG. Do different tissues age at different rates?. National Institute on Aging, Baltimore, MD. 2012.
+5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
+6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
 
 ## Outreach
 

@@ -1,6 +1,6 @@
 # main text of home
-name: Jacob Kimmel
-bio: 'Computational Biologist @ Calico. Interested in aging, imaging, & machine learning.'
+name: Jacob C. Kimmel
+bio: 'Data Scientist @ Calico. Interested in aging, imaging, & machine learning.'
 
 # if it's an external image, update below for true
 external-image: false
@@ -28,7 +28,7 @@ disqus: false
 # facebook:
 twitter: jacobkimmel
 # google: mygoogle
-instagram: jacobkimmel
+# instagram: jacobkimmel
 # pinterest: mypinterest
 linkedin: jacob-kimmel
 #youtube: myyoutube
