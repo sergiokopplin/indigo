@@ -1,7 +1,7 @@
 ---
 title: Disentangling a Latent Space
 layout: post
-date: 2019-02-28
+date: 2019-04-27
 tag:
 - machine learning
 - vae
