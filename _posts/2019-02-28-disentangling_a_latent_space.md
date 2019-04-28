@@ -155,7 +155,7 @@ You may have noticed that previous figures rely on qualitative evaluation of dis
 Mostly, we've decoded latent vectors along each dimension and eye-balled the outputs to figure out if they map to a generative factor.
 This kind of eye-balling makes for compelling figures, but it's hard to rigorously compare "how disentangled" two latent spaces are using just this scheme.
 
-Multiple quantitative metrics have also been proposed [^5], but they can only be used in synthetic data sets where the generative factors are known (like dSprites, where we simulate images and know what parameters are used to generate each image).
+Multiple quantitative metrics have also been proposed [^5], but they can only be used in synthetic data sets where the generative factors are known -- like dSprites, where we simulate images and know what parameters are used to generate each image.
 Developing methods to measure disentanglement in a quantitative manner seems like an important research direction going forward.
 
 In the case of biological data, we might imagine evaluating disentanglement on generative factors we know, like experimental conditions.
@@ -163,7 +163,7 @@ Imagine we've captured images of cells treated with different doses of a drug.
 If the different doses of the drug mapped to a single dimension of the latent space, we may consider that representation to be more disentangled than a representation where drug dose is explained across many dimensions.
 
 Much of the promise in learning disentangled representations is in the potential for discovery of unknown generative factors.
-In an imaging experiment like the one above, perhaps cell motility state maps to a dimension (moving, just moved, not moving), even if we didn't know how to measure it explicitly beforehand.
+In an imaging experiment like the one above, perhaps cell motility states map to a dimension -- moving, just moved, not moving -- even if we didn't know how to measure those states explicitly beforehand.
 Evaluating representations for their ability to disentangle these unknown generative factors seems like a difficult epistemic problem.
 How do we evaluate the representation of something we don't know to measure?
 Research in this area may have to rely on qualitative evaluation of latent dimensions for the near future.
