@@ -38,47 +38,48 @@ I've been excited by a few recent papers adapting the [variational autoencoder](
 
 ## Digging into the VAE Objective
 
-To understand how and why this works, I find it helpful to start from the beginning and recall what a VAE is trying to do in the first place. The VAE operates on two types of data -- $x$'s in the measurement space, and $z$'s which represent points in the latent space we're learning.
+To understand how and why this works, I find it helpful to start from the beginning and recall what a VAE is trying to do in the first place. The VAE operates on two types of data -- $\mathbf{x}$'s in the measurement space, and $z$'s which represent points in the latent space we're learning.
 
 There are two main components to the network that transform between these two types of data points. The encoder $q(z \vert x)$ estimates a distribution of possible $z$ points given a data point in the measurement space. The decoder network does the opposite, and estimate a point $\hat x$ in the measurement space given a point in the latent space $z$.
 
 This function below is the objective function of a VAE[^1]. A VAE seeks to minimize this objective by changing the parameters of the encoder $\phi$ and parameters of the decoder $\theta$.
 
-$${L}(x; \theta, \phi) = - \mathbb{E}[ \log_{q_\phi (z \vert x)} p_\theta (x \vert z)] + \mathbb{D}_{\text{KL}}( q_\phi (z \vert x) \vert \vert p(z) )$$
+$${L}(\mathbf{x}; \theta, \phi) = - \mathbb{E}[ \log_{q_\phi (\mathbf{z} \vert \mathbf{x})} p_\theta (\mathbf{x} \vert \mathbf{z})] + \mathbb{D}_{\text{KL}}( q_\phi (\mathbf{z} \vert \mathbf{x}) \vert \vert p(\mathbf{z}) )$$
 
 While that looks hairy, there are basically two parts to this objective, each doing a particular task. Let's break it down.
 
 ### Reconstruction error pushes the latent space to capture meaningful variation
 
-The first portion $-\mathbb{E}[ \log_{q_\phi (z \vert x)} p_\theta (x \vert z)]$ is the log likelihood of the data we observed in the measurement space $x$, given the latent space $z$.
+The first portion $-\mathbb{E}[ \log_{q_\phi (\mathbf{z} \vert \mathbf{x})} p_\theta (\mathbf{x} \vert \mathbf{z})]$ is the log likelihood of the data we observed in the measurement space $\mathbf{x}$, given the latent space $z$.
 
 If the latent space is configured in a way that doesn't capture much variation in our data, the decoder $p(x \vert z)$ will perform poorly and this log likelihood will be low. Vice-versa, a latent space that captures variation in $x$ will allow the decoder to reconstruct $\hat x$ much better, and the log likelihood will be higher.
 
-This is known as the **reconstruction error**. Since we want to minimize $L$, better reconstruction will make $L$ more negative. In practice, we estimate reconstruction error using a metric of difference between the observed data $x$ and the reconstructed data $\hat x$ using some metric of difference like binary cross-entropy. In order to get reasonable reconstructions, the latent space $q(z \vert x)$ has to capture variation in the measurement data. The reconstruction error therefore acts as a pressure on the encoder network to capture meaningful variation in $x$ within the latent variables $z$. This portion of the objective is actually very similar to a "normal" autoencoder, simply optimizing how close we can make the reconstructed $\hat x$ to the original $x$ after forcing it through a smaller number of dimensions $z$.
+This is known as the **reconstruction error**. Since we want to minimize $L$, better reconstruction will make $L$ more negative. In practice, we estimate reconstruction error using a metric of difference between the observed data $\mathbf{x}$ and the reconstructed data $\hat \mathbf{x}$ using some metric of difference like binary cross-entropy. In order to get reasonable reconstructions, the latent space $q(\mathbf{z} \vert \mathbf{x})$ has to capture variation in the measurement data. The reconstruction error therefore acts as a pressure on the encoder network to capture meaningful variation in $\mathbf{x}$ within the latent variables $\mathbf{z}$. This portion of the objective is actually very similar to a "normal" autoencoder, simply optimizing how close we can make the reconstructed $\hat \mathbf{x}$ to the original $\mathbf{x}$ after forcing it through a smaller number of dimensions $\mathbf{z}$.
 
 ### Divergence from a prior distribution enforces certain properties on the latent space
 
 The second part of the objective
 
-$$\mathbb{D}_{\text{KL}}( q (z \vert x) \vert \vert p(z) )$$
+$$\mathbb{D}_{\text{KL}}( q (\mathbf{z} \vert \mathbf{x}) \vert \vert p(\mathbf{z}) )$$
 
-measures how different the learned latent distribution $q(z \vert x)$ is from a prior we have on the latent distribution $p(z)$. This difference is measured with the [Kullback-Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence?oldformat=true) [^2], which is shorthanded $$\mathbb{D}_\text{KL}$$. The more similar the two are, the lower the value of $\mathbb{D}_{\text{KL}}$ and the therefore the lower the value of the loss $L$. This portion of the loss therefore "pulls" our encoded latent distribution to match some expectations we set in the prior. By selecting a prior $p(z)$, we can therefore enforce some features we want our latent distribution $q(z \vert x)$ to have.
+measures how different the learned latent distribution $q(\mathbf{z} \vert \mathbf{x})$ is from a prior we have on the latent distribution $p(\mathbf{z})$. This difference is measured with the [Kullback-Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence?oldformat=true) [^2], which is shorthanded $$\mathbb{D}_\text{KL}$$. The more similar the two are, the lower the value of $\mathbb{D}_{\text{KL}}$ and the therefore the lower the value of the loss $L$. This portion of the loss therefore "pulls" our encoded latent distribution to match some expectations we set in the prior. By selecting a prior $p(\mathbf{z})$, we can therefore enforce some features we want our latent distribution $q(\mathbf{z} \vert \mathbf{x})$ to have.
 
-This prior distribution is often set to an isotropic Gaussian with zero mean $$\mu = 0$$ and a diagonalized covariance matrix with unit scale $$\Sigma = \mathbf{I}$$, where $$\textbf{I}$$ is the identity matrix, so $$p(z) = \mathcal{N}(0, \textbf{I})$$ [^3]. Because the prior has a diagonal covariance, this prior pulls the encoded latent space $$q(z \vert x)$$ to have independent components.
+This prior distribution is often set to an isotropic Gaussian with zero mean $$\mu = 0$$ and a diagonalized covariance matrix with unit scale $\Sigma = \mathbf{I}$, where $\textbf{I}$ is the identity matrix, so $p(\mathbf{z}) = \mathcal{N}(0, \textbf{I})$ [^3]. Because the prior has a diagonal covariance, this prior pulls the encoded latent space $q(\mathbf{z} \vert \mathbf{x})$ to have independent components.
 
 ### Reviewing the Objective
 
-Taking these two parts together, we see that the objective part **1** optimizes $p(x \vert z)$ and $q(z \vert x)$ to recover as much information as possible about $x$ after encoding to a smaller number of latent dimensions $z$ and **2** enforces some properties we desire onto the latent space $q(z \vert x)$  based on a desiderata we express in a prior distribution $p(z)$.
+Taking these two parts together, we see that the objective part **1** optimizes $p(\mathbf{x} \vert \mathbf{z})$ and $q(\mathbf{z} \vert \mathbf{x})$ to recover as much information as possible about $\mathbf{x}$ after encoding to a smaller number of latent dimensions $\mathbf{z}$ and **2** enforces some properties we desire onto the latent space $q(\mathbf{z} \vert \mathbf{x})$  based on a desiderata we express in a prior distribution $p(\mathbf{z})$.
 
-Notice that the objective doesn't scale either of the reconstruction or divergence loss in any way. Both are effectively multiplied by a coefficient of $1$ and simply summed to generate the objective.
+Notice that the objective doesn't scale either of the reconstruction or divergence loss in any way.
+Both are effectively multiplied by a coefficient of $1$ and simply summed to generate the objective.
 
 ### What sort of latent spaces does this generate?
 
-The Gaussian prior $p(z) = \mathcal{N}(0, \mathbf{I})$ pulls the dimensions of the latent space to be independent.
+The Gaussian prior $p(\mathbf{z}) = \mathcal{N}(0, \mathbf{I})$ pulls the dimensions of the latent space to be independent.
 
 Why? The covariance matrix we specified for the prior is the identity matrix $\mathbf{I}$, where no dimension covaries with any others. However, it does not explicitly force the disentangling between generative factors that we so desire. As we outlined earlier, independence is necessary but not sufficient for disentanglement. The latent spaces generated with this unweighted Gaussian prior often map multiple generative factors to each of the latent dimensions, making them hard to interpret semantically.
 
-We can see an example of this entangling between generative factors in a VAE trained on the dSprites data set. dSprites is a set of synthetic images of white objects moving across black backgrounds. Because the images are synthesized, we have a ground truth set of generative factors (object $x$ coordinate, object $y$ coordinate, shape, size, rotation) and we know the value of each generative factor for each image.
+We can see an example of this entangling between generative factors in a VAE trained on the dSprites data set. dSprites is a set of synthetic images of white objects moving across black backgrounds. Because the images are synthesized, we have a ground truth set of generative factors -- object $x$ coordinate, object $y$ coordinate, shape, size, rotation -- and we know the value of each generative factor for each image.
 
 Borrowed from [Higgins 2017](https://openreview.net/pdf?id=Sy2fzU9gl) Figure 7, here's a visualization of the latent space learned for dSprites with a standard VAE on the right side.
 Each column in the figure represents a **latent space traversal** -- basically, latent vectors $\mathbf{z}$ are sampled with all but one dimension of $\mathbf{z}$ fixed, and the remaining dimension varied over a range. These vectors are then decoded using the trained VAE decoder. This lets us see what information is stored in each dimension.
@@ -179,8 +180,6 @@ Cell imaging on the other hand has no such structured ontology of priors.
 We don't have organized expressions for the type of morphologies we expect to associate, the different types of cell geometry features are only vaguely defined, and the causal links between them even less so.
 Whereas we understand that transcription factors have target genes, it remains unclear if nuclear geometry directly influences the mitochondrial network.
 Imaging and other biological domains where we have less structured prior knowledge may therefore be the lowest hanging fruit for these representation learning schemes in biology.
-
-###
 
 # Footnotes
 
