@@ -40,7 +40,7 @@ I've been excited by a few recent papers adapting the [variational autoencoder](
 
 To understand how and why this works, I find it helpful to start from the beginning and recall what a VAE is trying to do in the first place. The VAE operates on two types of data -- $\mathbf{x}$'s in the measurement space, and $z$'s which represent points in the latent space we're learning.
 
-There are two main components to the network that transform between these two types of data points. The encoder $q(z \vert x)$ estimates a distribution of possible $z$ points given a data point in the measurement space. The decoder network does the opposite, and estimate a point $\hat x$ in the measurement space given a point in the latent space $z$.
+There are two main components to the network that transform between these two types of data points. The encoder $q(\mathbf{z} \vert \mathbf{x})$ estimates a distribution of possible $z$ points given a data point in the measurement space. The decoder network does the opposite, and estimate a point $\mathbf{\hat x}$ in the measurement space given a point in the latent space $z$.
 
 This function below is the objective function of a VAE[^1]. A VAE seeks to minimize this objective by changing the parameters of the encoder $\phi$ and parameters of the decoder $\theta$.
 
@@ -52,9 +52,9 @@ While that looks hairy, there are basically two parts to this objective, each do
 
 The first portion $-\mathbb{E}[ \log_{q_\phi (\mathbf{z} \vert \mathbf{x})} p_\theta (\mathbf{x} \vert \mathbf{z})]$ is the log likelihood of the data we observed in the measurement space $\mathbf{x}$, given the latent space $z$.
 
-If the latent space is configured in a way that doesn't capture much variation in our data, the decoder $p(x \vert z)$ will perform poorly and this log likelihood will be low. Vice-versa, a latent space that captures variation in $x$ will allow the decoder to reconstruct $\hat x$ much better, and the log likelihood will be higher.
+If the latent space is configured in a way that doesn't capture much variation in our data, the decoder $p(x \vert z)$ will perform poorly and this log likelihood will be low. Vice-versa, a latent space that captures variation in $x$ will allow the decoder to reconstruct $\mathbf{\hat x}$ much better, and the log likelihood will be higher.
 
-This is known as the **reconstruction error**. Since we want to minimize $L$, better reconstruction will make $L$ more negative. In practice, we estimate reconstruction error using a metric of difference between the observed data $\mathbf{x}$ and the reconstructed data $\hat \mathbf{x}$ using some metric of difference like binary cross-entropy. In order to get reasonable reconstructions, the latent space $q(\mathbf{z} \vert \mathbf{x})$ has to capture variation in the measurement data. The reconstruction error therefore acts as a pressure on the encoder network to capture meaningful variation in $\mathbf{x}$ within the latent variables $\mathbf{z}$. This portion of the objective is actually very similar to a "normal" autoencoder, simply optimizing how close we can make the reconstructed $\hat \mathbf{x}$ to the original $\mathbf{x}$ after forcing it through a smaller number of dimensions $\mathbf{z}$.
+This is known as the **reconstruction error**. Since we want to minimize $L$, better reconstruction will make $L$ more negative. In practice, we estimate reconstruction error using a metric of difference between the observed data $\mathbf{x}$ and the reconstructed data $\mathbf{\hat x}$ using some metric of difference like binary cross-entropy. In order to get reasonable reconstructions, the latent space $q(\mathbf{z} \vert \mathbf{x})$ has to capture variation in the measurement data. The reconstruction error therefore acts as a pressure on the encoder network to capture meaningful variation in $\mathbf{x}$ within the latent variables $\mathbf{z}$. This portion of the objective is actually very similar to a "normal" autoencoder, simply optimizing how close we can make the reconstructed $\mathbf{\hat x}$ to the original $\mathbf{x}$ after forcing it through a smaller number of dimensions $\mathbf{z}$.
 
 ### Divergence from a prior distribution enforces certain properties on the latent space
 
@@ -86,7 +86,7 @@ Each column in the figure represents a **latent space traversal** -- basically, 
 
 ![VAE latent space traversals, Higgins 2017]({{site.url}}/assets/images/disentangle/bvae_fig7.png)
 
-If we look through each latent dimension (column) for the standard VAE on the right side, we see that different generative factors are all mixed together in the model's latent dimensions. The first dimension is some mixture of positions, shapes and scales. Likewise for the second and third columns. As a human, it's pretty difficult to interpret what a higher value for dimension number $2$ in this model really means.
+If we look through each latent dimension for the standard VAE on the right side, we see that different generative factors are all mixed together in the model's latent dimensions. The first dimension is some mixture of positions, shapes and scales. Likewise for the second and third columns. As a human, it's pretty difficult to interpret what a higher value for dimension number $2$ in this model really means.
 
 Curious readers will note that the columns on the left side of this figure seem to map much more directly to individual parameters we can interpret.
 The first one is the $Y$ position, the second is $X$ position, &c.
@@ -131,7 +131,7 @@ The basic idea here is that we want $\mathbf{z}$ to contain as much information 
 If we take a look back at the VAE objective, we can convince ourselves that the KL divergence between the encoder $q(\mathbf{z} \vert \mathbf{x})$ and the prior $p(\mathbf{z})$ is actually an upper bound on how much information about $\mathbf{x}$ can pass through to $\mathbf{z}$ [^4].
 This "amount of information" is referred to in information theory as a [**channel capacity**](https://www.wikiwand.com/en/Channel_capacity).
 
-By increasing the cost of a high KL divergence (i.e. increasing $\beta = 1$), $\beta$-VAE reduces the amount of information that can pass through this bottleneck.
+By increasing the cost of a high KL divergence, $\beta$-VAE reduces the amount of information that can pass through this bottleneck.
 Given this constraint, Burgess *et. al.* propose that the flexible encoder $q(\mathbf{z} \vert \mathbf{x})$ learns to map generative factors to individual latent dimensions as an efficient way to encode information about $\mathbf{x}$ necessary for reconstruction during decoding.
 
 While somewhat intuitive-feeling, there isn't much quantitative data backing this argument.
@@ -190,7 +190,7 @@ Imaging and other biological domains where we have less structured prior knowled
 [^3]: The identity matrix $\mathbf{I}$ is a square matrix with $1$ on the diagonal and $0$ everywhere else. In mathematical notation, $\mathcal{N}(\mu, \Sigma)$ is used to shorthand the [Gaussian distribution function.](https://en.wikipedia.org/wiki/Normal_distribution?oldformat=true#General_normal_distribution)
 
 [^4]:
-    We can think of $\mathbf{z}$ as a "channel" through which information about $\mathbf{x}$ can flow to perform downstream tasks, like decoding and reconstructing of $$\hat \mathbf{x}$$ in an autoencoder.
+    We can think of $\mathbf{z}$ as a "channel" through which information about $\mathbf{x}$ can flow to perform downstream tasks, like decoding and reconstructing of $\mathbf{x}$ in an autoencoder.
 
     If we think about how to minimize the KL, we realize that the KL will actually be minimized when $q(z_i \vert x_i) = p(\mathbf{z})$ for every single example.
     This is true if we recall that the KL is $0$ when the two distributions it compares are equal.
