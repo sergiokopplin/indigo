@@ -28,7 +28,7 @@ Notably, independence between latent dimensions is necessary but not sufficient 
 
 ## How can we find a disentangled representation?
 
-Disentangled representations have some intuitive advantages over their entangled counterparts, [as outlined by Yoshua Bengio](https://arxiv.org/abs/1206.5538) in his seminal 2012 review. Matching a single generative factor to a single dimension allows for easy human interpretation. More abstractly, a disentangled representation may be viewed as a concise representation of the variation in data we care about most (the generative factors). A disentangled representation may also be useful for diverse downstream tasks, whereas an entangled representation may contain information to optimize the training objective (i.e. to reconstruct the inputs with a decoder) that is difficult to utilize in downstream tasks (i.e. cluster the latent space to find groups within the data). This last point is notably hard to prove, as the specific representation that is best for any given task will depend on the task [(see Tschannen *et.al.* for a formal treatment of this topic)](https://arxiv.org/abs/1812.05069).
+Disentangled representations have some intuitive advantages over their entangled counterparts, [as outlined by Yoshua Bengio](https://arxiv.org/abs/1206.5538) in his seminal 2012 review. Matching a single generative factor to a single dimension allows for easy human interpretation. More abstractly, a disentangled representation may be viewed as a concise representation of the variation in data we care about most -- the generative factors. A disentangled representation may also be useful for diverse downstream tasks, whereas an entangled representation may contain information to optimize the training objective that is difficult to utilize in downstream tasks [^0].
 
 However, there is no obvious route to finding a set of disentangled latent factors. Real world generative processes often have parameters with non-linear effects in the measurement space that are non-trivial to decompose. For instance, the expression of various genes over the ["lifespan" of a yeast cell](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3392685/) may not change linearly as a function of cellular age. To uncover this latent factor of age from a set of transcriptomic data of aging yeast, the latent space encoding method must be capable of disentangling these non-linear relationships.
 
@@ -182,6 +182,8 @@ Whereas we understand that transcription factors have target genes, it remains u
 Imaging and other biological domains where we have less structured prior knowledge may therefore be the lowest hanging fruit for these representation learning schemes in biology.
 
 # Footnotes
+
+[^0]: For instance, information used to improve reconstructions in a VAE may not be useful for clustering the data in the latent space. This last point is notably hard to prove, as the specific representation that is best for any given task will depend on the task. [See Tschannen *et.al.* for a formal treatment of this topic.](https://arxiv.org/abs/1812.05069).
 
 [^1]: An Objective function is also known as a loss function or energy criterion.
 
