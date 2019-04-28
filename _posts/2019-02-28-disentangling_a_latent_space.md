@@ -28,12 +28,9 @@ Notably, independence between latent dimensions is necessary but not sufficient 
 
 ## How can we find a disentangled representation?
 
-Disentangled representations have many intuitive advantages over their entangled counterparts.
-
-* List advantages of disentangled representations over entangled representations
+Disentangled representations have some intuitive advantages over their entangled counterparts, [as outlined by Yoshua Bengio](https://arxiv.org/abs/1206.5538) in his seminal 2012 review. Matching a single generative factor to a single dimension allows for easy human interpretation. More abstractly, a disentangled representation may be viewed as a concise representation of the variation in data we care about most (the generative factors). A disentangled representation may also be useful for diverse downstream tasks, whereas an entangled representation may contain information to optimize the training objective (i.e. to reconstruct the inputs with a decoder) that is difficult to utilize in downstream tasks (i.e. cluster the latent space to find groups within the data). This last point is notably hard to prove, as the specific representation that is best for any given task will depend on the task [(see Tschannen *et.al.* for a formal treatment of this topic)](https://arxiv.org/abs/1812.05069).
 
 However, there is no obvious route to finding a set of disentangled latent factors. Real world generative processes often have parameters with non-linear effects in the measurement space that are non-trivial to decompose. For instance, the expression of various genes over the ["lifespan" of a yeast cell](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3392685/) may not change linearly as a function of cellular age. To uncover this latent factor of age from a set of transcriptomic data of aging yeast, the latent space encoding method must be capable of disentangling these non-linear relationships.
-
 
 # Advances in Disentangling
 
@@ -77,10 +74,113 @@ Notice that the objective doesn't scale either of the reconstruction or divergen
 
 ### What sort of latent spaces does this generate?
 
-The Gaussian prior $p(z) = \mathcal{N}(0, \mathbf{I})$ pulls the dimensions of the latent space to be independent. Why? The covariance matrix we specified for the prior is the identity matrix $\mathbf{I}$, where no dimension covaries with any others. However, it does not explicitly force the disentangling between generative factors that we so desire. As we outlined earlier, independence is necessary but not sufficient for disentanglement. The latent spaces generated with this unweighted Gaussian prior often map multiple generative factors to each of the latent dimensions, making them hard to interpret semantically.
+The Gaussian prior $p(z) = \mathcal{N}(0, \mathbf{I})$ pulls the dimensions of the latent space to be independent.
+
+Why? The covariance matrix we specified for the prior is the identity matrix $\mathbf{I}$, where no dimension covaries with any others. However, it does not explicitly force the disentangling between generative factors that we so desire. As we outlined earlier, independence is necessary but not sufficient for disentanglement. The latent spaces generated with this unweighted Gaussian prior often map multiple generative factors to each of the latent dimensions, making them hard to interpret semantically.
 
 We can see an example of this entangling between generative factors in a VAE trained on the dSprites data set. dSprites is a set of synthetic images of white objects moving across black backgrounds. Because the images are synthesized, we have a ground truth set of generative factors (object $x$ coordinate, object $y$ coordinate, shape, size, rotation) and we know the value of each generative factor for each image.
 
+Borrowed from [Higgins 2017](https://openreview.net/pdf?id=Sy2fzU9gl) Figure 7, here's a visualization of the latent space learned for dSprites with a standard VAE on the right side.
+Each column in the figure represents a **latent space traversal** -- basically, latent vectors $\mathbf{z}$ are sampled with all but one dimension of $\mathbf{z}$ fixed, and the remaining dimension varied over a range. These vectors are then decoded using the trained VAE decoder. This lets us see what information is stored in each dimension.
+
+![VAE latent space traversals, Higgins 2017]({{site.url}}/assets/images/disentangle/bvae_fig7.png)
+
+If we look through each latent dimension (column) for the standard VAE on the right side, we see that different generative factors are all mixed together in the model's latent dimensions. The first dimension is some mixture of positions, shapes and scales. Likewise for the second and third columns. As a human, it's pretty difficult to interpret what a higher value for dimension number $2$ in this model really means.
+
+Curious readers will note that the columns on the left side of this figure seem to map much more directly to individual parameters we can interpret.
+The first one is the $Y$ position, the second is $X$ position, &c.
+
+How can we encourage our models to learn representations more like this one on the left?
+
+## Modifying the VAE Objective
+
+Trying to encourage disentangled representations in VAEs is now a very active field of research, with many groups proposing related ideas.
+One common theme explored by several methods to encourage disentanglement is the modification of the VAE objective, [reviewed wonderfully by Tschannen *et.al.*](https://arxiv.org/abs/1812.05069).
+How might we modify the objective to encourage this elusive disentanglement property?
+
+### $\beta$-VAE: Obey your priors young latent space
+
+One strategy explored by [Higgins *et. al.*](https://openreview.net/pdf?id=Sy2fzU9gl) and [Burgess *et. al.*](https://arxiv.org/pdf/1804.03599.pdf) at DeepMind is to simply weight the KL term of the VAE objective more heavily. Recall that the KL term in the VAE objective encourages the latent distribution $q(z \vert x)$ to be similar to $p(z)$. If $p(z) = \mathcal{N}(0, \mathbf{I})$, this puts more emphasis on matching the independence between dimensions implied by the prior.
+
+The objective Higgins *et. al.* propose is a beautifully simple modification to the VAE objective.
+
+We go from:
+
+$${L}(x; \theta, \phi) = - \mathbb{E}[ \log_{q_\phi (z \vert x)} p_\theta (x \vert z)] + \mathbb{D}_{\text{KL}}( q_\phi (z \vert x) \vert \vert p(z) )$$
+
+to:
+
+$${L}(x; \theta, \phi) = - \mathbb{E}[ \log_{q_\phi (z \vert x)} p_\theta (x \vert z)] + \beta \mathbb{D}_{\text{KL}}( q_\phi (z \vert x) \vert \vert p(z) )$$
+
+Notice the difference? We added a $\beta$ coefficient in front of the KL term. Higgins *et. al.* set this term $\beta > 1$ to encourage disentanglement and term their approach $\beta$-VAE.
+
+As simple as this modification is, the results are quite striking. If we revisit the dSprites data set above, we note that simply weighting the KL with $\beta = 4$ leads to dramatically more interpretable latent dimensions than $\beta = 1$. I found this result quite shocking -- hyperparameters in the objective really, *really* matter!
+
+Here's another example from [Higgins 2017](https://openreview.net/pdf?id=Sy2fzU9gl) using a human face dataset.
+We see that $\beta$-VAE learns latent dimensions that specifically represent generative factors like azimuth or lighting condition, while a standard VAE objective ($\beta = 1$) tends to mix generative factors together in each latent dimension.
+
+![VAE latent space traversals, faces]({{site.url}}/assets/images/disentangle/bvae_fig3.png)
+
+### Why does this work?
+
+In a follow up paper, Burgess *et. al.* investigate why this seems to work so well.
+They propose that we view $q(\mathbf{z} | \mathbf{x})$ as an [**information bottleneck**](https://arxiv.org/abs/physics/0004057).
+The basic idea here is that we want $\mathbf{z}$ to contain as much information as possible to improve performance on a task (like reconstructing the input), while discarding any information in $\mathbf{x}$ that isn't necessary to do well on the task.
+
+If we take a look back at the VAE objective, we can convince ourselves that the KL divergence between the encoder $q(\mathbf{z} \vert \mathbf{x})$ and the prior $p(\mathbf{z})$ is actually an upper bound on how much information about $\mathbf{x}$ can pass through to $\mathbf{z}$ [^4].
+This "amount of information" is referred to in information theory as a [**channel capacity**](https://www.wikiwand.com/en/Channel_capacity).
+
+By increasing the cost of a high KL divergence (i.e. increasing $\beta = 1$), $\beta$-VAE reduces the amount of information that can pass through this bottleneck.
+Given this constraint, Burgess *et. al.* propose that the flexible encoder $q(\mathbf{z} \vert \mathbf{x})$ learns to map generative factors to individual latent dimensions as an efficient way to encode information about $\mathbf{x}$ necessary for reconstruction during decoding.
+
+While somewhat intuitive-feeling, there isn't much quantitative data backing this argument.
+The exact answer to why simply weighting the KL a bit more in the VAE objective gives such remarkable results is still, alas, an open question.
+
+Based on this principle, Burgess *et. al.* also propose letting more information pass through the bottleneck over the course of training.
+The rationale here is that we can first use a small information bottleneck to learn a disentangled but incomplete representation.
+After latent dimensions have associated with generative factors, we can allow more information into the bottleneck to improve performance on downstream tasks (like reconstruction in the decoder or classification) while maintaining this disentanglement.
+
+To do this, the authors suggest another elegant modification to the objective:
+
+$${L}(x; \theta, \phi) = - \mathbb{E}[ \log_{q_\phi (z \vert x)} p_\theta (x \vert z)] + \beta \vert \mathbb{D}_{\text{KL}}( q_\phi (z \vert x) \vert \vert p(z) ) - C \vert$$
+
+where $C$ is a constant value that increases over the course of VAE training.
+As $C$ increases, we allow the KL divergence term to increase correspondingly without adding to the loss.
+The authors don't provide direct comparisons between this new modification and $\beta$-VAE alone though, so it's hard to know how much benefit this method provides.
+
+## How do we measure disentanglement?
+
+You may have noticed that previous figures rely on qualitative evaluation of disentanglement.
+Mostly, we've decoded latent vectors along each dimension and eye-balled the outputs to figure out if they map to a generative factor.
+This kind of eye-balling makes for compelling figures, but it's hard to rigorously compare "how disentangled" two latent spaces are using just this scheme.
+
+Multiple quantitative metrics have also been proposed [^5], but they can only be used in synthetic data sets where the generative factors are known (like dSprites, where we simulate images and know what parameters are used to generate each image).
+Developing methods to measure disentanglement in a quantitative manner seems like an important research direction going forward.
+
+In the case of biological data, we might imagine evaluating disentanglement on generative factors we know, like experimental conditions.
+Imagine we've captured images of cells treated with different doses of a drug.
+If the different doses of the drug mapped to a single dimension of the latent space, we may consider that representation to be more disentangled than a representation where drug dose is explained across many dimensions.
+
+Much of the promise in learning disentangled representations is in the potential for discovery of unknown generative factors.
+In an imaging experiment like the one above, perhaps cell motility state maps to a dimension (moving, just moved, not moving), even if we didn't know how to measure it explicitly beforehand.
+Evaluating representations for their ability to disentangle these unknown generative factors seems like a difficult epistemic problem.
+How do we evaluate the representation of something we don't know to measure?
+Research in this area may have to rely on qualitative evaluation of latent dimensions for the near future.
+In some cases, biological priors may help us in evaluating disentanglement, as shown by work in Casey Greene's group using gene set enrichment to evaluate representations [^6].
+
+# Where shall we venture?
+
+I'd love to see how these recent advances in representation learning translate to biological problems, where it's sometimes difficult to even know if a representation is disentangled.
+This seems intuitively the most useful to me in domains where our prior biological knowledge isn't well structured.
+In some domains like genomics, we have well structured ontologies and strong biological priors for associated gene sets derived from sequence information and decades of empirical observation.
+Perhaps in that domain, explicit enforcement of those strong priors will lead to more useful representations [^7] than a VAE may be able to learn, even when encouraged to disentangled.
+
+Cell imaging on the other hand has no such structured ontology of priors.
+We don't have organized expressions for the type of morphologies we expect to associate, the different types of cell geometry features are only vaguely defined, and the causal links between them even less so.
+Whereas we understand that transcription factors have target genes, it remains unclear if nuclear geometry directly influences the mitochondrial network.
+Imaging and other biological domains where we have less structured prior knowledge may therefore be the lowest hanging fruit for these representation learning schemes in biology.
+
+###
 
 # Footnotes
 
@@ -89,3 +189,19 @@ We can see an example of this entangling between generative factors in a VAE tra
 [^2]: The Kullback-Leibler divergence is a fundamental concept that allows us to measure a distance between two probability distributions. Since "the KL" is a divergence (something like a distance, but it doesn't obey the [triangle inequality](https://en.wikipedia.org/wiki/Triangle_inequality)), it is bounded on the low end at zero and unbounded on the upper end. $$\mathbb{D}_\text{KL} \rightarrow [0, \infty)$$.
 
 [^3]: The identity matrix $\mathbf{I}$ is a square matrix with $1$ on the diagonal and $0$ everywhere else. In mathematical notation, $\mathcal{N}(\mu, \Sigma)$ is used to shorthand the [Gaussian distribution function.](https://en.wikipedia.org/wiki/Normal_distribution?oldformat=true#General_normal_distribution)
+
+[^4]: We can think of $\mathbf{z}$ as a "channel" through which information about $\mathbf{x}$ can flow to perform downstream tasks, like decoding and reconstructing of $\hat \mathbf{x}$ in an autoencoder.
+
+  If we think about how to minimize the KL (as our optimization tries to do in a VAE), we realize that the KL will actually be minimized when $q(z_i \vert x_i) = p(\mathbf{z})$ for every single example.
+  This is true if we recall that the KL is $0$ when the two distributions it compares are equal.
+
+  If we set out prior to $p(\mathbf{z}) = \mathcal{N}(0, \mathbf{I})$ as above, this means that the KL would be minimized when $q(z_i | x_i) = \mathcal{N}(\mu_i = \mathbf{0}, \sigma_i = \mathbf{I})$ for every sample.
+  If the values are the same, they obviously contain no information about the input $\mathbf{x}$!
+
+  So, we can think of the value of the KL as a limit on how much information about $\mathbf{x}$ can pass through $\mathbf{z}$, since minimizing the KL forces us to pass no information about $\mathbf{x}$ in $\mathbf{z}$.
+
+[^5]: See [Higgins *et. al.* 2017](https://openreview.net/pdf?id=Sy2fzU9gl) and [Kim *et. al.* 2018](https://arxiv.org/pdf/1802.05983.pdf).
+
+[^6]: See [Taroni 2018](https://www.biorxiv.org/content/10.1101/395947v2), [Way 2017](https://www.biorxiv.org/content/10.1101/174474v2), [Way 2019](https://www.biorxiv.org/content/10.1101/174474v2)
+
+[^7]: See [W. Mao's great PLIER paper as an example.](https://www.biorxiv.org/content/10.1101/116061v2.full)
