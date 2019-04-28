@@ -118,7 +118,7 @@ Notice the difference? We added a $\beta$ coefficient in front of the KL term. H
 As simple as this modification is, the results are quite striking. If we revisit the dSprites data set above, we note that simply weighting the KL with $\beta = 4$ leads to dramatically more interpretable latent dimensions than $\beta = 1$. I found this result quite shocking -- hyperparameters in the objective really, *really* matter!
 
 Here's another example from [Higgins 2017](https://openreview.net/pdf?id=Sy2fzU9gl) using a human face dataset.
-We see that $\beta$-VAE learns latent dimensions that specifically represent generative factors like azimuth or lighting condition, while a standard VAE objective ($\beta = 1$) tends to mix generative factors together in each latent dimension.
+We see that $\beta$-VAE learns latent dimensions that specifically represent generative factors like azimuth or lighting condition, while a standard VAE objective $\beta = 1$ tends to mix generative factors together in each latent dimension.
 
 ![VAE latent space traversals, faces]({{site.url}}/assets/images/disentangle/bvae_fig3.png)
 
@@ -126,7 +126,7 @@ We see that $\beta$-VAE learns latent dimensions that specifically represent gen
 
 In a follow up paper, Burgess *et. al.* investigate why this seems to work so well.
 They propose that we view $q(\mathbf{z} | \mathbf{x})$ as an [**information bottleneck**](https://arxiv.org/abs/physics/0004057).
-The basic idea here is that we want $\mathbf{z}$ to contain as much information as possible to improve performance on a task (like reconstructing the input), while discarding any information in $\mathbf{x}$ that isn't necessary to do well on the task.
+The basic idea here is that we want $\mathbf{z}$ to contain as much information as possible to improve performance on a task like reconstructing the input, while discarding any information in $\mathbf{x}$ that isn't necessary to do well on the task.
 
 If we take a look back at the VAE objective, we can convince ourselves that the KL divergence between the encoder $q(\mathbf{z} \vert \mathbf{x})$ and the prior $p(\mathbf{z})$ is actually an upper bound on how much information about $\mathbf{x}$ can pass through to $\mathbf{z}$ [^4].
 This "amount of information" is referred to in information theory as a [**channel capacity**](https://www.wikiwand.com/en/Channel_capacity).
@@ -139,7 +139,7 @@ The exact answer to why simply weighting the KL a bit more in the VAE objective 
 
 Based on this principle, Burgess *et. al.* also propose letting more information pass through the bottleneck over the course of training.
 The rationale here is that we can first use a small information bottleneck to learn a disentangled but incomplete representation.
-After latent dimensions have associated with generative factors, we can allow more information into the bottleneck to improve performance on downstream tasks (like reconstruction in the decoder or classification) while maintaining this disentanglement.
+After latent dimensions have associated with generative factors, we can allow more information into the bottleneck to improve performance on downstream tasks, like reconstruction or classification, while maintaining this disentanglement.
 
 To do this, the authors suggest another elegant modification to the objective:
 
@@ -190,15 +190,15 @@ Imaging and other biological domains where we have less structured prior knowled
 [^3]: The identity matrix $\mathbf{I}$ is a square matrix with $1$ on the diagonal and $0$ everywhere else. In mathematical notation, $\mathcal{N}(\mu, \Sigma)$ is used to shorthand the [Gaussian distribution function.](https://en.wikipedia.org/wiki/Normal_distribution?oldformat=true#General_normal_distribution)
 
 [^4]:
-  We can think of $\mathbf{z}$ as a "channel" through which information about $\mathbf{x}$ can flow to perform downstream tasks, like decoding and reconstructing of $$\hat \mathbf{x}$$ in an autoencoder.
+    We can think of $\mathbf{z}$ as a "channel" through which information about $\mathbf{x}$ can flow to perform downstream tasks, like decoding and reconstructing of $$\hat \mathbf{x}$$ in an autoencoder.
 
-  If we think about how to minimize the KL (as our optimization tries to do in a VAE), we realize that the KL will actually be minimized when $q(z_i \vert x_i) = p(\mathbf{z})$ for every single example.
-  This is true if we recall that the KL is $0$ when the two distributions it compares are equal.
+    If we think about how to minimize the KL, we realize that the KL will actually be minimized when $q(z_i \vert x_i) = p(\mathbf{z})$ for every single example.
+    This is true if we recall that the KL is $0$ when the two distributions it compares are equal.
 
-  If we set out prior to $p(\mathbf{z}) = \mathcal{N}(0, \mathbf{I})$ as above, this means that the KL would be minimized when $q(z_i | x_i) = \mathcal{N}(\mu_i = \mathbf{0}, \sigma_i = \mathbf{I})$ for every sample.
-  If the values are the same, they obviously contain no information about the input $\mathbf{x}$!
+    If we set out prior to $p(\mathbf{z}) = \mathcal{N}(0, \mathbf{I})$ as above, this means that the KL would be minimized when $q(z_i | x_i) = \mathcal{N}(\mu_i = \mathbf{0}, \sigma_i = \mathbf{I})$ for every sample.
+    If the values are the same, they obviously contain no information about the input $\mathbf{x}$!
 
-  So, we can think of the value of the KL as a limit on how much information about $\mathbf{x}$ can pass through $\mathbf{z}$, since minimizing the KL forces us to pass no information about $\mathbf{x}$ in $\mathbf{z}$.
+    So, we can think of the value of the KL as a limit on how much information about $\mathbf{x}$ can pass through $\mathbf{z}$, since minimizing the KL forces us to pass no information about $\mathbf{x}$ in $\mathbf{z}$.
 
 [^5]: See [Higgins *et. al.* 2017](https://openreview.net/pdf?id=Sy2fzU9gl) and [Kim *et. al.* 2018](https://arxiv.org/pdf/1802.05983.pdf).
 
