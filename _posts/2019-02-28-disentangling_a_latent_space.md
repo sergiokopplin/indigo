@@ -189,7 +189,8 @@ Imaging and other biological domains where we have less structured prior knowled
 
 [^3]: The identity matrix $\mathbf{I}$ is a square matrix with $1$ on the diagonal and $0$ everywhere else. In mathematical notation, $\mathcal{N}(\mu, \Sigma)$ is used to shorthand the [Gaussian distribution function.](https://en.wikipedia.org/wiki/Normal_distribution?oldformat=true#General_normal_distribution)
 
-[^4]: We can think of $\mathbf{z}$ as a "channel" through which information about $\mathbf{x}$ can flow to perform downstream tasks, like decoding and reconstructing of $\hat \mathbf{x}$ in an autoencoder.
+[^4]:
+  We can think of $\mathbf{z}$ as a "channel" through which information about $\mathbf{x}$ can flow to perform downstream tasks, like decoding and reconstructing of $$\hat \mathbf{x}$$ in an autoencoder.
 
   If we think about how to minimize the KL (as our optimization tries to do in a VAE), we realize that the KL will actually be minimized when $q(z_i \vert x_i) = p(\mathbf{z})$ for every single example.
   This is true if we recall that the KL is $0$ when the two distributions it compares are equal.
