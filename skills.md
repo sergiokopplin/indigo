@@ -7,9 +7,9 @@ layout: page
 --------
 
 ### I do "speak"
- - PHP (Zend framework, Symfony, Phalcon, Yii, etc.)
- - Python (Flask, Django)
  - Node.js / Typescript
+ - Python (Flask, Django)
+ - PHP (Zend framework, Symfony, Phalcon, Yii, etc.)
  - Go
 
 
