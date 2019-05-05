@@ -16,7 +16,8 @@ layout: page
             width="300px"
         />
     </a>
-
+    <br / >
+    <br / >
     <a href="https://www.aboutyou.de/">
         <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ABOUT_YOU_Logo.png/2560px-ABOUT_YOU_Logo.png"
