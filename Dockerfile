@@ -3,7 +3,6 @@ WORKDIR /tmp
 COPY Gemfile .
 
 RUN bundle install
-
 COPY . .
-ARG config=_config.yml
-RUN jekyll build --config $config
+
+ENTRYPOINT [ "jekyll", "serve" ]
