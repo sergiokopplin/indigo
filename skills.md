@@ -34,5 +34,5 @@ layout: page
 
 
 ### I'm certified
- - [AWS Certified Solutions Architect - Associate](https://aw.certmetrics.com/amazon/public/verification.aspx) (validation number 335Y46HCJ2VE1G36)
+ - [AWS Certified Solutions Architect - Associate](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-03-29&ci=AWS00403056)
  - [Zend Certified Engineer PHP 5.3](http://www.zend.com/en/yellow-pages/ZEND021374) 
