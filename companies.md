@@ -10,7 +10,7 @@ layout: page
 <div style="text-align: center">
     <a href="https://www.fielmann.de/">
         <img 
-            src="https://de.wikipedia.org/wiki/Fielmann#/media/File:160506_Fielmann_LogoNEU_pos_wiki.svg" 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/160506_Fielmann_LogoNEU_pos_wiki.svg/2560px-160506_Fielmann_LogoNEU_pos_wiki.svg.png" 
             alt="Fielmann AG" 
             title="Fielmann AG" 
             width="300px"
@@ -19,7 +19,7 @@ layout: page
 
     <a href="https://www.aboutyou.de/">
         <img
-            src="https://de.wikipedia.org/wiki/About_You#/media/File:ABOUT_YOU_Logo.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ABOUT_YOU_Logo.png/2560px-ABOUT_YOU_Logo.png"
             alt="ABOUT YOU GmbH"
             title="ABOUT YOU GmbH"
             width="300px"
