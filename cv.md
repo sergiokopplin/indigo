@@ -75,9 +75,9 @@ San Francisco, California
 ## Computational Skills
 
 **Data Analysis:** Experimental design, linear modeling, time series analysis, multivariate statistics  
-**Machine Learning:** Supervised discrimination, unsupervised clustering, feature engineering
-**Deep Learning:** Deep convolutional and recurrent neural networks, PyTorch, Tensorflow
-**Image Analysis:** Image segmentation, classification, particle tracking    
+**Machine Learning:** Supervised discrimination, unsupervised clustering, feature engineering  
+**Deep Learning:** Deep convolutional and recurrent neural networks, PyTorch, Tensorflow  
+**Image Analysis:** Image segmentation, classification, particle tracking  
 **Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, LaTeX  
 
 ## Biological Skills
