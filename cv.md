@@ -74,27 +74,23 @@ San Francisco, California
 
 ## Computational Skills
 
-**Data Analysis:** Experimental design, hypothesis testing, time series analysis, multivariate statistics  
-**Machine Learning:** Supervised, unsupervised, feature engineering, distributed computing (MPI, SGE)  
-**Deep Learning:** Deep neural networks, evolution strategies, PyTorch, Tensorflow, Keras  
-**Image Analysis:** Image segmentation, classification, object detection, particle tracking    
+**Data Analysis:** Experimental design, linear modeling, time series analysis, multivariate statistics  
+**Machine Learning:** Supervised discrimination, unsupervised clustering, feature engineering
+**Deep Learning:** Deep convolutional and recurrent neural networks, PyTorch, Tensorflow
+**Image Analysis:** Image segmentation, classification, particle tracking    
 **Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, LaTeX  
 
 ## Biological Skills
 
-* Quantitative microscopy
-* Immunocyto- and immunohisto-chemistry
-* Mammalian cell culture
-* Stem cell differentiation and *in situ* culture
-* FACS and flow cytometry
-* Mouse genetics and model development
-* RNA isolation, cDNA synthesis, qRT-PCR, Western Blotting
-* Molecular cloning and construct design
+* Single cell and bulk RNA-sequencing
+* Quantitative timelapse microscopy, immunochemistry
+* Mammalian cell culture, primary stem cell models, FACS and cytometry
+* Molecular cloning, construct design, standard molecular biology methods
 
 ## Publications
 
 1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
-2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2018. *bioRxiv*. doi: [https://doi.org/10.1101/159202](https://doi.org/10.1101/159202). *(Submitted for publication).* Featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
+2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. *In press at IEEE Transactions in Computational Biology and Bioinformatics.* [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
 3. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
 4. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
 
