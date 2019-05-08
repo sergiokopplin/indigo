@@ -90,7 +90,7 @@ San Francisco, California
 ## Publications
 
 1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
-2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. *In press at IEEE Transactions in Computational Biology and Bioinformatics.* [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
+2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. *In press IEEE Transactions on Computational Biology and Bioinformatics.* [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
 3. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
 4. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
 
