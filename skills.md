@@ -3,7 +3,7 @@ title: Skills
 layout: page
 ---
 
-# Skills
+## Skills
 --------
 
 ### I do "speak"
