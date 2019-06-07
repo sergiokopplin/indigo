@@ -2,4 +2,6 @@
 _site
 .sass-cache
 Gemfile.lock
+.bundle
+vendor/
 .idea
