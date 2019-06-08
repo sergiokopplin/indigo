@@ -6,6 +6,8 @@ permalink: /cv/index.html
 Jacob C. Kimmel  
 [jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com), (321)-536-1919, San Francisco, California
 
+[CV PDF]({{site.url}}/assets/cv.pdf)
+
 ## Education
 
 **Ph.D. — Dept. Biochemistry & Biophysics, UC San Francisco, 2015 - 2018**  
@@ -23,15 +25,15 @@ Jacob C. Kimmel
 **Calico Life Sciences, South San Francisco, CA, 2018 - Present**  
 *Data Scientist, Computing*  
 
+* Lead an investigation of cell type and tissue environment influences on aging using single cell genomics across three murine tissues
 * Developed timelapse image analysis methods for oncology applications, enabling multi-cell tracking and analysis over many days
 * Automated quantification of yeast cell aging using convolutional neural networks
 * Built an automated targeting system for laser ablation microscopy with sub-millisecond timing
 * Developed a cell type identification method for single cell RNA-seq data using deep neural networks
-* Developed a method for estimating perturbation magnitude by optimal transport in single cell RNA-seq data
 
 **University of California San Francisco, San Francisco, CA, 2015 - 2018**  
 *PhD Candidate*  
-*Principal Investigators:* Wallace Marshall, Andrew Brack
+*Principal Investigators:* Wallace Marshall, Andrew Brack  
 *Thesis:* Inferring stem cell state from cell behavior
 
 * Developed [*Heteromotility*](http://jacobkimmel.github.io/heteromotility) biological motion analysis package, including feature extraction, unsupervised clustering, and time-series analysis tools to quantify dynamic state transitions in cellular systems
@@ -76,16 +78,17 @@ Jacob C. Kimmel
 **Machine Learning:** Supervised discrimination, unsupervised clustering, feature engineering  
 **Deep Learning:** Deep convolutional and recurrent neural networks, PyTorch, Tensorflow  
 **Image Analysis:** Image segmentation, classification, particle tracking  
-**NGS**: Single cell and bulk RNA-seq analysis, samtools, IGV
+**NGS**: Single cell and bulk RNA-seq analysis, samtools, IGV  
 **Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, $\LaTeX$
 **Experimental Biology**: Quantitative microscopy, single cell RNA-seq, primary cell culture, FACS, molecular biology methods
 
 ## Publications
 
-1. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. In press, *IEEE Transactions on Computational Biology and Bioinformatics.* [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
-2. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
-3. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
-4. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
+1. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DH, Kelley DR, Rosenthal AZ. A murine aging cell atlas reveals cell identity and tissue-specific trajectories of aging. 2019. bioRxiv. doi: [https://doi.org/10.1101/657726](https://doi.org/10.1101/657726).
+2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. In press, *IEEE Transactions on Computational Biology and Bioinformatics.* [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
+3. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
+4. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
+5. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
 
 ## Selected Presentations
 
@@ -121,7 +124,6 @@ Reviewer for:
 
 * Bay Area festival to present creative science and technology to the public, 100,000+ attendees
 * Presented an exhibit demonstrating adaptive cellular responses to engage the public with life science research
-
 
 **Science Education Partnership, UCSF/SFUSD, 2016 - 2017**
 
