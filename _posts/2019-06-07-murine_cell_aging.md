@@ -1,7 +1,7 @@
 ---
 title: "Murine Aging Cell Atlas"
 layout: post
-date: 2017-07-03
+date: 2019-06-05
 tag:
 - aging
 - biology
@@ -18,6 +18,9 @@ Recent cell atlas efforts suggest there are more than 100 unique cell types in a
 Do these different cell types experience aging in different ways?
 The diversity of cellular physiology in mammals -- from short-lived spherical neutrophils to long-lived arboreal neurons -- suggests that aging may manifest differently across cell identities.
 However, it's difficult to compare and contrast aging phenotypes measured in individual cell types using different technologies in different laboratories in an apples-to-apples manner.
+
+Along with brilliant collaborators, I recently explored this question at Calico using single cell genomics to obtain comparable measurements of aging phenotypes across cell types.
+Check out [our paper on bioRxiv](https://www.biorxiv.org/content/10.1101/657726v1), see [our research website](http://mca.research.calicolabs.com/) where you can interact with the data, or read a brief description of some key highlights below.
 
 ## Cartographing aging across three murine tissues
 
