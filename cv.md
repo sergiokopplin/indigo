@@ -4,16 +4,16 @@ layout: page
 permalink: /cv/index.html
 ---
 Jacob C. Kimmel  
-[jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com)  
-San Francisco, California
+[jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com), (321)-536-1919, San Francisco, California
+
+[CV PDF]({{site.url}}/assets/cv.pdf)
 
 ## Education
 
-**Ph.D. — Developmental & Stem Cell Biology, UC San Francisco, 2015 - 2018**  
+**Ph.D. — Dept. Biochemistry & Biophysics, UC San Francisco, 2015 - 2018**  
 *Funding*: NSF Graduate Fellowship, PhRMA Informatics Fellowship, NIH T32  
-*GPA*: 4.0 / 4.0
 
-**B.S. — Biotechnology, University of Central Florida, 2012 - 2015**  
+**B.S. (Honors), Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
 *GPA*: 4.0 / 4.0
 
@@ -25,14 +25,15 @@ San Francisco, California
 **Calico Life Sciences, South San Francisco, CA, 2018 - Present**  
 *Data Scientist, Computing*  
 
+* Lead an investigation of cell type and tissue environment influences on aging using single cell genomics across three murine tissues
 * Developed timelapse image analysis methods for oncology applications, enabling multi-cell tracking and analysis over many days
 * Automated quantification of yeast cell aging using convolutional neural networks
-* Built an automated targeting system for a laser ablation microscope with sub-millisecond timing -- integrates hardware control and computer vision to shoot only interesting cells, leaving others untouched
-* Developing single cell RNA-sequencing analysis methods to study heterogeneity and cellular dynamics in oncology and aging
+* Built an automated targeting system for laser ablation microscopy with sub-millisecond timing
+* Developed a cell type identification method for single cell RNA-seq data using deep neural networks
 
 **University of California San Francisco, San Francisco, CA, 2015 - 2018**  
 *PhD Candidate*  
-*Principal Investigators:* Wallace Marshall, Andrew Brack
+*Principal Investigators:* Wallace Marshall, Andrew Brack  
 *Thesis:* Inferring stem cell state from cell behavior
 
 * Developed [*Heteromotility*](http://jacobkimmel.github.io/heteromotility) biological motion analysis package, including feature extraction, unsupervised clustering, and time-series analysis tools to quantify dynamic state transitions in cellular systems
@@ -46,24 +47,23 @@ San Francisco, California
 *Principal Investigator:* Simone Bianco  
 
 * Developed rapid convolutional neural network (CNN) based image segmentation methods for processing of high-throughput timelapse imaging data
-* Developed CNN-assisted cell tracking approaches
-* Implemented a Natural Evolution Strategies (NES) optimization framework for tuning multi-object trackers
+* Implemented a Natural Evolution Strategies (NES) optimization framework to improve multi-cell tracking
 * Implemented a software interface to custom microscopy hardware, allowing for automation of high-throughput timelapse imaging experiments
 
-**University of Central Florida, Orlando, FL, 2011 - 2015**  
+**University of Central Florida, Orlando, FL, 2012 - 2015**  
 *Research and Mentoring Program Scholar, Burnett Research Scholar*  
 *Principal Investigator:* Kiminobu Sugaya, PhD
 
 * Characterized induced pluripotent reprogramming in mesenchymal stem cells using machine-learning based image analysis, investigated cell sorting applications
 * Examined the use of polarized optical torques to guide cell motility in collaboration with U. of Central Florida's optics research center
-* Investigated a pathway for producing neuronal cells from adipose derived stem cells by modulation of Nanog. Published as a first-author paper, presented at Neuroscience 2013.
+* Investigated a pathway for producing neuronal cells from adipose derived stem cells by modulation of Nanog
 
 **University of California San Francisco, San Francisco, CA, 2014 Summer**  
 *Summer Research and Training Program, Amgen Scholar*  
 *Principal Investigator:* K. Mark Ansel, PhD
 
 * Investigated the role of microRNA-29 in the regulation of cytokine production in T-cells
-* Awarded the summer program’s competitive Outstanding Presentation Award
+* Awarded the summer program’s Best Presentation Award
 
 **National Institute on Aging, Baltimore, MD, 2012 Summer**  
 *Summer Fellow, Image Informatics and Computational Biology Unit*  
@@ -72,62 +72,31 @@ San Francisco, California
 * Identified differential aging rates across the anatomy of C. elegans using machine learning based image classification
 * Investigated the relationship between cognitive and age related morphologies in the primate hippocampus
 
-## Computational Skills
+## Skills
 
-**Data Analysis:** Experimental design, hypothesis testing, time series analysis, multivariate statistics  
-**Machine Learning:** Supervised, unsupervised, feature engineering, distributed computing (MPI, SGE)  
-**Deep Learning:** Deep neural networks, evolution strategies, PyTorch, Tensorflow, Keras  
-**Image Analysis:** Image segmentation, classification, object detection, particle tracking    
-**Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, LaTeX  
-
-## Biological Skills
-
-* Quantitative microscopy
-* Immunocyto- and immunohisto-chemistry
-* Mammalian cell culture
-* Stem cell differentiation and *in situ* culture
-* FACS and flow cytometry
-* Mouse genetics and model development
-* RNA isolation, cDNA synthesis, qRT-PCR, Western Blotting
-* Molecular cloning and construct design
+**Data Analysis:** Experimental design, linear modeling, time series analysis, multivariate statistics  
+**Machine Learning:** Supervised discrimination, unsupervised clustering, feature engineering  
+**Deep Learning:** Deep convolutional and recurrent neural networks, PyTorch, Tensorflow  
+**Image Analysis:** Image segmentation, classification, particle tracking  
+**NGS**: Single cell and bulk RNA-seq analysis, samtools, IGV  
+**Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, $\LaTeX$
+**Experimental Biology**: Quantitative microscopy, single cell RNA-seq, primary cell culture, FACS, molecular biology methods
 
 ## Publications
 
-1. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
-2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2018. *bioRxiv*. doi: [https://doi.org/10.1101/159202](https://doi.org/10.1101/159202). *(Submitted for publication).* Featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
-3. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
-4. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
+1. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DH, Kelley DR, Rosenthal AZ. A murine aging cell atlas reveals cell identity and tissue-specific trajectories of aging. 2019. bioRxiv. doi: [https://doi.org/10.1101/657726](https://doi.org/10.1101/657726).
+2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. In press, *IEEE Transactions on Computational Biology and Bioinformatics.* [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
+3. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
+4. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
+5. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
 
 ## Selected Presentations
 
 1. **Kimmel JC**, Hwang A, Brack AS, Marshall WF. Inferring cell state dynamics with machine learning models. Invited presentation to the *Machine Learning in Cell Biology* Group meeting at ASCB-EMBO 2018. San Diego, CA. 2018.
 2. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018.
-3. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Poster presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Best Poster Award).*
-4. Biswas S\*, **Kimmel JC\***, Paulson A\*, Zimmerman T\*, Bianco S. Deep learning methods for cell engineering. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018. (\* Equal Contribution)
-5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
-6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
-
-## Outreach
-
-**Science Education Partnership, UCSF/SFUSD, 2016 - 2017**
-
-* Partnered with San Francisco public school teachers to design and implement science lessons for elementary school students
-
-**Bay Area Maker Faire Exposition, 2016 - Present**
-
-* Bay Area festival to present creative science and technology to the public, 100,000+ attendees
-* Presented an exhibit demonstrating adaptive cellular responses to engage the public with life science research
-
-**Central Florida Society for Neuroscience, 2012 - 2015**
-
-* Student President, 2013-2015; Founding Member, 2012
-* Wrote and won a chapter grant from the national organization
-* Held large scale science education events for the public & received regional media coverage
-
-**High School Research Mentor, Satellite High School, 2013 - 2015**
-
-* Assisted high school students with the development and implementation of science fair projects
-* Arranged for students to access laboratory equipment at the U. of Central Florida, trained students in molecular biology
+3. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Most Innovative Use of Deep Learning in Biomedicine Award).*
+4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
+5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
 
 ## Academic Service
 
@@ -140,18 +109,36 @@ Reviewer for:
 
 ## Honors and Awards
 
+* Nvidia Best Presentation Award, *Nvidia Deep Learning in Biomedicine*, 2018
 * NSF Graduate Research Fellowship, 2017
 * PhRMA Informatics Fellowship, PhRMA Foundation, 2017
 * Discovery Fellow, UC San Francisco, 2017
-* Nvidia Best Presentation Award, *Nvidia Deep Learning in Biomedicine*, 2018
 * Nvidia GPU Grant, 2017 & 2018
-* Honorable Mention, NSF Graduate Research Fellowship,  2016
 * Amgen Scholar, University of California San Francisco, 2014
 * Research & Mentoring Program Scholar, U. of Central Florida, 2013-2015
 * Burnett Research Scholar, U. of Central Florida, 2013
-* NIH Summer Fellow, National Institute on Aging, 2012
-* Florida Academic Scholar, State of Florida, 2012-2015
-* National Merit Scholar, 2012
+
+## Outreach
+
+**Bay Area Maker Faire Exposition, 2016 - 2018**
+
+* Bay Area festival to present creative science and technology to the public, 100,000+ attendees
+* Presented an exhibit demonstrating adaptive cellular responses to engage the public with life science research
+
+**Science Education Partnership, UCSF/SFUSD, 2016 - 2017**
+
+* Partnered with San Francisco public school teachers to design and implement science lessons for elementary school students
+
+**Central Florida Society for Neuroscience, 2012 - 2015**
+
+* Student President, 2013-2015; Founding Member, 2012
+* Wrote and won a chapter grant from the national organization
+* Held large scale science education events for the public & received regional media coverage
+
+**High School Research Mentor, Satellite High School, 2013 - 2015**
+
+* Assisted high school students with the development and implementation of science fair projects
+* Arranged for students to access laboratory equipment at the U. of Central Florida, trained students in molecular biology
 
 ## References
 
@@ -170,6 +157,10 @@ Todd.Nystul@ucsf.edu
 Orion Weiner  
 Professor, UCSF  
 Orion.Weiner@ucsf.edu
+
+Andrew G. York  
+Principal Investigator, Calico Life Sciences  
+agy@calicolabs.com
 
 Eric Verdin  
 President & CEO, The Buck Institute  
