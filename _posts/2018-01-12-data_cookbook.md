@@ -102,6 +102,19 @@ v = np.array([0,1])
 
 # Matplotlib / Seaborn
 
+## Create editable, uncropped PDF exports
+
+```python
+import matplotlib
+# ensure text in PDF exports is editable.
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.rcParams['ps.fonttype'] = 42
+# prevent the PDF from being clipped to the "figsize".
+# NOTE: this is different than `plt.tight_layout()`
+# despite the similar name.
+matplotlib.rcParams['savefig.bbox'] = 'tight'
+```
+
 ## Rotate Seaborn axis labels
 
 ```python
