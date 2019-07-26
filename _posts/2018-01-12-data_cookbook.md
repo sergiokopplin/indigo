@@ -56,6 +56,22 @@ A[:,i,:].shape # (5,5)
 A[:,i:i+1,:].shape # (5,1,5)
 ```
 
+## Add an empty dimension by indexing
+
+You can add an empty dimension of size `1` to an `np.ndarray` by passing `None` to one of the axes while indexing.
+
+```python
+A = np.random.random((3,3))
+
+B = A[:, :, None]
+print(B.shape) # (3, 3, 1)
+
+C = np.expand_dims(A, -1)
+print(C.shape) # (3, 3, 1)
+
+np.all(B == C) # True
+```
+
 # Pandas
 
 ## Split a column by a text delimiter
