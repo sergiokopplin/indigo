@@ -8,8 +8,6 @@ I am a Software Engineer at [Apple, Inc.](http://www.apple.com/) in the Siri tea
 
 I like to work on many software things, usually don't matter what, as long as I get to stare at a screen and write code all day. Outside of work, I like to hack mostly light weight applications and text-based hackable games. My current skillsets and interests include: Apache Spark 2.3, Scala 2.x, Java 8, AngularJS/Typescript, Apache hive, Hadoop and its related technologies with a side of obligatory Python 2.7, 3.x.
 
-I also row on my spare time, currently out of [Bair Island Aquatic Center](http://www.gobair.org/).
-
-I also happen to be queer and in transition. Maybe one day I'll share with the world about that journey from collegiate rowing to masters rower as a trans person.
+I also row on my spare time, currently out of [Bair Island Aquatic Center](http://www.gobair.org/), and [Victoria City Rowing Club](https://www.vcrc.bc.ca/).
 
 On my fractional spare time, I can be found volunteering for causes I care: [The Women's March](https://www.womensmarch.com/), [March For Our Lives](https://marchforourlives.com/home/). I tinker with things around me. I can be found fixing cars, making DIY makeup, and playing violin.
