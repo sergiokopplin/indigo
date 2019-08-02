@@ -233,3 +233,29 @@ anim = animation.FuncAnimation(
 from IPython.display import HTML
 HTML(anim.to_html5_video())
 ```
+
+## Add a row/column color legend to seaborn clustermap
+
+[Credit](http://dawnmy.github.io/2016/10/24/Plot-heatmaap-with-side-color-indicating-the-class-of-variables/)
+
+```python
+# define some row clusters
+row_clusters = get_row_clusters(data) # np.ndarray, np.int
+
+# set up a LUT to assign colors to `row_clusters`
+pal = sns.color_palette('tab20')
+
+# make a clustermap
+clmap = sns.clustermap(
+  ...,
+  row_colors = pal[row_clusters]
+)
+
+for label in np.unique(clusters):
+    clmap.ax_col_dendrogram.bar(0,
+                                0,
+                                color=pal[label],
+                                label=label,
+                                linewidth=0)
+clmap.ax_col_dendrogram.legend(loc="center", ncol=5, frameon=False)
+```
