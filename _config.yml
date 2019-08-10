@@ -54,18 +54,12 @@ github: aakriti1kumar
 email: aakriti1kumar@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    aakritikumar:
+        name: Aakriti Kumar
+        bio: Graduate Student, Cognitive Science & Statistics
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: aakriti1kumar
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -100,6 +94,10 @@ show-author: true
 
 # do you want some animations?
 animation: true
+
+sass:
+    sass_dir: _sass
+    style: :compressed
 
 plugins:
   - jekyll-seo-tag
