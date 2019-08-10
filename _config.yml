@@ -16,8 +16,8 @@ resume: true
 resume-external: false
 resume-url: assets/cv.pdf
 
-url: aakritikumar.com
-# your url: http://USERNAME.github.io
+#url: aakritikumar.com
+url: http://aakriti1kumar.github.io
 
 permalink: /:title/
 
