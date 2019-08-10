@@ -8,13 +8,13 @@ description: A blog about stuff
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: aakriti1kumar.github.io/assets/images/profile.jpg
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume: aakriti1kumar.github.io/assets/cv.pdf
+resume-url: assets/cv.pdf
 
 url: aakritikumar.com
 # your url: http://USERNAME.github.io
