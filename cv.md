@@ -79,7 +79,7 @@ Jacob C. Kimmel
 **Deep Learning:** Deep convolutional and recurrent neural networks, PyTorch, Tensorflow  
 **Image Analysis:** Image segmentation, classification, particle tracking  
 **NGS**: Single cell and bulk RNA-seq analysis, samtools, IGV  
-**Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, $\LaTeX$
+**Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, LaTeX  
 **Experimental Biology**: Quantitative microscopy, single cell RNA-seq, primary cell culture, FACS, molecular biology methods
 
 ## Selected Publications
