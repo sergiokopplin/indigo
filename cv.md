@@ -40,7 +40,7 @@ Jacob C. Kimmel
 * Quantified rates of muscle stem cell activation with single cell resolution for the first time using [*Heteromotility*](http://jacobkimmel.github.io/heteromotility)
 * Developed [*Lanternfish*](http://jacobkimmel.github.io/lanternfish) deep learning package to enable discrimination of cell states from cell motility measurements and prediction of cell motility behaviors
 * Demonstrated classification of stem cell differentiation states and cancerous transformation detection using [*Lanternfish*](http://jacobkimmel.github.io/lanternfish)
-* Performed single-cell RNA-sequencing to identify heterogeneous muscle stem cell states during aging and myogenic activation
+* Discovered age-dampened state transitions in myogenesis with single cell RNA-seq & [*Heteromotility*](http://jacobkimmel.github.io/heteromotility)
 
 **IBM Research, Cell Engineering Group, San Jose, CA, 2017 Fall**  
 *Deep Learning Research Intern*  
