@@ -1,6 +1,6 @@
 .home,
 .blog,
-.projects
+.presentations
     margin-top: 125px
 
     > .list
@@ -25,16 +25,22 @@
 
 .home > .list,
 .blog > .list,
-.projects > .list
+.presentations > .list
     > .item
         display: block
         width: 95%
         margin: 0 auto
+        padding: 20px 0
+
+    > .item > .description
+        display: block
+        margin: 0 auto
+        padding: 5px 0
 
     > .item > .url
         width: 100%
         display: block
-        padding: 20px 0
+        padding: 0 0
         text-decoration: none
 
     > .item > .url > .title
@@ -63,7 +69,7 @@
         color: $alpha
 
 .blog > .list > .item > .url,
-.projects > .list > .item > .url
+.presentations > .list > .item > .url
     > .title
         display: inline
 
