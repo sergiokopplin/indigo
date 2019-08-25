@@ -24,6 +24,8 @@ Old muscle stem cells (MuSCs) are bad at regeneration, partly because they donâ€
 Does aging change the set of cell states in activation, or the transition rates between them?
 In my final days as a graduate student, I explored this question with my excellent mentors [Wallace Marshall](cellgeometry.ucsf.edu) & [Andrew Brack.](bracklab.com)
 
+[Check out our manuscript on this topic over on bioRxiv.](https://www.biorxiv.org/content/10.1101/739185v1)
+
 If aging changes a cellular response like stem cell activation, it might happen through two mechanisms.
 Aging might change the set of cell states a cell transitions through (different paths), or it might change the rate of transitions (different speeds).
 In biology, reality is often a weighted mixture of two models, so both of these mechanisms may be at play.
