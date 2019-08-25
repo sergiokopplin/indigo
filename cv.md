@@ -40,7 +40,7 @@ Jacob C. Kimmel
 * Quantified rates of muscle stem cell activation with single cell resolution for the first time using [*Heteromotility*](http://jacobkimmel.github.io/heteromotility)
 * Developed [*Lanternfish*](http://jacobkimmel.github.io/lanternfish) deep learning package to enable discrimination of cell states from cell motility measurements and prediction of cell motility behaviors
 * Demonstrated classification of stem cell differentiation states and cancerous transformation detection using [*Lanternfish*](http://jacobkimmel.github.io/lanternfish)
-* Performed single-cell RNA-sequencing to identify heterogeneous muscle stem cell states during aging and myogenic activation
+* Discovered age-dampened state transitions in myogenesis with single cell RNA-seq & [*Heteromotility*](http://jacobkimmel.github.io/heteromotility)
 
 **IBM Research, Cell Engineering Group, San Jose, CA, 2017 Fall**  
 *Deep Learning Research Intern*  
@@ -79,16 +79,16 @@ Jacob C. Kimmel
 **Deep Learning:** Deep convolutional and recurrent neural networks, PyTorch, Tensorflow  
 **Image Analysis:** Image segmentation, classification, particle tracking  
 **NGS**: Single cell and bulk RNA-seq analysis, samtools, IGV  
-**Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, $\LaTeX$
+**Programming:** Python (scipy, scikit-learn, statsmodels), R, Matlab, git, bash, LaTeX  
 **Experimental Biology**: Quantitative microscopy, single cell RNA-seq, primary cell culture, FACS, molecular biology methods
 
-## Publications
+## Selected Publications
 
 1. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DH, Kelley DR, Rosenthal AZ. A murine aging cell atlas reveals cell identity and tissue-specific trajectories of aging. 2019. bioRxiv. doi: [https://doi.org/10.1101/657726](https://doi.org/10.1101/657726).
-2. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. *IEEE Transactions on Computational Biology and Bioinformatics.* doi: [https://doi.org/10.1109/TCBB.2019.2919307](https://doi.org/10.1109/TCBB.2019.2919307). [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
-3. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
-4. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
-5. **Kimmel JC**, Sugaya K. Nanog Overexpression Increases Neural Marker Expression in Adipose Derived Stem Cells. Recent Patents in Regenerative Medicine. 2014. 4(1):69-74.
+2. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells 2019. bioRxiv. [doi: https://doi.org/10.1101/739185](https://doi.org/10.1101/739185).
+3. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. In press, *IEEE Transactions on Computational Biology and Bioinformatics.*, doi: 10.1109/TCBB.2019.2919307. [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
+4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
+5. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
 
 ## Selected Presentations
 

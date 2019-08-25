@@ -56,6 +56,22 @@ A[:,i,:].shape # (5,5)
 A[:,i:i+1,:].shape # (5,1,5)
 ```
 
+## Add an empty dimension by indexing
+
+You can add an empty dimension of size `1` to an `np.ndarray` by passing `None` to one of the axes while indexing.
+
+```python
+A = np.random.random((3,3))
+
+B = A[:, :, None]
+print(B.shape) # (3, 3, 1)
+
+C = np.expand_dims(A, -1)
+print(C.shape) # (3, 3, 1)
+
+np.all(B == C) # True
+```
+
 # Pandas
 
 ## Split a column by a text delimiter
@@ -101,6 +117,19 @@ v = np.array([0,1])
 [Credit](https://stackoverflow.com/questions/24761133/pandas-check-if-row-exists-with-certain-values)
 
 # Matplotlib / Seaborn
+
+## Create editable, uncropped PDF exports
+
+```python
+import matplotlib
+# ensure text in PDF exports is editable.
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.rcParams['ps.fonttype'] = 42
+# prevent the PDF from being clipped to the "figsize".
+# NOTE: this is different than `plt.tight_layout()`
+# despite the similar name.
+matplotlib.rcParams['savefig.bbox'] = 'tight'
+```
 
 ## Rotate Seaborn axis labels
 
@@ -203,4 +232,30 @@ anim = animation.FuncAnimation(
 # if in a Jupyter notebook, the HTML module can display the animation inline
 from IPython.display import HTML
 HTML(anim.to_html5_video())
+```
+
+## Add a row/column color legend to seaborn clustermap
+
+[Credit](http://dawnmy.github.io/2016/10/24/Plot-heatmaap-with-side-color-indicating-the-class-of-variables/)
+
+```python
+# define some row clusters
+row_clusters = get_row_clusters(data) # np.ndarray, np.int
+
+# set up a LUT to assign colors to `row_clusters`
+pal = sns.color_palette('tab20')
+
+# make a clustermap
+clmap = sns.clustermap(
+  ...,
+  row_colors = pal[row_clusters]
+)
+
+for label in np.unique(clusters):
+    clmap.ax_col_dendrogram.bar(0,
+                                0,
+                                color=pal[label],
+                                label=label,
+                                linewidth=0)
+clmap.ax_col_dendrogram.legend(loc="center", ncol=5, frameon=False)
 ```
