@@ -1,5 +1,5 @@
 ---
-title: "State transition dynamics in aging muscle stem cells"
+title: "State transitions in aged stem cells"
 layout: post
 date: 2019-08-24
 tag:
@@ -115,7 +115,7 @@ We also infer a “future” pseudotime coordinate for each cell from the veloci
 We found many cells are moving backwards!
 This suggests activation is more like biased diffusion than a ball rolling downhill.
 
-![RNA velocity backwards motion.]({{site.url}}/assets/images/aging_musc_dynamics/backwards.png)
+![RNA velocity backwards motion.]({{site.url}}/assets/images/aging_musc_dynamics/backwards.jpg)
 
 Perhaps more poetically, this reminds me of the difference between macroscopic motion and microscopic motion.
 In macroscopic motion, like a ball rolling down a hill, inertia takes precedence and noise is negligible.
