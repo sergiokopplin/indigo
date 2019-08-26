@@ -8,9 +8,9 @@ title: Presentations
         {% if post.projects %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside>{{ post.eventName }}</aside>
                     <h3 class="title">{{ post.title }}</h3>
                 </a>
+                <span class="subtitle">{{ post.eventName }}</span>
                 <span class="description">{{ post.description }}</span>
             </div>
         {% endif %}
