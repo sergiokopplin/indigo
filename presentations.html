@@ -1,15 +1,17 @@
 ---
 layout: page
-title: Projects
+title: Presentations
 ---
 <section class="list">
+    <h1 align="center">{{ page.title }}</h1>
     {% for post in site.posts %}
         {% if post.projects %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
                     <h3 class="title">{{ post.title }}</h3>
                 </a>
+                <span class="subtitle">{{ post.eventName }}</span>
+                <span class="description">{{ post.description }}</span>
             </div>
         {% endif %}
     {% endfor %}
