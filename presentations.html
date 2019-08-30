@@ -4,15 +4,13 @@ title: Presentations
 ---
 <section class="list">
     <h1 align="center">{{ page.title }}</h1>
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-                <span class="subtitle">{{ post.eventName }}</span>
-                <span class="description">{{ post.description }}</span>
-            </div>
-        {% endif %}
+    {% for presentation in site.data.presentations %}
+        <div class="item {% if presentation.star %}star{% endif %}">
+            <a class="url" href="{{ presentation.externalLink }}">
+                <h3 class="title">{{ presentation.title }}</h3>
+            </a>
+            <span class="subtitle">{{ presentation.event }}</span>
+            <span class="description">{{ presentation.description }}</span>
+        </div>
     {% endfor %}
 </section>
