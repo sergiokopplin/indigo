@@ -12,8 +12,8 @@ Machine Learning Engineer @Mathpresso <br/><br/>
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>Python</li>
-	<li>MySQL</li>
+	<li>C++</li>
+	<li>SQL</li>
 	<li>Python</li>
 <b>Most Experienced with</b> - Tensorflow, Scikit-learn, Opencv, Numpy </br>
 <b>Familiar with</b> – Django, Flask 
