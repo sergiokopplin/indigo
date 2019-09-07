@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/cv/CV_Sean.pdf
 
 url: https://Joon-Park92.github.io
 # your url: http://USERNAME.github.io
@@ -48,7 +48,7 @@ github: Joon-Park92
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: JoonPark92
+medium: sunjun1225
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: sunjun1225@gmail.com
