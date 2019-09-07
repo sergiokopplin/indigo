@@ -15,7 +15,8 @@ Machine Learning Engineer @Mathpresso <br/><br/>
 	<li>C++</li>
 	<li>SQL</li>
 	<li>Python</li>
-<b>Most Experienced with</b> - Tensorflow, Scikit-learn, Opencv, Numpy </br>
+	<br/>
+<b>Most Experienced with</b> - Tensorflow, Scikit-learn, Opencv, Numpy <br/>
 <b>Familiar with</b> – Django, Flask 
 
 </ul>
