@@ -6,8 +6,7 @@ layout: page
 
 <p style="text-align: center;">
 Seonjoon Park <br/>
-Machine Learning Engineer </p>
-<a href="https://mathpresso.com/"@Mathpresso</a> 
+Machine Learning Engineer <a href="https://mathpresso.com/">@Mathpresso</a></p>
 <br/><br/>
 
 
