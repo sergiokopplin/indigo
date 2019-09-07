@@ -1,6 +1,6 @@
 # main text of home
 name: Joon Park
-bio: A developer who study AI / ML
+bio: A developer who studies AI / ML
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -34,7 +34,11 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
+github: Joon-Park92
 facebook: seonjoon.park.92
+medium: sunjun1225
+email: sunjun1225@gmail.com
+
 # twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
@@ -42,16 +46,13 @@ facebook: seonjoon.park.92
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: Joon-Park92
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: sunjun1225
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: sunjun1225@gmail.com
 
 authors:
     johndoe:
@@ -59,13 +60,6 @@ authors:
         bio: A Man who travels the world eating noodles
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
