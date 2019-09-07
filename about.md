@@ -5,9 +5,8 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <p style="text-align: center;">
-Seonjoon Park CV: <a href="assets/cv/CV_Sean.pdf">[PDF]</a> <br/><br/>
-Machine Learning Engineer <br/>
-Mathpresso <br/><br/>
+Seonjoon Park <br/>
+Machine Learning Engineer @Mathpresso <br/><br/>
 <br/></p>
 
 <h2>Skills</h2>
@@ -15,10 +14,10 @@ Mathpresso <br/><br/>
 <ul class="skill-list">
 	<li>Python</li>
 	<li>MySQL</li>
-	Python
+	<li>Python</li>
+<b>Most Experienced with</b> - Tensorflow, Scikit-learn, Opencv, Numpy </br>
+<b>Familiar with</b> – Django, Flask 
 
-<p> Most Experienced with - Tensorflow, Scikit-learn, Opencv, Numpy </p>
-<p> Familiar with – Django, Flask> </p>
 </ul>
 
 <h2>Projects</h2>
