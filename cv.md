@@ -25,7 +25,7 @@ Jacob C. Kimmel
 **Calico Life Sciences, South San Francisco, CA, 2018 - Present**  
 *Data Scientist, Computing*  
 
-* Lead an investigation of cell type and tissue environment influences on aging using single cell genomics across three murine tissues
+* Lead an [investigation of cell type and tissue environment influences on aging](http://jkimmel.net/murine_cell_aging) using single cell genomics across three murine tissues
 * Developed timelapse image analysis methods for oncology applications, enabling multi-cell tracking and analysis over many days
 * Automated quantification of yeast cell aging using convolutional neural networks
 * Built an automated targeting system for laser ablation microscopy with sub-millisecond timing
@@ -36,11 +36,11 @@ Jacob C. Kimmel
 *Principal Investigators:* Wallace Marshall, Andrew Brack  
 *Thesis:* Inferring stem cell state from cell behavior
 
-* Developed [*Heteromotility*](http://jacobkimmel.github.io/heteromotility) biological motion analysis package, including feature extraction, unsupervised clustering, and time-series analysis tools to quantify dynamic state transitions in cellular systems
-* Quantified rates of muscle stem cell activation with single cell resolution for the first time using [*Heteromotility*](http://jacobkimmel.github.io/heteromotility)
-* Developed [*Lanternfish*](http://jacobkimmel.github.io/lanternfish) deep learning package to enable discrimination of cell states from cell motility measurements and prediction of cell motility behaviors
-* Demonstrated classification of stem cell differentiation states and cancerous transformation detection using [*Lanternfish*](http://jacobkimmel.github.io/lanternfish)
-* Discovered age-dampened state transitions in myogenesis with single cell RNA-seq & [*Heteromotility*](http://jacobkimmel.github.io/heteromotility)
+* Developed [*Heteromotility*](http://jkimmel.net/heteromotility) biological motion analysis package, including feature extraction, unsupervised clustering, and time-series analysis tools to quantify dynamic state transitions in cellular systems
+* Quantified rates of muscle stem cell activation with single cell resolution for the first time using [*Heteromotility*](http://jkimmel.net/heteromotility)
+* Developed [*Lanternfish*](http://jkimmel.net/lanternfish) deep learning package to enable discrimination of cell states from cell motility measurements and prediction of cell motility behaviors
+* Demonstrated classification of stem cell differentiation states and cancerous transformation detection using [*Lanternfish*](http://jkimmel.net/lanternfish)
+* Discovered [age-dampened state transitions in myogenesis](http://jkimmel.net/aging_musc_dynamics/) with single cell RNA-seq & [*Heteromotility*](http://jkimmel.net/heteromotility)
 
 **IBM Research, Cell Engineering Group, San Jose, CA, 2017 Fall**  
 *Deep Learning Research Intern*  
