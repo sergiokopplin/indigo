@@ -60,12 +60,6 @@ authors:
         bio: PhD Student of Political Science at the University of Zurich
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/cadiz.jpg
         twitter: bertous
 
 # do you want a larger site? change the option below
