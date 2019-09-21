@@ -2,6 +2,7 @@
 title: "Predi Latam: predicting Latin American elections"
 layout: post
 tag: prediction markets, elections, latam
+external-image: false
 image: assets/images/latam.jpg
 headerImage: true
 projects: true
@@ -11,7 +12,10 @@ category: project
 author: aloport
 externalLink: false
 ---
+wedwe
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
+ewdw
+
+
 
 hola
