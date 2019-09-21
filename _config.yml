@@ -1,9 +1,10 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Alberto López Ortega
+bio: PhD Student of Political Science,
+    University of Zurich
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: I play with numbers and then say things about politics.
 
 # if it's an external image, update below for true
 # better with square images
@@ -13,10 +14,10 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/images/cv_aloport_210919.pdf
 
-url: https://koppl.in/indigo
+url: https://aloport.github.io/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -30,33 +31,33 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname:  # enter this from your disqus account
+  categories:  # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+twitter: bertous
 # google: mygoogle
-# instagram: myinstagram
+instagram: bertous
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: aloport
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+medium: bertous
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: alberto.lopezortega@uzh.ch
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    aloport:
+        name: Alberto López Ortega
+        bio: PhD Student of Political Science at the University of Zurich
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
@@ -64,8 +65,8 @@ authors:
         name: James Foster
         bio: A Man who develops software with coffee
         external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        picture: assets/images/cadiz.jpg
+        twitter: bertous
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -108,10 +109,10 @@ defaults:
       path: "" # an empty string here means all files in the project
       layout: "post"
     values:
-      # setting all post to not hidden by default, 
+      # setting all post to not hidden by default,
       # can be overridden in the front matter for a specific post
-      hidden: false 
-      
+      hidden: false
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
