@@ -11,11 +11,3 @@ layout: page
 <p>After the MA studies, I received a scholarship to assist to the summer school in the Centre for Experimental Social Sciences Nuffield (University of Oxford) where I learnt the latest techniques used in experimental social sciences.</p>
 
 <p>Since October 2017, I am a PhD candidate at IPZ, where I collaborate in the research project "The Effect of Campaign Events on Direct Democratic Choices; Evidence from Prediction Markets”. </p>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
