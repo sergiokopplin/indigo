@@ -4,38 +4,13 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Born in 1992 in Southern Spain, I obtained my double major-degree in Law and Political Science from the University of Pablo de Olavide of Seville in 2016, with a Bachelor thesis about local e-governance using quantitative methods.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Then I followed a Master in Political and Electoral Analysis at Carlos III University-Juan March Institute of Madrid which I completed in 2017 where I specialized in experimental research on electoral studies and behavioral politics. My dissertation was titled: The personalization of politics in parliamentary democracies: a conjoint experiment in Spain. During the time of my master studies, I was a Research Assistant at the Department of Political Science, Duke University collaborating in the Project “Women in Combat” (Principal Investigator: Prof. Laia Balcells).</p>
 
-<h2>Skills</h2>
+<p>After the MA studies, I received a scholarship to assist to the summer school in the Centre for Experimental Social Sciences Nuffield (University of Oxford) where I learnt the latest techniques used in experimental social sciences.</p>
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+<p>Since October 2017, I am a PhD candidate at IPZ, where I collaborate in the research project "The Effect of Campaign Events on Direct Democratic Choices; Evidence from Prediction Markets”. </p>
 
 <h2>Projects</h2>
 
