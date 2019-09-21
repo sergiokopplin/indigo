@@ -10,7 +10,7 @@ layout: page
 
 [Predi Spain](aloport.github.io/predi)
 
-
+[{{ Predi Spain }}]({{aloport.github.io/predi}})
 
 [Predi Latam](aloport.github.io/predi_latam)
 
