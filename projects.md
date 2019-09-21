@@ -8,11 +8,11 @@ layout: page
 
 ### Effect of campaign events and prediction markets
 
-# [Predi Spain][aloport.github.io/predi]
+# [Predi Spain](aloport.github.io/predi)
 
 
 
-# [Predi Latam][aloport.github.io/predi_latam]
+# [Predi Latam](aloport.github.io/predi_latam)
 
 
 ### Personality of political candidates
