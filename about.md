@@ -10,11 +10,11 @@ Then I followed a Master in Political and Electoral Analysis at [Carlos III Univ
 
 After the MA studies, I received a scholarship to assist to the summer school in the [Centre for Experimental Social Sciences Nuffield (University of Oxford)](https://cess-nuffield.nuff.ox.ac.uk) where I learnt the latest techniques used in experimental social sciences.
 
-Since October 2017, I am a PhD candidate at the [Political Science Department of the University of Zurich](ipz.uzh.ch/en), where I collaborate in the research project "The Effect of Campaign Events on Direct Democratic Choices; Evidence from Prediction Markets”. 
+Since October 2017, I am a PhD candidate at the Political Science Department of the [University of Zurich](https://ipz.uzh.ch/en), where I collaborate in the research project "The Effect of Campaign Events on Direct Democratic Choices; Evidence from Prediction Markets”.
 
 You can reach me on [Twitter](https://twitter.com/bertous) or by email using the contact form below.
 
-<form method="POST" action="https://formspree.io/ellen@ellenbroad.com">
+<form method="POST" action="https://formspree.io/alberto.lopezortega@uzh.ch">
   <input type="email" name="_replyto" placeholder="Your email">
   <textarea name="message" placeholder="Your message"></textarea>
   <input type="submit">
