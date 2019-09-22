@@ -15,7 +15,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/images/cv_aloport_210919.pdf{:target="_blank"}
+resume-url: assets/images/cv_aloport_210919.pdf
 
 url: https://aloport.github.io/
 # your url: http://USERNAME.github.io
