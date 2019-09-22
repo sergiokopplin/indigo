@@ -30,9 +30,7 @@ permalink: /:title/
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname:  # enter this from your disqus account
-  categories:  # only show disqus for posts that have these categories
+disqus: false
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
@@ -75,6 +73,7 @@ width: normal
 projects: true
 
 # if you don't need "about" or "blog", comment them out below
+predi: true
 about: true
 #blog: true
 
