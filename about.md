@@ -3,17 +3,6 @@ title: About
 layout: page
 ---
 
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="https://aloport.github.io//assets/images/profile.jpg" alt="Alt Text">
-    </div>
-
-    <div class="toright">
-        <p>I am a PhD candidate at the Political Science Department of the [University of Zurich](https://ipz.uzh.ch/en), working in the SNF research project "The Effect of Campaign Events on Electoral Outcomes; Evidence from Prediction Markets”.
-</p>
-    </div>
-</div>
-
 I am a PhD candidate at the Political Science Department of the [University of Zurich](https://ipz.uzh.ch/en), working in the SNF research project "The Effect of Campaign Events on Electoral Outcomes; Evidence from Prediction Markets”.
 
 My main area of research pertains to understanding the effect of campaign communications and candidates traits on citizens' political behavior. To find answers to the question how people's voting behavior is determined, I am currently involved in these **[research projects](https://aloport.github.io/projects).**
@@ -22,7 +11,7 @@ Previously, I followed a Master in Political and Electoral Analysis at [Carlos I
 
 Before that, I obtained my double major-degree in Law and Political Science from the [University of Pablo de Olavide of Seville](https://www.upo.es/portal/impe/web/portada?lang=en) in 2016, with a Bachelor thesis about local e-governance using quantitative methods.
 
-
+-------
 
 You can reach me on [Twitter](https://twitter.com/bertous) or by email using the contact form below.
 
