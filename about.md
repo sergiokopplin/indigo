@@ -6,13 +6,10 @@ layout: page
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="https://aloport.github.io//assets/images/profile.jpg" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
     <div class="toright">
         <p>I am a PhD candidate at the Political Science Department of the [University of Zurich](https://ipz.uzh.ch/en), working in the SNF research project "The Effect of Campaign Events on Electoral Outcomes; Evidence from Prediction Markets”.
-
-        My main area of research pertains to understanding the effect of campaign communications and candidates traits on citizens' political behavior. To find answers to the question how people's voting behavior is determined, I am currently involved in these **[research projects](https://aloport.github.io/projects).**
 </p>
     </div>
 </div>
