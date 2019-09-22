@@ -16,7 +16,7 @@ Campaign events and prediction markets
 
 [Prof. D. Oliver Strijbis](https://www.ipz.uzh.ch/de/institut/mitarbeitende/staff/strijbis.html) and I study the effect of expectations and campaign events on the election results. For that purpose we program electoral prediction markets that serve as a tool to predict elections similarly to polls.
 
- Our most recent paper, for example, studies the drag or bandwagoning effect (psychological phenomenon by which citizens support those who simply have the appearance of winning) and the so-called 'strategic coalition vote' (which involves voting for the party that ensures the post coalition -electronic preferred) in the last Catalan elections.
+ Our most recent paper, for example, studies the bandwagoning effect (psychological phenomenon by which citizens support those who simply have the appearance of winning) and the so-called 'strategic coalition voting' (which involves voting for the party that ensures the preferred post-electoral coalition) in the last Catalan elections.
 
 If you want to participate or to know more about our prediction markets, access to the projects' websites: [Predi Spain](https://aloport.github.io/predi), [Predi Latam](https://aloport.github.io/predi_latam).
 
