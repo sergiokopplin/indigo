@@ -2,61 +2,35 @@
 title: Projects
 layout: page
 ---
-### Online Political Microtargeting
 
 
+My research agenda consists of the following projects:
 
-### Effect of campaign events and prediction markets
-
-[Predi Spain](aloport.github.io/predi)
-
-[{{ Predi Spain }}]({{aloport.github.io/predi}})
-
-[Predi Latam](aloport.github.io/predi_latam)
+Online Political Microtargeting (OPM)
+---------
+ My work-in-progress PhD thesis tries to disentangle the conditions in which online political microtargeting is effective for mobilizing and persuading citizens. To that end I analyze Facebook Ads as well as conduct experiments where I investigate the role of accuracy, awareness and congruence in the success of OPM.
 
 
-### Personality of political candidates
-
-
-
-### LGTBQI voting behavio
-
-I'm an independent consultant in data standards, infrastructure, policy and governance. Increasingly, as data becomes a driving force in debates about artificial intelligence, privacy and surveillance I've been drawn into work in these areas too. You can find out more about my professional background at
-[LinkedIn.]
-
-I'm efficient, effective and creative in how I approach my work. I'm
-passionate about helping people and organisations use data more
-effectively. If you have a project or an idea you'd like some help
-with, email me using the contact form on the [About
-page](http://ellenbroad.com/about/).
-
-Expertise
+Effect of campaign events and prediction markets
 ---------
 
--   Open standards
--   Personal data management
--   Data within artificial intelligence
--   Data ethics
--   Data policy - data protection, sharing and reuse
--   Open data
--   Law and licensing
+[Prof. D. Oliver Strijbis](https://www.ipz.uzh.ch/de/institut/mitarbeitende/staff/strijbis.html) and I study the effect of expectations and campaign events on the election results. For that purpose we program electoral prediction markets that serve as a tool to predict elections similarly to polls.
 
-My work involves
-----------------
+ Our most recent paper, for example, studies the drag or bandwagoning effect (psychological phenomenon by which citizens support those who simply have the appearance of winning) and the so-called 'strategic coalition vote' (which involves voting for the party that ensures the post coalition -electronic preferred) in the last Catalan elections.
 
--   Developing organisational data policies and strategies
--   Delivering open standards projects, specifically API
-    standards for consumer data sharing in the banking sector
--   Providing expert advice on topical data policy issues, increasingly AI and data ethics
--   Delivering data training and interactive workshops
--   Identifying data-related risks and ways of addressing them
--   Coming up with creative ways to engage people about data
+If you want to participate or to know more about our prediction markets, access to the projects' websites:
 
-So far since moving back to Australia I've worked with clients
-including CSIRO's data research arm Data61, Curtin University,
-Queensland Government, several local councils and the Government of
-Ukraine. I've also delivered data training around Australia and in New
-Zealand for the Open Data Institute Australian Network.
+[Predi Spain](https://aloport.github.io/predi)
 
-  [Open Data Institute]: https://theodi.org/
-  [LinkedIn.]: https://www.linkedin.com/in/ellen-broad-316b6732
+[Predi Latam](https://aloport.github.io/predi_latam)
+
+
+Personality of political candidates
+---------
+
+Johannes Besch and I are interested in the role of the personality of parties/candidates and voters in elections. More concretely, we experiment to test under what conditions voters are tolerant towards party conflict and personality congruence between voters and political candidates.
+
+LGTBQI voting behavior
+---------
+
+*Soon...*
