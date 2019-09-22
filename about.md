@@ -2,6 +2,7 @@
 title: About
 layout: page
 ---
+![Profile Image]({{ site.url }}/{{ site.picture }})
 
 I am a PhD candidate at the Political Science Department of the [University of Zurich](https://ipz.uzh.ch/en), working in the SNF research project "The Effect of Campaign Events on Electoral Outcomes; Evidence from Prediction Markets”.
 
