@@ -51,7 +51,7 @@ github: https://github.com/alsrbdmsco/
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: pink0104040@gmail.com
+email: asdf@gmail.com
 
 authors:
     johndoe:
@@ -109,7 +109,7 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://github.com/alsrbdmsco/alsrbdmsco.github.io
+    base_url: ""
 
 compress_html:
     ignore:
