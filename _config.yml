@@ -109,7 +109,7 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: ""
+    base_url: https://alsrbdmsco/alsrbdmsco.github.io
 
 compress_html:
     ignore:
