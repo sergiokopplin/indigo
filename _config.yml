@@ -13,10 +13,10 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: http://alisanaeikia.github.io
+url: https://alisanaeikia.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
