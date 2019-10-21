@@ -270,6 +270,30 @@ for label in np.unique(clusters):
 clmap.ax_col_dendrogram.legend(loc="center", ncol=5, frameon=False)
 ```
 
+## Add a second set of xticklabels to a seaborn heatmap
+
+```python
+fig, ax = plt.subplots(1, 1, ...)
+
+sns.heatmap(
+  ...,
+  ax=ax
+)
+
+# clone the x-axis
+ax2 = ax.twiny()
+ax2.set_xlim(ax.get_xlim())
+ax2.set_xticks(ax.get_xticks())
+ax2.set_xticklabels(SOME_NAMES_HERE)
+
+# clean up the plotting aesthetics introduced by the second axis
+plt.grid(b=None)
+
+for x in ['top', 'bottom', 'right', 'left']:
+    ax.spines[x].set_visible(False)
+    ax2.spines[x].set_visible(False)
+```
+
 # LaTeX
 
 I love LaTeX.
@@ -316,4 +340,27 @@ tex some_name.dbj # outputs some_name.bst
 \makeatletter
 \renewcommand\@biblabel[1]{\textbullet}
 \makeatother
+```
+
+## Customize figure captions
+
+```latex
+\usepackage{caption}
+% remove separator between "Figure XYZ" and caption.
+% print the figure number, but no caption
+% useful for separating figures and captions in journal proofs
+% e.g. "Figure 1", the caption text is suppressed
+\captionsetup{labelsep=none,textformat=empty}
+% use normal caption text, colon figure separator
+% e.g. "Figure 1: Caption text here"
+\captionsetup{labelsep=colon,textformat=plain}
+```
+
+## Suppress graphics
+
+Journals often want captions and figures separated in a final proof.
+We can insert captions without graphics by redefining the `includegraphics` command.
+
+```latex
+\renewcommand{\includegraphics}[2][]{}
 ```
