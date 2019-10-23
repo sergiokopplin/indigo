@@ -1,5 +1,8 @@
 <footer class="footer-main">
-    {{ site.name }} © {{ site.time | date: '%Y' }} 
+    <span class="copyright">
+        {{ site.name }} © {{ site.time | date: '%Y' }}
+    </span>
+    
     <a class="link" href="{{ site.url }}/feed.xml" target="_blank">
         {% fa_svg fas.fa-rss %}
     </a>
