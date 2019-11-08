@@ -5,12 +5,29 @@ title: Presentations
 <section class="list">
     <h1 align="center">{{ page.title }}</h1>
     {% for presentation in site.data.presentations %}
-        <div class="item {% if presentation.star %}star{% endif %}">
-            <a class="url" href="{{ presentation.externalLink }}">
-                <h3 class="title">{{ presentation.title }}</h3>
-            </a>
-            <span class="subtitle">{{ presentation.event }}</span>
-            <span class="description">{{ presentation.description }}</span>
+    <div class="item {% if presentation.star %}star{% endif %}">
+        <h3 class="title">{{ presentation.title }}</h3>
+        <span class="subtitle">{{ presentation.event }}</span>
+        <span class="description">{{ presentation.description }}</span>
+        {% if presentation.showResources %}
+        <div class="resources">
+            {% if presentation.video %}
+            <span class="resource">
+                <a class="url" href="{{ presentation.video }}">Video</a>
+            </span>
+            {% endif %}
+            {% if presentation.slides %}
+            <span class=resource>
+                <a class="url" href="{{ presentation.slides }}">Slides</a>
+            </span>
+            {% endif %}
+            {% if presentation.blog %}
+            <span class=resource>
+                <a class="url" href="{{ presentation.blog }}">Blog</a>
+            </span>
+            {% endif %}
         </div>
+        {% endif %}
+    </div>
     {% endfor %}
 </section>

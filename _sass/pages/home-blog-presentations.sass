@@ -44,20 +44,30 @@
         margin: 0 auto
         padding: 5px 0
 
+    > .item > .resources
+        list-style: none
+        margin: 0 auto
+        display: inline
+
+    > .item > .resources > .resource
+        margin: 0px 10px 0px 0px
+
+    > .item > .resources > .resource > .url
+        text-decoration: underline
+        color: black
+
     > .item > .url
         width: 100%
         display: block
         padding: 0 0
         text-decoration: none
 
-    > .item > .url > .title
+    > .item > .title
+        display: inline
         margin: 0
         width: 75%
         font-weight: 500
         transition: all ease-in-out .2s
-
-    > .item:hover > .url > .title
-        color: $delta
 
     // maybe we can't nest html5 elements
     // can you help me?
