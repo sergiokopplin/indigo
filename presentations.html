@@ -10,29 +10,23 @@ title: Presentations
         <span class="subtitle">{{ presentation.event }}</span>
         <span class="description">{{ presentation.description }}</span>
         {% if presentation.showResources %}
-        <ul class="resources">
+        <div class="resources">
             {% if presentation.video %}
-            <li class="resource">
-                <a class="url" href="{{ presentation.video }}">
-                    Video
-                </a>
-            </li>
+            <span class="resource">
+                <a class="url" href="{{ presentation.video }}">Video</a>
+            </span>
             {% endif %}
             {% if presentation.slides %}
-            <li class=resource>
-                <a class="url" href="{{ presentation.slides }}">
-                    Slides
-                </a>
-            </li>
+            <span class=resource>
+                <a class="url" href="{{ presentation.slides }}">Slides</a>
+            </span>
             {% endif %}
             {% if presentation.blog %}
-            <li class=resource>
-                <a class="url" href="{{ presentation.blog }}">
-                    Blog
-                </a>
-            </li>
+            <span class=resource>
+                <a class="url" href="{{ presentation.blog }}">Blog</a>
+            </span>
             {% endif %}
-        </ul>
+        </div>
         {% endif %}
     </div>
     {% endfor %}
