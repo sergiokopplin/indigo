@@ -2,52 +2,68 @@
   date: 2019-10-25
   event: Droidcon London 2019
   description: The third iteration of this talk, and the best one yet. I spoke about the benefits of the robot pattern for more maintainable UI and unit tests.
-  externalLink: https://skillsmatter.com/skillscasts/14144-espresso-patronum-the-magic-of-the-robot-pattern
+  showResources: true
+  video: https://skillsmatter.com/skillscasts/14144-espresso-patronum-the-magic-of-the-robot-pattern
+  slides: https://speakerdeck.com/adammc331/droidcon-london-espresso-patronum
+  blog: https://dev.to/adammc331/leveraging-the-robot-pattern-for-espresso-tests
 
 - title: Improving Code Quality With Static Analysis
   date: 2019-10-21
   event: NY Android Meetup, October 2019
   description: I presented about the static analysis tools ktlint and detekt that I implemented at OkCupid, and how it helped us avoid bikeshedding and code smells.
-  externalLink: https://www.youtube.com/watch?v=gFD_9zvGhJ0&feature=youtu.be
+  showResources: true
+  video: https://www.youtube.com/watch?v=gFD_9zvGhJ0&feature=youtu.be
+  slides: https://github.com/AdamMc331/PokeDex/blob/master/nyandroid_staticanalysis_pres/static_analysis.pdf
 
 - title: //TODO&#58; Write A Better Comment
   date: 2019-08-27
   event: Droidcon NYC 2019
   description: This talk is all about code comments - understanding when we can avoid them and how to optimize the helpfulness of the comments we keep.
-  externalLink: https://github.com/AdamMc331/TODO-DCNYC19
+  showResources: true
+  video: https://droidcon.com/media-detail?video=362742364
+  slides: https://speakerdeck.com/adammc331/todo-write-a-better-comment
+  blog: https://dev.to/adammc331/todo-write-a-better-comment-4c8c
 
 - title: MVWTF&#58; Demystifying Architecture Patterns
   date: 2019-08-14
   event: Android Summit 2019
   description: Breaking down the differences of the various MV* patterns and understanding how each pattern leads to the next.
-  externalLink: https://github.com/AdamMc331/MVWTF
+  showResources: true
+  video: https://youtu.be/T7A-JbJBjyg
+  slides: https://speakerdeck.com/adammc331/mvwtf-demystifying-architecture-patterns
+  blog: https://dev.to/adammc331/mvwtf-demystifying-architecture-patterns-ap1
 
 - title: Community Driven, Community Built&#58; The Droidcon Boston App Story
   date: 2019-04-09
   event: Droidcon Boston 2019
   description: I spoke with Chris Corrado about our experience volunteering on the Droidcon Boston conference app. We share tips and tricks for working with distributed teams of volunteers.
-  externalLink: https://github.com/Droidcon-Boston/slides/blob/master/2019/Community%20Driven%20Community%20Built.pdf
+  showResources: true
+  slides: https://github.com/Droidcon-Boston/slides/blob/master/2019/Community%20Driven%20Community%20Built.pdf
 
 - title: Why Native App Development Isn't Dead Yet
   date: 2018-08-29
   event: Creative Coding Meetup, August 2018
   description: Discussing some popular cross platform tools and why they aren't enough to kill native app development.
-  externalLink: https://speakerdeck.com/adammc331/creative-coding-11-why-native-app-development-isnt-dead-yet
+  showResources: true
+  slides: https://speakerdeck.com/adammc331/creative-coding-11-why-native-app-development-isnt-dead-yet
 
 - title: Hidden Gems In Kotlin Standard Library
   date: 2018-07-31
   event: Brooklyn Kotlin Meetup, July 2018
   description: Exploring some cool functions and language features from Kotlin's standard library.
-  externalLink: https://tech.okcupid.com/hidden-gems-in-kotlin-stdlib/
+  showResources: true 
+  blog: https://tech.okcupid.com/hidden-gems-in-kotlin-stdlib/
 
 - title: Espresso Patronum&#58; The Magic Of The Robot Pattern
   date: 2018-04-12
   event: Chicago Roboto 2018
   description: The robot pattern is a way to help you write more readable and maintainable tests. This talk highlights the benefits of this pattern with respect to UI testing, so you don't have to abandon your Espresso tests every time you change a screen.
-  externalLink: https://vimeo.com/266512108
+  showResources: true
+  video: https://vimeo.com/266512108
 
 - title: Leveraging The Robot Pattern For Espresso Tests
   date: 2018-04-03
   event: NY Android Meetup, April 2018
   description: A shorter version of my Espresso Patronum presentation given at the NYC Android Meetup at Plated.
-  externalLink: https://github.com/AdamMc331/EspressoPatronum/blob/master/presentation/NYAndroidMeetup.pdf
+  showResources: true
+  slides: https://github.com/AdamMc331/EspressoPatronum/blob/master/presentation/NYAndroidMeetup.pdf
