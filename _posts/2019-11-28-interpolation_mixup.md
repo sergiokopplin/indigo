@@ -47,7 +47,7 @@ How might we actually go about using the covariance information in $\Sigma$ to s
 A recent paper from [Zhang et. al.](https://arxiv.org/abs/1710.09412) describes an elegantly simple method named **mixup**.
 To generate a guess at a new data point $\hat{\mathbf{x_i}}$, $\hat{y_i}$, we simply blend two of our existing data points together with a weighted average.
 
-$$\text{mix}(\mathbf{x}, \mathbf{x}', \gamma) = \gamma \mathbf{x} + (1 - \gamma) \mathbf{x}'$$
+$$\text{Mix}(\mathbf{x}, \mathbf{x}', \gamma) = \gamma \mathbf{x} + (1 - \gamma) \mathbf{x}'$$
 
 where $\gamma \rightarrow [0, 1]$.
 
@@ -55,18 +55,18 @@ We can then take some educated guesses $\hat{\mathbf{x_i}}$, $\hat{y_i}$ at what
 
 Stated formally, the **mixup** training procedure is pretty simple. Assuming we have a model $f_\theta (\mathbf{x})$ with parameters $\theta$:
 
-**(1) Draw a mixup parameter $\gamma$ from a $\beta$ distribution to determine the degree of mixing**
+**1 - Draw a mixup parameter $\gamma$ from a $\beta$ distribution to determine the degree of mixing**
 
 We parameterize the $\beta$ with a shape parameter $\alpha$ -- small $\alpha$ enforces less mixing, large $\alpha$ enforces more.
 
 $$\gamma \sim \text{Beta}(\alpha, \alpha)$$
 
-**(2) Mixup two samples $x_i$ and $x_j$, along with their labels $y_i$ and $y_j$**
+**2 - Mixup two samples $x_i$ and $x_j$, along with their labels $y_i$ and $y_j$**
 
-$$x_k = Mix(x_i, x_j, \gamma)$$
-$$y_k = Mix(y_i, y_j, \gamma)$$
+$$x_k = \text{Mix}(x_i, x_j, \gamma)$$
+$$y_k = \text{Mix}(y_i, y_j, \gamma)$$
 
-**(3) Compute a supervised training loss**
+**3 - Compute a supervised training loss**
 
 Perform a supervised training iteration by computing the loss $l$ between the mixed label $y_k$ and the prediction made on the mixed sample $f_\theta(x_k)$. For classification, we can assume $l(y, y')$ is a cross-entropy loss to be concrete.
 
@@ -86,36 +86,37 @@ Few ideas can provide quite so much bang for your buck!
 # How can we use data without labels?
 
 [Verma et. al.](https://arxiv.org/abs/1903.03825) explore an interesting extension of **mixup** applied to unlabeled data.
-There are many domains where acquiring unlabeled data is cheap (for some notion of expense), but acquiring labeled data is hard.
+There are many domains where acquiring unlabeled data is cheap, but acquiring labeled data is hard.
 Biology is a great poster child for this regime.
-Some experiments are cheap to run, but hard to annotate (e.g. fluorescence microscopy images).
-Even expensive experiments (e.g. next-gen sequencing) can benefit from public data that lack the appropriate annotations.
+Some experiments are cheap to run, but hard to annotate [e.g. fluorescence microscopy images].
+Even expensive experiments [e.g. next-gen sequencing] can benefit from public data that lack the appropriate annotations.
 
 Without labels though, how can we leverage this data using standard classification models?
 The key insight of [Verma et. al.](https://arxiv.org/abs/1903.03825) is that we can treat classifier predictions as "fake labels" for the purpose of training.
 Given these fake labels, we can use **mixup** on our unlabeled data the same way we use it on labeled data.
-Even though the fake labels (remember, just classifier predictions) are initially very wrong, enforcing linear interpolation of classifier predictions between unlabeled points helps our model generalize to the covariance structure of the unlabeled data.
+Even though the fake labels are initially very wrong, enforcing linear interpolation of classifier predictions between unlabeled points helps our model generalize to the covariance structure of the unlabeled data.
 
 Stated formally, we're given some labeled data $\mathbf{X}$ with labels $\mathbf{y}$ as before, but we're also given another matrix of unlabeled data $\mathbf{U}$.
 
-**(1) Compute supervised loss**
+**1 - Compute supervised loss**
 
 We first classify the labeled samples and compute a supervised loss $L_s$ (e.g. cross-entropy) as usual.
 
-**(2) Counterfeit some labels**
+**2 - Counterfeit some labels**
 
 We also compute a new, *unsupervised* loss $L_U$. We pass some unlabeled samples through the model to get some fake labels $z$.
 
 $$z_i, z_j = f_\theta(u_i), f_\theta(u_j)$$
 
-**(3) Mixup our unlabeled data and associated imposter annotations**
+**3 - Mixup our unlabeled data and associated imposter annotations**
 
 After generating fake labels, we perform **mixup** the same way we do for supervised labels.
 
-$$u_k = Mix(u_i, u_j)$$
-$$z_k = Mix(z_i, z_j)$$
+$$\gamma \sim \text{Beta}(\alpha, \alpha)$$
+$$u_k = \text{Mix}(u_i, u_j, \gamma)$$
+$$z_k = \text{Mix}(z_i, z_j, \gamma)$$
 
-**(4) Compute the unsupervised loss**
+**4 - Compute the unsupervised loss**
 
 We compute the unsupervised loss as the difference of the mixed fake label from the prediction made on the mixed unlabeled sample.
 
@@ -123,7 +124,7 @@ $$L_U = l(f_\theta(u_k), z_k)$$
 
 where $l$ is the cross-entropy loss $l(y, y') = -\sum_i^K y' \log(y)$$.
 
-**(5) Compute the combined training loss**
+**5 - Compute the combined training loss**
 
 We compute the overall training loss as a weighted sum of the supervised loss $L_S$ and the unsupervised loss $L_U$ with a weighting function $w(t)$ where $t$ is an iteration or epoch number. The exact form of $w(t)$ is flexible, but it often increases monotonically, starting from a $0$ value and rising to some values $>= 1$.
 
