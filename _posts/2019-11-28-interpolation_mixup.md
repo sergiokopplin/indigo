@@ -81,7 +81,7 @@ Perform a supervised training iteration by computing the loss $l$ between the mi
 This procedure can be seen as a clever form of **data augmentation** -- a family of techniques to get more mileage out of a data set that usually involves adding noise to observations.
 By training on our observed data, plus data that has undergone this **mixup** operation, we can build a classifier that provides smooth, linear interpolations between observed data points.
 
-If we receive a new adversarial image that is exactly half-dog and half-cat ([perhaps a cat in a dog costume](https://i.pinimg.com/originals/72/48/a1/7248a1d4a343b9e78930bf250a2db212.jpg)), unlike anything we've ever seen before, we'd hope our classifier would output a score of 50% dog, 50% cat, rather than something totally crazy.
+If we receive a new adversarial image that is exactly half-dog and half-cat ([perhaps a dog in a cat costume](https://i.pinimg.com/originals/72/48/a1/7248a1d4a343b9e78930bf250a2db212.jpg)), unlike anything we've ever seen before, we'd hope our classifier would output a score of 50% dog, 50% cat, rather than something totally crazy.
 A classifier trained on mixup altered data can handle this scenario, and give the intuitive output.
 
 ![An image of a fluffy white dog in black cat costume, providing much joy.](https://i.pinimg.com/originals/72/48/a1/7248a1d4a343b9e78930bf250a2db212.jpg)
