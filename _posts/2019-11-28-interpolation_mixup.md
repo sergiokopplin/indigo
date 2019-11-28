@@ -35,12 +35,18 @@ A whole field of research in **adversarial examples** has cropped up to generate
 
 If we're given some set of data $\mathbf{X}$ and labels $\mathbf{y}$, classic supervised learning uses that data to reduce error, and that data alone.
 However, there's some extra information in these data and labels that we might leverage.
-Not only do we know the data points $\mathbf{X}$ and their labels $\mathbf{y}$, but we know the *covariance structure* $\Sigma$ of the features in observation $x_{ij} \in \mathbf{x}_i$ in the data $\mathbf{X}$.
-$\Sigma$ contains information about how features of our data change in concert with one another.
-For instance, $\Sigma$ might capture that the shapes of ears and noses tend to vary together in our images of dogs and cats -- few dogs have cat noses, and few cats have dog ears, so those features vary together.
+Not only do we know the data points $\mathbf{X}$ and their labels $\mathbf{y}$, but we know the *covariance structure* [often called $\Sigma$ in the linear case] of the features in observation $x_{ij} \in \mathbf{x}_i$ in the data $\mathbf{X}$.
+The covariance structure contains information about how features of our data change in concert with one another.
+For instance, the covariance structure might capture that the shapes of ears and noses tend to vary together in our images of dogs and cats -- few dogs have cat noses, and few cats have dog ears, so those features vary together.
 
-This covariance structure provides information that we can use to make an educated guess at a new data point $\hat{\mathbf{x_i}}$, $\hat{y_i}$ that might appear in the data.
+A classifier can learn the covariance structure of our data implicitly, but a classifier can perform very well even if it only respects the covariance structure in local neighborhoods around the observed data points.
+If a new data point falls in between two observed data points, there are no guarantees that the classifier output will reflect this.
+One approach we might take to improve a supervised classifier is to enforce the covariance structure *between* data points, in addition to enforcing it at the data points themselves.
+
+We could enforce the covariance structure between data points by training our classifier on "simulated" data between observations, as well as those observations themselves.
+We can take educated guess at a new data point $\hat{\mathbf{x_i}}$, $\hat{y_i}$ that might appear in the data by using the covariance structure to interpolate between observations.
 If we were to guess at a new dog/cat image we might observe, given only our data $\mathbf{X}$, $\mathbf{y}$, we can use $\Sigma$ to make the educated assumption that a floppy eared friend will likely also have a dog snout, rather than a cat nose.
+If we trained our classifier on these "simulated" examples between data points, we would effectively ask the classifier to provide predictions that are linear interpolations of observed data, consistent with intuitions.
 
 This discussion has so far been a bit hand-wavy.
 How might we actually go about using the covariance information in $\Sigma$ to simulate data, formally?
@@ -52,6 +58,7 @@ $$\text{Mix}(\mathbf{x}, \mathbf{x}', \gamma) = \gamma \mathbf{x} + (1 - \gamma)
 where $\gamma \rightarrow [0, 1]$.
 
 We can then take some educated guesses $\hat{\mathbf{x_i}}$, $\hat{y_i}$ at what additional data might look like, simply by weighted averaging of the data we already have.
+By training on this mixed-up data, we can ensure that our classifier provides linear interpolations between data points.
 
 Stated formally, the **mixup** training procedure is pretty simple. Assuming we have a model $f_\theta (\mathbf{x})$ with parameters $\theta$:
 
@@ -93,8 +100,12 @@ Some experiments are cheap to run, but hard to annotate [e.g. fluorescence micro
 Even expensive experiments [e.g. next-gen sequencing] can benefit from public data that lack the appropriate annotations.
 
 Without labels though, how can we leverage this data using standard classification models?
-The key insight of [Verma et. al.](https://arxiv.org/abs/1903.03825) is that we can treat classifier predictions as "fake labels" for the purpose of training.
-Given these fake labels, we can use **mixup** on our unlabeled data the same way we use it on labeled data.
+Just like our labeled data, some unlabeled data $\mathbf{U}$ still provides information about the covariance structure among our features of interest.
+In the realm where our unlabeled data comes from a different environment [a different lab, different experimental method, etc.], the covariance structure might even differ somewhat.
+If we can leverage this information about the covariance structure in our unlabeled data, we may be able to build a more robust classifier.
+
+The key insight of [Verma et. al.](https://arxiv.org/abs/1903.03825) is that we can treat classifier predictions on unlabeled data as "fake labels" for the purpose of training.
+Given these fake labels, we can use **mixup** on our unlabeled data the same way we use it on labeled data to ensure linear interpolations between unlabeled observations.
 Even though the fake labels are initially very wrong, enforcing linear interpolation of classifier predictions between unlabeled points helps our model generalize to the covariance structure of the unlabeled data.
 
 Stated formally, we're given some labeled data $\mathbf{X}$ with labels $\mathbf{y}$ as before, but we're also given another matrix of unlabeled data $\mathbf{U}$.
