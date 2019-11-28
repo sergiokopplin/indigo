@@ -64,6 +64,7 @@ $$\gamma \sim \text{Beta}(\alpha, \alpha)$$
 **2 - Mixup two samples $x_i$ and $x_j$, along with their labels $y_i$ and $y_j$**
 
 $$x_k = \text{Mix}(x_i, x_j, \gamma)$$
+
 $$y_k = \text{Mix}(y_i, y_j, \gamma)$$
 
 **3 - Compute a supervised training loss**
@@ -100,7 +101,7 @@ Stated formally, we're given some labeled data $\mathbf{X}$ with labels $\mathbf
 
 **1 - Compute supervised loss**
 
-We first classify the labeled samples and compute a supervised loss $L_s$ (e.g. cross-entropy) as usual.
+We first classify the labeled samples and compute a supervised loss $L_s$ [e.g. cross-entropy] as usual.
 
 **2 - Counterfeit some labels**
 
@@ -113,7 +114,9 @@ $$z_i, z_j = f_\theta(u_i), f_\theta(u_j)$$
 After generating fake labels, we perform **mixup** the same way we do for supervised labels.
 
 $$\gamma \sim \text{Beta}(\alpha, \alpha)$$
+
 $$u_k = \text{Mix}(u_i, u_j, \gamma)$$
+
 $$z_k = \text{Mix}(z_i, z_j, \gamma)$$
 
 **4 - Compute the unsupervised loss**
