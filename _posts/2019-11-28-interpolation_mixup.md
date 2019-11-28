@@ -136,11 +136,11 @@ We compute the unsupervised loss as the difference of the mixed fake label from 
 
 $$L_U = l(f_\theta(u_k), z_k)$$
 
-where $l$ is the cross-entropy loss $l(y, y') = -\sum_i^K y' \log(y)$$.
+where $l$ is the cross-entropy loss $l(y, y') = -\sum_i^K y' \log(y)$.
 
 **5 - Compute the combined training loss**
 
-We compute the overall training loss as a weighted sum of the supervised loss $L_S$ and the unsupervised loss $L_U$ with a weighting function $w(t)$ where $t$ is an iteration or epoch number. The exact form of $w(t)$ is flexible, but it often increases monotonically, starting from a $0$ value and rising to some values $>= 1$.
+We compute the overall training loss as a weighted sum of the supervised loss $L_S$ and the unsupervised loss $L_U$ with a weighting function $w(t)$ where $t$ is an iteration or epoch number. The exact form of $w(t)$ is flexible, but it often increases monotonically, starting from a $0$ value and rising to some value $>= 1$.
 
 $$L = L_S + w(t) L_U$$
 
@@ -150,4 +150,4 @@ The authors demonstrate that this simple procedure improves performance on multi
 
 I really admire how simple the **mixup** and ICT extensions are to the standard ERM paradigm.
 With a couple modifications that can be implemented in a few hundred lines, any standard classification model can be extended to a semi-supervised classifier.
-I look forward to seeing how these methods are adopted and applied to biological problems where unlabeled data bounds, but annotated data is thin on the ground.
+I look forward to seeing how these methods are adopted and applied to biological problems where unlabeled data abounds, but annotated data is thin on the ground.
