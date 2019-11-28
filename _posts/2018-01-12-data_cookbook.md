@@ -15,6 +15,16 @@ blog: true
 
 An ever-growing collection of code blocks to perform useful data manipulation and plotting functions with standard Python libraries. This is mostly for my own self-reference, but possibly useful to others.
 
+# Bash
+
+## sed
+
+### Delete a line matching a pattern
+
+```bash
+sed '/some_string/d' $FILE
+```
+
 # Python
 
 These code snacks describe useful features of Python 3+ that aren't always emphasized.
@@ -258,4 +268,99 @@ for label in np.unique(clusters):
                                 label=label,
                                 linewidth=0)
 clmap.ax_col_dendrogram.legend(loc="center", ncol=5, frameon=False)
+```
+
+## Add a second set of xticklabels to a seaborn heatmap
+
+```python
+fig, ax = plt.subplots(1, 1, ...)
+
+sns.heatmap(
+  ...,
+  ax=ax
+)
+
+# clone the x-axis
+ax2 = ax.twiny()
+ax2.set_xlim(ax.get_xlim())
+ax2.set_xticks(ax.get_xticks())
+ax2.set_xticklabels(SOME_NAMES_HERE)
+
+# clean up the plotting aesthetics introduced by the second axis
+plt.grid(b=None)
+
+for x in ['top', 'bottom', 'right', 'left']:
+    ax.spines[x].set_visible(False)
+    ax2.spines[x].set_visible(False)
+```
+
+# LaTeX
+
+I love LaTeX.
+LaTex does not love me back.
+Here are some snippets to make our relationship more functional.
+
+## Use if/then control flow in a LaTeX build
+
+```latex
+\usepackage{etoolbox}
+% defines \newtoggle, \settoggle
+\newtoggle{somevar} % set a new boolean variable
+\toggletrue{somevar}
+\togglefalse{somevar}
+
+% run an if then
+\iftoggle{somevar}{
+  % do thing
+}{
+  % else, do other thing or blank for nothing
+}
+```
+
+## Generate a custom bibtex style
+
+```bash
+# outputs
+#   some_name.dbj - instructions for making a `bst`
+#   some_name.bst - compiled `bst`
+latex makebst
+# to remake a `bst` from the `dbj`
+tex some_name.dbj # outputs some_name.bst
+```
+
+## Remove numbers or citation labels from reference list
+
+[SE Credit](https://tex.stackexchange.com/questions/35369/replace-or-remove-bibliography-numbers)
+
+```latex
+\makeatletter
+\renewcommand\@biblabel[1]{}
+\makeatother
+% we can also replace numbers with a common character, like a bullet
+\makeatletter
+\renewcommand\@biblabel[1]{\textbullet}
+\makeatother
+```
+
+## Customize figure captions
+
+```latex
+\usepackage{caption}
+% remove separator between "Figure XYZ" and caption.
+% print the figure number, but no caption
+% useful for separating figures and captions in journal proofs
+% e.g. "Figure 1", the caption text is suppressed
+\captionsetup{labelsep=none,textformat=empty}
+% use normal caption text, colon figure separator
+% e.g. "Figure 1: Caption text here"
+\captionsetup{labelsep=colon,textformat=plain}
+```
+
+## Suppress graphics
+
+Journals often want captions and figures separated in a final proof.
+We can insert captions without graphics by redefining the `includegraphics` command.
+
+```latex
+\renewcommand{\includegraphics}[2][]{}
 ```
