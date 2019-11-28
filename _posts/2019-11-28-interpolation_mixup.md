@@ -1,5 +1,5 @@
 ---
-title: Interpolation for regularization and profit
+title: Interpolation for Regularization and Profit
 layout: post
 date: 2019-11-28
 tag:
@@ -16,11 +16,14 @@ This post is a summary of two recent papers in the machine learning literature t
 
 # How do we train a supervised classifier?
 
-Supervised classification methods in machine learning focus on finding a mapping function $f_\theta$ with some parameters $\theta$ ("a model") to map some inputs $\mathbf{X}^{n \times p}$ to a desired output $\mathbf{y}$.
+Supervised classification methods in machine learning focus on finding a mapping function $f_\theta$ with some parameters $\theta$ to map some inputs $\mathbf{X}^{n \times p}$ to a desired output $\mathbf{y}$.
 In a now cliche example, the inputs $\mathbf{X}$ might be images of cats and dogs and the outputs are labels assigned to each image, $y_i \in$ {cat, dog}.
-To find the right parameters $\theta$ for this mapping function, most machine learning methods take in a set of labeled training data (images $\mathbf{X}$ with associated labels $y$) and change the parameters $\theta$ using an optimization method to minimize the difference between the predicted labels and true labels.
-This is a broad strokes description of **empirical risk minimization (ERM)**, a general method for learning a mapping function of this sort.
-The simplest version of this often taught in high school is linear regression, where our function is $f_\theta(\mathbf{X}) = m\mathbf{X} + b$ and we alter the parameters $\theta = {m, b}$ to fit a line to some set of $\mathbf{X}$ points and $\mathbf{y}$ continuous labels.
+
+To find the right parameters $\theta$ for this mapping function, most machine learning methods take in a set of labeled training data -- say, images $\mathbf{X}$ with associated labels $y$ -- and change the parameters $\theta$ using an optimization method to minimize the difference between the predicted labels and true labels.
+This is a broad strokes description of **empirical risk minimization [ERM]**, a general method for learning a mapping function of this sort.
+
+One simple version of ERM is linear regression, as taught in high school algebra.
+In linear regression, our function is $f_\theta(\mathbf{X}) = m\mathbf{X} + b$ and we alter the parameters $\theta = \{m, b\}$ to fit a line to some set of $\mathbf{X}$ points and $\mathbf{y}$ continuous labels.
 
 Empirical risk minimization is great.
 Combined with deep neural network architectures, it's yielded human-level performance on image classification, high quality machine translation, and life-like generation of images, videos, and music.
@@ -32,7 +35,7 @@ A whole field of research in **adversarial examples** has cropped up to generate
 
 If we're given some set of data $\mathbf{X}$ and labels $\mathbf{y}$, classic supervised learning uses that data to reduce error, and that data alone.
 However, there's some extra information in these data and labels that we might leverage.
-Not only do we know the data points $\mathbf{X}$ and their labels $\mathbf{y}$, but we know the *covariance structure* $\Sigma$ of the features in observation $x_ij \in \mathbf{x}_i$ in the data $\mathbf{X}$.
+Not only do we know the data points $\mathbf{X}$ and their labels $\mathbf{y}$, but we know the *covariance structure* $\Sigma$ of the features in observation $x_{ij} \in \mathbf{x}_i$ in the data $\mathbf{X}$.
 $\Sigma$ contains information about how features of our data change in concert with one another.
 For instance, $\Sigma$ might capture that the shapes of ears and noses tend to vary together in our images of dogs and cats -- few dogs have cat noses, and few cats have dog ears, so those features vary together.
 
@@ -46,29 +49,34 @@ To generate a guess at a new data point $\hat{\mathbf{x_i}}$, $\hat{y_i}$, we si
 
 $$\text{mix}(\mathbf{x}, \mathbf{x}', \gamma) = \gamma \mathbf{x} + (1 - \gamma) \mathbf{x}'$$
 
-where $\alpha \in [0, 1]$.
+where $\gamma \rightarrow [0, 1]$.
 
 We can then take some educated guesses $\hat{\mathbf{x_i}}$, $\hat{y_i}$ at what additional data might look like, simply by weighted averaging of the data we already have.
 
 Stated formally, the **mixup** training procedure is pretty simple. Assuming we have a model $f_\theta (\mathbf{x})$ with parameters $\theta$:
 
-1. Draw a **mixup** parameter $\gamma$ from a $\beta$ distribution to determine the degree of mixing. We parameterize the $\beta$ with some shape parameter $\alpha$ (small $\alpha$ is less mixing, large $\alpha$ is more).
+**(1) Draw a mixup parameter $\gamma$ from a $\beta$ distribution to determine the degree of mixing**
+
+We parameterize the $\beta$ with a shape parameter $\alpha$ -- small $\alpha$ enforces less mixing, large $\alpha$ enforces more.
 
 $$\gamma \sim \text{Beta}(\alpha, \alpha)$$
 
-2. Mixup two samples $x_i$ and $x_j$, along with their labels $y_i$ and $y_j$.
+**(2) Mixup two samples $x_i$ and $x_j$, along with their labels $y_i$ and $y_j$**
 
 $$x_k = Mix(x_i, x_j, \gamma)$$
 $$y_k = Mix(y_i, y_j, \gamma)$$
 
-3. Perform a supervised training iteration by computing loss between the mixed label $y_k$ and the prediction made on the mixed sample $f_\theta(x_k)$.
+**(3) Compute a supervised training loss**
 
-This can be seen as a clever form of **data augmentation** -- a family of techniques to get more mileage out of a data set that usually involves adding noise to observations.
+Perform a supervised training iteration by computing the loss $l$ between the mixed label $y_k$ and the prediction made on the mixed sample $f_\theta(x_k)$. For classification, we can assume $l(y, y')$ is a cross-entropy loss to be concrete.
+
+This procedure can be seen as a clever form of **data augmentation** -- a family of techniques to get more mileage out of a data set that usually involves adding noise to observations.
 By training on our observed data, plus data that has undergone this **mixup** operation, we can build a classifier that provides smooth, linear interpolations between observed data points.
+
 If we receive a new adversarial image that is exactly half-dog and half-cat ([perhaps a cat in a dog costume](https://i.pinimg.com/originals/72/48/a1/7248a1d4a343b9e78930bf250a2db212.jpg)), unlike anything we've ever seen before, we'd hope our classifier would output a score of 50% dog, 50% cat, rather than something totally crazy.
 A classifier trained on mixup altered data can handle this scenario, and give the intuitive output.
 
-![Dog in cat costume](https://i.pinimg.com/originals/72/48/a1/7248a1d4a343b9e78930bf250a2db212.jpg)
+![An image of a fluffy white dog in black cat costume, providing much joy.](https://i.pinimg.com/originals/72/48/a1/7248a1d4a343b9e78930bf250a2db212.jpg)
 
 Not only does mixup provide an intuitive result in the case of unseen data that interpolates between training observations, but it improves classifier performance more generally.
 The authors demonstrate on a variety of tasks that enforcing linear interpolations in the classifier outputs improves classification accuracy.
@@ -90,24 +98,34 @@ Even though the fake labels (remember, just classifier predictions) are initiall
 
 Stated formally, we're given some labeled data $\mathbf{X}$ with labels $\mathbf{y}$ as before, but we're also given another matrix of unlabeled data $\mathbf{U}$.
 
-1. We first classify the labeled samples and compute a supervised loss $L_s$ (e.g. cross-entropy) as usual.
+**(1) Compute supervised loss**
 
-2. We also compute a new, *unsupervised* loss $L_U$. We pass some unlabeled samples through the model to get some fake labels $z$.
+We first classify the labeled samples and compute a supervised loss $L_s$ (e.g. cross-entropy) as usual.
+
+**(2) Counterfeit some labels**
+
+We also compute a new, *unsupervised* loss $L_U$. We pass some unlabeled samples through the model to get some fake labels $z$.
 
 $$z_i, z_j = f_\theta(u_i), f_\theta(u_j)$$
 
-3. After generating fake labels, we perform **mixup** the same way we do for supervised labels.
+**(3) Mixup our unlabeled data and associated imposter annotations**
+
+After generating fake labels, we perform **mixup** the same way we do for supervised labels.
 
 $$u_k = Mix(u_i, u_j)$$
 $$z_k = Mix(z_i, z_j)$$
 
-4. We compute the unsupervised loss as the difference of the mixed fake label from the prediction made on the mixed unlabeled sample.
+**(4) Compute the unsupervised loss**
+
+We compute the unsupervised loss as the difference of the mixed fake label from the prediction made on the mixed unlabeled sample.
 
 $$L_U = l(f_\theta(u_k), z_k)$$
 
 where $l$ is the cross-entropy loss $l(y, y') = -\sum_i^K y' \log(y)$$.
 
-5. We compute the overall training loss as a weighted sum of the supervised loss $L_S$ and the unsupervised loss $L_U$ with a weighting function $w(t)$ where $t$ is an iteration or epoch number. The exact form of $w(t)$ is flexible, but it often increases monotonically, starting from a $0$ value and rising to some values $>= 1$.
+**(5) Compute the combined training loss**
+
+We compute the overall training loss as a weighted sum of the supervised loss $L_S$ and the unsupervised loss $L_U$ with a weighting function $w(t)$ where $t$ is an iteration or epoch number. The exact form of $w(t)$ is flexible, but it often increases monotonically, starting from a $0$ value and rising to some values $>= 1$.
 
 $$L = L_S + w(t) L_U$$
 
