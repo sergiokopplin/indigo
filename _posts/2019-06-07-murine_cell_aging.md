@@ -20,7 +20,7 @@ The diversity of cellular physiology in mammals -- from short-lived spherical ne
 However, it's difficult to compare and contrast aging phenotypes measured in individual cell types using different technologies in different laboratories in an apples-to-apples manner.
 
 Along with brilliant collaborators, I recently explored this question at Calico using single cell genomics to obtain comparable measurements of aging phenotypes across cell types.
-Check out [our paper on bioRxiv](https://www.biorxiv.org/content/10.1101/657726v1), see [our research website](http://mca.research.calicolabs.com/) where you can interact with the data, or read a brief description of some key highlights below.
+Check out [our paper in Genome Research](https://genome.cshlp.org/content/29/12/2088), see [our research website](http://mca.research.calicolabs.com/) where you can interact with the data, or read a brief description of some key highlights below.
 
 ## Cartographing aging across three murine tissues
 
