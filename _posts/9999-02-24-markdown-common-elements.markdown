@@ -1,28 +1,16 @@
 ---
 title: "Markdown Common Elements"
 layout: post
-date: 9999-02-24 22:44
+date: 2016-02-24 22:44
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - markdown
 - elements
-blog: true
 star: true
----
-
-## Summary:
-
-You can pick as item to see how to apply in markdown.
-
-### Comum Elements
-- [Basic formatting](#basic-formatting)
-- [Headings](#headings)
-- [Lists](#lists)
-- [Paragraph Modifiers](#paragraph-modifiers)
-- [Urls](#urls)
-- [Horizontal Rule](#horizontal-rule)
-- [Images](#images)
-- [Code](#code)
-
+category: blog
+author: johndoe
+description: Markdown summary with different options
 ---
 
 ## Basic formatting

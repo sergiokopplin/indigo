@@ -47,9 +47,39 @@
         </a>
     {% endif %}
 
+    {% if site.lastfm %}
+        <a class="link" data-title="last.fm/user/{{ site.lastfm }}" href="https://last.fm/user/{{ site.lastfm }}" target="_blank">
+            <svg class="icon icon-lastfm"><use xlink:href="#icon-lastfm"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.github %}
         <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.gitlab %}
+        <a class="link" data-title="gitlab.com/{{ site.gitlab }}" href="https://gitlab.com/{{ site.gitlab }}" target="_blank">
+            <svg class="icon icon-gitlab"><use xlink:href="#icon-gitlab"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.stackoverflow %}
+        <a class="link" data-title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank">
+            <svg class="icon icon-stackoverflow"><use xlink:href="#icon-stackoverflow"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.quora %}
+        <a class="link" data-title="quora.com/profile/{{ site.quora }}" href="https://www.quora.com/profile/{{ site.quora }}" target="_blank">
+            <svg class="icon icon-quora"><use xlink:href="#icon-quora"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.reddit %}
+        <a class="link" data-title="reddit.com/user/{{ site.reddit }}" href="https://www.reddit.com/user/{{ site.reddit }}" target="_blank">
+            <svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg>
         </a>
     {% endif %}
 
@@ -62,11 +92,20 @@
     {% if site.googlescholar %}
         <a class="link" data-title="scholar.google.com/citations?user={{ site.googlescholar }}" href="https://scholar.google.com/citations?user={{ site.googlescholar }}" target="_blank">
             <svg class="icon icon-google-scholar"><use xlink:href="#icon-google-scholar"></use></svg>
+    {% if site.vimeo %}
+        <a class="link" data-title="vimeo.com/{{ site.vimeo }}" href="https://vimeo.com/{{ site.vimeo }}" target="_blank">
+            <svg class="icon icon-vimeo"><use xlink:href="#icon-vimeo"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.lanyrd %}
+        <a class="link" data-title="lanyrd.com/{{ site.lanyrd }}" href="https://lanyrd.com/{{ site.lanyrd }}" target="_blank">
+            <svg class="icon icon-microphone"><use xlink:href="#icon-microphone"></use></svg>
         </a>
     {% endif %}
 
     {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}" target="_blank">
+        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}

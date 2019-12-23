@@ -1,0 +1,61 @@
+.evidence
+    background-image: linear-gradient(to bottom, rgba(39,243,106,0.15), rgba(39,243,106,0.15))
+    color: beta
+
+.star
+    > .url > .title
+        width: auto !important
+        display: inline
+        background-image: linear-gradient(rgba(39,243,106,0.15), rgba(39,243,106,0.15))
+
+.twitter-tweet
+    margin: 10px auto
+
+.icon
+    display: inline-block
+    width: 17px
+    height: 17px
+    fill: #000
+    text-align: center
+    color: #000
+    margin: 7px auto
+
+.caption
+    position: relative
+    top: 1rem
+    left: 0
+    right: 0
+    margin: 0 auto
+    width: 100%
+    text-align: center
+    font-size: 1.3rem
+
+.bigger-image
+    min-width: 130%
+    margin: 5rem 0 5rem -15%
+
+    @media #{$mobile}
+        min-width: 114%
+        margin: 2rem 0 2rem -7%
+
+    @media #{$tablet}
+        min-width: 114%
+        margin: 2rem 0 2rem -7%
+
+.breaker
+    height: 1px
+    margin: 6rem auto
+    width: 100%
+
+    &:before
+        content: "• • •"
+        width: 100%
+        text-align: center
+        display: block
+        color: $gama
+        letter-spacing: 4px
+        position: relative
+        top: -8px
+
+.lost-container
+    text-align: center
