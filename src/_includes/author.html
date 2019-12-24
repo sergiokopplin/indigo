@@ -1,0 +1,34 @@
+<section class="author{% if site.disqus == false %} no-disqus{% endif %}">
+    <div class="toleft">
+        <img class="selfie" src="{% if site.authors[page.author].external-image == true %}{{ site.authors[page.author].picture }}{% else %}{{ site.url }}/{{ site.authors[page.author].picture }}{% endif %}" alt="{{ site.authors[page.author].name }}">
+    </div>
+
+    <div class="toright">
+        <h4 class="name">{{ site.authors[page.author].name }}</h4>
+        <p class="bio">{{ site.authors[page.author].bio }}</p>
+
+        <div class="share">
+            <!-- Note: Only use three share links if your site width is set to large -->
+            <!-- If site width is set to normal, you may choose any two share links -->
+            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }} - {{ page.title }} by @{{ site.authors[page.author].twitter }}">
+                <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg><span class="icon-twitter">Tweet</span>
+            </a>
+
+            <a class="facebook" href="javascript:void(0)" onclick="window.open('https://facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;">
+                <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg><span class="icon-facebook-rect">Share</span>
+            </a>
+
+            <!-- <a class="google-plus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank">
+                <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg><span class="icon-google-plus">Share</span>
+            </a> -->
+
+            <!-- <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ site.url }}{{ page.url }}&amp;title={{ page.title }}&amp;summary={{ page.description }}&amp;source={{ site.url }}" target="_blank">
+                <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg><span class="icon-linkedin">Share</span>
+            </a> -->
+
+            <!-- <a class="reddit" href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank">
+                <svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg><span class="icon-reddit">Share</span>
+            </a> -->
+        </div>
+    </div>
+</section>

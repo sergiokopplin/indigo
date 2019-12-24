@@ -1,0 +1,46 @@
+---
+title: "My Test Post"
+layout: post
+date: 9999-04-26 20:44
+tag:
+- test
+blog: true
+---
+
+This is just a test post to see if I have everything configured correctly.
+For example, if I want to say something about some Julia code, in 
+`Markdown` I would say something like
+
+
+```c
+    unsigned int fenced = code_block();
+```
+
+```julia
+    using Distributions
+
+    function a_test_func!(a::Array{Float64})
+        a .+= a
+    end
+
+    opt = Dict()
+    opt[:keyword] = 1
+    opt[:another] = 2
+```
+
+```c
+    #include <iostream>
+    using namespaces std;
+
+    int main(int argc, char* argv[]){
+        cout<<"Hello World!"<<endl;
+        return 0;
+    }
+```
+
+Or, if I were using MathJax I would say something like 
+
+$$\rho = \frac{1}{x},$$
+
+and if I wanted it inline I'd have to say \\(\rho - \frac{1}{x} \\) or 
+something like that.
