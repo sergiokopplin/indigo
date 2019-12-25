@@ -1,6 +1,6 @@
 # main text of home
 name: Eric W. Tramel
-bio: 'Postdoctoral Researcher in Statistical Signal Processsing & Machine Learning at ENS'
+bio: 'Senior Machine Learning Scientist @ Owkin'
 
 # if it's an external image, update below for true
 # better with square images
@@ -35,7 +35,7 @@ analytics-google: 'UA-36574119-2'
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: ewtgithub
+disqus: false
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -49,7 +49,7 @@ linkedin: erictramel
 # spotify: myspotify
 github: 'eric-tramel'
 # medium: medium
-email: eric.tramel@lps.ens.fr
+email: eric.tramel@gmail.com
 cv: /assets/doc/ewt-cv.pdf
 
 authors:
