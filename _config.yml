@@ -1,5 +1,5 @@
 # main text of home
-name: Eric W. Tramel
+name: Eric W. Tramel, Ph.D.
 bio: 'Senior Machine Learning Scientist @ Owkin'
 
 # if it's an external image, update below for true
@@ -20,12 +20,17 @@ dest: _site
 
 permalink: /:title/
 
-markdown: kramdown
 highlighter: rouge
-
+markdown: kramdown
+fenced_code_blocks: true
 kramdown: 
-  input: GFM
-  syntax_highlighter: rouge
+  input:  GFM
+  syntax_highlighter: rogue
+  footnote_backlink: "&#x21A9;&#xFE0E;" 
+  footnote_nr: 1
+  hard_wrap : false
+  auto_ids: true
+  toc_levels: 1..6
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-36574119-2'
@@ -40,7 +45,6 @@ disqus: false
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 twitter: fujikanaeda
-google: EricTramel
 googlescholar: jre2iwMAAAAJ
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -54,7 +58,7 @@ cv: /assets/doc/ewt-cv.pdf
 
 authors:
     erictramel:
-        name: Eric W. Tramel 
+        name: Eric W. Tramel, Ph.D. 
         bio: Senior Machine Learning Scientist
         external-image: false
         picture: assets/images/profile.jpg
@@ -111,3 +115,15 @@ compress_html:
         - stage
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh,indigo.sublime-project]
+
+
+## Building Options
+
+
+## Serving Options
+port: 4000
+host: localhost
+baseurl: "" 
+show_dir_listing: false
+detach: false
+livereload: true

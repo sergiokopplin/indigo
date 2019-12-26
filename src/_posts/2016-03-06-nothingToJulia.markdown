@@ -1,7 +1,7 @@
 ---
 title: "Nothing to Julia in Minutes"
 layout: post
-date: 2016-04-06
+date: 2016-04-06 00:00
 tag: 
 - post
 - build
@@ -9,8 +9,9 @@ tag:
 - Julia
 - Jupyter
 - Python
-blog: true
-post: true
+category: blog
+author: erictramel
+description: Starting up with Julia for the first time.
 ---
 
 # Nothing to Julia in Minutes

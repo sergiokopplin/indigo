@@ -1,15 +1,17 @@
 ---
 title: "Building SPAMS"
 layout: post
-date: 2014-04-07
+date: 2014-04-07 00:00
 tag: 
 - post
 - build
 - software
 - Matlab
 - optimization
-blog: true
-post: true
+category: blog
+author: erictramel
+headerImage: false
+description: Building the SPAMS Matlab package for sparse modelling.
 ---
 
 For one of our projects, we wanted to have a nice set of “optimized” software for running a number of different types of sparse reconstruction problems. One nice set of software that runs for both signal reconstruction and for dictionary learning/sparse decomposition is the **SPArse Modeling Software (SPAMS)** package for Matlab developed by J. Mairal, F. Bach, J. Ponce, G. Sapiro, R. Jenatton, and G. Obozinski with additional support from J. Chieze for the R and Python interfaces.
