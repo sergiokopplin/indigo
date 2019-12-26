@@ -1,133 +1,136 @@
 body, html
-	font-size: 62.5%
+    font-size: 62.5%
 
 body
-	line-height: 1
-	font: 16px $fontSans
-	color: $alpha
+    line-height: 1
+    font: 16px $fontSans
+    color: $alpha
 
 h1, h2, h3, h4
-	font-family: $fontSans
-	color: $beta
-	-webkit-font-smoothing: antialiased
-	text-rendering: optimizeLegibility
+    font-family: $fontHeader
+    color: $beta
+    -webkit-font-smoothing: antialiased
+    text-rendering: optimizeLegibility
 
 h1
-	font-size: 3rem
-	letter-spacing: -1px
-	color: $beta
-	font-weight: 700
+    font-size: 3rem
+    letter-spacing: -1px
+    color: $beta
+    font-weight: 700
 
 h2
-	font-size: 2.2rem
+    font-size: 2.2rem
 
 h3
-	font-size: 2rem
+    font-size: 2rem
 
 h4
-	font-size: 1.6rem
+    font-size: 1.6rem
 
 a
-	color: $delta
-	text-decoration: underline
+    color: $delta
+    text-decoration: underline
 
 p
-	line-height: 1.7
-	color: $alpha
-	font-weight: 300
-	margin-bottom: 20px
-	letter-spacing: 0.4px
+    line-height: 1.25
+    color: $alpha
+    font-weight: 300
+    margin-bottom: 20px
+    letter-spacing: 0.0px
 
-	@media #{$mobile}
-		letter-spacing: 0.2px
+    @media #{$mobile}
+        letter-spacing: 0.0px
 
 strong
-	font-weight: 400
-	color: #000
+    font-weight: 500
+    color: #000
 
 ul,
 ol
-	li
-		line-height: 2.4rem
-		font-weight: 300
-		color: $alpha
+    li
+        line-height: 2.4rem
+        font-weight: 300
+        color: $alpha
 
 img,
 pre,
 iframe
-	max-width: 100%
+    max-width: 100%
 
 img,
 pre
-	border-radius: 4px
+    border-radius: 4px
 
 figcaption
-	position: relative
-	top: -20px
-	left: 0
-	right: 0
-	margin: 0 auto
-	width: 100%
-	text-align: center
-	font-size: 1.3rem
-	color: $gama
-	font-weight: 300
+    position: relative
+    top: -20px
+    left: 0
+    right: 0
+    margin: 0 auto
+    width: 100%
+    text-align: center
+    font-size: 1.3rem
+    color: $gama
+    font-weight: 300
 
-	@media #{$mobile}
-		font-size: 1.2rem
+    @media #{$mobile}
+        font-size: 1.2rem
 
 blockquote
-	padding-left: 15px
-	border-left: 3px solid #eee
+    padding-left: 15px
+    border-left: 3px solid #eee
 
 hr
-	border: none
-	height: 1px
-	margin: 40px auto
-	background: #eee
-	width: 100%
+    border: none
+    height: 1px
+    margin: 40px auto
+    background: #eee
+    width: 100%
+
 
 figure.highlight
-	width: 100%
-	margin: 0
+    width: 90%
+    margin: 0
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
 
 code,
 tt
-	padding: 1px 0
-	font-family: $fontMonospace
-	font-size: 12px
-	line-height: 20px
-	background: #fff
-	border-radius: 2px
-	border-radius: 2px
+    padding: 1px 0
+    font-family: $fontMonospace
+    font-size: 12px
+    line-height: 20px
+    background: #3b4252
+    border-radius: 0px
 
 pre
-	box-sizing: border-box
-	margin: 0 0 1.75em 0
-	width: 100%
-	padding: 5px 10px
-	font-family: $fontMonospace
-	font-size: 1.2rem
-	line-height: 2rem
-	overflow: auto
-	background: #fff
-	border: 1px solid $epsilon
-	border-radius: 2px
+    box-sizing: border-box
+    margin: 0 0 1.75em 0
+    width: 100%
+    padding: 5px 10px
+    font-family: $fontMonospace
+    font-size: 1.2rem
+    line-height: 2rem
+    overflow: auto
+    background: #3b4252
+    border: 1px solid $epsilon
+    border-radius: 0px
 
 .wrapper-normal,
 .wrapper-large
-	height: 100%
-	width: 96%
-	margin: 0 auto
+    height: 100%
+    width: 96%
+    margin: 0 auto
 
-	@media #{$mobile}
-		width: 88%
+    @media #{$mobile}
+        width: 88%
 
-	@media #{$tablet}
-		width: 88%
+    @media #{$tablet}
+        width: 88%
 
 .wrapper-normal
-	max-width: 560px
+    max-width: 560px
 
 .wrapper-large
-	max-width: 810px
+    max-width: 810px
