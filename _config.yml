@@ -19,17 +19,25 @@ source: src
 dest: _site
 
 permalink: /:title/
-
+# Conversion
+markdown:    kramdown
 highlighter: rouge
-markdown: kramdown
-fenced_code_blocks: true
-kramdown: 
-  input:  GFM
-  syntax_highlighter: rogue
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
   footnote_backlink: "&#x21A9;&#xFE0E;" 
   footnote_nr: 1
   hard_wrap : false
-  auto_ids: true
   toc_levels: 1..6
 
 # To enable google analytics, supply your token below
