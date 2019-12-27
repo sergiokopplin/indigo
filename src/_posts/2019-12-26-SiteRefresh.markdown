@@ -23,6 +23,7 @@ tweak the presentation a bit so that it is more to my liking.
 - [ ] Figure out why SASS won't accept variables imported from SCSS?
 - [x] Get code blocks centered
 - [ ] Figure out why Jekyll/Kramdown is not converting fence blocks and only relying on Liquid-defined code blocks.
+- [x] Fix MathJax header script to use the right AMS formatting.
 
 
 ## Code Blocks
@@ -47,6 +48,10 @@ from torch immport nn
 import torch.nn.functional as F
 
 class Net(nn.Module):
+    """A Network
+    
+    A Neural Network that does something.
+    """ 
     def __init__(self):
         super(Net, self).__init__()
         self.conv1 = nn.Conv2d(3, 6, 5)
@@ -57,6 +62,7 @@ class Net(nn.Module):
         self.fc3 = nn.Linear(84, 10)
 
     def forward(self, x):
+        # This is a single line comment
         x = self.pool(F.relu(self.conv1(x)))
         x = self.pool(F.relu(self.conv2(x)))
         x = x.view(-1, 16 * 5 * 5)
@@ -103,6 +109,10 @@ if __name__ == "__main__":
 
 ## Double Checking Math Again
 
-Is my math working? I really hope so. For instance, if $a \in \mathbb{R}$,
+Is my math working? I really hope so. For instance, if $$a \in \mathbb{R}$$,
 then we can hope for
 $$ |a| \leq |a+a|.$$
+
+It seems like MathJax is a little bit broken in its original formulation. Specifically,
+it seems like the `\mathbb` is not working, but this is probably due to the wrong
+script being used for the MathJaX configuration in the header.
