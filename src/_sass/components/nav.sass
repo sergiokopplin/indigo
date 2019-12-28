@@ -28,6 +28,9 @@
             font-size: 1.4rem
             padding: 20px 10px
 
+            &:hover
+                color: $nord12
+
 .nav-home
     margin-top: 40px
     text-align: center
@@ -35,13 +38,16 @@
     > .list
         padding: 0
 
-        > .item > .link
-            font-size: 2rem
-            padding: 7px 15px
-            margin: 0
-            border-radius: 4%
-            transition: all .4s ease-in-out
-            width: 70px
+        > .item 
+            display: block
 
-            &:hover
-                color: $alpha
+            > .link
+                font-size: 2rem
+                padding: 7px 15px
+                margin: 0
+                border-radius: 4%
+                transition: all .4s ease-in-out
+                width: 140px
+
+                &:hover
+                    color: $nord12
