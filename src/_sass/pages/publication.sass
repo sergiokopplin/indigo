@@ -69,7 +69,7 @@
 
     > .title-figure
         display: block
-        align: center
+        width: fit-content
         margin-top: 20px
         margin-bottom: 20px
         margin-left: auto
@@ -91,6 +91,7 @@
     > .title-figure-caption
         display: flex
         align-items: center
+        justify-content: center
         text-align: center
         margin-bottom: 20px
         margin-top: 20px
@@ -104,13 +105,17 @@
         border-radius: 2px
 
         > .title-image
+            align-self: flex-start
             max-width: 300px
+            max-height: 400px
             margin: 0px 0px
             border: 1px solid $nord1
             border-radius: 2px
             vertical-align: middle
 
         > .title-image-caption
+            top: 50%
+            position: relative
             margin-left: 15px
             text-align: justify
             color: $nord6
