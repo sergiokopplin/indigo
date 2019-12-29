@@ -29,12 +29,12 @@ layout: page
 {% if page.image %}
     {% if page.imageCaption %}
         <figure class="title-figure-caption">
-        <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
-        <figcaption class="title-image-caption">{{ page.imageCaption }}</figcaption>
+            <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+            <figcaption class="title-image-caption">{{ page.imageCaption }}</figcaption>
     {% else %}
         <figure class="title-figure">
-        <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
-    {% endif %}
+            <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+        {% endif %}
 </figure>
 {% endif %}
 
