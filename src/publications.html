@@ -9,19 +9,17 @@ title: Publications
 
 <div align="center"><h2>Books</h2></div>
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.publication %}
-            {% if post.book %}
-                <div class="item {% if post.star == true %}star{% endif %}">
-                    {{ post.jemoji }} {{ post.authors }},
-                    "<a class="url" href="{{ site.url }}{{ post.url }}">                
-                        {{ post.title }}
-                    </a>,"
-                    <i>{{ post.in }}</i>,
-                    {{ post.year }}.
-                </div>
-                <br>
-            {% endif %}
+    {% for post in site.categories.publication %}
+        {% if post.pubtype == 'book' %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                {{ post.jemoji }} {{ post.authors }},
+                "<a class="url" href="{{ site.url }}{{ post.url }}">                
+                    {{ post.title }}
+                </a>,"
+                <i>{{ post.in }}</i>,
+                {{ post.year }}.
+            </div>
+            <br>
         {% endif %}
     {% endfor %}
 </section>
@@ -30,19 +28,17 @@ title: Publications
 
 <div align="center"><h2>Book Chapters</h2></div>
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.publication %}
-            {% if post.bookchap %}
-                <div class="item {% if post.star == true %}star{% endif %}">
-                    {{ post.jemoji }} {{ post.authors }},
-                    "<a class="url" href="{{ site.url }}{{ post.url }}">                
-                        {{ post.title }}
-                    </a>,"
-                    <i>{{ post.in }}</i>,
-                    {{ post.year }}.
-                </div>
-                <br>
-            {% endif %}
+    {% for post in site.categories.publication %}
+        {% if post.pubtype == 'chapter' %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                {{ post.jemoji }} {{ post.authors }},
+                "<a class="url" href="{{ site.url }}{{ post.url }}">                
+                    {{ post.title }}
+                </a>,"
+                <i>{{ post.in }}</i>,
+                {{ post.year }}.
+            </div>
+            <br>
         {% endif %}
     {% endfor %}
 </section>
@@ -51,19 +47,17 @@ title: Publications
 
 <div align="center"><h2>Journal Articles</h2></div>
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.publication %}
-            {% if post.article %}
-                <div class="item {% if post.star == true %}star{% endif %}">
-                    {{ post.jemoji }} {{ post.authors }},
-                    "<a class="url" href="{{ site.url }}{{ post.url }}">                
-                        {{ post.title }}
-                    </a>,"
-                    <i>{{ post.in }}</i>,
-                    {{ post.year }}.
-                </div>
-                <br>
-            {% endif %}
+    {% for post in site.categories.publication %}
+        {% if post.pubtype == 'article' %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                {{ post.jemoji }} {{ post.authors }},
+                "<a class="url" href="{{ site.url }}{{ post.url }}">                
+                    {{ post.title }}
+                </a>,"
+                <i>{{ post.in }}</i>,
+                {{ post.year }}.
+            </div>
+            <br>
         {% endif %}
     {% endfor %}
 </section>
@@ -72,19 +66,17 @@ title: Publications
 
 <div align="center"><h2>Patents</h2></div>
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.publication %}
-            {% if post.patent %}
-                <div class="item {% if post.star == true %}star{% endif %}">
-                    {{ post.jemoji }} {{ post.authors }},
-                    "<a class="url" href="{{ site.url }}{{ post.url }}">                
-                        {{ post.title }}
-                    </a>,"
-                    <i>{{ post.in }}</i>,
-                    {{ post.year }}.
-                </div>
-                <br>
-            {% endif %}
+    {% for post in site.categories.publication %}
+        {% if post.pubtype == 'patent' %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                {{ post.jemoji }} {{ post.authors }},
+                "<a class="url" href="{{ site.url }}{{ post.url }}">                
+                    {{ post.title }}
+                </a>,"
+                <i>{{ post.in }}</i>,
+                {{ post.year }}.
+            </div>
+            <br>
         {% endif %}
     {% endfor %}
 </section>
@@ -93,9 +85,8 @@ title: Publications
 
 <div align="center"><h2>Conference Papers</h2></div>
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.publication %}
-            {% if post.conference %}                
+    {% for post in site.categories.publication %}
+            {% if post.pubtype == 'conf' %}                
                 <div class="item {% if post.star == true %}star{% endif %}">
                     {{ post.jemoji }} {{ post.authors }},
                     "<a class="url" href="{{ site.url }}{{ post.url }}">                
@@ -106,7 +97,6 @@ title: Publications
                 </div>
                 <br>
             {% endif %}
-        {% endif %}
     {% endfor %}
 </section>
 

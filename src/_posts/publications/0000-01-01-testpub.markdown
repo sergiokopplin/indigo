@@ -1,0 +1,17 @@
+---
+layout: publication
+date: 2019-12-31
+tag:
+    - compressed sensing
+title: "Test Publication"
+publication: true
+pubtype: conf
+conference: true
+in: Proc. Int. Mtg. on High-Dimensional Data Drive Science 
+authors: E. W. Tramel
+year: 2019
+img: "/assets/images/btk2015.png"
+---
+
+
+Content

@@ -1,0 +1,54 @@
+---
+layout: page
+---
+
+<h1 class="title">{{ page.title }}</h1>
+<h2 class="authors">{{ page.authors }}</h2>
+
+<ul class="pub-links">
+    {% if page.link %}
+        <li class="item">
+            <a class="link" href={{ page.link }}>Link</a>
+        </li>
+    {% endif %}
+
+    {% if page.linkpdf %}
+        <li class="item">
+            <a class="link" href={{ page.linkpdf }}>PDF</a>
+        </li>
+    {% endif %}
+
+    {% if page.linkcode %}
+        <li class="item">
+            <a class="link" href={{ page.linkcode }}>Code</a>
+        </li>
+    {% endif %}
+</ul>
+
+
+{% if page.image %}
+<figure class="title-figure">
+    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+    <figcaption class="title-image-caption">{{ page.imageCaption }}</figcaption>
+</figure>
+{% endif %}
+
+{% if page.abstract %}
+    <h2>Astract</h2>
+    <p>{{ page.abstract }}</p>
+{% endif %}
+
+<!--Content is used here in case there are further blog-like descriptions to 
+include for a given paper.-->
+{{ content }}
+
+{% if page.bibtex %}
+    <h2>BibTeX</h2>
+    {% highlight latex %}
+    {{ page.bibtex }}
+    {% endhighlight %}
+{% endif %}
+
+{% if site.related %}
+    {% include related.html %}
+{% endif %}

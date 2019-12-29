@@ -1,6 +1,6 @@
 # main text of home
 name: Eric W. Tramel, Ph.D.
-bio: 'Senior Machine Learning Scientist @ Owkin'
+bio: 'ML Research & Engineering'
 
 # if it's an external image, update below for true
 # better with square images
@@ -67,7 +67,7 @@ cv: /assets/doc/ewt-cv.pdf
 authors:
     erictramel:
         name: Eric W. Tramel, Ph.D. 
-        bio: Senior Machine Learning Scientist
+        bio: Senior Machine Learning Scientist, Owkin
         external-image: false
         picture: assets/images/profile.jpg
         twitter: fujikanaeda
