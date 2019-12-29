@@ -1,0 +1,26 @@
+---
+title: "Robust Detection of Covariate-Treatment Interactions in Clinical Trials"
+layout: publication
+category: publication
+pubtype: preprint
+authors: B. Goujaud, E. W. Tramel, P. Courtiol. M. Zaslavskiy, & G. Wainrib 
+date: 2017-12-01
+in: "arXiv [stat.AP]: 1712.08211"
+year: 2017
+tag:
+    - publication
+    - statistics
+    - clinical trials
+link: https://arxiv.org/abs/1712.08211 
+linkpdf: https://arxiv.org/pdf/1712.08211.pdf 
+abstract: >- 
+    Detection of interactions between treatment effects and patient descriptors in clinical trials is critical for optimizing the drug development process. The increasing volume of data accumulated in clinical trials provides a unique opportunity to discover new biomarkers and further the goal of personalized medicine, but it also requires innovative robust biomarker detection methods capable of detecting non-linear, and some- times weak, signals. We propose a set of novel univariate statistical tests, based on the theory of random walks, which are able to capture non-linear and non-monotonic covariate-treatment interactions. We also propose a novel combined test, which lever- ages the power of all of our proposed univariate tests into a single general-case tool. We present results for both synthetic trials as well as real-world clinical trials, where we compare our method with state-of-the-art techniques and demonstrate the utility and robustness of our approach.
+bibtex: >-
+    @misc{GTC2017,
+        title={Robust Detection of Covariate-Treatment Interactions in Clinical Trials},
+        author={Baptiste Goujaud and Eric W. Tramel and Pierre Courtiol and Mikhail Zaslavskiy and Gilles Wainrib},
+        year={2017},
+        eprint={1712.08211},
+        archivePrefix={arXiv},
+        primaryClass={stat.AP}}
+---

@@ -1,0 +1,27 @@
+---
+title: "Streaming Bayesian Inference: Theoretical Limits and Mini-batch Approximate Message-Passing"
+layout: publication
+category: publication
+pubtype: conf
+authors: A. Manoel, F. Krzakala, E. W. Tramel, & L. Zdeborová
+date: 2017-10-03
+in: Proc. Allerton Conf. on Comm. Control & Comp.
+year: 2017
+tag:
+    - publication
+    - message passing
+    - statistical physics
+    - bayesian inference
+link: https://ieeexplore.ieee.org/abstract/document/8262853
+linkpdf: https://arxiv.org/pdf/1706.00705.pdf
+abstract: >- 
+    In statistical learning for real-world large-scale data problems, one must often resort to “streaming” algorithms which operate sequentially on small batches of data. In this work, we present an analysis of the information-theoretic limits of mini-batch inference in the context of generalized linear models and low-rank matrix factorization. In a controlled Bayes-optimal setting, we characterize the optimal performance and phase transitions as a function of mini-batch size. We base part of our results on a detailed analysis of a mini-batch version of the approximate message-passing algorithm (Mini-AMP), which we introduce. Additionally, we show that this theoretical optimality carries over into real-data problems by illustrating that Mini-AMP is competitive with standard streaming algorithms for clustering.
+bibtex: >-
+    @inproceedings{mkt2017,
+        author={A. {Manoel} and F. {Krzakala} and E. W. {Tramel} and L. {Zdeborová}}, 
+        booktitle={2017 55th Annual Allerton Conference on Communication, Control, and Computing (Allerton)}, 
+        title={Streaming Bayesian inference: Theoretical limits and mini-batch approximate message-passing}, 
+        year={2017}, 
+        month={Oct.},
+        pages={1048-1055}}
+---

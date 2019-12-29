@@ -1,0 +1,35 @@
+---
+title: "Classification and Disease Localization in Histopathology Using Only Global Labels: A Weakly-Supervised Approach"
+layout: publication
+category: publication
+pubtype: preprint
+date: 2018-02-01
+tag: 
+- publication
+- histopathology
+- multiple instance learning
+authors: P. Courtiol, E. W. Tramel, M. Sanselme, & G. Wainrib
+in: "arXiv [stat.ML]: 1802.02212"
+year: 2018
+link:  https://arxiv.org/abs/1802.02212
+linkpdf: https://arxiv.org/pdf/1802.02212
+abstract: >-
+    Analysis of histopathology slides is a critical step for many diagnoses, and in particular in oncology where it defines the gold standard. In the case of digital histopathological analysis, highly trained pathologists must review vast whole-slide-images of extreme digital resolution (\(100,000^2\) pixels) across multiple zoom levels in order to locate abnormal regions of cells, or in some cases single cells, out of millions. The application of deep learning to this problem is hampered not only by small sample sizes, as typical datasets contain only a few hundred samples, but also by the generation of ground-truth localized annotations for training interpretable classification and segmentation models. We propose a method for disease localization in the context of weakly supervised learning, where only image-level labels are available during training. Even without pixel-level annotations, we are able to demonstrate performance comparable with models trained with strong annotations on the Camelyon-16 lymph node metastases detection challenge. We accomplish this through the use of pre-trained deep convolutional networks, feature embedding, as well as learning via top instances and negative evidence, a multiple instance learning technique from the field of semantic segmentation and object detection.
+bibtex: >-
+    @article{DBLP:journals/corr/abs-1802-02212,
+    author    = {Pierre Courtiol and
+                Eric W. Tramel and
+                Marc Sanselme and
+                Gilles Wainrib},
+    title     = {Classification and Disease Localization in Histopathology Using Only
+                Global Labels: {A} Weakly-Supervised Approach},
+    journal   = {CoRR},
+    volume    = {abs/1802.02212},
+    year      = {2018},
+    url       = {http://arxiv.org/abs/1802.02212},
+    archivePrefix = {arXiv},
+    eprint    = {1802.02212},
+    timestamp = {Mon, 13 Aug 2018 16:48:35 +0200},
+    biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-02212},
+    bibsource = {dblp computer science bibliography, https://dblp.org}}
+---

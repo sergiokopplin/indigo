@@ -1,5 +1,6 @@
 ---
 title: "Training Restricted Boltzmann Machines via the Thouless-Anderson-Palmer Free Energy"
+jemoji: ":star:"
 layout: publication
 category: publication
 pubtype: conf

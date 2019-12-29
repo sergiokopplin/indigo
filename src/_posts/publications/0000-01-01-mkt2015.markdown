@@ -1,5 +1,6 @@
 ---
 title: "Sparse Estimation with the Swept Approximated Message-Passing Algorithm"
+jemoji: ":star:"
 layout: publication
 category: publication
 pubtype: conf
