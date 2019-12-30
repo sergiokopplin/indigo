@@ -1,0 +1,14 @@
+---
+title: "Introduction to Compressed Sensing" 
+date: 2015-09-01
+category: publication
+layout: publication
+pubtype: talk
+tag:
+    - talk
+authors: E. W. Tramel
+image: /assets/images/houches2015.png
+linkslides: /assets/doc/houches2015.pdf
+in: "École de Physique des Houches, «Biophysique: de la Mesure au Modèle en biologie»"
+year: 2015
+---

@@ -1,0 +1,18 @@
+---
+title: "Inferring Sparsity: Compressed Sensing using Generalized Restricted Boltzmann Machines" 
+date: 2016-08-01
+category: publication
+layout: publication
+pubtype: talk
+tag:
+    - talk
+authors: E. W. Tramel
+image: /assets/images/itwist2016.png 
+link: https://www.itwist16.es.aau.dk/Slides+and+posters/
+linkslides: /assets/doc/itwist2016.pdf
+linkpdf: https://arxiv.org/pdf/1609.04167.pdf
+in: International Traveling Workshop on Interactions between Sparse Models and Technology (iTWIST)
+year: 2016
+abstract: >-
+    In this work, we consider compressed sensing reconstruction from M measurements of K-sparse structured signals which do not possess a writable correlation model. Assuming that a generative statistical model, such as a Boltzmann machine, can be trained in an unsupervised manner on example signals, we demonstrate how this signal model can be used within a Bayesian framework of signal reconstruction. By deriving a message-passing inference for general distribution restricted Boltzmann machines, we are able to integrate these inferred signal models into approximate message passing for compressed sensing reconstruction. Finally, we show for the MNIST dataset that this approach can be very effective, even for M < K.
+---

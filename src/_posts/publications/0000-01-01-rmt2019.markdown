@@ -1,0 +1,25 @@
+---
+jemoji: ":new:"
+title: "Efficient Per-Example Gradient Computations in Convolutional Neural Networks"
+layout: publication
+category: publication
+pubtype: preprint
+authors: G. Rochette, A. Manoel, E. W. Tramel
+date: 2019-12-12
+in: "arXiv [cs.LG]: 1912.06015"
+year: 2019
+tag:
+    - publication
+    - ppml
+    - engineering 
+link: https://arxiv.org/abs/1912.06015 
+linkpdf: https://arxiv.org/pdf/1912.06015 
+abstract: >- 
+    Deep learning frameworks leverage GPUs to perform massively-parallel computations over batches of many training examples efficiently. However, for certain tasks, one may be interested in performing per-example computations, for instance using per-example gradients to evaluate a quantity of interest unique to each example. One notable application comes from the field of differential privacy, where per-example gradients must be norm-bounded in order to limit the impact of each example on the aggregated batch gradient. In this work, we discuss how per-example gradients can be efficiently computed in convolutional neural networks (CNNs). We compare existing strategies by performing a few steps of differentially-private training on CNNs of varying sizes. We also introduce a new strategy for per-example gradient calculation, which is shown to be advantageous depending on the model architecture and how the model is trained. This is a first step in making differentially-private training of CNNs practical.
+bibtex: >-
+    @unpublished{RMT2018,
+        title={Efficient Per-Example Gradient Computations in Convolutional Neural Networks},
+        author={Gaspar Rochette and Andre Manoel and Eric W. Tramel},
+        year={2019},
+        note={arXiv [cs.LG]: 1912.06015}}
+---

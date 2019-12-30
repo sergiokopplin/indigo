@@ -1,5 +1,5 @@
 ---
-title: "Deterministic and Generalize Framework for Unsupervised Learning with Restricted Boltzmann Machines"
+title: "Deterministic and Generalized Framework for Unsupervised Learning with Restricted Boltzmann Machines"
 layout: publication
 category: publication
 pubtype: article
@@ -8,6 +8,9 @@ authors: E. W. Tramel, M. Gabrié, A. Manoel, F. Caltagirone, F. Krzakala
 date: 2018-10-01
 in: Physical Review X
 year: 2018
+image: /assets/images/tgm2018.png
+imageCaption: >-
+    Top Row: TAP Free energy for all unique TAP solutions (transparent blue dots), and the Helmholtz free energy estimate via uniform averaging (red line). The number of unique TAP solutions is also given (green line). Bottom Row: Detail of TAP free energy distributions for slices of training. Histograms are given as bars, while kernel density estimates of the TAP free energy distribution are given as curves.
 tag:
     - publication
     - statistical physics

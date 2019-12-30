@@ -19,10 +19,10 @@ tweak the presentation a bit so that it is more to my liking.
 
 - [x] Finish converting codeblocks to Nord theme (finish the SASS)
 - [x] Fix codeblock border
-- [ ] Convert site color scheme into Nord.
+- [x] Convert site color scheme into Nord.
 - ~~[ ] Figure out why SASS won't accept variables imported from SCSS?~~
 - [x] Get code blocks centered
-- [ ] Figure out why Jekyll/Kramdown is not converting fence blocks and only relying on Liquid-defined code blocks.
+- ~~[ ] Figure out why Jekyll/Kramdown is not converting fence blocks and only relying on Liquid-defined code blocks.~~
 - [x] Fix MathJax header script to use the right AMS formatting.
 
 
@@ -105,6 +105,7 @@ if __name__ == "__main__":
     print(Net())
 {% endhighlight %}
 
+
 ### Getting Fence Blocks to Work?
 
 Somewhere along the way, we have lost the ability to be able
@@ -137,3 +138,45 @@ $$ |a| \leq |a+a|.$$
 It seems like MathJax is a little bit broken in its original formulation. Specifically,
 it seems like the `\mathbb` is not working, but this is probably due to the wrong
 script being used for the MathJaX configuration in the header.
+
+## Revisiting Publications
+
+In the original implementation of the site, I used the same `post` layout
+for blog posts _as well as_ publication pages. Since most of the publication
+page is boilerplate, this meant a lot of by-hand editing of the individual
+pages to make them conform. This is painful and a bad idea! This is exactly
+why Jekyll has **layouts**.
+
+Honestly, I don't know why I didn't do this in the first place. Probably I was
+just too new to the entire process to be able make a good decision about it
+in the first place.
+
+Now the majority of the publication pages are auto-generated from some 
+preamble YAML. It still leaves open the possibility of also including some 
+custom content on each page, which will be included after the abstract if desired.
+
+To be able to do this, I needed to also start using the `category` property
+from Jekyll, making sure that these pages are separated out distinctly and 
+handled distinctly from the general blog posts.
+
+### Adding More Content
+
+Additionally, I had a number of works to include into the list since the 
+last time I refreshed the publication list in 2016. Finally, I also have tried
+to do my best to dig up all of the slides, presentations, papers, etc. that I
+could for these different works. My hope is that this page can serve to finally
+tie up all of these loose ends. If not for anyone else, then at least for 
+_myself_. Honestly, it is hard to be able to dig up my own content to be 
+able to refer back to later!
+
+## Nord Theme & SASS
+
+This time around, I have spent _a lot_ of time with the SASS/SCSS of the site.
+Previously, I never touched this stuff. Especially back in 2016, when the entire
+formatting ran off of CSS, it seemed just a nightmare to be able to dig into.
+Especially for me as a front-end neophyte.
+
+However, with the more recent inclusion of SASS support into Jekyll, it has been
+a little bit fun, actually, to learn more about CSS and how to format content
+properly. I also have grown to appreciate the SASS structure layout that the
+Indigo theme authors put together.

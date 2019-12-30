@@ -1,0 +1,22 @@
+---
+title: "Federated Learning: Rewards & Challenges of Distributed Private ML" 
+date: 2019-05-01
+category: publication
+layout: publication
+pubtype: talk
+tag:
+    - talk
+authors: E. W. Tramel
+image: /assets/images/qcon2019.png 
+link: https://www.infoq.com/presentations/federated-learning-distributed-ml/
+in: Qcon.ai (San Francisco, USA)
+year: 2019
+---
+
+## Summary
+
+I discuss the basic concepts underlying the federated ML approach, the advantages it brings, as well as the challenges associated with constructing federated solutions.
+
+## About Qcon.ai
+
+QCon.ai is a practical AI and machine learning conference bringing together software teams working on all aspects of AI and machine learning.

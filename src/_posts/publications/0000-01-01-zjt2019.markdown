@@ -1,0 +1,30 @@
+---
+title: "ToxicBlend: Virtual Screening of Toxic Compounds with Ensemble Predictors"
+layout: publication
+category: publication
+pubtype: article
+authors: M. Zaslavskiy, S. Jégou, E. W. Tramel, & G. Wainrib
+date: 2019-05-01
+in: "Computational Toxicology"
+year: 2019
+tag:
+    - publication
+    - ensemble predictors
+    - toxicology 
+    - drug discovery
+link: https://www.sciencedirect.com/science/article/abs/pii/S2468111318300744 
+linkpdf: https://arxiv.org/pdf/1806.04449 
+abstract: >- 
+    Timely assessment of compound toxicity is one of the biggest challenges facing the pharmaceutical industry today. A significant proportion of compounds identified as potential leads are ultimately discarded due to the toxicity they induce. In this paper, we propose a novel machine learning approach for the prediction of molecular activity on ToxCast targets. We combine extreme gradient boosting with fully-connected and graph-convolutional neural network architectures trained on QSAR physical molecular property descriptors, PubChem molecular fingerprints, and SMILES sequences. Our ensemble predictor leverages the strengths of each individual technique, significantly outperforming existing state-of-the art models on the ToxCast and Tox21 toxicity related bioactivity-prediction datasets. We provide free access to molecule bioactivity prediction using our model at http://toxicblend.owkin.com.
+bibtex: >-
+    @article{GZT2019,
+        title = "ToxicBlend: Virtual screening of toxic compounds with ensemble predictors",
+        journal = "Computational Toxicology",
+        volume = "10",
+        pages = "81 - 88",
+        year = "2019",
+        issn = "2468-1113",
+        doi = "https://doi.org/10.1016/j.comtox.2019.01.001",
+        url = "http://www.sciencedirect.com/science/article/pii/S2468111318300744",
+        author = "Mikhail Zaslavskiy and Simon JÃ©gou and Eric W. Tramel and Gilles Wainrib"}
+---

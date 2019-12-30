@@ -11,6 +11,9 @@ tag:
     - publication
     - statistics
     - clinical trials
+image: /assets/images/gtc2017.png
+imageCaption: >-
+    CALGB 40603 dataset, Arm 4 versus Arm 3. Cumulative processes generated from true covariate data (red) is contrasted with those constructed from random patient permutations (blue). Evaluation of the clinical N-stage covariate. 
 link: https://arxiv.org/abs/1712.08211 
 linkpdf: https://arxiv.org/pdf/1712.08211.pdf 
 abstract: >- 

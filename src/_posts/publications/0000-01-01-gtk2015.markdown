@@ -19,6 +19,7 @@ imageCaption: >-
 link: http://papers.nips.cc/paper/5788-training-restricted-boltzmann-machine-via-the-thouless-anderson-palmer-free-energy
 linkpdf: http://papers.nips.cc/paper/5788-training-restricted-boltzmann-machine-via-the-thouless-anderson-palmer-free-energy.pdf
 linkcode: http://github.com/sphinxteam/Boltzmann.jl
+linkposter: /assets/doc/gtk2015-poster.pdf
 abstract: >-
     Restricted Boltzmann machines are undirected neural networks which have been shown to be effective in many applications, including serving as initializations for training deep multi-layer neural networks. One of the main reasons for their success is the existence of efficient and practical stochastic algorithms, such as contrastive divergence,for unsupervised training. We propose an alternative deterministic iterative procedure based on an improved mean field method from statistical physics known as the Thouless-Anderson-Palmer approach. We demonstrate that our algorithm provides performance equal to, and sometimes superior to, persistent contrastive divergence, while also providing a clear and easy to evaluate objective function. We believe that this strategy can be easily generalized to other models as well as to more accurate higher-order approximations, paving the way for systematic improvements in training Boltzmann machines with hidden units.
 bibtex: >-

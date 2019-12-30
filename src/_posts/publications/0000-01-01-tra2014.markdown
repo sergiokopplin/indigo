@@ -1,0 +1,17 @@
+---
+title: "A probabilistic approach to compressed sensing: Robust Algorithms" 
+date: 2014-01-01
+category: publication
+layout: publication
+pubtype: talk
+tag:
+    - talk
+authors: E. W. Tramel
+image: /assets/images/itwist2014.png
+link: https://sites.google.com/site/itwist14/invited-speakers
+linkslides: /assets/doc/itwist2014.pdf
+in: International Traveling Workshop on Interactions between Sparse Models and Technology (iTWIST)
+year: 2014
+abstract: >-
+    Compressed sensing has sparked a major evolution in signal processing over the past decade, leading to much theoretical and computational effort on signal recovery tasks, especially from the perspective of deterministic convex optimization. In this talk, we will concentrate instead on probabilistic approaches to signal recovery and acquisition, reviewing recent works in message-passing algorithms and measurement matrix design and how their combination can allow for theoretically optimal signal reconstruction performance in terms of the phase transition between solvable and unsolvable recovery problems. Unfortunately, there are a number of practical shortcomings that prevent the efficient use of these techniques on many general classes problems. However, we will review a number of recent research trajectories that attempt to overcome these issues and potentially bring optimal recovery to real-world applications.
+---
