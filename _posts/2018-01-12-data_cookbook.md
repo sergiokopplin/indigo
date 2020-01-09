@@ -364,3 +364,12 @@ We can insert captions without graphics by redefining the `includegraphics` comm
 ```latex
 \renewcommand{\includegraphics}[2][]{}
 ```
+
+## Ensure figures and tables only appear after the insert position
+
+The `flafter` package prevents any floats (figures, tables) from being presented above the position in the code where they are inserted.
+This is useful for ensuring a float appears below the relevant section title, or to ensure it doesn't insert too early in the paper and give away your punchline before you're ready.
+
+```latex
+\usepackage{flafter}
+```
