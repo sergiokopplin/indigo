@@ -127,15 +127,4 @@ compress_html:
         - development
         - stage
 
-exclude:
-    - "travis.sh"
-    - "Rakefile"
-    - "README.md"
-    - "Gemfile"
-    - "Gemfile.lock"
-    - "FAQ.md"
-    - node_modules
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/gems/
-    - vendor/ruby/
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "node_modules", "vendor"]
