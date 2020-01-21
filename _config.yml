@@ -100,13 +100,6 @@ show-author: true
 # do you want some animations?
 animation: true
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-admin
-
 jekyll-mentions:
     base_url: https://github.com
 
@@ -116,4 +109,15 @@ compress_html:
         - development
         - stage
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+exclude:
+    - "travis.sh"
+    - "Rakefile"
+    - "README.md"
+    - "Gemfile"
+    - "Gemfile.lock"
+    - "FAQ.md"
+    - node_modules
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
