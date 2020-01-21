@@ -100,6 +100,24 @@ show-author: true
 # do you want some animations?
 animation: true
 
+# add default values to specific pages or layouts
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      layout: "post"
+    values:
+      # setting all post to not hidden by default, 
+      # can be overridden in the front matter for a specific post
+      hidden: false 
+      
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+
 jekyll-mentions:
     base_url: https://github.com
 
