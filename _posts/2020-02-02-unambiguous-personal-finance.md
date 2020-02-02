@@ -19,12 +19,12 @@ points in our life. We want cash-in-hand when we're retired, when we're employed
 when we're unemployed, when we're at school, etc. In this post I'll make specific recommendations on
 how to maintain ample *liquidity* (money available for immediate spending) throughout your life.
 
-# Priority One: You Need Liquidity Right Now
+# Priority One: You Need Money Right Now
 
 Before we can realize our dreams tomorrow, we need to survive today. It is a fact of modern life
 that we spend money every day, if not every few hours.
 
-The money that we keep readily available for spending (a.k.a. *spending money*) should come from
+The money that we keep readily available for spending (*spending money*) should come from
 regular sources of income, like a biweekly paycheck. Spending money should be kept in a checking
 account and accessible via ATMs and a debit card.
 
@@ -46,7 +46,7 @@ financial businesses for handling these needs.
 ## An Aside: How to Spend Money Effectively
 
 This post is focused on where to keep your money to maintain long-term liquidity. It is worth
-mentioning, however, that there's another side to personal finance: how to spend your money most
+mentioning, however, that there's another side to personal finance: how to spend your money
 effectively. Spending with cash or a debit card isn't always the right way to go.
 *Cash-back credit cards* like
 [Capital One Savor](https://www.capitalone.com/credit-cards/savor-dining-rewards/) will actually
@@ -62,40 +62,34 @@ luxury good or service you'd like to spend it on (no judgment) but if you want t
 to prepare for the future, you're going to want to put it in a *savings account*. Why?
 
 Savings accounts are not just checking accounts with a special name. Checking accounts are perfectly
-liquid: at any moment you can approach an ATM to convert funds in the account into cash. Savings accounts
-are less liquid. There's a federal law dictating that you may only withdraw from a savings account
-six times per month.
+liquid: at any moment you can approach an ATM to convert funds in the account into cash. You can set
+them up for direct deposit of your paycheck.
 
-This shouldn't scare you: it is totally fine to withdraw the entire amount in your savings in one
-transaction. The money isn't out of reach. It's just made to be slightly less available than it would
-be in a checking account.
+Savings accounts don't always have these features. They aren't as liquid. They do allow you to withdraw
+your money on-demand, though. That makes them good emergency funds for when you lose your job or have a
+medical emergency. And finally, there is a very important upside to savings accounts, however: they carry
+*interest*.
 
-There is a very important upside to savings accounts, however: they carry more *interest*.
-
-Interest is the money that a bank will pay you for keeping your money with them. They pay you this money
-because **they actually use your money while it's stored with them**. This is completely normal and a
-good thing. Just make sure that the account is FDIC-insured, and you'll be guaranteed access to all of
-your money by federal law.
-
-So when choosing a savings account, we look for two things:
-* must be FDIC-insured
+Interest is the money that a bank will pay you for keeping your money with them. It's defined as a percentage
+of the money you keep with them. The higher the percentage, the more money they'll pay you. So when choosing
+a savings account, we look for two things:
+* must be FDIC-insured (as usual)
 * should have the highest possible interest rate
-
-Interest rates change over time due to decisions by the Federal Reserve (the details are wayyy beyond
-the scope of this article). So don't expect to sign up for a savings account with a 2% interest rate and
-for that interest rate to be maintained for some period of time. It could change at any time. It's out
-of the bank's control.
 
 I can make a very specific recommendation about which savings account to use: the
 [Wealthfront Cash Account](https://www.wealthfront.com/cash). Wealthfront keeps its interest rate as high
 as possible, is FDIC-insured, and only requires $1 to start.
 
-That's right: **if you have $1 to spare, you can start a high-interest savings account with Wealthfront**.
+That's right: **if you have $1 to spare, you can start a high-interest savings account right now**.
 
-So start your account now and keep depositing your spare cash. Ideally, your savings account will have
-3-6 months expenditures, so if you are suddenly employed, you have 3-6 months to find a new job before
+So start your Wealthfront Cash Account now and keep depositing your spare cash. Ideally, your savings
+account will cover
+3-6 months expenditures, so if you are suddenly unemployed, you have 3-6 months to find a new job before
 your money runs out. The exact number of months to save for depends on your job: if it's easy to find a
 new job, only save for 3. If it's hard, save for 6.
+
+On top of that, you can add money you're saving for a specific purpose, like a down payment on a house or
+car. Just make sure you keep the 3-6 months cushion available and you'll be in great shape.
 
 # Priority Three: You'll Need Money When You Can't Work Anymore (Retirement)
 
