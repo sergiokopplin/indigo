@@ -32,6 +32,7 @@ Choice of a checking account is straightforward:
 * must be FDIC-insured (this means you won't lose your money if the bank fails)
 * should have ATMs wherever you go
 * must not have any fees
+
 This isn't a hard decision: you're not going to have much interaction with the bank that holds your
 checking account. As long as you don't spend more money than is in your account, there's nothing
 to fear here. It's a good idea to choose a large, well-established retail bank like
@@ -53,3 +54,49 @@ pay you back a (very) small portion of your expenditures just for using them. Pr
 credit cards is a delicate venture, however, and I'll save the details another post.
 
 # Priority Two: You'll Need Money When You're Unemployed
+
+TODO: break into subsections
+
+Once you've paid your monthly expenditures you might find some money left over. There may be some
+luxury good or service you'd like to spend it on (no judgment) but if you want to use that money
+to prepare for the future, you're going to want to put it in a *savings account*. Why?
+
+Savings accounts are not just checking accounts with a special name. Checking accounts are perfectly
+liquid: at any moment you can approach an ATM to convert funds in the account into cash. Savings accounts
+are less liquid. There's a federal law dictating that you may only withdraw from a savings account
+six times per month.
+
+This shouldn't scare you: it is totally fine to withdraw the entire amount in your savings in one
+transaction. The money isn't out of reach. It's just made to be slightly less available than it would
+be in a checking account.
+
+There is a very important upside to savings accounts, however: they carry more *interest*.
+
+Interest is the money that a bank will pay you for keeping your money with them. They pay you this money
+because **they actually use your money while it's stored with them**. This is completely normal and a
+good thing. Just make sure that the account is FDIC-insured, and you'll be guaranteed access to all of
+your money by federal law.
+
+So when choosing a savings account, we look for two things:
+* must be FDIC-insured
+* should have the highest possible interest rate
+
+Interest rates change over time due to decisions by the Federal Reserve (the details are wayyy beyond
+the scope of this article). So don't expect to sign up for a savings account with a 2% interest rate and
+for that interest rate to be maintained for some period of time. It could change at any time. It's out
+of the bank's control.
+
+I can make a very specific recommendation about which savings account to use: the
+[Wealthfront Cash Account](https://www.wealthfront.com/cash). Wealthfront keeps its interest rate as high
+as possible, is FDIC-insured, and only requires $1 to start.
+
+That's right: **if you have $1 to spare, you can start a high-interest savings account with Wealthfront**.
+
+So start your account now and keep depositing your spare cash. Ideally, your savings account will have
+3-6 months expenditures, so if you are suddenly employed, you have 3-6 months to find a new job before
+your money runs out. The exact number of months to save for depends on your job: if it's easy to find a
+new job, only save for 3. If it's hard, save for 6.
+
+# Priority Three: You'll Need Money When You Can't Work Anymore (Retirement)
+
+TODO
