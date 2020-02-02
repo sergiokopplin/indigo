@@ -65,8 +65,7 @@ them up for direct deposit of your paycheck.
 
 Savings accounts don't always have these features. They aren't as liquid. They do allow you to withdraw
 your money on-demand, though. That makes them good emergency funds for when you lose your job or have a
-medical emergency. And finally, there is a very important upside to savings accounts, however: they carry
-*interest*.
+medical emergency. And most importantly, they carry *interest*.
 
 Interest is the money that a bank will pay you for keeping your money with them. It's defined as a percentage
 of the money you keep with them. The higher the percentage, the more money they'll pay you. So when choosing
