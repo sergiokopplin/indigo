@@ -55,8 +55,6 @@ credit cards is a delicate venture, however, and I'll save the details another p
 
 # Priority Two: You'll Need Money When You're Unemployed
 
-TODO: break into subsections
-
 Once you've paid your monthly expenditures you might find some money left over. There may be some
 luxury good or service you'd like to spend it on (no judgment) but if you want to use that money
 to prepare for the future, you're going to want to put it in a *savings account*. Why?
