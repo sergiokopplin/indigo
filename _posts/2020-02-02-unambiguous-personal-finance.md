@@ -190,4 +190,32 @@ in! It won't be the end of the world, but you'll pay a penalty when the IRS asse
 This brings us to our final point...
 
 # What If I've Maxed Out My 401(k) Contribution and I Still Have Money Left Over?
-TODO
+Give yourself a pat on the back. You're covering your monthly expenses, you have an emergency fund, and you're
+preparing for retirement. You should feel very good about your finances.
+
+If you have some money left over and want to splurge, now is a good time. That said, if you still want to go
+down the road of saving for the future, and of having your money work for you, there's a final place to put
+your money. It offers a high rate of return in exchange for low liquidity and moderate risk. This is not a place
+to put money you plan on spending any time soon, and it is subject to the ups and downs of the market, so it
+is possible to lose money.
+
+## So What Is it?
+Another fine product by Wealthfront, a [Wealthfront Investment Account](https://www.wealthfront.com/investing).
+This is your portal into the complicated world of stocks, bonds, commodities, etc. You'll need $500 to get
+started, and they charge 0.25% of your account annually. In return you get a pain-free way to deposit your
+spare cash into an account that intelligently spreads your money across many different kinds of investment.
+This *diversification* will protect your money from sudden shifts in small parts of the market (read: less risk).
+
+This investment account is very different from a 401(k). There's no limit. You can put as much money in as you
+want. It's important to be prudent, however. Only put money into this investment account after you've handled
+all the other requirements listed above (monthly expenditures, emergency fund, 401(k)).
+
+Another important difference: you can, technically, withdraw money from this account whenever you want. **That's
+normally a bad idea though.** Withdrawing money from an investment account comes with taxes. If you want to save
+money for a big purchase like a new TV, put that money into your savings account. Money you put into an
+investment account will generally stay there for a long time, like waiting for your retirement. At that point
+you'll be sitting pretty with all your saved money and will be consulting tax professionals on the optimal way
+to use the money.
+
+# And That's It!
+Happy saving!
