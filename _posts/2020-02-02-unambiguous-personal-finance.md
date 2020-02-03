@@ -100,7 +100,7 @@ checking account and we have an emergency fund on top of that. We're really just
 interest rate, or a better *rate of return* (means the same thing).
 
 There are countless investment offerings, and you've probably heard of some of them: "stocks", "bonds",
-"mutual funds", and "ETFs". Each offers a unique balance of three factors:
+"mutual funds", and "ETFs". Each offers a unique balance of four factors:
 * rate of return (we want to maximize this)
 * liquidity (we also want to maximize this, but it's not so important)
 * risk (we want to minimize this)
@@ -155,7 +155,7 @@ taxes will generally be higher in the future.
 This is a really lame question, for multiple reasons. Firstly, they love to use the word "contribute" here,
 like when they say "401(k) contributions". When they say "contribute", they just mean that before they write your
 paycheck, they will take a part of it and put it into your 401(k). So your paycheck will be smaller because
-some of the money went into your 401(k), and you won't be able to get that money until your 65.
+some of the money went into your 401(k), and you won't be able to get that money until you're 65.
 
 Second reason: when people ask this question, they act like you make this decision about your "contribution" and
 then you can't change it. That's totally false. You can change your contribution whenever you want. If you
