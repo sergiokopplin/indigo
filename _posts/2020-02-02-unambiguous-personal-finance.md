@@ -14,6 +14,8 @@ author: andrew
 description: Personal finance advice that is specific and achievable.
 ---
 
+> Note: I'm not qualified to give financial advice. Follow these instructions at your own risk.
+
 The goal of personal finance is to have money available to purchase the things we need at all
 points in our life. We want cash-in-hand when we're retired, when we're employed,
 when we're unemployed, when we're at school, etc. In this post I'll make specific recommendations on
@@ -90,4 +92,24 @@ car. Just make sure you keep the 3-6 months cushion available and you'll be in g
 
 # Priority Three: You'll Need Money When You Can't Work Anymore (Retirement)
 
-TODO
+If you've come this far: congratulations. You're comfortably paying your monthly expenses and you've got
+an emergency fund for when things go awry. But what do you do with the money left over?
+
+As usual, maybe there's some luxury item you're looking to pick up (no judgment). But if that's not the case,
+it's important that we put this money to work for us in a way that our high-interest savings account can't.
+We aren't concerned about liquidity at this point: we're already covering our monthly expenses with our
+checking account and we have an emergency fund on top of that. We're really just looking for a higher
+interest rate, or a better *rate of return* (means the same thing).
+
+There are countless investment offerings, and you've probably heard of some of them: "stocks", "bonds",
+"mutual funds", and "ETFs". Each offers a unique balance of three factors:
+* rate of return (we want to maximize this)
+* liquidity (we also want to maximize this, but it's not so important)
+* risk (we want to minimize this)
+* taxes (we want to minimize these)
+
+What's the best option? You've probably heard of it and are probably confused by it: a 401(k). Let's start
+by clearing some things up:
+* **Why is it called a 401(k)?** I don't know, it doesn't matter.
+* **What is the (k) for?** See above.
+* **Why is it good?** Tax reasons.
