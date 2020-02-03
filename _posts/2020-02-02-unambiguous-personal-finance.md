@@ -50,8 +50,7 @@ financial businesses for handling these needs.
 This post is focused on where to keep your money to maintain long-term liquidity. It is worth
 mentioning, however, that there's another side to personal finance: how to spend your money
 effectively. Spending with cash or a debit card isn't always the right way to go.
-*Cash-back credit cards* like
-[Capital One Savor](https://www.capitalone.com/credit-cards/savor-dining-rewards/) will actually
+*Cash-back credit cards* will actually
 pay you back a (very) small portion of your expenditures just for using them. Properly using
 credit cards is a delicate venture, however, and I'll save the details another post.
 
@@ -108,8 +107,38 @@ There are countless investment offerings, and you've probably heard of some of t
 * risk (we want to minimize this)
 * taxes (we want to minimize these)
 
-What's the best option? You've probably heard of it and are probably confused by it: a 401(k). Let's start
+## So Which Do I Choose?
+
+None of those things. Something else. You've probably heard of it and are probably confused by it: a 401(k). Let's start
 by clearing some things up:
 * **Why is it called a 401(k)?** I don't know, it doesn't matter.
 * **What is the (k) for?** See above.
-* **Why is it good?** Tax reasons.
+* **Why is it good?** Tax reasons. It's not important that you understand why. If you want to know more, search
+elsewhere.
+* **Why is it bad?** You can't use the money until you're retired (65 years old), and there's a limit to how
+much money you can put into it. Also it has a weird name.
+
+If waiting for the money until you're 65 sounds lame, it is. But use this to your advantage. You're not going
+to put all of your money into a 401(k). But the money that you do put in will remain behind-the-scenes, growing
+steadily, and waiting for you when you're finally ready to put your feet up. Putting money into a 401(k) is a
+good feeling.
+
+## How Do I Start?
+
+401(k)s are prepared by employers and provided to their employees. If your employer doesn't offer a 401(k),
+they better have a good reason why. 401(k)s are pretty fundamental to benefits plans.
+
+The details of your 401(k) are employer-specific, but you should be able to get the details from your HR department,
+or by asking your manager. Don't be shy about this: 401(k) plans are very common and very important to *everyone*.
+
+Your employer will need you to answer a few questions before you set up your plan:
+
+### Which fund do you want your money to go into?
+There's probably going to be a *lot* of options here. You can ignore almost all of them. You're looking for
+something like "Target Retirement Fund 2060", where "2060" is around the year you turn 65 (or whenever you expect
+to retire). It might be called a "Vanguard Target Retirement Fund" or "Fidelity Target Retirement Fund", either
+one is fine (both Vanguard and Fidelity are respectable financial companies).
+
+### How much of your salary do you want to contribute?
+This is a really lame question, for multiple reasons. Firstly, they love to use the word "contribute" here,
+like when they say "401(k) contributions". Also, 
