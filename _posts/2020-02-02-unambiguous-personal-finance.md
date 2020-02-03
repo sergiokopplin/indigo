@@ -122,8 +122,9 @@ steadily, and waiting for you when you're finally ready to put your feet up. Put
 good feeling.
 
 ## How Do I Start?
-401(k)s are prepared by employers and provided to their employees. If your employer doesn't offer a 401(k),
-they better have a good reason why. 401(k)s are pretty fundamental to benefits plans.
+401(k)s are prepared by employers and provided to their employees. 401(k)s are **very, very common**.
+If your employer doesn't offer a 401(k), they better have a good reason why. 401(k)s are pretty fundamental to
+benefits plans.
 
 The details of your 401(k) are employer-specific, but you should be able to get the details from your HR department,
 or by asking your manager. Don't be shy about this: 401(k) plans are very common and very important to *everyone*.
