@@ -217,5 +217,10 @@ investment account will generally stay there for a long time, like waiting for y
 you'll be sitting pretty with all your saved money and will be consulting tax professionals on the optimal way
 to use the money.
 
+And one final note: an investment account (at Wealthfront or anywhere) is **not FDIC-insured**. You can lose money.
+We reduce this risk with aforementioned diversification, and by playing "the long game". We aren't interested in
+making short-term bets on individual companies. We are betting that the market as a whole (in other words, the human
+race) will grow in the next few decades. That's a much safer bet.
+
 # And That's It!
 Happy saving!
