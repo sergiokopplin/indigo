@@ -22,7 +22,6 @@ when we're unemployed, when we're at school, etc. In this post I'll make specifi
 how to maintain ample *liquidity* (money available for immediate spending) throughout your life.
 
 # Priority One: You Need Money Right Now
-
 Before we can realize our dreams tomorrow, we need to survive today. It is a fact of modern life
 that we spend money every day, if not every few hours.
 
@@ -35,6 +34,7 @@ Choice of a checking account is straightforward:
 * should have ATMs wherever you go
 * must not have any fees
 
+## Which Do I Choose?
 This isn't a hard decision: you're not going to have much interaction with the bank that holds your
 checking account. As long as you don't spend more money than is in your account, there's nothing
 to fear here. It's a good idea to choose a large, well-established retail bank like
@@ -55,7 +55,6 @@ pay you back a (very) small portion of your expenditures just for using them. Pr
 credit cards is a delicate venture, however, and I'll save the details another post.
 
 # Priority Two: You'll Need Money When You're Unemployed
-
 Once you've paid your monthly expenditures you might find some money left over. There may be some
 luxury good or service you'd like to spend it on (no judgment) but if you want to use that money
 to prepare for the future, you're going to want to put it in a *savings account*. Why?
@@ -74,6 +73,7 @@ a savings account, we look for two things:
 * must be FDIC-insured (as usual)
 * should have the highest possible interest rate
 
+## Which Do I Choose?
 I can make a very specific recommendation about which savings account to use: the
 [Wealthfront Cash Account](https://www.wealthfront.com/cash). Wealthfront keeps its interest rate as high
 as possible, is FDIC-insured, and only requires $1 to start.
@@ -90,7 +90,6 @@ On top of that, you can add money you're saving for a specific purpose, like a d
 car. Just make sure you keep the 3-6 months cushion available and you'll be in great shape.
 
 # Priority Three: You'll Need Money When You Can't Work Anymore (Retirement)
-
 If you've come this far: congratulations. You're comfortably paying your monthly expenses and you've got
 an emergency fund for when things go awry. But what do you do with the money left over?
 
@@ -107,8 +106,7 @@ There are countless investment offerings, and you've probably heard of some of t
 * risk (we want to minimize this)
 * taxes (we want to minimize these)
 
-## So Which Do I Choose?
-
+## Which Do I Choose?
 None of those things. Something else. You've probably heard of it and are probably confused by it: a 401(k). Let's start
 by clearing some things up:
 * **Why is it called a 401(k)?** I don't know, it doesn't matter.
@@ -124,7 +122,6 @@ steadily, and waiting for you when you're finally ready to put your feet up. Put
 good feeling.
 
 ## How Do I Start?
-
 401(k)s are prepared by employers and provided to their employees. If your employer doesn't offer a 401(k),
 they better have a good reason why. 401(k)s are pretty fundamental to benefits plans.
 
@@ -139,6 +136,57 @@ something like "Target Retirement Fund 2060", where "2060" is around the year yo
 to retire). It might be called a "Vanguard Target Retirement Fund" or "Fidelity Target Retirement Fund", either
 one is fine (both Vanguard and Fidelity are respectable financial companies).
 
+### (Optional) Roth or 401(k)?
+Some businesses only offer their employees a 401(k) plan. Some offer a Roth too. If your employer doesn't offer a
+Roth option, move on to the next section. If you have a Roth option: read on.
+
+The difference between Roth and traditional 401(k) is actually pretty complicated. It's all about taxes. I'll try
+to simplify though:
+* if you expect your tax rate to be higher when you retire than it is now, go with Roth
+* if you expect your tax rate to be lower when you retire than it is now, go with 401(k)
+* if you aren't sure, there's nothing wrong with putting half your money into a Roth and half into a 401(k)
+
+Roth generally makes sense. Unless you're making a ton of money in your current position, you're probably going
+to pay a higher tax rate when you're retired. Maybe because your income will be higher then, or maybe because
+taxes will generally be higher in the future.
+
 ### How much of your salary do you want to contribute?
 This is a really lame question, for multiple reasons. Firstly, they love to use the word "contribute" here,
-like when they say "401(k) contributions". Also, 
+like when they say "401(k) contributions". When they say "contribute", they just mean that before they write your
+paycheck, they will take a part of it and put it into your 401(k). So your paycheck will be smaller because
+some of the money went into your 401(k), and you won't be able to get that money until your 65.
+
+Second reason: when people ask this question, they act like you make this decision about your "contribution" and
+then you can't change it. That's totally false. You can change your contribution whenever you want. If you
+accidentally make it too large then you can just change it for you next paycheck and every paycheck after that.
+
+Third reason: this is just a really hard question for someone to answer, especially if they're new to 401(k)s.
+Basically, when you consider how much you want to put into your 401(k), you are answering:
+* how much of my paycheck do I need to cover my expenses
+* how much do I want to put into a fund that I won't have access to until I'm 65
+
+Those are two very hard questions! Let's make them simpler. We really just need to know how much we're spending
+per month. We've already got our emergency fund set up, and if we decide we need some more income later, we
+can always reduce our contribution. Ultimately, 401(k)s are great tools for investment because of their tax
+incentives (and that's all you need to know). So we want to put as much in as possible.
+
+To determine your monthly expenditures, you could use an app like [Mint](https://mint.com). Or you could just
+read your checking account's *monthly statements*. These should show the money that you're spending on rent,
+credit cards, etc. Figure out the maximum money you need per month, subtract that from your monthly paycheck,
+and the rest can go into your 401(k).
+
+#### But what if they ask for a percentage contribution?
+They're morons. It's much easier for you to calculate a dollar amount you want to contribute. Any 401(k) plan
+will let you determine a dollar amount to contribute rather than a percentage of your income. Just tell them
+the dollar amount, or do it yourself from the 401(k) plan's website.
+
+#### But there's a limit!
+Very important! 401(k)s have great tax advantages, so the IRS has to limit how heavily you can use them. In
+2020, you're allowed to put $19,500 into your 401(k) plan. If that's a lot, as in way more than you could
+possibly put in, don't worry about it. If it's within reach, just make sure you don't put more than $19,500
+in! It won't be the end of the world, but you'll pay a penalty when the IRS assesses your taxes.
+
+This brings us to our final point...
+
+# What If I've Maxed Out My 401(k) Contribution and I Still Have Money Left Over?
+TODO
