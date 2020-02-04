@@ -40,7 +40,7 @@ npm init  # answer prompts, just use defaults
 # Set `main` in `./package.json` to `src/index.js`
 ```
 
-Now you're ready to start writing code in the program's entrypoint, `index.js`. You'll need to
+Now you're ready to start writing code in the program's entrypoint, `src/index.js`. You'll need to
 create this file.
 
 # What Does "Hello, world!" Look Like?
