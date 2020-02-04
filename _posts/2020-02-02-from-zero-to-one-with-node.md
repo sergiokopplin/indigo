@@ -118,7 +118,7 @@ const fetch = require("node-fetch");
 npm i --save-dev prettier
 ```
 
-`package.json`
+`package.json`:
 ```json
 {
   "scripts": {
