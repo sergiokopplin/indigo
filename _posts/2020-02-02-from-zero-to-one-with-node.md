@@ -84,7 +84,7 @@ module.exports.getGreeting = getGreeting;
 const helper = require("./helper");
 
 const main = async () => {
-    console.log("Hello, world!");
+    console.log(helper.getGreeting());
 };
 
 ...
