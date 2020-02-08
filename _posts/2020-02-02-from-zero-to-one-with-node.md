@@ -19,6 +19,8 @@ description: How to write an executable program in node.
 It's unique in that it interprets a language with a different name. That is, while `python`
 interprets Python and `bash` interprets Bash, `node` interprets JavaScript.
 
+Node is also known as Node.js.
+
 # How Do I Install It?
 Like most interpreters, it comes in different versions, so you'll want to install it with
 a version manager. I recommend [`n`](https://github.com/tj/n).
