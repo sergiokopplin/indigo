@@ -2,7 +2,7 @@
 title: "From Zero to One with Node"
 layout: post
 date: 2020-02-02
-image: /assets/images/markdown.jpg
+image: /assets/images/node.jpg
 headerImage: false
 tag:
 - development
