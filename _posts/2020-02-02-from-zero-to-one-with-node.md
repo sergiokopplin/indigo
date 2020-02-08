@@ -135,4 +135,35 @@ npm run format
 ```
 
 # How Do I Run Unit Tests?
-TODO
+```bash
+npm i --save-dev jest
+```
+
+`package.json`:
+```json
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+```
+
+For a file `./src/helper.json`:
+```javascript
+const f = () => "Hello, world";
+module.exports.f = f;
+```
+
+Have this test file at `./src/helper.test.json`:
+```javascript
+const helper = require("./helper");
+
+test('greeting says hello', () => {
+  expect(helper.f()).toBe('Hello, world');
+});
+```
+
+Then run
+```bash
+npm t
+```
