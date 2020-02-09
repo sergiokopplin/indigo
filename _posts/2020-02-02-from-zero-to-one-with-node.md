@@ -2,7 +2,7 @@
 title: "From Zero to One with Node"
 layout: post
 date: 2020-02-02
-image: /assets/images/node.jpg
+image: /assets/images/node.png
 headerImage: false
 tag:
 - development
@@ -11,7 +11,7 @@ tag:
 - javascript
 category: blog
 author: andrew
-description: How to write an executable program in node.
+description: How to write an executable program in Node.
 ---
 
 # What is Node?
