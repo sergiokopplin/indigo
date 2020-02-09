@@ -93,7 +93,7 @@ pub fn get() -> String {
 ```
 
 `src/main.rs`:
-```javascript
+```rust
 mod helper;
 
 fn main() {
