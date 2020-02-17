@@ -122,6 +122,8 @@ plugins:
   - jemoji
   - jekyll-admin
   - jekyll-paginate-v2
+  - jekyll-fontawesome-svg
+
 
 jekyll-mentions:
     base_url: https://github.com
