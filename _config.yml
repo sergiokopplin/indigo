@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Mani Levian Asli
+bio: Burning HardDrives since 1988
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A Blog from Mani Levian Asli, about daily struggles and technology related posts!
 
 # if it's an external image, update below for true
 # better with square images
@@ -41,21 +41,21 @@ twitter: mytwitter
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: manilevian
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: m.asli@leibniz-hbi.de
 
 authors:
     johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: Mani Levian Asli
+        bio: Burning HhardDrives since 1988
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
