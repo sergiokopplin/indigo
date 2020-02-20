@@ -19,7 +19,7 @@ resume-url: https://google.com/?q=my+resume
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+permalink: /manilevian/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
@@ -55,7 +55,7 @@ email: m.asli@leibniz-hbi.de
 authors:
     johndoe:
         name: Mani Levian Asli
-        bio: Burning HhardDrives since 1988
+        bio: Burning HardDrives since 1988
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
