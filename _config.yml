@@ -54,7 +54,7 @@ projects: true
 about: true
 blog: true
 cv: true
-research: true
+research: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
