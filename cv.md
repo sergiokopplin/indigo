@@ -22,7 +22,12 @@ Jacob C. Kimmel
 
 ## Experience
 
-**Calico Life Sciences, South San Francisco, CA, 2018 - Present**  
+**Calico Life Sciences, South San Francisco, CA, 2020 - Present**
+*Computational Fellow, Computing*
+
+* Leading an independent research program focused on programming cell identity to address age-related diseases
+
+**Calico Life Sciences, South San Francisco, CA, 2018 - 2020**
 *Data Scientist, Computing*  
 
 * Lead an [investigation of cell type and tissue environment influences on aging](http://jkimmel.net/murine_cell_aging) using single cell genomics across three murine tissues
@@ -140,29 +145,3 @@ Reviewer for:
 
 * Assisted high school students with the development and implementation of science fair projects
 * Arranged for students to access laboratory equipment at the U. of Central Florida, trained students in molecular biology
-
-## References
-
-Wallace F. Marshall  
-Professor, UCSF  
-Wallace.Marshall@ucsf.edu
-
-Andrew S. Brack  
-Associate Professor, UCSF  
-Andrew.Brack@ucsf.edu  
-
-Todd Nystul  
-Professor, UCSF  
-Todd.Nystul@ucsf.edu
-
-Orion Weiner  
-Professor, UCSF  
-Orion.Weiner@ucsf.edu
-
-Andrew G. York  
-Principal Investigator, Calico Life Sciences  
-agy@calicolabs.com
-
-Eric Verdin  
-President & CEO, The Buck Institute  
-eric.verdin@buckinstitute.org
