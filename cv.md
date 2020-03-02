@@ -4,7 +4,9 @@ layout: page
 permalink: /cv/index.html
 ---
 Jacob C. Kimmel  
-[jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com), (321)-536-1919, San Francisco, California
+[jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com)
+
+San Francisco, California
 
 [CV PDF]({{site.url}}/assets/cv.pdf)
 
@@ -22,7 +24,12 @@ Jacob C. Kimmel
 
 ## Experience
 
-**Calico Life Sciences, South San Francisco, CA, 2018 - Present**  
+**Calico Life Sciences, South San Francisco, CA, 2020 - Present**
+*Computational Fellow, Computing*
+
+* Leading a research program focused on programming cell identity to address age-related diseases
+
+**Calico Life Sciences, South San Francisco, CA, 2018 - 2020**
 *Data Scientist, Computing*  
 
 * Lead an [investigation of cell type and tissue environment influences on aging](http://jkimmel.net/murine_cell_aging) using single cell genomics across three murine tissues
@@ -84,20 +91,22 @@ Jacob C. Kimmel
 
 ## Selected Publications
 
-1. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DH, Kelley DR, Rosenthal AZ. A murine aging cell atlas reveals cell identity and tissue-specific trajectories of aging. 2019. *Genome Research*. [doi:
+1. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells. In press at *Development*, 2020. [doi: https://doi.org/10.1101/739185](https://doi.org/10.1101/739185). Featured in [*Company of Biologists: the Node*](https://thenode.biologists.com/august-in-preprints-4/highlights/).
+2. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DH, Kelley DR, Rosenthal AZ. A murine aging cell atlas reveals cell identity and tissue-specific trajectories of aging. 2019. *Genome Research*. [doi:
 10.1101/gr.253880.119](https://genome.cshlp.org/content/29/12/2088). Featured by *Genome Research* and in [*Company of Biologists: the Node*](http://thenode.biologists.com/june-in-preprints-4/highlights/)
-2. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells 2019. bioRxiv. [doi: https://doi.org/10.1101/739185](https://doi.org/10.1101/739185). Featured in [*Company of Biologists: the Node*](https://thenode.biologists.com/august-in-preprints-4/highlights/).
 3. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. In press, *IEEE Transactions on Computational Biology and Bioinformatics.*, doi: 10.1109/TCBB.2019.2919307. [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
 4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
 5. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
 
 ## Selected Presentations
 
-1. **Kimmel JC**, Hwang A, Brack AS, Marshall WF. Inferring cell state dynamics with machine learning models. Invited presentation to the *Machine Learning in Cell Biology* Group meeting at ASCB-EMBO 2018. San Diego, CA. 2018.
-2. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018.
-3. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Most Innovative Use of Deep Learning in Biomedicine Award).*
-4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
-5. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
+1. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DG, Kelley DR, Rosenthal AZ. Cell type and tissue-specific aging trajectories. Invited speaker for California QB3 Institute's *Aging and the Single Cell* event. San Francisco, CA. 2019.
+2. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DG, Kelley DR, Rosenthal AZ. Cell type and tissue-specific aging trajectories. Invited speaker at Mission Bay Capital Biolabs. San Francisco, CA. 2019.
+3. **Kimmel JC**, Hwang A, Brack AS, Marshall WF. Inferring cell state dynamics with machine learning models. Invited presentation to the *Machine Learning in Cell Biology* Group meeting at ASCB-EMBO 2018. San Diego, CA. 2018.
+4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected presentation to the Quantitative Biology meeting. Honolulu, HI. 2018.
+5. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Most Innovative Use of Deep Learning in Biomedicine Award).*
+6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. Selected oral presentation to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
+7. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. Selected oral presentation to the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
 
 ## Academic Service
 
@@ -140,29 +149,3 @@ Reviewer for:
 
 * Assisted high school students with the development and implementation of science fair projects
 * Arranged for students to access laboratory equipment at the U. of Central Florida, trained students in molecular biology
-
-## References
-
-Wallace F. Marshall  
-Professor, UCSF  
-Wallace.Marshall@ucsf.edu
-
-Andrew S. Brack  
-Associate Professor, UCSF  
-Andrew.Brack@ucsf.edu  
-
-Todd Nystul  
-Professor, UCSF  
-Todd.Nystul@ucsf.edu
-
-Orion Weiner  
-Professor, UCSF  
-Orion.Weiner@ucsf.edu
-
-Andrew G. York  
-Principal Investigator, Calico Life Sciences  
-agy@calicolabs.com
-
-Eric Verdin  
-President & CEO, The Buck Institute  
-eric.verdin@buckinstitute.org

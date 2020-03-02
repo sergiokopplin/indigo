@@ -3,14 +3,21 @@ title: About
 layout: page
 permalink: /about/index.html
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+<img src="{{ site.url }}/{{ site.picture }}" style="width:300px;" />
+
 
 ## Hi, I'm Jacob
 
-I'm currently a Data Scientist at [Calico](http://calicolabs.com) where I work on the biology of aging. My recent research has focused on [how aging manifests differently among diverse mammalian cell types]({{site.url}}/murine_cell_aging) and developing methods for timelapse imaging and single cell RNA sequencing.
+I lead a research program as a Computational Fellow at [Calico](http://calicolabs.com) focused on programming cell identities to address aging.
 
-I previously earned my PhD at the [University of California San Francisco](https://ucsf.edu) in the [Laboratory of Cell Geometry](https://cellgeometry.ucsf.edu) as part of the NSF [Center for Cellular Construction](https://ccc.ucsf.edu), advised by [Wallace Marshall](http://tetrad.ucsf.edu/faculty/wallace-wallace) and [Andrew Brack](http://bracklab.com). My thesis work developed methods to infer how cell states change over time from timelapse imaging data. This approach allowed me to measure the rate of muscle stem cell activation for the first time and helped reveal age-related changes in muscle stem cells.
+Previously, I worked as a Data Scientist in [Calico's Computing group.](https://www.calicolabs.com/team/computational-scientists/)
+My recent research has focused on explaining [how aging manifests differently among diverse mammalian cell types](https://mca.research.calicolabs.com), [how stem cells age](https://myo.research.calicolabs.com), and on developing methods for timelapse imaging and [single cell RNA sequencing.](https://github.com/scnym)
 
-When I’m not doing science, I like to write poorly, climb big hills, and play several instruments with equitable levels of mediocrity.
+Prior to Calico, I earned a PhD at the [University of California San Francisco](https://ucsf.edu) as part of the NSF [Center for Cellular Construction](https://ccc.ucsf.edu), advised by [Wallace Marshall](http://tetrad.ucsf.edu/faculty/wallace-wallace) and [Andrew Brack](http://bracklab.com).
+My thesis work developed methods to infer how cell states change over time from timelapse imaging data.
+This approach allowed me to measure the rate of muscle stem cell activation and [helped reveal age-related changes in muscle stem cells.]({{site.url}}/aging_musc_dynamics)
+
+When I’m not doing science, I like to write, climb big hills, and play several instruments with equitable levels of mediocrity.
 
 If you ever want to get in touch with me, shoot me an email at [jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com) or find me on Twitter [@jacobkimmel](https://twitter.com/jacobkimmel).
+I enjoy meeting new people to discuss aging biology, machine learning, carbon capture, and the relative merits of San Francisco coffee shops.

@@ -1,6 +1,6 @@
 # main text of home
 name: Jacob C. Kimmel
-bio: 'Data Scientist @ Calico. Interested in aging, imaging, & machine learning.'
+bio: 'Computational Fellow @ Calico. Interested in aging, genomics, imaging, & machine learning.'
 
 # if it's an external image, update below for true
 external-image: false
@@ -26,22 +26,22 @@ disqus: false
 
 # if you don't have any of social below, comment the line
 # facebook:
-twitter: jacobkimmel
 # google: mygoogle
 # instagram: jacobkimmel
 # pinterest: mypinterest
-linkedin: jacob-kimmel
 #youtube: myyoutube
 #spotify: myspotify
 github: jacobkimmel
 #medium: medium
 #vimeo: myvimeo
 email: jacobkimmel@gmail.com
+linkedin: jacob-kimmel
+twitter: jacobkimmel
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
@@ -54,6 +54,7 @@ projects: true
 about: true
 blog: true
 cv: true
+research: false
 
 # do you want to show the "read time" of the posts?
 read-time: true

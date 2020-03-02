@@ -6,10 +6,10 @@
             </li>
         {% endif %}
 
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
+        {% if site.research == true %}
+            {% if page.title != "Research" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                    <a class="link" href="{{ site.url }}/research">Research</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -18,6 +18,14 @@
             {% if page.title != "Projects" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/projects">Projects</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
+        {% if site.blog == true %}
+            {% if page.title != "Blog" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/blog">Blog</a>
                 </li>
             {% endif %}
         {% endif %}
