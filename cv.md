@@ -24,12 +24,12 @@ San Francisco, California
 
 ## Experience
 
-**Calico Life Sciences, South San Francisco, CA, 2020 - Present**. 
+**Calico Life Sciences, South San Francisco, CA, 2020 - Present**.  
 *Computational Fellow, Computing*
 
 * Leading a research program focused on programming cell identity to address age-related diseases
 
-**Calico Life Sciences, South San Francisco, CA, 2018 - 2020**. 
+**Calico Life Sciences, South San Francisco, CA, 2018 - 2020**.  
 *Data Scientist, Computing*  
 
 * Lead an [investigation of cell type and tissue environment influences on aging](http://jkimmel.net/murine_cell_aging) using single cell genomics across three murine tissues
