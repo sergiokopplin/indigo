@@ -10,7 +10,7 @@
   event: Droidcon London 2019
   description: The third iteration of this talk, and the best one yet. I spoke about the benefits of the robot pattern for more maintainable UI and unit tests.
   showResources: true
-  video: https://skillsmatter.com/skillscasts/14144-espresso-patronum-the-magic-of-the-robot-pattern
+  video: https://www.droidcon.com/media-detail?video=392833982
   slides: https://speakerdeck.com/adammc331/droidcon-london-espresso-patronum
   blog: https://dev.to/adammc331/leveraging-the-robot-pattern-for-espresso-tests
 
