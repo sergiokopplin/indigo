@@ -129,27 +129,34 @@ fn main() {
 ```
 
 # How Do I Use a Dependency?
-You can find dependencies on [NPM's website](https://www.npmjs.com/).
+Rust calls its packages *crates*. You can find crates on [crates.io](https://crates.io/).
+A crate's page will include a line for your `Cargo.toml`. Install the [`log`](https://crates.io/crates/log)
+crate like so:
 
-You can install one with
+```toml
+[package]
+...
+
+[dependencies]
+log = "0.4.8"
+```
+
+Then update the lockfile with
 ```bash
-npm i $package_name
+cargo build
 ```
 
-Like
-```bash
-npm i node-fetch
+You can use a crate in your source like:
+
+`src/helper.rs`:
+```rust
+pub fn get() -> String {
+    log::info!("helper::get");
+    return "Hello, world!".to_string();
+}
 ```
 
-This will create a `package-lock.json`. Add it to version control.
-
-It will also create `node_modules/`. Do not add it to version control. Add it to your
-`.gitignore`.
-
-You can use a dependency in your source like:
-```javascript
-const fetch = require("node-fetch");
-```
+Note there's no import statement.
 
 # How Do I Format My Code?
 ```bash
