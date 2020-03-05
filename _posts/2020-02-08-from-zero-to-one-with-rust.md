@@ -151,7 +151,7 @@ You can use a crate in your source like:
 `src/helper.rs`:
 ```rust
 pub fn get() -> String {
-    // note that this statement must be separated from returned expression with semi-colon
+    // note that this statement must be separated from returned expression with semicolon
     log::info!("helper::get");
     "Hello, world!".to_string()
 }
@@ -170,35 +170,25 @@ cargo clippy
 ```
 
 # How Do I Run Unit Tests?
-```bash
-npm i --save-dev jest
+Update `src/another_helper/mod.rs`:
+```rust
+pub mod get;
+
+#[cfg(test)]
+mod get_test;
 ```
 
-`package.json`:
-```json
-{
-  "scripts": {
-    "test": "jest"
-  }
+Create `src/another_helper/get_test.rs`:
+```rust
+use super::get::*;
+
+#[test]
+fn test_get() {
+    assert_eq!(get(), "Goodbye, world!".to_string())
 }
-```
-
-For a file `./src/helper.json`:
-```javascript
-const f = () => "Hello, world";
-module.exports.f = f;
-```
-
-Have this test file at `./src/helper.test.json`:
-```javascript
-const helper = require("./helper");
-
-test('greeting says hello', () => {
-  expect(helper.f()).toBe('Hello, world');
-});
 ```
 
 Then run
 ```bash
-npm t
+cargo test
 ```
