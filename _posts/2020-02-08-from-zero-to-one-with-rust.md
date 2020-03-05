@@ -89,7 +89,7 @@ In Rust parlance, we create a new *module*. We're going to call it `helper`.
 `src/helper.rs`:
 ```rust
 pub fn get() -> String {
-    return "Hello, world!".to_string();
+    "Hello, world!".to_string() // note that no return statement is needed
 }
 ```
 
@@ -108,7 +108,7 @@ file in its own directory.
 `src/another_helper/get.rs`:
 ```rust
 pub fn get() -> String {
-    return "Goodbye, world!".to_string();
+    "Goodbye, world!".to_string()
 }
 ```
 
@@ -151,8 +151,9 @@ You can use a crate in your source like:
 `src/helper.rs`:
 ```rust
 pub fn get() -> String {
+    // note that this statement must be separated from returned expression with semi-colon
     log::info!("helper::get");
-    return "Hello, world!".to_string();
+    "Hello, world!".to_string()
 }
 ```
 
@@ -161,6 +162,11 @@ Note there's no import statement.
 # How Do I Format My Code?
 ```bash
 cargo fmt
+```
+
+# How Do I Lint My Code?
+```bash
+cargo clippy
 ```
 
 # How Do I Run Unit Tests?
