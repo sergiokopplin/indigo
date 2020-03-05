@@ -160,21 +160,7 @@ Note there's no import statement.
 
 # How Do I Format My Code?
 ```bash
-npm i --save-dev prettier
-```
-
-`package.json`:
-```json
-{
-  "scripts": {
-    "format": "./node_modules/.bin/prettier --write src/**"
-  }
-}
-```
-
-Then run
-```bash
-npm run format
+cargo fmt
 ```
 
 # How Do I Run Unit Tests?
