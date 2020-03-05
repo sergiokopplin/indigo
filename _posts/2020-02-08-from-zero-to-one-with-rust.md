@@ -85,6 +85,7 @@ If this is your first time running the app, you'll get a new
 file at `./Cargo.lock`. Version-control it.
 
 # How Do I Split My Project Into Multiple Files?
+In Rust parlance, we create a new *module*. We're going to call it `helper`.
 `src/helper.rs`:
 ```rust
 pub fn get() -> String {
@@ -98,6 +99,32 @@ mod helper;
 
 fn main() {
     println!("{}", helper::get());
+}
+```
+
+# How Do I Split My Project Into Multiple Directories?
+Just like before, we're going to create another *module*. But this one will be one
+file in its own directory.
+`src/another_helper/get.rs`:
+```rust
+pub fn get() -> String {
+    return "Goodbye, world!".to_string();
+}
+```
+
+`src/another_helper/mod.rs`:
+```rust
+pub mod get;
+```
+
+`src/main.rs`:
+```rust
+mod helper;
+mod another_helper;
+
+fn main() {
+    println!("{}", helper::get());
+    println!("{}", another_helper::get::get());
 }
 ```
 
