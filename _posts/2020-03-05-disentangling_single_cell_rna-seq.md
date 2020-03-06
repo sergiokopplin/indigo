@@ -30,9 +30,9 @@ One of the first steps in the analysis of these data sets is dimensionality redu
 Classical techniques like principal component analysis of non-negative matrix factorization can identify latent variables that explain variation in the data, but these latent variables are often difficult to interpret.
 
 In an ideal latent space, we might want some of the underlying biological processes that influence cell state [e.g. cell cycle state] to be captured in a single latent variable.
-The field of disentanglement learning hopes to derive just such a representation from data, and I wanted to see if those methods could likewise learn interpretable latent space from single cell RNA-sequencing data.
+Disentanglement learning hopes to derive just such a representation from data, and I wanted to see if those methods could likewise learn interpretable latent space from single cell RNA-sequencing data.
 
-I ran a few preliminary experiments, summarized in the pre-print below.
+I ran a few preliminary experiments as a side project, [summarized in the pre-print above.](https://www.biorxiv.org/content/10.1101/2020.03.04.972166v1)
 
 ## Representational trade-offs
 
@@ -45,6 +45,8 @@ These experiments yielded two key results:
 I evaluated the alignment of VAE latent variables with ground-truth generative factors in simulated data, and I evaluated alignment with cell identity programs and experimental conditions in real experimental data.
 Based on these metrics, I found that latent variables more closely map to generative factors in both simulated and real data when disentanglement methods are applied.
 
+![Results of disentanglement training on simulated single cell RNA-seq data. Latent variables are more aligned with generative factors when disentanglement methods are employed.]({{site.url}}/assets/images/disentangle_scrnaseq/sim_result.png)
+
 This results suggests that disentanglement techniques may be a promising method to learn interpretable representations of single cell transcriptomics data!
 
 ### (2) Disentangled representations are less useful for some downstream tasks
@@ -53,6 +55,8 @@ Unfortunately, there's a trade-off.
 The disentanglement training methods I used encourage the latent space to adhere closely to a prior distribution.
 In this case, our prior is a simple unit Gaussian $\mathcal{N}(0, \mathbf{I})$.
 This prior encourages the latent variables to be independent of one another, which is good for interpretability, but it also constrains the latent representation to a distribution that is highly unlikely to reflect real transcriptional space.
+
+![Results of disentanglement training on experimental data of PBMCs profiled before and after stimulation with IFN-beta.]({{site.url}}/assets/images/disentangle_scrnaseq/kang_result.png)
 
 I saw this trade-off when performing downstream cell type clustering.
 In disentangled latent spaces, I saw worse clustering performance than in *entangled* representations.
