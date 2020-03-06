@@ -9,7 +9,7 @@ tag:
 - bioinformatics
 - genomics
 - single cell
-blog: true
+projects: true
 use_math: true
 ---
 
