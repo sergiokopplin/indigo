@@ -30,7 +30,9 @@
 ## Setup
 
 0. :star: to the project. :metal:
+1. Generate an [access token](https://github.com/settings/tokens/new) with `repo` scope
 2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+3. Add secret in `project settings > secrets` with your access token as `GITHUB_TOKEN`
 3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
 4. Write some posts :bowtie:
 
