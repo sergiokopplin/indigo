@@ -44,6 +44,8 @@ These experiments yielded two key results:
 
 I evaluated the alignment of VAE latent variables with ground-truth generative factors in simulated data, and I evaluated alignment with cell identity programs and experimental conditions in real experimental data.
 Based on these metrics, I found that latent variables more closely map to generative factors in both simulated and real data when disentanglement methods are applied.
+In the two figures below, conditions with $\beta = 1$ correspond to standard VAE training, while $\beta > 1$ corresponds to disentanglement training.
+Notice that the best correlations with generative factors or classification accuracies are obtained when disentanglement training is applied.
 
 ![Results of disentanglement training on simulated single cell RNA-seq data. Latent variables are more aligned with generative factors when disentanglement methods are employed.]({{site.url}}/assets/images/disentangle_scrnaseq/sim_result.png)
 
@@ -55,6 +57,7 @@ Unfortunately, there's a trade-off.
 The disentanglement training methods I used encourage the latent space to adhere closely to a prior distribution.
 In this case, our prior is a simple unit Gaussian $\mathcal{N}(0, \mathbf{I})$.
 This prior encourages the latent variables to be independent of one another, which is good for interpretability, but it also constrains the latent representation to a distribution that is highly unlikely to reflect real transcriptional space.
+Notice that cell type recovery by unsupervised clustering decreases when we apply disentanglement training in panel **C** below.
 
 ![Results of disentanglement training on experimental data of PBMCs profiled before and after stimulation with IFN-beta.]({{site.url}}/assets/images/disentangle_scrnaseq/kang_result.png)
 
