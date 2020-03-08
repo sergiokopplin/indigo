@@ -12,7 +12,7 @@ jobs:
             - uses: actions/checkout@v1
             - name: Build & Deploy to GitHub Pages
               env:
-                  DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   GITHUB_REPOSITORY: ${{ github.GITHUB_REPOSITORY }}
                   GITHUB_ACTOR: ${{ github.GITHUB_ACTOR }}
               uses: sylvainmetayer/jekyll-deploy-gh-pages@master
