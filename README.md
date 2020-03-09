@@ -30,7 +30,7 @@
 ## Setup
 
 0. :star: to the project. :metal:
-1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork) 
 2. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
 3. Write some posts :bowtie:
 
