@@ -30,9 +30,9 @@
 ## Setup
 
 0. :star: to the project. :metal:
-2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
-3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
-4. Write some posts :bowtie:
+1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+2. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
+3. Write some posts :bowtie:
 
 If you want to test locally on your machine, do the following steps also:
 
