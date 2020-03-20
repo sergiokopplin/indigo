@@ -18,13 +18,17 @@ description: "Aging induces aberrant state transition dynamics in murine muscle 
 
 *This post is adapted from a series of posts on Twitter, so please excuse the short form nature of some descriptions.*
 
+The paper described in this post is now available (open access) at *Development*:
+
+[**Aging induces aberrant state transition kinetics in murine muscle stem cells**](https://dev.biologists.org/content/early/2020/03/20/dev.183855)  
+Jacob C. Kimmel, Ara B. Hwang, Annarita Scaramozza, Wallace F. Marshall, Andrew S. Brack  
+Development 2020 : dev.183855 doi: 10.1242/dev.183855 Published 20 March 2020  
+
 ## Muscle stem cell activation is impaired with age
 
 Old muscle stem cells (MuSCs) are bad at regeneration, partly because they don’t activate properly.
 Does aging change the set of cell states in activation, or the transition rates between them?
 In my final days as a graduate student, I explored this question with my excellent mentors [Wallace Marshall](cellgeometry.ucsf.edu) & [Andrew Brack.](bracklab.com)
-
-[Check out our manuscript on this topic over on bioRxiv.](https://www.biorxiv.org/content/10.1101/739185v1)
 
 If aging changes a cellular response like stem cell activation, it might happen through two mechanisms.
 Aging might change the set of cell states a cell transitions through (different paths), or it might change the rate of transitions (different speeds).
