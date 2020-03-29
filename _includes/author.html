@@ -8,27 +8,6 @@
         <p class="bio">{{ site.authors[page.author].bio }}</p>
 
         <div class="share">
-            <!-- Note: Only use three share links if your site width is set to large -->
-            <!-- If site width is set to normal, you may choose any two share links -->
-            {% comment %} <a class="twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }} - {{ page.title }} by @{{ site.authors[page.author].twitter }}">
-                {% fa_svg fab.fa-twitter %}
-                <span class="icon-twitter">Tweet</span>
-            </a>
-
-            <a class="facebook" href="javascript:void(0)" onclick="window.open('https://facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;">
-                {% fa_svg fab.fa-facebook %}
-                <span class="icon-facebook-rect">Share</span>
-            </a> {% endcomment %}
-
-            <!-- <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ site.url }}{{ page.url }}&amp;title={{ page.title }}&amp;summary={{ page.description }}&amp;source={{ site.url }}" target="_blank">
-                {% fa_svg fab.fa-linkedin %}
-                <span class="icon-linkedin">Share</span>
-            </a> -->
-
-            <!-- <a class="reddit" href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank">
-                {% fa_svg fab.fa-reddit %}
-                <span class="icon-reddit">Share</span>
-            </a> -->
         </div>
     </div>
 </section>
