@@ -1,6 +1,6 @@
 # main text of home
 name: Walton Wang
-bio: University of Toronto Computer Engineering (Grad 2020), Amazon Software Development Intern (2019), Manulife Data Science Intern (2018), Software Development Research Assistant (2018), Photography, Long Distance Running, Piano
+bio: University of Toronto Computer Engineering Grad, previously interned at Amazon, interested in Data Systems
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -30,7 +30,7 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
+  shortname: waltonwang # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
@@ -48,10 +48,10 @@ github: wangwalton
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-# medium: medium
+medium: yuwaltonwang
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: waltonwang98@gmail.com
+email: yuwaltonwang@gmail.com
 
 authors:
     johndoe:
@@ -72,9 +72,13 @@ authors:
 # normal = 560px / large = 810px
 width: large
 
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+# if you do/don't need pagination, toggle 'enabled' between true/false below
+pagination:
+  enabled: false
+  sort_reverse: true # display recent posts first
+  title: ':title' # Changing this will mess up the header display logic
+  per_page: 5 
+  permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
@@ -101,20 +105,34 @@ show-author: true
 # do you want some animations?
 animation: true
 
+# add default values to specific pages or layouts
+defaults:
+-
+  scope:
+    path: "" # an empty string here means all files in the project
+    layout: "post"
+  values:
+    # setting all post to not hidden by default, 
+    # can be overridden in the front matter for a specific post
+    hidden: false 
+    
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-admin
+- jekyll-seo-tag
+- jekyll-gist
+- jekyll-feed
+- jemoji
+- jekyll-admin
+- jekyll-paginate-v2
+- jekyll-fontawesome-svg
+
 
 jekyll-mentions:
-    base_url: https://github.com
+  base_url: https://github.com
 
 compress_html:
-    ignore:
-        envs:
-        - development
-        - stage
+  ignore:
+      envs:
+      - development
+      - stage
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "node_modules", "vendor"]

@@ -1,5 +1,5 @@
 ---
-title: "3/28 Journal"
+title: "3/29 Journal"
 layout: post
 tag:
 - Golang
@@ -10,10 +10,16 @@ author: waltonwang
 
 #### 10:00PM pom 1 & 2
 
-Writing capstone code that my group uploaded, refactoring everything...
+Writing capstone code that my group uploaded, refactoring a lot
 
 #### 4:00PM pom 3 - 7
 
-Debugging everything, damn... but it works now, very bad, not proud of the code but it works...
-Back on personal site.
+Something I've learned:  
+
+In order to achieve a high functioning team, each feature needs to be owned end-to-end, 
+focusing on tying deployment and deployment, it would have been nice to have automated 
+dev ops that automated deploying to a beta stage. But that's not necessary, everyone should
+be required to know the general ideas of deployment.
+
+Started configuring my website again.
 
