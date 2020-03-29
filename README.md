@@ -22,17 +22,17 @@
 
 ## What has inside
 
-- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
-- Tests with [Travis](https://travis-ci.org/)
+- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
+- Tests with [Travis](https://travis-ci.org/);
 - Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
 - No JS. :sunglasses:
 
 ## Setup
 
 0. :star: to the project. :metal:
-2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
-3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
-4. Write some posts :bowtie:
+1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+2. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
+3. Write some posts :bowtie:
 
 If you want to test locally on your machine, do the following steps also:
 
@@ -62,5 +62,6 @@ and lot of other options, like width, projects, pages, read-time, tags, related 
 Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 
 ---
+## License
 
 [MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin

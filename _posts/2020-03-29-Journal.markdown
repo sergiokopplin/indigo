@@ -1,0 +1,19 @@
+---
+title: "3/28 Journal"
+layout: post
+tag:
+- Golang
+- Log
+category: blog
+author: waltonwang
+---
+
+#### 10:00PM pom 1 & 2
+
+Writing capstone code that my group uploaded, refactoring everything...
+
+#### 4:00PM pom 3 - 7
+
+Debugging everything, damn... but it works now, very bad, not proud of the code but it works...
+Back on personal site.
+

@@ -24,10 +24,9 @@
 
     > .twitter,
     > .facebook,
-    > .google-plus,
     > .linkedin,
     > .reddit
-        display: inline
+        display: inline-block
         vertical-align: middle
         font-size: 13px
         font-weight: 700
@@ -43,14 +42,14 @@
         @media #{$tablet}
             margin: 0 5px 10px 0
 
+        span
+            vertical-align: middle
+
     > .twitter
         background: #4fafed
 
     > .facebook
         background: #4361b3
-
-    > .google-plus
-        background: #dd4b39
 
     > .linkedin
         background: #0077b5
@@ -58,14 +57,8 @@
     > .reddit
         background: #ff4500
 
-    // #bug
-    // can't use .icon with >
-    // don't know why - sorry
-    // take this insted: youtube.com/watch?v=59Zcx9YbZxI
     svg
+        width: 16px
+        height: 16px
+        margin: 3px
         fill: #fff
-        position: relative
-        top: 3px
-        margin: 0
-        margin-right: 4px
-        display: inherit

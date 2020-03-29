@@ -1,0 +1,99 @@
+---
+title: "3/28 Journal"
+layout: post
+tag:
+- Golang
+- Log
+category: blog
+author: waltonwang
+---
+
+#### 1:00PM pom 6
+
+It seems that the default log package for golang is not utilized very much,
+instead Uber's zap is very popular, with over 10k+ stars on Github, it is also very fast
+has two different frontend APIs, one more friendly, but slower. Will learn both.
+
+#### 1:30PM pom 7
+
+Read more details about zap logging.
+Getting deep into the philsophy of logging in Golang, this 
+[comment](https://www.reddit.com/r/golang/comments/em8uiu/how_to_start_with_logging_in_go_projects_part_2/)
+by SEgopher is very insightful.
+
+#### 2:00PM pom 8
+
+Logging philosophy [post](https://dave.cheney.net/2015/11/05/lets-talk-about-logging)
+summarizes that logging should not have too many features, there shouldn't be more than
+two levels of logging:
+
+1. debug and info. debug is for development and for devs o be able to 
+2. trace the flow of a program, while info is for displaying for DevOps ppl.
+
+Levels you don't need:
+
+1. warnings:  because it's either critical or just informational
+2. error: all errors should be handled, or it's informational and bubbled up to caller
+3. fatal: calls os.exit(1) but now defer statements in goroutines won't run, should return errors to caller
+
+
+I should learn more about UNIX and Go philosophy
+
+post by SEgopher, who was Google SRE for years claim this:
+
+1. Don't log in a package that's not main
+2. Don't log things if programs are running normally
+3. If a log can be turned into a metric, use a metric, logs should tell you what went wrong
+
+
+Questions:
+1. How does `http.Server` provide a wrapper logger?
+
+
+#### 3:15PM pom 9
+
+Revisited my website at waltonwang.com, set up https for it, and updating the blog section
+
+
+#### 3:50PM pom 10
+
+Spring Planning for gocrawler
+
+1. Research DNS Resolution for http requests (Networking)
+2. Rate limiting on scraper side on hostnames (go)
+3. ~~~Storing HTML to Disk (io)~~~
+4. Storing HTML to Elasticsearch (elastic search)
+5. Better URL extraction (regex that looks for paths) (go)
+6. ~~~Query Duplicate detection (go)~~~
+7. SSL/TLS connection with Queue Server (gRPC)
+8. Limit number of goroutines on client (go)
+9. Change queue implementation from channel to array/slice (go)
+
+Random Thoughts:
+Could length of time in getting a response from a server be a potential side channel to
+how much traffic that it's getting?
+
+Scrape on change, some websites change often like coronavirus counter, some rarely change,
+like a cnn article, need a scrape time mechanism. (priority queue?)
+
+#### 7:10PM pom 12
+
+Implemented logging on both queue server and scraper node with zap. 
+
+#### 7:50PM pom 13
+
+Fixed up formatting on logging, also debugged files saved as different filenames bug.
+Turns out it was due to modifying the url.URL.Path in extracting linked URLs.
+
+#### 8:30PM pom 14
+
+Read about SSL and whether encryption is needed in VPC, (post)[https://security.stackexchange.com/questions/38685/aws-vpc-should-connections-between-instances-be-over-ssl]
+basically says its best to use SSL so that you are not locked into Amazon, and since we don't know how Amazon VPC works, it's best to do it. Amazon could also be snooping too.
+
+#### 9:00PM pom 15
+
+Learning SSL from (this)[https://bbengfort.github.io/programmer/2017/03/03/secure-grpc.html]
+
+#### 11:00PM pom 16
+
+Implementing SSL on Node and Server, not mutual.
