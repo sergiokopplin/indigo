@@ -51,10 +51,12 @@ width: large
 projects: true
 
 # if you don't need "about" or "blog", comment them out below
+# likewise, comment out lists, research, or bookshelf pages
 about: true
 blog: true
 cv: true
 research: false
+bookshelf: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
