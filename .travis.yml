@@ -2,11 +2,6 @@ language: ruby
 rvm:
  - 2.2.5
 
-before_script:
- - chmod +x travis.sh
-
-script: ./travis.sh
-
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
@@ -14,4 +9,3 @@ env:
 branches:
   only:
     - gh-pages
-    - next
