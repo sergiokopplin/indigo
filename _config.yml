@@ -134,7 +134,6 @@ compress_html:
 exclude:
   [
     "travis.sh",
-    "Rakefile",
     "README.md",
     "Gemfile",
     "Gemfile.lock",
