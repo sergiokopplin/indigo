@@ -17,7 +17,7 @@ resume-external: true
 resume-url: https://google.com/?q=my+resume
 
 url: https://koppl.in/indigo
-# your url: http://USERNAME.github.io
+# your url: https://USERNAME.github.io
 
 permalink: /:title/
 
@@ -134,7 +134,6 @@ compress_html:
 exclude:
   [
     "travis.sh",
-    "Rakefile",
     "README.md",
     "Gemfile",
     "Gemfile.lock",

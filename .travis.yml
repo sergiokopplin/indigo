@@ -1,11 +1,11 @@
 language: ruby
 rvm:
- - 2.2.5
+ - 2.6.3
 
 before_script:
- - chmod +x travis.sh
+ - chmod +x ./script/cibuild
 
-script: ./travis.sh
+script: ./script/cibuild
 
 env:
   global:
@@ -14,4 +14,3 @@ env:
 branches:
   only:
     - gh-pages
-    - next
