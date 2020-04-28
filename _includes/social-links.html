@@ -59,8 +59,14 @@
         </a>
     {% endif %}
 
-    {% if site.gitlab %}
-        <a class="link" data-title="gitlab.com/{{ site.gitlab }}" href="https://gitlab.com/{{ site.gitlab }}" target="_blank">
+    {% if site.gitlab-instance %}
+      {% assign gitlab-instance = site.gitlab-instance %}
+    {% else %}
+      {% assign gitlab-instance = "gitlab.com" %}
+    {% endif %}
+
+    {% if site.gitlab-user %}
+        <a class="link" data-title="{{ gitlab-instance }}/{{ site.gitlab-user }}" href="https://{{ gitlab-instance }}/{{ site.gitlab-user }}" target="_blank">
             <svg class="icon icon-gitlab"><use xlink:href="#icon-gitlab"></use></svg>
         </a>
     {% endif %}
