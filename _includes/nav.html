@@ -30,6 +30,12 @@
             {% endif %}
         {% endif %}
 
+        {% if site.bookshelf == true %}
+            <li class="item">
+                <a class="link" href="https://www.notion.so/Bookshelf-016329fb5d194ded9ae325e072eff685">Bookshelf</a>
+            </li>
+        {% endif %}
+
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
