@@ -60,7 +60,7 @@ Surprisingly, we found no evidence for trajectory or fate differences with age.
 
 However, we *did* see that old muscle stem cells differentiated more slowly!
 
-[Muscle differentiation delay]({{site.url}}/assets/images/myoage/web_maca_myogenic_traj.png)
+![Muscle differentiation delay]({{site.url}}/assets/images/myoage/web_maca_myogenic_traj.png)
 
 Where do the old muscle stem cells "slow down"?
 To answer this question, I leaned on the [remarkable RNA velocity technique.](https://t.co/18jOk2X7DE?amp=1)
@@ -69,23 +69,23 @@ Combining divergence analysis from dynamical systems with RNA velocity revealed 
 
 A stable stem cell state and committed state are separated by an unstable "repulsor," or energy barrier.
 
-[Divergence analysis]({{site.url}}/assets/images/myoage/web_maca_velo.png)
+![Divergence analysis]({{site.url}}/assets/images/myoage/web_maca_velo.png)
 
 
 The topology of the velocity field suggests cells have to make a decision in the repulsor region: either commit to making muscle, or retreat to the stem cell state.
 Using stochastic phase simulations, we found this intuition is correct.
 
-[Phase simulations]({{site.url}}/assets/images/myoage/web_maca_phase_math.png)
+![Phase simulations]({{site.url}}/assets/images/myoage/web_maca_phase_math.png)
 
 I loved this result, since it's consistent with the idea of "reserve cells" that quiesce when challenged to differentiate.
 
-[Reserve cells were proposed >20 years ago](https://t.co/rJ3AixiOmB?amp=1), but this is the first time we've captured cells in the middle of this decision.
+![Reserve cells were proposed >20 years ago](https://t.co/rJ3AixiOmB?amp=1), but this is the first time we've captured cells in the middle of this decision.
 
 We used a simple machine learning model and RNA velocity to predict how each cell will move in the differentiation trajectory, yielding a "change in pseudotime."
 
 We found that old muscle stem cells get "stuck" in the repulsor and differentiate more slowly than young cells.
 
-[Delayed differentiation]({{site.url}}/assets/images/myoage/web_maca_change_in_pseudotime.png)
+![Delayed differentiation]({{site.url}}/assets/images/myoage/web_maca_change_in_pseudotime.png)
 
 This suggests that there's a specific place in differentiation where old stem cells exhibit large aging defects.
 
@@ -95,7 +95,7 @@ To compare cells based on their velocity vectors, we developed a molecular boots
 
 We computed differential expression for forward vs. backward moving cells & found known regulators of myogenesis & some surprises.
 
-[Myogenic determinants]({{site.url}}/assets/images/myoage/web_maca_vdex.png)
+![Myogenic determinants]({{site.url}}/assets/images/myoage/web_maca_vdex.png)
 
 Our experiments suggest that differentiation reveals aging defects that are otherwise latent.
 
@@ -105,4 +105,4 @@ As an example of highlighting important changes, functional challenges in myogen
 
 While aging seems to have little effect on differentiation trajectory or fates, differences in the rate are readily apparent.
 
-[Models]({{site.url}}/assets/images/myoage/web_maca_models.png)
+![Models]({{site.url}}/assets/images/myoage/web_maca_models.png)
