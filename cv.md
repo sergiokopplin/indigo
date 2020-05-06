@@ -58,7 +58,7 @@ San Francisco, California
 * Implemented a software interface to custom microscopy hardware, allowing for automation of high-throughput timelapse imaging experiments
 
 **University of Central Florida, Orlando, FL, 2012 - 2015**  
-*Research and Mentoring Program Scholar, Burnett Research Scholar*  
+*Burnett Research Scholar, Research and Mentoring Program Scholar*  
 *Principal Investigator:* Kiminobu Sugaya, PhD
 
 * Characterized induced pluripotent reprogramming in mesenchymal stem cells using machine-learning based image analysis, investigated cell sorting applications
@@ -66,17 +66,17 @@ San Francisco, California
 * Investigated a pathway for producing neuronal cells from adipose derived stem cells by modulation of Nanog
 
 **University of California San Francisco, San Francisco, CA, 2014 Summer**  
-*Summer Research and Training Program, Amgen Scholar*  
+*Amgen Scholar, Summer Research and Training Program*  
 *Principal Investigator:* K. Mark Ansel, PhD
 
 * Investigated the role of microRNA-29 in the regulation of cytokine production in T-cells
 * Awarded the summer program’s Best Presentation Award
 
 **National Institute on Aging, Baltimore, MD, 2012 Summer**  
-*Summer Fellow, Image Informatics and Computational Biology Unit*  
+*Summer Fellow, Image Informatics and Computational Biology Unit*
 *Principal Investigator:* Ilya G. Goldberg, PhD
 
-* Identified differential aging rates across the anatomy of C. elegans using machine learning based image classification
+* Identified differential aging rates across the anatomy of *C. elegans* using machine learning based image classification
 * Investigated the relationship between cognitive and age related morphologies in the primate hippocampus
 
 ## Skills
@@ -92,7 +92,7 @@ San Francisco, California
 ## Selected Publications
 
 1. **Kimmel JC**, Hendrickson DG, Kelley DR. Differentiation reveals the plasticity of age-related change in murine muscle progenitors. 2020. *bioRxiv*. [https://doi.org/10.1101/2020.03.05.979112](doi: 10.1101/2020.03.05.979112).
-2. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells. 2020. *Development*. [https://doi.org/10.1242/dev.183855](doi: 10.1242/dev.183855). Featured in [*Company of Biologists: the Node*](https://thenode.biologists.com/august-in-preprints-4/highlights/).
+2. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells. 2020. *Development*. [https://doi.org/10.1242/dev.183855](doi: 10.1242/dev.183855). Featured in [*Company of Biologists: the Node*](https://thenode.biologists.com/august-in-preprints-4/highlights/). Chosen as a [Research Highlight by *Development*: Muscling in on Stem Cell Aging.](https://dev.biologists.org/content/147/9/e0901)
 3. **Kimmel JC**. Disentangling latent representations of single cell RNA-seq experiments. 2020. *bioRxiv*. [https://doi.org/10.1101/2020.03.04.972166](doi: 10.1101/2020.03.04.972166).
 4. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DH, Kelley DR, Rosenthal AZ. A murine aging cell atlas reveals cell identity and tissue-specific trajectories of aging. 2019. *Genome Research*. [doi:
 10.1101/gr.253880.119](https://genome.cshlp.org/content/29/12/2088). Featured by *Genome Research* and in [*Company of Biologists: the Node*](http://thenode.biologists.com/june-in-preprints-4/highlights/)
