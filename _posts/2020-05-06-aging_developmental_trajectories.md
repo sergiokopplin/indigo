@@ -79,13 +79,13 @@ Using stochastic phase simulations, we found this intuition is correct.
 
 I loved this result, since it's consistent with the idea of "reserve cells" that quiesce when challenged to differentiate.
 
-![Reserve cells were proposed >20 years ago](https://t.co/rJ3AixiOmB?amp=1), but this is the first time we've captured cells in the middle of this decision.
+[Reserve cells were proposed >20 years ago](https://t.co/rJ3AixiOmB?amp=1), but this is the first time we've captured cells in the middle of this decision.
 
 We used a simple machine learning model and RNA velocity to predict how each cell will move in the differentiation trajectory, yielding a "change in pseudotime."
 
 We found that old muscle stem cells get "stuck" in the repulsor and differentiate more slowly than young cells.
 
-![Delayed differentiation]({{site.url}}/assets/images/myoage/web_maca_change_in_pseudotime.png)
+![Delayed differentiation]({{site.url}}/assets/images/myoage/web_change_in_pseudotime.png)
 
 This suggests that there's a specific place in differentiation where old stem cells exhibit large aging defects.
 
