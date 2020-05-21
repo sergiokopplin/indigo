@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Ioannis Kyriazis
+bio: Software engineer with an interest in cyber security
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My personal slice of the web
 
 # if it's an external image, update below for true
 # better with square images
@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+resume-url: assets/ikyriazis_resume.pdf
 
 url: https://ioannis.ky
 # your url: https://USERNAME.github.io
@@ -29,16 +29,16 @@ permalink: /:title/
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+#disqus:
+#  shortname: mydisqus # enter this from your disqus account
+#  categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
 #twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: mylinkedin
+linkedin: ioannis-kyriazis-466517181
 # youtube: myyoutube
 # spotify: myspotify
 github: IKyriazis
@@ -47,7 +47,7 @@ github: IKyriazis
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+medium: yiannisgr1
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: ikyriazis@wpi.edu
