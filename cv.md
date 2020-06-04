@@ -27,12 +27,13 @@ San Francisco, California
 **Calico Life Sciences, South San Francisco, CA, 2020 - Present**.  
 *Computational Fellow, Computing*
 
-* Leading a research program focused on programming cell identity to address age-related diseases
+* Leading a research program combining computational and experimental approaches to address age-related diseases
 
 **Calico Life Sciences, South San Francisco, CA, 2018 - 2020**.  
 *Data Scientist, Computing*  
 
 * Lead an [investigation of cell type and tissue environment influences on aging](http://jkimmel.net/murine_cell_aging) using single cell genomics across three murine tissues
+* Lead an [investigation of skeletal muscle aging](https://myo.research.calicolabs.com) using single cell genomics & dynamical systems, revealing a decision point where old stem cells fail to differentiate
 * Developed timelapse image analysis methods for oncology applications, enabling multi-cell tracking and analysis over many days
 * Automated quantification of yeast cell aging using convolutional neural networks
 * Built an automated targeting system for laser ablation microscopy with sub-millisecond timing
@@ -95,9 +96,9 @@ San Francisco, California
 2. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells. 2020. *Development*. [https://doi.org/10.1242/dev.183855](doi: 10.1242/dev.183855). Featured in [*Company of Biologists: the Node*](https://thenode.biologists.com/august-in-preprints-4/highlights/). Chosen as a [Research Highlight by *Development*: Muscling in on Stem Cell Aging.](https://dev.biologists.org/content/147/9/e0901)
 3. **Kimmel JC**. Disentangling latent representations of single cell RNA-seq experiments. 2020. *bioRxiv*. [https://doi.org/10.1101/2020.03.04.972166](doi: 10.1101/2020.03.04.972166).
 4. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DH, Kelley DR, Rosenthal AZ. A murine aging cell atlas reveals cell identity and tissue-specific trajectories of aging. 2019. *Genome Research*. [doi:
-10.1101/gr.253880.119](https://genome.cshlp.org/content/29/12/2088). Featured by *Genome Research* and in [*Company of Biologists: the Node*](http://thenode.biologists.com/june-in-preprints-4/highlights/)
+10.1101/gr.253880.119](https://genome.cshlp.org/content/29/12/2088). Featured on the cover of *Genome Research*.
 5. **Kimmel JC**, Brack AS, Marshall WF. Deep convolutional and recurrent neural networks for cell motility discrimination and prediction. 2019. In press, *IEEE Transactions on Computational Biology and Bioinformatics.*, doi: 10.1109/TCBB.2019.2919307. [Preprint](https://doi.org/10.1101/159202) featured in [*Company of Biologists: the Node*](http://thenode.biologists.com/july-in-preprints-2/highlights/).
-6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
+6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state by quantitative motility analysis reveals a dynamic state system and broken detailed balance. 2018. *PLoS Computational Biology* 14(1): e1005927. [https://doi.org/10.1371/journal.pcbi.1005927](https://doi.org/10.1371/journal.pcbi.1005927). Featured as an Editor's Pick in [*PLoS Editor's Collections: Cell Biology*](https://collections.plos.org/cell-biology-picks).
 7. Constant C, **Kimmel JC**, Sugaya K, Dogariu A. Optically Controlled Subcellular Diffusion. 2015. *Frontiers in Optics & Laser Science*.
 
 ## Selected Presentations
@@ -129,25 +130,3 @@ Reviewer for:
 * Amgen Scholar, University of California San Francisco, 2014
 * Research & Mentoring Program Scholar, U. of Central Florida, 2013-2015
 * Burnett Research Scholar, U. of Central Florida, 2013
-
-## Outreach
-
-**Bay Area Maker Faire Exposition, 2016 - 2018**
-
-* Bay Area festival to present creative science and technology to the public, 100,000+ attendees
-* Presented an exhibit demonstrating adaptive cellular responses to engage the public with life science research
-
-**Science Education Partnership, UCSF/SFUSD, 2016 - 2017**
-
-* Partnered with San Francisco public school teachers to design and implement science lessons for elementary school students
-
-**Central Florida Society for Neuroscience, 2012 - 2015**
-
-* Student President, 2013-2015; Founding Member, 2012
-* Wrote and won a chapter grant from the national organization
-* Held large scale science education events for the public & received regional media coverage
-
-**High School Research Mentor, Satellite High School, 2013 - 2015**
-
-* Assisted high school students with the development and implementation of science fair projects
-* Arranged for students to access laboratory equipment at the U. of Central Florida, trained students in molecular biology
