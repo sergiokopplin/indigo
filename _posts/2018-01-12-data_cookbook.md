@@ -373,3 +373,26 @@ This is useful for ensuring a float appears below the relevant section title, or
 ```latex
 \usepackage{flafter}
 ```
+
+# Genomics Tools
+
+Genomics has its own set of standard tools, and it can be baffling to remember all the useful one-liners each tool offers.
+Here are some useful snippets to bring some sanity to bioinformatics workflows.
+
+## GSE/SRA-tools
+
+Most next-generation sequencing data generated in the USA is submitted to the Gene Expression Omnibus.
+Getting access to the raw sequencing reads is a bit trickier than you'd think.
+For collecting data from GEO, we largely rely on `sra-tools`.
+
+### Download FASTQs associated with a GEO submission
+
+This one-liner will find all the FASTQ files associated with a project in GEO then use `fastq-dump` to download associated reads as `.fastq.gz` files.
+
+[Biostars Credit](https://www.biostars.org/p/111040/#113204)
+
+```bash
+ # set a project ID
+PROJECT_ID=PRJNA600730
+esearch -db sra -query $PROJECT_ID  | efetch --format runinfo | cut -d ',' -f 1 | grep SRR | xargs fastq-dump -X 10 --split-files --gzip
+```
