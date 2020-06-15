@@ -186,6 +186,50 @@ ax.set_xlim(x.min(), x.max()) # line collections don't auto-scale the plot
 ax.set_ylim(y.min(), y.max())
 ```
 
+## Connect two points with a curve
+
+To connect two points in a plot with a curved line, we use `scipy.interpolate.CubicSpline` to interpolate a continuous series of points along a cubic function between the two points.
+
+```python
+from scipy.interpolate import CubicSpline
+
+points = np.array(
+  [
+    [0, 0],
+    [1, 0],
+  ],
+)
+
+# draw curve connecting start and destinations
+xvals = np.linspace(x[0], x[1], 100)
+# generate a coordinate at the midpoint to set the middle
+# position of our arc
+x_coords = [
+  points[0, 0],
+  points[0,0] + (points[1,0]-points[0,0])/2,
+  points[1,0],
+]
+
+# ensure that the x_coords sequence is increasing
+if x_coords[-1] < x_coords[0]:
+    x_coords = x_coords[::-1]
+
+# set a midpoint a bit above the two lower points
+y = [0, 0.1, 0]
+
+# generate smoothed values
+spline = CubicSpline(x_coords, y)
+y_smooth = spline(xvals)
+
+# plot the original points
+ax.scatter(points[:, 0], points[:, 1])
+
+# plot the smooth curve
+ax.plot(xvals, y_smooth, color='lightgray', linestyle='--', alpha=0.5,)
+ax.set_ylim(bottom=0.05, top=0.15)
+ax.set_xlim(-0.1, 1.1)
+```
+
 ## Add a label to heatmap colorbars in `seaborn`
 
 ```python
