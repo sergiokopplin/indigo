@@ -338,6 +338,29 @@ for x in ['top', 'bottom', 'right', 'left']:
     ax2.spines[x].set_visible(False)
 ```
 
+# Genomics Tools
+
+Genomics has its own set of standard tools, and it can be baffling to remember all the useful one-liners each tool offers.
+Here are some useful snippets to bring some sanity to bioinformatics workflows.
+
+## GSE/SRA-tools
+
+Most next-generation sequencing data generated in the USA is submitted to the Gene Expression Omnibus.
+Getting access to the raw sequencing reads is a bit trickier than you'd think.
+For collecting data from GEO, we largely rely on `sra-tools`.
+
+### Download FASTQs associated with a GEO submission
+
+This one-liner will find all the FASTQ files associated with a project in GEO then use `fastq-dump` to download associated reads as `.fastq.gz` files.
+
+[Biostars Credit](https://www.biostars.org/p/111040/#113204)
+
+```bash
+ # set a project ID
+PROJECT_ID=PRJNA600730
+esearch -db sra -query $PROJECT_ID  | efetch --format runinfo | cut -d ',' -f 1 | grep SRR | xargs fastq-dump -X 10 --split-files --gzip
+```
+
 # LaTeX
 
 I love LaTeX.
@@ -418,25 +441,34 @@ This is useful for ensuring a float appears below the relevant section title, or
 \usepackage{flafter}
 ```
 
-# Genomics Tools
+## Shrink pdflatex output size
 
-Genomics has its own set of standard tools, and it can be baffling to remember all the useful one-liners each tool offers.
-Here are some useful snippets to bring some sanity to bioinformatics workflows.
+`pdflatex` tends to render huge PDF outputs.
+My understanding is that `pdflatex` is very conservative and applies no compression scheme.
+Substantial improvements in the file size can be found with loseless or modest lossy compression.
 
-## GSE/SRA-tools
-
-Most next-generation sequencing data generated in the USA is submitted to the Gene Expression Omnibus.
-Getting access to the raw sequencing reads is a bit trickier than you'd think.
-For collecting data from GEO, we largely rely on `sra-tools`.
-
-### Download FASTQs associated with a GEO submission
-
-This one-liner will find all the FASTQ files associated with a project in GEO then use `fastq-dump` to download associated reads as `.fastq.gz` files.
-
-[Biostars Credit](https://www.biostars.org/p/111040/#113204)
+Ghostscript is installed by default on most *nix and does a good job of reducing file size on its own.
 
 ```bash
- # set a project ID
-PROJECT_ID=PRJNA600730
-esearch -db sra -query $PROJECT_ID  | efetch --format runinfo | cut -d ',' -f 1 | grep SRR | xargs fastq-dump -X 10 --split-files --gzip
+gs \
+  -sDEVICE=pdfwrite \
+  -dCompatibilityLevel=1.5 \
+  -dPDFSETTINGS=/printer \
+  -dNOPAUSE -dQUIET \
+  -dBATCH \
+  -sOutputFile=small.pdf big.pdf
 ```
+
+The `/printer` argument will render 300 dpi compressed images that generally look great.
+If you need more compression, try swapping `/ebook` in place of printer.
+The images will still be legible, but you'll almost certainly notice compression artifacts.
+
+Another approach is to use a third-party tool [`pdfsizeopt`](https://github.com/pts/pdfsizeopt).
+
+After installation, compression is a one-liner.
+
+```bash
+/path/to/pdfsizeopt big.pdf
+```
+
+`pdfsizeopt` tends to get a smaller file size with better Ghostscript with the `/printer` setting, but it takes much longer to execute.
