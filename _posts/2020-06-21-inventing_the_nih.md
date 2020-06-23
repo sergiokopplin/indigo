@@ -48,17 +48,18 @@ The deepest origins of the NIH connect back to the [Marine Hospital Service](htt
 
 Crises and external circumstances began to expand the Hospital Service's initial mission. Beginning with management of quarantines for incoming ships, Congress and the executive branch began asking the Hospital Service to manage and investigate various other public health problems.
 
-It seems like the logic here was roughly: Who has the personal to deal with problem X? That weird marine worker insurance program? Sure, give it to them.
+It seems like the logic here was roughly: Who has the personnel to deal with problem X? That weird marine worker insurance program? Sure, give it to them.
 
-[Germ theory](https://en.wikipedia.org/wiki/Germ_theory_of_disease) developed in the late nineteenth century, representing one of the great conceptual advances in modern biology. As part of the growing list of demands from Congress, the Hospital Service came to employ a few students of this new doctrine, including a direct trainee of Robert Koch himself, [Joseph Kinyoun](https://en.wikipedia.org/wiki/Joseph_J._Kinyoun). Kinyoun was placed in charge of establishing what we would now recognized as a basic research facility, termed the [Hygienic Laboratory](https://en.wikipedia.org/wiki/National_Institutes_of_Health#History) in keeping with the nomenclature of the time. This laboratory was fairly small by modern standards (< 200 employees), but it was the first time federal funding was used to support ongoing basic research.
+[Germ theory](https://en.wikipedia.org/wiki/Germ_theory_of_disease) developed in the late nineteenth century, representing one of the great conceptual advances in modern biology. As part of the growing list of demands from Congress, the Hospital Service came to employ a few students of this new doctrine, including a direct trainee of Robert Koch himself, [Joseph Kinyoun](https://en.wikipedia.org/wiki/Joseph_J._Kinyoun). Kinyoun was placed in charge of establishing what we would now recognize as a basic research facility, termed the [Hygienic Laboratory](https://en.wikipedia.org/wiki/National_Institutes_of_Health#History) in keeping with the nomenclature of the time. This laboratory was fairly small by modern standards (< 200 employees), but it was the first time federal funding was used to support ongoing basic health research.
 
 ## Public health reformers push the Hospital Service to partner with some enterprising chemists
 
-Throughout the early 20th century, a number of private organizations lobbied the US government to become more involved in public health. These groups included labor unions, life insurance companies, social workers, and philanthropic foundations. Several of their campaigns boiled down to advocating a reorganization of existing programs from a [divisional organization structure to a functional organization structure.](https://hbr.org/1968/11/organizational-choice-product-vs-function) It's not clear to me this was really a great idea, but it seems like the public health advocates *really* wanted the government to spend more federal dollars on health overall, and the reorganization demand was a problematic political tactic that allowed them to claim they were seeking efficiencies while simultaneously alienating the existing civil service.
+Throughout the early 20th century, a number of private organizations lobbied the US government to become more involved in public health. These groups included labor unions, life insurance companies, social workers, and philanthropic foundations. Several of their campaigns boiled down to advocating a reorganization of existing programs from a [divisional organization structure to a functional organization structure.](https://hbr.org/1968/11/organizational-choice-product-vs-function) It's not clear to me this was really a great idea, but it seems like the public health advocates *really* wanted the government to spend more federal dollars on health overall, and the reorganization demand was a problematic political tactic that allowed them to claim they were seeking efficiencies, while inadvertently alienating the existing civil service.
 
-The Hospital Service was defensive when it came to these possible reforms, as they feared they might be subsumed then eliminated inside some larger department. However, they too wanted some reforms made. It seems they were particularly upset about their poor job security and compensation, issues that stemmed from federal rules only allowed medical doctors to receive federal commissions, not scientists. In order to fix there poor compensation situation, leaders of the Hospital Service were open to forming political coalitions with reformers, so long as they retained their independence and won pay increases.
+The Hospital Service was defensive when it came to these possible reforms, as they feared they might be subsumed then eliminated inside some larger department. However, they too wanted some reforms made. It seems they were particularly upset about their poor job security and compensation. These compensation problems stemmed from federal rules that allowed medical doctors to receive federal commissions, but not scientists. To improve their compensation, leaders of the Hospital Service were open to forming political coalitions with reformers, so long as they retained their independence and won pay increases.
 
-These reform campaigns set the stage for Joseph E. Ransdell (Senator, Louisiana) to partner with members of the American Chemical Society who were seeking to establish a new research institute for the study of "physiological chemistry." The ACS members were interested in establishing an institute mirroring Rockefeller University (then, Rockefeller Institute), providing long-term support for basic research from a private endowment to understand the chemical bases of human disease.
+These reform campaigns set the stage for Senator Joseph E. Ransdell of Louisiana to partner with members of the American Chemical Society seeking to establish a new research institute for the study of "physiological chemistry."
+The ACS members were interested in establishing an institute modeled on Rockefeller University (then, Rockefeller Institute), providing long-term support for basic research from a private endowment to understand the chemical basis of human disease.
 
 After failing for nearly a decade to raise private funds, the ACS members were convinced by Ransdell that the US Government would be a worthy patron. Together, ACS members and Randsell collaborated to develop a proposal for a federal research institute that grew into the National Institute of Health (singular at first!).
 
@@ -66,21 +67,21 @@ In a funny anecdote, it appears Ransdell chose the name at the last minute, cros
 
 Ransdell and the chemists ran through the District of Columbia trying to gather support for their new proposal. After much effort, they received a luke-warm endorsement from the Hospital Service on the grounds that a bill for the new institute also included their desired pay increases. From personal correspondence of Hospital Service leaders, it doesn't seem like they were all the favorable to the new institute, but really needed political help in the Senate.
 
-In particular, the head of the Hygienic Laboratory viewed a new NIH-like institution as a competitor to his own existing efforts, and he believed it would be impossible to scale a research institution like the laboratory beyond the small scale at which it had been operating. It strikes me that fear of hypergrowth, and a failure to imagine large scale operation are a common failure mode within otherwise productive organizations like the Hygienic Laboratory.
+In particular, the head of the Hygienic Laboratory viewed a new NIH-like institution as a competitor to his own existing efforts, and he believed it would be impossible to scale a research institution beyond the scope of the Hygienic Laboratory.
+It strikes me that fear of hypergrowth, and a failure to imagine large scale operation are a common failure mode within otherwise productive organizations like the Hygienic Laboratory.
 
 ## How did they convince the public?
 
 It took Ransdell and the ACS members 4 years and 2 US presidents to finally pass their NIH legislation. Harden provides an incredibly detailed account of the process. As expected, opposition to increased federal spending was the primary obstruction to the creation of the NIH, but idiosyncratic outcomes and the fickleness of individual legislative personalities also played a role in the lengthy road to acceptance.
 
-**But how did the NIH proponents convince the government to allocate tax dollars to such a high-risk enterprise?**
+The arguments put forward by Ransdell and supporters contained many familiar points.
+They emphasized the efficiency of preventative treatment for disease, the necessity of basic science for developing new medicines, and they leaned on past successes of federally funded basic research like the creation of a vaccine for Rocky Mountain Fever.
 
-The arguments put forward by Ransdell and supporters contained many familiar points. They emphasized the efficiency of preventative treatment for disease, the necessity of basic science for developing new medicines, and they leaned on past successes of federally funded basic research like the creation of a vaccine for Rocky Mountain Fever.
-
-In addition to these familiar arguments, I'll posit that the proponents success was owed to three additional factors
+In addition to these familiar arguments, I'll posit that three additional factors contributed to the NIH's success:
 
 1. Flexibility in the face of political reality
 2. The 1928 influenza pandemic provided political momentum and a demand for action
-3. Biomedical science had just entered a phase of exponential growth — compelling examples of success were easy to com
+3. Biomedical science had just entered a phase of exponential growth — successful exemplars were easy to find
 
 ### Downsizing the ask
 
@@ -98,11 +99,13 @@ Both President Calvin Coolidge and members of Congress were more receptive to pr
 
 Coolidge's reversal stands out to me as a positive example of how local context can influence long-term public policy making. We have an almost perfect counter-factual to consider what would have happened in the absence of the influenza outbreak. The bill had been before Congress already just a year prior, a similar bill had already passed and been vetoed, and yet with few if any changes, the NIH was able to win support once an acute event highlighted the importance of such an institution for long-term health of the public.
 
-### Demonstrations of success
+### Exponential growth in biomedical capability
 
 A key component of Ransdell's presentation was a set of vignettes highlighting biomedical research advances with everyday impact.
 
-In one portion of the presentation, Ransdell showed short microscopy film of motile cells in a culture dish taken by [scientists at Rockefeller in Albert H Ebeling's group](http://centennial.rucares.org/index.php?page=Mammalian_Cells) during the hearings. These movies are so entrancing that many scientists ([myself included](https://jkimmel.net/heteromotility)) still work on understanding the biology on display today. I found this aspect of the argument endearing, and wanted to dig a little deeper than Harden's coverage.
+In one portion of the presentation, Ransdell showed short microscopy film of motile cells in a culture dish taken by [scientists at Rockefeller in Albert H Ebeling's group](http://centennial.rucares.org/index.php?page=Mammalian_Cells) during the hearings.
+These movies are so entrancing that many scientists ([myself included](https://jkimmel.net/heteromotility)) still work on understanding the biology on display today.
+I found this aspect of the argument endearing, and wanted to dig a little deeper than Harden's coverage.
 
 I found what appears to be the exact exchange [captured here](https://books.google.com/books?id=JwQ7FkdAo7AC&pg=PA20&lpg=PA20&dq=national+institutes+of+health+ransdell+film+cell+culture&source=bl&ots=nSnL8LUe3k&sig=ACfU3U3NSj9xxXUeTAIHWSjmn1PHpJf6Hw&hl=en&sa=X&ved=2ahUKEwjkweCfq5TqAhVYCTQIHcPeC3oQ6AEwCXoECAkQAQ#v=onepage&q=national%20institutes%20of%20health%20ransdell%20film%20cell%20culture&f=false):
 
@@ -116,7 +119,7 @@ The Rockefeller scientists explained that even though cell culture is artificial
 
 This example is almost a perfect encapsulation of modern biomedical research. The scientists began their study by asking a simple question: What do animal cells need to survive? Can we provide everything a cell needs outside the body? They followed this conclusion through a series of experiments to find the proper culture conditions that allow for *ex vivo* cell cultures. Though unanticipated at the outset of research, these culture platforms proved useful in later studies of a virulent infectious disease and the production of treatment.
 
-Exploring a fundamental question yielded an unexpected, unpredictable practical benefit.
+*Exploring a fundamental question yielded an unexpected, unpredictable practical benefit.*
 
 While this is only one such example, Ransdell's presentation took place in the midst of long awaited biomedical advances that were making impacts on the lives of everyday Americans. Germ theory provided a framework for understanding and preventing infectious disease, to astonishing effect. [Deaths from infectious disease](https://jamanetwork.com/journals/jama/fullarticle/768249) were **cut roughly in half (!)** between 1900 and 1920 (see a Figure from [Armstrong et. al. 1999](https://cdn.jamanetwork.com/ama/content_public/journal/jama/4590/m_joc80862f1.gif?Expires=2147483647&Signature=T2cIAfko7J-eH-QKTE7IgFXujBG7Ok1sBns7b-pi7mTHTqB9dAMZrhFoOhiK8WEJvInKgVxh8Eamo9doaFFFS2WA6acKRlHIgv2E7~~1b2ctAiqZZljJ8ytMXAETJxc8qPw~jvl5~0rH6ph8XGBWj2cslwgtgqrpCzs6Jac58ix4idQU88ktxQd7~NATxV~2k3QuhftuwSyeJk9GNj9hnBTCQUmJS-Mjo9lgw3B2OR~XM-n7yq-7hXwtGmC7Ff0IQ54z-QYHxacM9R9R5b4Z77VY0KM74nVHcrY0kuJdeP1pe5RANQQHjX-smUkOF3dP7KMZCNzxn0KYWTO6YBsPhg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA), *JAMA* below).
 
