@@ -154,12 +154,12 @@ You can add Pens from Codepen.
 
 {% highlight html %}
 <p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>
-    See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.
+    See the Pen <a href='https://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='https://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='https://codepen.io'>CodePen</a>.
 </p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 {% endhighlight %}
 
-<p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>See the Pen <a href='http://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>See the Pen <a href='https://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='https://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='https://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ---
@@ -188,9 +188,9 @@ Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste o
 
 <iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
 
-[1]: http://daringfireball.net/projects/markdown/
-[2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: http://www.markitdown.net/
-[4]: http://daringfireball.net/projects/markdown/basics
-[5]: http://daringfireball.net/projects/markdown/syntax
-[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
+[1]: https://daringfireball.net/projects/markdown/
+[2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
+[3]: https://www.markitdown.net/
+[4]: https://daringfireball.net/projects/markdown/basics
+[5]: https://daringfireball.net/projects/markdown/syntax
+[6]: https://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
