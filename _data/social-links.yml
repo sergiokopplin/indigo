@@ -1,0 +1,104 @@
+# Yaml manifest of supported social links
+# Requirements:
+# `name`
+#     - plain-text name of the site (e.g. twitter)
+#     - **mandatory**
+# `url-pattern`
+#     - site URL pattern containing a placeholder string (e.g. twitter.com/__USERNAME__)
+#     - placeholder will be replaced by username or value specified in _config.yml (e.g. twitter.com/mytwitter)
+#     - **mandatory** (for non-email type links)
+# `url-scheme`
+#     - the hardcoded URI/URN url_scheme (e.g. https://)
+#     - can be one of: ['https://', 'http://', 'mailto:']
+#     - defaults to '//'
+#     - **optional**
+# `icon`
+#     - name of svg asset used in icons.html (e.g. icon-facebook)
+#     - defaults to value in `name` attribute
+#     - **optional**
+#
+- name: facebook
+  url-pattern: facebook.com/__USERNAME__
+
+- name: twitter
+  url-pattern: twitter.com/__USERNAME__
+
+- name: google
+  url-pattern: plus.google.com/+__USERNAME__
+
+- name: instagram
+  url-pattern: instagram.com/__USERNAME__
+
+- name: pinterest
+  url-pattern: pinterest.com/__USERNAME__
+
+- name: linkedin
+  url-pattern: linkedin.com/in/__USERNAME__
+
+- name: youtube
+  url-pattern: youtube.com/__USERNAME__
+
+- name: spotify
+  url-pattern: open.spotify.com/user/__USERNAME__
+
+- name: lastfm
+  url-pattern: last.fm/user/__USERNAME__
+
+- name: github
+  url-pattern: github.com/__USERNAME__
+
+- name: gitlab
+  url-pattern: gitlab.com/__USERNAME__
+
+- name: keybase
+  url-pattern: keybase.io/__USERNAME__
+  icon: key
+
+- name: stackoverflow
+  url-pattern: stackoverflow.com/users/__USERNAME__
+
+- name: quora
+  url-pattern: www.quora.com/profile/__USERNAME__
+
+- name: reddit
+  url-pattern: reddit.com/user/__USERNAME__
+
+- name: medium
+  url-pattern: medium.com/@__USERNAME__
+
+- name: lanyrd
+  url-pattern: lanyrd.com/__USERNAME__
+  url-scheme: 'http://'
+  icon: microphone
+
+- name: scholar
+  url-pattern: scholar.google.com/citations?user=__USERNAME__
+
+- name: researchgate
+  url-pattern: www.researchgate.net/profile/__USERNAME__
+
+- name: mendeley
+  url-pattern: mendeley.com/profiles/__USERNAME__
+
+- name: pubmed
+  url-pattern: www.ncbi.nlm.nih.gov/myncbi/browse/collection/__USERNAME__
+
+- name: orcid
+  url-pattern: orcid.org/__USERNAME__
+
+- name: impactstory
+  url-pattern: profiles.impactstory.org/u/__USERNAME__
+
+- name: figshare
+  url-pattern: fighshare.com/authors/__USERNAME__
+
+- name: slideshare
+  url-pattern: www.slideshare.net/__USERNAME__
+
+- name: speakerdeck
+  url-pattern: speakerdeck.com/__USERNAME__
+
+- name: email
+  url-pattern: '__USERNAME__'
+  url-scheme: 'mailto:'
+  icon: mail

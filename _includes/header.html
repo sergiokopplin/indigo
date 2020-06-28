@@ -19,7 +19,7 @@
         <h1 class="title">{{ site.name }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
 
-        {% include social-links.html %}
+        {% include social-links.html links=site.data.social-links %}
     </header>
 {% endif %}
 

@@ -50,7 +50,21 @@ github: mygithub
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
+# slideshare: myslideshare
+# speakerdeck: myspeakerdeck
 email: myemail@gmail.com
+
+# if you don't have any scientific social links below, comment the line
+# scholar: myscholar
+# researchgate: myresearchgate
+# mendeley: mymendeley
+# pubmed: mypubmed
+# orcid: myorcid
+# impactstory: myimpactstory
+# figshare: myfigshare
+
+# if desired, specify custom order of social links in the array below
+social-links-order: [github, facebook, twitter, medium, email]
 
 authors:
   johndoe:
