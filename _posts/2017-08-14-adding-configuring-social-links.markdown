@@ -84,7 +84,7 @@ These changes are fully backward compatible with the previous social link config
 
 If you use the new `social-links-order` variable, ensure that you add all the social media names to the list, otherwise they will not show up.
 
-## Additions for scientific/academic users
+## Additions for scientific users
 
 For users in the scientific/academic fields who wish to link out to relevant resources that track their publication records, citation impact metrics, etc., Indigo now offers a set of scientific social linkouts to the following websites:
 
