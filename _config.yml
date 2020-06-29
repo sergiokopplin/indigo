@@ -16,7 +16,7 @@ resume: true
 resume-external: false
 resume-url: assets/ikyriazis_resume.pdf
 
-url: https://ioannis.ky
+url: https://ikyriazis.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -135,13 +135,13 @@ exclude:
     "vendor",
   ]
 
-lsi: false
-safe: true
-source: "indigo"
-incremental: false
-highlighter: rouge
-gist:
-    noscript: false
-kramdown:
-    math_engine: mathjax
-    syntax_highlighter: rouge
+#lsi: false
+#safe: true
+#source: "indigo"
+#incremental: false
+#highlighter: rouge
+#gist:
+#    noscript: false
+#kramdown:
+#    math_engine: mathjax
+#    syntax_highlighter: rouge
