@@ -35,7 +35,7 @@ permalink: /:title/
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-#twitter: mytwitter
+#twitter: ioannisky
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: ioannis-kyriazis-466517181
@@ -77,7 +77,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -92,7 +92,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+#show-author: true
 
 # do you want some animations?
 animation: true
