@@ -131,6 +131,7 @@ compress_html:
       - development
       - stage
 
+include: [".well-known"]
 exclude:
   [
     "travis.sh",
