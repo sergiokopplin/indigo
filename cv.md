@@ -103,14 +103,15 @@ San Francisco, California
 
 ## Selected Presentations
 
-1. **Kimmel JC**, Kelley DR. scNym: Semi-supervised adversarial neural networks for single cell classification. Selected talk at Intelligent Systems for Molecular Biology (ISMB), Machine Learning in Computational and Systems Biology session. Virtual. 2020.
-1. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DG, Kelley DR, Rosenthal AZ. Cell type and tissue-specific aging trajectories. **Invited speaker** for California QB3 Institute's *Aging and the Single Cell* event. San Francisco, CA. 2019.
-2. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DG, Kelley DR, Rosenthal AZ. Cell type and tissue-specific aging trajectories. **Invited speaker** at Mission Bay Capital Biolabs. San Francisco, CA. 2019.
-3. **Kimmel JC**, Hwang A, Brack AS, Marshall WF. Inferring cell state dynamics with machine learning models. **Invited speaker** for the *Machine Learning in Cell Biology* Group meeting at ASCB-EMBO 2018. San Diego, CA. 2018.
-4. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. **Selected speaker** at the Quantitative Biology meeting. Honolulu, HI. 2018.
-5. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Poster presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Most Innovative Use of Deep Learning in Biomedicine Award).*
-6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. **Selected speaker** to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
-7. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. **Selected spekaer** for the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
+1. **Kimmel JC**, Kelley DR. scNym: Semi-supervised adversarial neural networks for single cell classification. **Selected speaker** at the International Conference on Machine Learning (ICML), Workshop on Computational Biology. Virtual. 2020.
+2. **Kimmel JC**, Kelley DR. scNym: Semi-supervised adversarial neural networks for single cell classification. **Selected speaker** at Intelligent Systems for Molecular Biology (ISMB), Machine Learning in Computational and Systems Biology session. Virtual. 2020.
+3. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DG, Kelley DR, Rosenthal AZ. Cell type and tissue-specific aging trajectories. **Invited speaker** for California QB3 Institute's *Aging and the Single Cell* event. San Francisco, CA. 2019.
+4. **Kimmel JC**, Penland L, Rubinstein ND, Hendrickson DG, Kelley DR, Rosenthal AZ. Cell type and tissue-specific aging trajectories. **Invited speaker** at Mission Bay Capital Biolabs. San Francisco, CA. 2019.
+5. **Kimmel JC**, Hwang A, Brack AS, Marshall WF. Inferring cell state dynamics with machine learning models. **Invited speaker** for the *Machine Learning in Cell Biology* Group meeting at ASCB-EMBO 2018. San Diego, CA. 2018.
+6. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. **Selected speaker** at the Quantitative Biology meeting. Honolulu, HI. 2018.
+7. **Kimmel JC**, Brack AS, Marshall WF. Deep neural networks for cell motility analysis. Poster presentation to Nvidia Deep Learning in Biomedicine Workshop. San Francisco, CA. 2018. *(Nvidia Most Innovative Use of Deep Learning in Biomedicine Award).*
+8. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring stem cell states from cell motility behavior reveals a dynamic state system and broken detailed balance. **Selected speaker** to the Northern California Computational Biology Society. UC Santa Cruz, Santa Cruz, CA. 2017.
+9. **Kimmel JC**, Chang AY, Brack AS, Marshall WF. Inferring cell state from cell motility behavior. **Selected speaker** for the NSF Quantitative Cell Biology Network Workshop. Allen Institute for Cell Science, Seattle, WA. 2016.
 
 ## Academic Service
 
