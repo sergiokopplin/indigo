@@ -13,11 +13,11 @@ picture: https://avatars0.githubusercontent.com/u/49026291
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sdinuraj.github.io
+url: https://dinuraj.com
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -30,9 +30,9 @@ permalink: /:title/
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+# disqus:
+#  shortname:  # enter this from your disqus account
+#  categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -51,18 +51,18 @@ github: sdinuraj
 medium: s.dinuraj
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+# email: myemail@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
+  dinu:
+    name: dinuraj
+    bio: A man who contemplates over tea
+    external-image: true
+    picture: https://avatars0.githubusercontent.com/u/49026291
+    twitter: 
+  secondauthor:
+    name: Second Author
+    bio: A man who does not exist
     external-image: false
     picture: assets/images/james.jpg
     twitter: jamesfoster
