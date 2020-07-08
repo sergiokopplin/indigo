@@ -1,14 +1,15 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: dinuraj
+bio: tea and startup data
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Ideas on startup data
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
-picture: assets/images/profile.jpg
+external-image: true
+picture: https://avatars0.githubusercontent.com/u/49026291
+# picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -16,7 +17,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://sdinuraj.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -34,20 +35,20 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+# twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: sdinuraj
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: sdinuraj
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+medium: s.dinuraj
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: myemail@gmail.com
