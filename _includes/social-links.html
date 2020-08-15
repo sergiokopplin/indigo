@@ -106,4 +106,10 @@
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
+
+    {% if site.telegram %}
+        <a class="link" data-title= "telegram.me/{{ site.telegram }}" href="https://telegram.me/{{ site.telegram }}" target="_blank">
+             <svg class="icon icon-telegram"><use xlink:href="#icon-telegram"></use></svg>
+        </a>
+    {% endif %}
 </div>
