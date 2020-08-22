@@ -5,6 +5,19 @@
         </a>
     {% endif %}
 
+    {% if site.github %}
+        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+            <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+        </a>
+    {% endif %}
+
+
+    {% if site.gscholar %}
+        <a class="link" data-title="https://scholar.google.com/citations?user=+{{ site.gscholar }}" href="https://scholar.google.com/citations?user=+{{ site.gscholar }}" target="_blank">
+            <svg class="icon icon-gscholar"><use xlink:href="#icon-gscholar"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.twitter %}
         <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
             <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
@@ -44,12 +57,6 @@
     {% if site.spotify %}
         <a class="link" data-title="open.spotify.com/user/{{ site.spotify }}" href="https://open.spotify.com/user/{{ site.spotify }}" target="_blank">
             <svg class="icon icon-spotify"><use xlink:href="#icon-spotify"></use></svg>
-        </a>
-    {% endif %}
-
-    {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
-            <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
 
