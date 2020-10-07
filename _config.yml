@@ -1,6 +1,6 @@
 # main text of home
 name: Tal Hoffman
-bio: Software Engineer
+bio: Senior Software Engineer
 
 # twitter summary info
 description: A blog about tech, software, and everything in between
@@ -55,7 +55,7 @@ medium: talhof8
 authors:
   talhoffman:
     name: Tal Hoffman
-    bio: Software Engineer
+    bio: Senior Software Engineer
     external-image: false
     picture: assets/images/profile.jpg
     # twitter: johndoe
