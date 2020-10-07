@@ -31,6 +31,8 @@ their state to the disk as a collection of files. Those files can later be used
 to restore a process right from the point it’d been freezed, multiple times, on
 any other CRIU-supported Linux machine!
 
+!()[https://media.giphy.com/media/35H0pwQNaO2iLTnnBf/giphy.gif]
+
 Among its many usage scenarios, CRIU can be used for slow-boot service speed up,
 remote debugging, snapshots, process duplication, and for what is our main topic
 today — **live migrations.**
@@ -56,10 +58,9 @@ its sub tasks.
 By default, CRIU makes use of `ptrace` to stop the process. For those not
 familiar with `ptrace`:
 
-    The 
-    () system call provides a means by which one process (the "tracer") may observe and control the execution of another process (the "tracee"), and examine and change the tracee's memory and registers. It is primarily used to implement breakpoint debugging and system call tracing.
+    The ptrace() system call provides a means by which one process (the "tracer") may observe and control the execution of another process (the "tracee"), and examine and change the tracee's memory and registers. It is primarily used to implement breakpoint debugging and system call tracing.
 
-    See 
+    See https://man7.org/linux/man-pages/man2/ptrace.2.html.
 
 In this method, CRIU first lists and goes through the relevant `/proc/$pid`
 entries. Thread ids are collected through `/proc/$pid/task`, whereas
@@ -205,8 +206,10 @@ won’t limit us during the restore process), private memory areas re-mappings
 From now on, the process is restored and will continue to run from where it was
 originally checkpointed.
 
-**If you’d like to dive even deeper inside the  internals, have a look at
-**[https://criu.org/Category:Under_the_hood](https://criu.org/Category:Under_the_hood)**
+!()[https://media.giphy.com/media/yoJC2COHSxjIqadyZW/giphy.gif]
+
+**If you’d like to dive even deeper inside the internals, have a look at
+[https://criu.org/Category:Under_the_hood](https://criu.org/Category:Under_the_hood)
 :)**
 
 ### Live Migration
@@ -223,7 +226,7 @@ clusters](https://www.slideshare.net/mobile/RohitJnagal/task-migration-using-cri
 Lets use CRIU ourselves to demonstrate the migration of a simple loop script
 from our local machine to a virtual machine.
 
-![](https://talhof8.github.io/talhoffman/assets/images/criu-demo.jpg)
+![](assets/images/criu-demo.gif)
 
 Our script looks like this (`test.sh`):
 
