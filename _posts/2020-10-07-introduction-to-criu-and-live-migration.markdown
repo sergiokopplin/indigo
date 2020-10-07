@@ -5,9 +5,11 @@ date: 2020-10-07 22:38
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- components
-- extra
+- criu
+- linux internals
+- live migration
+- ptrace
+- linux kernel
 category: blog
 author: talhoffman
 description: An introduction to CRIU and Live migration
