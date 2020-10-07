@@ -31,7 +31,7 @@ their state to the disk as a collection of files. Those files can later be used
 to restore a process right from the point it’d been freezed, multiple times, on
 any other CRIU-supported Linux machine!
 
-!()[https://media.giphy.com/media/35H0pwQNaO2iLTnnBf/giphy.gif]
+![](https://media.giphy.com/media/35H0pwQNaO2iLTnnBf/giphy.gif)
 
 Among its many usage scenarios, CRIU can be used for slow-boot service speed up,
 remote debugging, snapshots, process duplication, and for what is our main topic
@@ -206,7 +206,7 @@ won’t limit us during the restore process), private memory areas re-mappings
 From now on, the process is restored and will continue to run from where it was
 originally checkpointed.
 
-!()[https://media.giphy.com/media/yoJC2COHSxjIqadyZW/giphy.gif]
+![](https://media.giphy.com/media/yoJC2COHSxjIqadyZW/giphy.gif)
 
 **If you’d like to dive even deeper inside the internals, have a look at
 [https://criu.org/Category:Under_the_hood](https://criu.org/Category:Under_the_hood)
@@ -226,7 +226,7 @@ clusters](https://www.slideshare.net/mobile/RohitJnagal/task-migration-using-cri
 Lets use CRIU ourselves to demonstrate the migration of a simple loop script
 from our local machine to a virtual machine.
 
-![](assets/images/criu-demo.gif)
+![](/assets/images/criu-demo.gif)
 
 Our script looks like this (`test.sh`):
 
