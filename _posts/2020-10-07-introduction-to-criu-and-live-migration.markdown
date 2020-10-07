@@ -50,6 +50,7 @@ LXC/LXD, and can also be used independently.
 Let’s take a little dive into the internals of how this magic happens.
 
 **Checkpoint**
+
 The first step when checkpointing a process is walking recursively
 through its tree, and freezing it so it will not change its state while CRIU
 needs to dump it. 
