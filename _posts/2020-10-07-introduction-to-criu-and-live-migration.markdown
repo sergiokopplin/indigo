@@ -73,7 +73,7 @@ sub-processes are recursively collected through reading
 Each task it encounters — parent process itself, sub-processes, and threads  — 
 is being attached to CRIU’s tracer process by dispatching a  `PTRACE_SEIZE`
 request, after which a `PTRACE_INTERRUPT` request is also dispatched in order to
-stop that task.using
+stop that task.
 
 The second method for freezing the process tree is using Linux’s **Cgroup
 Freezer** — available through CRIU’s `--freeze-cgroup` flag. Cgroup Freezer is a
