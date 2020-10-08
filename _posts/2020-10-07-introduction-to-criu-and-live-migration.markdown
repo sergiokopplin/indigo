@@ -174,7 +174,7 @@ Very simple and yet cool!
 pid namespace (and mount namespace — see
 [https://criu.org/CR_in_namespace](https://criu.org/CR_in_namespace)). 
 
-There a few caveats to this approach, the main ones being it too slow due to
+There are a few caveats to this approach, the main ones being it too slow due to
 multiple syscalls required for each such clone, and that it is open to race
 conditions.
 
@@ -246,7 +246,7 @@ In order to checkpoint the script’s process we run:
 * `--images-dir` indicates where to dump the image files
 * `--shell-job` tells CRIU that our process was spawned from a shell
 
-We then `scp` (i.e, transfer) both the script (so CRIU restore its fd) and the
+We then `scp` (i.e, transfer) both the script (so CRIU is able to restore its fd) and the
 dumped images to our VM, and finally restore the process using:
 
      sudo criu restore -D <path-to-images-dir> -vvv --shell-job -d
