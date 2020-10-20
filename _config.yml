@@ -1,6 +1,6 @@
 # main text of home
 name: Dev Diary
-bio: A Man who travels the world eating noodles
+bio: Don't let another day begin. Won't let the sunlight in (A Star is born)
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://devdiary2203.github.io/indigo
+url: https://devdiary2203.github.io/
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
