@@ -7,12 +7,11 @@ layout: page
 
 # About
 
-## Mini Title
-
-I enjoy tea.
+## What I Do
 
 Enabling startups to leverage data.
 
 ## Favourite Recent Reads
 - Designing Data-Intensive Applications by Martin Kleppmann 
-- Being Mortal by Atul Gawande
+- Poor Economics by Abhijit V. Banerjee, Esther Duflo
+- Good Economics for Hard Times by Abhijit V. Banerjee, Esther Duflo

@@ -1,14 +1,15 @@
 # main text of home
 name: dinuraj
-bio: tea and startup data
+bio: startup data generalist
 
 # twitter summary info
 description: Ideas on startup data
 
 # if it's an external image, update below for true
 # better with square images
-external-image: true
-picture: https://avatars0.githubusercontent.com/u/49026291
+external-image: false
+picture: 
+# picture: https://avatars0.githubusercontent.com/u/49026291
 # picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
@@ -48,7 +49,7 @@ github: sdinuraj
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: s.dinuraj
+# medium: username
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 # email: myemail@gmail.com
@@ -57,15 +58,15 @@ authors:
   dinu:
     name: dinuraj
     bio: A man who contemplates over tea
-    external-image: true
-    picture: https://avatars0.githubusercontent.com/u/49026291
+    external-image: false
+    picture:
     twitter: 
   secondauthor:
     name: Second Author
     bio: A man who does not exist
     external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: 
+    twitter: 
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -81,7 +82,7 @@ pagination:
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
