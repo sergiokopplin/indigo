@@ -312,6 +312,13 @@ for label in np.unique(clusters):
                                 label=label,
                                 linewidth=0)
 clmap.ax_col_dendrogram.legend(loc="center", ncol=5, frameon=False)
+
+# note that the usual .ax_col_dendrogram.set_visible(False)
+# will also hide our new legend.
+#
+# hides the dendrogram while preserving the legend.
+cm.ax_col_dendrogram.set_ylim(0,0)
+cm.ax_col_dendrogram.set_xlim(0,0)
 ```
 
 ## Add a second set of xticklabels to a seaborn heatmap
@@ -336,6 +343,59 @@ plt.grid(b=None)
 for x in ['top', 'bottom', 'right', 'left']:
     ax.spines[x].set_visible(False)
     ax2.spines[x].set_visible(False)
+```
+
+## Generate box plots where outline colors match the fill hue
+
+It's often hard to see the colors of a `hue` in a boxplot if the data distribution is compact.
+We can change the outline color for the boxes to match the inner fill to make the colors easier to see.
+
+[StackOverflow](https://stackoverflow.com/questions/55656683/change-seaborn-boxplot-line-rainbow-color)
+
+```python
+import matplotlib.pyplot as plt
+import matplotlib.colors as mc
+import colorsys
+import seaborn as sns
+
+def lighten_color(color, amount=0.5):  
+    """
+    Generate a slightly lighter version of a specified color.
+    These often look nice as outlines.
+    credit: @IanHincks
+    """
+    try:
+        c = mc.cnames[color]
+    except:
+        c = color
+    c = colorsys.rgb_to_hls(*mc.to_rgb(c))
+    return colorsys.hls_to_rgb(c[0], 1 - amount * (1 - c[1]), c[2])
+
+# make a box plot
+sns.boxplot(
+    data=some_df,
+    x='something',
+    y='something_else',
+    hue='third_thing',
+    ax=ax
+)
+
+# iterate over every artist in the axis and change the outline colors
+# to match the fill colors
+for i,artist in enumerate(ax.artists):
+    # Set the linecolor on the artist to the facecolor, and set the facecolor to None
+    # omit `lighten_color` to make the outline flush with the box
+    col = lighten_color(artist.get_facecolor(), 1.2)
+    artist.set_edgecolor(col)    
+
+    # Each box has 6 associated Line2D objects (to make the whiskers, fliers, etc.)
+    # Loop over them here, and use the same colour as above
+    for j in range(i*6,i*6+6):
+        line = ax.lines[j]
+        line.set_color(col)
+        line.set_mfc(col)
+        line.set_mec(col)
+        line.set_linewidth(0.5)
 ```
 
 # Genomics Tools
