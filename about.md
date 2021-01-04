@@ -33,7 +33,7 @@ Previous role:
 
 Education: 
  * MBA (Class of 2023), [Harvard Business School](https://www.hbs.edu/)
- * MSc in Engineering Science (Class of 2023), [Harvard John A. Paulson School Of Engineering And Applied Sciences](https://www.seas.harvard.edu/)
+ * MSc in Engineering Science (concurrent), [Harvard Paulson School Of Engineering And Applied Sciences](https://www.seas.harvard.edu/)
  * Hon.Bsc Mathematics, Computer Science, Economics [University of Toronto](https://www.utoronto.ca/)
 
 
