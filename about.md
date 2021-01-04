@@ -8,9 +8,9 @@ I am currently a Data Engineer at [Apple, Inc.](http://www.apple.com/) in the Si
 
 Tech Stack: 
  * Apache data stack: Hadoop - Spark ecosystem 
-  * Scala
-  * Spark
-  * Java8 + JVM managements
+  * Spark (scala / python)
+  * Java + JVM management
+  * Tensorflow
   * Pig
   * Oozie
   * Airflow
