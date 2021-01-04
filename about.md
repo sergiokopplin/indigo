@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-I am a Data Engineer at [Apple, Inc.](http://www.apple.com/) in the Siri Data team.
+I am currently a Data Engineer at [Apple, Inc.](http://www.apple.com/) in the Siri Data team.
 
 Tech Stack: 
  * Apache data stack: Hadoop - Spark ecosystem 
@@ -39,4 +39,4 @@ Education:
 
 I also row on my spare time, currently out of [Bair Island Aquatic Center](http://www.gobair.org/), and [Victoria City Rowing Club](https://www.vcrc.bc.ca/), and also affiliation with [Hanlan Boat Club](https://www.hanlanboatclub.ca/). While I try to maintain a low profile of my athletic involvements, some inevitably gets recorded in the annals, to much of my chagrin.
 
-On my fractional spare time, I can be found volunteering for causes I care: [The Women's March](https://www.womensmarch.com/), [March For Our Lives](https://marchforourlives.com/home/), [Point of Pride](https://pointofpride.org/about/). I tinker with things around me. I can be found fixing cars, making DIY makeup, and playing violin.
+On my fractional spare time, I can be found volunteering for causes I care: [The Women's March](https://www.womensmarch.com/), [March For Our Lives](https://marchforourlives.com/home/), [Point of Pride](https://pointofpride.org/about/). I tinker with things around me. I can be found practicing circus arts, making cool things, and playing the violin.
