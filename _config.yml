@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://github.com/mlkimmins/resume
 
-url: https://mlkimmins.github.io/
+url: https://mlkimmins.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
