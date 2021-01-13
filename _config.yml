@@ -1,6 +1,6 @@
 # main text of home
-name: Ankit
-bio: B. Tech in IT and MI with Minors in Management, University of Delhi
+name: Hi, I'm Ankit
+bio: IT UnderGrad with Minors in Management, University of Delhi
 
 # twitter summary info
 #description: A blog about technology and stuff related
@@ -35,7 +35,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 email: ankit.cic7@ducic.ac.in
-facebook: Redstone007
+# facebook: facebook
 github: ankitcic
 instagram: ankitcic
 # pinterest: mypinterest
@@ -47,7 +47,7 @@ linkedin: ankitcic
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-#medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 twitter: bittwobit
@@ -56,7 +56,7 @@ twitter: bittwobit
 authors:
   ankit:
     name: Ankit
-    bio: B. Tech in IT and MI with Minors in Management, University of Delhi
+    bio: IT UnderGrad with Minors in Management, University of Delhi
     external-image: false
     picture: assets/images/profile.jpg
     twitter: bittwobit
@@ -75,11 +75,11 @@ pagination:
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blog: https://ankitcic.medium.com/
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -109,13 +109,13 @@ defaults:
       # can be overridden in the front matter for a specific post
       hidden: false
 
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-admin
-  - jekyll-paginate-v2
 
 jekyll-mentions:
   base_url: https://ankitcic.github.io
