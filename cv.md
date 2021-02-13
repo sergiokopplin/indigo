@@ -17,7 +17,7 @@ San Francisco, California
 
 **B.S. (Honors), Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
-*Funding*: National Merit Scholarship, Full Tuition \& Stipend  
+*Funding*: National Merit Scholarship, Full Tuition & Stipend  
 *GPA*: 4.0 / 4.0
 
 **Marine Biological Laboratory, Woods Hole, MA, 2016 Fall**  
