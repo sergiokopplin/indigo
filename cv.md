@@ -17,6 +17,7 @@ San Francisco, California
 
 **B.S. (Honors), Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
+*Funding*: National Merit Scholarship, Full Tuition \& Stipend  
 *GPA*: 4.0 / 4.0
 
 **Marine Biological Laboratory, Woods Hole, MA, 2016 Fall**  
@@ -29,6 +30,7 @@ San Francisco, California
 
 * Leading a research program combining computational and experimental approaches to address age-related diseases
 * Developed [**scNym**](https://scnym.research.calicolabs.com) semi-supervised adversarial neural networks for classifying cell types in single cell genomics, improving the state-of-the-art -- [scnym.research.calicolabs.com](https://scnym.research.calicolabs.com)
+* Lead the development of a computational & experimental platform for pooled screening of complexperturbations, successfully completing a company-wide goal
 
 **Calico Life Sciences, South San Francisco, CA, 2018 - 2020**.  
 *Data Scientist, Computing*  
@@ -90,7 +92,7 @@ San Francisco, California
 **Experimental Biology**: Quantitative microscopy, single cell RNA-seq, primary cell culture, FACS, molecular biology methods
 
 ## Selected Publications
-1. **Kimmel JC**, Kelley DR. scNym: Semi-supervised adversarial neural networks for single cell classification. 2020. *bioRxiv*. [doi: https://doi.org/10.1101/2020.06.04.132324](https://doi.org/10.1101/2020.06.04.132324).
+1. **Kimmel JC**, Kelley DR. scNym: Semi-supervised adversarial neural networks for single cell classification. 2020. *bioRxiv*. [doi: https://doi.org/10.1101/2020.06.04.132324](https://doi.org/10.1101/2020.06.04.132324). *Accepted at Genome Research*.
 2. **Kimmel JC**, Hendrickson DG, Kelley DR. Differentiation reveals the plasticity of age-related change in murine muscle progenitors. 2020. *bioRxiv*. [https://doi.org/10.1101/2020.03.05.979112](doi: 10.1101/2020.03.05.979112).
 3. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells. 2020. *Development*. [https://doi.org/10.1242/dev.183855](doi: 10.1242/dev.183855). Chosen as a [Research Highlight by *Development*: Muscling in on Stem Cell Aging.](https://dev.biologists.org/content/147/9/e0901)
 4. **Kimmel JC**. Disentangling latent representations of single cell RNA-seq experiments. 2020. *bioRxiv*. [https://doi.org/10.1101/2020.03.04.972166](doi: 10.1101/2020.03.04.972166).
@@ -131,6 +133,7 @@ San Francisco, California
 ## Honors and Awards
 
 * ICML Workshop on Computational Biology, Contributor Award, 2020
+* Selected as an *eLife* Early Career Reviewer
 * Nvidia Best Presentation Award, *Nvidia Deep Learning in Biomedicine*, 2018
 * National Science Foundation Graduate Research Fellowship, 2017
 * PhRMA Informatics Fellowship, PhRMA Foundation, 2017
@@ -139,3 +142,4 @@ San Francisco, California
 * Amgen Scholar, University of California San Francisco, 2014
 * Research & Mentoring Program Scholar, U. of Central Florida, 2013-2015
 * Burnett Research Scholar, U. of Central Florida, 2013
+* National Merit Scholar, National Merit Scholarship Corp., 2012
