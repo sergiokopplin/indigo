@@ -133,7 +133,7 @@ San Francisco, California
 ## Honors and Awards
 
 * ICML Workshop on Computational Biology, Contributor Award, 2020
-* Selected as an *eLife* Early Career Reviewer
+* Selected as an *eLife* Early Career Reviewer, 2020
 * Nvidia Best Presentation Award, *Nvidia Deep Learning in Biomedicine*, 2018
 * National Science Foundation Graduate Research Fellowship, 2017
 * PhRMA Informatics Fellowship, PhRMA Foundation, 2017
