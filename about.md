@@ -8,7 +8,7 @@ permalink: /about/index.html
 
 ## Hi, I'm Jacob
 
-I lead a research program as a Computational Fellow at [Calico](http://calicolabs.com) focused on programming cell identities to address aging.
+I lead a research program as a Computational Fellow at [Calico](http://calicolabs.com) combining computational and experimental biology to address aging.
 
 Previously, I worked as a Data Scientist in [Calico's Computing group.](https://www.calicolabs.com/team/computational-scientists/)
 My recent research has focused on explaining [how aging manifests differently among diverse mammalian cell types](https://mca.research.calicolabs.com), [how stem cells age](https://myo.research.calicolabs.com), and on developing methods for timelapse imaging and [single cell RNA sequencing.](https://github.com/scnym)
