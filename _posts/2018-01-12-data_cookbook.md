@@ -51,6 +51,32 @@ def only_takes_named_args(*, named_only0, named_only1):
 This is useful when defining functions that may have arguments added and removed
 over time, explicitly preventing code from relying on the positional order.
 
+## logging
+
+The python `logging` module offers granular control over user facing feedback.
+
+Generally, we want to create a `logger` object for each module with the convention:
+
+```python
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO) # or logging.DEBUG etc. to set logger priority
+
+logger.debug("This is a low priority statement, useful for debugging.")
+logger.info("This is a medium priority statement, issued during normal program behavior.")
+logger.warn("This is a high priority statement, not emitted during normal behavior.")
+```
+
+Using `logging` with IPython kernels can get tricky. 
+In general, the following settings are sufficient to override any kernel defaults and give you the expected behavior.
+
+```python
+import logging
+import sys
+logging.basicConfig(level=logging.INFO, stream=sys.stdout) # note level can be set as desired
+```
+
 # Numpy
 
 ## Preserve array dimensionality when slicing
