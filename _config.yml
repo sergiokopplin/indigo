@@ -34,8 +34,8 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+#twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
@@ -50,15 +50,15 @@ github: mygithub
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: kimkgh8@gmail.com
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: 김 근호
+    bio: 일본에서 꿈을 키우고 있는 개발자
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
+    twitter: Kim Geunho
   jamesfoster:
     name: James Foster
     bio: A Man who develops software with coffee
