@@ -92,7 +92,7 @@ San Francisco, California
 **Experimental Biology**: Quantitative microscopy, single cell RNA-seq, primary cell culture, FACS, molecular biology methods
 
 ## Selected Publications
-1. **Kimmel JC**, Kelley DR. scNym: Semi-supervised adversarial neural networks for single cell classification. 2020. *bioRxiv*. [doi: https://doi.org/10.1101/2020.06.04.132324](https://doi.org/10.1101/2020.06.04.132324). *Accepted at Genome Research*.
+  1. **Kimmel JC**, Kelley DR. scNym: Semi-supervised adversarial neural networks for single cell classification. 2021. *Genome Research*. [doi: https://doi.org/10.1101/gr.268581.120](https://doi.org/10.1101/gr.268581.120).
 2. **Kimmel JC**, Hendrickson DG, Kelley DR. Differentiation reveals the plasticity of age-related change in murine muscle progenitors. 2020. *bioRxiv*. [https://doi.org/10.1101/2020.03.05.979112](doi: 10.1101/2020.03.05.979112).
 3. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells. 2020. *Development*. [https://doi.org/10.1242/dev.183855](doi: 10.1242/dev.183855). Chosen as a [Research Highlight by *Development*: Muscling in on Stem Cell Aging.](https://dev.biologists.org/content/147/9/e0901)
 4. **Kimmel JC**. Disentangling latent representations of single cell RNA-seq experiments. 2020. *bioRxiv*. [https://doi.org/10.1101/2020.03.04.972166](doi: 10.1101/2020.03.04.972166).
