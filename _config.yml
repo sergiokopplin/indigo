@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Li Hao
+bio: Stay foolish, Stay hungry
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Stay foolish, Stay hungry
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://zhenliemao.github.io/
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -35,13 +35,13 @@ disqus:
 
 # if you don't have any of social below, comment the line
 facebook: myfacebook
-twitter: mytwitter
+# twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: lihao
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: zhenliemao
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -50,15 +50,15 @@ github: mygithub
 medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: licangluo@163.com
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: Li Hao
+    bio: stay foolish,stay hungry
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
+    twitter: arraycat
   jamesfoster:
     name: James Foster
     bio: A Man who develops software with coffee
