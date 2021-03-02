@@ -19,5 +19,5 @@ This approach allowed me to measure the rate of muscle stem cell activation and 
 
 When I’m not doing science, I like to write, climb big hills, and play several instruments with equitable levels of mediocrity.
 
-If you ever want to get in touch with me, shoot me an email at [jacobkimmel@gmail.com](mailto:jacobkimmel@gmail.com) or find me on Twitter [@jacobkimmel](https://twitter.com/jacobkimmel).
+If you ever want to get in touch with me, shoot me an email at [jacob@jck.bio](mailto:jacob@jck.bio) or find me on Twitter [@jacobkimmel](https://twitter.com/jacobkimmel).
 I enjoy meeting new people to discuss aging biology, machine learning, carbon capture, and the relative merits of San Francisco coffee shops.
