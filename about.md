@@ -3,7 +3,7 @@ title: About
 layout: page
 permalink: /about/index.html
 ---
-<img src="{{ site.url }}/{{ site.picture }}" style="width:300px;" />
+<img src="{{ site.url }}/{{ site.picture }}" style="width:200px;" />
 
 
 ## Hi, I'm Jacob
