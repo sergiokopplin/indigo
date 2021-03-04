@@ -424,6 +424,51 @@ for i,artist in enumerate(ax.artists):
         line.set_linewidth(0.5)
 ```
 
+# Jupyter 
+
+These snippets make life easier inside Jupyter notebooks.
+
+## Add a python `virtualenv` as a Jupyter kernel
+
+```bash
+# install ipykernel if it is not installed already
+pip install ipykernel
+# add the kernel to the jupyter kernelspec
+export KERNEL_NAME="my_virtualenv"
+python -m ipykernel install --user --name=${KERNEL_NAME}
+```
+
+# Virtual Environments
+
+You should probably set up all projects with their own `python` virtual environment for reproducibility.
+Unfortunately, these don't always play nicely with cluster environments if you need multiple `python` versions.
+Here are a few tips to make life easier.
+
+## Generate a hard-copy virtual environment
+
+If you want to use a `python` version that's not installed globally on every node in a cluster, you'll want to copy rather than link the necessary base python binaries and libraries.  
+This is simple enough using `venv` in `python>=3.3`.
+
+```bash
+export PY_VER="some_python_version"
+export ENV_NAME="some_environment_name"
+# `--copies` with copy the relevant python binaries
+${PY_VER} -m venv --copies ${ENV_NAME}
+# however, it *won't* copy the standard library!
+# so you'll get funny `ModuleNotFoundError`s if you run on
+# a node that doesn't have ${PY_VER} in `/usr/lib` et. al.
+cp -Rv /usr/lib/${PY_VER}/* ${ENV_NAME}/lib/${PY_VER}/
+# you'll also have to set the PYTHONPATH and PYTHONHOME manually
+# when you activate the venv on cluster nodes
+# e.g.
+export PYTHONPATH=$(realpath ${ENV_NAME})/lib/${PY_VER}
+export PYTHONHOME=${PYTHONPATH}
+# we can add these to `bin/activate` to make life easier
+export TEST='# set PYTHONPATH and PYTHONHOME to account for copied standard library\nexport PYTHONPATH="/home/jacob/bin/envs/scvi-tools-0.9/lib/python3.9"\nexport PYTHONHOME=${PYTHONPATH}\n#these will be reset to the original values by `deactivate()` above'
+cp ${ENV_NAME}/bin/activate ${ENV_NAME}/bin/activate.backup
+sed -i s/export\ PS1\nfi/export\ PS1\nfi\n\n${TEST}/g ${ENV_NAME}/bin/activate
+```
+
 # Genomics Tools
 
 Genomics has its own set of standard tools, and it can be baffling to remember all the useful one-liners each tool offers.
@@ -533,7 +578,7 @@ This is useful for ensuring a float appears below the relevant section title, or
 My understanding is that `pdflatex` is very conservative and applies no compression scheme.
 Substantial improvements in the file size can be found with loseless or modest lossy compression.
 
-Ghostscript is installed by default on most *nix and does a good job of reducing file size on its own.
+Ghostscript is installed by default on most Unix systems and does a good job of reducing file size on its own.
 
 ```bash
 gs \
