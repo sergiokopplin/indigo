@@ -30,7 +30,7 @@ San Francisco, California
 
 * Leading a research program combining computational and experimental approaches to address age-related diseases
 * Developed [**scNym**](https://scnym.research.calicolabs.com) semi-supervised adversarial neural networks for classifying cell types in single cell genomics, improving the state-of-the-art -- [scnym.research.calicolabs.com](https://scnym.research.calicolabs.com)
-* Lead the development of a computational & experimental platform for pooled screening of complexperturbations, successfully completing a company-wide goal
+* Lead the development of a computational & experimental platform for pooled screening of complex perturbations, successfully completing a company-wide goal
 
 **Calico Life Sciences, South San Francisco, CA, 2018 - 2020**.  
 *Data Scientist, Computing*  
