@@ -16,7 +16,7 @@ description: An introduction to CRIU and Live migration
 ---
 
 
-### Introduction to CRIU and Live Migration
+## Introduction to CRIU and Live Migration
 
 <br> In this blog post I will try and explain what CRIU is and how it works,
 what Live Migration is, and how those two are related.
