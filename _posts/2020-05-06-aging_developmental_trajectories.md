@@ -12,7 +12,7 @@ tag:
 - rna-seq
 - velocity
 projects: true
-description: "Differentiation reveals the plasticity of age-related change in murine muscle progenitors"
+description: "Differentiation reveals latent features of aging and an energy barrier in murine myogenesis"
 ---
 
 *This post is adapted from [a series of posts on Twitter](https://twitter.com/jacobkimmel/status/1236098664147202048) and is intended to provide a ~5 minute summary of a recent paper. Please see the paper or research website for a more detailed description.*
@@ -21,11 +21,11 @@ Old stem cells are bad at making new cells to maintain tissue health, but it's u
 
 My [Calico](http://calicolabs.com) colleagues and I wondered if some aging defects are unseen until old stem cells are challenged to differentiate.
 
-We describe our answers to this question in a new manuscript and research website.
+We describe our answers to this question in a new paper and research website.
 
-**Differentiation reveals the plasticity of age-related change in murine muscle progenitors**  
-Jacob C. Kimmel, David G. Hendrickson, David R. Kelley  
-**doi:** [https://doi.org/10.1101/2020.03.05.979112](https://www.biorxiv.org/content/10.1101/2020.03.05.979112v1)
+**Differentiation reveals latent features of aging and an energy barrier in murine myogenesis**  
+Jacob C. Kimmel, Nelda Yi, Margaret Roy, David G. Hendrickson, David R. Kelley  
+*Cell Reports*. **doi:** [https://doi.org/10.1016/j.celrep.2021.109046](https://doi.org/10.1016/j.celrep.2021.109046)
 
 [Aging across developmental trajectories -- Calico Research Website](https://myo.research.calicolabs.com/)
 
