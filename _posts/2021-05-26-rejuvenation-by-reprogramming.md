@@ -24,11 +24,7 @@ Inspired by limb regeneration in amphibians, we also explored whether partial mu
 We performed partial reprogramming with SOKM in young and aged adipogenic and mesenchymal stem cells.
 By measuring gene expression across single cells, we captured cells in diverse states across the trajectory of partial reprogramming.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/reprog/web_yf_poly_trajectories.png" width="600">
-    </div>
-</div>
+<img src="{{ site.baseurl }}/assets/images/reprog/web_yf_poly_trajectories.png" width="600">
 
 Single cell expression profiles in both adipogenic cells and MSCs revealed a continuous trajectory of cell states induced by partial reprogramming.
 We also profiled control cells that were not reprogrammed, allowing us to compare the effects of aging and reprogramming in a common measurement space.
@@ -38,12 +34,7 @@ To investigate, we used maximum mean discrepancy (MMD) comparisons between young
 Remarkably, we found that adipogenic cells were more similar to young controls after treatment, with youthful expression levels restored in thousands of genes.
 In MSCs, we found that fibrotic gene sets and an aging signature derived from bulk RNA-seq were similarly reduced.
 
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/reprog/web_poly_youthful_expr.png" width="600">
-    </div>
-</div>
+<img src="{{ site.baseurl }}/assets/images/reprog/web_poly_youthful_expr.png" width="600">
 
 ### Somatic cell identities are transiently suppressed by partial reprogramming
 
@@ -51,11 +42,7 @@ Reprogramming induced unique cell states, unseen in control conditions in both c
 These unique states suggested to us that reprogramming might be suppressing somatic cell identity programs, despite some prior reports to the contrary.
 We performed pseudotime analysis to map each cell to a continuous coordinate system spanning the length of the reprogramming trajectories we observed.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/reprog/web_yf_pst_velo.png" width="600">
-    </div>
-</div>
+<img src="{{ site.baseurl }}/assets/images/reprog/web_yf_pst_velo.png" width="600">
 
 We found that somatic cell identity programs were suppressed and pluripotency identity programs were activated in the most reprogrammed cells along these trajectories.
 In particular, we observed activation of the *Nanog* transcription factor, previously reported to be a gate-keeper to the induction of full pluripotency.
@@ -71,11 +58,7 @@ We turned to RNA velocity analysis to infer changes in cell state and found that
 
 Are all four Yamanaka factors required to restore youthful expression? Are there any sufficient subsets?
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/reprog/web_yf_screen.png" width="600">
-    </div>
-</div>
+<img src="{{ site.baseurl }}/assets/images/reprog/web_yf_screen.png" width="600">
 
 We next wondered if alternative reprogramming strategies could also restore youthful expression.
 The neoplastic risk posed by oncogenes in the Yamanaka Factor set (*Klf4, Myc*) motivates a search for alternative approaches.
@@ -85,11 +68,7 @@ To investigate these questions, we developed a screening system that allowed us 
 Our approach was inspired by the CellTag lineage-tracing system ([Biddy et. al. 2018](https://pubmed.ncbi.nlm.nih.gov/30518857/)), taking advantage of expressed barcodes in the 3' UTR of a constituitive reporter.
 We used this system to test partial reprogramming in young and aged MSCs with all possible combinations of the Yamanaka factors.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/reprog/web_yf_screen_results.png" width="600">
-    </div>
-</div>
+<img src="{{ site.baseurl }}/assets/images/reprog/web_yf_screen_results.png" width="600">
 
 We found that the transcriptional effects of transient reprogramming scaled with the number of unique factors delivered, consistent with known biology for the Yamanaka factors.
 To determine which combinations had unique effects, we trained a cell identity classification model ([scNym](https://scnym.research.calicolabs.com)) to discriminate different combinations based on transcriptional profiles.
@@ -106,11 +85,7 @@ The results of our screen suggest that the activation of the full pluripotency p
 
 Can transient multipotent reprogramming reverse features of aging?
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/reprog/web_yf_myo.png" width="512">
-    </div>
-</div>
+<img src="{{ site.baseurl }}/assets/images/reprog/web_yf_myo.png" width="512">
 
 Urodele amphibians have the remarkable ability to regenerate limbs through an endogeneous dedifferentiation process.
 One key player in this process is the mesodermal transcription factor *Msx1*.
