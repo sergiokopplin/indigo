@@ -37,6 +37,8 @@ Education:
  * Hon.Bsc Mathematics, Computer Science, Economics [University of Toronto](https://www.utoronto.ca/)
 
 
-I also row on my spare time, currently out of [Bair Island Aquatic Center](http://www.gobair.org/), and [Victoria City Rowing Club](https://www.vcrc.bc.ca/), and also affiliation with [Hanlan Boat Club](https://www.hanlanboatclub.ca/). While I try to maintain a low profile of my athletic involvements, some inevitably gets recorded in the annals, to much of my chagrin.
+I also row on my spare time, currently out of [Bair Island Aquatic Center](http://www.gobair.org/), and [Victoria City Rowing Club](https://www.vcrc.bc.ca/), and also affiliation with [Hanlan Boat Club](https://www.hanlanboatclub.ca/).
+
+Also a member of [National Gay Pilots Association](https://www.ngpa.org/).
 
 On my fractional spare time, I can be found volunteering for causes I care: [The Women's March](https://www.womensmarch.com/), [March For Our Lives](https://marchforourlives.com/home/), [Point of Pride](https://pointofpride.org/about/). I tinker with things around me. I can be found practicing circus arts, making cool things, and playing the violin.
