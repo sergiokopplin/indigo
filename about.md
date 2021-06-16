@@ -33,7 +33,10 @@ Previous role:
 
 Education: 
  * MBA (Class of 2023), [Harvard Business School](https://www.hbs.edu/)
+     * Fellowships: John H. McArthur Fellow, ROMBA Fellow
+     * HBS Scholarship recipient
  * MSc in Engineering Science (concurrent), [Harvard Paulson School Of Engineering And Applied Sciences](https://www.seas.harvard.edu/)
+     * Denise Dupre and Mark Nunnelly Fund recipient
  * Hon.Bsc Mathematics, Computer Science, Economics [University of Toronto](https://www.utoronto.ca/)
 
 
