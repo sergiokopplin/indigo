@@ -461,10 +461,10 @@ cp -Rv /usr/lib/${PY_VER}/* ${ENV_NAME}/lib/${PY_VER}/
 # you'll also have to set the PYTHONPATH and PYTHONHOME manually
 # when you activate the venv on cluster nodes
 # e.g.
-export PYTHONPATH=$(realpath ${ENV_NAME})/lib/${PY_VER}
+export PYTHONPATH="$(realpath ${ENV_NAME})/lib/${PY_VER}:$(realpath ${ENV_NAME})/lib/${PY_VER}/lib-dynload"
 export PYTHONHOME=${PYTHONPATH}
 # we can add these to `bin/activate` to make life easier
-export TEST='# set PYTHONPATH and PYTHONHOME to account for copied standard library\nexport PYTHONPATH="/home/jacob/bin/envs/scvi-tools-0.9/lib/python3.9"\nexport PYTHONHOME=${PYTHONPATH}\n#these will be reset to the original values by `deactivate()` above'
+export TEST='# set PYTHONPATH and PYTHONHOME to account for copied standard library\nexport PYTHONPATH="/home/jacob/bin/envs/scvi-tools-0.9/lib/python3.9"\nexport PYTHONPATH="/home/jacob/bin/envs/scvi-tools-0.9/lib/python3.9/lib-dynload"\nexport PYTHONHOME=${PYTHONPATH}\n#these will be reset to the original values by `deactivate()` above'
 cp ${ENV_NAME}/bin/activate ${ENV_NAME}/bin/activate.backup
 sed -i s/export\ PS1\nfi/export\ PS1\nfi\n\n${TEST}/g ${ENV_NAME}/bin/activate
 ```
@@ -473,6 +473,22 @@ sed -i s/export\ PS1\nfi/export\ PS1\nfi\n\n${TEST}/g ${ENV_NAME}/bin/activate
 
 Genomics has its own set of standard tools, and it can be baffling to remember all the useful one-liners each tool offers.
 Here are some useful snippets to bring some sanity to bioinformatics workflows.
+
+## NCBI Datasets
+
+Acquiring information about genes of interest (e.g. expressed sequences, encoded proteins) is a common task in genomics.
+Going from a list of gene symbols to a set of relevant sequences in FASTA file used to be a bit of a pain.
+
+The new NCBI Datasets tool is surprisingly easy to use and delivers all the information you could want on a given gene symbol.
+
+For example, if we want to get the proteins endoded by the myogenic regulatory factors, we can do so in a couple lines of `bash`.
+
+```bash
+datasets download gene symbol --taxon mouse \
+	Myod1 Myog Myf5 Myf6
+unzip ncbi_dataset.zip
+less ncbi_dataset/data/protein.faa
+```
 
 ## GSE/SRA-tools
 
@@ -489,7 +505,7 @@ This one-liner will find all the FASTQ files associated with a project in GEO th
 ```bash
  # set a project ID
 PROJECT_ID=PRJNA600730
-esearch -db sra -query $PROJECT_ID  | efetch --format runinfo | cut -d ',' -f 1 | grep SRR | xargs fastq-dump -X 10 --split-files --gzip
+esearch -db sra -query $PROJECT_ID  | efetch --format runinfo | cut -d ',' -f 1 | grep SRR | xargs fastq-dump --split-files --gzip
 ```
 
 # LaTeX
