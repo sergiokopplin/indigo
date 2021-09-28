@@ -15,17 +15,22 @@ San Francisco, California
 **Ph.D. — Dept. Biochemistry & Biophysics, UC San Francisco, 2015 - 2018**  
 *Funding*: NSF Fellowship, PhRMA Fellowship, NIH T32, UCSF Discovery    
 
-**B.S. (Honors), Biotechnology, University of Central Florida, 2012 - 2015**  
+<!-- **B.S. (Honors), Biotechnology, University of Central Florida, 2012 - 2015**  
 *Distinctions*: Summa Cum Laude, Top Honors, University Honors  
 *Funding*: National Merit Scholarship, Full Tuition & Stipend  
-*GPA*: 4.0 / 4.0
+*GPA*: 4.0 / 4.0 -->
 
-**Marine Biological Laboratory, Woods Hole, MA, 2016 Fall**  
-*Course*: Computational Image Analysis in Cell and Developmental Biology
+<!-- **Marine Biological Laboratory, Woods Hole, MA, 2016 Fall**  
+*Course*: Computational Image Analysis in Cell and Developmental Biology -->
 
 ## Experience
 
-**Calico Life Sciences, South San Francisco, CA, 2020 - Present**.  
+**Calico Life Sciences, South San Francisco, CA, 2021 - Present**  
+*Principal Investigator*  
+
+* Leading a laboratory combining computational and experimental methods to repurpose developmental programs for therapeutic applications
+
+**Calico Life Sciences, South San Francisco, CA, 2020 - 2021**.  
 *Computational Fellow, Computing*
 
 * Leading a research program combining computational and experimental approaches to address age-related diseases
