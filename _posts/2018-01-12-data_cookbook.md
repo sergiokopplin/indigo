@@ -498,7 +498,32 @@ For collecting data from GEO, we largely rely on `sra-tools`.
 
 ### Download FASTQs associated with a GEO submission
 
+There are a few different ways to get raw data from a GEO submission, each with their own plusses and minuses.
+
+**(primary option) prefetch & fastq-dump**
+
+The best way to get `.fastq` data in *uncompressed* format is to `prefetch` all the related `SRR` tokens for a given SRA project ID, then use `fastq-dump` to convert the `.sra` cache to `.fastq`.
+
+```bash
+PROJECT_ID=PRJNA600730
+# get the SRR tokens associated with a project
+esearch -db sra -query $PROJECT_ID  | efetch --format runinfo | cut -d ',' -f 1 | grep SRR > SRR_names.txt
+# prefetch all the SRR tokens. `--option-file` reads arguments sequentially from a text file.
+# the precache gets stored in your sra directory, often ~/ncbi/sratools/
+prefetch --option-file SRR_names.txt
+# convert to fastq -- this has to be done sequentially, or you can use `parallel`
+# fastq-dump will use the precached sra files by default
+for i in $(cat SRR_names.txt); do echo $i; fastq-dump --split-files ${i}; done
+```
+
+**(secondary option) fastq-dump direct download**
+
 This one-liner will find all the FASTQ files associated with a project in GEO then use `fastq-dump` to download associated reads as `.fastq.gz` files.
+The main advantage of this approach is on-the-fly compression with `gzip`, reducing the total storage requirements for a given GSE download.
+
+The main downside is that it's often, painfully, painfully slow to the point of unusability on large datasets.
+I'm not sure what the etiology here is, but SRA seems to acknowledge the issue and released `fasterq-dump` as an alternative. 
+Unfortunately, `fasterq-dump` seems pretty buggy and tends to crash mid-way through large downloads with no option for recovery.
 
 [Biostars Credit](https://www.biostars.org/p/111040/#113204)
 
@@ -506,6 +531,33 @@ This one-liner will find all the FASTQ files associated with a project in GEO th
  # set a project ID
 PROJECT_ID=PRJNA600730
 esearch -db sra -query $PROJECT_ID  | efetch --format runinfo | cut -d ',' -f 1 | grep SRR | xargs fastq-dump --split-files --gzip
+```
+
+### Get metadata for samples in a GEO submission
+
+GEO is a beautiful resource, but the lack of structured metadata can be a challenge as a user.
+Usually, submitters include useful filenames in their processed data, or include a metadata CSV as a component of the processed data.
+Unfortunately, this isn't always the case. 
+Sometimes, metadata exists only in the `GSM*` entry for each individual sample.
+
+In these cases, we can extract the relevant data by parsing the text with `GEOparse`.
+
+```bash
+pip install GEOparse
+```
+
+And usage:
+
+```python
+gse = GEOparse.get_GEO(geo="GSE1563", destdir="./")
+
+# `gse.gsms` is a `dict` mapping GSM_str : gsm_object
+first_key = list(gse.gsms.keys())[0]
+gsm_obj = gse.gsms[first_key]
+# gsm_obj has a .metadata dictionary attribute
+# gsm_obj.metadata has keys corresponding to section of a GSM webpage, like
+# "treatment_protocol_ch1" or "description"
+# the values are lists with str values of text metadata
 ```
 
 # LaTeX
