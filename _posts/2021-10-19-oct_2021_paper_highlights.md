@@ -72,7 +72,14 @@ This brings us to our loss:
 
 $L = - \log \frac{\exp(s)}{\sum_{s' \in N} \exp(s')} + \lVert \theta \rVert_2^2$
 
-where the right hand term is a simple $\ell_2$ regularization penalty.
+where the right hand term is a simple $\ell_2$ regularization penalty on the embedding $\theta$.
+
+The real trick to fitting the embedding is contained in the denominator of the loss term $\sum_{s' \in N} \exp(s')$.
+Here, $N$ is a set of scores for "negative" edges that are created by randomizing the real set of edges.
+The basic idea is that the authors start with real edges, then replace either the source or target node with a random node of the same type. 
+For instance, we might start with a real edge between the node `B cell` and the node `Pax5` and randomize it to create a "negative" edge `(B cell, Myod1)`. 
+Our embedding then learns to give higher scores -- and thus more similar embedding coordinates -- to nodes that are associated in the knowledge graph relative to a random background set.
+The authors note that a few different tricks are required to make this work [such as mixing true randomization with stratified sampling].
 
 Once fit, they have an embedding of not only cells but also genes and peaks in the same space. Kinda weird to think about at first.
 The authors find that they can identify marker genes based on coembedding with different cell types, find TF motifs that are enriched in different cell populations, and correct for batch effects across datasets. 
