@@ -24,7 +24,7 @@ This is a sober take on some Simpson's Paradox flavored issues that can arise in
 
 The essential conclusion is that most common single cell DE methods don't account for biological replicates. Instead, they consider cells as replicates. 
 In the event that biological replicates exhibit lots of variation, this can confound DE results and lead to lots of false discoveries. 
-Surprisingly, the authors report that a simple pseudo-bulk procedure -- i.e. generating pseudobulk profiles for each biological replicate -- followed by classic bulk RNA-seq methods (DESeq2, edgeR) is superior to any single cell DE method for recovering DE genes from bulk samples. 
+Surprisingly, the authors report that a simple pseudo-bulk procedure -- i.e. generating pseudobulk profiles for each biological replicate -- followed by classic bulk RNA-seq methods [DESeq2, edgeR] is superior to any single cell DE method for recovering DE genes from bulk samples. 
 
 There's one caveat the authors don't touch on here, which is that their "ground truth" is a bit circular.
 One can imagine genes where expression is driven by a small number of cells in the tissue, such that variability is better assessed by single cell methods than bulk RNA-seq. 
@@ -40,9 +40,9 @@ I hope to one day get back around to building out a Bayesian mixed GLM implement
 [Link](https://www.nature.com/articles/s41467-021-26017-0)
 
 Here, the authors present a modified single cell VAE that incorporates a sparse set of weights in the decoder reflecting prior knowledge. The basic idea is similar to [PLIER](https://pubmed.ncbi.nlm.nih.gov/31249421/) in that the authors mask weights of a one-layer linear decoder so that each latent variable can contribute only to a pre-specified set of genes. 
-They generate these gene masks based on several different databases (MSigDB, Reactome, TF GRNs) and show that their models can recover enrichment of immune cell signaling gene sets upon stimulation and cell type specific enrichment of TF GRNs.
+They generate these gene masks based on several different databases [MSigDB, Reactome, TF GRNs] and show that their models can recover enrichment of immune cell signaling gene sets upon stimulation and cell type specific enrichment of TF GRNs.
 
-There aren't any benchmarking excercises comparing the VEGA approach to simple gene set scoring baselines (e.g. gene set enrichment analysis on differentially expressed genes). 
+There aren't any benchmarking excercises comparing the VEGA approach to simple gene set scoring baselines [e.g. gene set enrichment analysis on differentially expressed genes]. 
 It's therefore unclear if the VEGA approach is superior to more traditional bioinformatics tools as implemented here. 
 Nonetheless, this is a clever idea and it's interesting to see that even straightforward regularization approaches can yield more interpretable latent spaces.
 
@@ -54,8 +54,8 @@ Congratulations to the authors on a clean, well-executed algorithm!
 
 This is an interesting new paper applying knowledge graph embedding methods to single cell genomics problems. They authors only benchmark a subset of the problems the method addresses, so it's unclear exactly where a user should employ this approach, but the idea is quite distinct from the common approaches for several single cell genomics analysis tasks.
 
-The authors formulate the problem of interpreting single cell experiments as a knowledge graph interpretation task. Given several biological entities (cells, genes, peaks, TF motifs), we want to learn relationships between them. They propose using knowledge graph embeddings to learn a representation where related entities co-embed. 
-In practice, they treat cells and genes (or cells, peaks, TF motifs etc) as nodes in the graph, and draw edges between them when a given gene is expressed in a cell, or a given peak is open. 
+The authors formulate the problem of interpreting single cell experiments as a knowledge graph interpretation task. Given several biological entities [cells, genes, peaks, TF motifs], we want to learn relationships between them. They propose using knowledge graph embeddings to learn a representation where related entities co-embed. 
+In practice, they treat cells and genes [or cells, peaks, TF motifs etc] as nodes in the graph, and draw edges between them when a given gene is expressed in a cell, or a given peak is open. 
 They then apply a standard contrastive loss that maximizes the similarity of nodes that share edges in the embedding relative to a random set of edges that are constructed as negative examples.
 Framing the problem as a knowledge graph embedding is reminiscent of my colleague Han Yuan's work to embed transcription factor binding motifs with [BindSpace.](https://www.nature.com/articles/s41592-019-0511-y)
 
@@ -70,7 +70,7 @@ Intuitively, an edge will get a high score if the nodes are close together in th
 
 This brings us to our loss:
 
-$$L = - \log \frac{\exp(s)}{\sum_{s' \in N} \exp(s')} + \lVert \theta \rVert_2^2$$
+$L = - \log \frac{\exp(s)}{\sum_{s' \in N} \exp(s')} + \lVert \theta \rVert_2^2$
 
 where the right hand term is a simple $\ell_2$ regularization penalty.
 
@@ -78,5 +78,5 @@ Once fit, they have an embedding of not only cells but also genes and peaks in t
 The authors find that they can identify marker genes based on coembedding with different cell types, find TF motifs that are enriched in different cell populations, and correct for batch effects across datasets. 
 For cell cluster recovery, cell marker discovery, and batch effect correction, the authors report superior performance to some existing baseline approaches. I found this convincing evidence that the embeddings recover more than just pretty nearest neighbor graphs.
 
-For future work, I'm particularly interested in the application of knowledge graph embeddings to recovering gene regulatory networks (e.g. gene regulator -> target gene graphs).
-The authors highlight some qualitative results in this work, but it will be exciting to see comparisons to baseline approaches (covariance, sequence motifs, combination methods like SCENIC, scBasset et. al.) in the future.
+For future work, I'm particularly interested in the application of knowledge graph embeddings to recovering gene regulatory networks [e.g. $\mathrm{TF} \rightarrow \mathrm{Target\ Gene}$ graphs).
+The authors highlight some qualitative results in this work, but it will be exciting to see comparisons to baseline approaches [covariance, sequence motifs, combination methods like SCENIC, scBasset et. al.] in the future.
