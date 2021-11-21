@@ -17,6 +17,10 @@
 </p>
 
 <p align="center">
+    Light and Dark themes.
+</p>
+
+<p align="center">
     <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
 </p>
 

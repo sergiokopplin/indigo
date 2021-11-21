@@ -21,7 +21,12 @@ layout: compress
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
 
     <style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {% if site.dark-theme %}
+        {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
+    {% else %}
+        {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {% endif %}
+
     {{ scss_sheet | scssify }}
     </style>
 
