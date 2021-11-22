@@ -26,7 +26,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>CSS (Stylus, Sass, Less)</li>
 	<li>Css Frameworks (Bootstrap, Foundation)</li>
 	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
 	<li>AngularJS - ReactJS</li>
 	<li>Grunt - Gulp - Yeoman</li>
 	<li>Git</li>
