@@ -121,7 +121,6 @@ compress_html:
 
 exclude:
   [
-    "travis.sh",
     "README.md",
     "Gemfile",
     "Gemfile.lock",
