@@ -438,6 +438,26 @@ export KERNEL_NAME="my_virtualenv"
 python -m ipykernel install --user --name=${KERNEL_NAME}
 ```
 
+# PyTorch
+
+## Force cuDNN initialization
+
+PyTorch loads cuDNN lazily, only initializing cuDNN after you call the first convolution in a program.
+This can occassionally lead to errors if PyTorch has already exhausted onboard CUDA memory when establishing the main cache.
+Sometimes, this error can be resolved simply by forcing cuDNN to load upon program initiation. 
+This is accomplished by running a single convolution operation on the CUDA device.
+
+```python
+def init_cudnn():
+    s = 16
+    device = torch.device('cuda')
+    torch.nn.functional.conv2d(
+      torch.zeros(s, s, s, s, device=device), 
+      torch.zeros(s, s, s, s, device=device),
+    )
+    return
+```
+
 # Virtual Environments
 
 You should probably set up all projects with their own `python` virtual environment for reproducibility.
