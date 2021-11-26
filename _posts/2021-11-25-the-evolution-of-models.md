@@ -47,7 +47,24 @@ history lesson
 * Famously, Delbruck transitioned into biology after working with Lisa Meitner and Otto Hahn on nuclear physics in the 1930's. He expressed a series of concrete questions and hypotheses about the nature of living systems from a physicts perspective, made famous by Edwin Schroedinger in his pamphlet "What is life?".
 * 
 -->
-*This post was inspired in part by Horace Freeland Judson's excellent history of molecular biology from 1940-1980, The Eighth Day of Creation.*
+*This post was inspired in part by Horace Freeland Judson's excellent history of molecular biology from 1940-1980, [The Eighth Day of Creation.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
+
+<!-- Introduction -->
+
+# A search for meaningful representations of life
+
+Machine learning approaches are rapidly becoming part of the standard toolkit of life scientists.
+As we solve once intractable problems -- genomic variant effect prediction, protein folding, perturbation prediction -- a natural tension has arisen as this new class of models challenges the traditional cognitive toolkit of molecular biology.
+This tension is visible in the back-and-forth discourse over the role of ML in biology, with ML practioners sometimes overstating the capabilities that models provide, and experimental biologists strongly asserting the failure of modes of various models while often overlooking the strengths.
+
+Reflecting on the history of molecular biology, it strikes me that the recent rise of ML tools is more of a return to form than a dramatic divergence from biological traditions.
+Molecular biology emerged from the convergence of physics and classical genetics, birthing a disipline that modeled complex biological phenomena from first principles where possible, and experimentally tested reductionist hypotheses where analytical exploration failed.
+Our questions began to vear into the realm of complex systems, inherently difficult to predict with classical analytical modeling, and molecular biology became more and more of an experimental science.
+
+Machine learning tools are only now enabling us to regain the model-driven mode of inquiry we lost to complexity.
+Framed in the proper historical context, the ongoing convergence of computational and life sciences is a reprise of biology's foundational epistemic tools, rather than the fall-from-grace too often proclaimed within our disipline.
+
+<!-- A science that modeling built -->
 
 When Linus Pauling began working to resolve the structure of the alpha-helix, he built physical models of the proposed atomic configurations.
 Most young biology students have seen photos of Pauling beside his models, but their significance is rarely conveyed properly.
@@ -70,19 +87,49 @@ Watson was originally convinced that bases should form homotypic pairs -- A to A
 Only when they build the model and found that the resulting "bulges" were incompatible with chemical rules did Watson and Crick realize that heterotypic pairs -- our well known friends A to T, C to G -- not only worked structurally, but confirmed Edwin Chargaff's experimental ratios[^1].
 
 The foundations of molecular biology were laid by empirical exploration of evidence based models, but they're rarely found in our modern practice.
+Rather, we largely develop individual hypotheses based on intuitions and heuristics, then test those hypotheses directly in cumbersome experimental systems.
 
 Where did the models go?
 
 <!-- Complexity and the golden era of molecular biology -->
 
-Modern biology lives in the shadow of The Golden Era of molecular biology.
-The Golden Era's beginning is perhaps demarkated by Schroedinger's publication of Max Delbruck's questions and hypotheses on the nature of living systems in *What is Life?*.
+Modern biology of most flavors lives in the shadow of The Golden Era of molecular biology.
+The Golden Era's beginning is perhaps demarkated by Schroedinger's publication of Max Delbrück's questions and hypotheses on the nature of living systems in [*What is Life?*](https://en.wikipedia.org/wiki/What_Is_Life%3F).
 The end is less clearly defined, but I'll argue that the latter bookend might be set by the contemporaneous development of recombinant DNA technology by Boyer & Cohen[^2] [1972] and (DNA sequencing technology)[https://en.wikipedia.org/wiki/Sanger_sequencing] by Fredrick Sanger [1977].
-<!-- alternatively, one might say that Sanger sequencing was the defining end to the Golden Era and the rise of the Quantitative Era -->
 
+In Francis Crick's words, The Golden Era was
+
+> concerned with the very large, long-chain biological molecules -- the nucleic acids and proteins and their synthesis. Biologically, this means genes and their replication and expression, genes and the gene products.[^3]
+
+Building on the classical biology of genetics, Golden Era biologists investigated a question through a process of reduction.
+The inductive bias guiding most experiments was that high-level biological phenomena -- heredity, differentiation, development, cell division -- could be explained by the action of a relatively small number of molecules.
+From this inductive bias, a necessary and sufficient molecular actor that gave rise to a biological phenomenon became the gold standard for "mechanism" in the life sciences[^4].
+
+Though molecular biology emerged from a model building past, the processes under investigation during the Golden Era were often too complex to meaningfully modeled using the tools of the day.
+While Pauling could build a useful, analog computer from first principles to interrogate structural hypotheses, most questions involving more than a single molecular species eluded this form of analytical modeling.
+
+Following the revelation of DNA structure and the DNA basis of heredity, Fraçois Jacob and Jacques Monod formulated a hypothesis that the levels of enzymes in invididual cells were regulated by how much messenger RNA was produced from corresponding genes.
+Interrogating a hypothesis of this complexity was intractable through simple analog computers of the Pauling style -- how would one even begin to ask which molecular species governed transcription, which DNA sequences conferred regulatory activity, and which products were produced in response to which stimuli using 1960's methods?
+
+Rather, Jacob and Monod turned to the classical toolkit of molecular biology.
+They proposed a hypothesis that specific DNA elements controlled the expression of genes in response to stimuli, then directly tested that hypothesis using a complex experimental system[^5].
+Modeling the underlying biology was so intractable, that it was simply more efficient to test hypotheses in the real system than to explore in a simplified version.
+
+**The questions posed by molecular biology outpaced the measurement and computational technologies in complexity, beginning a long winter in the era of empirical models.**
+
+<!-- Modeling complex systems -->
+
+Biology's first models followed from the physical science tradition, building "up" from first principles to predict the behavior of more complex systems.
+As molecular biology entered The Golden Era, the systems of interest crossed a threshold of complexity, no longer amenable to this form of bottom up modeling.
+This intractability to analysis is the hallmark feature of [complex systems](https://en.wikipedia.org/wiki/Complex_system).
+
+The computational sciences offer an alternative approach to modeling 
 
 # Footnotes
 
 [^1]: Chargaff famously did not hold Watson and Crick in high regard. Upon learning of Watson and Crick's structure, he quipped -- "That such giant shadows are cast by such [small men] only shows how late in the day it has become."
 [^2]: The history of recombinant DNA technology is beautifully described in [*Invisible Frontiers* by Stephen Hall.](https://jacobkimmel.notion.site/Invisible-Frontiers-The-Race-to-Synthesize-a-Human-Gene-9dc341fcc1c24723a38e9545c98417d9)
+[^3]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 309). CSHL Press.
+[^4]: As a single example, Oswald Avery's classic experiment demonstrating that DNA was the genetic macromolecule proved both points. He demonstrated DNA was necessary to transform bacterial cells, and that DNA alone was sufficient. An elegant, clean-and-shut case.
+[^5]: The classical experiment determined revealed that mutations in the *lac* operon could control *expression* of the beta-galactosidase genes, connecting DNA sequence to regulatory activity for the first time. ["The Genetic Control and Cytoplasmic Expression of Inducibility in the Synthesis of beta-galactosidase by E. Coli".](https://life.ibs.re.kr/courses/landmark/PaJaMo1959.pdf)
 
