@@ -51,8 +51,6 @@ history lesson
 
 <!-- Introduction -->
 
-# A search for meaningful representations of life
-
 Machine learning approaches are rapidly becoming part of the standard toolkit of life scientists.
 As we solve once intractable problems -- genomic variant effect prediction, protein folding, perturbation prediction -- a natural tension has arisen as this new class of models challenges the traditional cognitive toolkit of molecular biology.
 This tension is visible in the back-and-forth discourse over the role of ML in biology, with ML practioners sometimes overstating the capabilities that models provide, and experimental biologists strongly asserting the failure of modes of various models while often overlooking the strengths.
@@ -64,7 +62,7 @@ Our questions began to vear into the realm of complex systems, inherently diffic
 Machine learning tools are only now enabling us to regain the model-driven mode of inquiry we lost to complexity.
 Framed in the proper historical context, the ongoing convergence of computational and life sciences is a reprise of biology's foundational epistemic tools, rather than the fall-from-grace too often proclaimed within our disipline.
 
-<!-- A science that modeling built -->
+# Molecular biology was born from first-principles analytical models
 
 When Linus Pauling began working to resolve the structure of the alpha-helix, he built physical models of the proposed atomic configurations.
 Most young biology students have seen photos of Pauling beside his models, but their significance is rarely conveyed properly.
@@ -91,17 +89,17 @@ Rather, we largely develop individual hypotheses based on intuitions and heurist
 
 Where did the models go?
 
-<!-- Complexity and the golden era of molecular biology -->
+# Emergent complexity in The Golden Era
 
 Modern biology of most flavors lives in the shadow of The Golden Era of molecular biology.
 The Golden Era's beginning is perhaps demarkated by Schroedinger's publication of Max Delbrück's questions and hypotheses on the nature of living systems in [*What is Life?*](https://en.wikipedia.org/wiki/What_Is_Life%3F).
 The end is less clearly defined, but I'll argue that the latter bookend might be set by the contemporaneous development of recombinant DNA technology by Boyer & Cohen[^2] [1972] and (DNA sequencing technology)[https://en.wikipedia.org/wiki/Sanger_sequencing] by Fredrick Sanger [1977].
 
-In Francis Crick's words, The Golden Era was
+In Francis Crick's words[^3], The Golden Era was
 
-> concerned with the very large, long-chain biological molecules -- the nucleic acids and proteins and their synthesis. Biologically, this means genes and their replication and expression, genes and the gene products.[^3]
+> concerned with the very large, long-chain biological molecules -- the nucleic acids and proteins and their synthesis. Biologically, this means genes and their replication and expression, genes and the gene products.
 
-Building on the classical biology of genetics, Golden Era biologists investigated a question through a process of reduction.
+Building on the classical biology of genetics, Golden Era biologists investigated biological questions through a reductionist framework.
 The inductive bias guiding most experiments was that high-level biological phenomena -- heredity, differentiation, development, cell division -- could be explained by the action of a relatively small number of molecules.
 From this inductive bias, a necessary and sufficient molecular actor that gave rise to a biological phenomenon became the gold standard for "mechanism" in the life sciences[^4].
 
@@ -117,13 +115,15 @@ Modeling the underlying biology was so intractable, that it was simply more effi
 
 **The questions posed by molecular biology outpaced the measurement and computational technologies in complexity, beginning a long winter in the era of empirical models.**
 
-<!-- Modeling complex systems -->
+# Learning the rules of life
 
 Biology's first models followed from the physical science tradition, building "up" from first principles to predict the behavior of more complex systems.
 As molecular biology entered The Golden Era, the systems of interest crossed a threshold of complexity, no longer amenable to this form of bottom up modeling.
 This intractability to analysis is the hallmark feature of [complex systems](https://en.wikipedia.org/wiki/Complex_system).
 
-The computational sciences offer an alternative approach to modeling 
+The computational sciences offer an alternative approach to modeling complex systems.
+Rather than beginning with a set of rules and attempting to predict emergent behavior, we can observe the emergent properties of a complex system and build models that capture the underlying rules.
+We might imagine this as a "top-down" approach to modeling, in contrast to the "bottom-up" approach of the physical tradition.
 
 # Footnotes
 
