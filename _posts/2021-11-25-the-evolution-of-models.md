@@ -51,16 +51,16 @@ history lesson
 
 <!-- Introduction -->
 
-Machine learning approaches are rapidly becoming part of the standard toolkit of life scientists.
+Machine learning approaches are rapidly becoming part of the life scientist's toolkit.
 As we solve once intractable problems -- genomic variant effect prediction, protein folding, perturbation prediction -- a natural tension has arisen as this new class of models challenges the traditional cognitive toolkit of molecular biology.
-This tension is visible in the back-and-forth discourse over the role of ML in biology, with ML practioners sometimes overstating the capabilities that models provide, and experimental biologists strongly asserting the failure of modes of various models while often overlooking the strengths.
+This tension is visible in the back-and-forth discourse over the role of ML in biology, with ML practitioners sometimes overstating the capabilities that models provide, and experimental biologists emphasizing the failure modes of ML models while often overlooking the strengths.
 
 Reflecting on the history of molecular biology, it strikes me that the recent rise of ML tools is more of a return to form than a dramatic divergence from biological traditions.
-Molecular biology emerged from the convergence of physics and classical genetics, birthing a disipline that modeled complex biological phenomena from first principles where possible, and experimentally tested reductionist hypotheses where analytical exploration failed.
-Our questions began to vear into the realm of complex systems, inherently difficult to predict with classical analytical modeling, and molecular biology became more and more of an experimental science.
+Molecular biology emerged from the convergence of physics and classical genetics, birthing a discipline that modeled complex biological phenomena from first principles where possible, and experimentally tested reductionist hypotheses where analytical exploration failed.
+Our questions began to veer into the realm of complex systems, inherently difficult to predict with classical analytical modeling, and molecular biology became more and more of an experimental science.
 
 Machine learning tools are only now enabling us to regain the model-driven mode of inquiry we lost to complexity.
-Framed in the proper historical context, the ongoing convergence of computational and life sciences is a reprise of biology's foundational epistemic tools, rather than the fall-from-grace too often proclaimed within our disipline.
+Framed in the proper historical context, the ongoing convergence of computational and life sciences is a reprise of biology's foundational epistemic tools, rather than the fall-from-grace too often proclaimed within our discipline.
 
 # Molecular biology was born from first-principles analytical models
 
@@ -70,7 +70,7 @@ Most young biology students have seen photos of Pauling beside his models, but t
 <img src="http://scarc.library.oregonstate.edu/coll/pauling/catalogue/09/1954i.38-600w.jpg" width=400></img>
 
 Pauling's models were not merely a visualization tool to help him build intuitions for the molecular configurations of peptides.
-Rather, his models were precicesly machined **analog computers** that allowed him to empirically evaluate hypotheses at high speed.
+Rather, his models were precisely machined **analog computers** that allowed him to empirically evaluate hypotheses at high speed.
 The dimensions of the model components -- bond lengths and angles -- matched experimentally determined constants, so that by simply testing of a configuration fit in 3D space, he was able to determine if a particular structure was consistent with known chemistry.
 
 These models "hard coded" known experimental data into a hypothesis testing framework, allowing Pauling to explore hypothesis space while implicitly obeying not only each individual experimental data point, but the emergent properties of their interactions.
@@ -124,6 +124,33 @@ This intractability to analysis is the hallmark feature of [complex systems](htt
 The computational sciences offer an alternative approach to modeling complex systems.
 Rather than beginning with a set of rules and attempting to predict emergent behavior, we can observe the emergent properties of a complex system and build models that capture the underlying rules.
 We might imagine this as a "top-down" approach to modeling, in contrast to the "bottom-up" approach of the physical tradition.
+
+<!-- Consider including an Illustrator graphic here -->
+
+Most of the groundbreaking word at the intersection of ML and biology has taken advantage of [representation learning methods](https://arxiv.org/abs/1206.5538) that seek to encode useful information about a system in a learned, mathematical representation.
+This is a fairly abstract statement, but it becomes clear with a few concrete examples.
+
+<!-- Consider using a different example -- predicting cell type from gene expression -->
+
+If we wish to train a model to discriminate cell cycle states from microscopy images, a representation learning approach to the problem might first reduce the raw microscopy images into a compressed code -- say, a 16-dimensional vector of numbers -- that is nonetheless sufficient to distinguish cell cycle states.
+One beautiful aspect of this approach is that the learned representations often reveal relationships between the observations that aren't explicitly called for during training.
+For instance, our model for classifying cell cycle states naturally learns to encode mononucleated and binucleated cells into different regions of the representation.
+
+At first blush, learned representations are quite intellectually distant from Pauling's first principles models of molecular structure.
+The implementation details and means of specifying the rules couldn't be more distinct!
+I've yet to see a representation learning model implemented on an analog computer [please correct me if I'm wrong!].
+Yet, the tasks these two classes of models enable are actually quite similar.
+
+If we continue to explore the learned representation of our cell cycle classifier, we can use it to test hypotheses in much the same way Pauling, Crick, and countless others tested structural hypotheses with mechanical tools.
+
+We might hypothesize that all else being equal, binucleated cells are less likely to enter mitosis from resting phase [$G_0$] than mononucleated cells.
+We could test this hypothesis by constructing binucleated images from mononucleated observations -- maybe copy and pasting a couple mononuclei nearby in a convincing way -- and asking whether the predicted cell cycle state shifted away from the M-phase relative to the mononuclear predictions.
+
+We might hypothesize that senescent cells share features with cells stalled in G2 moreso than other non-dividing cell populations.
+We could interrogate this hypothesis in our model by predicting cell cycle states from images of senescent cells and other non-dividing populations [e.g. serum-starved], then asking if senescent cells had higher G2 predictions than their counterparts.
+
+These examples are simple, almost trivial in light of our deep knowledge of the cell cycle, but I hope they're illustrative of the fact that learned representations can be **hypothesis generation and testing tools**, much akin to the foundational analytical models of molecular biology.
+The early pioneers of the field 
 
 # Footnotes
 
