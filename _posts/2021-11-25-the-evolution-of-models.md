@@ -155,17 +155,19 @@ We might hypothesize that the gene expression program controlled by *TF X* helps
 To investigate this hypothesis, we might synthetically increase or decrease the expression of *TF X* and its target genes in real cell profiles, then ask how this perturbation changes our model's prediction.
 If we find that the cell type prediction score for cell type A is correlated with *TF X's* program moreso than say, a background set of other TF programs, we might consider it a suggestive piece of evidence for our hypothesis.
 
-If we examine the hypothesis exploration strategy above, it's not so dissimilar from Pauling's first principles models.
-Both have similar failure modes -- if the rules encoded within the model are wrong, then the model might lend support 
+This hypothesis exploration strategy is not so dissimilar from Pauling's first principles models.
+Both have similar failure modes -- if the rules encoded within the model are wrong, then the model might lend support to erroneous hypotheses.
+The real distinction lies in 
 
 <!-- We might hypothesize that all else being equal, binucleated cells are less likely to enter mitosis from resting phase [$G_0$] than mononucleated cells.
 We could test this hypothesis by constructing binucleated images from mononucleated observations -- maybe copy and pasting a couple mononuclei nearby in a convincing way -- and asking whether the predicted cell cycle state shifted away from the M-phase relative to the mononuclear predictions.
 
 We might hypothesize that senescent cells share features with cells stalled in G2 moreso than other non-dividing cell populations.
-We could interrogate this hypothesis in our model by predicting cell cycle states from images of senescent cells and other non-dividing populations [e.g. serum-starved], then asking if senescent cells had higher G2 predictions than their counterparts. -->
+We could interrogate this hypothesis in our model by predicting cell cycle states from images of senescent cells and other non-dividing populations [e.g. serum-starved], then asking if senescent cells had higher G2 predictions than their counterparts. 
 
 These examples are simple, almost trivial in light of our deep knowledge of the cell cycle, but I hope they're illustrative of the fact that learned representations can be **hypothesis generation and testing tools**, much akin to the foundational analytical models of molecular biology.
 The early pioneers of the field 
+-->
 
 # Footnotes
 
