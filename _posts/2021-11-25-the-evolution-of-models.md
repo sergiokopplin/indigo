@@ -1,5 +1,5 @@
 ---
-title: Guard Rails
+title: Learning representations of life
 layout: post
 date: 2021-11-25
 tag:
@@ -63,6 +63,8 @@ Machine learning tools are only now enabling us to regain the model-driven mode 
 Framed in the proper historical context, the ongoing convergence of computational and life sciences is a reprise of biology's foundational epistemic tools, rather than the fall-from-grace too often proclaimed within our discipline.
 
 # Molecular biology was born from first-principles analytical models
+
+> Do your own homework. To truly use first principles, don't rely on experts or previous work. Approach new problems with the mindset of a novice -- Richard Feynman
 
 When Linus Pauling began working to resolve the structure of the alpha-helix, he built physical models of the proposed atomic configurations.
 Most young biology students have seen photos of Pauling beside his models, but their significance is rarely conveyed properly.
@@ -132,22 +134,35 @@ This is a fairly abstract statement, but it becomes clear with a few concrete ex
 
 <!-- Consider using a different example -- predicting cell type from gene expression -->
 
-If we wish to train a model to discriminate cell cycle states from microscopy images, a representation learning approach to the problem might first reduce the raw microscopy images into a compressed code -- say, a 16-dimensional vector of numbers -- that is nonetheless sufficient to distinguish cell cycle states.
+<!-- If we wish to train a model to discriminate cell cycle states from microscopy images, a representation learning approach to the problem might first reduce the raw microscopy images into a compressed code -- say, a 16-dimensional vector of numbers -- that is nonetheless sufficient to distinguish cell cycle states.
 One beautiful aspect of this approach is that the learned representations often reveal relationships between the observations that aren't explicitly called for during training.
-For instance, our model for classifying cell cycle states naturally learns to encode mononucleated and binucleated cells into different regions of the representation.
+For instance, our model for classifying cell cycle states naturally learns to encode mononucleated and binucleated cells into different regions of the representation. -->
+
+If we wish to train a model to predict cell types from gene expression profiles, a representation learning approach to the problem might first reduce the raw expression profiles into a compressed code -- say, a 16-dimensional vector of numbers on the real line -- that is nonetheless sufficient to distinguish one cell type from another.
+One beautiful aspect of this approach is that the learned representations often reveal relationships between the observations that aren't explicitly called for during training.
+For instance, our cell type classifier might naturally learn to group similar cell types near one another, revealing something akin to their lineage structure.
 
 At first blush, learned representations are quite intellectually distant from Pauling's first principles models of molecular structure.
 The implementation details and means of specifying the rules couldn't be more distinct!
 I've yet to see a representation learning model implemented on an analog computer [please correct me if I'm wrong!].
 Yet, the tasks these two classes of models enable are actually quite similar.
 
-If we continue to explore the learned representation of our cell cycle classifier, we can use it to test hypotheses in much the same way Pauling, Crick, and countless others tested structural hypotheses with mechanical tools.
+<!-- If we continue to explore the learned representation of our cell cycle classifier, we can use it to test hypotheses in much the same way Pauling, Crick, and countless others tested structural hypotheses with mechanical tools. -->
 
-We might hypothesize that all else being equal, binucleated cells are less likely to enter mitosis from resting phase [$G_0$] than mononucleated cells.
+If we continue to explore the learned representation of our cell type classifier, we can use it to test hypotheses in much the same way Pauling, Crick, and countless others tested structural hypotheses with mechanical tools.
+
+We might hypothesize that the gene expression program controlled by *TF X* helps define the identity of cell type A.
+To investigate this hypothesis, we might synthetically increase or decrease the expression of *TF X* and its target genes in real cell profiles, then ask how this perturbation changes our model's prediction.
+If we find that the cell type prediction score for cell type A is correlated with *TF X's* program moreso than say, a background set of other TF programs, we might consider it a suggestive piece of evidence for our hypothesis.
+
+If we examine the hypothesis exploration strategy above, it's not so dissimilar from Pauling's first principles models.
+Both have similar failure modes -- if the rules encoded within the model are wrong, then the model might lend support 
+
+<!-- We might hypothesize that all else being equal, binucleated cells are less likely to enter mitosis from resting phase [$G_0$] than mononucleated cells.
 We could test this hypothesis by constructing binucleated images from mononucleated observations -- maybe copy and pasting a couple mononuclei nearby in a convincing way -- and asking whether the predicted cell cycle state shifted away from the M-phase relative to the mononuclear predictions.
 
 We might hypothesize that senescent cells share features with cells stalled in G2 moreso than other non-dividing cell populations.
-We could interrogate this hypothesis in our model by predicting cell cycle states from images of senescent cells and other non-dividing populations [e.g. serum-starved], then asking if senescent cells had higher G2 predictions than their counterparts.
+We could interrogate this hypothesis in our model by predicting cell cycle states from images of senescent cells and other non-dividing populations [e.g. serum-starved], then asking if senescent cells had higher G2 predictions than their counterparts. -->
 
 These examples are simple, almost trivial in light of our deep knowledge of the cell cycle, but I hope they're illustrative of the fact that learned representations can be **hypothesis generation and testing tools**, much akin to the foundational analytical models of molecular biology.
 The early pioneers of the field 
