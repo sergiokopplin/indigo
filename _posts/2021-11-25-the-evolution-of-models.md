@@ -47,7 +47,7 @@ history lesson
 * Famously, Delbruck transitioned into biology after working with Lisa Meitner and Otto Hahn on nuclear physics in the 1930's. He expressed a series of concrete questions and hypotheses about the nature of living systems from a physicts perspective, made famous by Edwin Schroedinger in his pamphlet "What is life?".
 * 
 -->
-*This post was inspired in part by Horace Freeland Judson's excellent history of molecular biology from 1940-1980, [The Eighth Day of Creation.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
+*I'm frequently asked how I think machine learning tools will change our approach to molecular and cell biology. This post is in part my answer, and in part a reflection of Horace Freeland Judson's history or early molecular biology -- [The Eighth Day of Creation.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
 
 <!-- Introduction -->
 
@@ -119,6 +119,8 @@ Modeling the underlying biology was so intractable, that it was simply more effi
 
 # Learning the rules of life
 
+> John von Neumann wrote a very interesting essay many years ago, in which he asked, How does one state a theory of pattern vision? And he said, maybe the thing is that you can’t give a theory of pattern vision -- but all you can do is to give a prescription for making a device that will see patterns! In other words, where a science like physics works in terms of laws, or a science like molecular biology, to now, is stated in terms of mechanisms, maybe now what one has to begin to think of is algorithms. Recipes. Procedures. -- Sydney Brenner[^6]
+
 Biology's first models followed from the physical science tradition, building "up" from first principles to predict the behavior of more complex systems.
 As molecular biology entered The Golden Era, the systems of interest crossed a threshold of complexity, no longer amenable to this form of bottom up modeling.
 This intractability to analysis is the hallmark feature of [complex systems](https://en.wikipedia.org/wiki/Complex_system).
@@ -157,7 +159,14 @@ If we find that the cell type prediction score for cell type A is correlated wit
 
 This hypothesis exploration strategy is not so dissimilar from Pauling's first principles models.
 Both have similar failure modes -- if the rules encoded within the model are wrong, then the model might lend support to erroneous hypotheses.
-The real distinction lies in 
+In the analytical models of old, these failures most often arose from erroneous experimental data, like a famously incorrect X-ray diffraction image that led many modelers to propose poor structures for TODO[^7].
+ML models can fall prey to erroneous experimental evidence too, but also to spurrious relationships within the data.
+A learned representation might assume that an observed relationship between variables always holds true, implicitly connecting the variables in a causal graph, when in reality the variables just happened to correlate in the observations.
+
+Regardless of how incorrect rules find there way into either type of model, the remedy is the same.
+Models are tools for hypothesis exploration and generation, and real-world experiments are still required for validation.
+Contrary to comments from machine learning's biological detractors, using ML models to learn the rules of biological systems and prioritize hypotheses is quite akin to the mode of inquiry at the dawn of molecular biology.
+
 
 <!-- We might hypothesize that all else being equal, binucleated cells are less likely to enter mitosis from resting phase [$G_0$] than mononucleated cells.
 We could test this hypothesis by constructing binucleated images from mononucleated observations -- maybe copy and pasting a couple mononuclei nearby in a convincing way -- and asking whether the predicted cell cycle state shifted away from the M-phase relative to the mononuclear predictions.
@@ -169,11 +178,85 @@ These examples are simple, almost trivial in light of our deep knowledge of the 
 The early pioneers of the field 
 -->
 
+# Endless forms most beautiful
+
+<!-- 
+grails attained:
+1 - classical genetics - models of DNA regulatory sequence
+2 - classical biochemistry - models of protein structure from sequence and conservation
+3 - classical development - models of cell type from expression and chromatin accessibility (scNym, scArches, multiVI)
+
+grails unfinished:
+1 - classical cell biology - integrative models of cellular structure. Integrated Cell reference.
+2 - classical development - models of gene program interactions, predicting perturbations. Combinatorial perturbation autoencoder.
+3 - physiology - models of how organ functions influence another. If cell type A in the liver changes in a particular direction, how will this effect the adipose tissue?
+4 - biochemistry -- protein protein interactions. allosteric interactions with small molecules. evolution on molecular docking.
+5 - virology - influence of mutations on viral fitness, virulence, pathogenicity
+6 - immunology - sequence to antigen specificity conversion, predict sequences for target antigens
+ -->
+
+What questions can this new class of models help us answer? What forms will these models take?
+
+Analytical models helped reveal the structures of biological molecules, the kinetics of enzymatic reactions[^8], and the stochastic basis of genetic mutations[^9].
+Already, machine learing models have enabled us to push beyond the limits of analytical approaches in some of the same biological domains.
+Broken down by field, I've highlighted some current accomplishments are remaining challenges at the interface of biology and ML.
+
+## Molecular Genetics
+
+How does a change in DNA sequence of a genome influence the phenotype of the organism? 
+This classic question sits at the heart of modern genetics and remains the primary challenge in tasks ranging from comparative biology to human genetics.
+Using analytical approaches, biologists have difficulty predicting the effect of all but a small number of mutations[^10].
+
+**Current advances** 
+
+Researchers have built a series of ML models to interpret the effects of DNA sequence changes, most notably employing convolutional neural networks and multi-headed attention architectures.
+As one illustrative example, [Basset](https://github.com/davek44/Basset) is a convolutional neural network developed by my colleague [David R. Kelley](http://www.davidrkelley.com/info) that predicts many functional genomics experimental results from DNA sequence alone.
+
+<!-- Basset image -->
+
+Said differently, the model learns to translate DNA sequence into likely functional outcomes, including gene expression activity, chromatin accessibility, and transcription factor binding.
+Approaches descended from Basset like [Basenji](), [BPNet](), and [Enformer]() build on a similar set of ideas but incorporate more sophisticated neural networks to achieve superior performance.
+
+Using these tools, a researcher can exhaustively search the space of hypotheses about the effect of DNA mutations on functional genomic features.
+By feeding the model mutated versions of the real, reference genome, researchers can obtain the predicted effect of each individual mutation.
+
+**Unsolved problems**
+
+* Current models predict only first-order impacts -- a change in sequence of a TF binding site doesn't remodel expression of all target genes
+* Large scale rearrangments, as in comparative biology, are difficult to model
+* Most predictions map local sequence features to local sequence phenotypes, few are capable of predicting higher-order phenotyeps from large sets of sequecnes. e.g. even predicting the viruelnce of phages from their genomes is still an unsolved problem
+
+## Biochemistry
+
+How does a simple, linear amino acid sequence give rise to a complex, three-dimensional structure? How do these structures confer the essential biological functions that dictate cell geometry, reproduction, and metabolism?
+
+**Current advances**
+
+* AlphaFold
+* Molecular docking review
+
+**Unsolved problems**
+
+* Mutation prediction
+* Small molecule design by discrimination
+
+## Development
+
+
+
+## Immunology
+
+## Virology
+
 # Footnotes
 
 [^1]: Chargaff famously did not hold Watson and Crick in high regard. Upon learning of Watson and Crick's structure, he quipped -- "That such giant shadows are cast by such [small men] only shows how late in the day it has become."
 [^2]: The history of recombinant DNA technology is beautifully described in [*Invisible Frontiers* by Stephen Hall.](https://jacobkimmel.notion.site/Invisible-Frontiers-The-Race-to-Synthesize-a-Human-Gene-9dc341fcc1c24723a38e9545c98417d9)
-[^3]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 309). CSHL Press.
+[^3]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 309).
 [^4]: As a single example, Oswald Avery's classic experiment demonstrating that DNA was the genetic macromolecule proved both points. He demonstrated DNA was necessary to transform bacterial cells, and that DNA alone was sufficient. An elegant, clean-and-shut case.
 [^5]: The classical experiment determined revealed that mutations in the *lac* operon could control *expression* of the beta-galactosidase genes, connecting DNA sequence to regulatory activity for the first time. ["The Genetic Control and Cytoplasmic Expression of Inducibility in the Synthesis of beta-galactosidase by E. Coli".](https://life.ibs.re.kr/courses/landmark/PaJaMo1959.pdf)
-
+[^6]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 334).
+[^7]: Describe misleading data that led to false alpha helix structures TODO
+[^8]: [Michaelis–Menten kinetics](https://en.wikipedia.org/wiki/Michaelis–Menten_kinetics)
+[^9]: Salvador Luria and the Max Delbrück performed a classic experiment -- ["the Luria-Delbrück experiment"](https://en.wikipedia.org/wiki/Luria–Delbrück_experiment) -- that showed bacterial mutations conferring phage resistance were acquired spontaneously, rather than induced by the prescence of phage. Their interpretation of the results relied upon a complex analytical model for how many resistant colonies were expected across a number of culture plates if resistance mutations were stochastic.
+[^10]: Non-sense mutations in gene coding sequences can be predicted to abolish the function of the gene product based purely on first principles. The effects of almost all other mutations are very difficult to interpret using purely analytical tools.
