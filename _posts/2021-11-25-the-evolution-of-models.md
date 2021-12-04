@@ -47,26 +47,28 @@ history lesson
 * Famously, Delbruck transitioned into biology after working with Lisa Meitner and Otto Hahn on nuclear physics in the 1930's. He expressed a series of concrete questions and hypotheses about the nature of living systems from a physicts perspective, made famous by Edwin Schroedinger in his pamphlet "What is life?".
 * 
 -->
-*I'm frequently asked how I think machine learning tools will change our approach to molecular and cell biology. This post is in part my answer, and in part a reflection of Horace Freeland Judson's history or early molecular biology -- [The Eighth Day of Creation.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
+*I'm frequently asked how I think machine learning tools will change our approach to molecular and cell biology. This post is in part my answer and in part a reflection of Horace Freeland Judson's history or early molecular biology -- [*The Eighth Day of Creation*.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
 
 <!-- Introduction -->
 
-Machine learning approaches have become an important piece of the modern life science toolkit.
-As we solve once intractable problems -- genetic variant effect prediction, protein folding, unknown perturbation inference -- a natural tension has arisen as this new class of models challenges the traditional investigative approach of molecular biology.
-This tension is visible in the back-and-forth discourse over the role of ML in biology, with ML practitioners sometimes overstating the capabilities that models provide, and experimental biologists emphasizing the failure modes of ML models while often overlooking the strengths.
+Machine learning approaches are now an important component of the life scientist's toolkit.
+From just a cursory review of the evidence, it's clear that ML tools have enabled us to solve once intractable problems like genetic variant effect prediction[^1], protein folding[^2], and unknown perturbation inference[^3].
+As this new class of models enters more and more branches of the ever arborizing life science tree, a natural tension has arisen between the empirical mode of inquiry enabled by ML and the traditional, analytical and heuristic approach of molecular biology.
+This tension is visible in the back-and-forth discourse over the role of ML in biology, with ML practitioners sometimes overstating the capabilities that models provide, and experimental biologists emphasizing the failure modes of ML models while often overlooking their strengths.
 
-Reflecting on the history of molecular biology, it strikes me that the recent rise of ML tools is more of a return to form than a dramatic divergence from biological traditions.
+Reflecting on the history of molecular biology, it strikes me that the recent rise of ML tools is more of a return to form than a dramatic divergence from biological traditions that some discourse implies.
+
 Molecular biology emerged from the convergence of physics and classical genetics, birthing a discipline that modeled complex biological phenomena from first principles where possible, and experimentally tested reductionist hypotheses where analytical exploration failed.
 Over time, our questions began to veer into the realm of complex systems that are less amenable to analytical modeling, and molecular biology became more and more of an experimental science.
 
 Machine learning tools are only now enabling us to regain the model-driven mode of inquiry we lost during that inflection of complexity.
 Framed in the proper historical context, the ongoing convergence of computational and life sciences is a reprise of biology's foundational epistemic tools, rather than the fall-from-grace too often proclaimed within our discipline.
 
-# Molecular biology was born from first-principles analytical models
+# Physicists & toy computers
 
 > Do your own homework. To truly use first principles, don't rely on experts or previous work. Approach new problems with the mindset of a novice -- Richard Feynman
 
-When Linus Pauling began working to resolve the structure of the alpha-helix, he built physical models of the proposed atomic configurations.
+When Linus Pauling began working to resolve the three-dimensional structures of the peptides, he built physical models of the proposed atomic configurations.
 Most young biology students have seen photos of Pauling beside his models, but their significance is rarely conveyed properly.
 
 <img src="http://scarc.library.oregonstate.edu/coll/pauling/catalogue/09/1954i.38-600w.jpg" width=400></img>
@@ -76,7 +78,7 @@ Rather, his models were precisely machined **analog computers** that allowed him
 The dimensions of the model components -- bond lengths and angles -- matched experimentally determined constants, so that by simply testing if a configuration fit in 3D space, he was able to determine if a particular structure was consistent with known chemistry.
 
 These models "hard coded" known experimental data into a hypothesis testing framework, allowing Pauling to explore hypothesis space while implicitly obeying not only each individual experimental data point, but the emergent properties of their interactions.
-Famously, encoding the steric hinderance -- i.e. “flatness” -- of a double bond into his model enabled Pauling to discover the proper structure for an alpha helix, while Max Perutz's rival group incorrectly proposed alternative structures because their model hardware failed to account for this rule.
+Famously, encoding the steric hinderance -- i.e. “flatness” -- of a double bond into his model enabled Pauling to discover the proper structure for the [$\alpha$-helix](https://en.wikipedia.org/wiki/Alpha_helix), while Max Perutz's rival group incorrectly proposed alternative structures because their model hardware failed to account for this rule.
 
 Following Pauling's lead, Watson and Crick's models of DNA structure adopted the same empirical hypothesis testing strategy.
 It's usually omitted from textbooks that Watson and Crick proposed multiple alternative structures before settingly on the double-helix. 
@@ -84,47 +86,50 @@ In their first such proposal, Rosalind Franklin highlighted something akin to a 
 
 Their discovery of the base pairing relationships emerged directly from empirical exploration with their physical model.
 Watson was originally convinced that bases should form homotypic pairs -- A to A, T to T, etc. -- across the two strands.
-Only when they build the model and found that the resulting "bulges" were incompatible with chemical rules did Watson and Crick realize that heterotypic pairs -- our well known friends A to T, C to G -- not only worked structurally, but confirmed Edwin Chargaff's experimental ratios[^1].
+Only when they build the model and found that the resulting "bulges" were incompatible with chemical rules did Watson and Crick realize that heterotypic pairs -- our well known friends A to T, C to G -- not only worked structurally, but confirmed Edwin Chargaff's experimental ratios[^4].
 
 These essential foundations of molecular biology were laid by empirical exploration of evidence based models, but they're rarely found in our modern practice.
 Rather, we largely develop individual hypotheses based on intuitions and heuristics, then test those hypotheses directly in cumbersome experimental systems.
 
-Where did the models go?
+*Where did the models go?*
 
 # Emergent complexity in The Golden Era
 
 The modern life sciences live in the shadow of The Golden Era of molecular biology.
-The Golden Era's beginning is perhaps demarkated by Schroedinger's publication of Max Delbrück's questions and hypotheses on the nature of living systems in [*What is Life?*](https://en.wikipedia.org/wiki/What_Is_Life%3F).
-The end is less clearly defined, but I'll argue that the latter bookend might be set by the contemporaneous development of [recombinant DNA](https://en.wikipedia.org/wiki/Recombinant_DNA) technology by Boyer & Cohen[^2] [1972] and [DNA sequencing technology](https://en.wikipedia.org/wiki/Sanger_sequencing) by Fredrick Sanger [1977].
+The Golden Era's beginning is perhaps demarcated by Schroedinger's publication of Max Delbrück's questions and hypotheses on the nature of living systems in a lecture and pamphlet entitled [*What is Life?*](https://en.wikipedia.org/wiki/What_Is_Life%3F).
+The end is less clearly defined, but I'll argue that the latter bookend might be set by the contemporaneous development of [recombinant DNA](https://en.wikipedia.org/wiki/Recombinant_DNA) technology by Boyer & Cohen in California [^5] [1972] and [DNA sequencing technology](https://en.wikipedia.org/wiki/Sanger_sequencing) by Fredrick Sanger in the United Kingdom [1977].
 
-In Francis Crick's words[^3], The Golden Era was
+In Francis Crick's words[^6], The Golden Era was
 
 > concerned with the very large, long-chain biological molecules -- the nucleic acids and proteins and their synthesis. Biologically, this means genes and their replication and expression, genes and the gene products.
 
 Building on the classical biology of genetics, Golden Era biologists investigated biological questions through a reductionist framework.
 The inductive bias guiding most experiments was that high-level biological phenomena -- heredity, differentiation, development, cell division -- could be explained by the action of a relatively small number of molecules.
-From this inductive bias, the gold standard for "mechanism" in the life sciences was defined as necessary and sufficient molecule that causes a biological phenomenon[^4].
+From this inductive bias, the gold standard for "mechanism" in the life sciences was defined as necessary and sufficient molecule that causes a biological phenomenon[^7].
 
 Though molecular biology emerged from a model building past, the processes under investigation during the Golden Era were often too complex to model quantitatively with the tools of the day.
 While Pauling could build a useful, analog computer from first principles to interrogate structural hypotheses, most questions involving more than a single molecular species eluded this form of analytical attack.
 
 The search to discover how genes are turned on and off in a cell offers a compact example of this complexity.
 Following the revelation of DNA structure and the DNA basis of heredity, Fraçois Jacob and Jacques Monod formulated a hypothesis that the levels of enzymes in invididual cells were regulated by how much messenger RNA was produced from corresponding genes.
-Interrogating a hypothesis of this complexity was intractable through simple analog computers of the Pauling style -- how would one even begin to ask which molecular species governed transcription, which DNA sequences conferred regulatory activity, and which products were produced in response to which stimuli using 1960's methods?
+Interrogating a hypothesis of this complexity was intractable through simple analog computers of the Pauling style. 
+How would one even begin to ask which molecular species governed transcription, which DNA sequences conferred regulatory activity, and which products were produced in response to which stimuli using 1960's methods?
 
 Rather, Jacob and Monod turned to the classical toolkit of molecular biology.
-They proposed a hypothesis that specific DNA elements controlled the expression of genes in response to stimuli, then directly tested that hypothesis using a complex experimental system[^5].
+They proposed a hypothesis that specific DNA elements controlled the expression of genes in response to stimuli, then directly tested that hypothesis using a complex experimental system[^8].
 Modeling the underlying biology was so intractable that it was simply more efficient to test hypotheses in the real system than to explore in a simplified version.
 
 **The questions posed by molecular biology outpaced the measurement and computational technologies in complexity, beginning a long winter in the era of empirical models.**
 
 # Learning the rules of life
 
-> John von Neumann [...] asked, How does one state a theory of pattern vision? And he said, maybe the thing is that you can’t give a theory of pattern vision -- but all you can do is to give a prescription for making a device that will see patterns! In other words, where a science like physics works in terms of laws, or a science like molecular biology, to now, is stated in terms of mechanisms, maybe now what one has to begin to think of is algorithms. Recipes. Procedures. -- Sydney Brenner[^6]
+> John von Neumann [...] asked, How does one state a theory of pattern vision? And he said, maybe the thing is that you can’t give a theory of pattern vision -- but all you can do is to give a prescription for making a device that will see patterns! 
+> 
+> In other words, where a science like physics works in terms of laws, or a science like molecular biology, to now, is stated in terms of mechanisms, maybe now what one has to begin to think of is algorithms. Recipes. Procedures. -- Sydney Brenner[^9]
 
 Biology's first models followed from the physical science tradition, building "up" from first principles to predict the behavior of more complex systems.
 As molecular biology entered The Golden Era, the systems of interest crossed a threshold of complexity, no longer amenable to this form of bottom up modeling.
-This intractability to analysis is the hallmark feature of [complex systems](https://en.wikipedia.org/wiki/Complex_system).
+This intractability to analysis is the hallmark feature of [**complex systems**](https://en.wikipedia.org/wiki/Complex_system).
 
 The computational sciences offer an alternative approach to modeling complex systems.
 Rather than beginning with a set of rules and attempting to predict emergent behavior, we can observe the emergent properties of a complex system and build models that capture the underlying rules.
@@ -142,9 +147,10 @@ Given a trained model, machine learning tools then offer us a host of natural ap
 
 Most of the groundbreaking work at the intersection of ML and biology has taken advantage of a category of methods known as [representation learning](https://arxiv.org/abs/1206.5538).
 Representation learning methods fit parameters to transform raw measurements like images or expression profiles into a new, numeric represenatation that captures useful properties of the inputs.
+By exploring these representations and model behaviors, we can extract insights similar to those gained from testing atomic configurations with a carefully machined structure. 
 This is a fairly abstract statement, but it becomes clear with a few concrete examples.
 
-If we wish to train a model to predict cell types from gene expression profiles, a representation learning approach to the problem might first reduce the raw expression profiles into a compressed code -- say, a 16-dimensional vector of numbers on the real line -- that is nonetheless sufficient to distinguish one cell type from another[^7].
+If we wish to train a model to predict cell types from gene expression profiles, a representation learning approach to the problem might first reduce the raw expression profiles into a compressed code -- say, a 16-dimensional vector of numbers on the real line -- that is nonetheless sufficient to distinguish one cell type from another[^10].
 One beautiful aspect of this approach is that the learned representations often reveal relationships between the observations that aren't explicitly called for during training.
 For instance, our cell type classifier might naturally learn to group similar cell types near one another, revealing something akin to their lineage structure.
 
@@ -165,7 +171,7 @@ In the analytical models of old, these failures most often arose from erroneous 
 ML models can fall prey to erroneous experimental evidence too, but also to spurrious relationships within the data.
 A learned representation might assume that an observed relationship between variables always holds true, implicitly connecting the variables in a causal graph, when in reality the variables just happened to correlate in the observations.
 
-Regardless of how incorrect rules find there way into either type of model, the remedy is the same.
+Regardless of how incorrect rules find their way into either type of model, the remedy is the same.
 Models are tools for hypothesis exploration and generation, and real-world experiments are still required for validation.
 
 Contrary to comments from machine learning's biological detractors, using ML models to learn the rules of biological systems and prioritize hypotheses is quite akin to the mode of inquiry at the dawn of molecular biology.
@@ -254,16 +260,19 @@ By
 
 # Footnotes
 
-[^1]: Watson and Crick both knew Chargaff, but didn't appreciate the relevance of his experimentally measured nucleotide ratios until guided toward that structure by their modeling work. Chargaff famously did not hold Watson and Crick in high regard. Upon learning of Watson and Crick's structure, he quipped -- "That such giant shadows are cast by such [small men] only shows how late in the day it has become."
-[^2]: The history of recombinant DNA technology is beautifully described in [*Invisible Frontiers* by Stephen Hall.](https://jacobkimmel.notion.site/Invisible-Frontiers-The-Race-to-Synthesize-a-Human-Gene-9dc341fcc1c24723a38e9545c98417d9)
-[^3]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 309).
-[^4]: As a single example, Oswald Avery's classic experiment demonstrating that DNA was the genetic macromolecule proved both points. He demonstrated DNA was necessary to transform bacterial cells, and that DNA alone was sufficient. An elegant, clean-and-shut case.
-[^5]: The classical experiment determined revealed that mutations in the *lac* operon could control *expression* of the beta-galactosidase genes, connecting DNA sequence to regulatory activity for the first time. ["The Genetic Control and Cytoplasmic Expression of Inducibility in the Synthesis of beta-galactosidase by E. Coli".](https://life.ibs.re.kr/courses/landmark/PaJaMo1959.pdf)
-[^6]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 334).
-[^7]: This is just one of many problems at the ML : biology interface, but [it's one I happen to have an affinity for.]({{site.url}}/scnym/)
-<!-- [^7]: Describe misleading data that led to false alpha helix structures TODO
-[^8]: [Michaelis–Menten kinetics](https://en.wikipedia.org/wiki/Michaelis–Menten_kinetics)
-[^9]: Salvador Luria and the Max Delbrück performed a classic experiment -- ["the Luria-Delbrück experiment"](https://en.wikipedia.org/wiki/Luria–Delbrück_experiment) -- that showed bacterial mutations conferring phage resistance were acquired spontaneously, rather than induced by the prescence of phage. Their interpretation of the results relied upon a complex analytical model for how many resistant colonies were expected across a number of culture plates if resistance mutations were stochastic.
-[^10]: Non-sense mutations in gene coding sequences can be predicted to abolish the function of the gene product based purely on first principles. The effects of almost all other mutations are very difficult to interpret using purely analytical tools. 
-[^11]: [DeepMind's AlphaFold](https://www.nature.com/articles/s41586-021-03819-2), [David Baker lab's three-track model](https://science.sciencemag.org/content/early/2021/07/14/science.abj8754?adobe_mc=MCMID%3D55247908165515510124239564654459857138%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1638513014&_ga=2.32296894.1688072684.1638513014-313706132.1636862856)
+[^1]: Researchers have built a series of ML models to interpret the effects of DNA sequence changes, most notably employing convolutional neural networks and multi-headed attention architectures. As one illustrative example, [Basenji](https://github.com/davek44/basenji) is a convolutional neural network developed by my colleague [David R. Kelley](http://www.davidrkelley.com/info) that predicts many functional genomics experimental results from DNA sequence alone.
+[^2]: Both [DeepMind's AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) and [David Baker lab's three-track model](https://science.sciencemag.org/content/early/2021/07/14/science.abj8754?adobe_mc=MCMID%3D55247908165515510124239564654459857138%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1638513014&_ga=2.32296894.1688072684.1638513014-313706132.1636862856) can predict the 3D-structure of a protein from an amino acid sequence well enough that the community considers the problem "solved."
+[^3]: If we've observed the effect of perturbation *X* in cell type *A*, can we predict the effect in cell type *B*? If we've seen the effect of perturbations *X* and *Y* alone, can we predict the effect of *X + Y* together? A flurry of work in this field has emerged in the past couple years, summarized wonderfully by Yuge Ji in a [recent review.](https://www.cell.com/cell-systems/pdf/S2405-4712(21)00202-7.pdf) As a few quick examples, [conditional variational autoencoders](https://github.com/theislab/scgen) can be used to predict known perturbations in new cell types, and [recommender systems can be adapted to predict perturbation interactions.](https://www.science.org/doi/10.1126/science.aax4438)
+[^4]: Watson and Crick both knew Chargaff, but didn't appreciate the relevance of his experimentally measured nucleotide ratios until guided toward that structure by their modeling work. Chargaff famously did not hold Watson and Crick in high regard. Upon learning of Watson and Crick's structure, he quipped -- "That such giant shadows are cast by such [small men] only shows how late in the day it has become."
+[^5]: The history of recombinant DNA technology is beautifully described in [*Invisible Frontiers* by Stephen Hall.](https://jacobkimmel.notion.site/Invisible-Frontiers-The-Race-to-Synthesize-a-Human-Gene-9dc341fcc1c24723a38e9545c98417d9)
+[^6]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 309).
+[^7]: As a single example, Oswald Avery's classic experiment demonstrating that DNA was the genetic macromolecule proved both points. He demonstrated DNA was necessary to transform bacterial cells, and that DNA alone was sufficient. An elegant, clean-and-shut case.
+[^8]: The classical experiment revealed that mutations in the *lac* operon could control *expression* of the beta-galactosidase genes, connecting DNA sequence to regulatory activity for the first time. ["The Genetic Control and Cytoplasmic Expression of Inducibility in the Synthesis of beta-galactosidase by E. Coli".](https://life.ibs.re.kr/courses/landmark/PaJaMo1959.pdf)
+[^9]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 334).
+[^10]: This is just one of many problems at the ML : biology interface, but [it's one I happen to have an affinity for.]({{site.url}}/scnym/)
+<!-- 
+[8]: [Michaelis–Menten kinetics](https://en.wikipedia.org/wiki/Michaelis–Menten_kinetics)
+[9]: Salvador Luria and the Max Delbrück performed a classic experiment -- ["the Luria-Delbrück experiment"](https://en.wikipedia.org/wiki/Luria–Delbrück_experiment) -- that showed bacterial mutations conferring phage resistance were acquired spontaneously, rather than induced by the prescence of phage. Their interpretation of the results relied upon a complex analytical model for how many resistant colonies were expected across a number of culture plates if resistance mutations were stochastic.
+[10]: Non-sense mutations in gene coding sequences can be predicted to abolish the function of the gene product based purely on first principles. The effects of almost all other mutations are very difficult to interpret using purely analytical tools. 
+[11]: [DeepMind's AlphaFold](https://www.nature.com/articles/s41586-021-03819-2), [David Baker lab's three-track model](https://science.sciencemag.org/content/early/2021/07/14/science.abj8754?adobe_mc=MCMID%3D55247908165515510124239564654459857138%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1638513014&_ga=2.32296894.1688072684.1638513014-313706132.1636862856)
 -->
