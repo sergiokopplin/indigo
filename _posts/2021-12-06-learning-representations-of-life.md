@@ -5,7 +5,7 @@ date: 2021-12-06
 tag:
 - biology
 - machine learning
-- history
+- history   
 blog: true
 use_math: false
 ---
@@ -48,7 +48,7 @@ history lesson
 * Famously, Delbruck transitioned into biology after working with Lisa Meitner and Otto Hahn on nuclear physics in the 1930's. He expressed a series of concrete questions and hypotheses about the nature of living systems from a physicts perspective, made famous by Edwin Schroedinger in his pamphlet "What is life?".
 * 
 -->
-*I'm frequently asked how I think machine learning tools will change our approach to molecular and cell biology. This post is in part my answer and in part a reflection of Horace Freeland Judson's history or early molecular biology -- [*The Eighth Day of Creation*.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
+*I'm frequently asked how I think machine learning tools will change our approach to molecular and cell biology. This post is in part my answer and in part a reflection on Horace Freeland Judson's history of early molecular biology -- [*The Eighth Day of Creation*.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
 
 <!-- Introduction -->
 
@@ -72,17 +72,17 @@ Framed in the proper historical context, the ongoing convergence of computationa
 When Linus Pauling began working to resolve the three-dimensional structures of the peptides, he built physical models of the proposed atomic configurations.
 Most young biology students have seen photos of Pauling beside his models, but their significance is rarely conveyed properly.
 
-<img src="http://scarc.library.oregonstate.edu/coll/pauling/catalogue/09/1954i.38-600w.jpg" width=400></img>
+<img src="http://scarc.library.oregonstate.edu/coll/pauling/catalogue/09/1954i.38-600w.jpg" width=400>
 
 Pauling's models were not merely a visualization tool to help him build intuitions for the molecular configurations of peptides.
 Rather, his models were precisely machined **analog computers** that allowed him to empirically evaluate hypotheses at high speed.
 The dimensions of the model components -- bond lengths and angles -- matched experimentally determined constants, so that by simply testing if a configuration fit in 3D space, he was able to determine if a particular structure was consistent with known chemistry.
 
 These models "hard coded" known experimental data into a hypothesis testing framework, allowing Pauling to explore hypothesis space while implicitly obeying not only each individual experimental data point, but the emergent properties of their interactions.
-Famously, encoding the steric hinderance -- i.e. “flatness” -- of a double bond into his model enabled Pauling to discover the proper structure for the [$\alpha$-helix](https://en.wikipedia.org/wiki/Alpha_helix), while Max Perutz's rival group incorrectly proposed alternative structures because their model hardware failed to account for this rule.
+Famously, encoding the steric hinderance -- i.e. “flatness” -- of a double bond into his model enabled Pauling to discover the proper structure for the [alpha-helix](https://en.wikipedia.org/wiki/Alpha_helix), while Max Perutz's rival group incorrectly proposed alternative structures because their model hardware failed to account for this rule.
 
 Following Pauling's lead, Watson and Crick's models of DNA structure adopted the same empirical hypothesis testing strategy.
-It's usually omitted from textbooks that Watson and Crick proposed multiple alternative structures before settingly on the double-helix. 
+It's usually omitted from textbooks that Watson and Crick proposed multiple alternative structures before settling on the double-helix. 
 In their first such proposal, Rosalind Franklin highlighted something akin to a software error -- the modelers had failed to encode a chemical rule about the balance of charges along the sugar backbone of DNA and proposed an impossible structure as a result.
 
 Their discovery of the base pairing relationships emerged directly from empirical exploration with their physical model.
