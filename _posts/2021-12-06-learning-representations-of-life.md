@@ -89,6 +89,11 @@ Their discovery of the base pairing relationships emerged directly from empirica
 Watson was originally convinced that bases should form homotypic pairs -- A to A, T to T, etc. -- across the two strands.
 Only when they build the model and found that the resulting "bulges" were incompatible with chemical rules did Watson and Crick realize that heterotypic pairs -- our well known friends A to T, C to G -- not only worked structurally, but confirmed Edwin Chargaff's experimental ratios[^4].
 
+<p float="middle">
+    <img src="https://www.sciencehistory.org/sites/default/files/styles/rte_full_width/public/watson-crick-dna-model.jpg?itok=Qa7645Jc" height=250>
+    <img src="https://www.sciencehistory.org/sites/default/files/styles/rte_full_width/public/historical_profile/rosalind-franklin.jpg?itok=sEqCmXUm" width="250" />
+</p>
+
 These essential foundations of molecular biology were laid by empirical exploration of evidence based models, but they're rarely found in our modern practice.
 Rather, we largely develop individual hypotheses based on intuitions and heuristics, then test those hypotheses directly in cumbersome experimental systems.
 
