@@ -1,10 +1,11 @@
 ---
 title: Learning representations of life
 layout: post
-date: 2021-11-25
+date: 2021-12-06
 tag:
 - biology
 - machine learning
+- history
 blog: true
 use_math: false
 ---
@@ -53,7 +54,7 @@ history lesson
 
 Machine learning approaches are now an important component of the life scientist's toolkit.
 From just a cursory review of the evidence, it's clear that ML tools have enabled us to solve once intractable problems like genetic variant effect prediction[^1], protein folding[^2], and unknown perturbation inference[^3].
-As this new class of models enters more and more branches of the ever arborizing life science tree, a natural tension has arisen between the empirical mode of inquiry enabled by ML and the traditional, analytical and heuristic approach of molecular biology.
+As this new class of models enters more and more branches of life science, a natural tension has arisen between the empirical mode of inquiry enabled by ML and the traditional, analytical and heuristic approach of molecular biology.
 This tension is visible in the back-and-forth discourse over the role of ML in biology, with ML practitioners sometimes overstating the capabilities that models provide, and experimental biologists emphasizing the failure modes of ML models while often overlooking their strengths.
 
 Reflecting on the history of molecular biology, it strikes me that the recent rise of ML tools is more of a return to form than a dramatic divergence from biological traditions that some discourse implies.
@@ -131,7 +132,7 @@ Biology's first models followed from the physical science tradition, building "u
 As molecular biology entered The Golden Era, the systems of interest crossed a threshold of complexity, no longer amenable to this form of bottom up modeling.
 This intractability to analysis is the hallmark feature of [**complex systems**](https://en.wikipedia.org/wiki/Complex_system).
 
-The computational sciences offer an alternative approach to modeling complex systems.
+There's no general solution to modeling complex systems, but the computational sciences offer a tractable alternative to the analytical approach.
 Rather than beginning with a set of rules and attempting to predict emergent behavior, we can observe the emergent properties of a complex system and build models that capture the underlying rules.
 We might imagine this as a "top-down" approach to modeling, in contrast to the "bottom-up" approach of the physical tradition.
 
@@ -174,11 +175,25 @@ A learned representation might assume that an observed relationship between vari
 Regardless of how incorrect rules find their way into either type of model, the remedy is the same.
 Models are tools for hypothesis exploration and generation, and real-world experiments are still required for validation.
 
-Contrary to comments from machine learning's biological detractors, using ML models to learn the rules of biological systems and prioritize hypotheses is quite akin to the mode of inquiry at the dawn of molecular biology.
+# Old is new
+
+Despite the implementation details, ML models are then not so distinct from the analog models of old.
+They enable researchers to rapidly test biological hypotheses to see if they obey the "rules" of the underlying system.
+The main distinction is how those rules are encoded.
+
+In the classical, analytical models, rules emerged from individual experiments, were pruned heuristically by researchers, and then a larger working model was built-up from their aggregate.
+By contrats, machine learning models derive less explicit rules that are consistent with a large amount of experimental data.
+In both cases, these rules are not necessary correct, and researchers need to be wary of leading themselves astray based on faulty models.
+You need to be no more and no less cautious, no matter which modeling tool you choose to wield.
+
+This distinction of how rules are derived is then rather small in the grand scheme.
+Incorporating machine learning models to answer a biological question is not a departure from the intellectual tradition that transformed biology from an observational practice to an explanatory and engineering disipline.
+Rather, applications of ML to biology are a return to the formal approaches that allowed molecular biology to blossom from the fields that came before it.
+
 
 <!-- # Endless forms most beautiful
 
-> from so simple a beginning endless forms most beautiful and most wonderful have been, and are being evolved -- Charles Darwin -->
+> From so simple a beginning endless forms most beautiful and most wonderful have been, and are being evolved -- Charles Darwin -->
 
 <!-- 
 grails attained:
@@ -195,23 +210,24 @@ grails unfinished:
 6 - immunology - sequence to antigen specificity conversion, predict sequences for target antigens
  -->
 
-<!--
-What questions can this new class of models help us answer? What forms will these models take?
 
-Analytical models helped reveal the structures of biological molecules, the kinetics of enzymatic reactions[^8], and the stochastic basis of genetic mutations[^9].
+<!-- Given this analog between molecular biology's origin and the present confluence with ML, we might naturally wonder: What questions can this new class of models help us answer? What forms will these models take?
+
+Analytical models helped reveal the structures of biological molecules, the kinetics of enzymatic reactions[^11], and the stochastic basis of genetic mutations[^12].
 Already, machine learing models have enabled us to push beyond the limits of analytical approaches in some of the same biological domains.
-Broken down by field, I've highlighted a few current accomplishments are remaining challenges at the interface of biology and ML.
--->
+A comprehensive discussion of the ML / biology intersection would span hundreds of pages[^13], but considering just a few examples provides many of the necessary intuitions to predict where the field is moving.
 
-<!-- ## Molecular Genetics
+## Decoding the genome
 
 How does a change in DNA sequence of a genome influence the phenotype of the organism? 
-This classic question sits at the heart of modern genetics and remains the primary challenge in tasks ranging from comparative biology to human genetics.
-Using analytical approaches, biologists have difficulty predicting the effect of all but a small number of mutations[^10].
+This classic question sits at the heart of modern molecular biology and remains the primary challenge in tasks ranging from comparative biology to human genetics.
+Using analytical approaches, Gamow, Crick, Brenner, and the other members of the ["RNA Tie Club,"](https://www.wikiwand.com/en/RNA_Tie_Club) broke the cypher that maps DNA to protein sequences[^14].
+While the cypher explains a core piece of the Central Dogma, the analytical approach can only explain the effect of a small number of mutations[^15].
 
-**Current advances** 
-
-Researchers have built a series of ML models to interpret the effects of DNA sequence changes, most notably employing convolutional neural networks and multi-headed attention architectures.
+<!-- **Current advances**  -->
+<!--
+Many researchers have developed ML models to close the gap between this limited set of analytical predictions and our empirical observation that mutations outside coding sequences matter a great deal.
+These models can predict the effects of DNA sequence changes anywhere in a genome, most notably employing convolutional neural networks and multi-headed attention architectures.
 As one illustrative example, [Basset](https://github.com/davek44/Basset) is a convolutional neural network developed by my colleague [David R. Kelley](http://www.davidrkelley.com/info) that predicts many functional genomics experimental results from DNA sequence alone.
 
 Said differently, the model learns to translate DNA sequence into likely functional outcomes, including gene expression activity, chromatin accessibility, and transcription factor binding.
@@ -219,17 +235,32 @@ Approaches descended from Basset like [Basenji](https://github.com/calico/basenj
 
 Using these tools, a researcher can exhaustively search the space of hypotheses about the effect of DNA mutations on functional genomic features.
 By feeding the model mutated versions of the real, reference genome, researchers can obtain the predicted effect of each individual mutation.
+These "*in silico* mutagenesis" experiments might be analogized to Pauling flipping the components of his molecular model into different orientations, querying the rules encoded in the model to see if they support a hypothesis.
 
+With such remarkable results, are these models the "solution" to genetics?
+
+Far from it.
+DNA sequence models have achieved remarkable performance, but there are still fundamental questions that remain unsolved.
+As a holy grail of molecular genetics, we might wish to translate the sequence of a genome into a list of phenotypes describing the organism that will develop, how it will live, and how might perish.
+After all -- all of this information is reflected in the sequence alone.
+Our current generation of DNA sequence models are far from this lofty goal.
+
+We're currently limited to predicting only the first-order effects of DNA sequence changes, rather than considering the higher-order effects that might result.
+For instance, if we *in silico* mutagenize the promoter of a transcription factor, current models might correctly predict a decrease in transcription factor gene expression, but can't extend that logic to predict that accessibility at the transcription factor's binding motifs might decreased.
+This first-order prediction limitation is a common feature of many current ML models applied to biological problems, and represents a key challenge for future work modeling complex biological systems filled with feedback loops.
+It's important to keep these limitations front of mind as we consider the very material benefits these modeling approaches provide, lest we fool ourselves into underestimating the complexity of biological problems. -->
+
+<!-- 
 **Unsolved problems**
 
 While remarkable in their capability, existing regulatory sequence analysis models have important limitations:
 
 * Current models predict only first-order impacts -- ablating the promoter sequence of a transcription factor doesn't change accessibility predictions for it's target genes in the same genome
 * The effect of large scale gene sequence changes, like large insertion or deletions, or chromosomal rearrangements is difficult to model
-* Most models map local sequence features to local sequence phenotypes. Few are capable of predicting higher-order phenotypes from large sets of sequences. e.g. We're not yet at the point of predicting the influence of a genetic variant on animal development.
+* Most models map local sequence features to local sequence phenotypes. Few are capable of predicting higher-order phenotypes from large sets of sequences. e.g. We're not yet at the point of predicting the influence of a genetic variant on animal development. -->
 
 
-## Biochemistry
+<!-- ## Biochemistry
 
 How does a simple, linear amino acid sequence give rise to a complex, three-dimensional structure? 
 How do these structures confer the essential biological functions that dictate cell geometry, reproduction, and metabolism?
@@ -247,16 +278,25 @@ By
 **Unsolved problems**
 
 * Mutation prediction
-* Small molecule design by discrimination
+* Small molecule design by discrimination -->
 
-## Development
+<!-- ## Development
+
+How does a metazoan cell decide which genes to express and which cell type to become?
+
+This is another classic question, the first glimmers of an answer emerging in [Hilde Mangold's experiments](https://www.wikiwand.com/en/Spemann-Mangold_organizer) that showed diffusable signals confered anatomical identity.
+Through an analytical approach, embryologists proposed models for how these signals might propogate and interact to determine the myriad identities in a complex organism, but they too were outmatched by complexity at the cellular level[^16].
+While analytical models can explain how distinct cell types might receive unique signals at some point in development, the molecular mechanisms that confer unique cell identities based on those signals are too complex to unravel from first principles.
+
+Here too, researchers have taken advantage of machine learning approaches t
+
+*  -->
 
 
+<!-- ## Immunology
 
-## Immunology
+## Virology  -->
 
-## Virology 
--->
 
 # Footnotes
 
@@ -270,9 +310,11 @@ By
 [^8]: The classical experiment revealed that mutations in the *lac* operon could control *expression* of the beta-galactosidase genes, connecting DNA sequence to regulatory activity for the first time. ["The Genetic Control and Cytoplasmic Expression of Inducibility in the Synthesis of beta-galactosidase by E. Coli".](https://life.ibs.re.kr/courses/landmark/PaJaMo1959.pdf)
 [^9]: Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology (p. 334).
 [^10]: This is just one of many problems at the ML : biology interface, but [it's one I happen to have an affinity for.]({{site.url}}/scnym/)
-<!-- 
-[8]: [Michaelis–Menten kinetics](https://en.wikipedia.org/wiki/Michaelis–Menten_kinetics)
-[9]: Salvador Luria and the Max Delbrück performed a classic experiment -- ["the Luria-Delbrück experiment"](https://en.wikipedia.org/wiki/Luria–Delbrück_experiment) -- that showed bacterial mutations conferring phage resistance were acquired spontaneously, rather than induced by the prescence of phage. Their interpretation of the results relied upon a complex analytical model for how many resistant colonies were expected across a number of culture plates if resistance mutations were stochastic.
-[10]: Non-sense mutations in gene coding sequences can be predicted to abolish the function of the gene product based purely on first principles. The effects of almost all other mutations are very difficult to interpret using purely analytical tools. 
-[11]: [DeepMind's AlphaFold](https://www.nature.com/articles/s41586-021-03819-2), [David Baker lab's three-track model](https://science.sciencemag.org/content/early/2021/07/14/science.abj8754?adobe_mc=MCMID%3D55247908165515510124239564654459857138%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1638513014&_ga=2.32296894.1688072684.1638513014-313706132.1636862856)
--->
+<!--
+[11]: [Michaelis–Menten kinetics](https://en.wikipedia.org/wiki/Michaelis–Menten_kinetics)
+[12]: Salvador Luria and the Max Delbrück performed a classic experiment -- ["the Luria-Delbrück experiment"](https://en.wikipedia.org/wiki/Luria–Delbrück_experiment) -- that showed bacterial mutations conferring phage resistance were acquired spontaneously, rather than induced by the prescence of phage. Their interpretation of the results relied upon a complex analytical model for how many resistant colonies were expected across a number of culture plates if resistance mutations were stochastic.
+[13]: See this excellent, open-access review from an amazing collection of leaders in the field -- [Opportunities and obstacles for deep learning in biology](https://greenelab.github.io/deep-review/)
+[14]: Crick noted many years after the solution was found that "cypher," is a more appropriate term than "code," since a cypher describes a mapping at the level of individual letters, while a code describes a mapping at the level of words.
+[15]: Non-sense mutations in gene coding sequences can be predicted to abolish the function of the gene product based purely on first principles. The effects of almost all other mutations are very difficult to interpret using purely analytical tools. 
+[16]: For instance, researcher's proposed the [French Flag model](https://www.wikiwand.com/en/French_flag_model) of morphogen interaction to explain how just two signaling molecules can specify diverse cellular fates.
+[16]: [DeepMind's AlphaFold](https://www.nature.com/articles/s41586-021-03819-2), [David Baker lab's three-track model](https://science.sciencemag.org/content/early/2021/07/14/science.abj8754?adobe_mc=MCMID%3D55247908165515510124239564654459857138%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1638513014&_ga=2.32296894.1688072684.1638513014-313706132.1636862856) -->
