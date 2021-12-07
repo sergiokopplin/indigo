@@ -91,7 +91,7 @@ Only when they build the model and found that the resulting "bulges" were incomp
 
 <p float="middle">
     <img src="https://www.sciencehistory.org/sites/default/files/styles/rte_full_width/public/watson-crick-dna-model.jpg?itok=Qa7645Jc" height=250>
-    <img src="https://www.sciencehistory.org/sites/default/files/styles/rte_full_width/public/historical_profile/rosalind-franklin.jpg?itok=sEqCmXUm" width="250" />
+    <img src="https://www.sciencehistory.org/sites/default/files/styles/rte_full_width/public/historical_profile/rosalind-franklin.jpg?itok=sEqCmXUm" height=250 />
 </p>
 
 These essential foundations of molecular biology were laid by empirical exploration of evidence based models, but they're rarely found in our modern practice.
