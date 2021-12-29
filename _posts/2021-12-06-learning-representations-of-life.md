@@ -79,7 +79,7 @@ Rather, his models were precisely machined **analog computers** that allowed him
 The dimensions of the model components -- bond lengths and angles -- matched experimentally determined constants, so that by simply testing if a configuration fit in 3D space, he was able to determine if a particular structure was consistent with known chemistry.
 
 These models "hard coded" known experimental data into a hypothesis testing framework, allowing Pauling to explore hypothesis space while implicitly obeying not only each individual experimental data point, but the emergent properties of their interactions.
-Famously, encoding the steric hinderance -- i.e. “flatness” -- of a double bond into his model enabled Pauling to discover the proper structure for the [alpha-helix](https://en.wikipedia.org/wiki/Alpha_helix), while Max Perutz's rival group incorrectly proposed alternative structures because their model hardware failed to account for this rule.
+Famously, encoding the steric hindrance -- i.e. “flatness” -- of a double bond into his model enabled Pauling to discover the proper structure for the [alpha-helix](https://en.wikipedia.org/wiki/Alpha_helix), while Max Perutz's rival group incorrectly proposed alternative structures because their model hardware failed to account for this rule.
 
 Following Pauling's lead, Watson and Crick's models of DNA structure adopted the same empirical hypothesis testing strategy.
 It's usually omitted from textbooks that Watson and Crick proposed multiple alternative structures before settling on the double-helix. 
@@ -87,7 +87,7 @@ In their first such proposal, Rosalind Franklin highlighted something akin to a 
 
 Their discovery of the base pairing relationships emerged directly from empirical exploration with their physical model.
 Watson was originally convinced that bases should form homotypic pairs -- A to A, T to T, etc. -- across the two strands.
-Only when they build the model and found that the resulting "bulges" were incompatible with chemical rules did Watson and Crick realize that heterotypic pairs -- our well known friends A to T, C to G -- not only worked structurally, but confirmed Edwin Chargaff's experimental ratios[^4].
+Only when they built the model and found that the resulting "bulges" were incompatible with chemical rules did Watson and Crick realize that heterotypic pairs -- our well known friends A to T, C to G -- not only worked structurally, but confirmed Edwin Chargaff's experimental ratios[^4].
 
 <p float="middle">
     <img src="https://www.sciencehistory.org/sites/default/files/styles/rte_full_width/public/watson-crick-dna-model.jpg?itok=Qa7645Jc" height=250>
@@ -111,13 +111,13 @@ In Francis Crick's words[^6], The Golden Era was
 
 Building on the classical biology of genetics, Golden Era biologists investigated biological questions through a reductionist framework.
 The inductive bias guiding most experiments was that high-level biological phenomena -- heredity, differentiation, development, cell division -- could be explained by the action of a relatively small number of molecules.
-From this inductive bias, the gold standard for "mechanism" in the life sciences was defined as necessary and sufficient molecule that causes a biological phenomenon[^7].
+From this inductive bias, the gold standard for "mechanism" in the life sciences was defined as a molecule that is necessary and sufficient to cause a biological phenomenon[^7].
 
 Though molecular biology emerged from a model building past, the processes under investigation during the Golden Era were often too complex to model quantitatively with the tools of the day.
 While Pauling could build a useful, analog computer from first principles to interrogate structural hypotheses, most questions involving more than a single molecular species eluded this form of analytical attack.
 
 The search to discover how genes are turned on and off in a cell offers a compact example of this complexity.
-Following the revelation of DNA structure and the DNA basis of heredity, Fraçois Jacob and Jacques Monod formulated a hypothesis that the levels of enzymes in invididual cells were regulated by how much messenger RNA was produced from corresponding genes.
+Following the revelation of DNA structure and the DNA basis of heredity, Fraçois Jacob and Jacques Monod formulated a hypothesis that the levels of enzymes in individual cells were regulated by how much messenger RNA was produced from corresponding genes.
 Interrogating a hypothesis of this complexity was intractable through simple analog computers of the Pauling style. 
 How would one even begin to ask which molecular species governed transcription, which DNA sequences conferred regulatory activity, and which products were produced in response to which stimuli using 1960's methods?
 
