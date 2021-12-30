@@ -6,7 +6,7 @@ layout: compress
 <head>
 
     {% if site.analytics-google %}
-        {% include analytics-google.html %}
+    {% include analytics-google.html %}
     {% endif %}
 
     <meta charset="utf-8">
@@ -21,34 +21,34 @@ layout: compress
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
 
     <style>
-    {% if site.dark-theme %}
+        {% if site.dark-theme %}
         {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
-    {% else %}
+        {% else %}
         {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {% endif %}
+        {% endif %}
 
-    {{ scss_sheet | scssify }}
+        {{ scss_sheet | scssify }}
     </style>
 
 </head>
 <body>
 
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.layout == "post" %}
-            <div class="post">
+<div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+{% if page.layout == "post" %}
+<div class="post">
+    {% else %}
+    {% if showHeader != true %}
+    <div class="page {{ page.title | downcase }}">
         {% else %}
-            {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
+        <div class="{{ page.title | downcase }}">
             {% endif %}
-        {% endif %}
+            {% endif %}
 
             {{ content }}
         </div>
     </div>
-
+</div>
     {% include icons.html %}
-
+</div>
 </body>
 </html>
