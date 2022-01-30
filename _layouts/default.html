@@ -20,6 +20,8 @@ layout: compress
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
 
+    <script src="https://kit.fontawesome.com/d9b09040a7.js" crossorigin="anonymous"></script>
+
     <style>
     {% if site.dark-theme %}
         {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
@@ -32,7 +34,6 @@ layout: compress
 
 </head>
 <body>
-
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.layout == "post" %}
             <div class="post">
@@ -47,8 +48,5 @@ layout: compress
             {{ content }}
         </div>
     </div>
-
-    {% include icons.html %}
-
 </body>
 </html>
