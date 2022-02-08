@@ -44,7 +44,7 @@ If you want to test locally on your machine, do the following steps also:
 3. Enter the cloned folder via terminal and run `bundle install`
 4. Then run `bundle exec jekyll serve`
 5. Open it in your browser: `http://localhost:4000`
-6. Do you want to use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) plugin to edit your posts? Go to the admin panel: `http://localhost:4000/admin`. The admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
+6. Do you want an admin panel to edit your posts? You can install this plugin [jekyll-admin](https://jekyll.github.io/jekyll-admin/).
 
 ## Settings
 
