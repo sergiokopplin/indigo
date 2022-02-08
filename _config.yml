@@ -110,9 +110,6 @@ plugins:
   - jekyll-admin
   - jekyll-paginate-v2
 
-jekyll-mentions:
-  base_url: https://github.com
-
 compress_html:
   ignore:
     envs:
