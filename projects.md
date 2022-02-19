@@ -6,7 +6,7 @@ layout: page
 
 My research agenda consists of the following projects:
 
-Voting for Diverse Candidates
+Voting for Diverse Politicians
 ---------
 This is the central topic of my dissertation in which I (re)examine how voters' preferences shape diverse candidate representation. I argue that an encompassing perspective of diversity has been neglected in the literature explaining the underrepresentation of traditionally excluded social groups. Hence, I examine the preferences of voters for political candidates with intertwined memberships in excluded social groups. Furthermore, I investigate how co-leadership, a form of leadership that is booming in parties and governments, can change alleviate voters' discriminatory preferences. Lastly, I argue that preferences on the candidates' personality, as a central element of diversity, play a determining role in voting and, consequently, in social representation. This framework helps us shift focus away from asking if voters discriminate against diverse candidates. Instead, it allows us to focus on analyzing which elements influence this discrimination. To answer these questions, I employ conjoint experimental innovations by exploiting the multi-level, mediating and visual possibilities of these tools. 
 
