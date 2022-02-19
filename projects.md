@@ -6,10 +6,13 @@ layout: page
 
 My research agenda consists of the following projects:
 
-Online Political Microtargeting (OPM)
+Voting for Diverse Candidates
 ---------
- My work-in-progress PhD thesis tries to disentangle the conditions in which online political microtargeting is effective for mobilizing and persuading citizens. To that end I analyze Facebook Ads as well as conduct experiments where I investigate the role of accuracy, awareness and congruence in the success of OPM.
+This is the central topic of my dissertation in which I (re)examine how voters' preferences shape diverse candidate representation. I argue that an encompassing perspective of diversity has been neglected in the literature explaining the underrepresentation of traditionally excluded social groups. Hence, I examine the preferences of voters for political candidates with intertwined memberships in excluded social groups. Furthermore, I investigate how co-leadership, a form of leadership that is booming in parties and governments, can change alleviate voters' discriminatory preferences. Lastly, I argue that preferences on the candidates' personality, as a central element of diversity, play a determining role in voting and, consequently, in social representation. This framework helps us shift focus away from asking if voters discriminate against diverse candidates. Instead, it allows us to focus on analyzing which elements influence this discrimination. To answer these questions, I employ conjoint experimental innovations by exploiting the multi-level, mediating and visual possibilities of these tools. 
 
+The Roots of Populism
+---------
+The rise of populism is often portrayed as one of the most pressing challenges for the future of national and EU democracies. Together with the [consortium](https://precede.eu/) I explore the roots of populist demands by combining political, economic and sociological factors as well as demand- and supply-side explanations. Overall, the proposed study aims to explore the socio-economic and cultural roots of European populism by analyzing both existing established datasets and data from new online surveys across 10 European countries during national elections occurring before the 2024 EU elections: the United Kingdom, the Netherlands, Italy, Germany, Spain, Romania, France, Sweden, Hungary and the Czech Republic.
 
 Campaign events and prediction markets
 ---------
@@ -21,12 +24,3 @@ Campaign events and prediction markets
 If you want to participate or to know more about our prediction markets, access to the projects' websites: [Predi Spain](https://aloport.github.io/predi), [Predi Latam](https://aloport.github.io/predi_latam).
 
 
-Personality of political candidates
----------
-
-[Johannes Besch](https://www.ipz.uzh.ch/de/institut/mitarbeitende/staff/besch.html) and I are interested in the role of the personality of parties/candidates and voters in elections. More concretely, we experiment to test under what conditions voters are tolerant towards party conflict and personality congruence between voters and political candidates.
-
-LGTBQI voting behavior
----------
-
-*Soon...*

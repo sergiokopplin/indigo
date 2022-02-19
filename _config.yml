@@ -1,7 +1,7 @@
 # main text of home
 name: Alberto López Ortega
-bio: PhD Student of Political Science, <br>
-    University of Zurich
+bio: Post-doc researcher, <br>
+    VU Amsterdam
 
 # twitter summary info
 description: I play with numbers and then say things about politics.
@@ -15,7 +15,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/images/cv_aloport_210919.pdf
+resume-url: assets/images/cv_aloport_170122.pdf
 
 url: https://aloport.github.io/
 # your url: http://USERNAME.github.io

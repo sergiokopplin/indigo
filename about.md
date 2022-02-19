@@ -4,19 +4,20 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-I am a PhD candidate at the Political Science Department of the [University of Zurich](https://ipz.uzh.ch/en), working in the SNF research project "The Effect of Campaign Events on Electoral Outcomes; Evidence from Prediction Markets”.
+I am a Post-doc Reseacher at the Faculty of Social Sciences of the [Free University of Amsterdam](https://research.vu.nl/en/persons/alberto-l%C3%B3pez-ortega), working in the PRECEDE project "Populism's Roots: Economic and Cultural Explanations in Democracies of Europe”.
 
 My main area of research pertains to understanding the effect of campaign communications and candidates' traits on citizens' political behavior. To find answers to the question how people's voting behavior is determined, I am currently involved in these **[research projects](https://aloport.github.io/projects).**
 
-Previously, I followed a Master in Political and Electoral Analysis at [Carlos III University-Juan March Institute of Madrid](https://ic3jm.es/en/) which I completed in 2017 where I specialized in experimental research on electoral studies and behavioral politics. My dissertation was titled: The personalization of politics in parliamentary democracies: a conjoint experiment in Spain. During the time of my master studies, I was a Research Assistant at the Department of Political Science, [Duke University](https://www.duke.edu/) collaborating in the Project “Women in Combat” (Principal Investigator: Prof. [Laia Balcells](https://www.laiabalcells.com/)).
+Previously, I completed my PhD studies at the Department of Political Science  at the [University of Zurich](https://www.ipz.uzh.ch/en.html). I devoted my thesis to explaining voter preferences for diverse political through conjoint experimental innovations. 
 
-Before that, I obtained my double major-degree in Law and Political Science from the [University of Pablo de Olavide of Seville](https://www.upo.es/portal/impe/web/portada?lang=en) in 2016, with a Bachelor thesis about local e-governance using quantitative methods.
+Before that, I followed a Master in Political and Electoral Analysis at [Carlos III University-Juan March Institute of Madrid](https://ic3jm.es/en/) which I completed in 2017 where I specialized in experimental research on electoral studies and behavioral politics. My dissertation was titled: The personalization of politics in parliamentary democracies: a conjoint experiment in Spain. During the time of my master studies, I was a Research Assistant at the Department of Political Science, [Duke University](https://www.duke.edu/) collaborating in the Project “Women in Combat” (Principal Investigator: Prof. [Laia Balcells](https://www.laiabalcells.com/)).
+
 
 -------
 
 You can reach me on [Twitter](https://twitter.com/bertous) or by email using the contact form below.
 
-<form method="POST" action="https://formspree.io/alberto.lopezortega@uzh.ch">
+<form method="POST" action="https://formspree.io/a.lopez.ortega@vu.nl">
   <input type="email" name="_replyto" placeholder="Your email">
   <textarea name="message" placeholder="Your message"></textarea>
   <input type="submit">
