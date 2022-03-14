@@ -8,11 +8,11 @@ permalink: /about/index.html
 
 ## Hi, I'm Jacob
 
-I lead a laboratory as a Principal Investigator at [Calico](http://calicolabs.com) combining computational and experimental biology to address aging. 
-Our recent work has focused on repurposing developmental programs to [restore youthful gene expression in old cells](https://reprog.research.calicolabs.com/).
+I lead research as a member of the founding team at [NewLimit](https://newlimit.com), an ambitious biotechnology company developing epigenetic reprogramming therapeutics.
 
-Previously, I led a research program at Calico as a Computational Fellow and worked as a Data Scientist in [Calico's Computing group.](https://www.calicolabs.com/team/computational-scientists/)
-My recent research has focused on explaining [how aging manifests differently among diverse mammalian cell types](https://mca.research.calicolabs.com), [how stem cells age](https://myo.research.calicolabs.com), and on developing methods for timelapse imaging and [single cell RNA sequencing.](https://github.com/scnym)
+Previously, I led a research program at [Calico](http://calicolabs.com) as a Principal Investigator and Computational Fellow and worked as a Data Scientist in Calico's Computing group.
+My lab focused on repurposing developmental programs to [restore youthful gene expression in old cells](https://reprog.research.calicolabs.com/).
+My other research focused on explaining [how aging manifests differently among diverse mammalian cell types](https://mca.research.calicolabs.com), [how stem cells age](https://myo.research.calicolabs.com), and on developing methods for timelapse imaging and [single cell RNA sequencing.](https://github.com/scnym)
 
 Prior to Calico, I earned a PhD at the [University of California San Francisco](https://ucsf.edu) as part of the NSF [Center for Cellular Construction](https://ccc.ucsf.edu), advised by [Wallace Marshall](http://tetrad.ucsf.edu/faculty/wallace-wallace) and [Andrew Brack](http://bracklab.com).
 My thesis work developed methods to infer how cell states change over time from timelapse imaging data.
