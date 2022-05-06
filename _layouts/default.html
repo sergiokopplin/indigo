@@ -23,7 +23,15 @@ layout: compress
     <script src="https://kit.fontawesome.com/d9b09040a7.js" crossorigin="anonymous"></script>
 
     <style>
-    {% if site.dark-theme %}
+    
+    {% if site.dark-theme == "auto" %}
+        {% capture scss_sheet %}
+            {% include style.scss %}
+            @media (prefers-color-scheme: dark) {
+                {% include style-dark.scss %}
+            }
+        {% endcapture %}
+    {% elsif site.dark-theme %}
         {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
     {% else %}
         {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
