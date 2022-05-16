@@ -2,13 +2,13 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+
+![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 <p style="text-align: center;">
 Seonjoon Park <br/>
 Machine Learning Engineer <a href="https://mathpresso.com/">@Mathpresso</a></p>
 <br/><br/>
-
 
 <h2>Skills</h2>
 
@@ -18,7 +18,7 @@ Machine Learning Engineer <a href="https://mathpresso.com/">@Mathpresso</a></p>
 	<li>Python</li>
 	<br/>
 <b>Most Experienced with</b> - Tensorflow, Scikit-learn, Opencv, Numpy <br/>
-<b>Familiar with</b> – Django, Flask 
+<b>Familiar with</b> – Django, Flask
 
 </ul>
 

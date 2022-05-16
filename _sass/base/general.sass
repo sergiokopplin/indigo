@@ -2,9 +2,9 @@ body, html
 	font-size: 62.5%
 
 body
-	line-height: 1
 	font: 16px $fontSans
 	color: $alpha
+	background: $omega
 
 h1, h2, h3, h4
 	font-family: $fontSans
@@ -30,6 +30,7 @@ h4
 a
 	color: $delta
 	text-decoration: underline
+	font-weight: $thin-font
 
 p
 	line-height: 1.7
@@ -43,7 +44,7 @@ p
 
 strong
 	font-weight: 400
-	color: #000
+	color: $zeta
 
 ul,
 ol
@@ -91,14 +92,21 @@ figure.highlight
 	width: 100%
 	margin: 0
 
-code,
+code
+	padding: 2px 3px
+	font-family: $fontMonospace
+	font-size: 12px
+	vertical-align: middle
+	background: #eee
+	border-radius: 2px
+
+pre > code,
 tt
 	padding: 1px 0
 	font-family: $fontMonospace
 	font-size: 12px
 	line-height: 20px
-	background: #fff
-	border-radius: 2px
+	background: $omega
 	border-radius: 2px
 
 pre
@@ -110,7 +118,7 @@ pre
 	font-size: 1.2rem
 	line-height: 2rem
 	overflow: auto
-	background: #fff
+	background: $omega
 	border: 1px solid $epsilon
 	border-radius: 2px
 
