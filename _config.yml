@@ -10,7 +10,7 @@ description: A blog about technology and stuff related
 external-image: false
 picture: assets/images/profile.jpg
 
-# your site color theme, true for dark theme, 
+# your site color theme, true for dark theme,
 # false to light theme, auto to switch with system.
 dark-theme: auto
 
@@ -30,30 +30,23 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+    shortname: github # enter this from your disqus account
+    categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+twitter: mpfdev
+#instagram: myinstagram
+linkedin: mpfdev
+github: mpfdev
+email: mpfdev@protonmail.com
 
 authors:
-  johndoe:
-    name: John Doe
+    name: Matheus Prado
     bio: A Man who travels the world eating noodles
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    twitter: mpfdev
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -62,18 +55,18 @@ width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-  enabled: false
-  sort_reverse: true # display recent posts first
-  title: ":title" # Changing this will mess up the header display logic
-  per_page: 5
-  permalink: "/:num/" # pagination link that will be appended
+    enabled: false
+    sort_reverse: true # display recent posts first
+    title: ":title" # Changing this will mess up the header display logic
+    per_page: 5
+    permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -95,32 +88,25 @@ animation: true
 
 # add default values to specific pages or layouts
 defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
-    values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
+    - scope:
+          path: "" # an empty string here means all files in the project
+          layout: "post"
+      values:
+          # setting all post to not hidden by default,
+          # can be overridden in the front matter for a specific post
+          hidden: false
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-paginate-v2
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
+    - jekyll-paginate-v2
 
 compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
+    ignore:
+        envs:
+            - development
+            - stage
 
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "vendor"]
