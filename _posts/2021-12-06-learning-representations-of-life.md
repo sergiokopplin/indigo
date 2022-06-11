@@ -48,7 +48,7 @@ history lesson
 * Famously, Delbruck transitioned into biology after working with Lisa Meitner and Otto Hahn on nuclear physics in the 1930's. He expressed a series of concrete questions and hypotheses about the nature of living systems from a physicts perspective, made famous by Edwin Schroedinger in his pamphlet "What is life?".
 * 
 -->
-*I'm frequently asked how I think machine learning tools will change our approach to molecular and cell biology. This post is in part my answer and in part a reflection on Horace Freeland Judson's history of early molecular biology -- [*The Eighth Day of Creation*.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
+*I'm frequently asked how I think machine learning tools will change our approach to molecular and cell biology. This post is in part my answer and in part a reflection on Horace Freeland Judson's history of early molecular biology -- [The Eighth Day of Creation.](https://jacobkimmel.notion.site/The-Eighth-Day-of-Creation-787948ef203141a5a21be1620fcfee31)*
 
 <!-- Introduction -->
 
@@ -187,7 +187,7 @@ They enable researchers to rapidly test biological hypotheses to see if they obe
 The main distinction is how those rules are encoded.
 
 In the classical, analytical models, rules emerged from individual experiments, were pruned heuristically by researchers, and then a larger working model was built-up from their aggregate.
-By contrats, machine learning models derive less explicit rules that are consistent with a large amount of experimental data.
+By contrast, machine learning models derive less explicit rules that are consistent with a large amount of experimental data.
 In both cases, these rules are not necessary correct, and researchers need to be wary of leading themselves astray based on faulty models.
 You need to be no more and no less cautious, no matter which modeling tool you choose to wield.
 
