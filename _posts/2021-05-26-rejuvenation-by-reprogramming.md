@@ -1,11 +1,11 @@
 ---
 layout: post
 projects: true
-description: Cell identity reprogramming restores youthful gene expression
+description: Partial pluripotent reprogramming restores youthful gene expression
 date: 2021-05-26
 ---
 
-**Pre-print:** [https://doi.org/10.1101/2021.05.21.444556](https://doi.org/10.1101/2021.05.21.444556)  
+**Paper:** [https://doi.org/10.1016/j.cels.2022.05.002](https://doi.org/10.1016/j.cels.2022.05.002), [PDF Download]({{site.url}}/assets/../../../assets/files/2022_roux_cell_systems.pdf)  
 **Research Website:** [reprog.research.calicolabs.com](https://reprog.research.calicolabs.com)
 
 Mammalian aging dramatically remodels gene expression in diverse cell identities, as revealed by aging cell cartography studies ([Calico Murine Aging Cell Atlas](https://mca.research.calicolabs.com/), [*Tabula Muris Senis*](https://tabula-muris-senis.ds.czbiohub.org/)).
@@ -48,10 +48,10 @@ We found that somatic cell identity programs were suppressed and pluripotency id
 In particular, we observed activation of the *Nanog* transcription factor, previously reported to be a gate-keeper to the induction of full pluripotency.
 
 Pluripotent cells are characteristically neoplastic, forming teratomas *in vivo*.
-Our observation that *Nanog* is activated in a subset of transiently reprogrammed cells suggests that even transient activation of pluripotency programs poses a neoplastic risk.
+Our observation that *Nanog* is activated in a subset of partially reprogrammed cells suggests that even transient activation of pluripotency programs poses a neoplastic risk.
 Given that we observed only a small *Nanog+* cell population, it seems likely that previous reports using bulk measurements were not able to detect this rare cell state.
 
-We next wondered if transiently reprogrammed cells would re-acquire their original somatic identities, as suggested by MEF to iPSC reprogramming systems ([Samavarchi-Tehrani et. al. 2010](https://pubmed.ncbi.nlm.nih.gov/20621051/)).  
+We next wondered if partially reprogrammed cells would re-acquire their original somatic identities, as suggested by MEF to iPSC reprogramming systems ([Samavarchi-Tehrani et. al. 2010](https://pubmed.ncbi.nlm.nih.gov/20621051/)).  
 We turned to RNA velocity analysis to infer changes in cell state and found that most reprogrammed cells in both populations were re-acquiring their original somatic identities.
 
 ## Pluripotency submodules are sufficient to restore youthful expression
@@ -64,13 +64,13 @@ We next wondered if alternative reprogramming strategies could also restore yout
 The neoplastic risk posed by oncogenes in the Yamanaka Factor set (*Klf4, Myc*) motivates a search for alternative approaches.
 We also wondered if the suppression of cell identity we observed was intimately connected to rejuvenation, or if these two phenomena could be decoupled.
 
-To investigate these questions, we developed a screening system that allowed us to perform transient reprogramming interventions in a pooled format with single cell RNA-seq as a read-out.
+To investigate these questions, we developed a screening system that allowed us to perform partial reprogramming interventions in a pooled format with single cell RNA-seq as a read-out.
 Our approach was inspired by the CellTag lineage-tracing system ([Biddy et. al. 2018](https://pubmed.ncbi.nlm.nih.gov/30518857/)), taking advantage of expressed barcodes in the 3' UTR of a constituitive reporter.
 We used this system to test partial reprogramming in young and aged MSCs with all possible combinations of the Yamanaka factors.
 
 <img src="{{ site.baseurl }}/assets/images/reprog/web_yf_screen_results.png" width="600">
 
-We found that the transcriptional effects of transient reprogramming scaled with the number of unique factors delivered, consistent with known biology for the Yamanaka factors.
+We found that the transcriptional effects of partial reprogramming scaled with the number of unique factors delivered, consistent with known biology for the Yamanaka factors.
 To determine which combinations had unique effects, we trained a cell identity classification model ([scNym](https://scnym.research.calicolabs.com)) to discriminate different combinations based on transcriptional profiles.
 We found that effects from combinations of three factors were highly similar to the full Yamanaka factor set, suggesting no single factor is required rejuvenation.
 
@@ -83,7 +83,7 @@ The results of our screen suggest that the activation of the full pluripotency p
 
 ## Multipotent reprogramming interventions restore myogenic gene expression
 
-Can transient multipotent reprogramming reverse features of aging?
+Can partial multipotent reprogramming reverse features of aging?
 
 <img src="{{ site.baseurl }}/assets/images/reprog/web_yf_myo.png" width="512">
 
@@ -92,6 +92,6 @@ One key player in this process is the mesodermal transcription factor *Msx1*.
 Previous work has shown that *Msx1* is sufficient to dedifferentiate synctial myotubes back into proliferating mononuclear progenitor cells, without inducing pluripotency.
 
 We wondered if transient activation of this multipotency factor might also reverse features of aging in myogenic cells, similar to the Yamanaka factors ([Sarkar et. al. 2020](https://pubmed.ncbi.nlm.nih.gov/32210226/)).
-We performed a transient pulse/chase of *Msx1* followed by single cell RNA-seq in aged myogenic cells, similar to our other experiments.
+We performed a pulse/chase of *Msx1* followed by single cell RNA-seq in aged myogenic cells, similar to our other experiments.
 It has been reported that myogenic differentiation is impaired in aged myogenic cells, and here we found that transient *Msx1* treatment improved myogenic gene expression in two independent experiments.
 This result suggests that transient activation of progenitor factors outside the core pluripotency program may also restore youthful gene expression, similar to the canonical Yamanaka factors.

@@ -98,8 +98,8 @@ San Francisco, California
 
 ## Selected Publications
 
-1. Roux A, Zhang C, Paw J, Zavala-Solorio J, Vijay T, Kolumam G, Kenyon C, **Kimmel JC**. 2021.
-*bioRxiv*. [doi: https://doi.org/10.1101/2021.05.21.444556](https://doi.org/10.1101/2021.05.21.444556).
+1. Roux A, Zhang C, Paw J, Zavala-Solorio J, Vijay T, Kolumam G, Kenyon C, **Kimmel JC**. 2022.
+*Cell Systems*. [doi: https://doi.org/10.1016/j.cels.2022.05.002](https://doi.org/10.1016/j.cels.2022.05.002). [PDF]({{site.url}}/assets/files/2022_roux_cell_systems.pdf)
 1. **Kimmel JC**, Kelley DR. scNym: Semi-supervised adversarial neural networks for single cell classification. 2021. *Genome Research*. [doi: https://doi.org/10.1101/gr.268581.120](https://doi.org/10.1101/gr.268581.120).
 2. **Kimmel JC**, Yi N, Roy M, Hendrickson DG, Kelley DR. Differentiation reveals the plasticity of age-related change in murine muscle progenitors. 2021. *Cell Reports*. [https://doi.org/10.1016/j.celrep.2021.109046](https://doi.org/10.1016/j.celrep.2021.109046).
 3. **Kimmel JC**, Hwang AB, Marshall WF, Brack AS. Aging induces aberrant state transition kinetics in murine muscle stem cells. 2020. *Development*. [https://doi.org/10.1242/dev.183855](doi: 10.1242/dev.183855). Chosen as a [Research Highlight by *Development*: Muscling in on Stem Cell Aging.](https://dev.biologists.org/content/147/9/e0901)
