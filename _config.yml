@@ -26,7 +26,7 @@ url: https://iunn-sh.github.io/indigo
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'G-9RBELWQT9W'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
