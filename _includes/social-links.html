@@ -1,6 +1,30 @@
 <!-- To add more icons, duplicate a section and find yout icon here -> https://fontawesome.com/v6.0/icons -->
 
-<div class="social-links">
+<div class="social-links"> 
+    {% if site.license %}
+        <a class="link" data-title="lawyerbc.moj.gov.tw/lawyer/{{ site.license }}" href="https://lawyerbc.moj.gov.tw/lawyer/{{ site.license }}" target="_blank"  rel="noopener">
+            <i class="fa-regular fa-scale-balanced"></i>
+        </a>
+    {% endif %}
+    
+    {% if site.email %}
+        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener">
+            <i class="fa-regular fa-envelope"></i>
+        </a>
+    {% endif %}
+    
+    {% if site.linkedin %}
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    {% endif %}
+
+    {% if site.github %}
+        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    {% endif %}
+    
     {% if site.facebook %}
         <a class="link" data-title="facebook.com/{{ site.facebook }}" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">
             <i class="fa-brands fa-facebook"></i>
@@ -16,24 +40,6 @@
     {% if site.instagram %}
         <a class="link" data-title="instagram.com/{{ site.instagram }}" href="https://instagram.com/{{ site.instagram }}" target="_blank"  rel="noopener">
             <i class="fa-brands fa-instagram"></i>
-        </a>
-    {% endif %}
-
-    {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-    {% endif %}
-
-    {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-github"></i>
-        </a>
-    {% endif %}
-
-    {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener">
-            <i class="fa-regular fa-envelope"></i>
         </a>
     {% endif %}
 </div>
