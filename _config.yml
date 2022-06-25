@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-license: 0xc19c55a474ebf08172c890d1d3fe200d61bf31e25f318ecd5ddbb76d1c80ad57
+license: "0xc19c55a474ebf08172c890d1d3fe200d61bf31e25f318ecd5ddbb76d1c80ad57"
 email: ish@chu-iu.pro
 linkedin: jackie-b-yang
 github: iunn-sh
