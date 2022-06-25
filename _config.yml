@@ -103,6 +103,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-paginate-v2
+  - jekyll-remote-theme
 
 compress_html:
   ignore:
@@ -119,4 +120,5 @@ exclude:
     "vendor",
   ]
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+remote_theme: jekyll/minima
