@@ -25,7 +25,7 @@ url: https://iunn-sh.github.io/indigo
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'G-GPFRL6RP4P'
+analytics-google: 'UA-221445137-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
@@ -103,7 +103,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-paginate-v2
-  - jekyll-remote-theme
 
 compress_html:
   ignore:
@@ -120,5 +119,4 @@ exclude:
     "vendor",
   ]
 
-# theme: jekyll-theme-minimal
-remote_theme: jekyll/minima
+theme: jekyll-theme-minimal
