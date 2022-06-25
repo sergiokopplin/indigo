@@ -21,12 +21,11 @@ resume-external: true
 resume-url: https://google.com/?q=my+resume
 
 url: https://iunn-sh.github.io/indigo
-# your url: https://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'G-9RBELWQT9W'
+analytics-google: 'UA-221445137-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
@@ -43,18 +42,12 @@ github: iunn-sh
 # instagram: myinstagram
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  ish:
+    name: Iûnn Siù-hūi
+    bio: Engineer by day, lawyer by night
     external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/logo_white.jpg
+#     twitter: johndoe
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
