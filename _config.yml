@@ -20,7 +20,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://iunn-sh.github.io/indigo
+url: https://www.chu-iu.pro
 
 permalink: /:title/
 
@@ -34,9 +34,9 @@ disqus:
 
 # if you don't have any of social below, comment the line
 license: "0xc19c55a474ebf08172c890d1d3fe200d61bf31e25f318ecd5ddbb76d1c80ad57"
-email: ish@chu-iu.pro
 linkedin: jackie-b-yang
-github: iunn-sh
+email: ish@chu-iu.pro
+# github: iunn-sh
 # facebook: myfacebook
 # twitter: mytwitter
 # instagram: myinstagram
