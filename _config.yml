@@ -1,6 +1,6 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Nguyen Quoc Huy
+bio: I'm 19, I am a student, I have a hobby of researching and wandering online.
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -43,8 +43,8 @@ email: myemail@gmail.com
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: Nguyen Quoc Huy
+    bio: I'm 19, I am a student, I have a hobby of researching and wandering online.
     external-image: false
     picture: assets/images/profile.jpg
     twitter: johndoe
