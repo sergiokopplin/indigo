@@ -3,7 +3,7 @@ title: Nguyen Quoc Huy
 bio: I'm 19, I am a student, I have a hobby of researching and wandering online.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: I'm a student
 
 # if it's an external image, update below for true
 # better with square images
@@ -49,7 +49,7 @@ authors:
     picture: assets/images/profile.jpg
     twitter: johndoe
   jamesfoster:
-    name: James Foster
+    name: Nguyen Quoc Huy
     bio: A Man who develops software with coffee
     external-image: false
     picture: assets/images/james.jpg
