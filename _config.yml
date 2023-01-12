@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.jpeg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -20,7 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://nareshnindra.github.io/blog
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -36,10 +36,10 @@ disqus:
 # if you don't have any of social below, comment the line
 facebook: myfacebook
 twitter: mytwitter
-instagram: myinstagram
+#instagram: myinstagram
 linkedin: mylinkedin
 github: mygithub
-email: myemail@gmail.com
+email: msg4naresh@gmail.com
 
 authors:
   johndoe:
