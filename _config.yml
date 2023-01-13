@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpeg
+picture: assets/images/profile.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -34,11 +34,11 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+twitter: https://twitter.com/nareshnindra
 #instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
+linkedin: https://www.linkedin.com/in/marrinaresh
+github: https://github.com/NareshNindra
 email: msg4naresh@gmail.com
 
 authors:
