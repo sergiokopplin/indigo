@@ -20,7 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://dom88dev.github.io/
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -38,7 +38,7 @@ facebook: myfacebook
 twitter: mytwitter
 instagram: myinstagram
 linkedin: mylinkedin
-github: mygithub
+github: https://github.com/Dom88dev/
 email: dom88.dev@gmail.com
 
 authors:
@@ -47,7 +47,7 @@ authors:
     bio: "복세편살 행쇼 개발자"
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: 
+    twitter: dom
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
