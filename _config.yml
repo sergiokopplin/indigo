@@ -1,6 +1,6 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Domlog
+bio: 개발관련 사항 이모저모 정리
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -39,30 +39,24 @@ twitter: mytwitter
 instagram: myinstagram
 linkedin: mylinkedin
 github: mygithub
-email: myemail@gmail.com
+email: dom88.dev@gmail.com
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: Dom Kim
+    bio: "복세편살 행쇼 개발자"
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    twitter: 
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-  enabled: false
+  enabled: true
   sort_reverse: true # display recent posts first
   title: ":title" # Changing this will mess up the header display logic
   per_page: 5
@@ -76,7 +70,7 @@ about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
