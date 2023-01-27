@@ -1,7 +1,7 @@
 ---
 title: "개발 관련 공부 정리 노션 링크"
 layout: post
-date: 2023-01-27 09:00 +0900
+date: 2023-01-27 09:00:00 +0900
 image: /assets/images/notion.png
 headerImage: true
 tag:
