@@ -14,7 +14,8 @@ layout: page
 	<li>Java</li>
 	<li>Kotlin</li>
 	<li>Coroutines</li>
-	<li>Android (Design Patterns, ACC, Jetpack)</li>
+	<li>Android (Design Patterns(CLEAN MVVM), ACC, Jetpack)</li>
+	<li>3rd party libraries(retrofit, glide, hilt, koin...)</li>
 	<li>Git</li>
 	<li>MySQL</li>
 </ul>
