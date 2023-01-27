@@ -9,7 +9,7 @@ tag:
 - components
 - extra
 category: blog
-author: jamesfoster
+author: Dom Kim
 description: Markdown summary with different options
 ---
 
