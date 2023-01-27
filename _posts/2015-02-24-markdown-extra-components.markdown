@@ -3,7 +3,7 @@ title: "Markdown Extra Components"
 layout: post
 date: 2016-02-24 22:48
 image: /assets/images/markdown.jpg
-headerImage: false
+headerImage: true
 tag:
 - markdown
 - components
