@@ -7,7 +7,6 @@ headerImage: true
 tag:
 - markdown
 - elements
-star: true
 category: blog
 author: dom
 description: Markdown summary with different options
