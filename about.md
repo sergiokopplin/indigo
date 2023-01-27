@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>**김동민**(DOM KIM)</p>
+## **김동민**(DOM KIM)
 
 <p>먹는걸 좋아하고 만화나 게임을 하는 것을 즐기는 안드로이드 앱 개발자입니다.</p>
 
