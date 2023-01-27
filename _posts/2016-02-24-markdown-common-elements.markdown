@@ -9,7 +9,7 @@ tag:
 - elements
 star: true
 category: blog
-author: Dom Kim
+author: dom
 description: Markdown summary with different options
 ---
 
