@@ -18,11 +18,30 @@ externalLink: false
 ## Moops란?
 
 Ios 앱이 이미 만들어져 있었으며 안드로이드 앱의 초기 버전(당시 ios 앱과 같은 상태)로 개발하는 업무를 당담했다.  
-마켓 내의 앱 설명은 다음과 같다.
 
-MOOPS는 스스로를 위한 작고 꾸준한 움직임을 독려하고
-
-하루하루 건강해지는 복용 습관을 지켜주는 소셜 알림 플랫폼입니다.
-
+[Moops 플레이스토어 링크](https://play.google.com/store/apps/details?id=com.bellins.moops)
 
 ---
+
+## 개발 spec
+- MVVM
+- Kotlin Coroutines
+- Koin
+- Retrofit
+- LiveData
+- MotionLayout(ConstraintLayout)
+- ViewBinding
+
+## 개발 Comment
+
+MVVM 구조로 개발 하였으며 멀티 모듈로 나누어 각 모듈단을 CLEAN 아키텍쳐를 따라했으나 StateFlow가 아닌 LiveData로 구현해 domain 레이어가 안드로이드 플랫폼에 독립적이지 않았기에 구조와 형태는 CLEAN MVVM이었으나 개념적으로는 조금 부족했었다.
+
+DI처리에는 Koin을 이용했다.
+
+비동기 처리는 kotlin의 Coroutines를 이용했다.
+
+로컬 DB는 실제 데이터는 리모트 통신으로만 처리했기에 간략한 설정 정보 등을 로컬에 저장하는 용도로 sharedPreferences를 이용했다.
+
+앱 비즈니스 로직보다는 UI 적인 부분에 더 손이 많이 갔던 프로젝트다. 회전목마식 뷰페이져, 퍼센티지 원그래프, 인풋필터 등 UI/UX 적으로 기본 위젯을 커스텀해야하는 경우가 많았고 유저의 상태에 따라 다르게 표시되고 변경되는 화면을 처리하기 위해 motionLayout등을 이용했다.
+
+피드 목록에서 안드로이드의 pager3 를 사용했으나 Room을 사용하지 않고 리모트 데이터만으로 목록을 처리하니 새로 데이터를 받아올 때의 뷰 깜빡임때문에 pager 에서 recyclerview의 listAdapter를 커스텀해 실제 데이터가 변경된 부분만 뷰를 갱신하는 식으로 변경해 개발했다.
