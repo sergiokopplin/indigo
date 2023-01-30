@@ -1,0 +1,21 @@
+---
+title: "Moops 안드로이드 앱 초기 버젼 개발"
+layout: post
+date: 2023-01-30 20:00 +0900
+tag: 
+    - portfolio
+    - project
+image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "TDI 입사 후 개발한 첫 프로젝트 Moops"
+category: project
+author: dom
+externalLink: false
+---
+
+## Moops란?
+
+
+---
