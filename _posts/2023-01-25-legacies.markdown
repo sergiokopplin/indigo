@@ -1,0 +1,18 @@
+---
+title: "이전 프로젝트 포트폴리오"
+layout: post
+date: 2023-01-25 20:10 +0900
+tag: jekyll
+image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "TDI 입사 전까지의 프로젝트 포트폴리오"
+category: project
+author: dom
+externalLink: false
+---
+
+## [2021년까지의 프로젝트 포트폴리오](https://docs.google.com/presentation/d/1l0sotpHzyao1DMdk_ifpcKIzPPZfPlGw/edit?usp=sharing&ouid=102833125373171332083&rtpof=true&sd=true)
+
+---
