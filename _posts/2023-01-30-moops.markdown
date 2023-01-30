@@ -5,8 +5,8 @@ date: 2023-01-30 20:00 +0900
 tag: 
     - portfolio
     - project
-image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
-headerImage: false
+image: https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/c6/d6/66/c6d66654-4bab-7ed3-426f-57e6c30ed418/AppIcon-1x_U007emarketing-0-6-0-85-220.png/230x0w.webp
+headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "TDI 입사 후 개발한 첫 프로젝트 Moops"
@@ -16,6 +16,13 @@ externalLink: false
 ---
 
 ## Moops란?
+
+Ios 앱이 이미 만들어져 있었으며 안드로이드 앱의 초기 버전(당시 ios 앱과 같은 상태)로 개발하는 업무를 당담했다.  
+마켓 내의 앱 설명은 다음과 같다.
+
+MOOPS는 스스로를 위한 작고 꾸준한 움직임을 독려하고
+
+하루하루 건강해지는 복용 습관을 지켜주는 소셜 알림 플랫폼입니다.
 
 
 ---
