@@ -2,9 +2,11 @@
 title: "이전 프로젝트 포트폴리오"
 layout: post
 date: 2023-01-25 20:10 +0900
-tag: jekyll
+tag: 
+    - portfolio
+    - project
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
-headerImage: true
+headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "TDI 입사 전까지의 프로젝트 포트폴리오"
