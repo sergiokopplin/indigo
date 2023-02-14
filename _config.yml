@@ -46,7 +46,7 @@ authors:
     name: Alejandro Shadow
     bio: A professional gamer and programmer and also an anime lover
     external-image: false
-    picture: /assets/images/profile.jpg
+    picture: ./assets/images/profile.jpg
     twitter: starlexdev
   
 # do you want a larger site? change the option below
