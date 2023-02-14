@@ -3,7 +3,7 @@ title: "test"
 layout: post
 date: 2023-02-13 22:29
 image: /assets/images/markdown.jpg
-headerImage: false
+headerImage: true
 tag:
 - Cuentas
 - Gratis
