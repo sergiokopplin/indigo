@@ -2,7 +2,7 @@
 title: "Cuenta con Banjo Kazooie la trilogia"
 layout: post
 date: 2023-02-13 23:32
-image: /assets/images/
+image: /assets/images/20230213_232838.png
 headerImage: true
 tag:
 - Banjo Kazooie
