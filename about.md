@@ -29,6 +29,6 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
+	<li><a href="https://animedex.strx.us/">AnimeDex</a></li>
 	
 </ul>
