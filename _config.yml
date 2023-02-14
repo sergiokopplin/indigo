@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: {{ site.url }}/assets/images/assets/images/profile.jpg
+picture: /assets/images/assets/images/profile.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -46,7 +46,7 @@ authors:
     name: Alejandro Shadow
     bio: A professional gamer and programmer and also an anime lover
     external-image: false
-    picture: {{ site.url }}/assets/images/assets/images/profile.jpg
+    picture: /assets/images/assets/images/profile.jpg
     twitter: starlexdev
   
 # do you want a larger site? change the option below
