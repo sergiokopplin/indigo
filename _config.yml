@@ -1,6 +1,6 @@
 # main text of home
 title: StarLex
-bio: A Person who travels the world eating noodles
+bio: A professional gamer and programmer and also an anime lover
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -20,7 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://starlexdev.github.io/indigo
+url: https://strx.us
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -44,17 +44,11 @@ email: starlex@tensi.org
 authors:
   alejandro:
     name: Alejandro Shadow
-    bio: A Man who travels the world eating noodles
+    bio: A professional gamer and programmer and also an anime lover
     external-image: false
     picture: assets/images/profile.jpg
     twitter: starlexdev
-  alejandro:
-    name: Alejandro Shadow
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: starlexdev
-
+  
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
