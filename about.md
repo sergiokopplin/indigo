@@ -2,21 +2,9 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+![StarLex]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Soy un desarrollador web en constante aprendizaje. Codifico en HTML, CSS y JavaScript. Actualmente estoy en el proceso de aprendizaje de Node.js para utilizar sus sistemas de archivos y bases de datos. Mis proyectos suelen estar basados ​​en JavaScript, ya que principalmente creo algoritmos y bibliotecas personalizadas para realizar tareas especiales. Estos proyectos incluyen editores de texto, sistemas de archivos, encriptación, juegos, sitios web y Bots de Discord. Incluso si un programa puede considerarse completo, continúo agregándolo para mantenerme al día con la tecnología y los estilos más nuevos. Siempre estoy trabajando en dos o más proyectos a la vez. Cada proyecto ayuda al otro permitiéndome probar y aprender conceptos útiles que los harán aún mejores. Espero que te unas a mí en mi viaje como desarrollador. ¡Siempre hay algo nuevo por delante!.</p>
 
 <h2>Skills</h2>
 
