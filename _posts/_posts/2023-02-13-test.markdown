@@ -9,7 +9,7 @@ tag:
 - elements
 star: true
 category: blog
-author: Shadow
+author: shadow
 description: Markdown summary with different options
 ---
 # Test esto es una prueba
