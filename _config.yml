@@ -18,7 +18,7 @@ dark-theme: auto
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://resume.strx.us
 
 url: https://strx.us
 # your url: https://USERNAME.github.io
