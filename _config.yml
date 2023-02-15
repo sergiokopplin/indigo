@@ -31,7 +31,7 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: starlexdev # enter this from your disqus account
-  categories: [blog, project, cuentas] # only show disqus for posts that have these categories
+  categories: [blog, project, accounts] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: starlexdev
