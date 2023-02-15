@@ -8,7 +8,7 @@ tag:
 - Reglas
 - Comunidad
 star: true
-category: rules
+category: blog
 author: starlex
 description: Lea nuestros terminos y condiciones
 ---
