@@ -13,5 +13,4 @@ author: starlex
 description: Lea nuestros terminos y condiciones
 ---
 
-## Estas reglas serviran para que nuestros usuarios,
-### Disfruten nuestro contenido sin tener algun problema.
+#### Estas reglas serviran para que nuestros usuarios, Disfruten nuestro contenido sin tener algun problema.
