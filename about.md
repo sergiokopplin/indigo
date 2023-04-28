@@ -6,7 +6,8 @@ layout: page
 
 <p>Hi, my name is Chiara. I work as a Quantitative Analyst in London.
 I like to read books, spend time with my friends, travelling and coding. I also enjoy applying my
-coding and mathematical skills to address problems.</p>
+coding and mathematical skills to address problems.
+I have an MSC. in Quantitative Finance from the University of Economics and Business of Vienna (Austria) and a BSc. in Economics and Finance from University of Trieste (Italy).</p>
 
 <h2>Skills</h2>
 
