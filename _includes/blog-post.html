@@ -1,6 +1,23 @@
 <div class="item {% if post.star %}star{% endif %}">
-    <a class="url" href="{{ site.url }}{{ post.url }}">
-        <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+    {% if post.externalLink %}
+        {% assign postUrl = post.externalLink %}
+    {% else %}
+        {% assign postUrl = site.url | append:post.url %}
+    {% endif %}
+    <aside class="date">
+        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+        <br/>
+        {% if site.show-tags %}
+        {% for tag in post.tags %}
+        <a href="{{ site.url }}/tags/#{{ tag | slugify }}">#{{ tag }}</a>
+        {% endfor %}
+        {% endif %}
+    </aside>
+    <a class="url" href="{{ postUrl }}">
         <h3 class="title">{{ post.title }}</h3>
+        {% if post.externalLink %}
+        [External post on {{ post.externalLinkSource }}]
+        {% endif %}
     </a>
+
 </div>

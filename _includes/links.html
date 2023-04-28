@@ -1,0 +1,11 @@
+{% if page.links and page.links.size != 0 %}
+<h4>Links</h4>
+<ul>
+    {% for link in page.links %}
+        <li>
+            <a href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+{% endif %}

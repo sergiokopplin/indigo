@@ -1,59 +1,55 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Chiara Lesa
+bio: Programming | Quant Finance | Machine Learning
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My Portfolio
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/DSC_0780.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: auto
+# dark-theme: auto
+dark-theme: = false
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+#resume: false
+#resume-external: true
+#resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://chiaralesa.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+ #analytics-google: 'UA-MYANALYTICS'
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+#disqus:
+# shortname: github # enter this from your disqus account
+# categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+twitter: chiaralesa
+#instagram: myinstagram
+linkedin: chiara-lesa
+github: chiaralesa
+#email: chiara.lesa@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  chiaralesa:
+    name: Chiara Lesa
+    bio: Programming | Quant Finance | Machine Learning
     external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/DSC_0780.jpg
+    twitter: chiaralesa
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -65,7 +61,7 @@ pagination:
   enabled: false
   sort_reverse: true # display recent posts first
   title: ":title" # Changing this will mess up the header display logic
-  per_page: 5
+  per_page: 10
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
@@ -109,18 +105,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-paginate-v2
-
-compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
-
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+  
+ jekyll-mentions:
+    base_url: https://github.com
