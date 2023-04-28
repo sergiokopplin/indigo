@@ -38,8 +38,8 @@ permalink: /:title/
 #facebook: myfacebook
 twitter: chiaralesa
 #instagram: myinstagram
-linkedin: chiara-lesa/
-github: /chiaralesa
+linkedin: chiara-lesa
+github: chiaralesa
 #email: chiara.lesa@gmail.com
 
 authors:
@@ -49,12 +49,7 @@ authors:
     external-image: false
     picture: assets/images/DSC_0780.jpg
     twitter: chiaralesa
-  #chiaralesa:
-  #  name: Chiara Lesa
-  #  bio: A Man who develops software with coffee
-  #  external-image: false
-  #  picture: assets/images/james.jpg
-  #  twitter: jamesfoster
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
