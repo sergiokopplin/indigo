@@ -8,7 +8,7 @@ description: My Portfolio
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/DSC_0780copia(3).jpg
+picture: assets/images/DSC_0780.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -46,7 +46,7 @@ authors:
     name: Chiara Lesa
     bio: Programming | Quant Finance | Machine Learning
     external-image: false
-    picture: assets/images/DSC_0780copia (3).jpg
+    picture: assets/images/DSC_0780copia.jpg
     twitter: https://twitter.com/chiaralesa?lang=it
   #chiaralesa:
   #  name: Chiara Lesa
