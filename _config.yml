@@ -26,7 +26,7 @@ url: https://chiaralesa.github.io
 permalink: /:title/
 
 # To enable google analytics, supply your token below
- analytics-google: 'UA-MYANALYTICS'
+ #analytics-google: 'UA-MYANALYTICS'
 
 # if you don't want comments in your posts, leave categories empty
 #disqus:
@@ -35,10 +35,10 @@ permalink: /:title/
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: https://twitter.com/chiaralesa?lang=it
+twitter: chiaralesa
 #instagram: myinstagram
-linkedin: https://www.linkedin.com/in/chiara-lesa/
-github: https://github.com/chiaralesa/chiaralesa
+linkedin: chiara-lesa/
+github: /chiaralesa
 #email: chiara.lesa@gmail.com
 
 authors:
@@ -46,8 +46,8 @@ authors:
     name: Chiara Lesa
     bio: Programming | Quant Finance | Machine Learning
     external-image: false
-    picture: assets/images/DSC_0780copia.jpg
-    twitter: https://twitter.com/chiaralesa?lang=it
+    picture: assets/images/profile.jpg
+    twitter: chiaralesa
   #chiaralesa:
   #  name: Chiara Lesa
   #  bio: A Man who develops software with coffee
@@ -109,18 +109,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-paginate-v2
-
-compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
-
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+  
+ jekyll-mentions:
+    base_url: https://github.com
