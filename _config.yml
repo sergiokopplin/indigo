@@ -1,14 +1,14 @@
 # main text of home
 title: Chiara Lesa
-bio: Programming | Quant | Machine Learning
+bio: Programming | Quant Finance | Machine Learning
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My Portfolio
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/DSC_0780copia (3).jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -16,44 +16,44 @@ dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://chiaralesa.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+ analytics-google: 'UA-MYANALYTICS'
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+#disqus:
+# shortname: github # enter this from your disqus account
+# categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+twitter: https://twitter.com/chiaralesa?lang=it
+#instagram: myinstagram
+linkedin: https://www.linkedin.com/in/chiara-lesa/
+github: https://github.com/chiaralesa/chiaralesa
+#email: chiara.lesa@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  chiaralesa:
+    name: Chiara Lesa
+    bio: Programming | Quant Finance | Machine Learning
     external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/DSC_0780copia (3).jpg
+    twitter: https://twitter.com/chiaralesa?lang=it
+  #chiaralesa:
+  #  name: Chiara Lesa
+  #  bio: A Man who develops software with coffee
+  #  external-image: false
+  #  picture: assets/images/james.jpg
+  #  twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
