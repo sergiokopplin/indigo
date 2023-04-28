@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% include header.html %}
+
+{% if page.hideTitle %}
+{% else %}
+<h1 class="title">{{ page.title }}</h1>
+{% endif %}
+
+<!--
+<div>
+    <span class="link">
+    <img class="selfie" width="200px" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+    </span>
+</div> -->
+<div class="blog-navigation">
+    {{content}}
+</div>
+
+{% include social-links.html %}
+
+{% include footer.html %}
