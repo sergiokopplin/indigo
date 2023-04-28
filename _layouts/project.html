@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% include header.html %}
+
+{% if page.showTitle %}
+<h1 class="title">{{ page.title }}</h1>
+{% else %}
+{% endif %}
+
+{{content}}
+
+{% include footer.html %}
