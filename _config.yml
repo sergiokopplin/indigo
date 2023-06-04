@@ -114,7 +114,7 @@ plugins:
     - jekyll-gist
     - jekyll-feed
     - jemoji
-    - jekyll-paginate-v2
+    - jekyll-paginate
 
 compress_html:
     ignore:
