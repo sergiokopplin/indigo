@@ -6,7 +6,7 @@ group :jekyll_plugins do
     gem 'jekyll-gist'
     gem 'jekyll-feed'
     gem 'jemoji'
-    gem 'jekyll-paginate'
+    gem 'jekyll-paginate', '~> 1.1'
     # gem "jekyll-paginate-v2", "~> 2.0"
     gem "html-proofer"
 end
