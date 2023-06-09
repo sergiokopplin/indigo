@@ -13,6 +13,37 @@ MathJax.Hub.Config({
 </script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+<!-- https://www.tablesgenerator.com/markdown_tables -->
+<style>
+  /* 2way헤더와 라인포인트*/
+  table {
+      border-collapse: collapse;
+      text-align: left;
+      line-height: 1.5;
+  }
+  table thead th {
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      vertical-align: top;
+      color: #1b3453;
+      border-top: 2px solid #1b3453;
+      border-bottom: 2px solid #1b3453;
+  }
+  table tbody th {
+      padding: 10px 15px;
+      font-weight: bold;
+      vertical-align: top;
+      border-bottom: 1px solid #ccc;
+      background: #f3f6f7;
+  }
+  table td {
+      padding: 10px 15px;
+      vertical-align: top;
+      border-bottom: 1px solid #ccc;
+  }
+</style>
+
 {% if page.image and page.headerImage %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% endif %}
