@@ -42,6 +42,24 @@ MathJax.Hub.Config({
       vertical-align: top;
       border-bottom: 1px solid #ccc;
   }
+
+.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+.markdown-body p {
+    line-height:1.2
+}
+
+ul {
+  margin-bottom: 20px; /* 리스트 항목 간의 아래쪽 여백을 조절합니다 */
+  line-height: 1.5; /* 줄 간격을 조절합니다 */
+}
+
 </style>
 
 {% if page.image and page.headerImage %}
