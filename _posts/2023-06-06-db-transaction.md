@@ -298,7 +298,7 @@ InnoDB 엔진의 특징과 기능은 다음과 같습니다:
    - 이를 통해 각 트랜잭션이 고유한 자동 증가 값을 얻을 수 있게 됩니다.
 
 
-** . 인덱스와 잠금
+### 인덱스와 잠금
 
 ```sql
 UPDATE t SET c='col' WHERE A AND B
@@ -308,6 +308,18 @@ UPDATE t SET c='col' WHERE A AND B
 인덱스로 이용할 수 있는 칼럼이 A조건일 때, 해당 SQL문은 인덱스 리프 노드를 통해 250개의 레코드만 탐색하면서 B조건을 만족하는 칼럼을 찾아 총 250개의 레코드가 잠기게 된다.   
 **만약 테이블에 인덱스가 하나도 없다면, UPDATE는 풀 스캔을 하면서 모든 레코드를 잠그게 된다.** 이것이 인덱스 설계가 중요한 이유다.  
 
-
+## Ref
+- 매스프레소 내부 DB 세미나 자료
 - https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html
 - https://velog.io/@fortice/MySQL-트랜잭션-잠금Lock
+- https://medium.com/daangn/mysql-gap-lock-다시보기-7f47ea3f68bc
+
+
+# [노트] 정리하고 이해 안된 것들
+- Transaction 이 시작되면 DML 에서 자동으로 Lock 을 잡는데 굳이 Intention Lock 왜 잡는지 모르겠다.
+- Transaction Isolation Level 과 Lock 을 잡는 수준에 차이가 있나보다.
+    - READ COMMITTED / REPEATABLE READ 각각에 대해서 같은 DML 인데 락 수준이 다른 예제를 봤다. 
+- GAP LOCK 을 잡는 이유는 Index 의 무결성 ? 일관성 ? 때문이라는데 제대로 이해가 안된다.
+    - https://medium.com/daangn/mysql-gap-lock-다시보기-7f47ea3f68bc 도움이 많이 된다. 
+- Index 가 없는 경우 Lock 이 잡히는 범위 -> 테이블 전체
+- MYSQL 공식 문서에서 여기 구문 이해가 안간다. S-lock 잡혔는데 왜 X-Lock 가능한거지 ? It is also worth noting here that conflicting locks can be held on a gap by different transactions. For example, transaction A can hold a shared gap lock (gap S-lock) on a gap while transaction B holds an exclusive gap lock (gap X-lock) on the same gap. The reason conflicting gap locks are allowed is that if a record is purged from an index, the gap locks held on the record by different transactions must be merged.
