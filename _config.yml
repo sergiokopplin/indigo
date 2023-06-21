@@ -32,12 +32,12 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: decimalMath
+twitter: decimalMath
+#instagram: decimalMath
+#linkedin: decimalMath
+github: decimalMath
+email: decimalMath@proton.me
 
 authors:
   johndoe:
