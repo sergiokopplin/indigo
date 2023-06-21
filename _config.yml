@@ -1,14 +1,13 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Decimal Math
+bio: We're a company that specializes on Mobile applications and Blockchain technologies
 
-# twitter summary info
-description: A blog about technology and stuff related
+description: We're a company that specializes on Mobile applications and Blockchain technologies
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/logo.jpeg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -16,11 +15,11 @@ dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: # https://sergiokopplin.github.io/indigo
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -58,7 +57,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:

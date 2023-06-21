@@ -2,44 +2,25 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+## Welcome to DecimalMath 👋
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+### We're a company that specializes on Mobile applications and Blockchain technologies
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+📍 We're a company based in Geneva, Switzerland 🇨🇭
 
-<h2>Skills</h2>
+Rue de Lausanne 76, 1202 Genève [<img src="/assets/images/map.png" alt="Google map" loading="lazy" style="width: 100vw; height: auto">](https://goo.gl/maps/m6x5obKEV6q8TH2YA)
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+### Driving Innovation in Blockchain
+At DecimalMath, we're passionate about pushing the boundaries of what's possible with blockchain technology. From developing advanced mathematical models to building practical applications, we are committed to driving innovation in this rapidly evolving field.
 
-<h2>Projects</h2>
+### Open Source Contributions and Privacy
+We believe in the power of collaboration and giving back to the community. Our team actively contributes to open source projects related to blockchain technologies. While many of our contributions are publicly available, we also understand the need for privacy and confidentiality. We work closely with companies that require privacy-focused solutions, ensuring their sensitive information remains secure.
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+### Mobile-Centric Blockchain Solutions
+Mobile devices have become an integral part of our lives, and we harness their capabilities to create seamless and secure blockchain experiences. By leveraging the robust security features of mobile platforms, such as secure key storage and biometric authentication, we provide our users with peace of mind. Our expertise in mobile technologies enables us to build applications that integrate seamlessly with blockchain networks, unlocking the full potential of decentralized systems.
+
+### Collaborative Partnerships
+We believe in the power of collaboration. Whether you're a startup, enterprise, or individual with an innovative idea, we're here to help you bring your vision to life. Our team of experts will work closely with you to understand your unique requirements and develop tailor-made solutions that align with your goals.
+
+### Let's Build the Future Together
+Ready to take your mobile or blockchain project to the next level? We're excited to work with you. Get in touch with us today to discuss how DecimalMath can help you achieve your objectives.
