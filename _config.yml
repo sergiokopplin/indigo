@@ -14,8 +14,8 @@ dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: 
+resume-external: 
 resume-url: https://google.com/?q=my+resume
 
 #url: https://sergiokopplin.github.io/indigo
@@ -56,7 +56,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
