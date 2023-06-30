@@ -3,7 +3,7 @@ title: "Estudos de Python"
 layout: post
 date: 2023-06-30 10:06
 image: /assets/images/python-lira.png
-headerImage: false
+headerImage: true
 tag:
 - python
 - estudos
@@ -12,7 +12,7 @@ category: blog
 author: Vanessa
 description: Curso de Python Impressionador
 ---
-![Curso Lira](/assets/images/python-lira.png)
+<!-- ![Curso Lira](/assets/images/python-lira.png) -->
 
 
 ## Minha Experiência com o Curso Python Impressionador

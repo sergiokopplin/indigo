@@ -2,8 +2,8 @@
 title: "Curso de SQL"
 layout: post
 date: 2023-06-30 11:30
-image: /assets/images/markdown.jpg
-headerImage: false
+image: /assets/images/sql-lira.png
+headerImage: true
 tag:
 - sql
 - estudos
@@ -12,13 +12,15 @@ author: Vanessa
 description: Curso de SQL - Hashtag
 ---
 
-![Curso Lira](/assets/images/sql-lira.png)
-### Sobre o SQL.
+<!-- ![Curso Lira](/assets/images/sql-lira.png) -->
+## Sobre o SQL.
+
 O SQL (Structured Query Language) desempenha um papel fundamental na engenharia de dados, sendo uma das principais ferramentas utilizadas nessa área. O SQL é uma linguagem de programação que permite acessar, manipular e gerenciar dados em bancos de dados relacionais.
 
 Aqui estão algumas razões que destacam a importância do SQL na engenharia de dados:
 
-### Consulta e manipulação de dados:<br>
+### Consulta e manipulação de dados:
+
  O SQL permite escrever consultas poderosas para extrair informações específicas de um banco de dados. Comandos como SELECT, INSERT, UPDATE e DELETE permitem recuperar, inserir, atualizar e excluir dados, respectivamente. Essas capacidades são essenciais para a manipulação eficiente e precisa de dados em um ambiente de engenharia de dados.
 
 ### Integração de fontes de dados:<br>
