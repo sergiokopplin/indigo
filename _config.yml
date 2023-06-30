@@ -1,10 +1,8 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
-
+title: Vanessa Machado
+bio: Uma pessoa persitente e autodidata! 
 # twitter summary info
-description: A blog about technology and stuff related
-
+description: Um blog de tecnologia e estudos!
 # if it's an external image, update below for true
 # better with square images
 external-image: false
