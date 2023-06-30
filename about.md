@@ -1,45 +1,33 @@
 ---
-title: About
+title: Sobre
 layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Ao longo da minha trajetória profissional, tive a oportunidade de desenvolver habilidades essenciais como
+comunicação, trabalho em equipe, organização e planejamento, que considero fundamentais para o sucesso de qualquer profissional na área de desenvolvimento.<br> 
+Formada em Administração e com pós-graduação em Administração Financeira.<br> 
+Atualmente estou cursando Análise e Desenvolvimento de Sistemas.
+Busco constantemente expandir meus conhecimentos e adquirir novas habilidades relacionadas à TI.<br> 
+Sou uma profissional comprometida, proativa e empenhada em oferecer soluções inovadoras e eficientes. Estou sempre aberta a novos desafios e aprendizados, acreditando que a diversidade de experiências enriquece nosso desenvolvimento profissional.
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
 	<li>Python</li>
-	<li>MySQL - MongoDB</li>
+	<li>SQL</li>
+	<li>Ruby</li>
+	<li>Java</li>
+	<li>Javascript</li>
 	<li>Scrum and Kanban</li>
 	<li>TDD e Continuous Integration</li>
+	<li>Git</li>
 </ul>
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/Vanessamachado93/cloud-aws-tcc">TCC Escola da Nuvem</a></li>
+	<li><a href="https://github.com/Vanessamachado93/app-weather">Previsão do Tempo</a></li>
+	<li><a href="https://github.com/Vanessamachado93/doguito-petshop-fev-22">Doguinho Petshop</a></li>
 </ul>

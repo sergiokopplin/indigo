@@ -32,3 +32,4 @@ Além disso, o curso aborda tópicos avançados, como reconhecimento de imagem e
 O suporte oferecido durante todo o curso também é excepcional. Tive acesso a aulas tira-dúvidas e pude interagir com outros estudantes por meio de grupos de estudo. Isso enriqueceu ainda mais minha experiência, permitindo-me compartilhar conhecimentos e receber feedback valioso.
 
 e se sigo estudando.
+[Github com o andamento do curso](https://github.com/Vanessamachado93/Python-Impressionador-Hashtag)
