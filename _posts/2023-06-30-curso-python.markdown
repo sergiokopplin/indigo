@@ -1,5 +1,5 @@
 ---
-title: "Estudos de Python"
+title: "Estudos - Python"
 layout: post
 date: 2023-06-30 10:06
 image: /assets/images/python-lira.png
@@ -12,9 +12,6 @@ category: blog
 author: Vanessa
 description: Curso de Python Impressionador
 ---
-<!-- ![Curso Lira](/assets/images/python-lira.png) -->
-
-
 ## Minha Experiência com o Curso Python Impressionador
 
 Hoje quero compartilhar com vocês a incrível jornada que vivo ao participar do curso Python Impressionador, oferecido pelo treinamento Hashtag. Foi uma experiência verdadeiramente transformadora que me permitiu aprender a linguagem de programação Python e abrir um mundo de possibilidades tecnológicas.
@@ -33,3 +30,6 @@ O suporte oferecido durante todo o curso também é excepcional. Tive acesso a a
 
 e se sigo estudando.
 [Github com o andamento do curso](https://github.com/Vanessamachado93/Python-Impressionador-Hashtag)
+
+
+![Curso Lira](/assets/images/python-lira.png)
