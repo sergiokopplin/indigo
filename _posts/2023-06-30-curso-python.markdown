@@ -3,7 +3,7 @@ title: "Estudos de Python"
 layout: post
 date: 2023-06-30 10:06
 image: /assets/images/python-lira.png
-headerImage: True
+headerImage: false
 tag:
 - python
 - estudos
