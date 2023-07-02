@@ -33,3 +33,5 @@ e se sigo estudando.
 
 
 ![Curso Lira](/assets/images/python-lira.png)
+
+<img src="assets/../../_site/assets/images/python-lira.png" alt="lira" width="600" height="250" class="classe-css" style="estilos-css">
