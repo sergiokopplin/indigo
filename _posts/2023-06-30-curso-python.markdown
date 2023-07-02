@@ -32,6 +32,7 @@ e se sigo estudando.
 [Github com o andamento do curso](https://github.com/Vanessamachado93/Python-Impressionador-Hashtag)
 
 
-![Curso Lira](/assets/images/python-lira.jpg)
+![Curso Lira](/_site/assets/images/python-lira.jpg)
 
 <img src="assets/../../_site/assets/images/python-lira.jpg" alt="lira" width="600" height="250" class="classe-css" style="estilos-css">
+
