@@ -19,7 +19,6 @@ Sou uma profissional comprometida, proativa e empenhada em oferecer soluções i
 	<li>Ruby</li>
 	<li>Java</li>
 	<li>Javascript</li>
-	<li>Scrum and Kanban</li>
 	<li>TDD e Continuous Integration</li>
 	<li>Git</li>
 </ul>
