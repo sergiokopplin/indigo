@@ -3,7 +3,7 @@ title: "Estudos - SQL"
 layout: post
 date: 2023-06-30 11:30
 image: /assets/images/sql-lira.png
-headerImage: true
+headerImage: false
 tag:
 - sql
 - estudos
@@ -39,4 +39,4 @@ O SQL é amplamente suportado por uma variedade de plataformas e sistemas de ban
 
 Em resumo, o SQL desempenha um papel essencial na engenharia de dados, fornecendo as ferramentas necessárias para consultar, manipular, transformar e gerenciar dados. Seja para integração de fontes de dados, limpeza e transformação de dados ou criação de estruturas de banco de dados eficientes, o SQL é uma habilidade fundamental para qualquer profissional que trabalhe nessa área.
 
-![Curso Lira](/assets/images/sql-lira.png)
+<!-- ![Curso Lira](/assets/images/sql-lira.png) -->
