@@ -34,9 +34,9 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: facebook.com/HuyJazky.Dev/
+facebook: HuyJazky.Dev
 twitter: mytwitter
-instagram: instagram.com/_nq.hyuu/
+instagram: _nq.hyuu
 linkedin: mylinkedin
 github: github.com/VinciHuy/
 email: Huynguyenit.dev@gmail.com
