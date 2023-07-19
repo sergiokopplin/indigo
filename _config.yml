@@ -1,6 +1,6 @@
 # main text of home
 title: Nguyen Quoc Huy
-bio: I'm 19, I am a student, I have a hobby of researching and wandering online.
+bio: I'm 19, I am a student, I have a hobby of researching and wandering online :D.
 
 # twitter summary info
 description: I'm a student
@@ -35,9 +35,9 @@ disqus:
 
 # if you don't have any of social below, comment the line
 facebook: https://www.facebook.com/HuyJazky.Dev
-twitter: mytwitter
-instagram:instagram.com/_nq.hyuu
-linkedin: mylinkedin
+# twitter: mytwitter
+instagram: instagram.com/_nq.hyuu
+# linkedin: mylinkedin
 github: github.com/VinciHuy
 email: Huynguyenit.dev@gmail.com
 
