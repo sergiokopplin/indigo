@@ -1,9 +1,9 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Nguyen Quoc Huy
+bio: I'm 19, I am a student, I have a hobby of researching and wandering online :D.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: I'm a student
 
 # if it's an external image, update below for true
 # better with square images
@@ -20,7 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://VinciHuy.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -34,22 +34,22 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+facebook: https://www.facebook.com/HuyJazky.Dev
+# twitter: mytwitter
+instagram: instagram.com/_nq.hyuu
+# linkedin: mylinkedin
+github: github.com/VinciHuy
+email: Huynguyenit.dev@gmail.com
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: Nguyen Quoc Huy
+    bio: I'm 19, I am a student, I have a hobby of researching and wandering online.
     external-image: false
     picture: assets/images/profile.jpg
     twitter: johndoe
   jamesfoster:
-    name: James Foster
+    name: Nguyen Quoc Huy
     bio: A Man who develops software with coffee
     external-image: false
     picture: assets/images/james.jpg
