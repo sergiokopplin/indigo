@@ -20,7 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://VinciHuy.github.io/indigo
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -34,12 +34,12 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+facebook: https://www.facebook.com/HuyJazky.Dev
 twitter: mytwitter
-instagram: myinstagram
+instagram:instagram.com/_nq.hyuu
 linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+github: github.com/VinciHuy
+email: Huynguyenit.dev@gmail.com
 
 authors:
   johndoe:
