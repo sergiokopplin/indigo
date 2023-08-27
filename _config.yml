@@ -1,5 +1,5 @@
 # main text of home
-title: John Doe
+title: Sim Gyuhwan
 bio: A Person who travels the world eating noodles
 
 # twitter summary info
@@ -12,7 +12,7 @@ picture: assets/images/profile.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: auto
+dark-theme: true
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
