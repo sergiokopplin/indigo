@@ -12,7 +12,7 @@ picture: assets/images/profile.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: true
+dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -34,12 +34,12 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
+# facebook: myfacebook
+# twitter: mytwitter
+# instagram: myinstagram
+# linkedin: mylinkedin
 github: mygithub
-email: myemail@gmail.com
+email: rbghks19@naver.com
 
 authors:
   johndoe:
