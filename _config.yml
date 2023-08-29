@@ -1,9 +1,9 @@
 # main text of home
 title: Gyuhwan Sim
-bio: Java 백앤드 개발자
+bio: 지금도 성장중인 개발자
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: 작은 습관이 큰 결과로 이어진다.
 
 # if it's an external image, update below for true
 # better with square images
@@ -42,18 +42,12 @@ github: simgyuhwan
 email: rbghks19@naver.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  gyuhwan:
+    name: Gyuhwan Sim
+    bio: 컴퓨터도 동료도 좋아죽는 코드를 지향하는 개발자
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    # twitter: johndoe
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -98,6 +92,7 @@ defaults:
   - scope:
       path: "" # an empty string here means all files in the project
       layout: "post"
+      type: posts
     values:
       # setting all post to not hidden by default,
       # can be overridden in the front matter for a specific post
