@@ -20,7 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://simgyuhwan.github.io/indigo
+url: https://simgyuhwan.github.io/
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
