@@ -46,6 +46,8 @@ If you want to test locally on your machine, do the following steps also:
 5. Open it in your browser: `http://localhost:4000`
 6. Do you want an admin panel to edit your posts? You can install this plugin [jekyll-admin](https://jekyll.github.io/jekyll-admin/).
 
+Or run with [docker](https://github.com/BretFisher/jekyll-serve).
+
 ## Settings
 
 You must fill some informations on `_config.yml` to customize your site.
