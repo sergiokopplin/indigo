@@ -27,7 +27,7 @@
 ## What has inside
 
 - [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
-- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
+- Google Speed: [98~Desktop](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
 - No JS. :sunglasses:
 
 ## Setup
@@ -50,20 +50,11 @@ Or run with [docker](https://github.com/BretFisher/jekyll-serve).
 
 ## Settings
 
-You must fill some informations on `_config.yml` to customize your site.
-
-```
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
-picture: 'assets/images/profile.jpg'
-...
-
-and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
-```
+You can customize your site on `_config.yml` file.
 
 ## How To?
 
-Check the [FAQ](./FAQ.md) if you have any doubt or problem.
+Check the [FAQ](./FAQ.md).
 
 ---
 ## License
