@@ -41,9 +41,12 @@ To run locally do the following:
 
 1. Install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io/).
 2. Clone the forked repo on your machine
-3. Enter the cloned folder via terminal and run `bundle install`
-4. Then run `bundle exec jekyll serve`
-5. Open it in your browser: `http://localhost:4000`
+3. Enter the cloned folder via terminal and run:
+```sh
+bundle install
+bundle exec jekyll serve
+```
+4. Open it in your browser: `http://localhost:4000`
 
 Or run with [docker](https://github.com/BretFisher/jekyll-serve).
 
