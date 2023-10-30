@@ -42,4 +42,4 @@ A project maintainer will review your pull request. Please be patient during the
 
 ### 9. Continuous Improvement
 Your contributions are valuable! By participating in this project, you help improve it for everyone. Thank you for your support and collaboration!
-If you encounter any issues or have questions, feel free to raise them by following the "Raise an issue" process mentioned in the Contribution Guidelines.
+If you encounter any issues or have questions, feel free to raise them by following the [Raise an issue](https://github.com/sergiokopplin/indigo/issues) process mentioned in the Contribution Guidelines.
