@@ -1,6 +1,6 @@
 # main text of home
 title: Alireza Kazemi
-bio: A Person who travels the world eating noodles
+bio: I, a concept distributed in a gray volume.
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -12,7 +12,7 @@ picture: assets/images/profile.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: auto
+dark-theme: true
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -20,8 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
-# your url: https://USERNAME.github.io
+url: https://alireza-kazemi.github.io
 
 permalink: /:title/
 
@@ -34,12 +33,12 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+twitter: Alirezakzmi
+#instagram: myinstagram
+linkedin: alirezakazemi
+github: alireza-kazemi
+email: kazemi@ucdavis.edu
 
 authors:
   johndoe:
