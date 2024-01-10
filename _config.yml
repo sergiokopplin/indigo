@@ -1,5 +1,5 @@
 # main text of home
-title: John Doe
+title: Riley Kim
 bio: A Person who travels the world eating noodles
 
 # twitter summary info
@@ -42,9 +42,9 @@ github: mygithub
 email: myemail@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  Riley Kim:
+    name: Riley Kim
+    bio: A Woman who travels the world eating noodles
     external-image: false
     picture: assets/images/profile.jpg
     twitter: johndoe
