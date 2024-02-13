@@ -1,25 +1,25 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Mason Denney
+bio: Software Engineer - Cloud, Security, DevOps
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Mason Denney's blog
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/mason.jpg
 
 # your site color theme, false to light theme
-dark-theme: true
+dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://linkedin.com/in/masondenney
 
-url: https://sergiokopplin.github.io/indigo
+url: https://masondenney.com
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -33,12 +33,12 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+linkedin: masondenney
+github: MasonDenney
+#email: myemail@gmail.com
 
 authors:
   johndoe:
@@ -53,6 +53,12 @@ authors:
     external-image: false
     picture: assets/images/james.jpg
     twitter: jamesfoster
+  masondenney:
+    name: Mason Denney
+    bio: Software Engineer
+    external-image: false
+    picture: assets/images/mason.jpg
+    twitter: masondenney
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal

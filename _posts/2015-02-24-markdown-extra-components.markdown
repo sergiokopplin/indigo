@@ -11,6 +11,7 @@ tag:
 category: blog
 author: jamesfoster
 description: Markdown summary with different options
+hidden: true # don't count this post in blog pagination
 ---
 
 ## Summary:
