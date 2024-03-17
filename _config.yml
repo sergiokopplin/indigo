@@ -1,6 +1,6 @@
 # main text of home
 title: João P. Moutinho
-bio: PhD in Quantum Computing | Software Engineer | Hobbyist Photographer
+bio: PhD | Software Engineer | Photographer
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -47,8 +47,8 @@ width: large
 # projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+curriculum: true
+photography: true
 
 # do you want to show the "read time" of the posts?
 read-time: false
@@ -60,7 +60,7 @@ show-tags: false
 related: false
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+post-advance-links: [photography]
 
 # show author block at the end of a post ?
 show-author: false
