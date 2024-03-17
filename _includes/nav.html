@@ -1,39 +1,25 @@
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
+<nav class="nav-home">
     <ul class="list">
-        {% if page.title != "Home" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
-            </li>
-        {% endif %}
-
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
-                </li>
+        <li class="item">
+            {% if page.title != "Home" %}
+            <a class="link" href="{{ site.url }}/">Home</a>
+            {% else %}
+            <a class="link" href="{{ site.url }}/"><strong><u>Home</u></strong></a>
             {% endif %}
-        {% endif %}
-
-        {% if site.projects == true %}
-            {% if page.title != "Projects" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
-                </li>
+        </li>
+        <li class="item">
+            {% if page.title != "Curriculum" %}
+            <a class="link" href="{{ site.url }}/curriculum">Curriculum</a>
+            {% else %}
+            <a class="link" href="{{ site.url }}/curriculum"><strong><u>Curriculum</u></strong></a>
             {% endif %}
-        {% endif %}
-
-        {% if site.about == true %}
-            {% if page.title != "About" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
-                </li>
+        </li>
+        <li class="item">
+            {% if page.title != "Photography" %}
+            <a class="link" href="{{ site.url }}/photography">Photography</a>
+            {% else %}
+            <a class="link" href="{{ site.url }}/photography"><strong><u>Photography</u></strong></a>
             {% endif %}
-        {% endif %}
-
-        {% if site.resume == true %}
-            <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
-            </li>
-        {% endif %}
+        </li>
     </ul>
 </nav>
