@@ -47,8 +47,8 @@ width: large
 # projects: true
 
 # if you don't need "about" or "blog", comment them out below
-curriculum: true
-photography: true
+about: true
+photos: true
 
 # do you want to show the "read time" of the posts?
 read-time: false
@@ -60,7 +60,7 @@ show-tags: false
 related: false
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [photography]
+post-advance-links: [photos]
 
 # show author block at the end of a post ?
 show-author: false
