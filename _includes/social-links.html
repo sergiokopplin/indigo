@@ -1,4 +1,4 @@
-<!-- To add more icons, duplicate a section and find yout icon here -> https://fontawesome.com/v6.0/icons -->
+<!-- To add more icons, duplicate a section and find your icon here -> https://fontawesome.com/v6.0/icons -->
 
 <div class="social-links">
     {% if site.facebook %}
@@ -28,6 +28,12 @@
     {% if site.github %}
         <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener" alt="anchor link for social media github" aria-label="anchor link for social media github">
             <i class="fa-brands fa-github"></i>
+        </a>
+    {% endif %}
+
+    {% if site.google-scholar %}
+        <a class="link" data-title="Google Scholar" href="{{ site.google-scholar }}" target="_blank" rel="noopener" alt="anchor link for Google Scholar" aria-label="anchor link for Google Scholar">
+            <i class="fa-brands fa-google-scholar"></i>
         </a>
     {% endif %}
 

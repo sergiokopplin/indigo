@@ -1,4 +1,207 @@
 ---
-layout: page
+layout: default
 title: Home
 ---
+
+<div class="academic-page">
+  <!-- Left Sidebar: Profile -->
+  <div class="profile-sidebar">
+    <div class="profile-card">
+      <img class="profile-photo" src="{{ site.url }}/assets/images/profile.jpg" alt="Buxin Su" />
+      <h1 class="profile-name">Buxin Su</h1>
+      <p class="profile-title">Ph.D. Student</p>
+      <p class="profile-affiliation">Applied Mathematics and Computational Science</p>
+      <p class="profile-affiliation"><a href="https://www.upenn.edu/">University of Pennsylvania</a></p>
+
+      <div class="profile-contact">
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:subuxin@sas.upenn.edu">subuxin@sas.upenn.edu</a></p>
+        <p><i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?hl=en&user=IqQt3BwAAAAJ" target="_blank">Google Scholar</a></p>
+        <p><i class="fa-brands fa-github"></i> <a href="https://github.com/BuxinSu" target="_blank">GitHub</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: Main Content -->
+  <div class="main-content">
+
+    <!-- About Section -->
+    <section id="about" class="academic-section">
+      <h2>About Me</h2>
+      <p>
+        I am a Ph.D. student in <strong>Applied Mathematics and Computational Science</strong> at the <a href="https://www.upenn.edu/">University of Pennsylvania</a>, advised by <a href="https://www.med.upenn.edu/apps/faculty/index.php/g275/p9082877">Bingxin Zhao</a> and <a href="https://statistics.wharton.upenn.edu/profile/suw/">Weijie Su</a>. I received my M.S. in Pure Mathematics from the University of Pennsylvania and my B.S. in Pure Mathematics &amp; Applied Mathematics from the University of Toronto.
+      </p>
+      <p>
+        My research interests primarily lie in <strong>data privacy</strong>, with a focus on its applications to machine learning and the social sciences. I am also interested in <strong>high-dimensional statistics</strong> and its applications in <strong>biomedicine</strong>. In addition, I have a strong interest in <strong>improving the quality of peer review</strong> at AI/ML conferences, and our work will be incorporated into the <a href="https://icml.cc/Conferences/2026/CallForPapers"><em>ICML 2026 review process</em></a>.
+      </p>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="academic-section">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><span class="news-date">[2026.01]</span> Selected as a <strong>Two Sigma's PhD Fellowship Finalist</strong>.</li>
+        <li><span class="news-date">[2025.10]</span> Won the <strong>Lawrence D. Brown Best Paper Award</strong> at the Wharton School, University of Pennsylvania.</li>
+        <li><span class="news-date">[2025.10]</span> Our paper on self-rankings was <strong>featured by <a href="https://www.nature.com/articles/d41586-026-00059-0">Nature Index</a></strong>.</li>
+        <li><span class="news-date">[2025.08]</span> Our ICML 2023 ranking experiment paper was selected as a <strong>Discussion Paper</strong> at the <em>Journal of the American Statistical Association</em>.</li>
+        <li><span class="news-date">[2025.06]</span> Our census privacy paper was <strong>featured by <a href="https://www.newscientist.com/article/2454095-simple-fix-could-make-us-census-more-accurate-but-just-as-private/">New Scientist</a></strong>.</li>
+        <li><span class="news-date">[2025]</span> One paper accepted to <strong>NeurIPS 2025</strong> as a <strong>Spotlight</strong> presentation.</li>
+        <li><span class="news-date">[2024.01]</span> Won the <strong>Student Best Paper Award</strong> from the ASA Statistical Learning and Data Science Section.</li>
+      </ul>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="academic-section">
+      <h2>Selected Publications</h2>
+      <p class="pub-note">(*: equal contribution)</p>
+
+      <h3>Journal Articles (Published or Accepted)</h3>
+      <ol class="pub-list">
+        <li>
+          <strong class="pub-title">The ICML 2023 Ranking Experiment: Examining Author Self-Assessment in ML/AI Peer Review</strong><br>
+          <span class="pub-authors"><u>Buxin Su</u>, Jiayao Zhang, Natalie Collina, Yuling Yan, Didong Li, Kyunghyun Cho, Jianqing Fan, Aaron Roth, Weijie Su</span><br>
+          <span class="pub-venue"><em>Journal of the American Statistical Association</em>, 2025.</span>
+          <a href="https://arxiv.org/abs/2408.13430">[Paper]</a>
+          <span class="pub-badge">Selected as Discussion Paper</span>
+        </li>
+        <li>
+          <strong class="pub-title">The 2020 United States Decennial Census Is More Private Than You (Might) Think</strong><br>
+          <span class="pub-authors"><u>Buxin Su</u>, Weijie Su, and Chendi Wang</span><br>
+          <span class="pub-venue"><em>Proceedings of the National Academy of Sciences</em>, 2025.</span>
+          <a href="https://arxiv.org/abs/2410.09296">[Paper]</a>
+          <span class="pub-badge">Featured by <a href="https://www.newscientist.com/article/2454095-simple-fix-could-make-us-census-more-accurate-but-just-as-private/">New Scientist</a></span>
+          <span class="pub-badge">Lawrence D. Brown Best Paper Award</span>
+        </li>
+      </ol>
+
+      <h3>Conference Proceedings</h3>
+      <ol class="pub-list">
+        <li>
+          <strong class="pub-title">Unified Enhancement of Privacy Bounds for Mixture Mechanisms via f-Differential Privacy</strong><br>
+          <span class="pub-authors">Chendi Wang*, <u>Buxin Su</u>* (* = equal contribution), Jiayuan Ye, Reza Shokri, and Weijie Su</span><br>
+          <span class="pub-venue"><em>Neural Information Processing Systems (NeurIPS)</em>, 2023.</span>
+          <a href="http://neurips.cc/virtual/2023/poster/70387">[Paper]</a>
+        </li>
+        <li>
+          <strong class="pub-title">Mitigating the Privacy–Utility Trade-off in Decentralized Federated Learning via f-Differential Privacy</strong><br>
+          <span class="pub-authors">Xiang Li*, <u>Buxin Su</u>*, Chendi Wang*, Long Qi, and Weijie Su</span><br>
+          <span class="pub-venue"><em>Neural Information Processing Systems (NeurIPS Spotlight)</em>, 2025.</span>
+          <a href="https://openreview.net/forum?id=YIGUv0BZCy">[Paper]</a>
+          <span class="pub-badge">Spotlight</span>
+        </li>
+      </ol>
+
+      <h3>Preprints</h3>
+      <ol class="pub-list">
+        <li>
+          <strong class="pub-title">The Exact Risks of Reference Panel-Based Regularized Estimators</strong><br>
+          <span class="pub-authors"><u>Buxin Su</u>, Qiang Sun, Xiaochen Yang, and Bingxin Zhao</span><br>
+          <span class="pub-venue">Under revision at <em>Journal of the American Statistical Association</em>, 2024.</span>
+          <a href="https://arxiv.org/abs/2401.11359">[Paper]</a>
+          <span class="pub-badge">2024 ASA Student Best Paper Award</span>
+        </li>
+        <li>
+          <strong class="pub-title">On Self-Training of Summary Data with Genetic Applications</strong><br>
+          <span class="pub-authors"><u>Buxin Su</u>, Jiaoyang Huang, Jin Jin, and Bingxin Zhao</span><br>
+          <span class="pub-venue"><em>arXiv:2503.12155</em>, 2025.</span>
+          <a href="https://arxiv.org/abs/2503.12155">[Paper]</a>
+        </li>
+        <li>
+          <strong class="pub-title">How to Find Fantastic Papers: Self-Rankings as a Powerful Predictor of Scientific Impact Beyond Peer Review</strong><br>
+          <span class="pub-authors"><u>Buxin Su</u>, Natalie Collina, Garrett Wen, Didong Li, Kyunghyun Cho, Jianqing Fan, Bingxin Zhao, Weijie Su</span><br>
+          <span class="pub-venue"><em>arXiv:2510.02143</em>, 2025.</span>
+          <a href="https://arxiv.org/abs/2510.02143">[Paper]</a>
+          <span class="pub-badge">Featured by <a href="https://www.nature.com/articles/d41586-026-00059-0">Nature Index</a></span>
+        </li>
+        <li>
+          <strong class="pub-title">Recommending Best Paper Awards for ML/AI Conferences via the Isotonic Mechanism</strong><br>
+          <span class="pub-authors">Garrett G Wen, <u>Buxin Su</u>, Natalie Collina, Zhun Deng, Weijie Su</span><br>
+          <span class="pub-venue"><em>arXiv:2601.15249</em>, 2026.</span>
+          <a href="https://arxiv.org/pdf/2601.15249">[Paper]</a>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="academic-section">
+      <h2>Awards and Honors</h2>
+      <ul class="awards-list">
+        <li><span class="award-year">2026</span> Two Sigma's PhD Fellowship Finalist</li>
+        <li><span class="award-year">2025</span> Lawrence D. Brown Best Paper Award, The Wharton School, University of Pennsylvania</li>
+        <li><span class="award-year">2025</span> Discussion Paper, <em>Journal of the American Statistical Association</em></li>
+        <li><span class="award-year">2025</span> ICSA NSF Travel Award, ICSA Applied Statistics Symposium</li>
+        <li><span class="award-year">2024</span> Student Best Paper Award, Statistical Learning and Data Science Section, ASA</li>
+        <li><span class="award-year">2020</span> Dean's List Scholar, University of Toronto</li>
+      </ul>
+    </section>
+
+    <!-- Invited Talks Section -->
+    <section id="talks" class="academic-section">
+      <h2>Invited Talks</h2>
+      <ul class="talks-list">
+        <li>
+          <span class="talk-date">2026.01</span>
+          <strong>The Three-Year ICML Ranking Experiment: Using Authors' Self-Rankings to Improve Peer Review</strong><br>
+          <span class="talk-venue">Two Sigma's PhD Fellowship Finalist Reception 2026</span>
+        </li>
+        <li>
+          <span class="talk-date">2025.10</span>
+          <strong>The 2020 U.S. Decennial Census Is More Private Than You Think</strong><br>
+          <span class="talk-venue">Lawrence Brown Student Workshop 2025</span>
+        </li>
+        <li>
+          <span class="talk-date">2025.06</span>
+          <strong>The 2020 U.S. Decennial Census Is More Private Than You Think</strong><br>
+          <span class="talk-venue">ICSA Applied Statistics Symposium 2025</span>
+        </li>
+        <li>
+          <span class="talk-date">2024.08</span>
+          <strong>The Exact Risks of Reference Panel-Based Regularized Estimators</strong><br>
+          <span class="talk-venue">Joint Statistical Meetings (JSM) 2024</span>
+        </li>
+        <li>
+          <span class="talk-date">2023.11</span>
+          <strong>The ICML 2023 Experiment: Can Authors' Opinions on Their Own Submissions Assist Peer Review?</strong><br>
+          <span class="talk-venue">Warren Center Lightning Talks, University of Pennsylvania</span>
+        </li>
+        <li>
+          <span class="talk-date">2023.07</span>
+          <strong>The Exact Risks of Reference Panel-Based Regularized Estimators</strong><br>
+          <span class="talk-venue">International Chinese Statistical Association (ICSA) 2023</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Service Section -->
+    <section id="service" class="academic-section">
+      <h2>Professional Service</h2>
+      <ul class="service-list">
+        <li><span class="service-year">2026</span> <strong>Associate Chair</strong>, International Conference on Machine Learning (ICML 2026)</li>
+        <li><span class="service-year">2025</span> <strong>Journal Reviewer</strong>, <em>Journal of Machine Learning Research</em></li>
+        <li><span class="service-year">2025</span> <strong>Session Chair</strong>, Joint Statistical Meeting — "Large Language Models in Biomedical and Statistical Knowledge Discovery"</li>
+      </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="academic-section">
+      <h2>Education</h2>
+      <ul class="education-list">
+        <li>
+          <strong>Ph.D. in Applied Mathematics and Computational Science</strong>, University of Pennsylvania <span class="edu-year">2023 – 2028 (expected)</span><br>
+          <span class="edu-detail">Advisors: Bingxin Zhao and Weijie Su</span>
+        </li>
+        <li>
+          <strong>M.S. in Pure Mathematics</strong>, University of Pennsylvania <span class="edu-year">2021 – 2023</span><br>
+          <span class="edu-detail">Advisors: Bingxin Zhao and Robin Pemantle</span><br>
+          <span class="edu-detail">Thesis: <em>The exact risks of reference panel-based regularized estimators</em></span>
+        </li>
+        <li>
+          <strong>B.S. in Pure Mathematics &amp; Applied Mathematics</strong>, University of Toronto <span class="edu-year">2017 – 2021</span><br>
+          <span class="edu-detail">Graduated with High Distinction</span>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+</div>
+
+{% include footer.html %}
