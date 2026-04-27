@@ -1,15 +1,27 @@
 # main text of home
 name: Susheel Varma
 title: Susheel Varma
-bio: Executive Director of Possibilities
+bio: Chief Data Officer at Sage Bionetworks
 
 # twitter summary info
-description: A Possibilist
+description: Chief Data Officer at Sage Bionetworks, leading science and data infrastructure for biomedical research across cancer, neurodegeneration, rare disease, and digital health.
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
+og_image: assets/images/profile.jpg
+
+# structured data for jekyll-seo-tag (Person schema via social links)
+social:
+  name: Susheel Varma
+  links:
+    - https://www.linkedin.com/in/susheelvarma/
+    - https://twitter.com/susheelvarma
+    - https://github.com/susheel
+    - https://bsky.app/profile/susheelvarma.com
+    - https://orcid.org/0000-0003-1687-2754
+    - https://www.wikidata.org/wiki/Q60408221
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -40,10 +52,12 @@ twitter: susheelvarma
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: susheelvarma
+bluesky: susheelvarma.com
 # youtube: myyoutube
 # spotify: myspotify
 github: susheel
 gitlab: susheel
+orcid: "0000-0003-1687-2754"
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -60,7 +74,7 @@ email: "%73%75%73%68%65%65%6c%2e%76%61%72%6d%61%40%67%6d%61%69%6c%2e%63%6f%6d"
 authors:
   susheel:
     name: Susheel Varma
-    bio: A Possibilist
+    bio: Chief Data Officer at Sage Bionetworks
     external-image: false
     picture: assets/images/profile.jpg
     twitter: susheelvarma
@@ -109,6 +123,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
+  - jekyll-sitemap
   - jemoji
 
 compress_html:
