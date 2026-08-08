@@ -1,14 +1,130 @@
----
-layout: default
-permalink: /404.html 
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Number Theory</title>
+    
+    <!-- This script loads MathJax so you can write LaTeX directly in your HTML! -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<section class="lost-container">
-  <h1>Uh oh!</h1>
-  <div class="link">
-    <img class="selfie" alt="{{ site.title }}" src="{{ site.url }}/assets/images/error.gif" />
-  </div>
-  <br />
-  <br />
-  <a href="/">Take me home!</a>
-</section>
+    <style>
+        /* THE AESTHETIC: reMarkable + Wikipedia + Zen */
+        body {
+            /* Elegant, book-like serif fonts */
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; 
+            
+            /* reMarkable e-ink colors: off-white background, soft charcoal text */
+            background-color: #f4f4f0; 
+            color: #1a1a1a; 
+            
+            /* Minimalist spacing (June Huh style) */
+            line-height: 1.7;
+            max-width: 750px; /* Keeps lines from getting too long */
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        /* Wikipedia-style headers */
+        h1, h2, h3 {
+            font-weight: normal; /* Removes aggressive boldness */
+            border-bottom: 1px solid #dcdcdc; /* Subtle structural line */
+            padding-bottom: 8px;
+            margin-top: 2.5em;
+        }
+        
+        h1 {
+            border-bottom: 2px solid #1a1a1a;
+            margin-top: 0;
+        }
+
+        /* Clean, non-distracting links */
+        a {
+            color: #333;
+            text-decoration: underline;
+            text-decoration-style: dotted; /* Subtle link styling */
+            text-underline-offset: 4px;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #000;
+            text-decoration-style: solid;
+        }
+
+        /* Simple navigation menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 25px;
+            margin-bottom: 40px;
+            font-size: 0.95em;
+        }
+        
+        /* Math/Quote blocks */
+        blockquote {
+            border-left: 2px solid #a0a0a0;
+            margin-left: 0;
+            padding-left: 20px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="CV.pdf" target="_blank">CV</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN HEADER -->
+    <h1>Your Name</h1>
+    <p>PhD Student in Mathematics at [Your University].</p>
+
+    <!-- SECTIONS -->
+    <h2 id="about">About</h2>
+    <p>
+        I am currently pursuing a PhD in Mathematics, advised by [Advisor Name]. 
+        Before this, I completed my undergraduate studies at [Previous University].
+    </p>
+
+    <h2 id="research">Research</h2>
+    <p>
+        My research focuses on algebraic number theory and arithmetic geometry. 
+        I am particularly interested in [Specific Topic]. 
+    </p>
+    
+    <!-- Example of LaTeX integration -->
+    <p>
+        Because this site uses MathJax, you can seamlessly write LaTeX. For example, 
+        the Riemann zeta function is defined as:
+    </p>
+    <blockquote>
+        $$ \zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} $$
+    </blockquote>
+    <p>
+        And inline math like $e^{i\pi} + 1 = 0$ works perfectly, just as it does in your papers.
+    </p>
+
+    <h2 id="teaching">Teaching</h2>
+    <ul>
+        <li><strong>Fall 2026:</strong> Teaching Assistant for Math 101 (Calculus I)</li>
+        <li><strong>Spring 2026:</strong> Grader for Math 305 (Abstract Algebra)</li>
+    </ul>
+
+    <h2 id="contact">Contact</h2>
+    <p>
+        Email: username [at] math.university.edu <br>
+        Office: [Building Name], Room [Number]
+    </p>
+
+</body>
+</html>
