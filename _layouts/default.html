@@ -32,6 +32,9 @@ layout: compress
 
 </head>
 <body>
+    {% if page.title == "Home" %}
+        <canvas class="network-background" data-network-background aria-hidden="true"></canvas>
+    {% endif %}
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.layout == "post" %}
             <div class="post">
